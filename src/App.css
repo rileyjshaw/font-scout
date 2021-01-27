@@ -1,38 +1,198 @@
-.App {
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #faf9f7;
+  color: #0a0b08;
+  font: 400 22px Wotfard;
+  margin: 0;
+}
+
+.global-settings {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 1em 1em 3em;
+}
+
+.global-settings > * {
+  margin: 0 1em;
+  visibility: hidden;
+}
+
+.global-settings > .config-mode-toggle + label,
+.show-global-settings > * {
+  visibility: visible;
+}
+
+input[type="number"] {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 4px;
+  font-size: inherit;
+  margin-left: 12px;
+  padding: 2px 8px;
+  min-height: 41px;
+  color: hsl(0, 0%, 20%);
+  width: 3em;
+}
+
+input.global-font-weight-input {
+  width: 4em;
+}
+
+.preview-text-input {
+  flex-grow: 1;
+  font: inherit;
+  padding: 0.2em 0.4em;
+  resize: none;
+}
+
+.alignment-options {
+  border: 0;
+  display: flex;
+}
+
+.font-containers {
+  display: grid;
+  justify-content: space-around;
+  column-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(720px, max-content));
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.font-container {
+  padding: 20px;
+  position: relative;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.font-settings {
+  align-items: center;
   display: flex;
-  flex-direction: column;
+  margin: auto;
+  max-width: 720px;
+}
+
+.select-font-variant {
+  flex-grow: 1;
+  margin-left: 12px;
+}
+
+.font-hover-settings {
+  position: absolute;
+  top: 11;
+  right: 0;
+}
+
+.font-preview {
+  border-radius: 12px;
+  display: inline-block;
+  line-height: 1.7;
+  max-width: 100%;
+  overflow: auto;
+  padding: 48px 24px;
+  white-space: pre-wrap;
+}
+
+.font-preview.marked {
+  background: rgba(46, 204, 64, 0.2);
+}
+
+.start-comparison-button {
+  background: #2ecc40;
+  border-radius: 100px;
+  border: 3px solid #26a534;
+  bottom: 36px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
+    0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  font-weight: 600;
+  left: 50%;
+  padding: 0.7em 1.2em;
+  position: fixed;
+  transform: translateX(-50%);
+}
+
+.start-comparison-button-visible {
+  padding-bottom: 300px;
+}
+
+.comparison-mode {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex-direction: column;
 }
 
-.App-link {
-  color: #61dafb;
+.comparison-mode-font-name {
+  position: absolute;
+  bottom: 36px;
+  padding: 0.7em;
+  opacity: 0.3;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+[type="checkbox"] {
+  left: -9999px;
+  position: absolute;
+}
+
+[type="checkbox"] + label {
+  cursor: pointer;
+  padding-left: 28px;
+  position: relative;
+  top: -11px;
+}
+
+[type="checkbox"] + label:before {
+  background: #fff;
+  border-radius: 100%;
+  border: 2px solid;
+  content: "";
+  height: 18px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 18px;
+}
+
+[type="checkbox"]:checked + label:after {
+  border-radius: 100%;
+  content: "";
+  height: 14px;
+  left: 4px;
+  position: absolute;
+  top: 4px;
+  width: 14px;
+}
+
+.config-mode-toggle + label:before {
+  border-color: #ffdc00;
+}
+
+.config-mode-toggle + label:after {
+  background: #ffdc00;
+}
+
+.show-font-toggle + label:before {
+  border-color: #ff4136;
+}
+
+.show-font-toggle + label:after {
+  background: #ff4136;
+}
+
+.marked-font-toggle + label:before {
+  border-color: #2ecc40;
+}
+
+.marked-font-toggle + label:after {
+  background: #2ecc40;
 }

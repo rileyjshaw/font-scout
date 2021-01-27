@@ -21,3 +21,8 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+.eslintcache
+
+# be kind and buy these from atipo foundary
+public/fonts/*
+!public/fonts/*.css
