@@ -46,7 +46,7 @@ const stretchOrder = [
 const defaultFonts = [
   {
     name: "Archia",
-    weights: ["REGULAR", "THIN", "LIGHT", "MEDIUM", "SEMI_BOLD", "BOLD"],
+    weights: ["THIN", "LIGHT", "REGULAR", "MEDIUM", "SEMI_BOLD", "BOLD"],
     italics: false,
   },
   {
@@ -66,12 +66,12 @@ const defaultFonts = [
   },
   {
     name: "Bariol",
-    weights: ["REGULAR", "THIN", "LIGHT", "BOLD"],
+    weights: ["THIN", "LIGHT", "REGULAR", "BOLD"],
     italics: true,
   },
   {
     name: "Bariol Serif",
-    weights: ["REGULAR", "THIN", "LIGHT", "BOLD"],
+    weights: ["THIN", "LIGHT", "REGULAR", "BOLD"],
     italics: true,
   },
   {
@@ -97,10 +97,10 @@ const defaultFonts = [
   {
     name: "Bould",
     weights: [
-      "REGULAR",
       "THIN",
       "EXTRA_LIGHT",
       "LIGHT",
+      "REGULAR",
       "MEDIUM",
       "SEMI_BOLD",
       "BOLD",
@@ -114,7 +114,7 @@ const defaultFonts = [
   },
   {
     name: "Cassannet Plus",
-    weights: ["REGULAR", "THIN", "LIGHT", "BOLD", "BLACK", "ULTRA_BLACK"],
+    weights: ["THIN", "LIGHT", "REGULAR", "BOLD", "BLACK", "ULTRA_BLACK"],
     italics: false,
   },
   {
@@ -134,11 +134,11 @@ const defaultFonts = [
   {
     name: "Geomanist",
     weights: [
+      "THIN",
+      "EXTRA_LIGHT",
+      "LIGHT",
       "REGULAR",
       "BOOK",
-      "EXTRA_LIGHT",
-      "THIN",
-      "LIGHT",
       "MEDIUM",
       "BOLD",
       "BLACK",
@@ -149,10 +149,10 @@ const defaultFonts = [
   {
     name: "Knile",
     weights: [
-      "REGULAR",
       "THIN",
       "EXTRA_LIGHT",
       "LIGHT",
+      "REGULAR",
       "MEDIUM",
       "SEMI_BOLD",
       "BOLD",
@@ -167,12 +167,12 @@ const defaultFonts = [
   },
   {
     name: "Noway",
-    weights: ["REGULAR", "THIN", "LIGHT", "MEDIUM", "BOLD"],
+    weights: ["THIN", "LIGHT", "REGULAR", "MEDIUM", "BOLD"],
     italics: true,
   },
   {
     name: "Noway Round",
-    weights: ["REGULAR", "THIN", "LIGHT", "MEDIUM", "BOLD"],
+    weights: ["THIN", "LIGHT", "REGULAR", "MEDIUM", "BOLD"],
     italics: true,
   },
   {
@@ -247,10 +247,10 @@ const defaultFonts = [
   {
     name: "Silka Mono",
     weights: [
-      "REGULAR",
       "THIN",
       "EXTRA_LIGHT",
       "LIGHT",
+      "REGULAR",
       "MEDIUM",
       "SEMI_BOLD",
       "BOLD",
@@ -261,10 +261,10 @@ const defaultFonts = [
   {
     name: "Wotfard",
     weights: [
-      "REGULAR",
       "THIN",
       "EXTRA_LIGHT",
       "LIGHT",
+      "REGULAR",
       "MEDIUM",
       "SEMI_BOLD",
       "BOLD",
