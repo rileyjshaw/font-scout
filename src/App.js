@@ -201,12 +201,42 @@ const defaultFonts = [
     italics: true,
   },
   {
+    name: "Sawton Bauhaus",
+    weights: ["THIN", "LIGHT", "REGULAR", "MEDIUM", "BOLD"],
+    italics: false,
+  },
+  {
+    name: "Sawton Circular",
+    weights: ["THIN", "LIGHT", "REGULAR", "MEDIUM", "BOLD"],
+    italics: false,
+  },
+  {
+    name: "Sawton Industrial",
+    weights: ["THIN", "LIGHT", "REGULAR", "MEDIUM", "BOLD"],
+    italics: false,
+  },
+  {
+    name: "Scilla",
+    weights: ["REGULAR"],
+    italics: true,
+    stretches: {
+      REGULAR: {
+        values: ["condensed"],
+        italics: true,
+      },
+    },
+    aliases: {
+      condensed: "narrow",
+      "italic condensed": "italic narrow",
+    },
+  },
+  {
     name: "Silka",
     weights: [
-      "REGULAR",
       "THIN",
       "EXTRA_LIGHT",
       "LIGHT",
+      "REGULAR",
       "MEDIUM",
       "SEMI_BOLD",
       "BOLD",
@@ -263,15 +293,30 @@ const defaultFonts = [
     })),
     ...(font.stretches
       ? Object.entries(font.stretches).flatMap(
-          ([weight, { values, italics }]) =>
-            values.map((stretch) => ({
+          ([weight, { values, italics }]) => {
+            const variants = values.map((stretch) => ({
               weight: weights[weight].value,
-              name: [weights[weight].name, italics ? "italic" : "", stretch]
-                .filter((x) => x)
-                .join(" "),
-              style: italics ? "italic" : "normal", // TODO: Handle more complex italic / stretch combos if it ever comes up.
+              name: [weights[weight].name, stretch].filter((x) => x).join(" "),
+              style: "normal",
               stretch,
-            }))
+            }));
+            return italics
+              ? [
+                  ...variants,
+                  ...variants.map((variant) => ({
+                    ...variant,
+                    name: [
+                      weights[weight].name,
+                      italics ? "italic" : "",
+                      variant.stretch,
+                    ]
+                      .filter((x) => x)
+                      .join(" "),
+                    style: "italic",
+                  })),
+                ]
+              : variants;
+          }
         )
       : []),
   ]
@@ -296,7 +341,9 @@ defaultFonts.forEach(
   (font) =>
     (font.activeVariant = font.variants.findIndex(
       (variant) =>
-        variant.weight === weights.REGULAR.value && variant.style === "normal"
+        variant.weight === weights.REGULAR.value &&
+        variant.style === "normal" &&
+        variant.stretch === "normal"
     ))
 );
 
