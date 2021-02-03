@@ -471,9 +471,14 @@ function FontContainer({
           fontStretch: font.variants[font.activeVariant].stretch,
         }}
         title={font.variants[font.activeVariant].name}
-      >
-        {font.show && previewContent}
-      </pre>
+        {...(font.show
+          ? {
+              dangerouslySetInnerHTML: {
+                __html: previewContent,
+              },
+            }
+          : {})}
+      />
     </li>
   );
 }

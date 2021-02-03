@@ -2130,7 +2130,7 @@ font-face {
        url('scillanarrow-regular-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
-  font-stretch: normal;
+  font-stretch: condensed;
 }
 
 @font-face {
@@ -2154,7 +2154,7 @@ font-face {
        url('scilla-regular-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
-  font-stretch: condensed;
+  font-stretch: normal;
 }
 
 @font-face {
