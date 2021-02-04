@@ -3,125 +3,94 @@ import Select from "react-select";
 import useHover from "@react-hook/hover";
 import useKeypress from "react-use-keypress";
 
+import {
+  THIN,
+  EXTRA_LIGHT,
+  LIGHT,
+  REGULAR,
+  BOOK,
+  MEDIUM,
+  SEMI_BOLD,
+  BOLD,
+  BLACK,
+  ULTRA_BLACK,
+  WEIGHTS,
+  STRETCH_ORDER,
+} from "./constants";
+
 import "./App.css";
-
-const weights = Object.entries({
-  THIN: 100,
-  EXTRA_LIGHT: 200,
-  LIGHT: 300,
-  REGULAR: 400,
-  BOOK: 450,
-  MEDIUM: 500,
-  SEMI_BOLD: 600,
-  BOLD: 700,
-  ULTRA_BOLD: 800,
-  BLACK: 900,
-  ULTRA_BLACK: 950,
-}).reduce(
-  (acc, [curKey, curVal]) => ({
-    ...acc,
-    [curKey]: {
-      value: curVal,
-      name:
-        curKey === "REGULAR"
-          ? ""
-          : `${curKey[0]}${curKey.slice(1).replace("_", " ")}`.toLowerCase(),
-    },
-  }),
-  {}
-);
-
-const stretchOrder = [
-  "ultra-condensed",
-  "extra-condensed",
-  "condensed",
-  "semi-condensed",
-  "normal",
-  "semi-expanded",
-  "expanded",
-  "extra-expanded",
-  "ultra-expanded",
-];
 
 const defaultFonts = [
   {
     name: "Archia",
-    weights: ["THIN", "LIGHT", "REGULAR", "MEDIUM", "SEMI_BOLD", "BOLD"],
+    weights: [THIN, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
     italics: false,
   },
   {
     name: "Argesta Display",
-    weights: ["REGULAR"],
+    weights: [REGULAR],
     italics: true,
   },
   {
     name: "Argesta Hairline",
-    weights: ["REGULAR"],
+    weights: [REGULAR],
     italics: true,
   },
   {
     name: "Argesta Headline",
-    weights: ["REGULAR"],
+    weights: [REGULAR],
     italics: true,
   },
   {
     name: "Bariol",
-    weights: ["THIN", "LIGHT", "REGULAR", "BOLD"],
+    weights: [THIN, LIGHT, REGULAR, BOLD],
     italics: true,
   },
   {
     name: "Bariol Serif",
-    weights: ["THIN", "LIGHT", "REGULAR", "BOLD"],
+    weights: [THIN, LIGHT, REGULAR, BOLD],
     italics: true,
   },
   {
     name: "Basier Circle",
-    weights: ["REGULAR", "MEDIUM", "SEMI_BOLD", "BOLD"],
+    weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
     italics: true,
   },
   {
     name: "Basier Circle Mono",
-    weights: ["REGULAR", "MEDIUM", "SEMI_BOLD", "BOLD"],
+    weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
     italics: true,
   },
   {
     name: "Basier Square",
-    weights: ["REGULAR", "MEDIUM", "SEMI_BOLD", "BOLD"],
+    weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
     italics: true,
   },
   {
     name: "Basier Square Mono",
-    weights: ["REGULAR", "MEDIUM", "SEMI_BOLD", "BOLD"],
+    weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
     italics: true,
   },
   {
     name: "Bould",
-    weights: [
-      "THIN",
-      "EXTRA_LIGHT",
-      "LIGHT",
-      "REGULAR",
-      "MEDIUM",
-      "SEMI_BOLD",
-      "BOLD",
-    ],
+    weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
     italics: true,
   },
   {
     name: "Calendas Plus",
-    weights: ["REGULAR", "BOLD"],
-    italics: ["REGULAR"],
+    weights: [REGULAR, BOLD],
+    italics: [REGULAR],
   },
   {
     name: "Cassannet Plus",
-    weights: ["THIN", "LIGHT", "REGULAR", "BOLD", "BLACK", "ULTRA_BLACK"],
+    weights: [THIN, LIGHT, REGULAR, BOLD, BLACK, ULTRA_BLACK],
     italics: false,
   },
   {
     name: "Chaney",
-    weights: ["REGULAR"],
+    weights: [REGULAR],
     stretches: {
-      REGULAR: {
+      [REGULAR]: {
         values: ["semi-expanded", "expanded", "ultra-expanded"],
         italics: false,
       },
@@ -134,93 +103,93 @@ const defaultFonts = [
   {
     name: "Geomanist",
     weights: [
-      "THIN",
-      "EXTRA_LIGHT",
-      "LIGHT",
-      "REGULAR",
-      "BOOK",
-      "MEDIUM",
-      "BOLD",
-      "BLACK",
-      "ULTRA_BLACK",
+      THIN,
+      EXTRA_LIGHT,
+      LIGHT,
+      REGULAR,
+      BOOK,
+      MEDIUM,
+      BOLD,
+      BLACK,
+      ULTRA_BLACK,
     ],
     italics: true,
   },
   {
     name: "Knile",
     weights: [
-      "THIN",
-      "EXTRA_LIGHT",
-      "LIGHT",
-      "REGULAR",
-      "MEDIUM",
-      "SEMI_BOLD",
-      "BOLD",
-      "BLACK",
+      THIN,
+      EXTRA_LIGHT,
+      LIGHT,
+      REGULAR,
+      MEDIUM,
+      SEMI_BOLD,
+      BOLD,
+      BLACK,
     ],
     italics: true,
   },
   {
     name: "MUSETTA",
-    weights: ["REGULAR"],
+    weights: [REGULAR],
     italics: false,
   },
   {
     name: "Noway",
-    weights: ["THIN", "LIGHT", "REGULAR", "MEDIUM", "BOLD"],
+    weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
     italics: true,
   },
   {
     name: "Noway Round",
-    weights: ["THIN", "LIGHT", "REGULAR", "MEDIUM", "BOLD"],
+    weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
     italics: true,
   },
   {
     name: "PARKING",
-    weights: ["REGULAR"],
+    weights: [REGULAR],
     italics: false,
   },
   {
     name: "Salome",
-    weights: ["REGULAR"],
+    weights: [REGULAR],
     italics: true,
   },
   {
     name: "Salome Deco",
-    weights: ["REGULAR"],
+    weights: [REGULAR],
     italics: false,
   },
   {
     name: "Salome Fine",
-    weights: ["REGULAR"],
+    weights: [REGULAR],
     italics: true,
   },
   {
     name: "Salome Stencil",
-    weights: ["REGULAR"],
+    weights: [REGULAR],
     italics: true,
   },
   {
     name: "Sawton Bauhaus",
-    weights: ["THIN", "LIGHT", "REGULAR", "MEDIUM", "BOLD"],
+    weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
     italics: false,
   },
   {
     name: "Sawton Circular",
-    weights: ["THIN", "LIGHT", "REGULAR", "MEDIUM", "BOLD"],
+    weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
     italics: false,
   },
   {
     name: "Sawton Industrial",
-    weights: ["THIN", "LIGHT", "REGULAR", "MEDIUM", "BOLD"],
+    weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
     italics: false,
   },
   {
     name: "Scilla",
-    weights: ["REGULAR"],
+    weights: [REGULAR],
     italics: true,
     stretches: {
-      REGULAR: {
+      [REGULAR]: {
         values: ["condensed"],
         italics: true,
       },
@@ -233,50 +202,42 @@ const defaultFonts = [
   {
     name: "Silka",
     weights: [
-      "THIN",
-      "EXTRA_LIGHT",
-      "LIGHT",
-      "REGULAR",
-      "MEDIUM",
-      "SEMI_BOLD",
-      "BOLD",
-      "BLACK",
+      THIN,
+      EXTRA_LIGHT,
+      LIGHT,
+      REGULAR,
+      MEDIUM,
+      SEMI_BOLD,
+      BOLD,
+      BLACK,
     ],
     italics: true,
   },
   {
     name: "Silka Mono",
     weights: [
-      "THIN",
-      "EXTRA_LIGHT",
-      "LIGHT",
-      "REGULAR",
-      "MEDIUM",
-      "SEMI_BOLD",
-      "BOLD",
-      "BLACK",
+      THIN,
+      EXTRA_LIGHT,
+      LIGHT,
+      REGULAR,
+      MEDIUM,
+      SEMI_BOLD,
+      BOLD,
+      BLACK,
     ],
     italics: true,
   },
   {
     name: "Wotfard",
-    weights: [
-      "THIN",
-      "EXTRA_LIGHT",
-      "LIGHT",
-      "REGULAR",
-      "MEDIUM",
-      "SEMI_BOLD",
-      "BOLD",
-    ],
+    weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
     italics: true,
   },
 ].map((font) => ({
   name: font.name,
   variants: [
-    ...font.weights.map((weight, i) => ({
-      weight: weights[weight].value,
-      name: weights[weight].name,
+    ...font.weights.map((weight) => ({
+      weight: WEIGHTS[weight].value,
+      name: WEIGHTS[weight].name,
       style: "normal",
       stretch: "normal",
     })),
@@ -286,38 +247,37 @@ const defaultFonts = [
         : []
       : font.italics
     ).map((weight) => ({
-      weight: weights[weight].value,
-      name: [weights[weight].name, "italic"].filter((x) => x).join(" "),
+      weight: WEIGHTS[weight].value,
+      name: [WEIGHTS[weight].name, "italic"].filter((x) => x).join(" "),
       style: "italic",
       stretch: "normal",
     })),
     ...(font.stretches
-      ? Object.entries(font.stretches).flatMap(
-          ([weight, { values, italics }]) => {
-            const variants = values.map((stretch) => ({
-              weight: weights[weight].value,
-              name: [weights[weight].name, stretch].filter((x) => x).join(" "),
-              style: "normal",
-              stretch,
-            }));
-            return italics
-              ? [
-                  ...variants,
-                  ...variants.map((variant) => ({
-                    ...variant,
-                    name: [
-                      weights[weight].name,
-                      italics ? "italic" : "",
-                      variant.stretch,
-                    ]
-                      .filter((x) => x)
-                      .join(" "),
-                    style: "italic",
-                  })),
-                ]
-              : variants;
-          }
-        )
+      ? Reflect.ownKeys(font.stretches).flatMap((weight) => {
+          const { values, italics } = font.stretches[weight];
+          const variants = values.map((stretch) => ({
+            weight: WEIGHTS[weight].value,
+            name: [WEIGHTS[weight].name, stretch].filter((x) => x).join(" "),
+            style: "normal",
+            stretch,
+          }));
+          return italics
+            ? [
+                ...variants,
+                ...variants.map((variant) => ({
+                  ...variant,
+                  name: [
+                    WEIGHTS[weight].name,
+                    italics ? "italic" : "",
+                    variant.stretch,
+                  ]
+                    .filter((x) => x)
+                    .join(" "),
+                  style: "italic",
+                })),
+              ]
+            : variants;
+        })
       : []),
   ]
     .map((variant) => ({
@@ -331,7 +291,7 @@ const defaultFonts = [
         a.weight -
         b.weight +
         ((a.style === "italic") - (b.style === "italic")) * 10 +
-        (stretchOrder.indexOf(a.stretch) - stretchOrder.indexOf(b.stretch))
+        (STRETCH_ORDER.indexOf(a.stretch) - STRETCH_ORDER.indexOf(b.stretch))
     ),
   show: true,
   marked: false,
@@ -341,7 +301,7 @@ defaultFonts.forEach(
   (font) =>
     (font.activeVariant = font.variants.findIndex(
       (variant) =>
-        variant.weight === weights.REGULAR.value &&
+        variant.weight === WEIGHTS[REGULAR].value &&
         variant.style === "normal" &&
         variant.stretch === "normal"
     ))
@@ -486,7 +446,7 @@ function FontContainer({
 function App() {
   const [fonts, setFonts] = useState(defaultFonts);
   const [previewContent, setPreviewContent] = useState(
-    "The thundering machines sputtered…\n\n…and stopped."
+    "The thundering machines sputtered…\n…and stopped."
   );
   const [fontSize, setFontSize] = useState(22);
   const [fontWeight, setFontWeight] = useState(400);
