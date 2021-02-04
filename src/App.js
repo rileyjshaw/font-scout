@@ -1,310 +1,109 @@
 import { useRef, useState } from "react";
+
+import { Helmet } from "react-helmet";
 import Select from "react-select";
 import useHover from "@react-hook/hover";
 import useKeypress from "react-use-keypress";
 
 import {
-  THIN,
-  EXTRA_LIGHT,
-  LIGHT,
   REGULAR,
-  BOOK,
-  MEDIUM,
-  SEMI_BOLD,
-  BOLD,
-  BLACK,
-  ULTRA_BLACK,
   WEIGHTS,
   STRETCH_ORDER,
+  COLLECTION_NAMES,
+  LOCAL_FONTS_COLLECTION,
 } from "./constants";
+import googleFonts from "./googleFonts.js";
+import localFonts from "./localFonts.js";
 
 import "./App.css";
 
-const defaultFonts = [
-  {
-    name: "Archia",
-    weights: [THIN, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-    italics: false,
-  },
-  {
-    name: "Argesta Display",
-    weights: [REGULAR],
-    italics: true,
-  },
-  {
-    name: "Argesta Hairline",
-    weights: [REGULAR],
-    italics: true,
-  },
-  {
-    name: "Argesta Headline",
-    weights: [REGULAR],
-    italics: true,
-  },
-  {
-    name: "Bariol",
-    weights: [THIN, LIGHT, REGULAR, BOLD],
-    italics: true,
-  },
-  {
-    name: "Bariol Serif",
-    weights: [THIN, LIGHT, REGULAR, BOLD],
-    italics: true,
-  },
-  {
-    name: "Basier Circle",
-    weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-    italics: true,
-  },
-  {
-    name: "Basier Circle Mono",
-    weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-    italics: true,
-  },
-  {
-    name: "Basier Square",
-    weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-    italics: true,
-  },
-  {
-    name: "Basier Square Mono",
-    weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-    italics: true,
-  },
-  {
-    name: "Bould",
-    weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-    italics: true,
-  },
-  {
-    name: "Calendas Plus",
-    weights: [REGULAR, BOLD],
-    italics: [REGULAR],
-  },
-  {
-    name: "Cassannet Plus",
-    weights: [THIN, LIGHT, REGULAR, BOLD, BLACK, ULTRA_BLACK],
-    italics: false,
-  },
-  {
-    name: "Chaney",
-    weights: [REGULAR],
-    stretches: {
-      [REGULAR]: {
-        values: ["semi-expanded", "expanded", "ultra-expanded"],
-        italics: false,
-      },
-    },
-    italics: false,
-    aliases: {
-      "semi-expanded": "wide",
-    },
-  },
-  {
-    name: "Geomanist",
-    weights: [
-      THIN,
-      EXTRA_LIGHT,
-      LIGHT,
-      REGULAR,
-      BOOK,
-      MEDIUM,
-      BOLD,
-      BLACK,
-      ULTRA_BLACK,
-    ],
-    italics: true,
-  },
-  {
-    name: "Knile",
-    weights: [
-      THIN,
-      EXTRA_LIGHT,
-      LIGHT,
-      REGULAR,
-      MEDIUM,
-      SEMI_BOLD,
-      BOLD,
-      BLACK,
-    ],
-    italics: true,
-  },
-  {
-    name: "MUSETTA",
-    weights: [REGULAR],
-    italics: false,
-  },
-  {
-    name: "Noway",
-    weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
-    italics: true,
-  },
-  {
-    name: "Noway Round",
-    weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
-    italics: true,
-  },
-  {
-    name: "PARKING",
-    weights: [REGULAR],
-    italics: false,
-  },
-  {
-    name: "Salome",
-    weights: [REGULAR],
-    italics: true,
-  },
-  {
-    name: "Salome Deco",
-    weights: [REGULAR],
-    italics: false,
-  },
-  {
-    name: "Salome Fine",
-    weights: [REGULAR],
-    italics: true,
-  },
-  {
-    name: "Salome Stencil",
-    weights: [REGULAR],
-    italics: true,
-  },
-  {
-    name: "Sawton Bauhaus",
-    weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
-    italics: false,
-  },
-  {
-    name: "Sawton Circular",
-    weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
-    italics: false,
-  },
-  {
-    name: "Sawton Industrial",
-    weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
-    italics: false,
-  },
-  {
-    name: "Scilla",
-    weights: [REGULAR],
-    italics: true,
-    stretches: {
-      [REGULAR]: {
-        values: ["condensed"],
-        italics: true,
-      },
-    },
-    aliases: {
-      condensed: "narrow",
-      "italic condensed": "italic narrow",
-    },
-  },
-  {
-    name: "Silka",
-    weights: [
-      THIN,
-      EXTRA_LIGHT,
-      LIGHT,
-      REGULAR,
-      MEDIUM,
-      SEMI_BOLD,
-      BOLD,
-      BLACK,
-    ],
-    italics: true,
-  },
-  {
-    name: "Silka Mono",
-    weights: [
-      THIN,
-      EXTRA_LIGHT,
-      LIGHT,
-      REGULAR,
-      MEDIUM,
-      SEMI_BOLD,
-      BOLD,
-      BLACK,
-    ],
-    italics: true,
-  },
-  {
-    name: "Wotfard",
-    weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-    italics: true,
-  },
-].map((font) => ({
-  name: font.name,
-  variants: [
-    ...font.weights.map((weight) => ({
-      weight: WEIGHTS[weight].value,
-      name: WEIGHTS[weight].name,
-      style: "normal",
-      stretch: "normal",
-    })),
-    ...(typeof font.italics === "boolean"
-      ? font.italics
-        ? font.weights
-        : []
-      : font.italics
-    ).map((weight) => ({
-      weight: WEIGHTS[weight].value,
-      name: [WEIGHTS[weight].name, "italic"].filter((x) => x).join(" "),
-      style: "italic",
-      stretch: "normal",
-    })),
-    ...(font.stretches
-      ? Reflect.ownKeys(font.stretches).flatMap((weight) => {
-          const { values, italics } = font.stretches[weight];
-          const variants = values.map((stretch) => ({
-            weight: WEIGHTS[weight].value,
-            name: [WEIGHTS[weight].name, stretch].filter((x) => x).join(" "),
-            style: "normal",
-            stretch,
-          }));
-          return italics
-            ? [
-                ...variants,
-                ...variants.map((variant) => ({
-                  ...variant,
-                  name: [
-                    WEIGHTS[weight].name,
-                    italics ? "italic" : "",
-                    variant.stretch,
-                  ]
-                    .filter((x) => x)
-                    .join(" "),
-                  style: "italic",
-                })),
-              ]
-            : variants;
-        })
-      : []),
-  ]
-    .map((variant) => ({
-      ...variant,
-      name: [font.name, font.aliases?.[variant.name] ?? variant.name]
-        .filter((x) => x)
-        .join(" "),
-    }))
-    .sort(
-      (a, b) =>
-        a.weight -
-        b.weight +
-        ((a.style === "italic") - (b.style === "italic")) * 10 +
-        (STRETCH_ORDER.indexOf(a.stretch) - STRETCH_ORDER.indexOf(b.stretch))
-    ),
-  show: true,
-  marked: false,
-  sizeOffset: 0,
-}));
-defaultFonts.forEach(
+const allFonts = [...googleFonts, ...localFonts]
+  .map((font) => ({
+    name: font.name,
+    href: font.href,
+    variants: [
+      ...font.weights.map((weight) => ({
+        weight: WEIGHTS[weight].value,
+        name: WEIGHTS[weight].name,
+        style: "normal",
+        stretch: "normal",
+      })),
+      ...(typeof font.italics === "boolean"
+        ? font.italics
+          ? font.weights
+          : []
+        : font.italics
+      ).map((weight) => ({
+        weight: WEIGHTS[weight].value,
+        name: [WEIGHTS[weight].name, "italic"].filter((x) => x).join(" "),
+        style: "italic",
+        stretch: "normal",
+      })),
+      ...(font.stretches
+        ? Reflect.ownKeys(font.stretches).flatMap((weight) => {
+            const { values, italics } = font.stretches[weight];
+            const variants = values.map((stretch) => ({
+              weight: WEIGHTS[weight].value,
+              name: [WEIGHTS[weight].name, stretch].filter((x) => x).join(" "),
+              style: "normal",
+              stretch,
+            }));
+            return italics
+              ? [
+                  ...variants,
+                  ...variants.map((variant) => ({
+                    ...variant,
+                    name: [
+                      WEIGHTS[weight].name,
+                      italics ? "italic" : "",
+                      variant.stretch,
+                    ]
+                      .filter((x) => x)
+                      .join(" "),
+                    style: "italic",
+                  })),
+                ]
+              : variants;
+          })
+        : []),
+    ]
+      .map((variant) => ({
+        ...variant,
+        name: [font.name, font.aliases?.[variant.name] ?? variant.name]
+          .filter((x) => x)
+          .join(" "),
+      }))
+      .sort(
+        (a, b) =>
+          a.weight -
+          b.weight +
+          ((a.style === "italic") - (b.style === "italic")) * 10 +
+          (STRETCH_ORDER.indexOf(a.stretch) - STRETCH_ORDER.indexOf(b.stretch))
+      ),
+    show: true,
+    marked: false,
+    sizeOffset: 0,
+    collections: font.collections ?? [],
+  }))
+  .sort((a, b) => a.name.localeCompare(b.name));
+allFonts.forEach(
   (font) =>
-    (font.activeVariant = font.variants.findIndex(
-      (variant) =>
-        variant.weight === WEIGHTS[REGULAR].value &&
-        variant.style === "normal" &&
-        variant.stretch === "normal"
+    (font.activeVariant = Math.max(
+      0,
+      font.variants.findIndex(
+        (variant) =>
+          variant.weight === WEIGHTS[REGULAR].value &&
+          variant.style === "normal" &&
+          variant.stretch === "normal"
+      )
     ))
+);
+
+const collectionOptions = Object.entries(COLLECTION_NAMES).map(
+  ([value, label]) => ({
+    value,
+    label,
+  })
 );
 
 function FontContainer({
@@ -361,6 +160,7 @@ function FontContainer({
           <Select
             value={variantOptions[font.activeVariant]}
             options={variantOptions}
+            isDisabled={variantOptions.length < 2}
             className="select-font-variant"
             styles={{
               option: (provided, state) => ({
@@ -443,8 +243,13 @@ function FontContainer({
   );
 }
 
+const fontsFromCollections = (collections) =>
+  allFonts.filter((font) =>
+    font.collections.some((collection) => collections.includes(collection))
+  );
+
 function App() {
-  const [fonts, setFonts] = useState(defaultFonts);
+  const [fonts, setFonts] = useState(allFonts);
   const [previewContent, setPreviewContent] = useState(
     "The thundering machines sputtered…\n…and stopped."
   );
@@ -454,6 +259,10 @@ function App() {
   const [configMode, setConfigMode] = useState(true);
   const [comparisonMode, setComparisonMode] = useState(false);
   const [comparisonIdx, setComparisonIdx] = useState(0);
+  const [activeFontNames, setActiveFontNames] = useState(
+    fontsFromCollections([LOCAL_FONTS_COLLECTION]).map((font) => font.name)
+  );
+  const [loadedStylesheets, setLoadedStylesheets] = useState({});
 
   const markedFonts = fonts.filter((font) => font.marked && font.show);
 
@@ -474,178 +283,282 @@ function App() {
       );
   });
 
-  if (comparisonMode) {
-    const font = markedFonts[comparisonIdx];
-    return (
-      <div className="comparison-mode">
-        <pre
-          className="font-preview"
-          style={{
-            textAlign: alignment,
-            fontFamily: font.name,
-            fontWeight: font.variants[font.activeVariant].weight,
-            fontSize: `${fontSize + font.sizeOffset}px`,
-            fontStyle: font.variants[font.activeVariant].style,
-            fontStretch: font.variants[font.activeVariant].stretch,
-          }}
-        >
-          {previewContent}
-        </pre>
-        <div className="comparison-mode-font-name">
-          {font.variants[font.activeVariant].name}
-        </div>
-      </div>
-    );
-  }
+  const [shownFonts, hiddenFonts] = activeFontNames.length
+    ? fonts
+        .filter((font) => activeFontNames.includes(font.name))
+        .reduce(
+          (acc, font) => {
+            const [_shownFonts, _hiddenFonts] = acc;
+            (font.show ? _shownFonts : _hiddenFonts).push(font);
+            return acc;
+          },
+          [[], []]
+        )
+    : [[], []];
 
+  const comparisonFont = markedFonts[comparisonIdx];
   return (
-    <div className={markedFonts.length ? "comparison-button-visible" : ""}>
-      <div
-        className={`global-settings${
-          configMode ? " show-global-settings" : ""
-        }`}
-      >
-        <label>
-          Font size:
-          <input
-            className="global-font-size-input"
-            type="number"
-            value={fontSize}
-            onChange={(e) => setFontSize(+e.target.value)}
-          />
-        </label>
-        <label>
-          Nearest weight:
-          <input
-            className="global-font-weight-input"
-            type="number"
-            value={fontWeight}
-            step={100}
-            onChange={(e) => {
-              const targetWeight = +e.target.value;
-              setFontWeight(targetWeight);
-              setFonts((fonts) =>
-                fonts.map((font) => {
-                  const activeStyle = font.variants[font.activeVariant].style;
-                  return {
-                    ...font,
-                    activeVariant: font.variants
-                      .map((variant, index) => ({
-                        index,
-                        score:
-                          Math.abs(variant.weight - targetWeight) -
-                          (variant.style === activeStyle),
-                      }))
-                      .sort((a, b) => a.score - b.score)[0].index,
-                  };
-                })
-              );
+    <div className="app">
+      <Helmet>
+        {Object.entries(loadedStylesheets).map(([name, href]) => (
+          <link key={name} href={href} rel="stylesheet" type="text/css" />
+        ))}
+      </Helmet>
+      {comparisonMode ? (
+        <div className="comparison-mode">
+          <pre
+            className="font-preview"
+            style={{
+              textAlign: alignment,
+              fontFamily: comparisonFont.name,
+              fontWeight:
+                comparisonFont.variants[comparisonFont.activeVariant].weight,
+              fontSize: `${fontSize + comparisonFont.sizeOffset}px`,
+              fontStyle:
+                comparisonFont.variants[comparisonFont.activeVariant].style,
+              fontStretch:
+                comparisonFont.variants[comparisonFont.activeVariant].stretch,
             }}
-          />
-        </label>
-        <textarea
-          rows={3}
-          className="preview-text-input"
-          value={previewContent}
-          onChange={(e) => setPreviewContent(e.target.value)}
-        />
-        <fieldset className="alignment-options">
-          Align:&nbsp;
-          <input
-            type="radio"
-            value="left"
-            checked={alignment === "left"}
-            onChange={(e) => {
-              setAlignment(e.target.value);
-            }}
-          />
-          <input
-            type="radio"
-            value="center"
-            checked={alignment === "center"}
-            onChange={(e) => {
-              setAlignment(e.target.value);
-            }}
-          />
-          <input
-            type="radio"
-            value="right"
-            checked={alignment === "right"}
-            onChange={(e) => {
-              setAlignment(e.target.value);
-            }}
-          />
-        </fieldset>
-        <input
-          className="config-mode-toggle"
-          type="checkbox"
-          checked={configMode}
-          onChange={(e) => setConfigMode(e.target.checked)}
-          id="config-mode-toggle"
-        />
-        <label htmlFor="config-mode-toggle"></label>
-      </div>
-
-      <ul className="font-containers">
-        {fonts
-          .sort((a, b) => b.show - a.show || a.name.localeCompare(b.name))
-          .map((font, i) => {
-            if (!configMode && !font.show) return null;
-
-            return (
-              <FontContainer
-                key={font.name}
-                font={font}
-                onChangeShowToggle={(e) =>
-                  setFonts((fonts) => [
-                    ...fonts.slice(0, i),
-                    {
-                      ...fonts[i],
-                      show: e.target.checked,
-                      marked: e.target.checked && fonts[i].marked,
-                    },
-                    ...fonts.slice(i + 1),
-                  ])
-                }
-                onChangeMarkedToggle={(e) =>
-                  setFonts((fonts) => [
-                    ...fonts.slice(0, i),
-                    { ...fonts[i], marked: e.target.checked },
-                    ...fonts.slice(i + 1),
-                  ])
-                }
-                onChangeSizeOffset={(e) =>
-                  setFonts((fonts) => [
-                    ...fonts.slice(0, i),
-                    { ...fonts[i], sizeOffset: +e.target.value },
-                    ...fonts.slice(i + 1),
-                  ])
-                }
-                onChangeSelect={(newActiveVariant) =>
-                  setFonts((fonts) => [
-                    ...fonts.slice(0, i),
-                    {
-                      ...fonts[i],
-                      activeVariant: newActiveVariant.value,
-                    },
-                    ...fonts.slice(i + 1),
-                  ])
-                }
-                showSettings={configMode}
-                previewContent={previewContent}
-                fontSize={fontSize}
-                alignment={alignment}
+          >
+            {previewContent}
+          </pre>
+          <div className="comparison-mode-font-name">
+            {comparisonFont.variants[comparisonFont.activeVariant].name}
+          </div>
+        </div>
+      ) : (
+        <div className={markedFonts.length ? "comparison-button-visible" : ""}>
+          <div
+            className={`global-settings${
+              configMode ? " show-global-settings" : ""
+            }`}
+          >
+            <div className="global-settings-row">
+              <label>
+                Font size:
+                <input
+                  className="global-font-size-input"
+                  type="number"
+                  value={fontSize}
+                  onChange={(e) => setFontSize(+e.target.value)}
+                />
+              </label>
+              <label>
+                Nearest weight:
+                <input
+                  className="global-font-weight-input"
+                  type="number"
+                  value={fontWeight}
+                  step={100}
+                  onChange={(e) => {
+                    const targetWeight = +e.target.value;
+                    setFontWeight(targetWeight);
+                    setFonts((fonts) =>
+                      fonts.map((font) => {
+                        const activeStyle =
+                          font.variants[font.activeVariant].style;
+                        return {
+                          ...font,
+                          activeVariant: font.variants
+                            .map((variant, index) => ({
+                              index,
+                              score:
+                                Math.abs(variant.weight - targetWeight) -
+                                (variant.style === activeStyle),
+                            }))
+                            .sort((a, b) => a.score - b.score)[0].index,
+                        };
+                      })
+                    );
+                  }}
+                />
+              </label>
+              <textarea
+                rows={3}
+                className="preview-text-input"
+                value={previewContent}
+                onChange={(e) => setPreviewContent(e.target.value)}
               />
-            );
-          })}
-      </ul>
-      {markedFonts.length > 1 && (
-        <button
-          className="start-comparison-button"
-          onClick={() => setComparisonMode(true)}
-        >
-          Compare {markedFonts.length} marked fonts
-        </button>
+              <fieldset className="alignment-options">
+                Align:&nbsp;
+                <input
+                  type="radio"
+                  value="left"
+                  checked={alignment === "left"}
+                  onChange={(e) => {
+                    setAlignment(e.target.value);
+                  }}
+                />
+                <input
+                  type="radio"
+                  value="center"
+                  checked={alignment === "center"}
+                  onChange={(e) => {
+                    setAlignment(e.target.value);
+                  }}
+                />
+                <input
+                  type="radio"
+                  value="right"
+                  checked={alignment === "right"}
+                  onChange={(e) => {
+                    setAlignment(e.target.value);
+                  }}
+                />
+              </fieldset>
+              <input
+                className="config-mode-toggle"
+                type="checkbox"
+                checked={configMode}
+                onChange={(e) => setConfigMode(e.target.checked)}
+                id="config-mode-toggle"
+              />
+              <label htmlFor="config-mode-toggle"></label>
+            </div>
+            <div className="global-settings-row">
+              <Select
+                className="collection-select"
+                placeholder="Collections…"
+                isMulti={true}
+                isSearchable={true}
+                options={collectionOptions}
+                defaultValue={collectionOptions.filter(
+                  (option) => option.value === LOCAL_FONTS_COLLECTION
+                )}
+                onChange={(collections) => {
+                  const newFonts = fontsFromCollections(
+                    collections.map((collection) => collection.value)
+                  );
+                  setActiveFontNames(newFonts.map((font) => font.name));
+                  setLoadedStylesheets((loadedStylesheets) => {
+                    newFonts
+                      .filter((font) => font.href)
+                      .reduce((_loadedStylesheets, font) => {
+                        if (!loadedStylesheets[font.name])
+                          loadedStylesheets[font.name] = font.href;
+                        return _loadedStylesheets;
+                      }, loadedStylesheets);
+                    return loadedStylesheets;
+                  });
+                }}
+              />
+            </div>
+          </div>
+
+          {activeFontNames.length ? (
+            <>
+              {!!shownFonts.length && (
+                <ul className="font-containers">
+                  {shownFonts.map((font, i) => (
+                    <FontContainer
+                      key={font.name}
+                      font={font}
+                      onChangeShowToggle={(e) =>
+                        setFonts((fonts) => [
+                          ...fonts.slice(0, i),
+                          {
+                            ...fonts[i],
+                            show: e.target.checked,
+                            marked: e.target.checked && fonts[i].marked,
+                          },
+                          ...fonts.slice(i + 1),
+                        ])
+                      }
+                      onChangeMarkedToggle={(e) =>
+                        setFonts((fonts) => [
+                          ...fonts.slice(0, i),
+                          { ...fonts[i], marked: e.target.checked },
+                          ...fonts.slice(i + 1),
+                        ])
+                      }
+                      onChangeSizeOffset={(e) =>
+                        setFonts((fonts) => [
+                          ...fonts.slice(0, i),
+                          { ...fonts[i], sizeOffset: +e.target.value },
+                          ...fonts.slice(i + 1),
+                        ])
+                      }
+                      onChangeSelect={(newActiveVariant) =>
+                        setFonts((fonts) => [
+                          ...fonts.slice(0, i),
+                          {
+                            ...fonts[i],
+                            activeVariant: newActiveVariant.value,
+                          },
+                          ...fonts.slice(i + 1),
+                        ])
+                      }
+                      showSettings={configMode}
+                      previewContent={previewContent}
+                      fontSize={fontSize}
+                      alignment={alignment}
+                    />
+                  ))}
+                </ul>
+              )}
+              <hr />
+              {!!hiddenFonts.length && configMode && (
+                <ul className="font-containers hidden">
+                  {hiddenFonts.map((font, i) => (
+                    <FontContainer
+                      key={font.name}
+                      font={font}
+                      onChangeShowToggle={(e) =>
+                        setFonts((fonts) => [
+                          ...fonts.slice(0, i),
+                          {
+                            ...fonts[i],
+                            show: e.target.checked,
+                            marked: e.target.checked && fonts[i].marked,
+                          },
+                          ...fonts.slice(i + 1),
+                        ])
+                      }
+                      onChangeMarkedToggle={(e) =>
+                        setFonts((fonts) => [
+                          ...fonts.slice(0, i),
+                          { ...fonts[i], marked: e.target.checked },
+                          ...fonts.slice(i + 1),
+                        ])
+                      }
+                      onChangeSizeOffset={(e) =>
+                        setFonts((fonts) => [
+                          ...fonts.slice(0, i),
+                          { ...fonts[i], sizeOffset: +e.target.value },
+                          ...fonts.slice(i + 1),
+                        ])
+                      }
+                      onChangeSelect={(newActiveVariant) =>
+                        setFonts((fonts) => [
+                          ...fonts.slice(0, i),
+                          {
+                            ...fonts[i],
+                            activeVariant: newActiveVariant.value,
+                          },
+                          ...fonts.slice(i + 1),
+                        ])
+                      }
+                      showSettings={configMode}
+                      previewContent={previewContent}
+                      fontSize={fontSize}
+                      alignment={alignment}
+                    />
+                  ))}
+                </ul>
+              )}
+            </>
+          ) : (
+            <p className="no-fonts-warning">No fonts to display.</p>
+          )}
+          {markedFonts.length > 1 && (
+            <button
+              className="start-comparison-button"
+              onClick={() => setComparisonMode(true)}
+            >
+              Compare {markedFonts.length} marked fonts
+            </button>
+          )}
+        </div>
       )}
     </div>
   );
