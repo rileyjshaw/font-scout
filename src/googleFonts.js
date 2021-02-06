@@ -3,6 +3,7 @@ import {
   WEIGHT_SYMBOLS,
   GOOGLE_FONTS_COLLECTION,
   TYPEWOLF_40_GOOGLE_FONTS_COLLECTION,
+  FREE_OPEN_COLLECTION,
 } from "./constants";
 import responseJson from "./google_fonts_raw.json";
 
@@ -69,6 +70,7 @@ const googleFonts = responseJson.items.map((font) => {
     italics,
     collections: [
       GOOGLE_FONTS_COLLECTION,
+      FREE_OPEN_COLLECTION,
       ...(TYPEWOLF_40_GOOGLE_FONTS.includes(font.family)
         ? [TYPEWOLF_40_GOOGLE_FONTS_COLLECTION]
         : []),

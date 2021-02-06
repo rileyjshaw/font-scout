@@ -7,10 +7,12 @@ import {
   MEDIUM,
   SEMI_BOLD,
   BOLD,
+  ULTRA_BOLD,
   BLACK,
   ULTRA_BLACK,
   ATIPO_COLLECTION,
   LOCAL_FONTS_COLLECTION,
+  FREE_OPEN_COLLECTION,
 } from "./constants";
 
 const atipoFonts = [
@@ -230,7 +232,138 @@ const atipoFonts = [
   collections: [...(font.collections ?? []), ATIPO_COLLECTION],
 }));
 
-const localFonts = [...atipoFonts].map((font) => ({
+const freeOpenFonts = [
+  {
+    name: "Bagnard",
+    weights: [REGULAR],
+    italics: false,
+  },
+  {
+    name: "Blackout 2AM",
+    weights: [REGULAR],
+    italics: false,
+  },
+  {
+    name: "Blackout Midnight",
+    weights: [REGULAR],
+    italics: false,
+  },
+  {
+    name: "Blackout Sunrise",
+    weights: [REGULAR],
+    italics: false,
+  },
+  {
+    name: "Butler",
+    weights: [EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK],
+    italics: false,
+  },
+  {
+    name: "Butler Stencil",
+    weights: [EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK],
+    italics: false,
+  },
+  {
+    name: "Cooper Hewitt",
+    weights: [THIN, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
+    italics: true,
+  },
+  {
+    name: "Junction",
+    weights: [LIGHT, REGULAR, BOLD],
+    italics: false,
+  },
+  {
+    name: "League Gothic",
+    weights: [REGULAR],
+    italics: true,
+    stretches: {
+      [REGULAR]: {
+        values: ["condensed"],
+        italics: true,
+      },
+    },
+  },
+  {
+    name: "League Mono",
+    weights: [
+      THIN,
+      EXTRA_LIGHT,
+      LIGHT,
+      REGULAR,
+      MEDIUM,
+      SEMI_BOLD,
+      BOLD,
+      ULTRA_BOLD,
+    ],
+    italics: false,
+    stretches: [
+      THIN,
+      EXTRA_LIGHT,
+      LIGHT,
+      REGULAR,
+      MEDIUM,
+      SEMI_BOLD,
+      BOLD,
+      ULTRA_BOLD,
+    ].reduce((acc, weight) => {
+      acc[weight] = {
+        values: ["condensed", "semi-condensed", "semi-expanded", "expanded"],
+        italics: false,
+      };
+      return acc;
+    }, {}),
+  },
+  {
+    name: "League Spartan",
+    weights: [
+      EXTRA_LIGHT,
+      LIGHT,
+      REGULAR,
+      MEDIUM,
+      SEMI_BOLD,
+      BOLD,
+      ULTRA_BOLD,
+      BLACK,
+    ],
+    italics: false,
+  },
+  {
+    name: "Liberation Mono",
+    weights: [REGULAR, BOLD],
+    italics: true,
+  },
+  {
+    name: "Liberation Sans",
+    weights: [REGULAR, BOLD],
+    italics: true,
+  },
+  {
+    name: "Liberation Serif",
+    weights: [REGULAR, BOLD],
+    italics: true,
+  },
+  {
+    name: "Metropolis",
+    weights: [
+      THIN,
+      EXTRA_LIGHT,
+      LIGHT,
+      REGULAR,
+      MEDIUM,
+      SEMI_BOLD,
+      BOLD,
+      ULTRA_BOLD,
+      BLACK,
+    ],
+    italics: true,
+  },
+].map((font) => ({
+  ...font,
+  collections: [...(font.collections ?? []), FREE_OPEN_COLLECTION],
+}));
+
+const localFonts = [...atipoFonts, ...freeOpenFonts].map((font) => ({
   ...font,
   collections: [...(font.collections ?? []), LOCAL_FONTS_COLLECTION],
 }));

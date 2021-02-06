@@ -11,6 +11,7 @@ import {
   STRETCH_ORDER,
   COLLECTION_NAMES,
   LOCAL_FONTS_COLLECTION,
+  UNCATEGORIZED_COLLECTION,
 } from "./constants";
 import googleFonts from "./googleFonts.js";
 import localFonts from "./localFonts.js";
@@ -83,7 +84,7 @@ const allFonts = [...googleFonts, ...localFonts]
     show: true,
     marked: false,
     sizeOffset: 0,
-    collections: font.collections ?? [],
+    collections: font.collections ?? [UNCATEGORIZED_COLLECTION],
   }))
   .sort((a, b) => a.name.localeCompare(b.name));
 allFonts.forEach(
