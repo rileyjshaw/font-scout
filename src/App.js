@@ -285,6 +285,10 @@ function App() {
 
   const [shownFonts, hiddenFonts] = activeFontNames.length
     ? fonts
+        .map((font, i) => ({
+          ...font,
+          originalIndex: i,
+        }))
         .filter((font) => activeFontNames.includes(font.name))
         .reduce(
           (acc, font) => {
@@ -449,43 +453,51 @@ function App() {
             <>
               {!!shownFonts.length && (
                 <ul className="font-containers">
-                  {shownFonts.map((font, i) => (
+                  {shownFonts.map((font) => (
                     <FontContainer
                       key={font.name}
                       font={font}
                       onChangeShowToggle={(e) =>
                         setFonts((fonts) => [
-                          ...fonts.slice(0, i),
+                          ...fonts.slice(0, font.originalIndex),
                           {
-                            ...fonts[i],
+                            ...fonts[font.originalIndex],
                             show: e.target.checked,
-                            marked: e.target.checked && fonts[i].marked,
+                            marked:
+                              e.target.checked &&
+                              fonts[font.originalIndex].marked,
                           },
-                          ...fonts.slice(i + 1),
+                          ...fonts.slice(font.originalIndex + 1),
                         ])
                       }
                       onChangeMarkedToggle={(e) =>
                         setFonts((fonts) => [
-                          ...fonts.slice(0, i),
-                          { ...fonts[i], marked: e.target.checked },
-                          ...fonts.slice(i + 1),
+                          ...fonts.slice(0, font.originalIndex),
+                          {
+                            ...fonts[font.originalIndex],
+                            marked: e.target.checked,
+                          },
+                          ...fonts.slice(font.originalIndex + 1),
                         ])
                       }
                       onChangeSizeOffset={(e) =>
                         setFonts((fonts) => [
-                          ...fonts.slice(0, i),
-                          { ...fonts[i], sizeOffset: +e.target.value },
-                          ...fonts.slice(i + 1),
+                          ...fonts.slice(0, font.originalIndex),
+                          {
+                            ...fonts[font.originalIndex],
+                            sizeOffset: +e.target.value,
+                          },
+                          ...fonts.slice(font.originalIndex + 1),
                         ])
                       }
                       onChangeSelect={(newActiveVariant) =>
                         setFonts((fonts) => [
-                          ...fonts.slice(0, i),
+                          ...fonts.slice(0, font.originalIndex),
                           {
-                            ...fonts[i],
+                            ...fonts[font.originalIndex],
                             activeVariant: newActiveVariant.value,
                           },
-                          ...fonts.slice(i + 1),
+                          ...fonts.slice(font.originalIndex + 1),
                         ])
                       }
                       showSettings={configMode}
@@ -499,43 +511,51 @@ function App() {
               <hr />
               {!!hiddenFonts.length && configMode && (
                 <ul className="font-containers hidden">
-                  {hiddenFonts.map((font, i) => (
+                  {hiddenFonts.map((font) => (
                     <FontContainer
                       key={font.name}
                       font={font}
                       onChangeShowToggle={(e) =>
                         setFonts((fonts) => [
-                          ...fonts.slice(0, i),
+                          ...fonts.slice(0, font.originalIndex),
                           {
-                            ...fonts[i],
+                            ...fonts[font.originalIndex],
                             show: e.target.checked,
-                            marked: e.target.checked && fonts[i].marked,
+                            marked:
+                              e.target.checked &&
+                              fonts[font.originalIndex].marked,
                           },
-                          ...fonts.slice(i + 1),
+                          ...fonts.slice(font.originalIndex + 1),
                         ])
                       }
                       onChangeMarkedToggle={(e) =>
                         setFonts((fonts) => [
-                          ...fonts.slice(0, i),
-                          { ...fonts[i], marked: e.target.checked },
-                          ...fonts.slice(i + 1),
+                          ...fonts.slice(0, font.originalIndex),
+                          {
+                            ...fonts[font.originalIndex],
+                            marked: e.target.checked,
+                          },
+                          ...fonts.slice(font.originalIndex + 1),
                         ])
                       }
                       onChangeSizeOffset={(e) =>
                         setFonts((fonts) => [
-                          ...fonts.slice(0, i),
-                          { ...fonts[i], sizeOffset: +e.target.value },
-                          ...fonts.slice(i + 1),
+                          ...fonts.slice(0, font.originalIndex),
+                          {
+                            ...fonts[font.originalIndex],
+                            sizeOffset: +e.target.value,
+                          },
+                          ...fonts.slice(font.originalIndex + 1),
                         ])
                       }
                       onChangeSelect={(newActiveVariant) =>
                         setFonts((fonts) => [
-                          ...fonts.slice(0, i),
+                          ...fonts.slice(0, font.originalIndex),
                           {
-                            ...fonts[i],
+                            ...fonts[font.originalIndex],
                             activeVariant: newActiveVariant.value,
                           },
-                          ...fonts.slice(i + 1),
+                          ...fonts.slice(font.originalIndex + 1),
                         ])
                       }
                       showSettings={configMode}
