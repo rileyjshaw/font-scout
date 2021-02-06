@@ -15,7 +15,7 @@
  * Archia font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Archia';
   src: url('archia-thin-webfont.eot');
   src: url('archia-thin-webfont.eot?#iefix') format('embedded-opentype'),
@@ -408,7 +408,7 @@
  * Basier Circle font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Basier Circle';
   src: url('basiercircle-regular-webfont.eot');
   src: url('basiercircle-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -475,7 +475,7 @@
   font-style: italic;
 }
 
- @font-face {
+@font-face {
   font-family: 'Basier Circle';
   src: url('basiercircle-bold-webfont.eot');
   src: url('basiercircle-bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -502,7 +502,7 @@
  * Basier Circle Mono font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Basier Circle Mono';
   src: url('basiercirclemono-regular-webfont.eot');
   src: url('basiercirclemono-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -596,7 +596,7 @@
  * Basier Square font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Basier Square';
   src: url('basiersquare-regular-webfont.eot');
   src: url('basiersquare-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -663,7 +663,7 @@
 }
 
 
- @font-face {
+@font-face {
   font-family: 'Basier Square';
   src: url('basiersquare-bold-webfont.eot');
   src: url('basiersquare-bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -690,7 +690,7 @@
  * Basier Square Mono font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Basier Square Mono';
   src: url('basiersquaremono-regular-webfont.eot');
   src: url('basiersquaremono-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -783,7 +783,7 @@
  * Bould font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Bould';
   src: url('bould-thin-webfont.eot');
   src: url('bould-thin-webfont.eot?#iefix') format('embedded-opentype'),
@@ -942,7 +942,7 @@
  * Calendas Plus font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Calendas Plus';
   src: url('calendas_plus-webfont.eot');
   src: url('calendas_plus-webfont.eot?#iefix') format('embedded-opentype'),
@@ -966,7 +966,7 @@
   font-style: italic;
 }
 
- @font-face {
+@font-face {
   font-family: 'Calendas Plus';
   src: url('calendas_plus_bold-webfont.eot');
   src: url('calendas_plus_bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -983,7 +983,7 @@
  * Cassanet Plus font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Cassanet Plus';
   src: url('cassannet_plus_thin-webfont.eot');
   src: url('cassannet_plus_thin-webfont.eot?#iefix') format('embedded-opentype'),
@@ -1019,7 +1019,7 @@
   font-style: normal;
 }
 
- @font-face {
+@font-face {
   font-family: 'Cassanet Plus';
   src: url('cassannet_plus_bold-webfont.eot');
   src: url('cassannet_plus_bold-webfont.eot?#iefix') format('embedded-opentype'),
@@ -1114,7 +1114,7 @@
  * Geomanist font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Geomanist';
   src: url('geomanist-thin-webfont.eot');
   src: url('geomanist-thin-webfont.eot?#iefix') format('embedded-opentype'),
@@ -1335,7 +1335,7 @@
  * Knile font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Knile';
   src: url('knile-thin-webfont.eot');
   src: url('knile-thin-webfont.eot?#iefix') format('embedded-opentype'),
@@ -1532,7 +1532,7 @@
  * Musetta font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Musetta';
   src: url('musetta-regular-webfont.eot');
   src: url('musetta-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -1548,7 +1548,7 @@
  * Noway font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Noway';
   src: url('noway-thin-webfont.eot');
   src: url('noway-thin-webfont.eot?#iefix') format('embedded-opentype'),
@@ -1690,7 +1690,7 @@
  * Noway Round font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Noway Round';
   src: url('nowayround-thin-webfont.eot');
   src: url('nowayround-thin-webfont.eot?#iefix') format('embedded-opentype'),
@@ -1805,7 +1805,7 @@
  * Noway Round Icons font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Noway Round Icons';
   src: url('nowayround-icons-webfont.eot');
   src: url('nowayround-icons-webfont.eot?#iefix') format('embedded-opentype'),
@@ -1821,7 +1821,7 @@
  * Parking font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Parking';
   src: url('parking-regular-webfont.eot');
   src: url('parking-regular-webfont.eot?#iefix') format('embedded-opentype'),
@@ -1837,7 +1837,7 @@
  * Salome font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Salome';
   src: url('salome-webfont.eot');
   src: url('salome-webfont.eot?#iefix') format('embedded-opentype'),
@@ -1866,7 +1866,7 @@
  * Salome Fine font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Salome Fine';
   src: url('salome_fine-webfont.eot');
   src: url('salome_fine-webfont.eot?#iefix') format('embedded-opentype'),
@@ -1895,7 +1895,7 @@
  * Salome Stencil font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Salome Stencil';
   src: url('salome_stencil-webfont.eot');
   src: url('salome_stencil-webfont.eot?#iefix') format('embedded-opentype'),
@@ -1924,7 +1924,7 @@
  * Salome Deco font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Salome Deco';
   src: url('salome_deco-webfont.eot');
   src: url('salome_deco-webfont.eot?#iefix') format('embedded-opentype'),
@@ -1941,7 +1941,7 @@
  * Sawton Bauhaus font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Sawton Bauhaus';
   src: url('sawtonbauhaus-thin-webfont.eot');
   src: url('sawtonbauhaus-thin-webfont.eot?#iefix') format('embedded-opentype'),
@@ -2001,7 +2001,7 @@
  * Sawton Circular font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Sawton Circular';
   src: url('sawtoncircular-thin-webfont.eot');
   src: url('sawtoncircular-thin-webfont.eot?#iefix') format('embedded-opentype'),
@@ -2061,7 +2061,7 @@ font-face {
  * Sawton Industrial font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Sawton Industrial';
   src: url('sawtonindustrial-thin-webfont.eot');
   src: url('sawtonindustrial-thin-webfont.eot?#iefix') format('embedded-opentype'),
@@ -2174,7 +2174,7 @@ font-face {
  * Silka font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Silka';
   src: url('silka-thin-webfont.eot');
   src: url('silka-thin-webfont.eot?#iefix') format('embedded-opentype'),
@@ -2355,7 +2355,7 @@ font-face {
  * Silka Mono font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Silka Mono';
   src: url('silkamono-thin-webfont.eot');
   src: url('silkamono-thin-webfont.eot?#iefix') format('embedded-opentype'),
@@ -2521,7 +2521,7 @@ font-face {
  * Wotfard font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Wotfard';
   src: url('wotfard-thin-webfont.eot');
   src: url('wotfard-thin-webfont.eot?#iefix') format('embedded-opentype'),
