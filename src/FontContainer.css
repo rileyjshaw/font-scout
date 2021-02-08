@@ -1,0 +1,42 @@
+.font-container {
+  padding: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.font-settings {
+  align-items: center;
+  display: flex;
+  margin: auto;
+  max-width: 720px;
+}
+
+.select-font-variant {
+  flex-grow: 1;
+  margin-left: 12px;
+}
+
+.font-hover-settings {
+  position: absolute;
+  top: 11;
+  right: 0;
+}
+
+.font-preview-wrapper {
+  font-size: var(--font-preview-size);
+}
+
+.font-preview {
+  border-radius: 12px;
+  display: inline-block;
+  line-height: 1.7;
+  max-width: 100%;
+  overflow: auto;
+  padding: 48px 24px;
+  text-align: var(--font-preview-align);
+  white-space: pre-wrap;
+}
+
+.font-preview.marked {
+  background: rgba(46, 204, 64, 0.2);
+}

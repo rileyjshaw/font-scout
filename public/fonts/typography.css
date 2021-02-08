@@ -291,7 +291,7 @@
     url('bariol_bold_italic-webfont.ttf') format('truetype'),
     url('bariol_bold_italic-webfont.svg#bariolbold_italic') format('svg');
   font-weight: 700;
-  font-style: normal;
+  font-style: italic;
 }
 
 /******************************************************************************

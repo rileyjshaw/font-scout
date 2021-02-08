@@ -16,6 +16,7 @@
     "react-scripts": "4.0.1",
     "react-select": "^4.0.2",
     "react-use-keypress": "^1.2.0",
+    "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
