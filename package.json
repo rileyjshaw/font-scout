@@ -12,10 +12,12 @@
     "prettier": "^2.2.1",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "react-helmet": "^6.1.0",
+    "react-helmet-async": "^1.0.7",
     "react-scripts": "4.0.1",
     "react-select": "^4.0.2",
     "react-use-keypress": "^1.2.0",
+    "react-virtualized-auto-sizer": "^1.0.4",
+    "react-window": "^1.8.6",
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },

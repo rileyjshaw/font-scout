@@ -1,17 +1,19 @@
-import { memo, useRef } from "react";
+import React, { useEffect, useRef } from "react";
 import useHover from "@react-hook/hover";
 import Select from "react-select";
 
 import "./FontContainer.css";
 
-const FontContainer = memo(function FontContainer({
+const FontContainer = React.memo(function FontContainer({
   font,
   onChangeShowToggle,
   onChangeMarkedToggle,
   onChangeSizeOffset,
   onChangeSelect,
-  showSettings,
   previewContent,
+  setLoadedStylesheets,
+  showSettings,
+  style,
 }) {
   const ref = useRef(null);
   const isHovering = useHover(ref);
@@ -21,8 +23,20 @@ const FontContainer = memo(function FontContainer({
     label: `${variant.name}`,
   }));
 
+  useEffect(() => {
+    if (font.href) {
+      setLoadedStylesheets((prevLoadedStylesheets) => {
+        if (prevLoadedStylesheets[font.name]) return prevLoadedStylesheets;
+        return {
+          ...prevLoadedStylesheets,
+          [font.name]: font.href,
+        };
+      });
+    }
+  }, [font, setLoadedStylesheets]);
+
   return (
-    <li ref={ref} className="font-container">
+    <li ref={ref} className="font-container" style={style}>
       {showSettings && (
         <div className="font-settings">
           <input

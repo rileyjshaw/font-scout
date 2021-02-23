@@ -1,43 +1,33 @@
-* {
-  box-sizing: border-box;
-}
-
-body {
-  background: #faf9f7;
-  color: #0a0b08;
-  font: 400 22px Wotfard;
-  margin: 0;
-}
-
 .global-settings {
-  display: flex;
+  border-bottom: 1px solid hsl(0, 0%, 80%);
+  box-shadow: 0 -2px 4px hsl(0, 0%, 20%);
+  min-height: 34px;
+}
+
+.global-settings.show-global-settings {
+  padding-top: 34px;
+}
+
+.global-settings-rows {
+  display: none;
   flex-direction: column;
-  padding-bottom: 3em;
+}
+
+.show-global-settings .global-settings-rows {
+  display: flex;
 }
 
 .global-settings-row {
   align-items: center;
   display: flex;
+  gap: 1em;
   flex-wrap: wrap;
   justify-content: space-between;
-}
-
-.global-settings-row:first-child {
-  padding: 1em 1em 2em;
-}
-
-.global-settings-row > * {
-  margin: 0 1em;
-  visibility: hidden;
+  padding: 0 1em 30px;
 }
 
 .collection-select {
   flex-grow: 1;
-}
-
-.global-settings-row > .config-mode-toggle + label,
-.show-global-settings div > * {
-  visibility: visible;
 }
 
 input[type="number"] {
@@ -67,19 +57,19 @@ input.global-font-weight-input {
   display: flex;
 }
 
+.autosizer-container {
+  flex-grow: 1;
+}
+
 .font-containers {
-  display: grid;
-  justify-content: space-around;
-  column-gap: 30px;
-  grid-template-columns: repeat(auto-fit, minmax(720px, max-content));
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
 
 .no-fonts-warning {
   color: rgba(0, 0, 0, 0.5);
   font-size: 2em;
+  margin: auto;
+  padding-bottom: 2em;
   text-align: center;
 }
 
@@ -152,6 +142,12 @@ input.global-font-weight-input {
   position: absolute;
   top: 4px;
   width: 14px;
+}
+
+.config-mode-toggle + label {
+  position: absolute;
+  top: 6px;
+  right: 0;
 }
 
 .config-mode-toggle + label:before {

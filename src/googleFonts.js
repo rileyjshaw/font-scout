@@ -80,7 +80,7 @@ const googleFonts = responseJson.items.map((font) => {
       "+"
     )}:ital,wght@${[weights, italics]
       .flatMap((arr, i) => arr.map((symbol) => `${i},${WEIGHTS[symbol].value}`))
-      .join(";")}&display=block`,
+      .join(";")}`, // Note: More options can be added, eg. &display=block
   };
 });
 
