@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useMemo, useState } from "react";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import styled, { createGlobalStyle } from "styled-components";
 
+import { getPreviewComponent } from "./Preview";
 import ComparisonMode from "./ComparisonMode";
 import ExplorationMode from "./ExplorationMode";
 
@@ -57,6 +58,9 @@ function App() {
   const [loadedStylesheets, setLoadedStylesheets] = useState({});
 
   const markedFonts = fonts.filter((font) => font.marked && font.show);
+  const Preview = useMemo(() => getPreviewComponent(previewContent), [
+    previewContent,
+  ]);
 
   return (
     <HelmetProvider context={helmetContext}>
@@ -71,7 +75,7 @@ function App() {
           {comparisonMode ? (
             <ComparisonMode
               markedFonts={markedFonts}
-              previewContent={previewContent}
+              Preview={Preview}
               setComparisonMode={setComparisonMode}
             />
           ) : (
@@ -87,6 +91,7 @@ function App() {
                 setFonts={setFonts}
                 previewContent={previewContent}
                 setPreviewContent={setPreviewContent}
+                Preview={Preview}
               />
               {markedFonts.length > 1 && (
                 <button

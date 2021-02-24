@@ -2,7 +2,7 @@ import { useState } from "react";
 
 import useKeypress from "react-use-keypress";
 
-function ComparisonMode({ markedFonts, previewContent, setComparisonMode }) {
+function ComparisonMode({ markedFonts, Preview, setComparisonMode }) {
   const [comparisonIdx, setComparisonIdx] = useState(0);
 
   useKeypress("Escape", () => {
@@ -36,8 +36,9 @@ function ComparisonMode({ markedFonts, previewContent, setComparisonMode }) {
             fontStretch:
               comparisonFont.variants[comparisonFont.activeVariant].stretch,
           }}
-          dangerouslySetInnerHTML={{ __html: previewContent }}
-        />
+        >
+          <Preview />
+        </pre>
       </div>
       <div className="comparison-mode-font-name">
         {comparisonFont.variants[comparisonFont.activeVariant].name}

@@ -58,6 +58,7 @@ function ExplorationMode({
   setAlignment,
   previewContent,
   setPreviewContent,
+  Preview,
   setLoadedStylesheets,
   setFonts,
   fonts,
@@ -148,25 +149,25 @@ function ExplorationMode({
 
   const itemData = useMemo(
     () => ({
+      columnCount: COLUMN_COUNT,
       onChangeMarkedToggle,
       onChangeSelect,
       onChangeShowToggle,
       onChangeSizeOffset,
-      previewContent,
+      Preview,
       setLoadedStylesheets,
-      visibleFonts,
       showSettings: configMode,
-      columnCount: COLUMN_COUNT,
+      visibleFonts,
     }),
     [
+      configMode,
       onChangeMarkedToggle,
       onChangeSelect,
       onChangeShowToggle,
       onChangeSizeOffset,
-      previewContent,
+      Preview,
       setLoadedStylesheets,
       visibleFonts,
-      configMode,
     ]
   );
 

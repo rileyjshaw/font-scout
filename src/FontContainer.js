@@ -10,7 +10,7 @@ const FontContainer = React.memo(function FontContainer({
   onChangeMarkedToggle,
   onChangeSizeOffset,
   onChangeSelect,
-  previewContent,
+  Preview,
   setLoadedStylesheets,
   showSettings,
   style,
@@ -142,14 +142,9 @@ const FontContainer = React.memo(function FontContainer({
             fontStretch: font.variants[font.activeVariant].stretch,
           }}
           title={font.variants[font.activeVariant].name}
-          {...(font.show
-            ? {
-                dangerouslySetInnerHTML: {
-                  __html: previewContent,
-                },
-              }
-            : {})}
-        />
+        >
+          <Preview />
+        </pre>
       </div>
     </li>
   );
