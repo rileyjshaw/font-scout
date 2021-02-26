@@ -1,4 +1,4 @@
-import React, { useCallback, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import Select from 'react-select';
 import { FixedSizeGrid as Grid, areEqual } from 'react-window';
 import useResizeObserver from '@react-hook/resize-observer';
@@ -7,7 +7,7 @@ import styled from 'styled-components';
 import FontContainer, { FontPreview } from './FontContainer';
 import sizeSortedFontVariants from './size_sorted_font_variants.json';
 
-import { COLLECTION_NAMES, LOCAL_FONTS_COLLECTION, MIN_COLUMN_WIDTH } from './constants';
+import { COLLECTION_GROUPS, LOCAL_FONTS_COLLECTION, MIN_COLUMN_WIDTH } from './constants';
 
 function setDeepValue(object, value, ...keys) {
 	keys.reduce((branch, key, i, { length }) => {
@@ -20,9 +20,12 @@ function setDeepValue(object, value, ...keys) {
 	}, object);
 }
 
-const collectionOptions = Object.entries(COLLECTION_NAMES).map(([value, label]) => ({
-	value,
-	label,
+const collectionOptions = COLLECTION_GROUPS.map(group => ({
+	...group,
+	options: Object.entries(group.options).map(([value, label]) => ({
+		value,
+		label,
+	})),
 }));
 
 const Probe = styled.div`
@@ -53,8 +56,12 @@ function useSize(target) {
 	return size;
 }
 
-function activeFontsFromCollections(collections, fonts) {
-	const activeFonts = fonts.filter(font => font.collections.some(collection => collections.includes(collection)));
+function activeFontsFromCollections(includedCollections, excludedCollections, fonts) {
+	const activeFonts = fonts.filter(
+		font =>
+			font.collections.some(collection => includedCollections.includes(collection)) &&
+			!font.collections.some(collection => excludedCollections.includes(collection))
+	);
 	if (!activeFonts.length) return false;
 	return activeFonts.reduce((acc, font) => {
 		acc[font.name] = font;
@@ -87,13 +94,30 @@ function ExplorationMode({
 }) {
 	const [configMode, setConfigMode] = useState(true);
 	const [fontWeight, setFontWeight] = useState(400);
-	const [activeFonts, setActiveFonts] = useState(() =>
-		activeFontsFromCollections([LOCAL_FONTS_COLLECTION], allFontsWithIndex)
-	);
+	const [includedCollections, setIncludedCollections] = useState(() => [LOCAL_FONTS_COLLECTION]);
+	const [excludedCollections, setExcludedCollections] = useState(() => []);
 	const gridRef = useRef(null);
 	const probeRef = useRef(null);
 	const { height: probeHeight } = useSize(probeRef);
 	const { width: gridWidth, height: gridHeight } = useSize(gridRef);
+	const activeFonts = useMemo(
+		() => activeFontsFromCollections(includedCollections, excludedCollections, allFontsWithIndex),
+		[allFontsWithIndex, excludedCollections, includedCollections]
+	);
+	useEffect(() => {
+		setLoadedStylesheets(prevLoadedStylesheets => {
+			const unloadedFonts = Object.values(activeFonts)
+				.filter(font => font.href && !prevLoadedStylesheets[font.name])
+				// Only load the first few unloaded remote fonts; anything
+				// else might slow down the initial render. Subsequent
+				// fonts are loaded when their containers render.
+				.slice(0, 8);
+			if (!unloadedFonts.length) return prevLoadedStylesheets;
+			const loadedStylesheets = { ...prevLoadedStylesheets };
+			unloadedFonts.forEach(font => (loadedStylesheets[font.name] = font.href));
+			return loadedStylesheets;
+		});
+	}, [activeFonts, setLoadedStylesheets]);
 
 	const columnCount = Math.max(Math.floor(gridWidth / MIN_COLUMN_WIDTH), 1);
 
@@ -351,72 +375,71 @@ function ExplorationMode({
 					<div className="global-settings-row">
 						<Select
 							className="collection-select"
-							placeholder="Collections…"
+							placeholder="Include collections…"
 							isMulti={true}
 							isSearchable={true}
 							options={collectionOptions}
-							defaultValue={collectionOptions.filter(option => option.value === LOCAL_FONTS_COLLECTION)}
+							defaultValue={collectionOptions
+								.flatMap(group => group.options)
+								.filter(option => option.value === LOCAL_FONTS_COLLECTION)}
 							onChange={collections => {
-								const newFonts = activeFontsFromCollections(
-									collections.map(collection => collection.value),
-									allFontsWithIndex
-								);
-								setActiveFonts(newFonts);
-								setLoadedStylesheets(prevLoadedStylesheets => {
-									const unloadedFonts = Object.values(newFonts)
-										.filter(font => font.href && !prevLoadedStylesheets[font.name])
-										// Only load the first few unloaded remote fonts; anything
-										// else might slow down the initial render. Subsequent
-										// fonts are loaded when their containers render.
-										.slice(0, 8);
-									if (!unloadedFonts.length) return prevLoadedStylesheets;
-									const loadedStylesheets = { ...prevLoadedStylesheets };
-									unloadedFonts.forEach(font => (loadedStylesheets[font.name] = font.href));
-									return loadedStylesheets;
-								});
+								setIncludedCollections(collections.map(collection => collection.value));
+							}}
+						/>
+						<Select
+							className="collection-select"
+							placeholder="Exclude collections…"
+							isMulti={true}
+							isSearchable={true}
+							options={collectionOptions}
+							onChange={collections => {
+								setExcludedCollections(collections.map(collection => collection.value));
 							}}
 						/>
 					</div>
 				</div>
 			</div>
-
-			{activeFonts ? (
-				<>
-					<Probe aria-hidden="true" ref={probeRef}>
-						{bigFonts.map((font, i) => (
-							<FontPreview
-								key={i}
-								font={font.font}
-								variant={font.variant}
-								Preview={Preview}
-								style={{
-									width: gridWidth / columnCount,
-									flexShrink: 0,
-									flexGrow: 0,
-								}}
-							/>
-						))}
-					</Probe>
-					{!!visibleFonts.length && (
-						<div className="grid-container" ref={gridRef}>
-							<Grid
-								className="font-containers"
-								columnCount={columnCount}
-								columnWidth={gridWidth / columnCount}
-								rowCount={Math.ceil(visibleFonts.length / columnCount)}
-								rowHeight={probeHeight + 80}
-								height={gridHeight}
-								width={gridWidth}
-								itemData={itemData}
-							>
-								{GridCell}
-							</Grid>
-						</div>
-					)}
-				</>
-			) : (
-				<p className="no-fonts-warning">No fonts to display.</p>
-			)}
+			<Probe aria-hidden="true" ref={probeRef}>
+				{bigFonts.map((font, i) => (
+					<FontPreview
+						key={i}
+						font={font.font}
+						variant={font.variant}
+						Preview={Preview}
+						style={{
+							width: gridWidth / columnCount,
+							flexShrink: 0,
+							flexGrow: 0,
+						}}
+					/>
+				))}
+			</Probe>
+			<div className="grid-container" ref={gridRef}>
+				{activeFonts ? (
+					visibleFonts.length ? (
+						<Grid
+							className="font-containers"
+							columnCount={columnCount}
+							columnWidth={gridWidth / columnCount}
+							rowCount={Math.ceil(visibleFonts.length / columnCount)}
+							rowHeight={probeHeight + 80}
+							height={gridHeight}
+							width={gridWidth}
+							itemData={itemData}
+						>
+							{GridCell}
+						</Grid>
+					) : (
+						<p className="no-fonts-warning">
+							<strong>No fonts to display.</strong> Select one or more fonts in config mode.
+						</p>
+					)
+				) : (
+					<p className="no-fonts-warning">
+						<strong>No fonts to display.</strong> Include more categories in config mode.
+					</p>
+				)}
+			</div>
 		</>
 	);
 }

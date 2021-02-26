@@ -40,9 +40,9 @@ const allFontsWithIndex = allFonts.map((font, i) => ({
 }));
 
 const StyledWrapper = styled.div`
-	--font-preview-size: ${props => props.size}px;
-	--font-preview-line-height: ${props => props.lineHeight};
-	--font-preview-align: ${props => props.align};
+	--font-preview-size: ${props => props.fSize}px;
+	--font-preview-line-height: ${props => props.lHeight};
+	--font-preview-align: ${props => props.tAlign};
 	height: 100%;
 	width: 100%;
 	display: flex;
@@ -74,7 +74,7 @@ function App() {
 		<HelmetProvider context={helmetContext}>
 			<>
 				<GlobalStyles />
-				<StyledWrapper className="app" size={fontSize} lineHeight={lineHeight} align={alignment}>
+				<StyledWrapper className="app" fSize={fontSize} lHeight={lineHeight} tAlign={alignment}>
 					<Helmet>
 						{Object.entries(loadedStylesheets).map(([name, href]) => (
 							<link key={name} href={href} rel="stylesheet" type="text/css" />

@@ -110,13 +110,46 @@ export const GOOGLE_FONTS_COLLECTION = 'GOOGLE_FONTS_COLLECTION';
 export const TYPEWOLF_40_GOOGLE_FONTS_COLLECTION = 'TYPEWOLF_40_GOOGLE_FONTS_COLLECTION';
 export const LOCAL_FONTS_COLLECTION = 'LOCAL_FONTS_COLLECTION';
 export const FREE_OPEN_COLLECTION = 'FREE_OPEN_COLLECTION';
+export const DISPLAY_COLLECTION = 'DISPLAY_COLLECTION';
+export const HANDWRITING_COLLECTION = 'HANDWRITING_COLLECTION';
+export const MONOSPACE_COLLECTION = 'MONOSPACE_COLLECTION';
+export const SANS_SERIF_COLLECTION = 'SANS_SERIF_COLLECTION';
+export const SERIF_COLLECTION = 'SERIF_COLLECTION';
+export const SINGLE_VARIANT_COLLECTION = 'SINGLE_VARIANT_COLLECTION';
 export const UNCATEGORIZED_COLLECTION = 'UNCATEGORIZED_COLLECTION';
 
-export const COLLECTION_NAMES = {
-	ATIPO_COLLECTION: 'Atipo foundry',
-	GOOGLE_FONTS_COLLECTION: 'Google fonts',
-	TYPEWOLF_40_GOOGLE_FONTS_COLLECTION: 'Typewolf’s “40 Best Google fonts”',
-	LOCAL_FONTS_COLLECTION: 'Local fonts',
-	FREE_OPEN_COLLECTION: 'Free and/or open source',
-	UNCATEGORIZED: 'Uncategorized fonts',
-};
+export const COLLECTION_GROUPS = [
+	{
+		label: 'Font category',
+		options: {
+			SANS_SERIF_COLLECTION: 'Sans-serif',
+			SERIF_COLLECTION: 'Serif',
+			MONOSPACE_COLLECTION: 'Monospace',
+			DISPLAY_COLLECTION: 'Display',
+			HANDWRITING_COLLECTION: 'Handwriting',
+		},
+	},
+	{
+		label: 'Application context',
+		options: {
+			BODY_SAFE_COLLECTION: 'Body safe (italic and bold included)',
+			SINGLE_VARIANT_COLLECTION: 'Single variant',
+		},
+	},
+	{
+		label: 'Source / foundry',
+		options: {
+			ATIPO_COLLECTION: 'Atipo foundry',
+			GOOGLE_FONTS_COLLECTION: 'Google fonts',
+			LOCAL_FONTS_COLLECTION: 'Local fonts',
+		},
+	},
+	{
+		label: 'Miscellaneous',
+		options: {
+			TYPEWOLF_40_GOOGLE_FONTS_COLLECTION: 'Typewolf’s “40 Best Google fonts”',
+			FREE_OPEN_COLLECTION: 'Free and/or open source',
+			UNCATEGORIZED: 'Uncategorized fonts',
+		},
+	},
+];

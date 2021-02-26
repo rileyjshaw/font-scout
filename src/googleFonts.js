@@ -4,6 +4,11 @@ import {
 	GOOGLE_FONTS_COLLECTION,
 	TYPEWOLF_40_GOOGLE_FONTS_COLLECTION,
 	FREE_OPEN_COLLECTION,
+	DISPLAY_COLLECTION,
+	HANDWRITING_COLLECTION,
+	MONOSPACE_COLLECTION,
+	SANS_SERIF_COLLECTION,
+	SERIF_COLLECTION,
 } from './constants.js';
 import responseJson from './google_fonts_raw.json';
 
@@ -50,6 +55,14 @@ const TYPEWOLF_40_GOOGLE_FONTS = [
 	'Work Sans',
 ];
 
+const FONT_CATEGORY_COLLECTIONS = {
+	display: DISPLAY_COLLECTION,
+	handwriting: HANDWRITING_COLLECTION,
+	monospace: MONOSPACE_COLLECTION,
+	'sans-serif': SANS_SERIF_COLLECTION,
+	serif: SERIF_COLLECTION,
+};
+
 const googleFonts = responseJson.items.map(font => {
 	const [weights, italics] = font.variants.reduce(
 		(acc, variant) => {
@@ -71,6 +84,7 @@ const googleFonts = responseJson.items.map(font => {
 		collections: [
 			GOOGLE_FONTS_COLLECTION,
 			FREE_OPEN_COLLECTION,
+			FONT_CATEGORY_COLLECTIONS[font.category],
 			...(TYPEWOLF_40_GOOGLE_FONTS.includes(font.family) ? [TYPEWOLF_40_GOOGLE_FONTS_COLLECTION] : []),
 		],
 		href: `https://fonts.googleapis.com/css2?family=${font.family.replace(/ /g, '+')}:ital,wght@${[weights, italics]

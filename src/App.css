@@ -28,7 +28,7 @@
 }
 
 .collection-select {
-	flex-grow: 1;
+	flex: 1 1 0;
 }
 
 input[type='number'] {
@@ -61,6 +61,7 @@ input[type='number'] {
 }
 
 .grid-container {
+	display: flex;
 	flex-grow: 1;
 }
 
@@ -70,10 +71,16 @@ input[type='number'] {
 
 .no-fonts-warning {
 	color: rgba(0, 0, 0, 0.5);
-	font-size: 2em;
+	font-style: italic;
+	justify-self: center;
 	margin: auto;
 	padding-bottom: 2em;
 	text-align: center;
+}
+.no-fonts-warning strong {
+	display: block;
+	font-size: 2em;
+	font-style: normal;
 }
 
 .start-comparison-button {
