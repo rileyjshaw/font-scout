@@ -18,11 +18,3 @@ yarn start
 ## Where is the rest of the documentation?
 
 Sorry, I haven’t written any! [Here’s a quick screen recording of an early version instead.](https://youtu.be/TRGodGOu3Ww)
-
-## Notes to self
-
-Update google_fonts_raw.json with:
-
-```
-https://www.googleapis.com/webfonts/v1/webfonts?sort=popularity&key=${GOOGLE_FONTS_API_KEY}
-```

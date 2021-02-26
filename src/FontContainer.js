@@ -4,6 +4,24 @@ import Select from "react-select";
 
 import "./FontContainer.css";
 
+const FontPreview = ({ font, variant, Preview, ...props }) => (
+  <div className="font-preview-wrapper" {...props}>
+    <pre
+      className={`font-preview${font.marked ? " marked" : ""}`}
+      style={{
+        fontFamily: `"${font.name}"`,
+        fontWeight: variant.weight,
+        fontSize: `${font.sizeOffset}em`,
+        fontStyle: variant.style,
+        fontStretch: variant.stretch,
+      }}
+      title={variant.name}
+    >
+      <Preview />
+    </pre>
+  </div>
+);
+
 const FontContainer = React.memo(function FontContainer({
   font,
   onChangeShowToggle,
@@ -131,23 +149,14 @@ const FontContainer = React.memo(function FontContainer({
           />
         </div>
       )}
-      <div className="font-preview-wrapper">
-        <pre
-          className={`font-preview${font.marked ? " marked" : ""}`}
-          style={{
-            fontFamily: `"${font.name}"`,
-            fontWeight: font.variants[font.activeVariant].weight,
-            fontSize: `${font.sizeOffset}em`,
-            fontStyle: font.variants[font.activeVariant].style,
-            fontStretch: font.variants[font.activeVariant].stretch,
-          }}
-          title={font.variants[font.activeVariant].name}
-        >
-          <Preview />
-        </pre>
-      </div>
+      <FontPreview
+        font={font}
+        variant={font.variants[font.activeVariant]}
+        Preview={Preview}
+      />
     </li>
   );
 });
 
+export { FontPreview };
 export default FontContainer;

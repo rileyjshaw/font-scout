@@ -30,6 +30,7 @@
   border-radius: 12px;
   display: inline-block;
   line-height: 1.7;
+  margin: 0;
   max-width: 100%;
   overflow: auto;
   padding: 48px 24px;

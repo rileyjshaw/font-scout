@@ -1,10 +1,11 @@
 .global-settings {
   border-bottom: 1px solid hsl(0, 0%, 80%);
   box-shadow: 0 -2px 4px hsl(0, 0%, 20%);
-  min-height: 34px;
+  height: 34px;
 }
 
 .global-settings.show-global-settings {
+  height: auto;
   padding-top: 34px;
 }
 
@@ -38,10 +39,6 @@ input[type="number"] {
   padding: 2px 8px;
   min-height: 41px;
   color: hsl(0, 0%, 20%);
-  width: 3em;
-}
-
-input.global-font-weight-input {
   width: 4em;
 }
 
@@ -55,9 +52,10 @@ input.global-font-weight-input {
 .alignment-options {
   border: 0;
   display: flex;
+  padding: 0;
 }
 
-.autosizer-container {
+.grid-container {
   flex-grow: 1;
 }
 

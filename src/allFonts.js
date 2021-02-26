@@ -1,12 +1,11 @@
 import googleFonts from "./googleFonts.js";
 import localFonts from "./localFonts.js";
-
 import {
   REGULAR,
   WEIGHTS,
   STRETCH_ORDER,
   UNCATEGORIZED_COLLECTION,
-} from "./constants";
+} from "./constants.js";
 
 const allFonts = [...googleFonts, ...localFonts]
   .map((font) => ({

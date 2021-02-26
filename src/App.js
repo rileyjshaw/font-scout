@@ -7,6 +7,7 @@ import ComparisonMode from "./ComparisonMode";
 import ExplorationMode from "./ExplorationMode";
 
 import allFonts from "./allFonts";
+import { defaultPreviews } from "./constants";
 
 import "./App.css";
 
@@ -48,19 +49,28 @@ const StyledWrapper = styled.div`
 `;
 
 function App() {
-  const [fonts, setFonts] = useState(allFontsWithIndex);
-  const [previewContent, setPreviewContent] = useState(
-    "The thundering machines sputtered…\n…and stopped."
+  const [
+    [defaultPreviewContent, defaultFontSize, defaultAlignment],
+    setDefaultPreview,
+  ] = useState(
+    () => defaultPreviews[Math.floor(Math.random() * defaultPreviews.length)]
   );
-  const [fontSize, setFontSize] = useState(22);
-  const [alignment, setAlignment] = useState("center");
+  const [fonts, setFonts] = useState(allFontsWithIndex);
+  const [previewContent, setPreviewContent] = useState(null);
+  const [fontSize, setFontSize] = useState(defaultFontSize);
+  const [alignment, setAlignment] = useState(defaultAlignment);
   const [comparisonMode, setComparisonMode] = useState(false);
   const [loadedStylesheets, setLoadedStylesheets] = useState({});
+  function unsetDefaultPreview() {
+    if (defaultPreviewContent)
+      setDefaultPreview(["", defaultFontSize, defaultAlignment]);
+  }
 
   const markedFonts = fonts.filter((font) => font.marked && font.show);
-  const Preview = useMemo(() => getPreviewComponent(previewContent), [
-    previewContent,
-  ]);
+  const Preview = useMemo(
+    () => getPreviewComponent(previewContent ?? defaultPreviewContent),
+    [defaultPreviewContent, previewContent]
+  );
 
   return (
     <HelmetProvider context={helmetContext}>
@@ -89,6 +99,8 @@ function App() {
                 setAlignment={setAlignment}
                 setLoadedStylesheets={setLoadedStylesheets}
                 setFonts={setFonts}
+                defaultPreviewContent={defaultPreviewContent}
+                unsetDefaultPreview={unsetDefaultPreview}
                 previewContent={previewContent}
                 setPreviewContent={setPreviewContent}
                 Preview={Preview}

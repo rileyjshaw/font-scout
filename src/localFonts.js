@@ -13,7 +13,7 @@ import {
   ATIPO_COLLECTION,
   LOCAL_FONTS_COLLECTION,
   FREE_OPEN_COLLECTION,
-} from "./constants";
+} from "./constants.js";
 
 const atipoFonts = [
   {

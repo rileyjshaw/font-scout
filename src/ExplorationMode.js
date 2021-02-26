@@ -1,20 +1,34 @@
-import React, { useCallback, useMemo, useState } from "react";
+import React, {
+  useCallback,
+  useLayoutEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react";
 import Select from "react-select";
 import { FixedSizeGrid as Grid, areEqual } from "react-window";
-import AutoSizer from "react-virtualized-auto-sizer";
+import useResizeObserver from "@react-hook/resize-observer";
 import styled from "styled-components";
 
-import FontContainer from "./FontContainer";
+import FontContainer, { FontPreview } from "./FontContainer";
+import sizeSortedFontVariants from "./size_sorted_font_variants.json";
 
-import { COLLECTION_NAMES, LOCAL_FONTS_COLLECTION } from "./constants";
+import {
+  COLLECTION_NAMES,
+  LOCAL_FONTS_COLLECTION,
+  MIN_COLUMN_WIDTH,
+} from "./constants";
 
-// TODO: add a script to the scraper to measure the widest and tallest fonts,
-// and save them to the constants file. Re-run the script whenever I add new
-// fonts. Calculate row height dynamically by rendering the tallest font (and
-// any other font with a +ve font size offset) in a hidden <pre>. Do the same
-// to calculate how many max-width columns can fit on screen.
-const COLUMN_COUNT = 2;
-const ROW_HEIGHT = 420;
+function setDeepValue(object, value, ...keys) {
+  keys.reduce((branch, key, i, { length }) => {
+    if (i + 1 === length) {
+      branch[key] = Math.max(branch[key] ?? 0, value);
+    } else {
+      branch[key] = branch[key] ?? {};
+    }
+    return branch[key];
+  }, object);
+}
 
 const collectionOptions = Object.entries(COLLECTION_NAMES).map(
   ([value, label]) => ({
@@ -23,10 +37,33 @@ const collectionOptions = Object.entries(COLLECTION_NAMES).map(
   })
 );
 
+const Probe = styled.div`
+  clip-path: inset(50%);
+  clip: rect(0 0 0 0);
+  display: flex;
+  overflow: hidden;
+  pointer-events: none;
+  position: absolute;
+  touch-action: none;
+  white-space: nowrap;
+  width: 1px;
+`;
+
 const StyledTextArea = styled.textarea`
   border: 1px solid hsl(0, 0%, 80%);
   border-radius: 4px;
 `;
+
+function useSize(target) {
+  const [size, setSize] = useState({ width: 0, height: 0 });
+
+  useLayoutEffect(() => {
+    setSize(target.current.getBoundingClientRect());
+  }, [target]);
+
+  useResizeObserver(target, (entry) => setSize(entry.contentRect));
+  return size;
+}
 
 function activeFontsFromCollections(collections, fonts) {
   const activeFonts = fonts.filter((font) =>
@@ -56,6 +93,8 @@ function ExplorationMode({
   setFontSize,
   alignment,
   setAlignment,
+  defaultPreviewContent,
+  unsetDefaultPreview,
   previewContent,
   setPreviewContent,
   Preview,
@@ -69,8 +108,14 @@ function ExplorationMode({
   const [activeFonts, setActiveFonts] = useState(() =>
     activeFontsFromCollections([LOCAL_FONTS_COLLECTION], allFontsWithIndex)
   );
+  const gridRef = useRef(null);
+  const probeRef = useRef(null);
+  const { height: probeHeight } = useSize(probeRef);
+  const { width: gridWidth, height: gridHeight } = useSize(gridRef);
 
-  const visibleFonts = useMemo(() => {
+  const columnCount = Math.max(Math.floor(gridWidth / MIN_COLUMN_WIDTH), 1);
+
+  const [visibleFonts, bigFonts] = useMemo(() => {
     const [selectedFonts, unselectedFonts] = activeFonts
       ? fonts
           .filter((font) => activeFonts[font.name])
@@ -83,8 +128,76 @@ function ExplorationMode({
             [[], []]
           )
       : [[], []];
-    return configMode ? [...selectedFonts, ...unselectedFonts] : selectedFonts;
-  }, [activeFonts, configMode, fonts]);
+    const visibleFonts = configMode
+      ? [...selectedFonts, ...unselectedFonts]
+      : selectedFonts;
+    const visibleFontNames = visibleFonts.reduce((acc, font) => {
+      acc[font.name] = true;
+      return acc;
+    }, {});
+
+    const bigFontMap = {};
+    const hrefs = {};
+    Object.values(sizeSortedFontVariants).forEach((sortedList) => {
+      for (const { name, href, variant } of sortedList) {
+        if (visibleFontNames[name]) {
+          if (href) hrefs[name] = href;
+          setDeepValue(
+            bigFontMap,
+            1,
+            name,
+            variant.weight,
+            variant.style,
+            variant.stretch
+          );
+          break;
+        }
+      }
+    });
+    visibleFonts
+      .filter((font) => font.sizeOffset > 1)
+      .forEach((offsetFont) => {
+        Object.values(sizeSortedFontVariants).forEach((sortedList) => {
+          const { variant: biggestVariant } = sortedList.find(
+            (font) => font.name === offsetFont.name
+          );
+          if (biggestVariant) {
+            if (offsetFont.href) hrefs[offsetFont.name] = offsetFont.href;
+            setDeepValue(
+              bigFontMap,
+              offsetFont.sizeOffset,
+              offsetFont.name,
+              biggestVariant.weight,
+              biggestVariant.style,
+              biggestVariant.stretch
+            );
+          }
+        });
+      });
+
+    setLoadedStylesheets((prevLoadedStylesheets) => {
+      const unloadedFonts = Object.entries(hrefs).filter(
+        ([name]) => !prevLoadedStylesheets[name]
+      );
+      if (!unloadedFonts.length) return prevLoadedStylesheets;
+      const loadedStylesheets = { ...prevLoadedStylesheets };
+      unloadedFonts.forEach(([name, href]) => (loadedStylesheets[name] = href));
+      return loadedStylesheets;
+    });
+
+    const bigFonts = Object.entries(bigFontMap).flatMap(([name, _obj1]) =>
+      Object.entries(_obj1).flatMap(([weight, _obj2]) =>
+        Object.entries(_obj2).flatMap(([style, _obj3]) =>
+          Object.entries(_obj3).map(([stretch, sizeOffset]) => ({
+            font: { name, sizeOffset },
+            variant: { weight, style, stretch },
+          }))
+        )
+      )
+    );
+
+    return [visibleFonts, bigFonts];
+  }, [activeFonts, configMode, fonts, setLoadedStylesheets]);
 
   const onChangeShowToggle = useCallback(
     (checked, font) => {
@@ -149,7 +262,7 @@ function ExplorationMode({
 
   const itemData = useMemo(
     () => ({
-      columnCount: COLUMN_COUNT,
+      columnCount,
       onChangeMarkedToggle,
       onChangeSelect,
       onChangeShowToggle,
@@ -160,6 +273,7 @@ function ExplorationMode({
       visibleFonts,
     }),
     [
+      columnCount,
       configMode,
       onChangeMarkedToggle,
       onChangeSelect,
@@ -233,8 +347,12 @@ function ExplorationMode({
             <StyledTextArea
               rows={3}
               className="preview-text-input"
-              value={previewContent}
-              onChange={(e) => setPreviewContent(e.target.value)}
+              value={previewContent ?? ""}
+              placeholder={defaultPreviewContent}
+              onChange={(e) => {
+                setPreviewContent(e.target.value);
+                unsetDefaultPreview();
+              }}
             />
             <fieldset className="alignment-options">
               Align:&nbsp;
@@ -304,24 +422,35 @@ function ExplorationMode({
 
       {activeFonts ? (
         <>
+          <Probe aria-hidden="true" ref={probeRef}>
+            {bigFonts.map((font, i) => (
+              <FontPreview
+                key={i}
+                font={font.font}
+                variant={font.variant}
+                Preview={Preview}
+                style={{
+                  width: gridWidth / columnCount,
+                  flexShrink: 0,
+                  flexGrow: 0,
+                }}
+              />
+            ))}
+          </Probe>
           {!!visibleFonts.length && (
-            <div className="autosizer-container">
-              <AutoSizer>
-                {({ height, width }) => (
-                  <Grid
-                    className="font-containers"
-                    columnCount={COLUMN_COUNT}
-                    columnWidth={width / COLUMN_COUNT}
-                    rowCount={Math.ceil(visibleFonts.length / COLUMN_COUNT)}
-                    rowHeight={ROW_HEIGHT}
-                    height={height}
-                    width={width}
-                    itemData={itemData}
-                  >
-                    {GridCell}
-                  </Grid>
-                )}
-              </AutoSizer>
+            <div className="grid-container" ref={gridRef}>
+              <Grid
+                className="font-containers"
+                columnCount={columnCount}
+                columnWidth={gridWidth / columnCount}
+                rowCount={Math.ceil(visibleFonts.length / columnCount)}
+                rowHeight={probeHeight + 80}
+                height={gridHeight}
+                width={gridWidth}
+                itemData={itemData}
+              >
+                {GridCell}
+              </Grid>
             </div>
           )}
         </>

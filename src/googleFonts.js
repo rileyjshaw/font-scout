@@ -4,7 +4,7 @@ import {
   GOOGLE_FONTS_COLLECTION,
   TYPEWOLF_40_GOOGLE_FONTS_COLLECTION,
   FREE_OPEN_COLLECTION,
-} from "./constants";
+} from "./constants.js";
 import responseJson from "./google_fonts_raw.json";
 
 const TYPEWOLF_40_GOOGLE_FONTS = [
@@ -80,7 +80,7 @@ const googleFonts = responseJson.items.map((font) => {
       "+"
     )}:ital,wght@${[weights, italics]
       .flatMap((arr, i) => arr.map((symbol) => `${i},${WEIGHTS[symbol].value}`))
-      .join(";")}`, // Note: More options can be added, eg. &display=block
+      .join(";")}&display=block`,
   };
 });
 

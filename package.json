@@ -2,22 +2,26 @@
   "name": "font-previews",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "dependencies": {
     "@react-hook/hover": "^4.0.0",
+    "@react-hook/resize-observer": "^1.2.0",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",
+    "dotenv": "^8.2.0",
     "husky": "^4.3.8",
     "lint-staged": "^10.5.3",
     "prettier": "^2.2.1",
+    "puppeteer": "^7.1.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-helmet-async": "^1.0.7",
     "react-scripts": "4.0.1",
     "react-select": "^4.0.2",
     "react-use-keypress": "^1.2.0",
-    "react-virtualized-auto-sizer": "^1.0.4",
     "react-window": "^1.8.6",
+    "request-promise-native": "^1.0.9",
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
@@ -26,7 +30,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\""
+    "lint": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "update-fonts": "node --experimental-json-modules --no-warnings ./updateFonts.js && yarn lint"
   },
   "eslintConfig": {
     "extends": [
