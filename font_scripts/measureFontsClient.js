@@ -1,24 +1,27 @@
 const notice = document.createElement('p');
-notice.innerText = 'Measuring fonts; keep this window open.'
+notice.innerText = 'Measuring fonts; keep this window open.';
 Object.assign(notice.style, {
 	position: 'fixed',
 	top: '50%',
 	left: '50%',
 	transform: 'translate(-50%, -50%)',
-	font: 'normal normal normal normal 1em -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
+	font:
+		'normal normal normal normal 1em -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
 });
 document.body.append(notice);
 
-const alphabet = Array.from({length: 26}, (_, i) => [String.fromCharCode(65 + i), String.fromCharCode(97 + i)]).flat().concat(Array.from({length: 10}, (_, i) => i));
+const alphabet = Array.from({ length: 26 }, (_, i) => [String.fromCharCode(65 + i), String.fromCharCode(97 + i)])
+	.flat()
+	.concat(Array.from({ length: 10 }, (_, i) => i));
 const [widthProbe, heightProbe] = [
 	alphabet.flatMap(letter1 => alphabet.map(letter2 => `${letter1}${letter2}`).join('')).join(''),
-	alphabet.join('\n')
+	alphabet.join('\n'),
 ].map(textContent => {
 	const probe = document.createElement('div');
 	probe.textContent = textContent;
 	Object.assign(probe.style, {
-		display: "inline-block",
-		whiteSpace: "pre",
+		display: 'inline-block',
+		whiteSpace: 'pre',
 	});
 	document.body.append(probe);
 	return probe;
@@ -48,7 +51,7 @@ document.fonts.ready.then(async () => {
 				fontStyle: variant.style,
 				fontWeight: variant.weight,
 				fontStretch: variant.stretch,
-				overflow: "visible",
+				overflow: 'visible',
 			};
 			Object.assign(document.body.style, style);
 			await new Promise(r => setTimeout(r, 400));
@@ -77,9 +80,9 @@ document.fonts.ready.then(async () => {
 	}
 
 	const allFontsSorted = ['width', 'height', 'size'].reduce((acc, property) => {
-		acc[property] = unsortedBestVariants.sort(
-			(a, b) => b.bestVariants[property].value - a.bestVariants[property].value
-		).map(font => ({
+		acc[property] = unsortedBestVariants
+			.sort((a, b) => b.bestVariants[property].value - a.bestVariants[property].value)
+			.map(font => ({
 				name: font.name,
 				href: font.href,
 				variant: font.bestVariants[property].variant,
@@ -91,7 +94,7 @@ document.fonts.ready.then(async () => {
 		method: 'POST',
 		cache: 'no-cache',
 		headers: {
-		  'Content-Type': 'application/json'
+			'Content-Type': 'application/json',
 		},
 		body: JSON.stringify(allFontsSorted),
 	});

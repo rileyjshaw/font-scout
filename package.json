@@ -30,7 +30,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "lint": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+    "lint": "prettier --write \"{font_scripts,src}/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
     "update-fonts": "node --experimental-json-modules --no-warnings ./updateFonts.js && yarn lint"
   },
   "eslintConfig": {
@@ -38,6 +38,12 @@
       "react-app",
       "react-app/jest"
     ]
+  },
+  "prettier": {
+    "arrowParens": "avoid",
+    "printWidth": 120,
+    "singleQuote": true,
+    "useTabs": true
   },
   "husky": {
     "hooks": {
