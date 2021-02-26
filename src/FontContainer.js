@@ -4,23 +4,29 @@ import Select from 'react-select';
 
 import './FontContainer.css';
 
-const FontPreview = ({ font, variant, Preview, ...props }) => (
-	<div className="font-preview-wrapper" {...props}>
-		<pre
-			className={`font-preview${font.marked ? ' marked' : ''}`}
-			style={{
-				fontFamily: `"${font.name}"`,
-				fontWeight: variant.weight,
-				fontSize: `${font.sizeOffset}em`,
-				fontStyle: variant.style,
-				fontStretch: variant.stretch,
-			}}
-			title={variant.name}
-		>
-			<Preview />
-		</pre>
-	</div>
-);
+const FontPreview = ({ font, variant, Preview, loadFont, ...props }) => {
+	useEffect(() => {
+		if (loadFont) loadFont(font);
+	}, [font, loadFont]);
+
+	return (
+		<div className="font-preview-wrapper" {...props}>
+			<pre
+				className={`font-preview${font.marked ? ' marked' : ''}`}
+				style={{
+					fontFamily: `"${font.name}"`,
+					fontWeight: variant.weight,
+					fontSize: `${font.sizeOffset}em`,
+					fontStyle: variant.style,
+					fontStretch: variant.stretch,
+				}}
+				title={variant.name}
+			>
+				<Preview />
+			</pre>
+		</div>
+	);
+};
 
 const FontContainer = React.memo(function FontContainer({
 	font,
@@ -29,7 +35,7 @@ const FontContainer = React.memo(function FontContainer({
 	onChangeSizeOffset,
 	onChangeSelect,
 	Preview,
-	setLoadedStylesheets,
+	loadFont,
 	showSettings,
 	style,
 }) {
@@ -40,18 +46,6 @@ const FontContainer = React.memo(function FontContainer({
 		value: i,
 		label: `${variant.name}`,
 	}));
-
-	useEffect(() => {
-		if (font.href) {
-			setLoadedStylesheets(prevLoadedStylesheets => {
-				if (prevLoadedStylesheets[font.name]) return prevLoadedStylesheets;
-				return {
-					...prevLoadedStylesheets,
-					[font.name]: font.href,
-				};
-			});
-		}
-	}, [font, setLoadedStylesheets]);
 
 	return (
 		<li ref={ref} className="font-container" style={style}>
@@ -125,7 +119,7 @@ const FontContainer = React.memo(function FontContainer({
 					<label htmlFor={`marked-font-toggle-hover-${font.name.toLowerCase().replace(/[ _]/g, '-')}`} />
 				</div>
 			)}
-			<FontPreview font={font} variant={font.variants[font.activeVariant]} Preview={Preview} />
+			<FontPreview font={font} variant={font.variants[font.activeVariant]} Preview={Preview} loadFont={loadFont} />
 		</li>
 	);
 });

@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+import { useCallback, useMemo, useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import styled, { createGlobalStyle } from 'styled-components';
 
@@ -60,9 +60,25 @@ function App() {
 	const [alignment, setAlignment] = useState(defaultAlignment);
 	const [comparisonMode, setComparisonMode] = useState(false);
 	const [loadedStylesheets, setLoadedStylesheets] = useState({});
-	function unsetDefaultPreview() {
+
+	const loadFont = useCallback(
+		font => {
+			if (font.href) {
+				setLoadedStylesheets(prevLoadedStylesheets => {
+					if (prevLoadedStylesheets[font.name]) return prevLoadedStylesheets;
+					return {
+						...prevLoadedStylesheets,
+						[font.name]: font.href,
+					};
+				});
+			}
+		},
+		[setLoadedStylesheets]
+	);
+
+	const unsetDefaultPreview = useCallback(() => {
 		if (defaultPreviewContent) setDefaultPreview(['', defaultFontSize, defaultAlignment]);
-	}
+	}, [defaultAlignment, defaultFontSize, defaultPreviewContent]);
 
 	const markedFonts = fonts.filter(font => font.marked && font.show);
 	const Preview = useMemo(() => getPreviewComponent(previewContent ?? defaultPreviewContent), [
@@ -93,7 +109,7 @@ function App() {
 								setLineHeight={setLineHeight}
 								alignment={alignment}
 								setAlignment={setAlignment}
-								setLoadedStylesheets={setLoadedStylesheets}
+								loadFont={loadFont}
 								setFonts={setFonts}
 								defaultPreviewContent={defaultPreviewContent}
 								unsetDefaultPreview={unsetDefaultPreview}

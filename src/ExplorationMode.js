@@ -1,4 +1,4 @@
-import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
+import React, { useCallback, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import Select from 'react-select';
 import { FixedSizeGrid as Grid, areEqual } from 'react-window';
 import useResizeObserver from '@react-hook/resize-observer';
@@ -87,7 +87,7 @@ function ExplorationMode({
 	previewContent,
 	setPreviewContent,
 	Preview,
-	setLoadedStylesheets,
+	loadFont,
 	setFonts,
 	fonts,
 	allFontsWithIndex,
@@ -104,20 +104,6 @@ function ExplorationMode({
 		() => activeFontsFromCollections(includedCollections, excludedCollections, allFontsWithIndex),
 		[allFontsWithIndex, excludedCollections, includedCollections]
 	);
-	useEffect(() => {
-		setLoadedStylesheets(prevLoadedStylesheets => {
-			const unloadedFonts = Object.values(activeFonts)
-				.filter(font => font.href && !prevLoadedStylesheets[font.name])
-				// Only load the first few unloaded remote fonts; anything
-				// else might slow down the initial render. Subsequent
-				// fonts are loaded when their containers render.
-				.slice(0, 8);
-			if (!unloadedFonts.length) return prevLoadedStylesheets;
-			const loadedStylesheets = { ...prevLoadedStylesheets };
-			unloadedFonts.forEach(font => (loadedStylesheets[font.name] = font.href));
-			return loadedStylesheets;
-		});
-	}, [activeFonts, setLoadedStylesheets]);
 
 	const columnCount = Math.max(Math.floor(gridWidth / MIN_COLUMN_WIDTH), 1);
 
@@ -141,12 +127,11 @@ function ExplorationMode({
 		}, {});
 
 		const bigFontMap = {};
-		const hrefs = {};
 		Object.values(sizeSortedFontVariants).forEach(sortedList => {
 			for (const { name, href, variant } of sortedList) {
 				if (visibleFontNames[name]) {
-					if (href) hrefs[name] = href;
-					setDeepValue(bigFontMap, 1, name, variant.weight, variant.style, variant.stretch);
+					setDeepValue(bigFontMap, 1, name, 'variants', variant.weight, variant.style, variant.stretch);
+					if (href) bigFontMap[name].href = href;
 					break;
 				}
 			}
@@ -157,32 +142,25 @@ function ExplorationMode({
 				Object.values(sizeSortedFontVariants).forEach(sortedList => {
 					const { variant: biggestVariant } = sortedList.find(font => font.name === offsetFont.name);
 					if (biggestVariant) {
-						if (offsetFont.href) hrefs[offsetFont.name] = offsetFont.href;
 						setDeepValue(
 							bigFontMap,
 							offsetFont.sizeOffset,
 							offsetFont.name,
+							'variants',
 							biggestVariant.weight,
 							biggestVariant.style,
 							biggestVariant.stretch
 						);
+						if (offsetFont.href) bigFontMap[offsetFont.name].href = offsetFont.href;
 					}
 				});
 			});
 
-		setLoadedStylesheets(prevLoadedStylesheets => {
-			const unloadedFonts = Object.entries(hrefs).filter(([name]) => !prevLoadedStylesheets[name]);
-			if (!unloadedFonts.length) return prevLoadedStylesheets;
-			const loadedStylesheets = { ...prevLoadedStylesheets };
-			unloadedFonts.forEach(([name, href]) => (loadedStylesheets[name] = href));
-			return loadedStylesheets;
-		});
-
-		const bigFonts = Object.entries(bigFontMap).flatMap(([name, _obj1]) =>
-			Object.entries(_obj1).flatMap(([weight, _obj2]) =>
+		const bigFonts = Object.entries(bigFontMap).flatMap(([name, { href, variants }]) =>
+			Object.entries(variants).flatMap(([weight, _obj2]) =>
 				Object.entries(_obj2).flatMap(([style, _obj3]) =>
 					Object.entries(_obj3).map(([stretch, sizeOffset]) => ({
-						font: { name, sizeOffset },
+						font: { name, href, sizeOffset },
 						variant: { weight, style, stretch },
 					}))
 				)
@@ -190,7 +168,7 @@ function ExplorationMode({
 		);
 
 		return [visibleFonts, bigFonts];
-	}, [activeFonts, configMode, fonts, setLoadedStylesheets]);
+	}, [activeFonts, configMode, fonts]);
 
 	const onChangeShowToggle = useCallback(
 		(checked, font) => {
@@ -261,7 +239,7 @@ function ExplorationMode({
 			onChangeShowToggle,
 			onChangeSizeOffset,
 			Preview,
-			setLoadedStylesheets,
+			loadFont,
 			showSettings: configMode,
 			visibleFonts,
 		}),
@@ -273,7 +251,7 @@ function ExplorationMode({
 			onChangeShowToggle,
 			onChangeSizeOffset,
 			Preview,
-			setLoadedStylesheets,
+			loadFont,
 			visibleFonts,
 		]
 	);
@@ -406,6 +384,7 @@ function ExplorationMode({
 						font={font.font}
 						variant={font.variant}
 						Preview={Preview}
+						loadFont={loadFont}
 						style={{
 							width: gridWidth / columnCount,
 							flexShrink: 0,
