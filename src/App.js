@@ -41,6 +41,7 @@ const allFontsWithIndex = allFonts.map((font, i) => ({
 
 const StyledWrapper = styled.div`
   --font-preview-size: ${(props) => props.size}px;
+  --font-preview-line-height: ${(props) => props.lineHeight};
   --font-preview-align: ${(props) => props.align};
   height: 100%;
   width: 100%;
@@ -58,6 +59,7 @@ function App() {
   const [fonts, setFonts] = useState(allFontsWithIndex);
   const [previewContent, setPreviewContent] = useState(null);
   const [fontSize, setFontSize] = useState(defaultFontSize);
+  const [lineHeight, setLineHeight] = useState(1.7);
   const [alignment, setAlignment] = useState(defaultAlignment);
   const [comparisonMode, setComparisonMode] = useState(false);
   const [loadedStylesheets, setLoadedStylesheets] = useState({});
@@ -76,7 +78,12 @@ function App() {
     <HelmetProvider context={helmetContext}>
       <>
         <GlobalStyles />
-        <StyledWrapper className="app" size={fontSize} align={alignment}>
+        <StyledWrapper
+          className="app"
+          size={fontSize}
+          lineHeight={lineHeight}
+          align={alignment}
+        >
           <Helmet>
             {Object.entries(loadedStylesheets).map(([name, href]) => (
               <link key={name} href={href} rel="stylesheet" type="text/css" />
@@ -95,6 +102,8 @@ function App() {
                 fonts={fonts}
                 fontSize={fontSize}
                 setFontSize={setFontSize}
+                lineHeight={lineHeight}
+                setLineHeight={setLineHeight}
                 alignment={alignment}
                 setAlignment={setAlignment}
                 setLoadedStylesheets={setLoadedStylesheets}

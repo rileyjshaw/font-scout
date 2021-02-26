@@ -91,6 +91,8 @@ areEqual);
 function ExplorationMode({
   fontSize,
   setFontSize,
+  lineHeight,
+  setLineHeight,
   alignment,
   setAlignment,
   defaultPreviewContent,
@@ -305,11 +307,20 @@ function ExplorationMode({
             <label>
               Font size:
               <input
-                className="global-font-size-input"
                 type="number"
                 min={1}
                 value={fontSize}
                 onChange={(e) => setFontSize(+e.target.value)}
+              />
+            </label>
+            <label>
+              Line height:
+              <input
+                type="number"
+                min={0}
+                step={0.05}
+                value={lineHeight}
+                onChange={(e) => setLineHeight(+e.target.value)}
               />
             </label>
             <label>

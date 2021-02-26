@@ -42,6 +42,11 @@ input[type="number"] {
   width: 4em;
 }
 
+.global-settings input[type="number"] {
+  display: block;
+  margin: 8px 0 0;
+}
+
 .preview-text-input {
   flex-grow: 1;
   font: inherit;

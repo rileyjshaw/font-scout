@@ -29,7 +29,7 @@
 .font-preview {
   border-radius: 12px;
   display: inline-block;
-  line-height: 1.7;
+  line-height: var(--font-preview-line-height);
   margin: 0;
   max-width: 100%;
   overflow: auto;
