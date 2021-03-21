@@ -1,10 +1,20 @@
 const notice = document.createElement('p');
-notice.innerText = 'Measuring fonts; keep this window open.';
+const fontFamily = document.createElement('span');
+const progress = document.createElement('span');
+fontFamily.textContent = '(waiting)';
+progress.textContent = '0';
+notice.append('Keep open. Measuring ');
+notice.append(fontFamily);
+notice.append('; ');
+notice.append(progress);
+notice.append('%');
 Object.assign(notice.style, {
 	position: 'fixed',
 	top: '50%',
 	left: '50%',
+	width: '100%',
 	transform: 'translate(-50%, -50%)',
+	textAlign: 'center',
 	font:
 		'normal normal normal normal 1em -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
 });
@@ -27,8 +37,10 @@ const [widthProbe, heightProbe] = [
 	return probe;
 });
 
+const nVariants = allFonts.reduce((acc, font) => acc + font.variants.length, 0);
 document.fonts.ready.then(async () => {
 	const unsortedBestVariants = [];
+	let variantIdx = 0;
 	for (const font of allFonts) {
 		const bestVariants = {
 			width: {
@@ -44,16 +56,17 @@ document.fonts.ready.then(async () => {
 				variant: null,
 			},
 		};
-
+		fontFamily.textContent = font.name;
 		for (const variant of font.variants) {
 			const style = {
 				fontFamily: font.name,
 				fontStyle: variant.style,
 				fontWeight: variant.weight,
 				fontStretch: variant.stretch,
-				overflow: 'visible',
+				overflow: 'hidden',
 			};
 			Object.assign(document.body.style, style);
+			progress.textContent = Math.round((++variantIdx / nVariants) * 100);
 			await new Promise(r => setTimeout(r, 400));
 			const width = widthProbe.getBoundingClientRect().width;
 			const height = heightProbe.getBoundingClientRect().height;
