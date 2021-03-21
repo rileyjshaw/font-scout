@@ -1,6 +1,7 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs';
 import http from 'http';
+import stableStringify from 'json-stable-stringify';
 
 async function measureFonts(__dirname) {
 	const { default: allFonts } = await import('../src/allFonts.js');
@@ -42,7 +43,7 @@ async function measureFonts(__dirname) {
 								});
 								req.on('end', async function () {
 									const result = JSON.parse(body);
-									fs.writeFileSync('./src/size_sorted_font_variants.json', JSON.stringify(result, null, '\t'));
+									fs.writeFileSync('./src/size_sorted_font_variants.json', stableStringify(result, {space: '\t'}));
 									res.writeHead(200);
 									res.end();
 									await browser.close();
