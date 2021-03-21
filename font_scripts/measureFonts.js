@@ -44,7 +44,7 @@ const measureFonts = __dirname =>
 								});
 								req.on('end', async function () {
 									const result = JSON.parse(body);
-									fs.writeFileSync('./src/size_sorted_font_variants.json', JSON.stringify(result));
+									fs.writeFileSync('./src/size_sorted_font_variants.json', JSON.stringify(result, null, '\t'));
 									res.writeHead(200);
 									res.end();
 									await browser.close();
