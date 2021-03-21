@@ -17,6 +17,7 @@ import {
 	MONOSPACE_COLLECTION,
 	SANS_SERIF_COLLECTION,
 	SERIF_COLLECTION,
+	SYSTEM_FONTS_COLLECTION,
 } from './constants.js';
 
 const atipoFonts = [
@@ -339,7 +340,73 @@ const freeOpenFonts = [
 	collections: [...(font.collections ?? []), FREE_OPEN_COLLECTION],
 }));
 
-const localFonts = [...atipoFonts, ...freeOpenFonts].map(font => ({
+const systemFonts = [
+	{
+		name: 'Times New Roman',
+		weights: [REGULAR, BOLD],
+		italics: true,
+		collections: [SERIF_COLLECTION],
+	},
+	{
+		name: 'Georgia',
+		weights: [REGULAR, BOLD],
+		italics: true,
+		collections: [SERIF_COLLECTION],
+	},
+	{
+		name: 'Charter',
+		weights: [REGULAR, BOLD, BLACK],
+		italics: true,
+		collections: [SERIF_COLLECTION],
+	},
+	{
+		name: 'Palatino',
+		weights: [REGULAR, BOLD],
+		italics: true,
+		collections: [SERIF_COLLECTION],
+	},
+	{
+		name: 'Arial',
+		weights: [REGULAR, BOLD],
+		italics: true,
+		collections: [SANS_SERIF_COLLECTION],
+	},
+	{
+		name: 'Verdana',
+		weights: [REGULAR, BOLD],
+		italics: true,
+		collections: [SANS_SERIF_COLLECTION],
+	},
+	{
+		name: 'Tahoma',
+		weights: [REGULAR, BOLD],
+		italics: false,
+		collections: [SANS_SERIF_COLLECTION],
+	},
+	{
+		name: 'Trebuchet MS',
+		weights: [REGULAR, BOLD],
+		italics: true,
+		collections: [SANS_SERIF_COLLECTION],
+	},
+	{
+		name: 'Courier New',
+		weights: [REGULAR, BOLD],
+		italics: true,
+		collections: [MONOSPACE_COLLECTION],
+	},
+	{
+		name: 'Arial Black',
+		weights: [BOLD],
+		italics: false,
+		collections: [DISPLAY_COLLECTION],
+	},
+].map(font => ({
+	...font,
+	collections: [...(font.collections ?? []), SYSTEM_FONTS_COLLECTION],
+}));
+
+const localFonts = [...atipoFonts, ...freeOpenFonts, ...systemFonts].map(font => ({
 	...font,
 	collections: [...(font.collections ?? []), LOCAL_FONTS_COLLECTION],
 }));
