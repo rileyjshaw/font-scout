@@ -2,12 +2,10 @@ import puppeteer from 'puppeteer';
 import fs from 'fs';
 import http from 'http';
 
-import allFonts from '../src/allFonts.js';
-
-const remoteFonts = allFonts.filter(font => font.href);
-
-const measureFonts = __dirname =>
-	new Promise((resolve, reject) => {
+async function measureFonts(__dirname) {
+	const { default: allFonts } = await import('../src/allFonts.js');
+	const remoteFonts = allFonts.filter(font => font.href);
+	return new Promise((resolve, reject) => {
 		let browser;
 		http
 			.createServer(function (req, res) {
@@ -68,10 +66,13 @@ const measureFonts = __dirname =>
 			browser = await puppeteer.launch({
 				headless: false,
 				executablePath: '/Applications/Google Chrome.app/Contents/MacOS/Google Chrome',
+				defaultViewport: null,
+				args: ['--window-size=400,400'],
 			});
 			const page = await browser.newPage();
 			await page.goto('http://localhost:5678');
 		})();
 	});
+}
 
 export default measureFonts;

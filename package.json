@@ -32,7 +32,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "lint": "prettier --write \"{font_scripts,src}/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
-    "update-fonts": "node --experimental-json-modules --no-warnings ./updateFonts.js && yarn lint"
+    "update-fonts": "caffeinate -i node --experimental-json-modules --no-warnings ./updateFonts.js && yarn lint"
   },
   "eslintConfig": {
     "extends": [
