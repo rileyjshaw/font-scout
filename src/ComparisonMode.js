@@ -13,7 +13,7 @@ function ComparisonMode({ markedFonts, Preview, setComparisonMode }) {
 		setComparisonIdx(i => (markedFonts.length + (i - 1)) % markedFonts.length);
 	});
 	useKeypress('ArrowRight', () => {
-		setComparisonIdx(i => (markedFonts.length + (i - 1)) % markedFonts.length);
+		setComparisonIdx(i => (i + 1) % markedFonts.length);
 	});
 
 	const comparisonFont = markedFonts[comparisonIdx];
