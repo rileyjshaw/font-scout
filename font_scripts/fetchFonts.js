@@ -7,7 +7,7 @@ const url = `https://www.googleapis.com/webfonts/v1/webfonts?sort=alpha&key=${pr
 
 async function fetchFonts() {
 	const response = await request(url);
-	fs.writeFileSync('./src/google_fonts_raw.json', stableStringify(JSON.parse(response), {space: '\t'}));
+	fs.writeFileSync('./src/google_fonts_raw.json', stableStringify(JSON.parse(response), { space: '\t' }));
 }
 
 export default fetchFonts;
