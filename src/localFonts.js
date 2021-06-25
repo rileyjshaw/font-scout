@@ -221,6 +221,12 @@ const atipoFonts = [
 		collections: [MONOSPACE_COLLECTION],
 	},
 	{
+		name: 'Strawford',
+		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, BLACK],
+		italics: true,
+		collections: [SANS_SERIF_COLLECTION],
+	},
+	{
 		name: 'Wotfard',
 		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
 		italics: true,

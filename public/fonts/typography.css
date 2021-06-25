@@ -2028,6 +2028,137 @@
 
 /******************************************************************************
  *
+ * Strawford font family.
+ *
+ *****************************************************************************/
+ @font-face {
+	font-family: 'Strawford';
+	src: url('strawford-thin-webfont.woff2') format('woff2'),
+		 url('strawford-thin-webfont.woff') format('woff'),
+		 url('strawford-thin-webfont.ttf') format('truetype');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Strawford';
+	src: url('strawford-thinitalic-webfont.woff2') format('woff2'),
+		 url('strawford-thinitalic-webfont.woff') format('woff'),
+		 url('strawford-thinitalic-webfont.ttf') format('truetype');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Strawford';
+	src: url('strawford-extralight-webfont.woff2') format('woff2'),
+		 url('strawford-extralight-webfont.woff') format('woff'),
+		 url('strawford-extralight-webfont.ttf') format('truetype');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Strawford';
+	src: url('strawford-extralightitalic-webfont.woff2') format('woff2'),
+		 url('strawford-extralightitalic-webfont.woff') format('woff'),
+		 url('strawford-extralightitalic-webfont.ttf') format('truetype');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Strawford';
+	src: url('strawford-light-webfont.woff2') format('woff2'),
+		 url('strawford-light-webfont.woff') format('woff'),
+		 url('strawford-light-webfont.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Strawford';
+	src: url('strawford-lightitalic-webfont.woff2') format('woff2'),
+	url('strawford-lightitalic-webfont.woff') format('woff'),
+	url('strawford-lightitalic-webfont.ttf') format('truetype');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Strawford';
+	src: url('strawford-regular-webfont.woff2') format('woff2'),
+		 url('strawford-regular-webfont.woff') format('woff'),
+		 url('strawford-regular-webfont.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Strawford';
+	src: url('strawford-regularitalic-webfont.woff2') format('woff2'),
+		 url('strawford-regularitalic-webfont.woff') format('woff'),
+		 url('strawford-regularitalic-webfont.ttf') format('truetype');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Strawford';
+	src: url('strawford-medium-webfont.woff2') format('woff2'),
+		 url('strawford-medium-webfont.woff') format('woff'),
+		 url('strawford-medium-webfont.ttf') format('truetype');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Strawford';
+	src: url('strawford-mediumitalic-webfont.woff2') format('woff2'),
+		 url('strawford-mediumitalic-webfont.woff') format('woff'),
+		 url('strawford-mediumitalic-webfont.ttf') format('truetype');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Strawford';
+	src: url('strawford-bold-webfont.woff2') format('woff2'),
+		 url('strawford-bold-webfont.woff') format('woff'),
+		 url('strawford-bold-webfont.ttf') format('truetype');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Strawford';
+	src: url('strawford-bolditalic-webfont.woff2') format('woff2'),
+		 url('strawford-bolditalic-webfont.woff') format('woff'),
+		 url('strawford-bolditalic-webfont.ttf') format('truetype');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Strawford';
+	src: url('strawford-black-webfont.woff2') format('woff2'),
+		 url('strawford-black-webfont.woff') format('woff'),
+		 url('strawford-black-webfont.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Strawford';
+	src: url('strawford-blackitalic-webfont.woff2') format('woff2'),
+		 url('strawford-blackitalic-webfont.woff') format('woff'),
+		 url('strawford-blackitalic-webfont.ttf') format('truetype');
+	font-weight: 900;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Wotfard font family.
  *
  *****************************************************************************/
