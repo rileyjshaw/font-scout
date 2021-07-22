@@ -18,8 +18,8 @@
 @font-face {
   font-family: 'Archia';
   src: url('archia-thin-webfont.woff2') format('woff2'),
-    url('archia-thin-webfont.woff') format('woff'),
-    url('archia-thin-webfont.ttf') format('truetype');
+       url('archia-thin-webfont.woff') format('woff'),
+       url('archia-thin-webfont.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
@@ -27,8 +27,8 @@
 @font-face {
   font-family: 'Archia';
   src: url('archia-light-webfont.woff2') format('woff2'),
-    url('archia-light-webfont.woff') format('woff'),
-    url('archia-light-webfont.ttf') format('truetype');
+       url('archia-light-webfont.woff') format('woff'),
+       url('archia-light-webfont.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
@@ -36,8 +36,8 @@
 @font-face {
   font-family: 'Archia';
   src: url('archia-regular-webfont.woff2') format('woff2'),
-    url('archia-regular-webfont.woff') format('woff'),
-    url('archia-regular-webfont.ttf') format('truetype');
+       url('archia-regular-webfont.woff') format('woff'),
+       url('archia-regular-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -45,8 +45,8 @@
 @font-face {
   font-family: 'Archia';
   src: url('archia-medium-webfont.woff2') format('woff2'),
-    url('archia-medium-webfont.woff') format('woff'),
-    url('archia-medium-webfont.ttf') format('truetype');
+       url('archia-medium-webfont.woff') format('woff'),
+       url('archia-medium-webfont.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
 }
@@ -54,8 +54,8 @@
 @font-face {
   font-family: 'Archia';
   src: url('archia-semibold-webfont.woff2') format('woff2'),
-    url('archia-semibold-webfont.woff') format('woff'),
-    url('archia-semibold-webfont.ttf') format('truetype');
+       url('archia-semibold-webfont.woff') format('woff'),
+       url('archia-semibold-webfont.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
 }
@@ -63,8 +63,8 @@
 @font-face {
   font-family: 'Archia';
   src: url('archia-bold-webfont.woff2') format('woff2'),
-    url('archia-bold-webfont.woff') format('woff'),
-    url('archia-bold-webfont.ttf') format('truetype');
+       url('archia-bold-webfont.woff') format('woff'),
+       url('archia-bold-webfont.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -77,8 +77,8 @@
 @font-face {
   font-family: 'Argesta Text';
   src: url('argestatext-regularitalic-webfont.woff2') format('woff2'),
-    url('argestatext-regularitalic-webfont.woff') format('woff'),
-    url('argestatext-regularitalic-webfont.ttf') format('truetype');
+       url('argestatext-regularitalic-webfont.woff') format('woff'),
+       url('argestatext-regularitalic-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
@@ -86,8 +86,8 @@
 @font-face {
   font-family: 'Argesta Text';
   src: url('argestatext-bold-webfont.woff2') format('woff2'),
-    url('argestatext-bold-webfont.woff') format('woff'),
-    url('argestatext-bold-webfont.ttf') format('truetype');
+       url('argestatext-bold-webfont.woff') format('woff'),
+       url('argestatext-bold-webfont.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -95,8 +95,8 @@
 @font-face {
   font-family: 'Argesta Text';
   src: url('argestatext-regular-webfont.woff2') format('woff2'),
-    url('argestatext-regular-webfont.woff') format('woff'),
-    url('argestatext-regular-webfont.ttf') format('truetype');
+       url('argestatext-regular-webfont.woff') format('woff'),
+       url('argestatext-regular-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -104,8 +104,8 @@
 @font-face {
   font-family: 'Argesta Display';
   src: url('argestadisplay-regularitalic-webfont.woff2') format('woff2'),
-    url('argestadisplay-regularitalic-webfont.woff') format('woff'),
-    url('argestadisplay-regularitalic-webfont.ttf') format('truetype');
+       url('argestadisplay-regularitalic-webfont.woff') format('woff'),
+       url('argestadisplay-regularitalic-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
@@ -113,8 +113,8 @@
 @font-face {
   font-family: 'Argesta Display';
   src: url('argestadisplay-regular-webfont.woff2') format('woff2'),
-    url('argestadisplay-regular-webfont.woff') format('woff'),
-    url('argestadisplay-regular-webfont.ttf') format('truetype');
+       url('argestadisplay-regular-webfont.woff') format('woff'),
+       url('argestadisplay-regular-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -122,8 +122,8 @@
 @font-face {
   font-family: 'Argesta Headline';
   src: url('argestaheadline-regularitalic-webfont.woff2') format('woff2'),
-    url('argestaheadline-regularitalic-webfont.woff') format('woff'),
-    url('argestaheadline-regularitalic-webfont.ttf') format('truetype');
+       url('argestaheadline-regularitalic-webfont.woff') format('woff'),
+       url('argestaheadline-regularitalic-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
@@ -131,8 +131,8 @@
 @font-face {
   font-family: 'Argesta Headline';
   src: url('argestaheadline-regular-webfont.woff2') format('woff2'),
-    url('argestaheadline-regular-webfont.woff') format('woff'),
-    url('argestaheadline-regular-webfont.ttf') format('truetype');
+       url('argestaheadline-regular-webfont.woff') format('woff'),
+       url('argestaheadline-regular-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -140,8 +140,8 @@
 @font-face {
   font-family: 'Argesta Hairline';
   src: url('argestahairline-regular-webfont.woff2') format('woff2'),
-    url('argestahairline-regular-webfont.woff') format('woff'),
-    url('argestahairline-regular-webfont.ttf') format('truetype');
+       url('argestahairline-regular-webfont.woff') format('woff'),
+       url('argestahairline-regular-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -149,8 +149,8 @@
 @font-face {
   font-family: 'Argesta Hairline';
   src: url('argestahairline-regularitalic-webfont.woff2') format('woff2'),
-    url('argestahairline-regularitalic-webfont.woff') format('woff'),
-    url('argestahairline-regularitalic-webfont.ttf') format('truetype');
+       url('argestahairline-regularitalic-webfont.woff') format('woff'),
+       url('argestahairline-regularitalic-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
@@ -163,7 +163,7 @@
 @font-face {
   font-family: 'AUTHENTIC Classified';
   src: url('AUTHENTIC-Classified-Regular.woff2') format('woff2'),
-    url('AUTHENTIC-Classified-Regular.woff') format('woff');
+       url('AUTHENTIC-Classified-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
@@ -176,8 +176,8 @@
 @font-face {
   font-family: 'Bariol';
   src: url('bariol_thin-webfont.woff2') format('woff2'),
-    url('bariol_thin-webfont.woff') format('woff'),
-    url('bariol_thin-webfont.ttf') format('truetype');
+       url('bariol_thin-webfont.woff') format('woff'),
+       url('bariol_thin-webfont.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
@@ -185,8 +185,8 @@
 @font-face {
   font-family: 'Bariol';
   src: url('bariol_thin_italic-webfont.woff2') format('woff2'),
-    url('bariol_thin_italic-webfont.woff') format('woff'),
-    url('bariol_thin_italic-webfont.ttf') format('truetype');
+       url('bariol_thin_italic-webfont.woff') format('woff'),
+       url('bariol_thin_italic-webfont.ttf') format('truetype');
   font-weight: 100;
   font-style: italic;
 }
@@ -194,8 +194,8 @@
 @font-face {
   font-family: 'Bariol';
   src: url('bariol_light-webfont.woff2') format('woff2'),
-    url('bariol_light-webfont.woff') format('woff'),
-    url('bariol_light-webfont.ttf') format('truetype');
+       url('bariol_light-webfont.woff') format('woff'),
+       url('bariol_light-webfont.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
@@ -203,8 +203,8 @@
 @font-face {
   font-family: 'Bariol';
   src: url('bariol_light_italic-webfont.woff2') format('woff2'),
-    url('bariol_light_italic-webfont.woff') format('woff'),
-    url('bariol_light_italic-webfont.ttf') format('truetype');
+       url('bariol_light_italic-webfont.woff') format('woff'),
+       url('bariol_light_italic-webfont.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
@@ -212,8 +212,8 @@
 @font-face {
   font-family: 'Bariol';
   src: url('bariol_regular-webfont.woff2') format('woff2'),
-    url('bariol_regular-webfont.woff') format('woff'),
-    url('bariol_regular-webfont.ttf') format('truetype');
+       url('bariol_regular-webfont.woff') format('woff'),
+       url('bariol_regular-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -221,8 +221,8 @@
 @font-face {
   font-family: 'Bariol';
   src: url('bariol_regular_italic-webfont.woff2') format('woff2'),
-    url('bariol_regular_italic-webfont.woff') format('woff'),
-    url('bariol_regular_italic-webfont.ttf') format('truetype');
+       url('bariol_regular_italic-webfont.woff') format('woff'),
+       url('bariol_regular_italic-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
@@ -230,8 +230,8 @@
 @font-face {
   font-family: 'Bariol';
   src: url('bariol_bold-webfont.woff2') format('woff2'),
-    url('bariol_bold-webfont.woff') format('woff'),
-    url('bariol_bold-webfont.ttf') format('truetype');
+       url('bariol_bold-webfont.woff') format('woff'),
+       url('bariol_bold-webfont.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -239,8 +239,8 @@
 @font-face {
   font-family: 'Bariol';
   src: url('bariol_bold_italic-webfont.woff2') format('woff2'),
-    url('bariol_bold_italic-webfont.woff') format('woff'),
-    url('bariol_bold_italic-webfont.ttf') format('truetype');
+       url('bariol_bold_italic-webfont.woff') format('woff'),
+       url('bariol_bold_italic-webfont.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
 }
@@ -253,8 +253,8 @@
 @font-face {
   font-family: 'Bariol Serif';
   src: url('bariol_serif_thin-webfont.woff2') format('woff2'),
-    url('bariol_serif_thin-webfont.woff') format('woff'),
-    url('bariol_serif_thin-webfont.ttf') format('truetype');
+       url('bariol_serif_thin-webfont.woff') format('woff'),
+       url('bariol_serif_thin-webfont.ttf') format('truetype');
   font-weight: 100;
   font-style: normal;
 }
@@ -262,8 +262,8 @@
 @font-face {
   font-family: 'Bariol Serif';
   src: url('bariol_serif_thin_italic-webfont.woff2') format('woff2'),
-    url('bariol_serif_thin_italic-webfont.woff') format('woff'),
-    url('bariol_serif_thin_italic-webfont.ttf') format('truetype');
+       url('bariol_serif_thin_italic-webfont.woff') format('woff'),
+       url('bariol_serif_thin_italic-webfont.ttf') format('truetype');
   font-weight: 100;
   font-style: italic;
 }
@@ -271,8 +271,8 @@
 @font-face {
   font-family: 'Bariol Serif';
   src: url('bariol_serif_light-webfont.woff2') format('woff2'),
-    url('bariol_serif_light-webfont.woff') format('woff'),
-    url('bariol_serif_light-webfont.ttf') format('truetype');
+       url('bariol_serif_light-webfont.woff') format('woff'),
+       url('bariol_serif_light-webfont.ttf') format('truetype');
   font-weight: 300;
   font-style: normal;
 }
@@ -280,8 +280,8 @@
 @font-face {
   font-family: 'Bariol Serif';
   src: url('bariol_serif_light_italic-webfont.woff2') format('woff2'),
-    url('bariol_serif_light_italic-webfont.woff') format('woff'),
-    url('bariol_serif_light_italic-webfont.ttf') format('truetype');
+       url('bariol_serif_light_italic-webfont.woff') format('woff'),
+       url('bariol_serif_light_italic-webfont.ttf') format('truetype');
   font-weight: 300;
   font-style: italic;
 }
@@ -289,8 +289,8 @@
 @font-face {
   font-family: 'Bariol Serif';
   src: url('bariol_serif_regular-webfont.woff2') format('woff2'),
-    url('bariol_serif_regular-webfont.woff') format('woff'),
-    url('bariol_serif_regular-webfont.ttf') format('truetype');
+       url('bariol_serif_regular-webfont.woff') format('woff'),
+       url('bariol_serif_regular-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
 }
@@ -298,8 +298,8 @@
 @font-face {
   font-family: 'Bariol Serif';
   src: url('bariol_serif_regular_italic-webfont.woff2') format('woff2'),
-    url('bariol_serif_regular_italic-webfont.woff') format('woff'),
-    url('bariol_serif_regular_italic-webfont.ttf') format('truetype');
+       url('bariol_serif_regular_italic-webfont.woff') format('woff'),
+       url('bariol_serif_regular_italic-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: italic;
 }
@@ -307,8 +307,8 @@
 @font-face {
   font-family: 'Bariol Serif';
   src: url('bariol_serif_bold-webfont.woff2') format('woff2'),
-    url('bariol_serif_bold-webfont.woff') format('woff'),
-    url('bariol_serif_bold-webfont.ttf') format('truetype');
+       url('bariol_serif_bold-webfont.woff') format('woff'),
+       url('bariol_serif_bold-webfont.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -316,8 +316,8 @@
 @font-face {
   font-family: 'Bariol Serif';
   src: url('bariol_serif_bold_italic-webfont.woff2') format('woff2'),
-    url('bariol_serif_bold_italic-webfont.woff') format('woff'),
-    url('bariol_serif_bold_italic-webfont.ttf') format('truetype');
+       url('bariol_serif_bold_italic-webfont.woff') format('woff'),
+       url('bariol_serif_bold_italic-webfont.ttf') format('truetype');
   font-weight: 700;
   font-style: italic;
 }
@@ -863,8 +863,8 @@
 @font-face {
   font-family: 'Chaney';
   src: url('chaney-regular-webfont.woff2') format('woff2'),
-    url('chaney-regular-webfont.woff') format('woff'),
-    url('chaney-regular-webfont.ttf') format('truetype');
+       url('chaney-regular-webfont.woff') format('woff'),
+       url('chaney-regular-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-stretch: normal;
@@ -873,8 +873,8 @@
 @font-face {
   font-family: 'Chaney';
   src: url('chaney-wide-webfont.woff2') format('woff2'),
-    url('chaney-wide-webfont.woff') format('woff'),
-    url('chaney-wide-webfont.ttf') format('truetype');
+       url('chaney-wide-webfont.woff') format('woff'),
+       url('chaney-wide-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-stretch: semi-expanded;
@@ -883,8 +883,8 @@
 @font-face {
   font-family: 'Chaney';
   src: url('chaney-extended-webfont.woff2') format('woff2'),
-    url('chaney-extended-webfont.woff') format('woff'),
-    url('chaney-extended-webfont.ttf') format('truetype');
+       url('chaney-extended-webfont.woff') format('woff'),
+       url('chaney-extended-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-stretch: expanded;
@@ -893,8 +893,8 @@
 @font-face {
   font-family: 'Chaney';
   src: url('chaney-ultraextended-webfont.woff2') format('woff2'),
-    url('chaney-ultraextended-webfont.woff') format('woff'),
-    url('chaney-ultraextended-webfont.ttf') format('truetype');
+       url('chaney-ultraextended-webfont.woff') format('woff'),
+       url('chaney-ultraextended-webfont.ttf') format('truetype');
   font-weight: 400;
   font-style: normal;
   font-stretch: ultra-expanded;
@@ -1016,8 +1016,8 @@
 @font-face {
   font-family: 'Geomanist';
   src: url('geomanist-bold-webfont.woff2') format('woff2'),
-    url('geomanist-bold-webfont.woff') format('woff'),
-    url('geomanist-bold-webfont.ttf') format('truetype');
+       url('geomanist-bold-webfont.woff') format('woff'),
+       url('geomanist-bold-webfont.ttf') format('truetype');
   font-weight: 700;
   font-style: normal;
 }
@@ -1453,13 +1453,13 @@
  * Parking font family.
  *
  *****************************************************************************/
- @font-face {
-	font-family: 'Parking';
-	src: url('parking-regular-webfont.woff2') format('woff2'),
-		 url('parking-regular-webfont.woff') format('woff'),
-		 url('parking-regular-webfont.ttf') format('truetype');
-	font-weight: 400;
-	font-style: normal;
+@font-face {
+  font-family: 'Parking';
+  src: url('parking-regular-webfont.woff2') format('woff2'),
+       url('parking-regular-webfont.woff') format('woff'),
+       url('parking-regular-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 
 /******************************************************************************
@@ -1467,12 +1467,12 @@
  * Pomfret font family.
  *
  *****************************************************************************/
- @font-face {
-	font-family: 'Pomfret';
-	src: url('PomfretV2-Regular.woff2') format('woff2'),
-		 url('PomfretV2-Regular.woff') format('woff');
-	font-weight: 400;
-	font-style: normal;
+@font-face {
+  font-family: 'Pomfret';
+  src: url('PomfretV2-Regular.woff2') format('woff2'),
+       url('PomfretV2-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
 }
 
 /******************************************************************************
@@ -2057,130 +2057,130 @@
  * Strawford font family.
  *
  *****************************************************************************/
- @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-thin-webfont.woff2') format('woff2'),
-		 url('strawford-thin-webfont.woff') format('woff'),
-		 url('strawford-thin-webfont.ttf') format('truetype');
-	font-weight: 100;
-	font-style: normal;
+@font-face {
+  font-family: 'Strawford';
+  src: url('strawford-thin-webfont.woff2') format('woff2'),
+       url('strawford-thin-webfont.woff') format('woff'),
+       url('strawford-thin-webfont.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-thinitalic-webfont.woff2') format('woff2'),
-		 url('strawford-thinitalic-webfont.woff') format('woff'),
-		 url('strawford-thinitalic-webfont.ttf') format('truetype');
-	font-weight: 100;
-	font-style: italic;
+  font-family: 'Strawford';
+  src: url('strawford-thinitalic-webfont.woff2') format('woff2'),
+       url('strawford-thinitalic-webfont.woff') format('woff'),
+       url('strawford-thinitalic-webfont.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
 }
 
 @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-extralight-webfont.woff2') format('woff2'),
-		 url('strawford-extralight-webfont.woff') format('woff'),
-		 url('strawford-extralight-webfont.ttf') format('truetype');
-	font-weight: 200;
-	font-style: normal;
+  font-family: 'Strawford';
+  src: url('strawford-extralight-webfont.woff2') format('woff2'),
+       url('strawford-extralight-webfont.woff') format('woff'),
+       url('strawford-extralight-webfont.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-extralightitalic-webfont.woff2') format('woff2'),
-		 url('strawford-extralightitalic-webfont.woff') format('woff'),
-		 url('strawford-extralightitalic-webfont.ttf') format('truetype');
-	font-weight: 200;
-	font-style: italic;
+  font-family: 'Strawford';
+  src: url('strawford-extralightitalic-webfont.woff2') format('woff2'),
+       url('strawford-extralightitalic-webfont.woff') format('woff'),
+       url('strawford-extralightitalic-webfont.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
 }
 
 @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-light-webfont.woff2') format('woff2'),
-		 url('strawford-light-webfont.woff') format('woff'),
-		 url('strawford-light-webfont.ttf') format('truetype');
-	font-weight: 300;
-	font-style: normal;
+  font-family: 'Strawford';
+  src: url('strawford-light-webfont.woff2') format('woff2'),
+       url('strawford-light-webfont.woff') format('woff'),
+       url('strawford-light-webfont.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-lightitalic-webfont.woff2') format('woff2'),
-	url('strawford-lightitalic-webfont.woff') format('woff'),
-	url('strawford-lightitalic-webfont.ttf') format('truetype');
-	font-weight: 300;
-	font-style: italic;
+  font-family: 'Strawford';
+  src: url('strawford-lightitalic-webfont.woff2') format('woff2'),
+  url('strawford-lightitalic-webfont.woff') format('woff'),
+  url('strawford-lightitalic-webfont.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
 }
 
 @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-regular-webfont.woff2') format('woff2'),
-		 url('strawford-regular-webfont.woff') format('woff'),
-		 url('strawford-regular-webfont.ttf') format('truetype');
-	font-weight: 400;
-	font-style: normal;
+  font-family: 'Strawford';
+  src: url('strawford-regular-webfont.woff2') format('woff2'),
+       url('strawford-regular-webfont.woff') format('woff'),
+       url('strawford-regular-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-regularitalic-webfont.woff2') format('woff2'),
-		 url('strawford-regularitalic-webfont.woff') format('woff'),
-		 url('strawford-regularitalic-webfont.ttf') format('truetype');
-	font-weight: 400;
-	font-style: italic;
+  font-family: 'Strawford';
+  src: url('strawford-regularitalic-webfont.woff2') format('woff2'),
+       url('strawford-regularitalic-webfont.woff') format('woff'),
+       url('strawford-regularitalic-webfont.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
 }
 
 @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-medium-webfont.woff2') format('woff2'),
-		 url('strawford-medium-webfont.woff') format('woff'),
-		 url('strawford-medium-webfont.ttf') format('truetype');
-	font-weight: 500;
-	font-style: normal;
+  font-family: 'Strawford';
+  src: url('strawford-medium-webfont.woff2') format('woff2'),
+       url('strawford-medium-webfont.woff') format('woff'),
+       url('strawford-medium-webfont.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-mediumitalic-webfont.woff2') format('woff2'),
-		 url('strawford-mediumitalic-webfont.woff') format('woff'),
-		 url('strawford-mediumitalic-webfont.ttf') format('truetype');
-	font-weight: 500;
-	font-style: italic;
+  font-family: 'Strawford';
+  src: url('strawford-mediumitalic-webfont.woff2') format('woff2'),
+       url('strawford-mediumitalic-webfont.woff') format('woff'),
+       url('strawford-mediumitalic-webfont.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
 }
 
 @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-bold-webfont.woff2') format('woff2'),
-		 url('strawford-bold-webfont.woff') format('woff'),
-		 url('strawford-bold-webfont.ttf') format('truetype');
-	font-weight: 700;
-	font-style: normal;
+  font-family: 'Strawford';
+  src: url('strawford-bold-webfont.woff2') format('woff2'),
+       url('strawford-bold-webfont.woff') format('woff'),
+       url('strawford-bold-webfont.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-bolditalic-webfont.woff2') format('woff2'),
-		 url('strawford-bolditalic-webfont.woff') format('woff'),
-		 url('strawford-bolditalic-webfont.ttf') format('truetype');
-	font-weight: 700;
-	font-style: italic;
+  font-family: 'Strawford';
+  src: url('strawford-bolditalic-webfont.woff2') format('woff2'),
+       url('strawford-bolditalic-webfont.woff') format('woff'),
+       url('strawford-bolditalic-webfont.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
 }
 
 @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-black-webfont.woff2') format('woff2'),
-		 url('strawford-black-webfont.woff') format('woff'),
-		 url('strawford-black-webfont.ttf') format('truetype');
-	font-weight: 900;
-	font-style: normal;
+  font-family: 'Strawford';
+  src: url('strawford-black-webfont.woff2') format('woff2'),
+       url('strawford-black-webfont.woff') format('woff'),
+       url('strawford-black-webfont.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
 }
 
 @font-face {
-	font-family: 'Strawford';
-	src: url('strawford-blackitalic-webfont.woff2') format('woff2'),
-		 url('strawford-blackitalic-webfont.woff') format('woff'),
-		 url('strawford-blackitalic-webfont.ttf') format('truetype');
-	font-weight: 900;
-	font-style: italic;
+  font-family: 'Strawford';
+  src: url('strawford-blackitalic-webfont.woff2') format('woff2'),
+       url('strawford-blackitalic-webfont.woff') format('woff'),
+       url('strawford-blackitalic-webfont.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
 }
 
 /******************************************************************************
@@ -2214,7 +2214,6 @@
   font-weight: 200;
   font-style: normal;
 }
-
 
 @font-face {
   font-family: 'Wotfard';
