@@ -433,6 +433,12 @@ const systemFonts = [
 
 const otherFonts = [
 	{
+		name: 'AUTHENTIC Classified',
+		weights: [REGULAR],
+		italics: false,
+		collections: [DISPLAY_COLLECTION],
+	},
+	{
 		name: 'Pomfret',
 		weights: [REGULAR],
 		italics: false,

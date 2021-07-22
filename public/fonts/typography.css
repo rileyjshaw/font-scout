@@ -157,6 +157,19 @@
 
 /******************************************************************************
  *
+ * AUTHENTIC Classified font family.
+ *
+ *****************************************************************************/
+@font-face {
+  font-family: 'AUTHENTIC Classified';
+  src: url('AUTHENTIC-Classified-Regular.woff2') format('woff2'),
+    url('AUTHENTIC-Classified-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/******************************************************************************
+ *
  * Bariol font family.
  *
  *****************************************************************************/
