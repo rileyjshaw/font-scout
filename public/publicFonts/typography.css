@@ -1177,24 +1177,3 @@
     font-weight: 700;
     font-style: normal;
 }
-
-/******************************************************************************
- *
- * Sorts Mill Goudy font family.
- *
- *****************************************************************************/
-@font-face {
-    font-family: 'Sorts Mill Goudy';
-    src: url('OFLGoudyStM.woff2') format('woff2'),
-        url('OFLGoudyStM.woff') format('woff');
-    font-weight: 400;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Sorts Mill Goudy';
-    src: url('OFLGoudyStM-Italic.woff2') format('woff2'),
-        url('OFLGoudyStM-Italic.woff') format('woff');
-    font-weight: 400;
-    font-style: italic;
-}
