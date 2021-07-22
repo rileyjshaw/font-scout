@@ -12,6 +12,79 @@
 
 /******************************************************************************
  *
+ * AUTHENTIC Sans font family.
+ *
+ *****************************************************************************/
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('AUTHENTICSans-60.woff2') format('woff2'),
+        url('AUTHENTICSans-60.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('AUTHENTICSans-90.woff2') format('woff2'),
+        url('AUTHENTICSans-90.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('AUTHENTICSans-130.woff2') format('woff2'),
+        url('AUTHENTICSans-130.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('AUTHENTICSans-150.woff2') format('woff2'),
+        url('AUTHENTICSans-150.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('AUTHENTICSans-condensed-60.woff2') format('woff2'),
+        url('AUTHENTICSans-condensed-60.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-stretch: condensed;
+}
+
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('AUTHENTICSans-condensed-90.woff2') format('woff2'),
+        url('AUTHENTICSans-condensed-90.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-stretch: condensed;
+}
+
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('AUTHENTICSans-condensed-130.woff2') format('woff2'),
+        url('AUTHENTICSans-condensed-130.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: condensed;
+}
+
+@font-face {
+    font-family: 'AUTHENTIC Sans';
+    src: url('AUTHENTICSans-condensed-150.woff2') format('woff2'),
+        url('AUTHENTICSans-condensed-150.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-stretch: condensed;
+}
+
+/******************************************************************************
+ *
  * Bagnard font family.
  *
  *****************************************************************************/

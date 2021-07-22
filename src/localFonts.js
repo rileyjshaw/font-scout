@@ -239,6 +239,19 @@ const atipoFonts = [
 
 const freeOpenFonts = [
 	{
+		name: 'AUTHENTIC Sans',
+		weights: [LIGHT, REGULAR, BOLD, BLACK],
+		italics: false,
+		stretches: [LIGHT, REGULAR, BOLD, BLACK].reduce((acc, weight) => {
+			acc[weight] = {
+				values: ['condensed'],
+				italics: false,
+			};
+			return acc;
+		}, {}),
+		collections: [SANS_SERIF_COLLECTION],
+	},
+	{
 		name: 'Bagnard',
 		weights: [REGULAR],
 		italics: false,
