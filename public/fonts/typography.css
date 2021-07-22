@@ -1440,13 +1440,26 @@
  * Parking font family.
  *
  *****************************************************************************/
-@font-face {
-  font-family: 'Parking';
-  src: url('parking-regular-webfont.woff2') format('woff2'),
-       url('parking-regular-webfont.woff') format('woff'),
-       url('parking-regular-webfont.ttf') format('truetype');
-  font-weight: 400;
-  font-style: normal;
+ @font-face {
+	font-family: 'Parking';
+	src: url('parking-regular-webfont.woff2') format('woff2'),
+		 url('parking-regular-webfont.woff') format('woff'),
+		 url('parking-regular-webfont.ttf') format('truetype');
+	font-weight: 400;
+	font-style: normal;
+}
+
+/******************************************************************************
+ *
+ * Pomfret font family.
+ *
+ *****************************************************************************/
+ @font-face {
+	font-family: 'Pomfret';
+	src: url('PomfretV2-Regular.woff2') format('woff2'),
+		 url('PomfretV2-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
 }
 
 /******************************************************************************

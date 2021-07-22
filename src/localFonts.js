@@ -431,7 +431,16 @@ const systemFonts = [
 	collections: [...(font.collections ?? []), SYSTEM_FONTS_COLLECTION],
 }));
 
-const localFonts = [...atipoFonts, ...freeOpenFonts, ...systemFonts].map(font => ({
+const otherFonts = [
+	{
+		name: 'Pomfret',
+		weights: [REGULAR],
+		italics: false,
+		collections: [SERIF_COLLECTION, DISPLAY_COLLECTION],
+	},
+];
+
+const localFonts = [...atipoFonts, ...freeOpenFonts, ...systemFonts, ...otherFonts].map(font => ({
 	...font,
 	collections: [...(font.collections ?? []), LOCAL_FONTS_COLLECTION],
 }));
