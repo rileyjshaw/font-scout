@@ -381,6 +381,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Uchen:ital,wght@0,400&display=block",
+			"name": "Uchen",
+			"variant": {
+				"name": "Uchen",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Changa:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=block",
 			"name": "Changa",
 			"variant": {
@@ -998,6 +1008,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 200
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Festive:ital,wght@0,400&display=block",
+			"name": "Festive",
+			"variant": {
+				"name": "Festive",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -1731,6 +1751,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Dela+Gothic+One:ital,wght@0,400&display=block",
+			"name": "Dela Gothic One",
+			"variant": {
+				"name": "Dela Gothic One",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Monoton:ital,wght@0,400&display=block",
 			"name": "Monoton",
 			"variant": {
@@ -1821,6 +1851,26 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Kiwi+Maru:ital,wght@0,300;0,400;0,500&display=block",
+			"name": "Kiwi Maru",
+			"variant": {
+				"name": "Kiwi Maru Light",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 300
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Train+One:ital,wght@0,400&display=block",
+			"name": "Train One",
+			"variant": {
+				"name": "Train One",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Reggae+One:ital,wght@0,400&display=block",
 			"name": "Reggae One",
 			"variant": {
@@ -1858,6 +1908,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 200
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Otomanopee+One:ital,wght@0,400&display=block",
+			"name": "Otomanopee One",
+			"variant": {
+				"name": "Otomanopee One",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -1971,6 +2031,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Reem+Kufi:ital,wght@0,400;0,500;0,600;0,700&display=block",
+			"name": "Reem Kufi",
+			"variant": {
+				"name": "Reem Kufi",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
 			"name": "Kanit",
 			"variant": {
@@ -1998,6 +2068,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 100
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=New+Tegomin:ital,wght@0,400&display=block",
+			"name": "New Tegomin",
+			"variant": {
+				"name": "New Tegomin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -2111,16 +2191,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Reem+Kufi:ital,wght@0,400&display=block",
-			"name": "Reem Kufi",
-			"variant": {
-				"name": "Reem Kufi",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Padauk:ital,wght@0,400;0,700&display=block",
 			"name": "Padauk",
 			"variant": {
@@ -2155,6 +2225,16 @@
 			"name": "Sirin Stencil",
 			"variant": {
 				"name": "Sirin Stencil",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Yomogi:ital,wght@0,400&display=block",
+			"name": "Yomogi",
+			"variant": {
+				"name": "Yomogi",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -4230,7 +4310,7 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,500;0,600;0,700&display=block",
+			"href": "https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=block",
 			"name": "Brygada 1918",
 			"variant": {
 				"name": "Brygada 1918",
@@ -5076,6 +5156,26 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Encode+Sans+SC:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+			"name": "Encode Sans SC",
+			"variant": {
+				"name": "Encode Sans SC Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Lexend:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800&display=block",
+			"name": "Lexend",
+			"variant": {
+				"name": "Lexend Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Kufam:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
 			"name": "Kufam",
 			"variant": {
@@ -5779,6 +5879,15 @@
 			}
 		},
 		{
+			"name": "Strawford",
+			"variant": {
+				"name": "Strawford Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Oxygen:ital,wght@0,300;0,400;0,700&display=block",
 			"name": "Oxygen",
 			"variant": {
@@ -6202,6 +6311,16 @@
 			"name": "IM Fell DW Pica SC",
 			"variant": {
 				"name": "IM Fell DW Pica SC",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=STIX+Two+Math:ital,wght@0,400&display=block",
+			"name": "STIX Two Math",
+			"variant": {
+				"name": "STIX Two Math",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -6938,6 +7057,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Antonio:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Antonio",
+			"variant": {
+				"name": "Antonio Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:ital,wght@0,400;0,700&display=block",
 			"name": "PT Sans Narrow",
 			"variant": {
@@ -7032,6 +7161,16 @@
 			"name": "Chicle",
 			"variant": {
 				"name": "Chicle",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Fuggles:ital,wght@0,400&display=block",
+			"name": "Fuggles",
+			"variant": {
+				"name": "Fuggles",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -7148,6 +7287,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Zen+Dots:ital,wght@0,400&display=block",
+			"name": "Zen Dots",
+			"variant": {
+				"name": "Zen Dots",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Bungee+Shade:ital,wght@0,400&display=block",
 			"name": "Bungee Shade",
 			"variant": {
@@ -7234,6 +7383,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Spartan:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+			"name": "Spartan",
+			"variant": {
+				"name": "Spartan Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
 			}
 		},
 		{
@@ -7550,6 +7709,15 @@
 			}
 		},
 		{
+			"name": "AUTHENTIC Sans",
+			"variant": {
+				"name": "AUTHENTIC Sans Light condensed",
+				"stretch": "condensed",
+				"style": "normal",
+				"weight": 300
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Sail:ital,wght@0,400&display=block",
 			"name": "Sail",
 			"variant": {
@@ -7720,16 +7888,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Gilda+Display:ital,wght@0,400&display=block",
-			"name": "Gilda Display",
-			"variant": {
-				"name": "Gilda Display",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Recursive:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Recursive",
 			"variant": {
@@ -7737,6 +7895,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 300
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Gilda+Display:ital,wght@0,400&display=block",
+			"name": "Gilda Display",
+			"variant": {
+				"name": "Gilda Display",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -7754,6 +7922,16 @@
 			"name": "Nanum Myeongjo",
 			"variant": {
 				"name": "Nanum Myeongjo",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=block",
+			"name": "Bona Nova",
+			"variant": {
+				"name": "Bona Nova",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -8443,6 +8621,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo:ital,wght@0,400&display=block",
+			"name": "Zen Tokyo Zoo",
+			"variant": {
+				"name": "Zen Tokyo Zoo",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=block",
 			"name": "Alegreya Sans",
 			"variant": {
@@ -8683,20 +8871,20 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Akaya+Kanadaka:ital,wght@0,400&display=block",
-			"name": "Akaya Kanadaka",
+			"href": "https://fonts.googleapis.com/css2?family=Akaya+Telivigala:ital,wght@0,400&display=block",
+			"name": "Akaya Telivigala",
 			"variant": {
-				"name": "Akaya Kanadaka",
+				"name": "Akaya Telivigala",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Akaya+Telivigala:ital,wght@0,400&display=block",
-			"name": "Akaya Telivigala",
+			"href": "https://fonts.googleapis.com/css2?family=Akaya+Kanadaka:ital,wght@0,400&display=block",
+			"name": "Akaya Kanadaka",
 			"variant": {
-				"name": "Akaya Telivigala",
+				"name": "Akaya Kanadaka",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -8750,6 +8938,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 100
+			}
+		},
+		{
+			"name": "Pomfret",
+			"variant": {
+				"name": "Pomfret",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -8837,6 +9034,15 @@
 			"name": "Cabin Condensed",
 			"variant": {
 				"name": "Cabin Condensed",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"name": "AUTHENTIC Classified",
+			"variant": {
+				"name": "AUTHENTIC Classified",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -9172,6 +9378,15 @@
 			}
 		},
 		{
+			"name": "SuperDuper",
+			"variant": {
+				"name": "SuperDuper Light",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 300
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Bahianita:ital,wght@0,400&display=block",
 			"name": "Bahianita",
 			"variant": {
@@ -9209,16 +9424,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Spartan:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
-			"name": "Spartan",
-			"variant": {
-				"name": "Spartan Thin",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 100
 			}
 		},
 		{
@@ -10074,10 +10279,30 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Zen+Loop:ital,wght@0,400;1,400&display=block",
+			"name": "Zen Loop",
+			"variant": {
+				"name": "Zen Loop",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed:ital,wght@0,400&display=block",
 			"name": "Stint Ultra Condensed",
 			"variant": {
 				"name": "Stint Ultra Condensed",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Qahiri:ital,wght@0,400&display=block",
+			"name": "Qahiri",
+			"variant": {
+				"name": "Qahiri",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -10133,6 +10358,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Archivo",
+			"variant": {
+				"name": "Archivo Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Ruslan+Display:ital,wght@0,400&display=block",
 			"name": "Ruslan Display",
 			"variant": {
@@ -10183,19 +10418,19 @@
 			}
 		},
 		{
-			"name": "Palatino",
+			"href": "https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Tourney",
 			"variant": {
-				"name": "Palatino",
+				"name": "Tourney Thin",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 400
+				"weight": 100
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=block",
-			"name": "Archivo",
+			"name": "Palatino",
 			"variant": {
-				"name": "Archivo",
+				"name": "Palatino",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -10226,6 +10461,16 @@
 			"name": "Mansalva",
 			"variant": {
 				"name": "Mansalva",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Orelega+One:ital,wght@0,400&display=block",
+			"name": "Orelega One",
+			"variant": {
+				"name": "Orelega One",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -10886,6 +11131,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Karantina:ital,wght@0,300;0,400;0,700&display=block",
+			"name": "Karantina",
+			"variant": {
+				"name": "Karantina Light",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 300
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Jomhuria:ital,wght@0,400&display=block",
 			"name": "Jomhuria",
 			"variant": {
@@ -11336,6 +11591,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Dela+Gothic+One:ital,wght@0,400&display=block",
+			"name": "Dela Gothic One",
+			"variant": {
+				"name": "Dela Gothic One",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Sonsie+One:ital,wght@0,400&display=block",
 			"name": "Sonsie One",
 			"variant": {
@@ -11725,6 +11990,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Uchen:ital,wght@0,400&display=block",
+			"name": "Uchen",
+			"variant": {
+				"name": "Uchen",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Rubik+Mono+One:ital,wght@0,400&display=block",
 			"name": "Rubik Mono One",
 			"variant": {
@@ -12065,20 +12340,20 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700&display=block",
-			"name": "Monda",
+			"href": "https://fonts.googleapis.com/css2?family=Palanquin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Palanquin",
 			"variant": {
-				"name": "Monda Bold",
+				"name": "Palanquin Bold",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Palanquin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
-			"name": "Palanquin",
+			"href": "https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700&display=block",
+			"name": "Monda",
 			"variant": {
-				"name": "Palanquin Bold",
+				"name": "Monda Bold",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
@@ -12245,6 +12520,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Kiwi+Maru:ital,wght@0,300;0,400;0,500&display=block",
+			"name": "Kiwi Maru",
+			"variant": {
+				"name": "Kiwi Maru Medium",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 500
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Laila:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
 			"name": "Laila",
 			"variant": {
@@ -12252,6 +12537,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Train+One:ital,wght@0,400&display=block",
+			"name": "Train One",
+			"variant": {
+				"name": "Train One",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -12494,6 +12789,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Zen+Dots:ital,wght@0,400&display=block",
+			"name": "Zen Dots",
+			"variant": {
+				"name": "Zen Dots",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Peralta:ital,wght@0,400&display=block",
 			"name": "Peralta",
 			"variant": {
@@ -12591,6 +12896,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 900
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Otomanopee+One:ital,wght@0,400&display=block",
+			"name": "Otomanopee One",
+			"variant": {
+				"name": "Otomanopee One",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -13004,16 +13319,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Hind+Siliguri:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
-			"name": "Hind Siliguri",
-			"variant": {
-				"name": "Hind Siliguri Bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 700
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Lexend+Exa:ital,wght@0,400&display=block",
 			"name": "Lexend Exa",
 			"variant": {
@@ -13021,6 +13326,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Hind+Siliguri:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Hind Siliguri",
+			"variant": {
+				"name": "Hind Siliguri Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -13154,6 +13469,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Reem+Kufi:ital,wght@0,400;0,500;0,600;0,700&display=block",
+			"name": "Reem Kufi",
+			"variant": {
+				"name": "Reem Kufi Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Ewert:ital,wght@0,400&display=block",
 			"name": "Ewert",
 			"variant": {
@@ -13191,6 +13516,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Festive:ital,wght@0,400&display=block",
+			"name": "Festive",
+			"variant": {
+				"name": "Festive",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -13810,6 +14145,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=New+Tegomin:ital,wght@0,400&display=block",
+			"name": "New Tegomin",
+			"variant": {
+				"name": "New Tegomin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Modak:ital,wght@0,400&display=block",
 			"name": "Modak",
 			"variant": {
@@ -14099,6 +14444,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Spartan:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+			"name": "Spartan",
+			"variant": {
+				"name": "Spartan Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Kurale:ital,wght@0,400&display=block",
 			"name": "Kurale",
 			"variant": {
@@ -14198,6 +14553,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Encode+Sans+SC:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+			"name": "Encode Sans SC",
+			"variant": {
+				"name": "Encode Sans SC Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,400;1,500;1,700;1,900&display=block",
 			"name": "Red Hat Display",
 			"variant": {
@@ -14215,6 +14580,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Lexend:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800&display=block",
+			"name": "Lexend",
+			"variant": {
+				"name": "Lexend Ultra bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 800
 			}
 		},
 		{
@@ -14701,16 +15076,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Reem+Kufi:ital,wght@0,400&display=block",
-			"name": "Reem Kufi",
-			"variant": {
-				"name": "Reem Kufi",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Belgrano:ital,wght@0,400&display=block",
 			"name": "Belgrano",
 			"variant": {
@@ -14901,6 +15266,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Rubik",
+			"variant": {
+				"name": "Rubik Black italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 900
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=block",
 			"name": "DM Mono",
 			"variant": {
@@ -14928,26 +15303,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 100
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
-			"name": "Rubik",
-			"variant": {
-				"name": "Rubik Black italic",
-				"stretch": "normal",
-				"style": "italic",
-				"weight": 900
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Spartan:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
-			"name": "Spartan",
-			"variant": {
-				"name": "Spartan Black",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 900
 			}
 		},
 		{
@@ -15843,6 +16198,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Yomogi:ital,wght@0,400&display=block",
+			"name": "Yomogi",
+			"variant": {
+				"name": "Yomogi",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Spinnaker:ital,wght@0,400&display=block",
 			"name": "Spinnaker",
 			"variant": {
@@ -16298,6 +16663,15 @@
 			}
 		},
 		{
+			"name": "AUTHENTIC Sans",
+			"variant": {
+				"name": "AUTHENTIC Sans Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Chelsea+Market:ital,wght@0,400&display=block",
 			"name": "Chelsea Market",
 			"variant": {
@@ -16355,6 +16729,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"name": "Strawford",
+			"variant": {
+				"name": "Strawford Black italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 900
 			}
 		},
 		{
@@ -16468,7 +16851,7 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,500;0,600;0,700&display=block",
+			"href": "https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=block",
 			"name": "Brygada 1918",
 			"variant": {
 				"name": "Brygada 1918",
@@ -16573,6 +16956,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Archivo",
+			"variant": {
+				"name": "Archivo Black italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 900
 			}
 		},
 		{
@@ -17176,6 +17569,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Recursive:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+			"name": "Recursive",
+			"variant": {
+				"name": "Recursive Light",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 300
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Gilda+Display:ital,wght@0,400&display=block",
 			"name": "Gilda Display",
 			"variant": {
@@ -17203,16 +17606,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Recursive:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
-			"name": "Recursive",
-			"variant": {
-				"name": "Recursive Light",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 300
 			}
 		},
 		{
@@ -17270,6 +17663,16 @@
 			"name": "Bellota Text",
 			"variant": {
 				"name": "Bellota Text Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=block",
+			"name": "Bona Nova",
+			"variant": {
+				"name": "Bona Nova Bold",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
@@ -17440,6 +17843,16 @@
 			"name": "IM Fell DW Pica SC",
 			"variant": {
 				"name": "IM Fell DW Pica SC",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=STIX+Two+Math:ital,wght@0,400&display=block",
+			"name": "STIX Two Math",
+			"variant": {
+				"name": "STIX Two Math",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -18010,16 +18423,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Manjari:ital,wght@0,100;0,400;0,700&display=block",
-			"name": "Manjari",
-			"variant": {
-				"name": "Manjari Bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 700
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=block",
 			"name": "IBM Plex Sans Condensed",
 			"variant": {
@@ -18105,6 +18508,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Manjari:ital,wght@0,100;0,400;0,700&display=block",
+			"name": "Manjari",
+			"variant": {
+				"name": "Manjari Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -19051,21 +19464,21 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Tourney",
+			"variant": {
+				"name": "Tourney Thin italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 100
+			}
+		},
+		{
 			"name": "Palatino",
 			"variant": {
 				"name": "Palatino Bold",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 700
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=block",
-			"name": "Archivo",
-			"variant": {
-				"name": "Archivo Bold italic",
-				"stretch": "normal",
-				"style": "italic",
 				"weight": 700
 			}
 		},
@@ -19344,6 +19757,16 @@
 			"name": "Kelly Slab",
 			"variant": {
 				"name": "Kelly Slab",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo:ital,wght@0,400&display=block",
+			"name": "Zen Tokyo Zoo",
+			"variant": {
+				"name": "Zen Tokyo Zoo",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -19829,6 +20252,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Orelega+One:ital,wght@0,400&display=block",
+			"name": "Orelega One",
+			"variant": {
+				"name": "Orelega One",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=block",
 			"name": "Josefin Sans",
 			"variant": {
@@ -20019,20 +20452,20 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Akaya+Kanadaka:ital,wght@0,400&display=block",
-			"name": "Akaya Kanadaka",
+			"href": "https://fonts.googleapis.com/css2?family=Akaya+Telivigala:ital,wght@0,400&display=block",
+			"name": "Akaya Telivigala",
 			"variant": {
-				"name": "Akaya Kanadaka",
+				"name": "Akaya Telivigala",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Akaya+Telivigala:ital,wght@0,400&display=block",
-			"name": "Akaya Telivigala",
+			"href": "https://fonts.googleapis.com/css2?family=Akaya+Kanadaka:ital,wght@0,400&display=block",
+			"name": "Akaya Kanadaka",
 			"variant": {
-				"name": "Akaya Telivigala",
+				"name": "Akaya Kanadaka",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -20175,6 +20608,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 900
+			}
+		},
+		{
+			"name": "Pomfret",
+			"variant": {
+				"name": "Pomfret",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -20498,19 +20940,19 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Bilbo:ital,wght@0,400&display=block",
-			"name": "Bilbo",
+			"name": "Blackout Sunrise",
 			"variant": {
-				"name": "Bilbo",
+				"name": "Blackout Sunrise",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"name": "Blackout Sunrise",
+			"href": "https://fonts.googleapis.com/css2?family=Bilbo:ital,wght@0,400&display=block",
+			"name": "Bilbo",
 			"variant": {
-				"name": "Blackout Sunrise",
+				"name": "Bilbo",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -20544,6 +20986,25 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Antonio:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Antonio",
+			"variant": {
+				"name": "Antonio Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
+			"name": "AUTHENTIC Classified",
+			"variant": {
+				"name": "AUTHENTIC Classified",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -21233,10 +21694,10 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Iceland:ital,wght@0,400&display=block",
-			"name": "Iceland",
+			"href": "https://fonts.googleapis.com/css2?family=Fuggles:ital,wght@0,400&display=block",
+			"name": "Fuggles",
 			"variant": {
-				"name": "Iceland",
+				"name": "Fuggles",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -21247,6 +21708,16 @@
 			"name": "Qwigley",
 			"variant": {
 				"name": "Qwigley",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Iceland:ital,wght@0,400&display=block",
+			"name": "Iceland",
+			"variant": {
+				"name": "Iceland",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -21731,6 +22202,26 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Zen+Loop:ital,wght@0,400;1,400&display=block",
+			"name": "Zen Loop",
+			"variant": {
+				"name": "Zen Loop italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Karantina:ital,wght@0,300;0,400;0,700&display=block",
+			"name": "Karantina",
+			"variant": {
+				"name": "Karantina Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed:ital,wght@0,400&display=block",
 			"name": "Stint Ultra Condensed",
 			"variant": {
@@ -21741,10 +22232,29 @@
 			}
 		},
 		{
+			"name": "SuperDuper",
+			"variant": {
+				"name": "SuperDuper Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Kristi:ital,wght@0,400&display=block",
 			"name": "Kristi",
 			"variant": {
 				"name": "Kristi",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Qahiri:ital,wght@0,400&display=block",
+			"name": "Qahiri",
+			"variant": {
+				"name": "Qahiri",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -22131,20 +22641,20 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Holtwood+One+SC:ital,wght@0,400&display=block",
-			"name": "Holtwood One SC",
+			"href": "https://fonts.googleapis.com/css2?family=Lexend+Peta:ital,wght@0,400&display=block",
+			"name": "Lexend Peta",
 			"variant": {
-				"name": "Holtwood One SC",
+				"name": "Lexend Peta",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Lexend+Peta:ital,wght@0,400&display=block",
-			"name": "Lexend Peta",
+			"href": "https://fonts.googleapis.com/css2?family=Holtwood+One+SC:ital,wght@0,400&display=block",
+			"name": "Holtwood One SC",
 			"variant": {
-				"name": "Lexend Peta",
+				"name": "Holtwood One SC",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -22175,6 +22685,16 @@
 			"name": "Lexend Mega",
 			"variant": {
 				"name": "Lexend Mega",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Zen+Dots:ital,wght@0,400&display=block",
+			"name": "Zen Dots",
+			"variant": {
+				"name": "Zen Dots",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -22215,6 +22735,16 @@
 			"name": "Rock Salt",
 			"variant": {
 				"name": "Rock Salt",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Dela+Gothic+One:ital,wght@0,400&display=block",
+			"name": "Dela Gothic One",
+			"variant": {
+				"name": "Dela Gothic One",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -23059,6 +23589,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Archivo",
+			"variant": {
+				"name": "Archivo Black italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 900
+			}
+		},
+		{
 			"name": "Knile",
 			"variant": {
 				"name": "Knile Black",
@@ -23343,6 +23883,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Kiwi+Maru:ital,wght@0,300;0,400;0,500&display=block",
+			"name": "Kiwi Maru",
+			"variant": {
+				"name": "Kiwi Maru Medium",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 500
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Ruslan+Display:ital,wght@0,400&display=block",
 			"name": "Ruslan Display",
 			"variant": {
@@ -23377,6 +23927,16 @@
 			"name": "Headland One",
 			"variant": {
 				"name": "Headland One",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Train+One:ital,wght@0,400&display=block",
+			"name": "Train One",
+			"variant": {
+				"name": "Train One",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -23442,6 +24002,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Encode+Sans+SC:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+			"name": "Encode Sans SC",
+			"variant": {
+				"name": "Encode Sans SC Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Ribeye:ital,wght@0,400&display=block",
 			"name": "Ribeye",
 			"variant": {
@@ -23469,6 +24039,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 900
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Lexend:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,800&display=block",
+			"name": "Lexend",
+			"variant": {
+				"name": "Lexend Ultra bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 800
 			}
 		},
 		{
@@ -24118,16 +24698,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700&display=block",
-			"name": "Monda",
-			"variant": {
-				"name": "Monda Bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 700
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Adamina:ital,wght@0,400&display=block",
 			"name": "Adamina",
 			"variant": {
@@ -24157,6 +24727,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Monda:ital,wght@0,400;0,700&display=block",
+			"name": "Monda",
+			"variant": {
+				"name": "Monda Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Purple+Purse:ital,wght@0,400&display=block",
 			"name": "Purple Purse",
 			"variant": {
@@ -24171,6 +24751,16 @@
 			"name": "Julius Sans One",
 			"variant": {
 				"name": "Julius Sans One",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Otomanopee+One:ital,wght@0,400&display=block",
+			"name": "Otomanopee One",
+			"variant": {
+				"name": "Otomanopee One",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -24531,6 +25121,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"name": "AUTHENTIC Sans",
+			"variant": {
+				"name": "AUTHENTIC Sans Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
 			}
 		},
 		{
@@ -25369,6 +25968,26 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Tourney:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Tourney",
+			"variant": {
+				"name": "Tourney Thin italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 100
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Reem+Kufi:ital,wght@0,400;0,500;0,600;0,700&display=block",
+			"name": "Reem Kufi",
+			"variant": {
+				"name": "Reem Kufi Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Alef:ital,wght@0,400;0,700&display=block",
 			"name": "Alef",
 			"variant": {
@@ -25433,16 +26052,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Archivo:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=block",
-			"name": "Archivo",
-			"variant": {
-				"name": "Archivo Bold italic",
-				"stretch": "normal",
-				"style": "italic",
-				"weight": 700
 			}
 		},
 		{
@@ -26189,6 +26798,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Recursive:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+			"name": "Recursive",
+			"variant": {
+				"name": "Recursive Light",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 300
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Gilda+Display:ital,wght@0,400&display=block",
 			"name": "Gilda Display",
 			"variant": {
@@ -26226,16 +26845,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Recursive:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
-			"name": "Recursive",
-			"variant": {
-				"name": "Recursive Light",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 300
 			}
 		},
 		{
@@ -26286,6 +26895,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=block",
+			"name": "Bona Nova",
+			"variant": {
+				"name": "Bona Nova Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -26465,6 +27084,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"name": "Strawford",
+			"variant": {
+				"name": "Strawford Black italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 900
 			}
 		},
 		{
@@ -27261,6 +27889,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Orelega+One:ital,wght@0,400&display=block",
+			"name": "Orelega One",
+			"variant": {
+				"name": "Orelega One",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital,wght@0,400;1,400&display=block",
 			"name": "IM Fell Great Primer",
 			"variant": {
@@ -27351,16 +27989,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Manjari:ital,wght@0,100;0,400;0,700&display=block",
-			"name": "Manjari",
-			"variant": {
-				"name": "Manjari Bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 700
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Marcellus+SC:ital,wght@0,400&display=block",
 			"name": "Marcellus SC",
 			"variant": {
@@ -27431,6 +28059,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Manjari:ital,wght@0,100;0,400;0,700&display=block",
+			"name": "Manjari",
+			"variant": {
+				"name": "Manjari Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Lily+Script+One:ital,wght@0,400&display=block",
 			"name": "Lily Script One",
 			"variant": {
@@ -27458,6 +28096,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Uchen:ital,wght@0,400&display=block",
+			"name": "Uchen",
+			"variant": {
+				"name": "Uchen",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -27587,6 +28235,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=New+Tegomin:ital,wght@0,400&display=block",
+			"name": "New Tegomin",
+			"variant": {
+				"name": "New Tegomin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -28246,7 +28904,7 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,500;0,600;0,700&display=block",
+			"href": "https://fonts.googleapis.com/css2?family=Brygada+1918:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=block",
 			"name": "Brygada 1918",
 			"variant": {
 				"name": "Brygada 1918",
@@ -28280,6 +28938,16 @@
 			"name": "IM Fell DW Pica SC",
 			"variant": {
 				"name": "IM Fell DW Pica SC",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=STIX+Two+Math:ital,wght@0,400&display=block",
+			"name": "STIX Two Math",
+			"variant": {
+				"name": "STIX Two Math",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -29461,6 +30129,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Festive:ital,wght@0,400&display=block",
+			"name": "Festive",
+			"variant": {
+				"name": "Festive",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Kalam:ital,wght@0,300;0,400;0,700&display=block",
 			"name": "Kalam",
 			"variant": {
@@ -29558,16 +30236,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Reem+Kufi:ital,wght@0,400&display=block",
-			"name": "Reem Kufi",
-			"variant": {
-				"name": "Reem Kufi",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
 			}
 		},
 		{
@@ -29758,6 +30426,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo:ital,wght@0,400&display=block",
+			"name": "Zen Tokyo Zoo",
+			"variant": {
+				"name": "Zen Tokyo Zoo",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -30530,20 +31208,20 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Akaya+Kanadaka:ital,wght@0,400&display=block",
-			"name": "Akaya Kanadaka",
+			"href": "https://fonts.googleapis.com/css2?family=Akaya+Telivigala:ital,wght@0,400&display=block",
+			"name": "Akaya Telivigala",
 			"variant": {
-				"name": "Akaya Kanadaka",
+				"name": "Akaya Telivigala",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Akaya+Telivigala:ital,wght@0,400&display=block",
-			"name": "Akaya Telivigala",
+			"href": "https://fonts.googleapis.com/css2?family=Akaya+Kanadaka:ital,wght@0,400&display=block",
+			"name": "Akaya Kanadaka",
 			"variant": {
-				"name": "Akaya Telivigala",
+				"name": "Akaya Kanadaka",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -30690,6 +31368,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Yomogi:ital,wght@0,400&display=block",
+			"name": "Yomogi",
+			"variant": {
+				"name": "Yomogi",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=DotGothic16:ital,wght@0,400&display=block",
 			"name": "DotGothic16",
 			"variant": {
@@ -30814,6 +31502,15 @@
 			"name": "Stylish",
 			"variant": {
 				"name": "Stylish",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"name": "Pomfret",
+			"variant": {
+				"name": "Pomfret",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -31259,6 +31956,15 @@
 			}
 		},
 		{
+			"name": "AUTHENTIC Classified",
+			"variant": {
+				"name": "AUTHENTIC Classified",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Anaheim:ital,wght@0,400&display=block",
 			"name": "Anaheim",
 			"variant": {
@@ -31639,16 +32345,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Bilbo:ital,wght@0,400&display=block",
-			"name": "Bilbo",
-			"variant": {
-				"name": "Bilbo",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Saira+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Saira Condensed",
 			"variant": {
@@ -31656,6 +32352,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 900
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Bilbo:ital,wght@0,400&display=block",
+			"name": "Bilbo",
+			"variant": {
+				"name": "Bilbo",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -31706,6 +32412,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Antonio:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Antonio",
+			"variant": {
+				"name": "Antonio Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -32378,10 +33094,10 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Pompiere:ital,wght@0,400&display=block",
-			"name": "Pompiere",
+			"href": "https://fonts.googleapis.com/css2?family=Fuggles:ital,wght@0,400&display=block",
+			"name": "Fuggles",
 			"variant": {
-				"name": "Pompiere",
+				"name": "Fuggles",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -32392,6 +33108,16 @@
 			"name": "Qwigley",
 			"variant": {
 				"name": "Qwigley",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Pompiere:ital,wght@0,400&display=block",
+			"name": "Pompiere",
+			"variant": {
+				"name": "Pompiere",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -32568,6 +33294,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Karantina:ital,wght@0,300;0,400;0,700&display=block",
+			"name": "Karantina",
+			"variant": {
+				"name": "Karantina Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Smythe:ital,wght@0,400&display=block",
 			"name": "Smythe",
 			"variant": {
@@ -32628,6 +33364,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Zen+Loop:ital,wght@0,400;1,400&display=block",
+			"name": "Zen Loop",
+			"variant": {
+				"name": "Zen Loop italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Loved+by+the+King:ital,wght@0,400&display=block",
 			"name": "Loved by the King",
 			"variant": {
@@ -32677,6 +33423,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Qahiri:ital,wght@0,400&display=block",
+			"name": "Qahiri",
+			"variant": {
+				"name": "Qahiri",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Bahiana:ital,wght@0,400&display=block",
 			"name": "Bahiana",
 			"variant": {
@@ -32694,6 +33450,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"name": "SuperDuper",
+			"variant": {
+				"name": "SuperDuper Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
