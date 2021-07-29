@@ -439,6 +439,12 @@ const otherFonts = [
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
+		name: 'Cartograph CF',
+		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italics: true,
+		collections: [MONOSPACE_COLLECTION],
+	},
+	{
 		name: 'Pomfret',
 		weights: [REGULAR],
 		italics: false,
