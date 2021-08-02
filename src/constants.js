@@ -106,6 +106,7 @@ export const defaultPreviews = [
 
 // Note: Not using Symbols because React Select doesn’t expect them.
 export const ATIPO_COLLECTION = 'ATIPO_COLLECTION';
+export const DJR_FONT_OF_THE_MONTH_COLLECTION = 'DJR_FONT_OF_THE_MONTH_COLLECTION';
 export const GOOGLE_FONTS_COLLECTION = 'GOOGLE_FONTS_COLLECTION';
 export const TYPEWOLF_40_GOOGLE_FONTS_COLLECTION = 'TYPEWOLF_40_GOOGLE_FONTS_COLLECTION';
 export const LOCAL_FONTS_COLLECTION = 'LOCAL_FONTS_COLLECTION';

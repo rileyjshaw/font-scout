@@ -11,6 +11,7 @@ import {
 	BLACK,
 	ULTRA_BLACK,
 	ATIPO_COLLECTION,
+	DJR_FONT_OF_THE_MONTH_COLLECTION,
 	LOCAL_FONTS_COLLECTION,
 	FREE_OPEN_COLLECTION,
 	DISPLAY_COLLECTION,
@@ -237,6 +238,42 @@ const atipoFonts = [
 	collections: [...(font.collections ?? []), ATIPO_COLLECTION],
 }));
 
+const djrFontOfTheMonth = [
+	{
+		name: 'Megazoid',
+		weights: [REGULAR],
+		italics: false,
+		collections: [DISPLAY_COLLECTION],
+	},
+	{
+		name: 'Megazoid Fill',
+		weights: [REGULAR],
+		italics: false,
+		collections: [DISPLAY_COLLECTION],
+	},
+	{
+		name: 'Megazoid Shade Left',
+		weights: [REGULAR],
+		italics: false,
+		collections: [DISPLAY_COLLECTION],
+	},
+	{
+		name: 'Megazoid Shade Right',
+		weights: [REGULAR],
+		italics: false,
+		collections: [DISPLAY_COLLECTION],
+	},
+	{
+		name: 'Pomfret',
+		weights: [REGULAR],
+		italics: false,
+		collections: [SERIF_COLLECTION, DISPLAY_COLLECTION],
+	},
+].map(font => ({
+	...font,
+	collections: [...(font.collections ?? []), DJR_FONT_OF_THE_MONTH_COLLECTION],
+}));
+
 const freeOpenFonts = [
 	{
 		name: 'AUTHENTIC Sans',
@@ -444,15 +481,9 @@ const otherFonts = [
 		italics: true,
 		collections: [MONOSPACE_COLLECTION],
 	},
-	{
-		name: 'Pomfret',
-		weights: [REGULAR],
-		italics: false,
-		collections: [SERIF_COLLECTION, DISPLAY_COLLECTION],
-	},
 ];
 
-const localFonts = [...atipoFonts, ...freeOpenFonts, ...systemFonts, ...otherFonts].map(font => ({
+const localFonts = [...atipoFonts, ...djrFontOfTheMonth, ...freeOpenFonts, ...systemFonts, ...otherFonts].map(font => ({
 	...font,
 	collections: [...(font.collections ?? []), LOCAL_FONTS_COLLECTION],
 }));
