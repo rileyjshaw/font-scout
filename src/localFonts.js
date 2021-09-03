@@ -11,14 +11,15 @@ import {
 	BLACK,
 	ULTRA_BLACK,
 	ATIPO_COLLECTION,
-	DJR_FONT_OF_THE_MONTH_COLLECTION,
-	LOCAL_FONTS_COLLECTION,
-	FREE_OPEN_COLLECTION,
 	DISPLAY_COLLECTION,
+	DJR_FONT_OF_THE_MONTH_COLLECTION,
+	FREE_OPEN_COLLECTION,
+	LOCAL_FONTS_COLLECTION,
 	MONOSPACE_COLLECTION,
 	SANS_SERIF_COLLECTION,
 	SERIF_COLLECTION,
 	SYSTEM_FONTS_COLLECTION,
+	VARIABLE_COLLECTION,
 } from './constants.js';
 
 const atipoFonts = [
@@ -268,6 +269,28 @@ const djrFontOfTheMonth = [
 		weights: [REGULAR],
 		italics: false,
 		collections: [SERIF_COLLECTION, DISPLAY_COLLECTION],
+	},
+	{
+		name: 'Roslindale Extended',
+		weights: [REGULAR],
+		italics: false,
+		stretches: {
+			[REGULAR]: {
+				values: ['expanded'],
+			},
+		},
+		aliases: {
+			_font: 'Roslindale',
+			_regular: 'Wide',
+			expanded: 'Extended',
+		},
+		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION],
+	},
+	{
+		name: 'Roslindale Extended Variable',
+		weights: [REGULAR],
+		italics: false,
+		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, VARIABLE_COLLECTION],
 	},
 ].map(font => ({
 	...font,

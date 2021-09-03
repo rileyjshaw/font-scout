@@ -41,10 +41,14 @@ const allFonts = [...googleFonts, ...localFonts]
 				  })
 				: []),
 		]
-			.map(variant => ({
-				...variant,
-				name: [font.name, font.aliases?.[variant.name] ?? variant.name].filter(x => x).join(' '),
-			}))
+			.map(variant => {
+				const fontName = font.aliases?._font ?? font.name;
+				const variantName = font.aliases?.[variant.name || '_regular'] ?? variant.name;
+				return {
+					...variant,
+					name: [fontName, variantName].filter(x => x).join(' '),
+				};
+			})
 			.sort(
 				(a, b) =>
 					a.weight -

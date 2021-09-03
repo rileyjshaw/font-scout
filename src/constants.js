@@ -118,6 +118,7 @@ export const MONOSPACE_COLLECTION = 'MONOSPACE_COLLECTION';
 export const SANS_SERIF_COLLECTION = 'SANS_SERIF_COLLECTION';
 export const SERIF_COLLECTION = 'SERIF_COLLECTION';
 export const SINGLE_VARIANT_COLLECTION = 'SINGLE_VARIANT_COLLECTION';
+export const VARIABLE_COLLECTION = 'VARIABLE_COLLECTION';
 export const UNCATEGORIZED_COLLECTION = 'UNCATEGORIZED_COLLECTION';
 
 export const COLLECTION_GROUPS = [
@@ -142,6 +143,7 @@ export const COLLECTION_GROUPS = [
 		label: 'Source / foundry',
 		options: {
 			ATIPO_COLLECTION: 'Atipo foundry',
+			DJR_FONT_OF_THE_MONTH_COLLECTION: 'DJR Font of the Month',
 			GOOGLE_FONTS_COLLECTION: 'Google fonts',
 			LOCAL_FONTS_COLLECTION: 'Local fonts',
 			SYSTEM_FONTS_COLLECTION: 'System fonts',
@@ -152,7 +154,8 @@ export const COLLECTION_GROUPS = [
 		options: {
 			TYPEWOLF_40_GOOGLE_FONTS_COLLECTION: 'Typewolf’s “40 Best Google fonts”',
 			FREE_OPEN_COLLECTION: 'Free and/or open source',
-			UNCATEGORIZED: 'Uncategorized fonts',
+			VARIABLE_COLLECTION: 'Variable fonts',
+			UNCATEGORIZED_COLLECTION: 'Uncategorized fonts',
 		},
 	},
 ];

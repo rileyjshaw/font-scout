@@ -1383,7 +1383,7 @@
  * Megazoid Fill font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
   font-family: 'Megazoid Fill';
   src: url('Megazoid-Fill.woff2') format('woff2'),
        url('Megazoid-Fill.woff') format('woff');
@@ -1672,6 +1672,37 @@
   font-family: 'Pomfret';
   src: url('PomfretV2-Regular.woff2') format('woff2'),
        url('PomfretV2-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/******************************************************************************
+ *
+ * Roslindale Extended font family.
+ *
+ *****************************************************************************/
+@font-face {
+   font-family: 'Roslindale Extended';
+   src: url('RoslindaleDisplayWide-Bold.woff2') format('woff2'),
+		url('RoslindaleDisplayWide-Bold.woff') format('woff');
+   font-weight: 400;
+   font-style: normal;
+   font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Roslindale Extended';
+  src: url('RoslindaleDisplayExtended-Bold.woff2') format('woff2'),
+       url('RoslindaleDisplayExtended-Bold.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: expanded;
+}
+
+@font-face {
+  font-family: 'Roslindale Extended Variable';
+  src: url('RoslindaleDisplayVariable-VF.woff2') format('woff2'),
+       url('RoslindaleDisplayVariable-VF.woff') format('woff');
   font-weight: 400;
   font-style: normal;
 }
