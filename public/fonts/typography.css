@@ -1665,6 +1665,18 @@
 
 /******************************************************************************
  *
+ * Output Sans 2 (beta) font family.
+ *
+ *****************************************************************************/
+@font-face {
+  font-family: 'Output Sans 2 Beta';
+  src: url('OutputSans2Beta-Regular.woff2') format('woff2'),
+       url('OutputSans2Beta-Regular.woff') format('woff');
+  font-weight: 1 800;
+  font-style: normal italic;
+
+/******************************************************************************
+ *
  * Pomfret font family.
  *
  *****************************************************************************/

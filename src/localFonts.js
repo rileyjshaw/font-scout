@@ -265,6 +265,12 @@ const djrFontOfTheMonth = [
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
+		name: 'Output Sans 2 Beta',
+		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, BOOK, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD],
+		italics: true,
+		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION],
+	},
+	{
 		name: 'Pomfret',
 		weights: [REGULAR],
 		italics: false,
