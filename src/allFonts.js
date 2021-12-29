@@ -1,6 +1,13 @@
 import googleFonts from './googleFonts.js';
 import localFonts from './localFonts.js';
-import { REGULAR, WEIGHTS, STRETCH_ORDER, SINGLE_VARIANT_COLLECTION, UNCATEGORIZED_COLLECTION } from './constants.js';
+import {
+	REGULAR,
+	WEIGHTS,
+	STRETCH_ORDER,
+	SINGLE_VARIANT_COLLECTION,
+	STARRED_COLLECTION,
+	UNCATEGORIZED_COLLECTION,
+} from './constants.js';
 
 const allFonts = [...googleFonts, ...localFonts]
 	.map(font => ({
@@ -62,7 +69,11 @@ const allFonts = [...googleFonts, ...localFonts]
 		collections: font.collections ?? [],
 	}))
 	.sort((a, b) => a.name.localeCompare(b.name));
+
+// TODO: Save this to a DB or something.
+const STARRED_FONTS = ['Lexend'];
 allFonts.forEach(font => {
+	if (STARRED_FONTS.includes(font.name)) font.collections.push(STARRED_COLLECTION);
 	if (font.variants.length === 1) font.collections.push(SINGLE_VARIANT_COLLECTION);
 	// else if (font variants contains regular, italic, and bold) font.collections.push(BODY_SAFE_COLLECTION);
 	else if (font.collections.length === 0) font.collections.push(UNCATEGORIZED_COLLECTION);
