@@ -2430,6 +2430,27 @@
 
 /******************************************************************************
  *
+ * Warbler Text font family.
+ *
+ *****************************************************************************/
+@font-face {
+  font-family: 'Warbler Text';
+  src: url('WarblerText-Regular.woff2') format('woff2'),
+       url('WarblerText-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Warbler Text';
+  src: url('WarblerText-Italic.woff2') format('woff2'),
+       url('WarblerText-Italic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Wotfard font family.
  *
  *****************************************************************************/

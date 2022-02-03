@@ -298,6 +298,12 @@ const djrFontOfTheMonth = [
 		italics: false,
 		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, VARIABLE_COLLECTION],
 	},
+	{
+		name: 'Warbler Text',
+		weights: [REGULAR],
+		italics: true,
+		collections: [SERIF_COLLECTION],
+	},
 ].map(font => ({
 	...font,
 	collections: [...(font.collections ?? []), DJR_FONT_OF_THE_MONTH_COLLECTION],
