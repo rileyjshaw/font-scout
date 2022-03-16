@@ -103,6 +103,8 @@ function ExplorationMode({
 	setExcludedCollections,
 	excludeMethod,
 	setExcludeMethod,
+	isShowingTitles,
+	setIsShowingTitles,
 	allFontsWithIndex,
 	fonts,
 	loadFont,
@@ -221,6 +223,22 @@ function ExplorationMode({
 		[setFonts]
 	);
 
+	const onChangeAllVisibleMarked = useCallback(
+		checked => {
+			setFonts(fonts => {
+				const newFonts = [...fonts];
+				visibleFonts.forEach(({ originalIndex }) => {
+					newFonts[originalIndex] = {
+						...fonts[originalIndex],
+						marked: checked,
+					};
+				});
+				return newFonts;
+			});
+		},
+		[setFonts, visibleFonts]
+	);
+
 	const onChangeSizeOffset = useCallback(
 		(sizeOffset, font) => {
 			const { originalIndex } = font;
@@ -262,6 +280,7 @@ function ExplorationMode({
 			loadFont,
 			showSettings: configMode,
 			visibleFonts,
+			isShowingTitles,
 		}),
 		[
 			columnCount,
@@ -273,13 +292,23 @@ function ExplorationMode({
 			Preview,
 			loadFont,
 			visibleFonts,
+			isShowingTitles,
 		]
 	);
 
+	const isAllFontsMarked = useMemo(() => visibleFonts.every(font => font.marked), [visibleFonts]);
 	return (
 		<>
 			<div className={`global-settings${configMode ? ' show-global-settings' : ''}`}>
-				{!configMode && <span className="font-count">Showing {visibleFonts.length} fonts</span>}
+				{!configMode && (
+					<div className="details">
+						<span>Showing {visibleFonts.length} fonts</span>
+						<button onClick={() => setIsShowingTitles(x => !x)}>{isShowingTitles ? 'Hide' : 'Show'} titles</button>
+						<button onClick={() => onChangeAllVisibleMarked(!isAllFontsMarked)}>
+							{isAllFontsMarked ? 'Unmark' : 'Mark'} all
+						</button>
+					</div>
+				)}
 				<input
 					className="config-mode-toggle"
 					type="checkbox"

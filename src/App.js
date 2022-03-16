@@ -77,6 +77,7 @@ function App() {
 	const [includeMethod, setIncludeMethod] = useState('ALL');
 	const [excludedCollections, setExcludedCollections] = useState(() => []);
 	const [excludeMethod, setExcludeMethod] = useState('ANY');
+	const [isShowingTitles, setIsShowingTitles] = useState(false);
 
 	const loadFont = useCallback(
 		font => {
@@ -140,6 +141,8 @@ function App() {
 								setExcludedCollections={setExcludedCollections}
 								excludeMethod={excludeMethod}
 								setExcludeMethod={setExcludeMethod}
+								isShowingTitles={isShowingTitles}
+								setIsShowingTitles={setIsShowingTitles}
 								allFontsWithIndex={allFontsWithIndex}
 								fonts={fonts}
 								loadFont={loadFont}

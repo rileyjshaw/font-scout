@@ -38,6 +38,7 @@ const FontContainer = React.memo(function FontContainer({
 	loadFont,
 	showSettings,
 	style,
+	isShowingTitles,
 }) {
 	const ref = useRef(null);
 	const isHovering = useHover(ref);
@@ -120,6 +121,7 @@ const FontContainer = React.memo(function FontContainer({
 				</div>
 			)}
 			<FontPreview font={font} variant={font.variants[font.activeVariant]} Preview={Preview} loadFont={loadFont} />
+			{!showSettings && isShowingTitles && <div className="font-title">{font.name}</div>}
 		</li>
 	);
 });
