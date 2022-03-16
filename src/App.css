@@ -42,11 +42,17 @@
 }
 
 label,
-fieldset {
+fieldset,
+.font-count {
 	font-size: 0.5em;
 	font-weight: bold;
 	letter-spacing: 1px;
 	text-transform: uppercase;
+}
+
+.font-count {
+	margin-left: 4px;
+	color: rgba(0, 0, 0, 0.5);
 }
 
 input[type='radio'] {

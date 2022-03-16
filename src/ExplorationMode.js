@@ -273,6 +273,7 @@ function ExplorationMode({
 	return (
 		<>
 			<div className={`global-settings${configMode ? ' show-global-settings' : ''}`}>
+				{!configMode && <span className="font-count">Showing {visibleFonts.length} fonts</span>}
 				<input
 					className="config-mode-toggle"
 					type="checkbox"
