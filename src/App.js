@@ -14,24 +14,35 @@ import './App.css';
 const helmetContext = {};
 
 const GlobalStyles = createGlobalStyle`
-  * {
-    box-sizing: border-box;
-  }
+	* {
+		box-sizing: border-box;
+	}
 
-  body {
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background: #faf9f7;
-    color: #0a0b08;
-    font: 400 22px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
-    margin: 0;
-    text-rendering: optimizeLegibility;
-  }
+	html {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		background: #faf9f7;
+		color: #0a0b08;
+		font: 400 22px -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+		text-rendering: optimizeLegibility;
+	}
 
-  #root {
-    height: 100vh;
-    width: 100vw;
-  }
+	body {
+		margin: 0;
+	}
+
+	#root {
+		height: 100vh;
+		width: 100vw;
+	}
+
+	.underline {
+		text-decoration: underline;
+	}
+
+	.pointer {
+		cursor: pointer;
+	}
 `;
 
 const allFontsWithIndex = allFonts.map((font, i) => ({

@@ -270,11 +270,11 @@ function ExplorationMode({
 				<div className="global-settings-rows">
 					<div className="global-settings-row">
 						<label>
-							Font size:
+							Font size
 							<input type="number" min={1} value={fontSize} onChange={e => setFontSize(+e.target.value)} />
 						</label>
 						<label>
-							Line height:
+							Line height
 							<input
 								type="number"
 								min={0}
@@ -284,7 +284,7 @@ function ExplorationMode({
 							/>
 						</label>
 						<label>
-							Nearest weight:
+							Nearest weight
 							<input
 								className="global-font-weight-input"
 								type="number"
@@ -313,7 +313,7 @@ function ExplorationMode({
 							/>
 						</label>
 						<StyledTextArea
-							rows={3}
+							rows={2}
 							className="preview-text-input"
 							value={previewContent ?? ''}
 							placeholder={defaultPreviewContent}
@@ -323,7 +323,7 @@ function ExplorationMode({
 							}}
 						/>
 						<fieldset className="alignment-options">
-							Align:&nbsp;
+							Align&nbsp;
 							<input
 								type="radio"
 								value="left"
