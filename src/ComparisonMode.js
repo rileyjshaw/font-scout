@@ -1,8 +1,8 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import useKeypress from 'react-use-keypress';
 
-function ComparisonMode({ markedFonts, Preview, setComparisonMode }) {
+function ComparisonMode({ markedFonts, Preview, setComparisonMode, loadFont }) {
 	const [comparisonIdx, setComparisonIdx] = useState(0);
 
 	useKeypress('Escape', () => {
@@ -17,13 +17,18 @@ function ComparisonMode({ markedFonts, Preview, setComparisonMode }) {
 	});
 
 	const comparisonFont = markedFonts[comparisonIdx];
+	console.log(comparisonFont);
+	useEffect(() => {
+		if (loadFont) loadFont(comparisonFont);
+	}, [comparisonFont, loadFont]);
+
 	return (
 		<div className="comparison-mode">
 			<div className="font-preview-wrapper">
 				<pre
 					className="font-preview"
 					style={{
-						fontFamily: comparisonFont.name,
+						fontFamily: `"${comparisonFont.name}"`,
 						fontWeight: comparisonFont.variants[comparisonFont.activeVariant].weight,
 						fontSize: `${comparisonFont.sizeOffset}em`,
 						fontStyle: comparisonFont.variants[comparisonFont.activeVariant].style,

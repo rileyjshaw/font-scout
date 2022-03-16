@@ -115,7 +115,12 @@ function App() {
 						))}
 					</Helmet>
 					{comparisonMode ? (
-						<ComparisonMode markedFonts={markedFonts} Preview={Preview} setComparisonMode={setComparisonMode} />
+						<ComparisonMode
+							markedFonts={markedFonts}
+							Preview={Preview}
+							setComparisonMode={setComparisonMode}
+							loadFont={loadFont}
+						/>
 					) : (
 						<>
 							<ExplorationMode
