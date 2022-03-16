@@ -7,7 +7,7 @@ import ComparisonMode from './ComparisonMode';
 import ExplorationMode from './ExplorationMode';
 
 import allFonts from './allFonts';
-import { defaultPreviews } from './constants';
+import { defaultPreviews, LOCAL_FONTS_COLLECTION } from './constants';
 
 import './App.css';
 
@@ -64,13 +64,19 @@ function App() {
 	const [[defaultPreviewContent, defaultFontSize, defaultAlignment], setDefaultPreview] = useState(
 		() => defaultPreviews[Math.floor(Math.random() * defaultPreviews.length)]
 	);
-	const [fonts, setFonts] = useState(allFontsWithIndex);
-	const [previewContent, setPreviewContent] = useState(null);
-	const [fontSize, setFontSize] = useState(defaultFontSize);
-	const [lineHeight, setLineHeight] = useState(1.7);
-	const [alignment, setAlignment] = useState(defaultAlignment);
 	const [comparisonMode, setComparisonMode] = useState(false);
 	const [loadedStylesheets, setLoadedStylesheets] = useState({});
+	const [fonts, setFonts] = useState(allFontsWithIndex);
+	const [configMode, setConfigMode] = useState(true);
+	const [fontSize, setFontSize] = useState(defaultFontSize);
+	const [lineHeight, setLineHeight] = useState(1.7);
+	const [fontWeight, setFontWeight] = useState(400);
+	const [previewContent, setPreviewContent] = useState(null);
+	const [alignment, setAlignment] = useState(defaultAlignment);
+	const [includedCollections, setIncludedCollections] = useState(() => [LOCAL_FONTS_COLLECTION]);
+	const [includeMethod, setIncludeMethod] = useState('ALL');
+	const [excludedCollections, setExcludedCollections] = useState(() => []);
+	const [excludeMethod, setExcludeMethod] = useState('ANY');
 
 	const loadFont = useCallback(
 		font => {
@@ -112,20 +118,32 @@ function App() {
 					) : (
 						<>
 							<ExplorationMode
-								allFontsWithIndex={allFontsWithIndex}
-								fonts={fonts}
+								configMode={configMode}
+								setConfigMode={setConfigMode}
 								fontSize={fontSize}
 								setFontSize={setFontSize}
 								lineHeight={lineHeight}
 								setLineHeight={setLineHeight}
-								alignment={alignment}
-								setAlignment={setAlignment}
-								loadFont={loadFont}
-								setFonts={setFonts}
+								fontWeight={fontWeight}
+								setFontWeight={setFontWeight}
 								defaultPreviewContent={defaultPreviewContent}
 								unsetDefaultPreview={unsetDefaultPreview}
 								previewContent={previewContent}
 								setPreviewContent={setPreviewContent}
+								alignment={alignment}
+								setAlignment={setAlignment}
+								includedCollections={includedCollections}
+								setIncludedCollections={setIncludedCollections}
+								includeMethod={includeMethod}
+								setIncludeMethod={setIncludeMethod}
+								excludedCollections={excludedCollections}
+								setExcludedCollections={setExcludedCollections}
+								excludeMethod={excludeMethod}
+								setExcludeMethod={setExcludeMethod}
+								allFontsWithIndex={allFontsWithIndex}
+								fonts={fonts}
+								loadFont={loadFont}
+								setFonts={setFonts}
 								Preview={Preview}
 							/>
 							{markedFonts.length > 1 && (

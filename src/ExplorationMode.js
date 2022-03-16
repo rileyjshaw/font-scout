@@ -81,28 +81,34 @@ const GridCell = React.memo(function GridCell({ columnIndex, rowIndex, style, da
 }, areEqual);
 
 function ExplorationMode({
+	configMode,
+	setConfigMode,
 	fontSize,
 	setFontSize,
 	lineHeight,
 	setLineHeight,
-	alignment,
-	setAlignment,
+	fontWeight,
+	setFontWeight,
 	defaultPreviewContent,
 	unsetDefaultPreview,
 	previewContent,
 	setPreviewContent,
-	Preview,
+	alignment,
+	setAlignment,
+	includedCollections,
+	setIncludedCollections,
+	includeMethod,
+	setIncludeMethod,
+	excludedCollections,
+	setExcludedCollections,
+	excludeMethod,
+	setExcludeMethod,
+	allFontsWithIndex,
+	fonts,
 	loadFont,
 	setFonts,
-	fonts,
-	allFontsWithIndex,
+	Preview,
 }) {
-	const [configMode, setConfigMode] = useState(true);
-	const [fontWeight, setFontWeight] = useState(400);
-	const [includedCollections, setIncludedCollections] = useState(() => [LOCAL_FONTS_COLLECTION]);
-	const [includeMethod, setIncludeMethod] = useState('ALL');
-	const [excludedCollections, setExcludedCollections] = useState(() => []);
-	const [excludeMethod, setExcludeMethod] = useState('ANY');
 	const gridRef = useRef(null);
 	const probeRef = useRef(null);
 	const { height: probeHeight } = useSize(probeRef);
