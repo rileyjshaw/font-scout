@@ -61,6 +61,7 @@ function activeFontsFromCollections(includedCollections, includeMethod, excluded
 	const excludeArrayMethod = excludeMethod === 'ANY' ? 'some' : 'every';
 	const activeFonts = fonts.filter(
 		({ collections }) =>
+			includedCollections.length &&
 			includedCollections[includeArrayMethod](collection => collections.includes(collection)) &&
 			!(
 				excludedCollections.length &&

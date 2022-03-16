@@ -4,6 +4,7 @@ import {
 	REGULAR,
 	WEIGHTS,
 	STRETCH_ORDER,
+	ALL_FONTS_COLLECTION,
 	SINGLE_VARIANT_COLLECTION,
 	MULTIPLE_WEIGHTS_COLLECTION,
 	MULTIPLE_STYLES_COLLECTION,
@@ -83,6 +84,7 @@ allFonts.forEach(font => {
 		if (font.source.italics) font.collections.push(MULTIPLE_STYLES_COLLECTION);
 	}
 	if (font.collections.length === 0) font.collections.push(UNCATEGORIZED_COLLECTION);
+	font.collections.push(ALL_FONTS_COLLECTION);
 });
 allFonts.forEach(
 	font =>

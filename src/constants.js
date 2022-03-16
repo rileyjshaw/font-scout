@@ -105,6 +105,7 @@ export const defaultPreviews = [
 ];
 
 // Note: Not using Symbols because React Select doesn’t expect them.
+export const ALL_FONTS_COLLECTION = 'ALL_FONTS_COLLECTION';
 export const ATIPO_COLLECTION = 'ATIPO_COLLECTION';
 export const DJR_FONT_OF_THE_MONTH_COLLECTION = 'DJR_FONT_OF_THE_MONTH_COLLECTION';
 export const GOOGLE_FONTS_COLLECTION = 'GOOGLE_FONTS_COLLECTION';
@@ -128,6 +129,7 @@ export const COLLECTION_GROUPS = [
 	{
 		label: 'Font category',
 		options: {
+			ALL_FONTS_COLLECTION: 'All fonts',
 			SANS_SERIF_COLLECTION: 'Sans-serif',
 			SERIF_COLLECTION: 'Serif',
 			MONOSPACE_COLLECTION: 'Monospace',
