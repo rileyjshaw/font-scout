@@ -56,11 +56,16 @@ function useSize(target) {
 	return size;
 }
 
-function activeFontsFromCollections(includedCollections, excludedCollections, fonts) {
+function activeFontsFromCollections(includedCollections, includeMethod, excludedCollections, excludeMethod, fonts) {
+	const includeArrayMethod = includeMethod === 'ANY' ? 'some' : 'every';
+	const excludeArrayMethod = excludeMethod === 'ANY' ? 'some' : 'every';
 	const activeFonts = fonts.filter(
-		font =>
-			font.collections.some(collection => includedCollections.includes(collection)) &&
-			!font.collections.some(collection => excludedCollections.includes(collection))
+		({ collections }) =>
+			includedCollections[includeArrayMethod](collection => collections.includes(collection)) &&
+			!(
+				excludedCollections.length &&
+				excludedCollections[excludeArrayMethod](collection => collections.includes(collection))
+			)
 	);
 	if (!activeFonts.length) return false;
 	return activeFonts.reduce((acc, font) => {
@@ -95,14 +100,23 @@ function ExplorationMode({
 	const [configMode, setConfigMode] = useState(true);
 	const [fontWeight, setFontWeight] = useState(400);
 	const [includedCollections, setIncludedCollections] = useState(() => [LOCAL_FONTS_COLLECTION]);
+	const [includeMethod, setIncludeMethod] = useState('ALL');
 	const [excludedCollections, setExcludedCollections] = useState(() => []);
+	const [excludeMethod, setExcludeMethod] = useState('ANY');
 	const gridRef = useRef(null);
 	const probeRef = useRef(null);
 	const { height: probeHeight } = useSize(probeRef);
 	const { width: gridWidth, height: gridHeight } = useSize(gridRef);
 	const activeFonts = useMemo(
-		() => activeFontsFromCollections(includedCollections, excludedCollections, allFontsWithIndex),
-		[allFontsWithIndex, excludedCollections, includedCollections]
+		() =>
+			activeFontsFromCollections(
+				includedCollections,
+				includeMethod,
+				excludedCollections,
+				excludeMethod,
+				allFontsWithIndex
+			),
+		[includedCollections, includeMethod, excludedCollections, excludeMethod, allFontsWithIndex]
 	);
 
 	const columnCount = Math.max(Math.floor(gridWidth / MIN_COLUMN_WIDTH), 1);
@@ -351,29 +365,49 @@ function ExplorationMode({
 						</fieldset>
 					</div>
 					<div className="global-settings-row">
-						<Select
-							className="collection-select"
-							placeholder="Include collections…"
-							isMulti={true}
-							isSearchable={true}
-							options={collectionOptions}
-							defaultValue={collectionOptions
-								.flatMap(group => group.options)
-								.filter(option => option.value === LOCAL_FONTS_COLLECTION)}
-							onChange={collections => {
-								setIncludedCollections(collections.map(collection => collection.value));
-							}}
-						/>
-						<Select
-							className="collection-select"
-							placeholder="Exclude collections…"
-							isMulti={true}
-							isSearchable={true}
-							options={collectionOptions}
-							onChange={collections => {
-								setExcludedCollections(collections.map(collection => collection.value));
-							}}
-						/>
+						<div className="select-with-label">
+							<label
+								htmlFor={'include'}
+								onClick={() => setIncludeMethod(method => (method === 'ALL' ? 'ANY' : 'ALL'))}
+								className="pointer"
+							>
+								Include fonts matching <span className="underline">{includeMethod.toLowerCase()}</span> of
+							</label>
+							<Select
+								inputId="include"
+								className="collection-select"
+								placeholder="Include collections…"
+								isMulti={true}
+								isSearchable={true}
+								options={collectionOptions}
+								defaultValue={collectionOptions
+									.flatMap(group => group.options)
+									.filter(option => option.value === LOCAL_FONTS_COLLECTION)}
+								onChange={collections => {
+									setIncludedCollections(collections.map(collection => collection.value));
+								}}
+							/>
+						</div>
+						<div className="select-with-label">
+							<label
+								htmlFor={'exclude'}
+								onClick={() => setExcludeMethod(method => (method === 'ALL' ? 'ANY' : 'ALL'))}
+								className="pointer"
+							>
+								Exclude fonts matching <span className="underline">{excludeMethod.toLowerCase()}</span> of
+							</label>
+							<Select
+								inputId="exclude"
+								className="collection-select"
+								placeholder="Exclude collections…"
+								isMulti={true}
+								isSearchable={true}
+								options={collectionOptions}
+								onChange={collections => {
+									setExcludedCollections(collections.map(collection => collection.value));
+								}}
+							/>
+						</div>
 					</div>
 				</div>
 			</div>
