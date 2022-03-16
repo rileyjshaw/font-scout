@@ -5,6 +5,8 @@ import {
 	WEIGHTS,
 	STRETCH_ORDER,
 	SINGLE_VARIANT_COLLECTION,
+	MULTIPLE_WEIGHTS_COLLECTION,
+	MULTIPLE_STYLES_COLLECTION,
 	STARRED_COLLECTION,
 	UNCATEGORIZED_COLLECTION,
 } from './constants.js';
@@ -67,6 +69,7 @@ const allFonts = [...googleFonts, ...localFonts]
 		marked: false,
 		sizeOffset: 1,
 		collections: font.collections ?? [],
+		source: font,
 	}))
 	.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -75,8 +78,11 @@ const STARRED_FONTS = ['Lexend'];
 allFonts.forEach(font => {
 	if (STARRED_FONTS.includes(font.name)) font.collections.push(STARRED_COLLECTION);
 	if (font.variants.length === 1) font.collections.push(SINGLE_VARIANT_COLLECTION);
-	// else if (font variants contains regular, italic, and bold) font.collections.push(BODY_SAFE_COLLECTION);
-	else if (font.collections.length === 0) font.collections.push(UNCATEGORIZED_COLLECTION);
+	else {
+		if (font.source.weights.length > 1) font.collections.push(MULTIPLE_WEIGHTS_COLLECTION);
+		if (font.source.italics) font.collections.push(MULTIPLE_STYLES_COLLECTION);
+	}
+	if (font.collections.length === 0) font.collections.push(UNCATEGORIZED_COLLECTION);
 });
 allFonts.forEach(
 	font =>
