@@ -427,8 +427,26 @@ const freeOpenFonts = [
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
+		name: 'Open Sauce One',
+		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italics: true,
+		collections: [SANS_SERIF_COLLECTION],
+	},
+	{
+		name: 'Open Sauce Sans',
+		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italics: true,
+		collections: [SANS_SERIF_COLLECTION],
+	},
+	{
+		name: 'Open Sauce Two',
+		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italics: true,
+		collections: [SANS_SERIF_COLLECTION],
+	},
+	{
 		name: 'SuperDuper',
-		weights: [LIGHT, REGULAR, BOLD, MEDIUM],
+		weights: [LIGHT, REGULAR, MEDIUM, BOLD],
 		italics: false,
 		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION],
 	},
