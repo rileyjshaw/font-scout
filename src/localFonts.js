@@ -537,6 +537,12 @@ const otherLicensedFonts = [
 		collections: [MONOSPACE_COLLECTION],
 	},
 	{
+		name: 'Greycliff CF',
+		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italics: true,
+		collections: [SANS_SERIF_COLLECTION],
+	},
+	{
 		name: 'Integral CF',
 		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
 		italics: true,
