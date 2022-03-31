@@ -292,13 +292,13 @@ const djrFontOfTheMonth = [
 			_regular: 'Wide',
 			expanded: 'Extended',
 		},
-		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION],
+		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Roslindale Extended Variable',
 		weights: [REGULAR],
 		italics: false,
-		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, VARIABLE_COLLECTION],
+		collections: [DISPLAY_COLLECTION, VARIABLE_COLLECTION],
 	},
 	{
 		name: 'Warbler Text',
