@@ -374,18 +374,6 @@ const freeOpenFonts = [
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
-		name: 'League Gothic',
-		weights: [REGULAR],
-		italics: true,
-		stretches: {
-			[REGULAR]: {
-				values: ['condensed'],
-				italics: true,
-			},
-		},
-		collections: [DISPLAY_COLLECTION],
-	},
-	{
 		name: 'League Mono',
 		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD],
 		italics: false,
@@ -397,12 +385,6 @@ const freeOpenFonts = [
 			return acc;
 		}, {}),
 		collections: [MONOSPACE_COLLECTION],
-	},
-	{
-		name: 'League Spartan',
-		weights: [EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
-		italics: false,
-		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Liberation Mono',
