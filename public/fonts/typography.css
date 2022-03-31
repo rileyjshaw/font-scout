@@ -1218,6 +1218,119 @@
 
 /******************************************************************************
  *
+ * Integral CF font family.
+ *
+ *****************************************************************************/
+@font-face {
+  font-family: 'Integral CF';
+    src: url('integral-cf-regular.woff2') format('woff2'),
+         url('integral-cf-regular.woff') format('woff'),
+         url('integral-cf-regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+    src: url('integral-cf-regular-oblique.woff2') format('woff2'),
+         url('integral-cf-regular-oblique.woff') format('woff'),
+         url('integral-cf-regular-oblique.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+    src: url('integral-cf-medium.woff2') format('woff2'),
+         url('integral-cf-medium.woff') format('woff'),
+         url('integral-cf-medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+    src: url('integral-cf-medium-oblique.woff2') format('woff2'),
+         url('integral-cf-medium-oblique.woff') format('woff'),
+         url('integral-cf-medium-oblique.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+    src: url('integral-cf-demi-bold.woff2') format('woff2'),
+         url('integral-cf-demi-bold.woff') format('woff'),
+         url('integral-cf-demi-bold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+    src: url('integral-cf-demi-bold-oblique.woff2') format('woff2'),
+         url('integral-cf-demi-bold-oblique.woff') format('woff'),
+         url('integral-cf-demi-bold-oblique.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+    src: url('integral-cf-bold.woff2') format('woff2'),
+         url('integral-cf-bold.woff') format('woff'),
+         url('integral-cf-bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+    src: url('integral-cf-bold-oblique.woff2') format('woff2'),
+         url('integral-cf-bold-oblique.woff') format('woff'),
+         url('integral-cf-bold-oblique.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+    src: url('integral-cf-extra-bold.woff2') format('woff2'),
+         url('integral-cf-extra-bold.woff') format('woff'),
+         url('integral-cf-extra-bold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+    src: url('integral-cf-extra-bold-oblique.woff2') format('woff2'),
+         url('integral-cf-extra-bold-oblique.woff') format('woff'),
+         url('integral-cf-extra-bold-oblique.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+    src: url('integral-cf-heavy.woff2') format('woff2'),
+         url('integral-cf-heavy.woff') format('woff'),
+         url('integral-cf-heavy.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Integral CF';
+    src: url('integral-cf-heavy-oblique.woff2') format('woff2'),
+         url('integral-cf-heavy-oblique.woff') format('woff'),
+         url('integral-cf-heavy-oblique.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Knile font family.
  *
  *****************************************************************************/

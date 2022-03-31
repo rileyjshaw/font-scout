@@ -10,10 +10,12 @@ import {
 	ULTRA_BOLD,
 	BLACK,
 	ULTRA_BLACK,
+	ALL_CAPS_COLLECTION,
 	ATIPO_COLLECTION,
 	DISPLAY_COLLECTION,
 	DJR_FONT_OF_THE_MONTH_COLLECTION,
 	FREE_OPEN_COLLECTION,
+	LICENSED_COLLECTION,
 	LOCAL_FONTS_COLLECTION,
 	MONOSPACE_COLLECTION,
 	SANS_SERIF_COLLECTION,
@@ -99,7 +101,7 @@ const atipoFonts = [
 		name: 'Cassannet Plus',
 		weights: [THIN, LIGHT, REGULAR, BOLD, BLACK, ULTRA_BLACK],
 		italics: false,
-		collections: [DISPLAY_COLLECTION],
+		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Chaney',
@@ -114,7 +116,7 @@ const atipoFonts = [
 		aliases: {
 			'semi-expanded': 'wide',
 		},
-		collections: [DISPLAY_COLLECTION],
+		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Geomanist',
@@ -132,7 +134,7 @@ const atipoFonts = [
 		name: 'MUSETTA',
 		weights: [REGULAR],
 		italics: false,
-		collections: [DISPLAY_COLLECTION],
+		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Noway',
@@ -150,7 +152,7 @@ const atipoFonts = [
 		name: 'PARKING',
 		weights: [REGULAR],
 		italics: false,
-		collections: [DISPLAY_COLLECTION],
+		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Salome',
@@ -162,7 +164,7 @@ const atipoFonts = [
 		name: 'Salome Deco',
 		weights: [REGULAR],
 		italics: false,
-		collections: [DISPLAY_COLLECTION],
+		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Salome Fine',
@@ -236,7 +238,7 @@ const atipoFonts = [
 	},
 ].map(font => ({
 	...font,
-	collections: [...(font.collections ?? []), ATIPO_COLLECTION],
+	collections: [...(font.collections ?? []), ATIPO_COLLECTION, LICENSED_COLLECTION],
 }));
 
 const djrFontOfTheMonth = [
@@ -306,7 +308,7 @@ const djrFontOfTheMonth = [
 	},
 ].map(font => ({
 	...font,
-	collections: [...(font.collections ?? []), DJR_FONT_OF_THE_MONTH_COLLECTION],
+	collections: [...(font.collections ?? []), DJR_FONT_OF_THE_MONTH_COLLECTION, LICENSED_COLLECTION],
 }));
 
 const freeOpenFonts = [
@@ -333,19 +335,19 @@ const freeOpenFonts = [
 		name: 'Blackout 2AM',
 		weights: [REGULAR],
 		italics: false,
-		collections: [DISPLAY_COLLECTION],
+		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Blackout Midnight',
 		weights: [REGULAR],
 		italics: false,
-		collections: [DISPLAY_COLLECTION],
+		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Blackout Sunrise',
 		weights: [REGULAR],
 		italics: false,
-		collections: [DISPLAY_COLLECTION],
+		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Butler',
@@ -521,7 +523,7 @@ const systemFonts = [
 	collections: [...(font.collections ?? []), SYSTEM_FONTS_COLLECTION],
 }));
 
-const otherFonts = [
+const otherLicensedFonts = [
 	{
 		name: 'AUTHENTIC Classified',
 		weights: [REGULAR],
@@ -534,11 +536,22 @@ const otherFonts = [
 		italics: true,
 		collections: [MONOSPACE_COLLECTION],
 	},
-];
-
-const localFonts = [...atipoFonts, ...djrFontOfTheMonth, ...freeOpenFonts, ...systemFonts, ...otherFonts].map(font => ({
+	{
+		name: 'Integral CF',
+		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italics: true,
+		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
+	},
+].map(font => ({
 	...font,
-	collections: [...(font.collections ?? []), LOCAL_FONTS_COLLECTION],
+	collections: [...(font.collections ?? []), LICENSED_COLLECTION],
 }));
+
+const localFonts = [...atipoFonts, ...djrFontOfTheMonth, ...freeOpenFonts, ...systemFonts, ...otherLicensedFonts].map(
+	font => ({
+		...font,
+		collections: [...(font.collections ?? []), LOCAL_FONTS_COLLECTION],
+	})
+);
 
 export default localFonts;
