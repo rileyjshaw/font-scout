@@ -1386,6 +1386,27 @@
 
 /******************************************************************************
  *
+ * Henrietta font family.
+ *
+ *****************************************************************************/
+@font-face {
+  font-family: 'Henrietta';
+    src: url('VCHenrietta-Medium.woff2') format('woff2'),
+         url('VCHenrietta-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: 'Henrietta';
+    src: url('VCHenrietta-Bold.woff2') format('woff2'),
+         url('VCHenrietta-Bold.woff') format('woff');
+  font-weight: 700;
+  font-style: regular;
+}
+
+/******************************************************************************
+ *
  * Integral CF font family.
  *
  *****************************************************************************/

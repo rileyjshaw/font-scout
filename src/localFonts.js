@@ -525,6 +525,12 @@ const otherLicensedFonts = [
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
+		name: 'Henrietta',
+		weights: [MEDIUM, BOLD],
+		italics: false,
+		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION],
+	},
+	{
 		name: 'Integral CF',
 		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
 		italics: true,
