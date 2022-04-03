@@ -1735,6 +1735,46 @@
 
 /******************************************************************************
  *
+ * Nickel Gothic font family.
+ *
+ *****************************************************************************/
+@font-face {
+  font-family: 'Nickel Gothic';
+  src: url('NickelGothicV2-Regular.woff2') format('woff2'),
+       url('NickelGothicV2-Regular.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Nickel Gothic';
+  src: url('NickelGothicV2-SemiWide.woff2') format('woff2'),
+       url('NickelGothicV2-SemiWide.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: semi-expanded;
+}
+
+@font-face {
+  font-family: 'Nickel Gothic';
+  src: url('NickelGothicV2-Wide.woff2') format('woff2'),
+       url('NickelGothicV2-Wide.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: expanded;
+}
+
+@font-face {
+  font-family: 'Nickel Gothic Variable';
+  src: url('NickelGothicV2Variable-VF.woff2') format('woff2'),
+       url('NickelGothicV2Variable-VF.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+/******************************************************************************
+ *
  * Noway font family.
  *
  *****************************************************************************/

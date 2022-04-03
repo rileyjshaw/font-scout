@@ -267,6 +267,28 @@ const djrFontOfTheMonth = [
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
+		name: 'Nickel Gothic',
+		weights: [REGULAR],
+		italics: false,
+		stretches: {
+			[REGULAR]: {
+				values: ['semi-expanded', 'expanded'],
+			},
+		},
+		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION],
+	},
+	{
+		name: 'Nickel Gothic Variable',
+		weights: [REGULAR],
+		italics: false,
+		stretches: {
+			[REGULAR]: {
+				values: ['expanded', 'ultra-expanded'],
+			},
+		},
+		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, VARIABLE_COLLECTION],
+	},
+	{
 		name: 'Output Sans 2 Beta',
 		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, BOOK, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD],
 		italics: true,
