@@ -15,6 +15,7 @@ import {
 	DISPLAY_COLLECTION,
 	DJR_FONT_OF_THE_MONTH_COLLECTION,
 	FREE_OPEN_COLLECTION,
+	FUTURE_FONTS_COLLECTION,
 	LICENSED_COLLECTION,
 	LOCAL_FONTS_COLLECTION,
 	MONOSPACE_COLLECTION,
@@ -550,7 +551,7 @@ const otherLicensedFonts = [
 		name: 'Henrietta',
 		weights: [MEDIUM, BOLD],
 		italics: false,
-		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION],
+		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
 		name: 'Integral CF',
@@ -562,7 +563,7 @@ const otherLicensedFonts = [
 		name: 'Macabre',
 		weights: [REGULAR],
 		italics: false,
-		collections: [DISPLAY_COLLECTION],
+		collections: [DISPLAY_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 ].map(font => ({
 	...font,
