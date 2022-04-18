@@ -558,6 +558,12 @@ const otherLicensedFonts = [
 		italics: true,
 		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
+	{
+		name: 'Macabre',
+		weights: [REGULAR],
+		italics: false,
+		collections: [DISPLAY_COLLECTION],
+	},
 ].map(font => ({
 	...font,
 	collections: [...(font.collections ?? []), LICENSED_COLLECTION],
