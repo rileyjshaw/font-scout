@@ -75,7 +75,7 @@ const allFonts = [...googleFonts, ...localFonts]
 	.sort((a, b) => a.name.localeCompare(b.name));
 
 // TODO: Save this to a DB or something.
-const STARRED_FONTS = ['Lexend', 'Atkinson Hyperlegible'];
+const STARRED_FONTS = ['Lexend', 'Atkinson Hyperlegible', 'Ovo', 'Trispace', 'Epilogue'];
 allFonts.forEach(font => {
 	if (STARRED_FONTS.includes(font.name)) font.collections.push(STARRED_COLLECTION);
 	if (font.variants.length === 1) font.collections.push(SINGLE_VARIANT_COLLECTION);
