@@ -5,7 +5,7 @@ import useResizeObserver from '@react-hook/resize-observer';
 import styled from 'styled-components';
 
 import FontContainer, { FontPreview } from './FontContainer';
-import sizeSortedFontVariants from './size_sorted_font_variants.json';
+import sizeSortedFontVariants from './size_sorted_font_variants.json' assert { type: 'json' };
 
 import { COLLECTION_GROUPS, LOCAL_FONTS_COLLECTION, MIN_COLUMN_WIDTH } from './constants';
 
