@@ -1390,8 +1390,32 @@
  *****************************************************************************/
 @font-face {
   font-family: 'Henrietta';
+  src: url('VCHenrietta-Light.woff2') format('woff2'),
+       url('VCHenrietta-Light.woff') format('woff');
+  font-weight: 500;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: 'Henrietta';
+  src: url('VCHenrietta-Regular.woff2') format('woff2'),
+       url('VCHenrietta-Regular.woff') format('woff');
+  font-weight: 700;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: 'Henrietta';
   src: url('VCHenrietta-Medium.woff2') format('woff2'),
        url('VCHenrietta-Medium.woff') format('woff');
+  font-weight: 500;
+  font-style: regular;
+}
+
+@font-face {
+  font-family: 'Henrietta';
+  src: url('VCHenrietta-SemiBold.woff2') format('woff2'),
+       url('VCHenrietta-SemiBold.woff') format('woff');
   font-weight: 500;
   font-style: regular;
 }

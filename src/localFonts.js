@@ -549,7 +549,7 @@ const otherLicensedFonts = [
 	},
 	{
 		name: 'Henrietta',
-		weights: [MEDIUM, BOLD],
+		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
 		italics: false,
 		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
