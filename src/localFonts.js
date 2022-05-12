@@ -554,6 +554,12 @@ const otherLicensedFonts = [
 		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
+		name: 'HEX Franklin',
+		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italics: false,
+		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FUTURE_FONTS_COLLECTION],
+	},
+	{
 		name: 'Integral CF',
 		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
 		italics: true,
