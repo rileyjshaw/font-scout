@@ -268,12 +268,19 @@ const djrFontOfTheMonth = [
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
+		name: 'Nickel',
+		weights: [REGULAR],
+		italics: false,
+		collections: [DISPLAY_COLLECTION],
+	},
+	{
 		name: 'Nickel Gothic',
 		weights: [REGULAR],
 		italics: false,
 		stretches: {
 			[REGULAR]: {
 				values: ['semi-expanded', 'expanded'],
+				italics: false,
 			},
 		},
 		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION],
@@ -285,9 +292,16 @@ const djrFontOfTheMonth = [
 		stretches: {
 			[REGULAR]: {
 				values: ['expanded', 'ultra-expanded'],
+				italics: false,
 			},
 		},
 		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, VARIABLE_COLLECTION],
+	},
+	{
+		name: 'Nickel Open Face',
+		weights: [REGULAR],
+		italics: false,
+		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Output Sans 2 Beta',
@@ -557,6 +571,13 @@ const otherLicensedFonts = [
 		name: 'HEX Franklin',
 		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
 		italics: false,
+		stretches: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK].reduce((acc, weight) => {
+			acc[weight] = {
+				values: ['semi-condensed', 'condensed', 'extra-condensed'],
+				italics: false,
+			};
+			return acc;
+		}),
 		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
