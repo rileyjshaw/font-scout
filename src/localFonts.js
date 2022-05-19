@@ -577,7 +577,7 @@ const otherLicensedFonts = [
 				italics: false,
 			};
 			return acc;
-		}),
+		}, {}),
 		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
