@@ -9,6 +9,7 @@ import {
 	MULTIPLE_WEIGHTS_COLLECTION,
 	MULTIPLE_STYLES_COLLECTION,
 	STARRED_COLLECTION,
+	UI_FONTS_COLLECTION,
 	UNCATEGORIZED_COLLECTION,
 } from './constants.js';
 
@@ -76,8 +77,10 @@ const allFonts = [...googleFonts, ...localFonts]
 
 // TODO: Save this to a DB or something.
 const STARRED_FONTS = ['Lexend', 'Atkinson Hyperlegible', 'Ovo', 'Trispace', 'Epilogue'];
+const UI_FONTS = ['Helvetica', 'Default Sans', 'Output Sans 2 Beta', 'Inter'];
 allFonts.forEach(font => {
 	if (STARRED_FONTS.includes(font.name)) font.collections.push(STARRED_COLLECTION);
+	if (UI_FONTS.includes(font.name)) font.collections.push(UI_FONTS_COLLECTION);
 	if (font.variants.length === 1) font.collections.push(SINGLE_VARIANT_COLLECTION);
 	else {
 		if (font.source.weights.length > 1) font.collections.push(MULTIPLE_WEIGHTS_COLLECTION);
