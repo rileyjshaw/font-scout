@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react';
-
 import useKeypress from 'react-use-keypress';
 
 function ComparisonMode({ markedFonts, Preview, setComparisonMode, loadFont }) {

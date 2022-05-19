@@ -4,10 +4,9 @@ import { FixedSizeGrid as Grid, areEqual } from 'react-window';
 import useResizeObserver from '@react-hook/resize-observer';
 import styled from 'styled-components';
 
-import FontContainer, { FontPreview } from './FontContainer';
-import sizeSortedFontVariants from './size_sorted_font_variants.json' assert { type: 'json' };
-
-import { COLLECTION_GROUPS, LOCAL_FONTS_COLLECTION, MIN_COLUMN_WIDTH } from './constants';
+import FontContainer, { FontPreview } from './FontContainer.js';
+import { COLLECTION_GROUPS, LOCAL_FONTS_COLLECTION, MIN_COLUMN_WIDTH } from './constants.js';
+import sizeSortedFontVariants from './size_sorted_font_variants.json'; // assert { type: 'json' };
 
 function setDeepValue(object, value, ...keys) {
 	keys.reduce((branch, key, i, { length }) => {

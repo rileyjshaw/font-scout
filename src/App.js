@@ -2,12 +2,12 @@ import { useCallback, useMemo, useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import styled, { createGlobalStyle } from 'styled-components';
 
-import { getPreviewComponent } from './Preview';
-import ComparisonMode from './ComparisonMode';
-import ExplorationMode from './ExplorationMode';
+import { getPreviewComponent } from './Preview.js';
+import ComparisonMode from './ComparisonMode.js';
+import ExplorationMode from './ExplorationMode.js';
 
-import allFonts from './allFonts';
-import { defaultPreviews, LOCAL_FONTS_COLLECTION } from './constants';
+import allFonts from './allFonts.js';
+import { defaultPreviews, LOCAL_FONTS_COLLECTION } from './constants.js';
 
 import './App.css';
 
@@ -99,10 +99,10 @@ function App() {
 	}, [defaultAlignment, defaultFontSize, defaultPreviewContent]);
 
 	const markedFonts = fonts.filter(font => font.marked && font.show);
-	const Preview = useMemo(() => getPreviewComponent(previewContent ?? defaultPreviewContent), [
-		defaultPreviewContent,
-		previewContent,
-	]);
+	const Preview = useMemo(
+		() => getPreviewComponent(previewContent ?? defaultPreviewContent),
+		[defaultPreviewContent, previewContent]
+	);
 
 	return (
 		<HelmetProvider context={helmetContext}>

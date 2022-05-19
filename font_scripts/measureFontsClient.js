@@ -15,8 +15,7 @@ Object.assign(notice.style, {
 	width: '100%',
 	transform: 'translate(-50%, -50%)',
 	textAlign: 'center',
-	font:
-		'normal normal normal normal 1em -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
+	font: 'normal normal normal normal 1em -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif',
 });
 document.body.append(notice);
 

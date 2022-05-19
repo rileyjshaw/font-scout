@@ -10,7 +10,7 @@ import {
 	SANS_SERIF_COLLECTION,
 	SERIF_COLLECTION,
 } from './constants.js';
-import responseJson from './google_fonts_raw.json' assert { type: 'json' };
+import responseJson from './google_fonts_raw.json'; // assert { type: 'json' };
 
 const TYPEWOLF_40_GOOGLE_FONTS = [
 	'Alegreya',
