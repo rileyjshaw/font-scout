@@ -75,9 +75,10 @@ const allFonts = [...googleFonts, ...localFonts]
 	}))
 	.sort((a, b) => a.name.localeCompare(b.name));
 
-// TODO: Save this to a DB or something.
+// TODO: Save these to a DB or something.
 const STARRED_FONTS = ['Lexend', 'Atkinson Hyperlegible', 'Ovo', 'Trispace', 'Epilogue'];
 const UI_FONTS = ['Helvetica', 'Default Sans', 'Output Sans 2 Beta', 'Inter'];
+
 allFonts.forEach(font => {
 	if (STARRED_FONTS.includes(font.name)) font.collections.push(STARRED_COLLECTION);
 	if (UI_FONTS.includes(font.name)) font.collections.push(UI_FONTS_COLLECTION);
