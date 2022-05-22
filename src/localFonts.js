@@ -442,6 +442,19 @@ const freeOpenFonts = [
 		collections: [SERIF_COLLECTION],
 	},
 	{
+		name: 'Martian Mono',
+		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD],
+		italics: false,
+		stretches: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD].reduce((acc, weight) => {
+			acc[weight] = {
+				values: ['condensed', 'semi-condensed', 'expanded'],
+				italics: false,
+			};
+			return acc;
+		}, {}),
+		collections: [MONOSPACE_COLLECTION, VARIABLE_COLLECTION],
+	},
+	{
 		name: 'Metropolis',
 		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
 		italics: true,
