@@ -76,7 +76,7 @@ const allFonts = [...googleFonts, ...localFonts]
 	.sort((a, b) => a.name.localeCompare(b.name));
 
 // TODO: Save these to a DB or something.
-const STARRED_FONTS = ['Lexend', 'Atkinson Hyperlegible', 'Ovo', 'Trispace', 'Epilogue'];
+const STARRED_FONTS = ['Lexend', 'Atkinson Hyperlegible', 'Ovo', 'Trispace', 'Epilogue', 'Spectral', 'Manrope'];
 const UI_FONTS = ['Helvetica', 'Default Sans', 'Output Sans 2 Beta', 'Inter'];
 
 allFonts.forEach(font => {

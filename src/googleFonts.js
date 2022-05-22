@@ -2,7 +2,7 @@ import {
 	WEIGHTS,
 	WEIGHT_SYMBOLS,
 	GOOGLE_FONTS_COLLECTION,
-	TYPEWOLF_40_GOOGLE_FONTS_COLLECTION,
+	GOOGLE_FONTS_SHORTLIST_COLLECTION,
 	FREE_OPEN_COLLECTION,
 	DISPLAY_COLLECTION,
 	HANDWRITING_COLLECTION,
@@ -12,7 +12,7 @@ import {
 } from './constants.js';
 import responseJson from './google_fonts_raw.json'; // assert { type: 'json' };
 
-const TYPEWOLF_40_GOOGLE_FONTS = [
+const TYPEWOLF_BEST_GOOGLE_FONTS = [
 	'Alegreya',
 	'Alegreya Sans',
 	'Anonymous Pro',
@@ -55,6 +55,40 @@ const TYPEWOLF_40_GOOGLE_FONTS = [
 	'Work Sans',
 ];
 
+const AWWWARDS_BEST_GOOGLE_FONTS = [
+	'Sora',
+	'Hahmlet',
+	'JetBrains Mono',
+	'Andada Pro',
+	'Epilogue ',
+	'Inter',
+	'Encode Sans',
+	'Manrope',
+	'Lora',
+	'BioRhyme',
+	'Playfair Display',
+	'Archivo',
+	'Roboto',
+	'Cormorant',
+	'Spectral',
+	'Raleway',
+	'Work Sans',
+	'Lato',
+	'Anton',
+	'Old Standard TT',
+	'Oswald',
+	'Montserrat',
+	'Poppins',
+	'Nunito',
+	'Source Sans Pro',
+	'Oxygen',
+	'Open Sans',
+];
+
+const GOOGLE_FONTS_SHORTLIST = [...TYPEWOLF_BEST_GOOGLE_FONTS, ...AWWWARDS_BEST_GOOGLE_FONTS]
+	.sort((a, b) => a.localeCompare(b))
+	.filter((name, i, arr) => arr[i - 1] !== name);
+
 const FONT_CATEGORY_COLLECTIONS = {
 	display: DISPLAY_COLLECTION,
 	handwriting: HANDWRITING_COLLECTION,
@@ -85,7 +119,7 @@ const googleFonts = responseJson.items.map(font => {
 			GOOGLE_FONTS_COLLECTION,
 			FREE_OPEN_COLLECTION,
 			FONT_CATEGORY_COLLECTIONS[font.category],
-			...(TYPEWOLF_40_GOOGLE_FONTS.includes(font.family) ? [TYPEWOLF_40_GOOGLE_FONTS_COLLECTION] : []),
+			...(GOOGLE_FONTS_SHORTLIST.includes(font.family) ? [GOOGLE_FONTS_SHORTLIST_COLLECTION] : []),
 		],
 		href: `https://fonts.googleapis.com/css2?family=${font.family.replace(/ /g, '+')}:ital,wght@${[weights, italics]
 			.flatMap((arr, i) => arr.map(symbol => `${i},${WEIGHTS[symbol].value}`))
