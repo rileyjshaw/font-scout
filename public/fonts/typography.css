@@ -1895,6 +1895,38 @@
 
 /******************************************************************************
  *
+ * Job Clarendon font family.
+ *
+ *****************************************************************************/
+@font-face {
+  font-family: 'Job Clarendon';
+  src: url('JobClarendonCondensed-Hairline.woff2') format('woff2'),
+       url('JobClarendonCondensed-Hairline.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'Job Clarendon';
+  src: url('JobClarendonCompressed-Hairline.woff2') format('woff2'),
+       url('JobClarendonCompressed-Hairline.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: extra-condensed;
+}
+
+@font-face {
+  font-family: 'Job Clarendon';
+  src: url('JobClarendonExtraCompressed-Hairline.woff2') format('woff2'),
+       url('JobClarendonExtraCompressed-Hairline.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: ultra-condensed;
+}
+
+/******************************************************************************
+ *
  * Knile font family.
  *
  *****************************************************************************/

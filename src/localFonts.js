@@ -244,6 +244,18 @@ const atipoFonts = [
 
 const djrFontOfTheMonth = [
 	{
+		name: 'Job Clarendon',
+		weights: [],
+		italics: false,
+		stretches: {
+			[THIN]: {
+				values: ['condensed', 'extra-condensed', 'ultra-condensed'],
+				italics: false,
+			},
+		},
+		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION],
+	},
+	{
 		name: 'Megazoid',
 		weights: [REGULAR],
 		italics: false,
