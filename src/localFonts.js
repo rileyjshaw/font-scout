@@ -594,9 +594,16 @@ const otherLicensedFonts = [
 	},
 	{
 		name: 'Henrietta',
-		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
+		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
 		italics: false,
 		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
+		stretches: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK].reduce((acc, weight) => {
+			acc[weight] = {
+				values: ['condensed'],
+				italics: false,
+			};
+			return acc;
+		}, {}),
 	},
 	{
 		name: 'HEX Franklin',
