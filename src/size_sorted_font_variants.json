@@ -14,10 +14,10 @@
 			"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Noto Serif Tibetan",
 			"variant": {
-				"name": "Noto Serif Tibetan Thin",
+				"name": "Noto Serif Tibetan Extra light",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 200
 			}
 		},
 		{
@@ -171,20 +171,20 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=NTR:ital,wght@0,400&display=block",
-			"name": "NTR",
+			"href": "https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:ital,wght@0,400;0,700&display=block",
+			"name": "Tai Heritage Pro",
 			"variant": {
-				"name": "NTR",
+				"name": "Tai Heritage Pro",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya:ital,wght@0,400&display=block",
-			"name": "Sree Krushnadevaraya",
+			"href": "https://fonts.googleapis.com/css2?family=NTR:ital,wght@0,400&display=block",
+			"name": "NTR",
 			"variant": {
-				"name": "Sree Krushnadevaraya",
+				"name": "NTR",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -344,10 +344,10 @@
 			"href": "https://fonts.googleapis.com/css2?family=Amita:ital,wght@0,400;0,700&display=block",
 			"name": "Amita",
 			"variant": {
-				"name": "Amita",
+				"name": "Amita Bold",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 400
+				"weight": 700
 			}
 		},
 		{
@@ -681,6 +681,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Angkor:ital,wght@0,400&display=block",
+			"name": "Angkor",
+			"variant": {
+				"name": "Angkor",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Moul:ital,wght@0,400&display=block",
 			"name": "Moul",
 			"variant": {
@@ -905,6 +915,26 @@
 			"name": "Eczar",
 			"variant": {
 				"name": "Eczar",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Kannada:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Kannada",
+			"variant": {
+				"name": "Tiro Kannada",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Telugu",
+			"variant": {
+				"name": "Tiro Telugu",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -1264,10 +1294,10 @@
 			"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Noto Serif Lao",
 			"variant": {
-				"name": "Noto Serif Lao Thin",
+				"name": "Noto Serif Lao Extra light",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 200
 			}
 		},
 		{
@@ -1431,10 +1461,30 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=block",
+			"name": "Andika",
+			"variant": {
+				"name": "Andika",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Andika+New+Basic:ital,wght@0,400;0,700;1,400;1,700&display=block",
 			"name": "Andika New Basic",
 			"variant": {
 				"name": "Andika New Basic",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=block",
+			"name": "Charis SIL",
+			"variant": {
+				"name": "Charis SIL",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -1488,16 +1538,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 300
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400&display=block",
-			"name": "Andika",
-			"variant": {
-				"name": "Andika",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
 			}
 		},
 		{
@@ -1961,6 +2001,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro:ital,wght@0,400&display=block",
+			"name": "Kdam Thmor Pro",
+			"variant": {
+				"name": "Kdam Thmor Pro",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Vazirmatn:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Vazirmatn",
 			"variant": {
@@ -2065,16 +2115,6 @@
 			"name": "Charm",
 			"variant": {
 				"name": "Charm",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Ravi+Prakash:ital,wght@0,400&display=block",
-			"name": "Ravi Prakash",
-			"variant": {
-				"name": "Ravi Prakash",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -2424,10 +2464,10 @@
 			"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Noto Sans Thai",
 			"variant": {
-				"name": "Noto Sans Thai Thin",
+				"name": "Noto Sans Thai Extra light",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 200
 			}
 		},
 		{
@@ -2723,6 +2763,16 @@
 			"name": "Kaushan Script",
 			"variant": {
 				"name": "Kaushan Script",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=block",
+			"name": "Gentium Plus",
+			"variant": {
+				"name": "Gentium Plus",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -3379,6 +3429,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Tamil:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Tamil",
+			"variant": {
+				"name": "Tiro Tamil",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Klee+One:ital,wght@0,400;0,600&display=block",
 			"name": "Klee One",
 			"variant": {
@@ -3639,6 +3699,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=DotGothic16:ital,wght@0,400&display=block",
+			"name": "DotGothic16",
+			"variant": {
+				"name": "DotGothic16",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Vibur:ital,wght@0,400&display=block",
 			"name": "Vibur",
 			"variant": {
@@ -3762,16 +3832,6 @@
 			"name": "Sarpanch",
 			"variant": {
 				"name": "Sarpanch",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Ledger:ital,wght@0,400&display=block",
-			"name": "Ledger",
-			"variant": {
-				"name": "Ledger",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -4125,6 +4185,15 @@
 			}
 		},
 		{
+			"name": "Henrietta",
+			"variant": {
+				"name": "Henrietta Light condensed",
+				"stretch": "condensed",
+				"style": "normal",
+				"weight": 300
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Prata:ital,wght@0,400&display=block",
 			"name": "Prata",
 			"variant": {
@@ -4132,15 +4201,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
-			}
-		},
-		{
-			"name": "Henrietta",
-			"variant": {
-				"name": "Henrietta Medium",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 500
 			}
 		},
 		{
@@ -4207,10 +4267,10 @@
 			"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Meetei+Mayek:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Noto Sans Meetei Mayek",
 			"variant": {
-				"name": "Noto Sans Meetei Mayek Thin",
+				"name": "Noto Sans Meetei Mayek Extra light",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 200
 			}
 		},
 		{
@@ -4280,6 +4340,16 @@
 				"name": "Slabo 27px",
 				"stretch": "normal",
 				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital,wght@0,400;1,400&display=block",
+			"name": "DM Serif Text",
+			"variant": {
+				"name": "DM Serif Text italic",
+				"stretch": "normal",
+				"style": "italic",
 				"weight": 400
 			}
 		},
@@ -4368,16 +4438,6 @@
 			"name": "Oleo Script",
 			"variant": {
 				"name": "Oleo Script",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital,wght@0,400;1,400&display=block",
-			"name": "DM Serif Text",
-			"variant": {
-				"name": "DM Serif Text",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -4826,10 +4886,10 @@
 			"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Noto Sans Mono",
 			"variant": {
-				"name": "Noto Sans Mono Thin",
+				"name": "Noto Sans Mono Extra light",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 200
 			}
 		},
 		{
@@ -4897,6 +4957,46 @@
 			"name": "Noticia Text",
 			"variant": {
 				"name": "Noticia Text",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Bangla",
+			"variant": {
+				"name": "Tiro Bangla",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Devanagari Hindi",
+			"variant": {
+				"name": "Tiro Devanagari Hindi",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Devanagari Sanskrit",
+			"variant": {
+				"name": "Tiro Devanagari Sanskrit",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Devanagari Marathi",
+			"variant": {
+				"name": "Tiro Devanagari Marathi",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -6292,10 +6392,10 @@
 			"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Noto Sans Bengali",
 			"variant": {
-				"name": "Noto Sans Bengali Thin",
+				"name": "Noto Sans Bengali Extra light",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 200
 			}
 		},
 		{
@@ -6401,9 +6501,9 @@
 			"href": "https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=block",
 			"name": "EB Garamond",
 			"variant": {
-				"name": "EB Garamond italic",
+				"name": "EB Garamond",
 				"stretch": "normal",
-				"style": "italic",
+				"style": "normal",
 				"weight": 400
 			}
 		},
@@ -6412,6 +6512,16 @@
 			"name": "Inika",
 			"variant": {
 				"name": "Inika",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Nuosu+SIL:ital,wght@0,400&display=block",
+			"name": "Nuosu SIL",
+			"variant": {
+				"name": "Nuosu SIL",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -7054,6 +7164,26 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Joan:ital,wght@0,400&display=block",
+			"name": "Joan",
+			"variant": {
+				"name": "Joan",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=block",
+			"name": "Crimson Text",
+			"variant": {
+				"name": "Crimson Text",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=block",
 			"name": "Neuton",
 			"variant": {
@@ -7061,6 +7191,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 200
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=block",
+			"name": "Almendra",
+			"variant": {
+				"name": "Almendra italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 400
 			}
 		},
 		{
@@ -7098,16 +7238,6 @@
 			"name": "Noto Sans Warang Citi",
 			"variant": {
 				"name": "Noto Sans Warang Citi",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=block",
-			"name": "Almendra",
-			"variant": {
-				"name": "Almendra",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -7424,16 +7554,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=East+Sea+Dokdo:ital,wght@0,400&display=block",
-			"name": "East Sea Dokdo",
-			"variant": {
-				"name": "East Sea Dokdo",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Asset:ital,wght@0,400&display=block",
 			"name": "Asset",
 			"variant": {
@@ -7486,10 +7606,10 @@
 			"href": "https://fonts.googleapis.com/css2?family=Lexend+Tera:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Lexend Tera",
 			"variant": {
-				"name": "Lexend Tera Extra light",
+				"name": "Lexend Tera Thin",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 200
+				"weight": 100
 			}
 		},
 		{
@@ -7516,10 +7636,10 @@
 			"href": "https://fonts.googleapis.com/css2?family=Lexend+Mega:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Lexend Mega",
 			"variant": {
-				"name": "Lexend Mega Extra light",
+				"name": "Lexend Mega Thin",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 200
+				"weight": 100
 			}
 		},
 		{
@@ -8327,6 +8447,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
+			"name": "Averia Serif Libre",
+			"variant": {
+				"name": "Averia Serif Libre Light italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 300
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=block",
 			"name": "Ibarra Real Nova",
 			"variant": {
@@ -8417,20 +8547,20 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
-			"name": "Averia Serif Libre",
-			"variant": {
-				"name": "Averia Serif Libre Light italic",
-				"stretch": "normal",
-				"style": "italic",
-				"weight": 300
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Castoro:ital,wght@0,400;1,400&display=block",
 			"name": "Castoro",
 			"variant": {
 				"name": "Castoro",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Gurmukhi",
+			"variant": {
+				"name": "Tiro Gurmukhi",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -8734,16 +8864,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Allan:ital,wght@0,400;0,700&display=block",
-			"name": "Allan",
-			"variant": {
-				"name": "Allan Bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 700
 			}
 		},
 		{
@@ -9147,16 +9267,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Licorice:ital,wght@0,400&display=block",
-			"name": "Licorice",
-			"variant": {
-				"name": "Licorice",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Kirang+Haerang:ital,wght@0,400&display=block",
 			"name": "Kirang Haerang",
 			"variant": {
@@ -9337,6 +9447,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Allan:ital,wght@0,400;0,700&display=block",
+			"name": "Allan",
+			"variant": {
+				"name": "Allan Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Rancho:ital,wght@0,400&display=block",
 			"name": "Rancho",
 			"variant": {
@@ -9371,6 +9491,16 @@
 			"name": "Hi Melody",
 			"variant": {
 				"name": "Hi Melody",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=East+Sea+Dokdo:ital,wght@0,400&display=block",
+			"name": "East Sea Dokdo",
+			"variant": {
+				"name": "East Sea Dokdo",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -9451,6 +9581,24 @@
 			"name": "Zen Dots",
 			"variant": {
 				"name": "Zen Dots",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"name": "Nickel",
+			"variant": {
+				"name": "Nickel",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"name": "Nickel Open Face",
+			"variant": {
+				"name": "Nickel Open Face",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -9691,13 +9839,13 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Fredoka+One:ital,wght@0,400&display=block",
-			"name": "Fredoka One",
+			"href": "https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Spline Sans Mono",
 			"variant": {
-				"name": "Fredoka One",
+				"name": "Spline Sans Mono Light",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 400
+				"weight": 300
 			}
 		},
 		{
@@ -9786,6 +9934,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 100
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Spline+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Spline Sans",
+			"variant": {
+				"name": "Spline Sans Light",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 300
 			}
 		},
 		{
@@ -9946,16 +10104,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Astloch:ital,wght@0,400;0,700&display=block",
-			"name": "Astloch",
-			"variant": {
-				"name": "Astloch",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Montaga:ital,wght@0,400&display=block",
 			"name": "Montaga",
 			"variant": {
@@ -10043,16 +10191,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 300
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Prociono:ital,wght@0,400&display=block",
-			"name": "Prociono",
-			"variant": {
-				"name": "Prociono",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
 			}
 		},
 		{
@@ -10169,6 +10307,16 @@
 			"name": "Overlock",
 			"variant": {
 				"name": "Overlock",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Astloch:ital,wght@0,400;0,700&display=block",
+			"name": "Astloch",
+			"variant": {
+				"name": "Astloch",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -10332,6 +10480,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Alumni Sans",
+			"variant": {
+				"name": "Alumni Sans Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
 			}
 		},
 		{
@@ -10685,16 +10843,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
-			"name": "Alumni Sans",
-			"variant": {
-				"name": "Alumni Sans Thin",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 100
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Caramel:ital,wght@0,400&display=block",
 			"name": "Caramel",
 			"variant": {
@@ -10787,6 +10935,15 @@
 			"variant": {
 				"name": "Tomorrow Thin",
 				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
+			"name": "Martian Mono",
+			"variant": {
+				"name": "Martian Mono Thin condensed",
+				"stretch": "condensed",
 				"style": "normal",
 				"weight": 100
 			}
@@ -11239,6 +11396,25 @@
 			}
 		},
 		{
+			"name": "HEX Franklin",
+			"variant": {
+				"name": "HEX Franklin extra-condensed",
+				"stretch": "extra-condensed",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=block",
+			"name": "Radio Canada",
+			"variant": {
+				"name": "Radio Canada Light",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 300
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Fira+Mono:ital,wght@0,400;0,500;0,700&display=block",
 			"name": "Fira Mono",
 			"variant": {
@@ -11249,6 +11425,15 @@
 			}
 		},
 		{
+			"name": "Default Sans",
+			"variant": {
+				"name": "Default Sans Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Happy+Monkey:ital,wght@0,400&display=block",
 			"name": "Happy Monkey",
 			"variant": {
@@ -11256,16 +11441,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Spline+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
-			"name": "Spline Sans",
-			"variant": {
-				"name": "Spline Sans Light",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 300
 			}
 		},
 		{
@@ -11459,6 +11634,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Roboto+Flex:ital,wght@0,400&display=block",
+			"name": "Roboto Flex",
+			"variant": {
+				"name": "Roboto Flex",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Average:ital,wght@0,400&display=block",
 			"name": "Average",
 			"variant": {
@@ -11519,33 +11704,13 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Abhaya+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
-			"name": "Abhaya Libre",
+			"href": "https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Barlow Semi Condensed",
 			"variant": {
-				"name": "Abhaya Libre Medium",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 500
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
-			"name": "Advent Pro",
-			"variant": {
-				"name": "Advent Pro Thin",
+				"name": "Barlow Semi Condensed Thin",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 100
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
-			"name": "Big Shoulders Inline Text",
-			"variant": {
-				"name": "Big Shoulders Inline Text Light",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 300
 			}
 		},
 		{
@@ -11660,6 +11825,16 @@
 			"name": "Trochut",
 			"variant": {
 				"name": "Trochut",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Abhaya+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
+			"name": "Abhaya Libre",
+			"variant": {
+				"name": "Abhaya Libre",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -11836,16 +12011,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
-			"name": "Barlow Semi Condensed",
-			"variant": {
-				"name": "Barlow Semi Condensed Thin",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 100
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
 			"name": "Roboto Condensed",
 			"variant": {
@@ -11903,6 +12068,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+			"name": "Big Shoulders Inline Text",
+			"variant": {
+				"name": "Big Shoulders Inline Text Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
 			}
 		},
 		{
@@ -11972,6 +12147,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Advent Pro",
+			"variant": {
+				"name": "Advent Pro Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
 			}
 		},
 		{
@@ -12104,6 +12289,26 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Blaka+Hollow:ital,wght@0,400&display=block",
+			"name": "Blaka Hollow",
+			"variant": {
+				"name": "Blaka Hollow",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Blaka:ital,wght@0,400&display=block",
+			"name": "Blaka",
+			"variant": {
+				"name": "Blaka",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Boogaloo:ital,wght@0,400&display=block",
 			"name": "Boogaloo",
 			"variant": {
@@ -12224,16 +12429,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Fuggles:ital,wght@0,400&display=block",
-			"name": "Fuggles",
-			"variant": {
-				"name": "Fuggles",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Pompiere:ital,wght@0,400&display=block",
 			"name": "Pompiere",
 			"variant": {
@@ -12282,6 +12477,25 @@
 			}
 		},
 		{
+			"name": "Job Clarendon",
+			"variant": {
+				"name": "Job Clarendon Thin ultra-condensed",
+				"stretch": "ultra-condensed",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Noto+Emoji:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Noto Emoji",
+			"variant": {
+				"name": "Noto Emoji Light",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 300
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Geostar:ital,wght@0,400&display=block",
 			"name": "Geostar",
 			"variant": {
@@ -12309,6 +12523,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Anybody",
+			"variant": {
+				"name": "Anybody Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
 			}
 		},
 		{
@@ -12685,20 +12909,60 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Angkor:ital,wght@0,400&display=block",
-			"name": "Angkor",
+			"href": "https://fonts.googleapis.com/css2?family=Fredoka+One:ital,wght@0,400&display=block",
+			"name": "Fredoka One",
 			"variant": {
-				"name": "Angkor",
+				"name": "Fredoka One",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=DotGothic16:ital,wght@0,400&display=block",
-			"name": "DotGothic16",
+			"href": "https://fonts.googleapis.com/css2?family=Fuggles:ital,wght@0,400&display=block",
+			"name": "Fuggles",
 			"variant": {
-				"name": "DotGothic16",
+				"name": "Fuggles",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Gafata:ital,wght@0,400&display=block",
+			"name": "Gafata",
+			"variant": {
+				"name": "Gafata",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Ledger:ital,wght@0,400&display=block",
+			"name": "Ledger",
+			"variant": {
+				"name": "Ledger",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Licorice:ital,wght@0,400&display=block",
+			"name": "Licorice",
+			"variant": {
+				"name": "Licorice",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Major+Mono+Display:ital,wght@0,400&display=block",
+			"name": "Major Mono Display",
+			"variant": {
+				"name": "Major Mono Display",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -12729,6 +12993,36 @@
 			"name": "Noto Serif Tangut",
 			"variant": {
 				"name": "Noto Serif Tangut",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Prociono:ital,wght@0,400&display=block",
+			"name": "Prociono",
+			"variant": {
+				"name": "Prociono",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Ravi+Prakash:ital,wght@0,400&display=block",
+			"name": "Ravi Prakash",
+			"variant": {
+				"name": "Ravi Prakash",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya:ital,wght@0,400&display=block",
+			"name": "Sree Krushnadevaraya",
+			"variant": {
+				"name": "Sree Krushnadevaraya",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -13790,16 +14084,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Gafata:ital,wght@0,400&display=block",
-			"name": "Gafata",
-			"variant": {
-				"name": "Gafata",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Port+Lligat+Slab:ital,wght@0,400&display=block",
 			"name": "Port Lligat Slab",
 			"variant": {
@@ -14060,16 +14344,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
-			"name": "Anybody",
-			"variant": {
-				"name": "Anybody Thin",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 100
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
 			"name": "Epilogue",
 			"variant": {
@@ -14199,16 +14473,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Kosugi+Maru:ital,wght@0,400&display=block",
-			"name": "Kosugi Maru",
-			"variant": {
-				"name": "Kosugi Maru",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One:ital,wght@0,400&display=block",
 			"name": "BhuTuka Expanded One",
 			"variant": {
@@ -14223,16 +14487,6 @@
 			"name": "Wallpoet",
 			"variant": {
 				"name": "Wallpoet",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Major+Mono+Display:ital,wght@0,400&display=block",
-			"name": "Major Mono Display",
-			"variant": {
-				"name": "Major Mono Display",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -14428,6 +14682,16 @@
 			"name": "Kosugi",
 			"variant": {
 				"name": "Kosugi",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Kosugi+Maru:ital,wght@0,400&display=block",
+			"name": "Kosugi Maru",
+			"variant": {
+				"name": "Kosugi Maru",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -14945,6 +15209,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Angkor:ital,wght@0,400&display=block",
+			"name": "Angkor",
+			"variant": {
+				"name": "Angkor",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Moul:ital,wght@0,400&display=block",
 			"name": "Moul",
 			"variant": {
@@ -15132,6 +15406,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 600
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:ital,wght@0,400;0,700&display=block",
+			"name": "Tai Heritage Pro",
+			"variant": {
+				"name": "Tai Heritage Pro Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -15370,16 +15654,6 @@
 				"stretch": "expanded",
 				"style": "normal",
 				"weight": 100
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Tillana:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
-			"name": "Tillana",
-			"variant": {
-				"name": "Tillana Ultra bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 800
 			}
 		},
 		{
@@ -15872,6 +16146,36 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Tillana:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
+			"name": "Tillana",
+			"variant": {
+				"name": "Tillana Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Kannada:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Kannada",
+			"variant": {
+				"name": "Tiro Kannada",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Telugu",
+			"variant": {
+				"name": "Tiro Telugu",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Changa:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=block",
 			"name": "Changa",
 			"variant": {
@@ -15899,16 +16203,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 900
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya:ital,wght@0,400&display=block",
-			"name": "Sree Krushnadevaraya",
-			"variant": {
-				"name": "Sree Krushnadevaraya",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
 			}
 		},
 		{
@@ -16222,6 +16516,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=block",
+			"name": "Andika",
+			"variant": {
+				"name": "Andika Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=block",
 			"name": "Cantarell",
 			"variant": {
@@ -16342,6 +16646,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=block",
+			"name": "Charis SIL",
+			"variant": {
+				"name": "Charis SIL Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=block",
 			"name": "Amiri",
 			"variant": {
@@ -16436,6 +16750,24 @@
 			"name": "Plaster",
 			"variant": {
 				"name": "Plaster",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"name": "Nickel",
+			"variant": {
+				"name": "Nickel",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"name": "Nickel Open Face",
+			"variant": {
+				"name": "Nickel Open Face",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -16721,16 +17053,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400&display=block",
-			"name": "Andika",
-			"variant": {
-				"name": "Andika",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Sarpanch:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Sarpanch",
 			"variant": {
@@ -16775,16 +17097,6 @@
 			"name": "Alfa Slab One",
 			"variant": {
 				"name": "Alfa Slab One",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Ledger:ital,wght@0,400&display=block",
-			"name": "Ledger",
-			"variant": {
-				"name": "Ledger",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -17177,6 +17489,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro:ital,wght@0,400&display=block",
+			"name": "Kdam Thmor Pro",
+			"variant": {
+				"name": "Kdam Thmor Pro",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -17728,6 +18050,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Paprika:ital,wght@0,400&display=block",
+			"name": "Paprika",
+			"variant": {
+				"name": "Paprika",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Stoke:ital,wght@0,300;0,400&display=block",
 			"name": "Stoke",
 			"variant": {
@@ -17745,16 +18077,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 900
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Paprika:ital,wght@0,400&display=block",
-			"name": "Paprika",
-			"variant": {
-				"name": "Paprika",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
 			}
 		},
 		{
@@ -17795,6 +18117,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"name": "Martian Mono",
+			"variant": {
+				"name": "Martian Mono Thin expanded",
+				"stretch": "expanded",
+				"style": "normal",
+				"weight": 100
 			}
 		},
 		{
@@ -17985,6 +18316,15 @@
 			}
 		},
 		{
+			"name": "Henrietta",
+			"variant": {
+				"name": "Henrietta Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Crafty+Girls:ital,wght@0,400&display=block",
 			"name": "Crafty Girls",
 			"variant": {
@@ -18119,15 +18459,6 @@
 			"name": "Libre Baskerville",
 			"variant": {
 				"name": "Libre Baskerville Bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 700
-			}
-		},
-		{
-			"name": "Henrietta",
-			"variant": {
-				"name": "Henrietta Bold",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
@@ -18555,6 +18886,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 900
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Tamil:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Tamil",
+			"variant": {
+				"name": "Tiro Tamil",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -19183,6 +19524,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Noto+Emoji:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Noto Emoji",
+			"variant": {
+				"name": "Noto Emoji Semi bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 600
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Lalezar:ital,wght@0,400&display=block",
 			"name": "Lalezar",
 			"variant": {
@@ -19484,10 +19835,10 @@
 			"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Noto Sans Mono",
 			"variant": {
-				"name": "Noto Sans Mono Thin",
+				"name": "Noto Sans Mono Extra light",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 200
 			}
 		},
 		{
@@ -19809,6 +20160,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=block",
+			"name": "Gentium Plus",
+			"variant": {
+				"name": "Gentium Plus Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Brawler:ital,wght@0,400;0,700&display=block",
 			"name": "Brawler",
 			"variant": {
@@ -19936,6 +20297,46 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Bangla",
+			"variant": {
+				"name": "Tiro Bangla",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Devanagari Hindi",
+			"variant": {
+				"name": "Tiro Devanagari Hindi",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Devanagari Sanskrit",
+			"variant": {
+				"name": "Tiro Devanagari Sanskrit",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Devanagari Marathi",
+			"variant": {
+				"name": "Tiro Devanagari Marathi",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -21451,6 +21852,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Nuosu+SIL:ital,wght@0,400&display=block",
+			"name": "Nuosu SIL",
+			"variant": {
+				"name": "Nuosu SIL",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"name": "Basier Circle Mono",
 			"variant": {
 				"name": "Basier Circle Mono",
@@ -21568,15 +21979,6 @@
 			}
 		},
 		{
-			"name": "Output Sans 2 Beta",
-			"variant": {
-				"name": "Output Sans 2 Beta Ultra bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 800
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=block",
 			"name": "Caudex",
 			"variant": {
@@ -21594,6 +21996,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"name": "Output Sans 2 Beta",
+			"variant": {
+				"name": "Output Sans 2 Beta Ultra bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 800
 			}
 		},
 		{
@@ -21730,16 +22141,6 @@
 			"name": "Roslindale Extended Variable",
 			"variant": {
 				"name": "Roslindale Extended Variable",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital,wght@0,400;1,400&display=block",
-			"name": "DM Serif Text",
-			"variant": {
-				"name": "DM Serif Text",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -21901,16 +22302,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 900
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Ravi+Prakash:ital,wght@0,400&display=block",
-			"name": "Ravi Prakash",
-			"variant": {
-				"name": "Ravi Prakash",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
 			}
 		},
 		{
@@ -22513,16 +22904,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Major+Mono+Display:ital,wght@0,400&display=block",
-			"name": "Major Mono Display",
-			"variant": {
-				"name": "Major Mono Display",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Space+Grotesk:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
 			"name": "Space Grotesk",
 			"variant": {
@@ -22671,6 +23052,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Gurmukhi",
+			"variant": {
+				"name": "Tiro Gurmukhi",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=block",
 			"name": "Sarabun",
 			"variant": {
@@ -22678,16 +23069,6 @@
 				"stretch": "normal",
 				"style": "italic",
 				"weight": 800
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Fredoka+One:ital,wght@0,400&display=block",
-			"name": "Fredoka One",
-			"variant": {
-				"name": "Fredoka One",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
 			}
 		},
 		{
@@ -22761,6 +23142,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital,wght@0,400;1,400&display=block",
+			"name": "DM Serif Text",
+			"variant": {
+				"name": "DM Serif Text italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Viaoda+Libre:ital,wght@0,400&display=block",
 			"name": "Viaoda Libre",
 			"variant": {
@@ -22788,6 +23179,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 900
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Spline Sans Mono",
+			"variant": {
+				"name": "Spline Sans Mono Light",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 300
 			}
 		},
 		{
@@ -22868,6 +23269,16 @@
 				"stretch": "normal",
 				"style": "italic",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
+			"name": "Averia Serif Libre",
+			"variant": {
+				"name": "Averia Serif Libre Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -23117,6 +23528,26 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Spline+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Spline Sans",
+			"variant": {
+				"name": "Spline Sans Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Joan:ital,wght@0,400&display=block",
+			"name": "Joan",
+			"variant": {
+				"name": "Joan",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
 			"name": "Bitter",
 			"variant": {
@@ -23287,6 +23718,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=DotGothic16:ital,wght@0,400&display=block",
+			"name": "DotGothic16",
+			"variant": {
+				"name": "DotGothic16",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Righteous:ital,wght@0,400&display=block",
 			"name": "Righteous",
 			"variant": {
@@ -23327,6 +23768,15 @@
 			}
 		},
 		{
+			"name": "HEX Franklin",
+			"variant": {
+				"name": "HEX Franklin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Tauri:ital,wght@0,400&display=block",
 			"name": "Tauri",
 			"variant": {
@@ -23347,13 +23797,13 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
-			"name": "Averia Serif Libre",
+			"href": "https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=block",
+			"name": "Radio Canada",
 			"variant": {
-				"name": "Averia Serif Libre",
+				"name": "Radio Canada Bold",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 400
+				"weight": 700
 			}
 		},
 		{
@@ -23394,6 +23844,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=block",
+			"name": "Crimson Text",
+			"variant": {
+				"name": "Crimson Text Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -23441,6 +23901,16 @@
 			"name": "Alike Angular",
 			"variant": {
 				"name": "Alike Angular",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Vibur:ital,wght@0,400&display=block",
+			"name": "Vibur",
+			"variant": {
+				"name": "Vibur",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -23624,6 +24094,15 @@
 			}
 		},
 		{
+			"name": "Default Sans",
+			"variant": {
+				"name": "Default Sans Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Satisfy:ital,wght@0,400&display=block",
 			"name": "Satisfy",
 			"variant": {
@@ -23794,16 +24273,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Spline+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
-			"name": "Spline Sans",
-			"variant": {
-				"name": "Spline Sans Bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 700
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Mystery+Quest:ital,wght@0,400&display=block",
 			"name": "Mystery Quest",
 			"variant": {
@@ -23878,16 +24347,6 @@
 			"name": "Indie Flower",
 			"variant": {
 				"name": "Indie Flower",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Vibur:ital,wght@0,400&display=block",
-			"name": "Vibur",
-			"variant": {
-				"name": "Vibur",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -24254,16 +24713,6 @@
 			"name": "Julius Sans One",
 			"variant": {
 				"name": "Julius Sans One",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Prociono:ital,wght@0,400&display=block",
-			"name": "Prociono",
-			"variant": {
-				"name": "Prociono",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -24828,6 +25277,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Astloch:ital,wght@0,400;0,700&display=block",
+			"name": "Astloch",
+			"variant": {
+				"name": "Astloch Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Mate:ital,wght@0,400;1,400&display=block",
 			"name": "Mate",
 			"variant": {
@@ -24880,16 +25339,6 @@
 			"name": "Tinos",
 			"variant": {
 				"name": "Tinos Bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 700
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Astloch:ital,wght@0,400;0,700&display=block",
-			"name": "Astloch",
-			"variant": {
-				"name": "Astloch Bold",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
@@ -25083,6 +25532,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 900
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Roboto+Flex:ital,wght@0,400&display=block",
+			"name": "Roboto Flex",
+			"variant": {
+				"name": "Roboto Flex",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -25830,6 +26289,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Barlow Semi Condensed",
+			"variant": {
+				"name": "Barlow Semi Condensed Ultra bold italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 800
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
 			"name": "Inria Sans",
 			"variant": {
@@ -26000,60 +26469,60 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Allan:ital,wght@0,400;0,700&display=block",
-			"name": "Allan",
+			"href": "https://fonts.googleapis.com/css2?family=Fredoka+One:ital,wght@0,400&display=block",
+			"name": "Fredoka One",
 			"variant": {
-				"name": "Allan",
+				"name": "Fredoka One",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Abhaya+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
-			"name": "Abhaya Libre",
+			"href": "https://fonts.googleapis.com/css2?family=Fuggles:ital,wght@0,400&display=block",
+			"name": "Fuggles",
 			"variant": {
-				"name": "Abhaya Libre",
+				"name": "Fuggles",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
-			"name": "Advent Pro",
+			"href": "https://fonts.googleapis.com/css2?family=Gafata:ital,wght@0,400&display=block",
+			"name": "Gafata",
 			"variant": {
-				"name": "Advent Pro",
+				"name": "Gafata",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
-			"name": "Big Shoulders Inline Text",
+			"href": "https://fonts.googleapis.com/css2?family=Ledger:ital,wght@0,400&display=block",
+			"name": "Ledger",
 			"variant": {
-				"name": "Big Shoulders Inline Text Thin",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 100
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Angkor:ital,wght@0,400&display=block",
-			"name": "Angkor",
-			"variant": {
-				"name": "Angkor",
+				"name": "Ledger",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=DotGothic16:ital,wght@0,400&display=block",
-			"name": "DotGothic16",
+			"href": "https://fonts.googleapis.com/css2?family=Licorice:ital,wght@0,400&display=block",
+			"name": "Licorice",
 			"variant": {
-				"name": "DotGothic16",
+				"name": "Licorice",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Major+Mono+Display:ital,wght@0,400&display=block",
+			"name": "Major Mono Display",
+			"variant": {
+				"name": "Major Mono Display",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -26084,6 +26553,36 @@
 			"name": "Noto Serif Tangut",
 			"variant": {
 				"name": "Noto Serif Tangut",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Prociono:ital,wght@0,400&display=block",
+			"name": "Prociono",
+			"variant": {
+				"name": "Prociono",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Ravi+Prakash:ital,wght@0,400&display=block",
+			"name": "Ravi Prakash",
+			"variant": {
+				"name": "Ravi Prakash",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya:ital,wght@0,400&display=block",
+			"name": "Sree Krushnadevaraya",
+			"variant": {
+				"name": "Sree Krushnadevaraya",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -26147,6 +26646,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Abhaya+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
+			"name": "Abhaya Libre",
+			"variant": {
+				"name": "Abhaya Libre Ultra bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 800
 			}
 		},
 		{
@@ -26400,22 +26909,22 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=block",
-			"name": "Mohave",
-			"variant": {
-				"name": "Mohave Semi bold italic",
-				"stretch": "normal",
-				"style": "italic",
-				"weight": 600
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Cormorant+Upright:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
 			"name": "Cormorant Upright",
 			"variant": {
 				"name": "Cormorant Upright Bold",
 				"stretch": "normal",
 				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=block",
+			"name": "Mohave",
+			"variant": {
+				"name": "Mohave Bold italic",
+				"stretch": "normal",
+				"style": "italic",
 				"weight": 700
 			}
 		},
@@ -26770,6 +27279,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Alumni Sans",
+			"variant": {
+				"name": "Alumni Sans Thin italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 100
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Ranchers:ital,wght@0,400&display=block",
 			"name": "Ranchers",
 			"variant": {
@@ -26989,30 +27508,10 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
-			"name": "Barlow Semi Condensed",
-			"variant": {
-				"name": "Barlow Semi Condensed Black",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 900
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Ruluko:ital,wght@0,400&display=block",
 			"name": "Ruluko",
 			"variant": {
 				"name": "Ruluko",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Licorice:ital,wght@0,400&display=block",
-			"name": "Licorice",
-			"variant": {
-				"name": "Licorice",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -27275,6 +27774,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+			"name": "Big Shoulders Inline Text",
+			"variant": {
+				"name": "Big Shoulders Inline Text Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
 			}
 		},
 		{
@@ -27553,6 +28062,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Advent Pro",
+			"variant": {
+				"name": "Advent Pro Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -27912,16 +28431,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Gafata:ital,wght@0,400&display=block",
-			"name": "Gafata",
-			"variant": {
-				"name": "Gafata",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Port+Lligat+Slab:ital,wght@0,400&display=block",
 			"name": "Port Lligat Slab",
 			"variant": {
@@ -28142,6 +28651,26 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Blaka+Hollow:ital,wght@0,400&display=block",
+			"name": "Blaka Hollow",
+			"variant": {
+				"name": "Blaka Hollow",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Blaka:ital,wght@0,400&display=block",
+			"name": "Blaka",
+			"variant": {
+				"name": "Blaka",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Arapey:ital,wght@0,400;1,400&display=block",
 			"name": "Arapey",
 			"variant": {
@@ -28179,6 +28708,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Allan:ital,wght@0,400;0,700&display=block",
+			"name": "Allan",
+			"variant": {
+				"name": "Allan Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -28422,26 +28961,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=East+Sea+Dokdo:ital,wght@0,400&display=block",
-			"name": "East Sea Dokdo",
-			"variant": {
-				"name": "East Sea Dokdo",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Kosugi+Maru:ital,wght@0,400&display=block",
-			"name": "Kosugi Maru",
-			"variant": {
-				"name": "Kosugi Maru",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Butterfly+Kids:ital,wght@0,400&display=block",
 			"name": "Butterfly Kids",
 			"variant": {
@@ -28476,6 +28995,16 @@
 			"name": "Kosugi",
 			"variant": {
 				"name": "Kosugi",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Kosugi+Maru:ital,wght@0,400&display=block",
+			"name": "Kosugi Maru",
+			"variant": {
+				"name": "Kosugi Maru",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -28682,6 +29211,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=East+Sea+Dokdo:ital,wght@0,400&display=block",
+			"name": "East Sea Dokdo",
+			"variant": {
+				"name": "East Sea Dokdo",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Akronim:ital,wght@0,400&display=block",
 			"name": "Akronim",
 			"variant": {
@@ -28782,16 +29321,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Fuggles:ital,wght@0,400&display=block",
-			"name": "Fuggles",
-			"variant": {
-				"name": "Fuggles",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Pompiere:ital,wght@0,400&display=block",
 			"name": "Pompiere",
 			"variant": {
@@ -28868,16 +29397,6 @@
 				"name": "Smooch Sans Black",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 900
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
-			"name": "Alumni Sans",
-			"variant": {
-				"name": "Alumni Sans Black italic",
-				"stretch": "normal",
-				"style": "italic",
 				"weight": 900
 			}
 		},
@@ -29429,6 +29948,15 @@
 			}
 		},
 		{
+			"name": "Job Clarendon",
+			"variant": {
+				"name": "Job Clarendon Thin condensed",
+				"stretch": "condensed",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Libre+Barcode+EAN13+Text:ital,wght@0,400&display=block",
 			"name": "Libre Barcode EAN13 Text",
 			"variant": {
@@ -29847,6 +30375,24 @@
 			}
 		},
 		{
+			"name": "Nickel",
+			"variant": {
+				"name": "Nickel",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"name": "Nickel Open Face",
+			"variant": {
+				"name": "Nickel Open Face",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Dela+Gothic+One:ital,wght@0,400&display=block",
 			"name": "Dela Gothic One",
 			"variant": {
@@ -30066,6 +30612,15 @@
 			}
 		},
 		{
+			"name": "Martian Mono",
+			"variant": {
+				"name": "Martian Mono Thin expanded",
+				"stretch": "expanded",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=WindSong:ital,wght@0,400;0,500&display=block",
 			"name": "WindSong",
 			"variant": {
@@ -30116,16 +30671,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Major+Mono+Display:ital,wght@0,400&display=block",
-			"name": "Major Mono Display",
-			"variant": {
-				"name": "Major Mono Display",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Kumar+One:ital,wght@0,400&display=block",
 			"name": "Kumar One",
 			"variant": {
@@ -30153,6 +30698,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 900
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Angkor:ital,wght@0,400&display=block",
+			"name": "Angkor",
+			"variant": {
+				"name": "Angkor",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -30412,13 +30967,13 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Tillana:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
-			"name": "Tillana",
+			"href": "https://fonts.googleapis.com/css2?family=Noto+Emoji:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Noto Emoji",
 			"variant": {
-				"name": "Tillana Ultra bold",
+				"name": "Noto Emoji Semi bold",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 800
+				"weight": 600
 			}
 		},
 		{
@@ -30977,6 +31532,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Literata",
+			"variant": {
+				"name": "Literata Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
+			}
+		},
+		{
 			"name": "Georgia",
 			"variant": {
 				"name": "Georgia Bold italic",
@@ -30993,16 +31558,6 @@
 				"stretch": "normal",
 				"style": "italic",
 				"weight": 700
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Literata:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
-			"name": "Literata",
-			"variant": {
-				"name": "Literata Black",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 900
 			}
 		},
 		{
@@ -31107,16 +31662,6 @@
 			"name": "Candal",
 			"variant": {
 				"name": "Candal",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Ledger:ital,wght@0,400&display=block",
-			"name": "Ledger",
-			"variant": {
-				"name": "Ledger",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -31542,16 +32087,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Potta+One:ital,wght@0,400&display=block",
-			"name": "Potta One",
-			"variant": {
-				"name": "Potta One",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=block",
 			"name": "Newsreader",
 			"variant": {
@@ -31559,6 +32094,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 800
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Potta+One:ital,wght@0,400&display=block",
+			"name": "Potta One",
+			"variant": {
+				"name": "Potta One",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -31801,6 +32346,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Tillana:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
+			"name": "Tillana",
+			"variant": {
+				"name": "Tillana Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Inter",
 			"variant": {
@@ -32032,6 +32587,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"name": "Henrietta",
+			"variant": {
+				"name": "Henrietta Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
 			}
 		},
 		{
@@ -32360,15 +32924,6 @@
 				"name": "Noto Serif Bold italic",
 				"stretch": "normal",
 				"style": "italic",
-				"weight": 700
-			}
-		},
-		{
-			"name": "Henrietta",
-			"variant": {
-				"name": "Henrietta Bold",
-				"stretch": "normal",
-				"style": "normal",
 				"weight": 700
 			}
 		},
@@ -32829,15 +33384,6 @@
 			}
 		},
 		{
-			"name": "AUTHENTIC Sans",
-			"variant": {
-				"name": "AUTHENTIC Sans Black",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 900
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Paprika:ital,wght@0,400&display=block",
 			"name": "Paprika",
 			"variant": {
@@ -32845,6 +33391,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"name": "AUTHENTIC Sans",
+			"variant": {
+				"name": "AUTHENTIC Sans Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
 			}
 		},
 		{
@@ -33365,6 +33920,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=block",
+			"name": "Andika",
+			"variant": {
+				"name": "Andika Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Fascinate:ital,wght@0,400&display=block",
 			"name": "Fascinate",
 			"variant": {
@@ -33701,6 +34266,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:ital,wght@0,400;0,700&display=block",
+			"name": "Tai Heritage Pro",
+			"variant": {
+				"name": "Tai Heritage Pro Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Yatra+One:ital,wght@0,400&display=block",
 			"name": "Yatra One",
 			"variant": {
@@ -33738,6 +34313,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"name": "HEX Franklin",
+			"variant": {
+				"name": "HEX Franklin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
 			}
 		},
 		{
@@ -33808,6 +34392,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Radio+Canada:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=block",
+			"name": "Radio Canada",
+			"variant": {
+				"name": "Radio Canada Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Delius+Swash+Caps:ital,wght@0,400&display=block",
 			"name": "Delius Swash Caps",
 			"variant": {
@@ -33848,13 +34442,13 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Fredoka+One:ital,wght@0,400&display=block",
-			"name": "Fredoka One",
+			"href": "https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=block",
+			"name": "Charis SIL",
 			"variant": {
-				"name": "Fredoka One",
+				"name": "Charis SIL Bold",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 400
+				"weight": 700
 			}
 		},
 		{
@@ -33938,15 +34532,6 @@
 			}
 		},
 		{
-			"name": "Output Sans 2 Beta",
-			"variant": {
-				"name": "Output Sans 2 Beta Ultra bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 800
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=block",
 			"name": "PT Serif",
 			"variant": {
@@ -33954,6 +34539,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"name": "Output Sans 2 Beta",
+			"variant": {
+				"name": "Output Sans 2 Beta Ultra bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 800
 			}
 		},
 		{
@@ -34078,10 +34672,10 @@
 			"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Noto Sans Mono",
 			"variant": {
-				"name": "Noto Sans Mono Thin",
+				"name": "Noto Sans Mono Extra light",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 200
 			}
 		},
 		{
@@ -34122,6 +34716,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 200
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Spline Sans Mono",
+			"variant": {
+				"name": "Spline Sans Mono Light",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 300
 			}
 		},
 		{
@@ -34182,6 +34786,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
+			"name": "Averia Serif Libre",
+			"variant": {
+				"name": "Averia Serif Libre Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -34431,6 +35045,15 @@
 			}
 		},
 		{
+			"name": "Default Sans",
+			"variant": {
+				"name": "Default Sans Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Kavoon:ital,wght@0,400&display=block",
 			"name": "Kavoon",
 			"variant": {
@@ -34630,6 +35253,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Spline+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Spline Sans",
+			"variant": {
+				"name": "Spline Sans Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Noto Sans Bengali",
 			"variant": {
@@ -34677,16 +35310,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 900
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Spline+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
-			"name": "Spline Sans",
-			"variant": {
-				"name": "Spline Sans Bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 700
 			}
 		},
 		{
@@ -35129,16 +35752,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
-			"name": "Averia Serif Libre",
-			"variant": {
-				"name": "Averia Serif Libre",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Sura:ital,wght@0,400;0,700&display=block",
 			"name": "Sura",
 			"variant": {
@@ -35153,6 +35766,86 @@
 			"name": "Castoro",
 			"variant": {
 				"name": "Castoro",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Bangla",
+			"variant": {
+				"name": "Tiro Bangla",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Devanagari Hindi",
+			"variant": {
+				"name": "Tiro Devanagari Hindi",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Devanagari Sanskrit",
+			"variant": {
+				"name": "Tiro Devanagari Sanskrit",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Gurmukhi",
+			"variant": {
+				"name": "Tiro Gurmukhi",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Kannada:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Kannada",
+			"variant": {
+				"name": "Tiro Kannada",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Tamil:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Tamil",
+			"variant": {
+				"name": "Tiro Tamil",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Telugu",
+			"variant": {
+				"name": "Tiro Telugu",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital,wght@0,400;1,400&display=block",
+			"name": "Tiro Devanagari Marathi",
+			"variant": {
+				"name": "Tiro Devanagari Marathi",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -35298,6 +35991,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro:ital,wght@0,400&display=block",
+			"name": "Kdam Thmor Pro",
+			"variant": {
+				"name": "Kdam Thmor Pro",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Klee+One:ital,wght@0,400;0,600&display=block",
 			"name": "Klee One",
 			"variant": {
@@ -35325,16 +36028,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400&display=block",
-			"name": "Andika",
-			"variant": {
-				"name": "Andika",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
 			}
 		},
 		{
@@ -35645,16 +36338,6 @@
 			"name": "Tinos",
 			"variant": {
 				"name": "Tinos Bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 700
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Astloch:ital,wght@0,400;0,700&display=block",
-			"name": "Astloch",
-			"variant": {
-				"name": "Astloch Bold",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
@@ -36281,6 +36964,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Nuosu+SIL:ital,wght@0,400&display=block",
+			"name": "Nuosu SIL",
+			"variant": {
+				"name": "Nuosu SIL",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Mansalva:ital,wght@0,400&display=block",
 			"name": "Mansalva",
 			"variant": {
@@ -36821,16 +37514,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Prociono:ital,wght@0,400&display=block",
-			"name": "Prociono",
-			"variant": {
-				"name": "Prociono",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Mate+SC:ital,wght@0,400&display=block",
 			"name": "Mate SC",
 			"variant": {
@@ -37070,6 +37753,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Joan:ital,wght@0,400&display=block",
+			"name": "Joan",
+			"variant": {
+				"name": "Joan",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Bigshot+One:ital,wght@0,400&display=block",
 			"name": "Bigshot One",
 			"variant": {
@@ -37249,6 +37942,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Roboto+Flex:ital,wght@0,400&display=block",
+			"name": "Roboto Flex",
+			"variant": {
+				"name": "Roboto Flex",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"name": "Noway",
 			"variant": {
 				"name": "Noway Bold italic",
@@ -37390,6 +38093,16 @@
 			"name": "Yaldevi",
 			"variant": {
 				"name": "Yaldevi Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=block",
+			"name": "Crimson Text",
+			"variant": {
+				"name": "Crimson Text Bold",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
@@ -37784,6 +38497,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Barlow Semi Condensed",
+			"variant": {
+				"name": "Barlow Semi Condensed Ultra bold italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 800
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Kurale:ital,wght@0,400&display=block",
 			"name": "Kurale",
 			"variant": {
@@ -37934,60 +38657,80 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Abhaya+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
-			"name": "Abhaya Libre",
+			"href": "https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=block",
+			"name": "Almendra",
 			"variant": {
-				"name": "Abhaya Libre",
+				"name": "Almendra",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
-			"name": "Advent Pro",
+			"href": "https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital,wght@0,400;1,400&display=block",
+			"name": "DM Serif Text",
 			"variant": {
-				"name": "Advent Pro",
+				"name": "DM Serif Text",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Allan:ital,wght@0,400;0,700&display=block",
-			"name": "Allan",
+			"href": "https://fonts.googleapis.com/css2?family=Fredoka+One:ital,wght@0,400&display=block",
+			"name": "Fredoka One",
 			"variant": {
-				"name": "Allan",
+				"name": "Fredoka One",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Angkor:ital,wght@0,400&display=block",
-			"name": "Angkor",
+			"href": "https://fonts.googleapis.com/css2?family=Fuggles:ital,wght@0,400&display=block",
+			"name": "Fuggles",
 			"variant": {
-				"name": "Angkor",
+				"name": "Fuggles",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
-			"name": "Big Shoulders Inline Text",
+			"href": "https://fonts.googleapis.com/css2?family=Gafata:ital,wght@0,400&display=block",
+			"name": "Gafata",
 			"variant": {
-				"name": "Big Shoulders Inline Text Thin",
+				"name": "Gafata",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 400
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=DotGothic16:ital,wght@0,400&display=block",
-			"name": "DotGothic16",
+			"href": "https://fonts.googleapis.com/css2?family=Ledger:ital,wght@0,400&display=block",
+			"name": "Ledger",
 			"variant": {
-				"name": "DotGothic16",
+				"name": "Ledger",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Licorice:ital,wght@0,400&display=block",
+			"name": "Licorice",
+			"variant": {
+				"name": "Licorice",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Major+Mono+Display:ital,wght@0,400&display=block",
+			"name": "Major Mono Display",
+			"variant": {
+				"name": "Major Mono Display",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -39024,6 +39767,36 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Prociono:ital,wght@0,400&display=block",
+			"name": "Prociono",
+			"variant": {
+				"name": "Prociono",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Ravi+Prakash:ital,wght@0,400&display=block",
+			"name": "Ravi Prakash",
+			"variant": {
+				"name": "Ravi Prakash",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya:ital,wght@0,400&display=block",
+			"name": "Sree Krushnadevaraya",
+			"variant": {
+				"name": "Sree Krushnadevaraya",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=block",
 			"name": "Asap",
 			"variant": {
@@ -39071,6 +39844,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Astloch:ital,wght@0,400;0,700&display=block",
+			"name": "Astloch",
+			"variant": {
+				"name": "Astloch Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -39571,30 +40354,10 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=block",
-			"name": "Almendra",
-			"variant": {
-				"name": "Almendra Bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 700
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Pinyon+Script:ital,wght@0,400&display=block",
 			"name": "Pinyon Script",
 			"variant": {
 				"name": "Pinyon Script",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital,wght@0,400;1,400&display=block",
-			"name": "DM Serif Text",
-			"variant": {
-				"name": "DM Serif Text",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -39758,6 +40521,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=block",
+			"name": "Gentium Plus",
+			"variant": {
+				"name": "Gentium Plus Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -39938,6 +40711,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Abhaya+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
+			"name": "Abhaya Libre",
+			"variant": {
+				"name": "Abhaya Libre Ultra bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 800
 			}
 		},
 		{
@@ -40158,6 +40941,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+			"name": "Alumni Sans",
+			"variant": {
+				"name": "Alumni Sans Thin italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 100
 			}
 		},
 		{
@@ -41050,16 +41843,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
-			"name": "Barlow Semi Condensed",
-			"variant": {
-				"name": "Barlow Semi Condensed Black",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 900
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Grenze+Gotisch:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Grenze Gotisch",
 			"variant": {
@@ -41190,26 +41973,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya:ital,wght@0,400&display=block",
-			"name": "Sree Krushnadevaraya",
-			"variant": {
-				"name": "Sree Krushnadevaraya",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Kosugi+Maru:ital,wght@0,400&display=block",
-			"name": "Kosugi Maru",
-			"variant": {
-				"name": "Kosugi Maru",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Do+Hyeon:ital,wght@0,400&display=block",
 			"name": "Do Hyeon",
 			"variant": {
@@ -41294,16 +42057,6 @@
 			"name": "Francois One",
 			"variant": {
 				"name": "Francois One",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Gafata:ital,wght@0,400&display=block",
-			"name": "Gafata",
-			"variant": {
-				"name": "Gafata",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -41400,6 +42153,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Kosugi+Maru:ital,wght@0,400&display=block",
+			"name": "Kosugi Maru",
+			"variant": {
+				"name": "Kosugi Maru",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=block",
 			"name": "Lekton",
 			"variant": {
@@ -41464,6 +42227,16 @@
 			"name": "Yomogi",
 			"variant": {
 				"name": "Yomogi",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=DotGothic16:ital,wght@0,400&display=block",
+			"name": "DotGothic16",
+			"variant": {
+				"name": "DotGothic16",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -41554,6 +42327,26 @@
 			"name": "Redressed",
 			"variant": {
 				"name": "Redressed",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+			"name": "Big Shoulders Inline Text",
+			"variant": {
+				"name": "Big Shoulders Inline Text Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Vibur:ital,wght@0,400&display=block",
+			"name": "Vibur",
+			"variant": {
+				"name": "Vibur",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -41759,16 +42552,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Vibur:ital,wght@0,400&display=block",
-			"name": "Vibur",
-			"variant": {
-				"name": "Vibur",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Lancelot:ital,wght@0,400&display=block",
 			"name": "Lancelot",
 			"variant": {
@@ -41909,16 +42692,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=Licorice:ital,wght@0,400&display=block",
-			"name": "Licorice",
-			"variant": {
-				"name": "Licorice",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Satisfy:ital,wght@0,400&display=block",
 			"name": "Satisfy",
 			"variant": {
@@ -41946,6 +42719,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+			"name": "Advent Pro",
+			"variant": {
+				"name": "Advent Pro Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -42086,16 +42869,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Ravi+Prakash:ital,wght@0,400&display=block",
-			"name": "Ravi Prakash",
-			"variant": {
-				"name": "Ravi Prakash",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
 			}
 		},
 		{
@@ -42677,6 +43450,26 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Blaka+Hollow:ital,wght@0,400&display=block",
+			"name": "Blaka Hollow",
+			"variant": {
+				"name": "Blaka Hollow",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Blaka:ital,wght@0,400&display=block",
+			"name": "Blaka",
+			"variant": {
+				"name": "Blaka",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Ingrid+Darling:ital,wght@0,400&display=block",
 			"name": "Ingrid Darling",
 			"variant": {
@@ -42770,10 +43563,10 @@
 			"href": "https://fonts.googleapis.com/css2?family=Mohave:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=block",
 			"name": "Mohave",
 			"variant": {
-				"name": "Mohave Semi bold italic",
+				"name": "Mohave Bold italic",
 				"stretch": "normal",
 				"style": "italic",
-				"weight": 600
+				"weight": 700
 			}
 		},
 		{
@@ -43114,6 +43907,16 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"href": "https://fonts.googleapis.com/css2?family=Allan:ital,wght@0,400;0,700&display=block",
+			"name": "Allan",
+			"variant": {
+				"name": "Allan Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
 			}
 		},
 		{
@@ -43466,16 +44269,6 @@
 			}
 		},
 		{
-			"href": "https://fonts.googleapis.com/css2?family=East+Sea+Dokdo:ital,wght@0,400&display=block",
-			"name": "East Sea Dokdo",
-			"variant": {
-				"name": "East Sea Dokdo",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
 			"href": "https://fonts.googleapis.com/css2?family=Aubrey:ital,wght@0,400&display=block",
 			"name": "Aubrey",
 			"variant": {
@@ -43550,16 +44343,6 @@
 			"name": "Nanum Pen Script",
 			"variant": {
 				"name": "Nanum Pen Script",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Fuggles:ital,wght@0,400&display=block",
-			"name": "Fuggles",
-			"variant": {
-				"name": "Fuggles",
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
@@ -43666,6 +44449,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=East+Sea+Dokdo:ital,wght@0,400&display=block",
+			"name": "East Sea Dokdo",
+			"variant": {
+				"name": "East Sea Dokdo",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Smokum:ital,wght@0,400&display=block",
 			"name": "Smokum",
 			"variant": {
@@ -43712,16 +44505,6 @@
 				"name": "Smooch Sans Black",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 900
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Alumni+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
-			"name": "Alumni Sans",
-			"variant": {
-				"name": "Alumni Sans Black italic",
-				"stretch": "normal",
-				"style": "italic",
 				"weight": 900
 			}
 		},
@@ -44161,6 +44944,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"name": "Job Clarendon",
+			"variant": {
+				"name": "Job Clarendon Thin condensed",
+				"stretch": "condensed",
+				"style": "normal",
+				"weight": 100
 			}
 		},
 		{
