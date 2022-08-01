@@ -1664,8 +1664,8 @@
  *****************************************************************************/
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Extra_Condensed-Regular.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Extra_Condensed-Regular.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Extra_Condensed-Regular.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Extra_Condensed-Regular.woff') format('woff');
   font-weight: 400;
   font-style: regular;
   font-stretch: extra-condensed;
@@ -1673,8 +1673,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Extra_Condensed-Medium.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Extra_Condensed-Medium.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Extra_Condensed-Medium.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Extra_Condensed-Medium.woff') format('woff');
   font-weight: 500;
   font-style: regular;
   font-stretch: extra-condensed;
@@ -1682,8 +1682,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Extra_Condensed-Semibold.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Extra_Condensed-Semibold.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Extra_Condensed-Semibold.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Extra_Condensed-Semibold.woff') format('woff');
   font-weight: 600;
   font-style: regular;
   font-stretch: extra-condensed;
@@ -1691,8 +1691,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Extra_Condensed-Bold.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Extra_Condensed-Bold.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Extra_Condensed-Bold.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Extra_Condensed-Bold.woff') format('woff');
   font-weight: 700;
   font-style: regular;
   font-stretch: extra-condensed;
@@ -1700,8 +1700,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Extra_Condensed-Extrabold.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Extra_Condensed-Extrabold.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Extra_Condensed-Extrabold.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Extra_Condensed-Extrabold.woff') format('woff');
   font-weight: 800;
   font-style: regular;
   font-stretch: extra-condensed;
@@ -1709,8 +1709,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Condensed-Regular.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Condensed-Regular.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Condensed-Regular.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Condensed-Regular.woff') format('woff');
   font-weight: 400;
   font-style: regular;
   font-stretch: condensed;
@@ -1718,8 +1718,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Condensed-Medium.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Condensed-Medium.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Condensed-Medium.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Condensed-Medium.woff') format('woff');
   font-weight: 500;
   font-style: regular;
   font-stretch: condensed;
@@ -1727,8 +1727,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Condensed-Semibold.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Condensed-Semibold.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Condensed-Semibold.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Condensed-Semibold.woff') format('woff');
   font-weight: 600;
   font-style: regular;
   font-stretch: condensed;
@@ -1736,8 +1736,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Condensed-Bold.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Condensed-Bold.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Condensed-Bold.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Condensed-Bold.woff') format('woff');
   font-weight: 700;
   font-style: regular;
   font-stretch: condensed;
@@ -1745,8 +1745,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Condensed-Extrabold.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Condensed-Extrabold.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Condensed-Extrabold.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Condensed-Extrabold.woff') format('woff');
   font-weight: 800;
   font-style: regular;
   font-stretch: condensed;
@@ -1754,8 +1754,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Narrow-Regular.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Narrow-Regular.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Narrow-Regular.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Narrow-Regular.woff') format('woff');
   font-weight: 400;
   font-style: regular;
   font-stretch: semi-condensed;
@@ -1763,8 +1763,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Narrow-Medium.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Narrow-Medium.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Narrow-Medium.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Narrow-Medium.woff') format('woff');
   font-weight: 500;
   font-style: regular;
   font-stretch: semi-condensed;
@@ -1772,8 +1772,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Narrow-Semibold.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Narrow-Semibold.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Narrow-Semibold.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Narrow-Semibold.woff') format('woff');
   font-weight: 600;
   font-style: regular;
   font-stretch: semi-condensed;
@@ -1781,8 +1781,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Narrow-Bold.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Narrow-Bold.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Narrow-Bold.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Narrow-Bold.woff') format('woff');
   font-weight: 700;
   font-style: regular;
   font-stretch: semi-condensed;
@@ -1790,8 +1790,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1_Narrow-Extrabold.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1_Narrow-Extrabold.woff') format('woff');
+  src: url('HEX_Franklin_v0.2_Narrow-Extrabold.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2_Narrow-Extrabold.woff') format('woff');
   font-weight: 800;
   font-style: regular;
   font-stretch: semi-condensed;
@@ -1799,8 +1799,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1-Regular.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1-Regular.woff') format('woff');
+  src: url('HEX_Franklin_v0.2-Regular.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2-Regular.woff') format('woff');
   font-weight: 400;
   font-style: regular;
   font-stretch: normal;
@@ -1808,8 +1808,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1-Medium.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1-Medium.woff') format('woff');
+  src: url('HEX_Franklin_v0.2-Medium.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2-Medium.woff') format('woff');
   font-weight: 500;
   font-style: regular;
   font-stretch: normal;
@@ -1817,8 +1817,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1-Semibold.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1-Semibold.woff') format('woff');
+  src: url('HEX_Franklin_v0.2-Semibold.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2-Semibold.woff') format('woff');
   font-weight: 600;
   font-style: regular;
   font-stretch: normal;
@@ -1826,8 +1826,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1-Bold.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1-Bold.woff') format('woff');
+  src: url('HEX_Franklin_v0.2-Bold.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2-Bold.woff') format('woff');
   font-weight: 700;
   font-style: regular;
   font-stretch: normal;
@@ -1835,8 +1835,8 @@
 
 @font-face {
   font-family: 'HEX Franklin';
-  src: url('HEX_Franklin_v0.1-Extrabold.woff2') format('woff2'),
-       url('HEX_Franklin_v0.1-Extrabold.woff') format('woff');
+  src: url('HEX_Franklin_v0.2-Extrabold.woff2') format('woff2'),
+       url('HEX_Franklin_v0.2-Extrabold.woff') format('woff');
   font-weight: 800;
   font-style: regular;
   font-stretch: normal;
