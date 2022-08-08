@@ -1559,7 +1559,7 @@
   font-family: 'Henrietta';
   src: url('VCHenrietta-Light.woff2') format('woff2'),
        url('VCHenrietta-Light.woff') format('woff');
-  font-weight: 500;
+  font-weight: 300;
   font-style: regular;
 }
 
@@ -1567,7 +1567,7 @@
   font-family: 'Henrietta';
   src: url('VCHenriettaCondensed-Light.woff2') format('woff2'),
        url('VCHenriettaCondensed-Light.woff') format('woff');
-  font-weight: 500;
+  font-weight: 300;
   font-style: regular;
   font-stretch: condensed;
 }
@@ -1576,7 +1576,7 @@
   font-family: 'Henrietta';
   src: url('VCHenrietta-Regular.woff2') format('woff2'),
        url('VCHenrietta-Regular.woff') format('woff');
-  font-weight: 700;
+  font-weight: 400;
   font-style: regular;
 }
 
@@ -1584,7 +1584,7 @@
   font-family: 'Henrietta';
   src: url('VCHenriettaCondensed-Regular.woff2') format('woff2'),
        url('VCHenriettaCondensed-Regular.woff') format('woff');
-  font-weight: 700;
+  font-weight: 400;
   font-style: regular;
   font-stretch: condensed;
 }
@@ -1610,7 +1610,7 @@
   font-family: 'Henrietta';
   src: url('VCHenrietta-SemiBold.woff2') format('woff2'),
        url('VCHenrietta-SemiBold.woff') format('woff');
-  font-weight: 500;
+  font-weight: 600;
   font-style: regular;
 }
 
@@ -1618,7 +1618,7 @@
   font-family: 'Henrietta';
   src: url('VCHenriettaCondensed-SemiBold.woff2') format('woff2'),
        url('VCHenriettaCondensed-SemiBold.woff') format('woff');
-  font-weight: 500;
+  font-weight: 600;
   font-style: regular;
   font-stretch: condensed;
 }
