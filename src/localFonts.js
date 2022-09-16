@@ -595,7 +595,7 @@ const otherLicensedFonts = [
 	{
 		name: 'Henrietta',
 		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
-		italics: false,
+		italics: true,
 		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
 		stretches: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK].reduce((acc, weight) => {
 			acc[weight] = {

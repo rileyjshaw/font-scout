@@ -1565,6 +1565,14 @@
 
 @font-face {
   font-family: 'Henrietta';
+  src: url('VCHenrietta-LightItalic.woff2') format('woff2'),
+       url('VCHenrietta-LightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Henrietta';
   src: url('VCHenriettaCondensed-Light.woff2') format('woff2'),
        url('VCHenriettaCondensed-Light.woff') format('woff');
   font-weight: 300;
@@ -1578,6 +1586,14 @@
        url('VCHenrietta-Regular.woff') format('woff');
   font-weight: 400;
   font-style: regular;
+}
+
+@font-face {
+  font-family: 'Henrietta';
+  src: url('VCHenrietta-RegularItalic.woff2') format('woff2'),
+       url('VCHenrietta-RegularItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;
 }
 
 @font-face {
@@ -1599,6 +1615,14 @@
 
 @font-face {
   font-family: 'Henrietta';
+  src: url('VCHenrietta-MediumItalic.woff2') format('woff2'),
+       url('VCHenrietta-MediumItalic.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Henrietta';
   src: url('VCHenriettaCondensed-Medium.woff2') format('woff2'),
        url('VCHenriettaCondensed-Medium.woff') format('woff');
   font-weight: 500;
@@ -1612,6 +1636,14 @@
        url('VCHenrietta-SemiBold.woff') format('woff');
   font-weight: 600;
   font-style: regular;
+}
+
+@font-face {
+  font-family: 'Henrietta';
+  src: url('VCHenrietta-SemiBoldItalic.woff2') format('woff2'),
+       url('VCHenrietta-SemiBoldItalic.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
 }
 
 @font-face {
@@ -1633,6 +1665,14 @@
 
 @font-face {
   font-family: 'Henrietta';
+  src: url('VCHenrietta-BoldItalic.woff2') format('woff2'),
+       url('VCHenrietta-BoldItalic.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Henrietta';
   src: url('VCHenriettaCondensed-Bold.woff2') format('woff2'),
        url('VCHenriettaCondensed-Bold.woff') format('woff');
   font-weight: 700;
@@ -1646,6 +1686,14 @@
        url('VCHenrietta-Black.woff') format('woff');
   font-weight: 900;
   font-style: regular;
+}
+
+@font-face {
+  font-family: 'Henrietta';
+  src: url('VCHenrietta-BlackItalic.woff2') format('woff2'),
+       url('VCHenrietta-BlackItalic.woff') format('woff');
+  font-weight: 900;
+  font-style: italic;
 }
 
 @font-face {
