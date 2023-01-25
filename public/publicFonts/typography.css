@@ -225,7 +225,7 @@
     font-style: normal;
 }
 
- @font-face {
+@font-face {
     font-family: 'Butler Stencil';
     src: url('ButlerStencil-Medium.woff2') format('woff2'),
          url('ButlerStencil-Medium.woff') format('woff');
@@ -372,6 +372,19 @@
          url('CooperHewitt-HeavyItalic.woff') format('woff');
     font-weight: 900;
     font-style: italic;
+}
+
+/******************************************************************************
+ *
+ * Golos UI font family.
+ *
+ *****************************************************************************/
+@font-face {
+    font-family: 'Golos UI';
+    src: url('golos-ui_vf.woff2') format('woff2'),
+         url('golos-ui_vf.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 
 /******************************************************************************
@@ -1647,6 +1660,19 @@
          url('OpenSauceTwo-BlackItalic.woff') format('woff');
     font-weight: 900;
     font-style: italic;
+}
+
+/******************************************************************************
+ *
+ * PT Root UI font family.
+ *
+ *****************************************************************************/
+@font-face {
+    font-family: 'PT Root UI';
+    src: url('pt-root-ui_vf.woff2') format('woff2'),
+         url('pt-root-ui_vf.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
 }
 
 /******************************************************************************

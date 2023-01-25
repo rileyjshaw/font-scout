@@ -23,6 +23,8 @@ import {
 	SERIF_COLLECTION,
 	SYSTEM_FONTS_COLLECTION,
 	VARIABLE_COLLECTION,
+	MULTIPLEXED_COLLECTION,
+	UI_FONTS_COLLECTION,
 } from './constants.js';
 
 const atipoFonts = [
@@ -319,7 +321,7 @@ const djrFontOfTheMonth = [
 		name: 'Output Sans 2 Beta',
 		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, BOOK, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD],
 		italics: true,
-		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION],
+		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, UI_FONTS_COLLECTION],
 	},
 	{
 		name: 'Pomfret',
@@ -417,6 +419,12 @@ const freeOpenFonts = [
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
+		name: 'Golos UI',
+		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italics: false,
+		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION, MULTIPLEXED_COLLECTION],
+	},
+	{
 		name: 'Junction',
 		weights: [LIGHT, REGULAR, BOLD],
 		italics: false,
@@ -489,6 +497,12 @@ const freeOpenFonts = [
 		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
 		italics: true,
 		collections: [SANS_SERIF_COLLECTION],
+	},
+	{
+		name: 'PT Root UI',
+		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italics: false,
+		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION, MULTIPLEXED_COLLECTION],
 	},
 	{
 		name: 'SuperDuper',
@@ -584,7 +598,7 @@ const otherLicensedFonts = [
 		name: 'Default Sans',
 		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
 		italics: true,
-		collections: [SANS_SERIF_COLLECTION],
+		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION],
 	},
 	{
 		name: 'Greycliff CF',
@@ -616,7 +630,7 @@ const otherLicensedFonts = [
 			};
 			return acc;
 		}, {}),
-		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FUTURE_FONTS_COLLECTION],
+		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FUTURE_FONTS_COLLECTION, MULTIPLEXED_COLLECTION],
 	},
 	{
 		name: 'Integral CF',
