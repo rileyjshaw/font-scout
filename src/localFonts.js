@@ -652,6 +652,12 @@ const otherLicensedFonts = [
 		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
+		name: 'Loretta',
+		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD],
+		italics: true,
+		collections: [SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
+	},
+	{
 		name: 'Macabre',
 		weights: [REGULAR],
 		italics: false,
