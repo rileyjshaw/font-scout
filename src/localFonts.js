@@ -614,6 +614,12 @@ const otherLicensedFonts = [
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
+		name: 'Gosh',
+		weights: [BOLD],
+		italics: false,
+		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
+	},
+	{
 		name: 'Henrietta',
 		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
 		italics: true,
