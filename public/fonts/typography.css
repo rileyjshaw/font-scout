@@ -1051,169 +1051,295 @@
 
 /******************************************************************************
  *
- * Default Sans font family.
+ * Def Sans font family.
  *
  *****************************************************************************/
 @font-face {
-  font-family: 'Default Sans';
-  src: url('DefaultSans-Thin.woff2') format('woff2'),
-       url('DefaultSans-Thin.woff') format('woff'),
-       url('DefaultSans-Thin.ttf') format('truetype');
+  font-family: 'Def Sans';
+  src: url('DefSans-Thin.woff2') format('woff2');
   font-weight: 100;
   font-style: normal;
+  font-stretch: normal;
 }
 
 @font-face {
-  font-family: 'Default Sans';
-  src: url('DefaultSans-ThinItalic.woff2') format('woff2'),
-       url('DefaultSans-ThinItalic.woff') format('woff'),
-       url('DefaultSans-ThinItalic.ttf') format('truetype');
+  font-family: 'Def Sans';
+  src: url('DefSans-CondThin.woff2') format('woff2');
+  font-weight: 100;
+  font-style: normal;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-ThinItalic.woff2') format('woff2');
   font-weight: 100;
   font-style: italic;
+  font-stretch: normal;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-ExtraLight.woff2') format('woff2'),
-         url('DefaultSans-ExtraLight.woff') format('woff'),
-         url('DefaultSans-ExtraLight.ttf') format('truetype');
-    font-weight: 200;
-    font-style: normal;
+  font-family: 'Def Sans';
+  src: url('DefSans-CondThinItalic.woff2') format('woff2');
+  font-weight: 100;
+  font-style: italic;
+  font-stretch: condensed;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-ExtraLightItalic.woff2') format('woff2'),
-         url('DefaultSans-ExtraLightItalic.woff') format('woff'),
-         url('DefaultSans-ExtraLightItalic.ttf') format('truetype');
-    font-weight: 200;
-    font-style: italic;
+  font-family: 'Def Sans';
+  src: url('DefSans-ExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: normal;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-Light.woff2') format('woff2'),
-         url('DefaultSans-Light.woff') format('woff'),
-         url('DefaultSans-Light.ttf') format('truetype');
-    font-weight: 300;
-    font-style: normal;
+  font-family: 'Def Sans';
+  src: url('DefSans-CondExtraLight.woff2') format('woff2');
+  font-weight: 200;
+  font-style: normal;
+  font-stretch: condensed;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-LightItalic.woff2') format('woff2'),
-         url('DefaultSans-LightItalic.woff') format('woff'),
-         url('DefaultSans-LightItalic.ttf') format('truetype');
-    font-weight: 300;
-    font-style: italic;
+  font-family: 'Def Sans';
+  src: url('DefSans-ExtraLightItalic.woff2') format('woff2');
+  font-weight: 200;
+  font-style: italic;
+  font-stretch: normal;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-Regular.woff2') format('woff2'),
-         url('DefaultSans-Regular.woff') format('woff'),
-         url('DefaultSans-Regular.ttf') format('truetype');
-    font-weight: 400;
-    font-style: normal;
+  font-family: 'Def Sans';
+  src: url('DefSans-CondExtraLightItalic.woff2') format('woff2');
+  font-weight: 200;
+  font-style: italic;
+  font-stretch: condensed;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-Italic.woff2') format('woff2'),
-         url('DefaultSans-Italic.woff') format('woff'),
-         url('DefaultSans-Italic.ttf') format('truetype');
-    font-weight: 400;
-    font-style: italic;
+  font-family: 'Def Sans';
+  src: url('DefSans-Light.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: normal;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-Medium.woff2') format('woff2'),
-         url('DefaultSans-Medium.woff') format('woff'),
-         url('DefaultSans-Medium.ttf') format('truetype');
-    font-weight: 500;
-    font-style: normal;
+  font-family: 'Def Sans';
+  src: url('DefSans-CondLight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+  font-stretch: condensed;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-MediumItalic.woff2') format('woff2'),
-         url('DefaultSans-MediumItalic.woff') format('woff'),
-         url('DefaultSans-MediumItalic.ttf') format('truetype');
-    font-weight: 500;
-    font-style: italic;
+  font-family: 'Def Sans';
+  src: url('DefSans-LightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: normal;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-SemiBold.woff2') format('woff2'),
-         url('DefaultSans-SemiBold.woff') format('woff'),
-         url('DefaultSans-SemiBold.ttf') format('truetype');
-    font-weight: 600;
-    font-style: normal;
+  font-family: 'Def Sans';
+  src: url('DefSans-CondLightItalic.woff2') format('woff2');
+  font-weight: 300;
+  font-style: italic;
+  font-stretch: condensed;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-SemiBoldItalic.woff2') format('woff2'),
-         url('DefaultSans-SemiBoldItalic.woff') format('woff'),
-         url('DefaultSans-SemiBoldItalic.ttf') format('truetype');
-    font-weight: 600;
-    font-style: italic;
+  font-family: 'Def Sans';
+  src: url('DefSans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-Bold.woff2') format('woff2'),
-         url('DefaultSans-Bold.woff') format('woff'),
-         url('DefaultSans-Bold.ttf') format('truetype');
-    font-weight: 700;
-    font-style: normal;
+  font-family: 'Def Sans';
+  src: url('DefSans-CondRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: condensed;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-BoldItalic.woff2') format('woff2'),
-         url('DefaultSans-BoldItalic.woff') format('woff'),
-         url('DefaultSans-BoldItalic.ttf') format('truetype');
-    font-weight: 700;
-    font-style: italic;
+  font-family: 'Def Sans';
+  src: url('DefSans-Italic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: normal;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-ExtraBold.woff2') format('woff2'),
-         url('DefaultSans-ExtraBold.woff') format('woff'),
-         url('DefaultSans-ExtraBold.ttf') format('truetype');
-    font-weight: 800;
-    font-style: normal;
+  font-family: 'Def Sans';
+  src: url('DefSans-CondItalic.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-stretch: condensed;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-ExtraBoldItalic.woff2') format('woff2'),
-         url('DefaultSans-ExtraBoldItalic.woff') format('woff'),
-         url('DefaultSans-ExtraBoldItalic.ttf') format('truetype');
-    font-weight: 800;
-    font-style: italic;
+  font-family: 'Def Sans';
+  src: url('DefSans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: normal;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-Black.woff2') format('woff2'),
-         url('DefaultSans-Black.woff') format('woff'),
-         url('DefaultSans-Black.ttf') format('truetype');
-    font-weight: 900;
-    font-style: normal;
+  font-family: 'Def Sans';
+  src: url('DefSans-CondMedium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-stretch: condensed;
 }
 
 @font-face {
-    font-family: 'Default Sans';
-    src: url('DefaultSans-BlackItalic.woff2') format('woff2'),
-         url('DefaultSans-BlackItalic.woff') format('woff'),
-         url('DefaultSans-BlackItalic.ttf') format('truetype');
-    font-weight: 900;
-    font-style: italic;
+  font-family: 'Def Sans';
+  src: url('DefSans-MediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-CondMediumItalic.woff2') format('woff2');
+  font-weight: 500;
+  font-style: italic;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-CondSemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-SemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-CondSemiBoldItalic.woff2') format('woff2');
+  font-weight: 600;
+  font-style: italic;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-Bold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-CondBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-BoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-CondBoldItalic.woff2') format('woff2');
+  font-weight: 700;
+  font-style: italic;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-ExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-CondExtraBold.woff2') format('woff2');
+  font-weight: 800;
+  font-style: normal;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-ExtraBoldItalic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-CondExtraBoldItalic.woff2') format('woff2');
+  font-weight: 800;
+  font-style: italic;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-Black.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-CondBlack.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+  font-stretch: condensed;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-BlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Def Sans';
+  src: url('DefSans-CondBlackItalic.woff2') format('woff2');
+  font-weight: 900;
+  font-style: italic;
+  font-stretch: condensed;
 }
 
 /******************************************************************************

@@ -595,10 +595,17 @@ const otherLicensedFonts = [
 		collections: [MONOSPACE_COLLECTION],
 	},
 	{
-		name: 'Default Sans',
+		name: 'Def Sans',
 		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
 		italics: true,
-		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION],
+		stretches: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK].reduce((acc, weight) => {
+			acc[weight] = {
+				values: ['condensed'],
+				italics: true,
+			};
+			return acc;
+		}, {}),
+		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION, VARIABLE_COLLECTION],
 	},
 	{
 		name: 'Greycliff CF',
