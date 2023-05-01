@@ -663,6 +663,18 @@ const otherLicensedFonts = [
 		italics: false,
 		collections: [DISPLAY_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
+	{
+		name: 'Mint Grotesk',
+		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
+		italics: true,
+		collections: [SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
+	},
+	{
+		name: 'Mint Grotesk Display',
+		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
+		italics: true,
+		collections: [DISPLAY_COLLECTION, SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
+	},
 ].map(font => ({
 	...font,
 	collections: [...(font.collections ?? []), LICENSED_COLLECTION],
