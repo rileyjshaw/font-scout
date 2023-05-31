@@ -88,6 +88,11 @@ const STARRED_FONTS = [
 	'Cousine',
 	'IBM Plex Mono',
 	'Redacted Script',
+	'EB Garamond',
+	'Instrument Sans',
+	'Instrument Serif',
+	'Inter',
+	'Inter Tight',
 ];
 
 // Include fonts from scraped sources.
