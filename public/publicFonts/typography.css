@@ -12,6 +12,40 @@
 
 /******************************************************************************
  *
+ * Apfel Grotezk font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Apfel Grotezk';
+	src: url('ApfelGrotezk-Regular.woff2') format('woff2'),
+	     url('ApfelGrotezk-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Apfel Grotezk';
+	src: url('ApfelGrotezk-Fett.woff2') format('woff2'),
+	     url('ApfelGrotezk-Fett.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+/******************************************************************************
+ *
+ * Apfel Grotezk Brukt font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Apfel Grotezk Brukt';
+	src: url('ApfelGrotezk-Brukt.woff2') format('woff2'),
+	     url('ApfelGrotezk-Brukt.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+/******************************************************************************
+ *
  * AUTHENTIC Sans font family.
  *
  *****************************************************************************/

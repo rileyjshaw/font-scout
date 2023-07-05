@@ -364,6 +364,18 @@ const djrFontOfTheMonth = [
 
 const freeOpenFonts = [
 	{
+		name: 'Apfel Grotezk',
+		weights: [REGULAR, BOLD],
+		italics: false,
+		collections: [SANS_SERIF_COLLECTION],
+	},
+	{
+		name: 'Apfel Grotezk Brukt',
+		weights: [REGULAR],
+		italics: false,
+		collections: [DISPLAY_COLLECTION],
+	},
+	{
 		name: 'AUTHENTIC Sans',
 		weights: [LIGHT, REGULAR, BOLD, BLACK],
 		italics: false,
