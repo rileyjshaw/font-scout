@@ -14,9 +14,3 @@
 - Improve filtering. For instance, I should be able to
 - Improve variable font support.
 - Add a stylistic alternatives popup like this site has: https://www.paratype.com/fonts/pt/pt-root-ui/light
-
-- Favourite fonts. Add a button where you can set something as a fave, then print out the list?
-  - Space Grotesk
-  - Space Mono
-  - Jetbrains Mono
-  - Montserrat

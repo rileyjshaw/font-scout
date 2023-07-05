@@ -78,21 +78,25 @@ const allFonts = [...googleFonts, ...localFonts]
 
 // TODO: Save these to a DB or something.
 const STARRED_FONTS = [
-	'Lexend',
 	'Atkinson Hyperlegible',
-	'Ovo',
-	'Trispace',
-	'Epilogue',
-	'Spectral',
-	'Manrope',
 	'Cousine',
-	'IBM Plex Mono',
-	'Redacted Script',
 	'EB Garamond',
+	'Epilogue',
+	'IBM Plex Mono',
 	'Instrument Sans',
 	'Instrument Serif',
-	'Inter',
 	'Inter Tight',
+	'Inter',
+	'Jetbrains Mono',
+	'Lexend',
+	'Manrope',
+	'Montserrat',
+	'Ovo',
+	'Redacted Script',
+	'Space Grotesk',
+	'Space Mono',
+	'Spectral',
+	'Trispace',
 ];
 
 // Include fonts from scraped sources.
