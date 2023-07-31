@@ -13,4 +13,5 @@
 
 - Improve filtering. For instance, I should be able to
 - Improve variable font support.
+- Add a check for multiplexed (https://fonts.google.com/knowledge/glossary/multiplexed_duplexed_uniwidth) fonts
 - Add a stylistic alternatives popup like this site has: https://www.paratype.com/fonts/pt/pt-root-ui/light
