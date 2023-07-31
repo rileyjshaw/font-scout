@@ -432,7 +432,7 @@ const freeOpenFonts = [
 	},
 	{
 		name: 'Golos UI',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
 		italics: false,
 		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION, MULTIPLEXED_COLLECTION],
 	},
@@ -512,7 +512,7 @@ const freeOpenFonts = [
 	},
 	{
 		name: 'PT Root UI',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
 		italics: false,
 		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION, MULTIPLEXED_COLLECTION],
 	},

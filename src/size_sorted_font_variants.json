@@ -12873,19 +12873,19 @@
 		{
 			"name": "PT Root UI",
 			"variant": {
-				"name": "PT Root UI Thin",
+				"name": "PT Root UI Light",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 300
 			}
 		},
 		{
 			"name": "Golos UI",
 			"variant": {
-				"name": "Golos UI Thin",
+				"name": "Golos UI",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 400
 			}
 		},
 		{
@@ -28047,10 +28047,10 @@
 		{
 			"name": "PT Root UI",
 			"variant": {
-				"name": "PT Root UI Thin",
+				"name": "PT Root UI Light",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 300
 			}
 		},
 		{
@@ -28096,10 +28096,10 @@
 		{
 			"name": "Golos UI",
 			"variant": {
-				"name": "Golos UI Thin",
+				"name": "Golos UI",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 400
 			}
 		},
 		{
@@ -42565,10 +42565,10 @@
 		{
 			"name": "PT Root UI",
 			"variant": {
-				"name": "PT Root UI Thin",
+				"name": "PT Root UI Light",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 300
 			}
 		},
 		{
@@ -42654,10 +42654,10 @@
 		{
 			"name": "Golos UI",
 			"variant": {
-				"name": "Golos UI Thin",
+				"name": "Golos UI",
 				"stretch": "normal",
 				"style": "normal",
-				"weight": 100
+				"weight": 400
 			}
 		},
 		{
