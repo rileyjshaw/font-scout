@@ -37,13 +37,31 @@ async function measureFonts(__dirname) {
 					case 'POST':
 						switch (req.url) {
 							case '/results':
-								let body = '';
+								let resultsBody = '';
 								req.on('data', function (data) {
-									body += data;
+									resultsBody += data;
 								});
 								req.on('end', async function () {
-									const result = JSON.parse(body);
+									const result = JSON.parse(resultsBody);
 									fs.writeFileSync('./src/size_sorted_font_variants.json', stableStringify(result, { space: '\t' }));
+									res.writeHead(200);
+									res.end();
+								});
+								break;
+							case '/multiplexed':
+								let multiplexedBody = '';
+								req.on('data', function (data) {
+									multiplexedBody += data;
+								});
+								req.on('end', async function () {
+									const result = JSON.parse(multiplexedBody);
+									fs.writeFileSync('./src/multiplexed_fonts.json', stableStringify(result, { space: '\t' }));
+									res.writeHead(200);
+									res.end();
+								});
+								break;
+							case '/done':
+								req.on('end', async function () {
 									res.writeHead(200);
 									res.end();
 									await browser.close();

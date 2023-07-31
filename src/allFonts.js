@@ -13,6 +13,7 @@ import {
 	UI_FONTS_COLLECTION,
 	UNCATEGORIZED_COLLECTION,
 } from './constants.js';
+import multiplexedFonts from './multiplexed_fonts.json'; // assert { type: 'json' };
 
 const allFonts = [...googleFonts, ...localFonts]
 	.map(font => ({
@@ -101,12 +102,11 @@ const STARRED_FONTS = [
 
 // Include fonts from scraped sources.
 const UI_FONTS = ['Inter'];
-const MULTIPLEXED_FONTS = ['Roboto Flex'];
 
 allFonts.forEach(font => {
 	if (STARRED_FONTS.includes(font.name)) font.collections.push(STARRED_COLLECTION);
 	if (UI_FONTS.includes(font.name)) font.collections.push(UI_FONTS_COLLECTION);
-	if (MULTIPLEXED_FONTS.includes(font.name)) font.collections.push(MULTIPLEXED_COLLECTION);
+	if (multiplexedFonts.includes(font.name)) font.collections.push(MULTIPLEXED_COLLECTION);
 	if (font.variants.length === 1) font.collections.push(SINGLE_VARIANT_COLLECTION);
 	else {
 		if (font.source.weights.length > 1) font.collections.push(MULTIPLE_WEIGHTS_COLLECTION);
