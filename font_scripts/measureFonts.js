@@ -9,7 +9,7 @@ async function measureFonts(__dirname) {
 	return new Promise((resolve, reject) => {
 		let browser;
 		http
-			.createServer(function (req, res) {
+			.createServer(async function (req, res) {
 				switch (req.method) {
 					case 'GET':
 						switch (req.url) {
@@ -61,12 +61,10 @@ async function measureFonts(__dirname) {
 								});
 								break;
 							case '/done':
-								req.on('end', async function () {
-									res.writeHead(200);
-									res.end();
-									await browser.close();
-									resolve();
-								});
+								res.writeHead(200);
+								res.end();
+								await browser.close();
+								resolve();
 								break;
 							default:
 								res.writeHead(404);
