@@ -78,29 +78,36 @@ export const STRETCH_ORDER = [
 ];
 
 export const defaultPreviews = [
-	['David\nBowie', 108, 'center'],
-	['The thundering machines sputtered…\n…then stopped.', 22, 'right'],
-	['I can’t believe the way we flow!', 32, 'center'],
-	['Right to Repair', 72, 'center'],
-	['1968', 96, 'center'],
-	['Handgloves', 60, 'center'],
-	['Högertrafikomläggningen', 60, 'center'],
-	['minimom & the difficult waffles', 44, 'center'],
+	['David\nBowie', 108, 'center', 'grid'],
+	['The thundering machines sputtered…\n…then stopped.', 22, 'right', 'grid'],
+	['I can’t believe the way we flow!', 32, 'center', 'grid'],
+	['Right to Repair', 72, 'center', 'grid'],
+	['1968', 96, 'center', 'grid'],
+	['Handgloves', 60, 'center', 'grid'],
+	['Högertrafikomläggningen', 60, 'center', 'grid'],
+	['minimom & the difficult waffles', 44, 'center', 'grid'],
 	// H&Co Lowercase 1.0
 	[
 		'Angel Adept Blind Bodice Clique Coast Dunce Docile Enact Eosin Furlong Focal Gnome Gondola Human Hoist Inlet Iodine Justin Jocose Knoll Koala Linden Loads Milliner Modal Number Nodule Onset Oddball Pneumo Poncho Quanta Qophs Rhone Roman Snout Sodium Tundra Tocsin Uncle Udder Vulcan Vocal Whale Woman Xmas Xenon Yunnan Young Zloty Zodiac. Angel angel adept for the nuance loads of the arena cocoa and quaalude. Blind blind bodice for the submit oboe of the club snob and abbot. Clique clique coast for the pouch loco of the franc assoc and accede. Dunce dunce docile for the loudness mastodon of the loud statehood and huddle. Enact enact eosin for the quench coed of the pique canoe and bleep. Furlong furlong focal for the genuflect profound of the motif aloof and offers. Gnome gnome gondola for the impugn logos of the unplug analog and smuggle. Human human hoist for the buddhist alcohol of the riyadh caliph and bathhouse. Inlet inlet iodine for the quince champion of the ennui scampi and shiite. Justin justin jocose for the djibouti sojourn of the oranj raj and hajjis. Knoll knoll koala for the banknote lookout of the dybbuk outlook and trekked. Linden linden loads for the ulna monolog of the consul menthol and shallot. Milliner milliner modal for the alumna solomon of the album custom and summon. Number number nodule for the unmade economic of the shotgun bison and tunnel. Onset onset oddball for the abandon podium of the antiquo tempo and moonlit. Pneumo pneumo poncho for the dauphin opossum of the holdup bishop and supplies. Quanta quanta qophs for the inquest sheqel of the cinq coq and suqqu. Rhone rhone roman for the burnt porous of the lemur clamor and carrot. Snout snout sodium for the ensnare bosom of the genus pathos and missing. Tundra tundra tocsin for the nutmeg isotope of the peasant ingot and ottoman. Uncle uncle udder for the dunes cloud of the hindu thou and continuum. Vulcan vulcan vocal for the alluvial ovoid of the yugoslav chekhov and revved. Whale whale woman for the meanwhile blowout of the forepaw meadow and glowworm. Xmas xmas xenon for the bauxite doxology of the tableaux equinox and exxon. Yunnan yunnan young for the dynamo coyote of the obloquy employ and sayyid. Zloty zloty zodiac for the gizmo ozone of the franz laissez and buzzing.',
 		12,
 		'left',
+		'list',
 	],
 	// Pangrams
-	['William said that everything about his jacket was in quite good condition except for the zipper.', 18, 'left'],
-	['The July sun caused a fragment of black pine wax to ooze on the velvet quilt.', 24, 'left'],
-	['Pack my box with five dozen liquor jugs.', 28, 'left'],
-	['We have just quoted on nine dozen boxes of gray lamp wicks.', 26, 'left'],
+	[
+		'William said that everything about his jacket was in quite good condition except for the zipper.',
+		18,
+		'left',
+		'list',
+	],
+	['The July sun caused a fragment of black pine wax to ooze on the velvet quilt.', 24, 'left', 'list'],
+	['Pack my box with five dozen liquor jugs.', 28, 'left', 'grid'],
+	['We have just quoted on nine dozen boxes of gray lamp wicks.', 26, 'left', 'grid'],
 	[
 		'aabacadaeafagahaiajakalamanaoapaqarasatauavawaxayaza\nbabbcbdbebfbgbhbibjbkblbmbnbobpbqbrbsbtbubvbwbxbybzb\ncacbccdcecfcgchcicjckclcmcncocpcqcrcsctcucvcwcxcyczc\ndadbdcddedfdgdhdidjdkdldmdndodpdqdrdsdtdudvdwdxdydzd\neaebecedeefegeheiejekelemeneoepeqereseteuevewexeyeze\nfafbfcfdfeffgfhfifjfkflfmfnfofpfqfrfsftfufvfwfxfyfzf\ngagbgcgdgegfgghgigjgkglgmgngogpgqgrgsgtgugvgwgxgygzg\nhahbhchdhehfhghhihjhkhlhmhnhohphqhrhshthuhvhwhxhyhzh\niaibicidieifigihiijikiliminioipiqirisitiuiviwixiyizi\njajbjcjdjejfjgjhjijjkjljmjnjojpjqjrjsjtjujvjwjxjyjzj\nkakbkckdkekfkgkhkikjkklkmknkokpkqkrksktkukvkwkxkykzk\nlalblcldlelflglhliljlkllmlnlolplqlrlsltlulvlwlxlylzl\nmambmcmdmemfmgmhmimjmkmlmmnmompmqmrmsmtmumvmwmxmymzm\nnanbncndnenfngnhninjnknlnmnnonpnqnrnsntnunvnwnxnynzn\noaobocodoeofogohoiojokolomonoopoqorosotouovowoxoyozo\npapbpcpdpepfpgphpipjpkplpmpnpoppqprpsptpupvpwpxpypzp\nqaqbqcqdqeqfqgqhqiqjqkqlqmqnqoqpqqrqsqtquqvqwqxqyqzq\nrarbrcrdrerfrgrhrirjrkrlrmrnrorprqrrsrtrurvrwrxryrzr\nsasbscsdsesfsgshsisjskslsmsnsospsqsrsstsusvswsxsyszs\ntatbtctdtetftgthtitjtktltmtntotptqtrtsttutvtwtxtytzt\nuaubucudueufuguhuiujukulumunuoupuqurusutuuvuwuxuyuzu\nvavbvcvdvevfvgvhvivjvkvlvmvnvovpvqvrvsvtvuvvwvxvyvzv\nwawbwcwdwewfwgwhwiwjwkwlwmwnwowpwqwrwswtwuwvwwxwywzw\nxaxbxcxdxexfxgxhxixjxkxlxmxnxoxpxqxrxsxtxuxvxwxxyxzx\nyaybycydyeyfygyhyiyjykylymynyoypyqyrysytyuyvywyxyyzy\nzazbzczdzezfzgzhzizjzkzlzmznzozpzqzrzsztzuzvzwzxzyzz',
 		8,
 		'center',
+		'list',
 	],
 ];
 

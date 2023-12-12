@@ -61,7 +61,7 @@ const StyledWrapper = styled.div`
 `;
 
 function App() {
-	const [[defaultPreviewContent, defaultFontSize, defaultAlignment], setDefaultPreview] = useState(
+	const [[defaultPreviewContent, defaultFontSize, defaultAlignment, defaultListMode], setDefaultPreview] = useState(
 		() => defaultPreviews[Math.floor(Math.random() * defaultPreviews.length)]
 	);
 	const [comparisonMode, setComparisonMode] = useState(false);
@@ -77,6 +77,7 @@ function App() {
 	const [includeMethod, setIncludeMethod] = useState('ALL');
 	const [excludedCollections, setExcludedCollections] = useState(() => []);
 	const [excludeMethod, setExcludeMethod] = useState('ANY');
+	const [listMode, setListMode] = useState(defaultListMode);
 	const [isShowingTitles, setIsShowingTitles] = useState(false);
 
 	const loadFont = useCallback(
@@ -146,6 +147,8 @@ function App() {
 								setExcludedCollections={setExcludedCollections}
 								excludeMethod={excludeMethod}
 								setExcludeMethod={setExcludeMethod}
+								listMode={listMode}
+								setListMode={setListMode}
 								isShowingTitles={isShowingTitles}
 								setIsShowingTitles={setIsShowingTitles}
 								allFontsWithIndex={allFontsWithIndex}

@@ -103,6 +103,8 @@ function ExplorationMode({
 	setExcludedCollections,
 	excludeMethod,
 	setExcludeMethod,
+	listMode,
+	setListMode,
 	isShowingTitles,
 	setIsShowingTitles,
 	allFontsWithIndex,
@@ -127,7 +129,7 @@ function ExplorationMode({
 		[includedCollections, includeMethod, excludedCollections, excludeMethod, allFontsWithIndex]
 	);
 
-	const columnCount = Math.max(Math.floor(gridWidth / MIN_COLUMN_WIDTH), 1);
+	const columnCount = listMode === 'grid' ? Math.max(Math.floor(gridWidth / MIN_COLUMN_WIDTH), 1) : 1;
 
 	const [visibleFonts, bigFonts] = useMemo(() => {
 		const [selectedFonts, unselectedFonts] = activeFonts
@@ -444,6 +446,25 @@ function ExplorationMode({
 								}}
 							/>
 						</div>
+						<fieldset className="list-mode-options">
+							Display&nbsp;
+							<input
+								type="radio"
+								value="list"
+								checked={listMode === 'list'}
+								onChange={e => {
+									setListMode(e.target.value);
+								}}
+							/>
+							<input
+								type="radio"
+								value="grid"
+								checked={listMode === 'grid'}
+								onChange={e => {
+									setListMode(e.target.value);
+								}}
+							/>
+						</fieldset>
 					</div>
 				</div>
 			</div>
