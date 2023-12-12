@@ -80,6 +80,7 @@ const allFonts = [...googleFonts, ...localFonts]
 // TODO: Save these to a DB or something.
 const STARRED_FONTS = [
 	'Atkinson Hyperlegible',
+	'Azeret Mono',
 	'Cousine',
 	'EB Garamond',
 	'Epilogue',
