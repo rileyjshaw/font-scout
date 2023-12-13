@@ -15,6 +15,7 @@ import {
 	DISPLAY_COLLECTION,
 	DJR_FONT_OF_THE_MONTH_COLLECTION,
 	FREE_OPEN_COLLECTION,
+	FRESH_FONTS_COLLECTION,
 	FUTURE_FONTS_COLLECTION,
 	LICENSED_COLLECTION,
 	LOCAL_FONTS_COLLECTION,
@@ -595,6 +596,18 @@ const systemFonts = [
 
 const otherLicensedFonts = [
 	{
+		name: 'Acorn',
+		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
+		italics: false,
+		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
+		name: 'ALT Riviera',
+		weights: [EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD],
+		italics: false,
+		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
 		name: 'AUTHENTIC Classified',
 		weights: [REGULAR],
 		italics: false,
@@ -617,7 +630,13 @@ const otherLicensedFonts = [
 			};
 			return acc;
 		}, {}),
-		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION, VARIABLE_COLLECTION],
+		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
+		name: 'Gestura Text',
+		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, SEMI_BOLD, BOLD, BLACK],
+		italics: true,
+		collections: [SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'Greycliff CF',
@@ -658,6 +677,18 @@ const otherLicensedFonts = [
 		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FUTURE_FONTS_COLLECTION, MULTIPLEXED_COLLECTION],
 	},
 	{
+		name: 'Hop Rounded',
+		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, BLACK, ULTRA_BLACK],
+		italics: false,
+		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
+		name: 'Hop Standard',
+		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, BLACK, ULTRA_BLACK],
+		italics: false,
+		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
 		name: 'Integral CF',
 		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
 		italics: true,
@@ -667,7 +698,7 @@ const otherLicensedFonts = [
 		name: 'Loretta',
 		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD],
 		italics: true,
-		collections: [SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
+		collections: [SERIF_COLLECTION, FRESH_FONTS_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
 		name: 'Macabre',
@@ -679,13 +710,41 @@ const otherLicensedFonts = [
 		name: 'Mint Grotesk',
 		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
 		italics: true,
-		collections: [SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
+		collections: [SERIF_COLLECTION, FRESH_FONTS_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
 		name: 'Mint Grotesk Display',
 		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
 		italics: true,
-		collections: [DISPLAY_COLLECTION, SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
+		collections: [DISPLAY_COLLECTION, SERIF_COLLECTION, FRESH_FONTS_COLLECTION, FUTURE_FONTS_COLLECTION],
+	},
+	{
+		name: 'Nicephore',
+		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
+		italics: false,
+		collections: [DISPLAY_COLLECTION, SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
+		name: 'Peridot PE',
+		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
+		italics: true,
+		stretches: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK].reduce(
+			(acc, weight) => {
+				acc[weight] = {
+					values: ['expanded', 'semi-expanded', 'semi-condensed', 'condensed', 'extra-condensed'],
+					italics: true,
+				};
+				return acc;
+			},
+			{}
+		),
+		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
+		name: 'Protest Grotesk',
+		weights: [THIN, LIGHT, REGULAR, BOOK, MEDIUM, BOLD, ULTRA_BOLD, BLACK],
+		italics: true,
+		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 ].map(font => ({
 	...font,

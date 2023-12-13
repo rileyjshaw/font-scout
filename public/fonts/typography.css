@@ -12,6 +12,113 @@
 
 /******************************************************************************
  *
+ * Acorn font family.
+ *
+ *****************************************************************************/
+@font-face: {
+	font-family: 'Acorn';
+	src: url('Acorn-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face: {
+	font-family: 'Acorn';
+	src: url('Acorn-ExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face: {
+	font-family: 'Acorn';
+	src: url('Acorn-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face: {
+	font-family: 'Acorn';
+	src: url('Acorn-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face: {
+	font-family: 'Acorn';
+	src: url('Acorn-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face: {
+	font-family: 'Acorn';
+	src: url('Acorn-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face: {
+	font-family: 'Acorn';
+	src: url('Acorn-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+/******************************************************************************
+ *
+ * ALT Riviera font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'ALT Riviera';
+	src: url('ALTRiviera-Extralight.woff2') format('woff2'),
+	     url('ALTRiviera-Extralight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ALT Riviera';
+	src: url('ALTRiviera-Light.woff2') format('woff2'),
+	     url('ALTRiviera-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ALT Riviera';
+	src: url('ALTRiviera-Regular.woff2') format('woff2'),
+	     url('ALTRiviera-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ALT Riviera';
+	src: url('ALTRiviera-Medium.woff2') format('woff2'),
+	     url('ALTRiviera-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ALT Riviera';
+	src: url('ALTRiviera-Bold.woff2') format('woff2'),
+	     url('ALTRiviera-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'ALT Riviera';
+	src: url('ALTRiviera-Extrabold.woff2') format('woff2'),
+	     url('ALTRiviera-Extrabold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+
+/******************************************************************************
+ *
  * Archia font family.
  *
  *****************************************************************************/
@@ -1511,6 +1618,123 @@
 
 /******************************************************************************
  *
+ * Gestura Text font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-Thin.woff2') format('woff2'),
+	     url('GesturaText-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-ThinItalic.woff2') format('woff2'),
+	     url('GesturaText-ThinItalic.woff') format('woff');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-Extralight.woff2') format('woff2'),
+	     url('GesturaText-Extralight.woff') format('woff');
+	font-weight: 200;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-ExtralightItalic.woff2') format('woff2'),
+	     url('GesturaText-ExtralightItalic.woff') format('woff');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-Light.woff2') format('woff2'),
+	     url('GesturaText-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-LightItalic.woff2') format('woff2'),
+	     url('GesturaText-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-Regular.woff2') format('woff2'),
+	     url('GesturaText-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-RegularItalic.woff2') format('woff2'),
+	     url('GesturaText-RegularItalic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-Semibold.woff2') format('woff2'),
+	     url('GesturaText-Semibold.woff') format('woff');
+	font-weight: 600;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-SemiboldItalic.woff2') format('woff2'),
+	     url('GesturaText-SemiboldItalic.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-Bold.woff2') format('woff2'),
+	     url('GesturaText-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-BoldItalic.woff2') format('woff2'),
+	     url('GesturaText-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-Black.woff2') format('woff2'),
+	     url('GesturaText-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Gestura Text';
+	src: url('GesturaText-BlackItalic.woff2') format('woff2'),
+	     url('GesturaText-BlackItalic.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Greycliff CF font family.
  *
  *****************************************************************************/
@@ -2031,6 +2255,114 @@
 
 /******************************************************************************
  *
+ * Hop Rounded font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Hop Rounded';
+	src: url('Hop Rounded Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Hop Rounded';
+	src: url('Hop Rounded Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Hop Rounded';
+	src: url('Hop Rounded Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Hop Rounded';
+	src: url('Hop Rounded Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Hop Rounded';
+	src: url('Hop Rounded Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Hop Rounded';
+	src: url('Hop Rounded Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Hop Rounded';
+	src: url('Hop Rounded Ultra.woff2') format('woff2');
+	font-weight: 950;
+	font-style: regular;
+}
+
+/******************************************************************************
+ *
+ * Hop Standard font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Hop Standard';
+	src: url('Hop Standard Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Hop Standard';
+	src: url('Hop Standard Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Hop Standard';
+	src: url('Hop Standard Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Hop Standard';
+	src: url('Hop Standard Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Hop Standard';
+	src: url('Hop Standard Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Hop Standard';
+	src: url('Hop Standard Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: regular;
+}
+
+@font-face {
+	font-family: 'Hop Standard';
+	src: url('Hop Standard Ultra.woff2') format('woff2');
+	font-weight: 950;
+	font-style: regular;
+}
+
+/******************************************************************************
+ *
  * Integral CF font family.
  *
  *****************************************************************************/
@@ -2442,7 +2774,7 @@
  * Megazoid font family.
  *
  *****************************************************************************/
- @font-face {
+@font-face {
 	font-family: 'Megazoid';
 	src: url('Megazoid-Regular.woff2') format('woff2'),
 	     url('Megazoid-Regular.woff') format('woff');
@@ -2771,6 +3103,59 @@
 
 /******************************************************************************
  *
+ * Nicephore font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Nicephore';
+	src: url('Nicephore-Thin.woff2') format('woff2'),
+	     url('Nicephore-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nicephore';
+	src: url('Nicephore-Light.woff2') format('woff2'),
+	     url('Nicephore-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nicephore';
+	src: url('Nicephore-Regular.woff2') format('woff2'),
+	     url('Nicephore-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nicephore';
+	src: url('Nicephore-Medium.woff2') format('woff2'),
+	     url('Nicephore-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nicephore';
+	src: url('Nicephore-Bold.woff2') format('woff2'),
+	     url('Nicephore-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Nicephore';
+	src: url('Nicephore-Heavy.woff2') format('woff2'),
+	     url('Nicephore-Heavy.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+
+/******************************************************************************
+ *
  * Nickel font family.
  *
  *****************************************************************************/
@@ -3060,6 +3445,1224 @@
 	     url('parking-regular-webfont.ttf') format('truetype');
 	font-weight: 400;
 	font-style: normal;
+}
+
+/******************************************************************************
+ *
+ * Peridot PE font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-Thin.woff2') format('woff2'),
+	     url('PeridotPE-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ThinItalic.woff2') format('woff2'),
+	     url('PeridotPE-ThinItalic.woff') format('woff');
+	font-weight: 100;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtraLight.woff2') format('woff2'),
+	     url('PeridotPE-ExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtraLightItalic.woff2') format('woff2'),
+	     url('PeridotPE-ExtraLightItalic.woff') format('woff');
+	font-weight: 200;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-Light.woff2') format('woff2'),
+	     url('PeridotPE-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-LightItalic.woff2') format('woff2'),
+	     url('PeridotPE-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-Regular.woff2') format('woff2'),
+	     url('PeridotPE-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-Italic.woff2') format('woff2'),
+	     url('PeridotPE-Italic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-Medium.woff2') format('woff2'),
+	     url('PeridotPE-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-MediumItalic.woff2') format('woff2'),
+	     url('PeridotPE-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-SemiBold.woff2') format('woff2'),
+	     url('PeridotPE-SemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-SemiBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-SemiBoldItalic.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-Bold.woff2') format('woff2'),
+	     url('PeridotPE-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-BoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtraBold.woff2') format('woff2'),
+	     url('PeridotPE-ExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtraBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-ExtraBoldItalic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-Black.woff2') format('woff2'),
+	     url('PeridotPE-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-BlackItalic.woff2') format('woff2'),
+	     url('PeridotPE-BlackItalic.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-Heavy.woff2') format('woff2'),
+	     url('PeridotPE-Heavy.woff') format('woff');
+	font-weight: 950;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-HeavyItalic.woff2') format('woff2'),
+	     url('PeridotPE-HeavyItalic.woff') format('woff');
+	font-weight: 950;
+	font-style: italic;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedThin.woff2') format('woff2'),
+	     url('PeridotPE-CompressedThin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedThinItalic.woff2') format('woff2'),
+	     url('PeridotPE-CompressedThinItalic.woff') format('woff');
+	font-weight: 100;
+	font-style: italic;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedExtraLight.woff2') format('woff2'),
+	     url('PeridotPE-CompressedExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedExtraLightItalic.woff2') format('woff2'),
+	     url('PeridotPE-CompressedExtraLightItalic.woff') format('woff');
+	font-weight: 200;
+	font-style: italic;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedLight.woff2') format('woff2'),
+	     url('PeridotPE-CompressedLight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedLightItalic.woff2') format('woff2'),
+	     url('PeridotPE-CompressedLightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedRegular.woff2') format('woff2'),
+	     url('PeridotPE-CompressedRegular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedItalic.woff2') format('woff2'),
+	     url('PeridotPE-CompressedItalic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedMedium.woff2') format('woff2'),
+	     url('PeridotPE-CompressedMedium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedMediumItalic.woff2') format('woff2'),
+	     url('PeridotPE-CompressedMediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedSemiBold.woff2') format('woff2'),
+	     url('PeridotPE-CompressedSemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedSemiBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-CompressedSemiBoldItalic.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedBold.woff2') format('woff2'),
+	     url('PeridotPE-CompressedBold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-CompressedBoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedExtraBold.woff2') format('woff2'),
+	     url('PeridotPE-CompressedExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedExtraBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-CompressedExtraBoldItalic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedBlack.woff2') format('woff2'),
+	     url('PeridotPE-CompressedBlack.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedBlackItalic.woff2') format('woff2'),
+	     url('PeridotPE-CompressedBlackItalic.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedHeavy.woff2') format('woff2'),
+	     url('PeridotPE-CompressedHeavy.woff') format('woff');
+	font-weight: 950;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CompressedHeavyItalic.woff2') format('woff2'),
+	     url('PeridotPE-CompressedHeavyItalic.woff') format('woff');
+	font-weight: 950;
+	font-style: italic;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedThin.woff2') format('woff2'),
+	     url('PeridotPE-CondensedThin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedThinItalic.woff2') format('woff2'),
+	     url('PeridotPE-CondensedThinItalic.woff') format('woff');
+	font-weight: 100;
+	font-style: italic;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedExtraLight.woff2') format('woff2'),
+	     url('PeridotPE-CondensedExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedExtraLightItalic.woff2') format('woff2'),
+	     url('PeridotPE-CondensedExtraLightItalic.woff') format('woff');
+	font-weight: 200;
+	font-style: italic;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedLight.woff2') format('woff2'),
+	     url('PeridotPE-CondensedLight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedLightItalic.woff2') format('woff2'),
+	     url('PeridotPE-CondensedLightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedRegular.woff2') format('woff2'),
+	     url('PeridotPE-CondensedRegular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedItalic.woff2') format('woff2'),
+	     url('PeridotPE-CondensedItalic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedMedium.woff2') format('woff2'),
+	     url('PeridotPE-CondensedMedium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedMediumItalic.woff2') format('woff2'),
+	     url('PeridotPE-CondensedMediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedSemiBold.woff2') format('woff2'),
+	     url('PeridotPE-CondensedSemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedSemiBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-CondensedSemiBoldItalic.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedBold.woff2') format('woff2'),
+	     url('PeridotPE-CondensedBold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-CondensedBoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedExtraBold.woff2') format('woff2'),
+	     url('PeridotPE-CondensedExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedExtraBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-CondensedExtraBoldItalic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedBlack.woff2') format('woff2'),
+	     url('PeridotPE-CondensedBlack.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedBlackItalic.woff2') format('woff2'),
+	     url('PeridotPE-CondensedBlackItalic.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedHeavy.woff2') format('woff2'),
+	     url('PeridotPE-CondensedHeavy.woff') format('woff');
+	font-weight: 950;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-CondensedHeavyItalic.woff2') format('woff2'),
+	     url('PeridotPE-CondensedHeavyItalic.woff') format('woff');
+	font-weight: 950;
+	font-style: italic;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowThin.woff2') format('woff2'),
+	     url('PeridotPE-NarrowThin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowThinItalic.woff2') format('woff2'),
+	     url('PeridotPE-NarrowThinItalic.woff') format('woff');
+	font-weight: 100;
+	font-style: italic;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowExtraLight.woff2') format('woff2'),
+	     url('PeridotPE-NarrowExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowExtraLightItalic.woff2') format('woff2'),
+	     url('PeridotPE-NarrowExtraLightItalic.woff') format('woff');
+	font-weight: 200;
+	font-style: italic;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowLight.woff2') format('woff2'),
+	     url('PeridotPE-NarrowLight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowLightItalic.woff2') format('woff2'),
+	     url('PeridotPE-NarrowLightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowRegular.woff2') format('woff2'),
+	     url('PeridotPE-NarrowRegular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowItalic.woff2') format('woff2'),
+	     url('PeridotPE-NarrowItalic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowMedium.woff2') format('woff2'),
+	     url('PeridotPE-NarrowMedium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowMediumItalic.woff2') format('woff2'),
+	     url('PeridotPE-NarrowMediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowSemiBold.woff2') format('woff2'),
+	     url('PeridotPE-NarrowSemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowSemiBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-NarrowSemiBoldItalic.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowBold.woff2') format('woff2'),
+	     url('PeridotPE-NarrowBold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-NarrowBoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowExtraBold.woff2') format('woff2'),
+	     url('PeridotPE-NarrowExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowExtraBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-NarrowExtraBoldItalic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowBlack.woff2') format('woff2'),
+	     url('PeridotPE-NarrowBlack.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowBlackItalic.woff2') format('woff2'),
+	     url('PeridotPE-NarrowBlackItalic.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowHeavy.woff2') format('woff2'),
+	     url('PeridotPE-NarrowHeavy.woff') format('woff');
+	font-weight: 950;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-NarrowHeavyItalic.woff2') format('woff2'),
+	     url('PeridotPE-NarrowHeavyItalic.woff') format('woff');
+	font-weight: 950;
+	font-style: italic;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideThin.woff2') format('woff2'),
+	     url('PeridotPE-WideThin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideThinItalic.woff') format('woff2'),
+	     url('PeridotPE-WideThinItalic.wof') format('woff');
+	font-weight: italic;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideExtraLight.woff2') format('woff2'),
+	     url('PeridotPE-WideExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideExtraLightItalic.woff2') format('woff2'),
+	     url('PeridotPE-WideExtraLightItalic.woff') format('woff');
+	font-weight: 200;
+	font-style: italic;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideLight.woff2') format('woff2'),
+	     url('PeridotPE-WideLight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideLightItalic.woff2') format('woff2'),
+	     url('PeridotPE-WideLightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideRegular.woff2') format('woff2'),
+	     url('PeridotPE-WideRegular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideItalic.woff2') format('woff2'),
+	     url('PeridotPE-WideItalic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideMedium.woff2') format('woff2'),
+	     url('PeridotPE-WideMedium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideMediumItalic.woff2') format('woff2'),
+	     url('PeridotPE-WideMediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideSemiBold.woff2') format('woff2'),
+	     url('PeridotPE-WideSemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideSemiBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-WideSemiBoldItalic.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideBold.woff2') format('woff2'),
+	     url('PeridotPE-WideBold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-WideBoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideExtraBold.woff2') format('woff2'),
+	     url('PeridotPE-WideExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideExtraBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-WideExtraBoldItalic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideBlack.woff2') format('woff2'),
+	     url('PeridotPE-WideBlack.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideBlackItalic.woff2') format('woff2'),
+	     url('PeridotPE-WideBlackItalic.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideHeavy.woff2') format('woff2'),
+	     url('PeridotPE-WideHeavy.woff') format('woff');
+	font-weight: 950;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-WideHeavyItalic.woff2') format('woff2'),
+	     url('PeridotPE-WideHeavyItalic.woff') format('woff');
+	font-weight: 950;
+	font-style: italic;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedThin.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedThin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedThinItalic.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedThinItalic.woff') format('woff');
+	font-weight: 100;
+	font-style: italic;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedExtraLight.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedExtraLight.woff') format('woff');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedExtraLightItalic.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedExtraLightItalic.woff') format('woff');
+	font-weight: 200;
+	font-style: italic;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedLight.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedLight.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedLightItalic.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedLightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedRegular.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedRegular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedItalic.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedItalic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedMedium.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedMedium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedMediumItalic.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedMediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedSemiBold.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedSemiBold.woff') format('woff');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedSemiBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedSemiBoldItalic.woff') format('woff');
+	font-weight: 600;
+	font-style: italic;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedBold.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedBold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedBoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedExtraBold.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedExtraBold.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedExtraBoldItalic.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedExtraBoldItalic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedBlack.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedBlack.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedBlackItalic.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedBlackItalic.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedHeavy.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedHeavy.woff') format('woff');
+	font-weight: 950;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Peridot PE';
+	src: url('PeridotPE-ExtendedHeavyItalic.woff2') format('woff2'),
+	     url('PeridotPE-ExtendedHeavyItalic.woff') format('woff');
+	font-weight: 950;
+	font-style: italic;
+	font-stretch: expanded;
+}
+
+/******************************************************************************
+ *
+ * Protest Grotesk font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-40-Thin.woff2') format('woff2'),
+	     url('ProtestGrotesk-40-Thin.woff') format('woff');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-40-ThinItalic.woff2') format('woff2'),
+	     url('ProtestGrotesk-40-ThinItalic.woff') format('woff');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-70-Light.woff2') format('woff2'),
+	     url('ProtestGrotesk-70-Light.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-70-LightItalic.woff2') format('woff2'),
+	     url('ProtestGrotesk-70-LightItalic.woff') format('woff');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-100-Regular.woff2') format('woff2'),
+	     url('ProtestGrotesk-100-Regular.woff') format('woff');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-100-RegularItalic.woff2') format('woff2'),
+	     url('ProtestGrotesk-100-RegularItalic.woff') format('woff');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-130-Book.woff2') format('woff2'),
+	     url('ProtestGrotesk-130-Book.woff') format('woff');
+	font-weight: 450;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-130-BookItalic.woff2') format('woff2'),
+	     url('ProtestGrotesk-130-BookItalic.woff') format('woff');
+	font-weight: 450;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-160-Medium.woff2') format('woff2'),
+	     url('ProtestGrotesk-160-Medium.woff') format('woff');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-160-MediumItalic.woff2') format('woff2'),
+	     url('ProtestGrotesk-160-MediumItalic.woff') format('woff');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-190-Bold.woff2') format('woff2'),
+	     url('ProtestGrotesk-190-Bold.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-190-BoldItalic.woff2') format('woff2'),
+	     url('ProtestGrotesk-190-BoldItalic.woff') format('woff');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-220-Heavy.woff2') format('woff2'),
+	     url('ProtestGrotesk-220-Heavy.woff') format('woff');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-220-HeavyItalic.woff2') format('woff2'),
+	     url('ProtestGrotesk-220-HeavyItalic.woff') format('woff');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-250-Black.woff2') format('woff2'),
+	     url('ProtestGrotesk-250-Black.woff') format('woff');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Protest Grotesk';
+	src: url('ProtestGrotesk-250-BlackItalic.woff2') format('woff2'),
+	     url('ProtestGrotesk-250-BlackItalic.woff') format('woff');
+	font-weight: 900;
+	font-style: italic;
 }
 
 /******************************************************************************
