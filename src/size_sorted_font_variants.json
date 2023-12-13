@@ -2811,6 +2811,15 @@
 			}
 		},
 		{
+			"name": "Protest Grotesk",
+			"variant": {
+				"name": "Protest Grotesk Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Gajraj+One:ital,wght@0,400&display=block",
 			"name": "Gajraj One",
 			"variant": {
@@ -2992,9 +3001,9 @@
 			"href": "https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=block",
 			"name": "Gentium Book Plus",
 			"variant": {
-				"name": "Gentium Book Plus",
+				"name": "Gentium Book Plus italic",
 				"stretch": "normal",
-				"style": "normal",
+				"style": "italic",
 				"weight": 400
 			}
 		},
@@ -3879,6 +3888,15 @@
 			}
 		},
 		{
+			"name": "Acorn",
+			"variant": {
+				"name": "Acorn Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital,wght@0,400;1,400&display=block",
 			"name": "Sorts Mill Goudy",
 			"variant": {
@@ -4186,6 +4204,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"name": "Nicephore",
+			"variant": {
+				"name": "Nicephore Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
 			}
 		},
 		{
@@ -10544,6 +10571,15 @@
 			}
 		},
 		{
+			"name": "Peridot PE",
+			"variant": {
+				"name": "Peridot PE Thin extra-condensed",
+				"stretch": "extra-condensed",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Foldit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Foldit",
 			"variant": {
@@ -14131,6 +14167,15 @@
 			}
 		},
 		{
+			"name": "Gestura Text",
+			"variant": {
+				"name": "Gestura Text Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Aboreto:ital,wght@0,400&display=block",
 			"name": "Aboreto",
 			"variant": {
@@ -16006,6 +16051,15 @@
 			}
 		},
 		{
+			"name": "ALT Riviera",
+			"variant": {
+				"name": "ALT Riviera Extra light",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 200
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Special+Elite:ital,wght@0,400&display=block",
 			"name": "Special Elite",
 			"variant": {
@@ -16112,6 +16166,24 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"name": "Hop Standard",
+			"variant": {
+				"name": "Hop Standard Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
+			"name": "Hop Rounded",
+			"variant": {
+				"name": "Hop Rounded Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
 			}
 		},
 		{
@@ -17449,6 +17521,15 @@
 			}
 		},
 		{
+			"name": "Nicephore",
+			"variant": {
+				"name": "Nicephore Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:ital,wght@0,400;0,500;0,600;0,700&display=block",
 			"name": "Noto Serif Khojki",
 			"variant": {
@@ -17844,6 +17925,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"name": "Peridot PE",
+			"variant": {
+				"name": "Peridot PE Ultra black expanded",
+				"stretch": "expanded",
+				"style": "normal",
+				"weight": 950
 			}
 		},
 		{
@@ -18473,6 +18563,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"name": "Protest Grotesk",
+			"variant": {
+				"name": "Protest Grotesk Black italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 900
 			}
 		},
 		{
@@ -22254,6 +22353,15 @@
 			}
 		},
 		{
+			"name": "Acorn",
+			"variant": {
+				"name": "Acorn Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"name": "Calendas Plus",
 			"variant": {
 				"name": "Calendas Plus Bold",
@@ -23456,6 +23564,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 700
+			}
+		},
+		{
+			"name": "Gestura Text",
+			"variant": {
+				"name": "Gestura Text Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
 			}
 		},
 		{
@@ -30175,6 +30292,15 @@
 			}
 		},
 		{
+			"name": "ALT Riviera",
+			"variant": {
+				"name": "ALT Riviera Ultra bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 800
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Baumans:ital,wght@0,400&display=block",
 			"name": "Baumans",
 			"variant": {
@@ -33282,6 +33408,24 @@
 			}
 		},
 		{
+			"name": "Hop Standard",
+			"variant": {
+				"name": "Hop Standard Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
+			}
+		},
+		{
+			"name": "Hop Rounded",
+			"variant": {
+				"name": "Hop Rounded Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Road+Rage:ital,wght@0,400&display=block",
 			"name": "Road Rage",
 			"variant": {
@@ -33648,6 +33792,15 @@
 			}
 		},
 		{
+			"name": "Peridot PE",
+			"variant": {
+				"name": "Peridot PE Ultra black expanded",
+				"stretch": "expanded",
+				"style": "normal",
+				"weight": 950
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Lexend+Peta:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
 			"name": "Lexend Peta",
 			"variant": {
@@ -33885,6 +34038,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 900
+			}
+		},
+		{
+			"name": "Nicephore",
+			"variant": {
+				"name": "Nicephore Thin",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 100
 			}
 		},
 		{
@@ -35026,6 +35188,15 @@
 			}
 		},
 		{
+			"name": "Protest Grotesk",
+			"variant": {
+				"name": "Protest Grotesk Black italic",
+				"stretch": "normal",
+				"style": "italic",
+				"weight": 900
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Tienne:ital,wght@0,400;0,700;0,900&display=block",
 			"name": "Tienne",
 			"variant": {
@@ -35161,6 +35332,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 100
+			}
+		},
+		{
+			"name": "Gestura Text",
+			"variant": {
+				"name": "Gestura Text Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
 			}
 		},
 		{
@@ -39138,6 +39318,15 @@
 			}
 		},
 		{
+			"name": "ALT Riviera",
+			"variant": {
+				"name": "ALT Riviera Ultra bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 800
+			}
+		},
+		{
 			"name": "Wotfard",
 			"variant": {
 				"name": "Wotfard Bold italic",
@@ -43104,6 +43293,15 @@
 			}
 		},
 		{
+			"name": "Acorn",
+			"variant": {
+				"name": "Acorn Bold",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 700
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Uchen:ital,wght@0,400&display=block",
 			"name": "Uchen",
 			"variant": {
@@ -44564,6 +44762,16 @@
 			}
 		},
 		{
+			"href": "https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=block",
+			"name": "Gentium Book Plus",
+			"variant": {
+				"name": "Gentium Book Plus",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 400
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
 			"name": "Asap",
 			"variant": {
@@ -44641,16 +44849,6 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
-			}
-		},
-		{
-			"href": "https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=block",
-			"name": "Gentium Book Plus",
-			"variant": {
-				"name": "Gentium Book Plus Bold",
-				"stretch": "normal",
-				"style": "normal",
-				"weight": 700
 			}
 		},
 		{
@@ -49864,6 +50062,15 @@
 			}
 		},
 		{
+			"name": "Hop Standard",
+			"variant": {
+				"name": "Hop Standard Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
+			}
+		},
+		{
 			"href": "https://fonts.googleapis.com/css2?family=Estonia:ital,wght@0,400&display=block",
 			"name": "Estonia",
 			"variant": {
@@ -49871,6 +50078,15 @@
 				"stretch": "normal",
 				"style": "normal",
 				"weight": 400
+			}
+		},
+		{
+			"name": "Hop Rounded",
+			"variant": {
+				"name": "Hop Rounded Black",
+				"stretch": "normal",
+				"style": "normal",
+				"weight": 900
 			}
 		},
 		{
