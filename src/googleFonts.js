@@ -85,6 +85,11 @@ const AWWWARDS_BEST_GOOGLE_FONTS = [
 	'Open Sans',
 ];
 
+const IGNORED_FONTS = [
+	'Martian Mono', // The local version includes various stretches.
+	'Victor Mono', // The local version includes obliques.
+];
+
 const GOOGLE_FONTS_SHORTLIST = [...TYPEWOLF_BEST_GOOGLE_FONTS, ...AWWWARDS_BEST_GOOGLE_FONTS]
 	.sort((a, b) => a.localeCompare(b))
 	.filter((name, i, arr) => arr[i - 1] !== name);
@@ -97,34 +102,36 @@ const FONT_CATEGORY_COLLECTIONS = {
 	serif: SERIF_COLLECTION,
 };
 
-const googleFonts = responseJson.items.map(font => {
-	const [weights, italics] = font.variants.reduce(
-		(acc, variant) => {
-			const [_weights, _italics] = acc;
-			if (variant === 'regular') _weights.push(WEIGHT_SYMBOLS[400]);
-			else if (variant === 'italic') _italics.push(WEIGHT_SYMBOLS[400]);
-			else {
-				const [, _weight, _italic] = variant.match(/([0-9]+)(italic)?/);
-				(_italic ? _italics : _weights).push(WEIGHT_SYMBOLS[_weight]);
-			}
-			return acc;
-		},
-		[[], []]
-	);
-	return {
-		name: font.family,
-		weights,
-		italics,
-		collections: [
-			GOOGLE_FONTS_COLLECTION,
-			FREE_OPEN_COLLECTION,
-			FONT_CATEGORY_COLLECTIONS[font.category],
-			...(GOOGLE_FONTS_SHORTLIST.includes(font.family) ? [GOOGLE_FONTS_SHORTLIST_COLLECTION] : []),
-		],
-		href: `https://fonts.googleapis.com/css2?family=${font.family.replace(/ /g, '+')}:ital,wght@${[weights, italics]
-			.flatMap((arr, i) => arr.map(symbol => `${i},${WEIGHTS[symbol].value}`))
-			.join(';')}&display=block`,
-	};
-});
+const googleFonts = responseJson.items
+	.filter(font => !IGNORED_FONTS.includes(font.family))
+	.map(font => {
+		const [weights, italics] = font.variants.reduce(
+			(acc, variant) => {
+				const [_weights, _italics] = acc;
+				if (variant === 'regular') _weights.push(WEIGHT_SYMBOLS[400]);
+				else if (variant === 'italic') _italics.push(WEIGHT_SYMBOLS[400]);
+				else {
+					const [, _weight, _italic] = variant.match(/([0-9]+)(italic)?/);
+					(_italic ? _italics : _weights).push(WEIGHT_SYMBOLS[_weight]);
+				}
+				return acc;
+			},
+			[[], []]
+		);
+		return {
+			name: font.family,
+			weights,
+			italics,
+			collections: [
+				GOOGLE_FONTS_COLLECTION,
+				FREE_OPEN_COLLECTION,
+				FONT_CATEGORY_COLLECTIONS[font.category],
+				...(GOOGLE_FONTS_SHORTLIST.includes(font.family) ? [GOOGLE_FONTS_SHORTLIST_COLLECTION] : []),
+			],
+			href: `https://fonts.googleapis.com/css2?family=${font.family.replace(/ /g, '+')}:ital,wght@${[weights, italics]
+				.flatMap((arr, i) => arr.map(symbol => `${i},${WEIGHTS[symbol].value}`))
+				.join(';')}&display=block`,
+		};
+	});
 
 export default googleFonts;
