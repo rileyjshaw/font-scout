@@ -26,31 +26,44 @@ const allFonts = [...googleFonts, ...localFonts]
 				style: 'normal',
 				stretch: 'normal',
 			})),
-			...(typeof font.italics === 'boolean' ? (font.italics ? font.weights : []) : font.italics).map(weight => ({
+			...(Array.isArray(font.italics) ? font.italics : font.italics ? font.weights : []).map(weight => ({
 				weight: WEIGHTS[weight].value,
 				name: [WEIGHTS[weight].name, 'italic'].filter(x => x).join(' '),
 				style: 'italic',
 				stretch: 'normal',
 			})),
+			...(Array.isArray(font.obliques) ? font.obliques : font.obliques ? font.weights : []).map(weight => ({
+				weight: WEIGHTS[weight].value,
+				name: [WEIGHTS[weight].name, 'oblique'].filter(x => x).join(' '),
+				style: 'oblique',
+				stretch: 'normal',
+			})),
 			...(font.stretches
 				? Reflect.ownKeys(font.stretches).flatMap(weight => {
-						const { values, italics } = font.stretches[weight];
+						const { values, italics, obliques } = font.stretches[weight];
 						const variants = values.map(stretch => ({
 							weight: WEIGHTS[weight].value,
 							name: [WEIGHTS[weight].name, stretch].filter(x => x).join(' '),
 							style: 'normal',
 							stretch,
 						}));
-						return italics
-							? [
-									...variants,
-									...variants.map(variant => ({
+						return [
+							...variants,
+							...(italics
+								? variants.map(variant => ({
 										...variant,
-										name: [WEIGHTS[weight].name, italics ? 'italic' : '', variant.stretch].filter(x => x).join(' '),
+										name: [WEIGHTS[weight].name, 'italic', variant.stretch].filter(x => x).join(' '),
 										style: 'italic',
-									})),
-							  ]
-							: variants;
+								  }))
+								: []),
+							...(obliques
+								? variants.map(variant => ({
+										...variant,
+										name: [WEIGHTS[weight].name, 'oblique', variant.stretch].filter(x => x).join(' '),
+										style: 'oblique',
+								  }))
+								: []),
+						];
 				  })
 				: []),
 		]
@@ -64,9 +77,9 @@ const allFonts = [...googleFonts, ...localFonts]
 			})
 			.sort(
 				(a, b) =>
-					a.weight -
-					b.weight +
-					((a.style === 'italic') - (b.style === 'italic')) * 10 +
+					(a.weight - b.weight) * 1000 +
+					((a.style === 'italic') - (b.style === 'italic')) * 100 +
+					((a.style === 'oblique') - (b.style === 'oblique')) * 10 +
 					(STRETCH_ORDER.indexOf(a.stretch) - STRETCH_ORDER.indexOf(b.stretch))
 			),
 		show: true,
@@ -81,6 +94,7 @@ const allFonts = [...googleFonts, ...localFonts]
 const STARRED_FONTS = [
 	'Atkinson Hyperlegible',
 	'Azeret Mono',
+	'Cartograph CF',
 	'Cousine',
 	'EB Garamond',
 	'Epilogue',
@@ -99,6 +113,7 @@ const STARRED_FONTS = [
 	'Space Mono',
 	'Spectral',
 	'Trispace',
+	'Victor Mono',
 ];
 
 // Include fonts from scraped sources.
@@ -111,7 +126,7 @@ allFonts.forEach(font => {
 	if (font.variants.length === 1) font.collections.push(SINGLE_VARIANT_COLLECTION);
 	else {
 		if (font.source.weights.length > 1) font.collections.push(MULTIPLE_WEIGHTS_COLLECTION);
-		if (font.source.italics) font.collections.push(MULTIPLE_STYLES_COLLECTION);
+		if (font.source.italics || font.source.obliques) font.collections.push(MULTIPLE_STYLES_COLLECTION);
 	}
 	if (font.collections.length === 0) font.collections.push(UNCATEGORIZED_COLLECTION);
 	font.collections.push(ALL_FONTS_COLLECTION);

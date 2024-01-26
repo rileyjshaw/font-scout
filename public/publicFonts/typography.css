@@ -1745,3 +1745,155 @@
 	font-weight: 700;
 	font-style: normal;
 }
+
+/******************************************************************************
+ *
+ * Victor Mono font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-ThinItalic.woff2') format('woff2');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-ThinOblique.woff2') format('woff2');
+	font-weight: 100;
+	font-style: oblique;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-ExtraLight.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-ExtraLightItalic.woff2') format('woff2');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-ExtraLightOblique.woff2') format('woff2');
+	font-weight: 200;
+	font-style: oblique;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-LightItalic.woff2') format('woff2');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-LightOblique.woff2') format('woff2');
+	font-weight: 300;
+	font-style: oblique;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-Oblique.woff2') format('woff2');
+	font-weight: 400;
+	font-style: oblique;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-MediumItalic.woff2') format('woff2');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-MediumOblique.woff2') format('woff2');
+	font-weight: 500;
+	font-style: oblique;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-SemiBoldItalic.woff2') format('woff2');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-SemiBoldOblique.woff2') format('woff2');
+	font-weight: 600;
+	font-style: oblique;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-BoldItalic.woff2') format('woff2');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Victor Mono';
+	src: url('VictorMono-BoldOblique.woff2') format('woff2');
+	font-weight: 700;
+	font-style: oblique;
+}
