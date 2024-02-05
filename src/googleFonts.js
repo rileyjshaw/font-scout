@@ -9,6 +9,7 @@ import {
 	MONOSPACE_COLLECTION,
 	SANS_SERIF_COLLECTION,
 	SERIF_COLLECTION,
+	VARIABLE_COLLECTION,
 } from './constants.js';
 import responseJson from './google_fonts_raw.json'; // assert { type: 'json' };
 
@@ -107,12 +108,12 @@ const googleFonts = responseJson.items
 	.map(font => {
 		const [weights, italics] = font.variants.reduce(
 			(acc, variant) => {
-				const [_weights, _italics] = acc;
-				if (variant === 'regular') _weights.push(WEIGHT_SYMBOLS[400]);
-				else if (variant === 'italic') _italics.push(WEIGHT_SYMBOLS[400]);
+				const [weights, italics] = acc;
+				if (variant === 'regular') weights.push(WEIGHT_SYMBOLS[400]);
+				else if (variant === 'italic') italics.push(WEIGHT_SYMBOLS[400]);
 				else {
-					const [, _weight, _italic] = variant.match(/([0-9]+)(italic)?/);
-					(_italic ? _italics : _weights).push(WEIGHT_SYMBOLS[_weight]);
+					const [, weight, isItalic] = variant.match(/([0-9]+)(italic)?/);
+					(isItalic ? italics : weights).push(WEIGHT_SYMBOLS[weight]);
 				}
 				return acc;
 			},
@@ -126,6 +127,7 @@ const googleFonts = responseJson.items
 				GOOGLE_FONTS_COLLECTION,
 				FREE_OPEN_COLLECTION,
 				FONT_CATEGORY_COLLECTIONS[font.category],
+				...(font.axes ? [VARIABLE_COLLECTION] : []),
 				...(GOOGLE_FONTS_SHORTLIST.includes(font.family) ? [GOOGLE_FONTS_SHORTLIST_COLLECTION] : []),
 			],
 			href: `https://fonts.googleapis.com/css2?family=${font.family.replace(/ /g, '+')}:ital,wght@${[weights, italics]
