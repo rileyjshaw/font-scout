@@ -109,6 +109,7 @@ const STARRED_FONTS = [
 	'Montserrat',
 	'Ovo',
 	'Redacted Script',
+	'Roboto Flex',
 	'Space Grotesk',
 	'Space Mono',
 	'Spectral',
