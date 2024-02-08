@@ -2355,6 +2355,137 @@
 
 /******************************************************************************
  *
+ * McQueen font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-XLight.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-XLightItalic.woff2') format('woff2');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-LightItalic.woff2') format('woff2');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-MediumItalic.woff2') format('woff2');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-SemiBoldItalic.woff2') format('woff2');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-BoldItalic.woff2') format('woff2');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-XBold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-XBoldItalic.woff2') format('woff2');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-BlackItalic.woff2') format('woff2');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-XBlack.woff2') format('woff2');
+	font-weight: 950;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'McQueen';
+	src: url('McQueen-XBlackItalic.woff2') format('woff2');
+	font-weight: 950;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Megazoid font family.
  *
  *****************************************************************************/

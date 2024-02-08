@@ -659,6 +659,12 @@ const otherLicensedFonts = [
 		collections: [DISPLAY_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
+		name: 'McQueen',
+		weights: [EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
+		italics: true,
+		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
 		name: 'Mint Grotesk',
 		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
 		italics: true,
