@@ -92,8 +92,10 @@ const allFonts = [...googleFonts, ...localFonts]
 
 // TODO: Save these to a DB or something.
 const STARRED_FONTS = [
+	'Anton',
 	'Atkinson Hyperlegible',
 	'Azeret Mono',
+	'Bricolage',
 	'Cartograph CF',
 	'Cousine',
 	'EB Garamond',
@@ -101,14 +103,17 @@ const STARRED_FONTS = [
 	'IBM Plex Mono',
 	'Instrument Sans',
 	'Instrument Serif',
+	'Instrument',
 	'Inter Tight',
 	'Inter',
 	'Jetbrains Mono',
 	'Lexend',
 	'Manrope',
+	'McQueen',
 	'Montserrat',
 	'Ovo',
 	'Redacted Script',
+	'Rethink',
 	'Roboto Flex',
 	'Space Grotesk',
 	'Space Mono',
