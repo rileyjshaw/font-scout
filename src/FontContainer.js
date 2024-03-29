@@ -52,22 +52,6 @@ const FontContainer = React.memo(function FontContainer({
 		<li ref={ref} className="font-container" style={style}>
 			{showSettings && (
 				<div className="font-settings">
-					<input
-						className="show-font-toggle"
-						type="checkbox"
-						checked={font.show}
-						onChange={e => onChangeShowToggle(e.target.checked, font)}
-						id={`show-font-toggle-${font.name.toLowerCase().replace(/[ _]/g, '-')}`}
-					/>
-					<label htmlFor={`show-font-toggle-${font.name.toLowerCase().replace(/[ _]/g, '-')}`} />
-					<input
-						className="marked-font-toggle"
-						type="checkbox"
-						checked={font.marked}
-						onChange={e => onChangeMarkedToggle(e.target.checked, font)}
-						id={`marked-font-toggle-${font.name.toLowerCase().replace(/[ _]/g, '-')}`}
-					/>
-					<label htmlFor={`marked-font-toggle-${font.name.toLowerCase().replace(/[ _]/g, '-')}`} />
 					<Select
 						value={variantOptions[font.activeVariant]}
 						options={variantOptions}
@@ -98,6 +82,24 @@ const FontContainer = React.memo(function FontContainer({
 						step={0.05}
 						onChange={e => onChangeSizeOffset(e.target.value, font)}
 					/>
+					<div className="font-actions">
+						<input
+							className="show-font-toggle"
+							type="checkbox"
+							checked={font.show}
+							onChange={e => onChangeShowToggle(e.target.checked, font)}
+							id={`show-font-toggle-${font.name.toLowerCase().replace(/[ _]/g, '-')}`}
+						/>
+						<label htmlFor={`show-font-toggle-${font.name.toLowerCase().replace(/[ _]/g, '-')}`} />
+						<input
+							className="marked-font-toggle"
+							type="checkbox"
+							checked={font.marked}
+							onChange={e => onChangeMarkedToggle(e.target.checked, font)}
+							id={`marked-font-toggle-${font.name.toLowerCase().replace(/[ _]/g, '-')}`}
+						/>
+						<label htmlFor={`marked-font-toggle-${font.name.toLowerCase().replace(/[ _]/g, '-')}`} />
+					</div>
 				</div>
 			)}
 			{!showSettings && isHovering && (

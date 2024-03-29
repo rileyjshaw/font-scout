@@ -13,13 +13,17 @@
 
 .select-font-variant {
 	flex-grow: 1;
+}
+
+.font-actions {
+	display: flex;
 	margin-left: 12px;
 }
 
 .font-hover-settings {
 	position: absolute;
-	top: 11;
-	right: 0;
+	right: 12px;
+	top: 12px;
 }
 
 .font-preview-wrapper {
