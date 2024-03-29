@@ -111,6 +111,7 @@ const STARRED_FONTS = [
 	'Manrope',
 	'McQueen',
 	'Montserrat',
+	'Newsreader',
 	'Ovo',
 	'Redacted Script',
 	'Rethink',
