@@ -1,3 +1,18 @@
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+}
+
+button {
+	all: unset;
+	cursor: pointer;
+}
+
 .global-settings {
 	border-bottom: 1px solid hsl(0, 0%, 80%);
 	box-shadow: 0 -2px 4px hsl(0, 0%, 20%);
@@ -43,6 +58,7 @@
 
 label,
 fieldset,
+legend,
 .details,
 .font-title {
 	font-size: 0.5rem;
@@ -120,6 +136,20 @@ input[type='number'] {
 	border: 0;
 	display: flex;
 	padding: 0;
+}
+
+:is(.alignment-options, .list-mode-options) legend {
+	margin-bottom: 4px;
+}
+
+:is(.alignment-options, .list-mode-options) label {
+	cursor: pointer;
+	display: grid;
+	font-size: 22px;
+}
+
+label > * {
+	grid-area: 1 / 1;
 }
 
 .list-mode-options {
@@ -218,18 +248,10 @@ input[type='number'] {
 	width: 14px;
 }
 
-.config-mode-toggle + label {
+.config-mode-toggle {
 	position: absolute;
 	top: 6px;
-	right: 0;
-}
-
-.config-mode-toggle + label:before {
-	border-color: #ffdc00;
-}
-
-.config-mode-toggle + label:after {
-	background: #ffdc00;
+	right: 6px;
 }
 
 .show-font-toggle + label:before {
@@ -246,4 +268,12 @@ input[type='number'] {
 
 .marked-font-toggle + label:after {
 	background: #2ecc40;
+}
+
+.radio-icon {
+	padding: 2px;
+}
+
+.radio-icon.selected {
+	background: #ffdc00;
 }

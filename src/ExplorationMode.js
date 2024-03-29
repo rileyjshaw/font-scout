@@ -3,6 +3,15 @@ import Select from 'react-select';
 import { FixedSizeGrid as Grid, areEqual } from 'react-window';
 import useResizeObserver from '@react-hook/resize-observer';
 import styled from 'styled-components';
+import {
+	LuChevronUp,
+	LuChevronDown,
+	LuAlignLeft,
+	LuAlignCenter,
+	LuAlignRight,
+	LuRectangleVertical,
+	LuColumns,
+} from 'react-icons/lu';
 
 import FontContainer, { FontPreview } from './FontContainer.js';
 import { COLLECTION_GROUPS, LOCAL_FONTS_COLLECTION, MIN_COLUMN_WIDTH } from './constants.js';
@@ -311,14 +320,9 @@ function ExplorationMode({
 						</button>
 					</div>
 				)}
-				<input
-					className="config-mode-toggle"
-					type="checkbox"
-					checked={configMode}
-					onChange={e => setConfigMode(e.target.checked)}
-					id="config-mode-toggle"
-				/>
-				<label htmlFor="config-mode-toggle"></label>
+				<button className={`config-mode-toggle ${configMode ? 'active' : ''}`} onClick={() => setConfigMode(x => !x)}>
+					{configMode ? <LuChevronUp /> : <LuChevronDown />}
+				</button>
 				<div className="global-settings-rows">
 					<div className="global-settings-row">
 						<label>
@@ -375,31 +379,46 @@ function ExplorationMode({
 							}}
 						/>
 						<fieldset className="alignment-options">
-							Align&nbsp;
-							<input
-								type="radio"
-								value="left"
-								checked={alignment === 'left'}
-								onChange={e => {
-									setAlignment(e.target.value);
-								}}
-							/>
-							<input
-								type="radio"
-								value="center"
-								checked={alignment === 'center'}
-								onChange={e => {
-									setAlignment(e.target.value);
-								}}
-							/>
-							<input
-								type="radio"
-								value="right"
-								checked={alignment === 'right'}
-								onChange={e => {
-									setAlignment(e.target.value);
-								}}
-							/>
+							<legend>Align</legend>
+							<label>
+								<input
+									className="visually-hidden"
+									type="radio"
+									value="left"
+									checked={alignment === 'left'}
+									onChange={e => {
+										setAlignment(e.target.value);
+									}}
+								/>
+								<LuAlignLeft className={`radio-icon ${alignment === 'left' ? 'selected' : ''}`} title="Left align" />
+							</label>
+							<label>
+								<input
+									className="visually-hidden"
+									type="radio"
+									value="center"
+									checked={alignment === 'center'}
+									onChange={e => {
+										setAlignment(e.target.value);
+									}}
+								/>
+								<LuAlignCenter
+									className={`radio-icon ${alignment === 'center' ? 'selected' : ''}`}
+									title="Center align"
+								/>
+							</label>
+							<label>
+								<input
+									className="visually-hidden"
+									type="radio"
+									value="right"
+									checked={alignment === 'right'}
+									onChange={e => {
+										setAlignment(e.target.value);
+									}}
+								/>
+								<LuAlignRight className={`radio-icon ${alignment === 'right' ? 'selected' : ''}`} title="Right align" />
+							</label>
 						</fieldset>
 					</div>
 					<div className="global-settings-row">
@@ -447,23 +466,34 @@ function ExplorationMode({
 							/>
 						</div>
 						<fieldset className="list-mode-options">
-							Display&nbsp;
-							<input
-								type="radio"
-								value="list"
-								checked={listMode === 'list'}
-								onChange={e => {
-									setListMode(e.target.value);
-								}}
-							/>
-							<input
-								type="radio"
-								value="grid"
-								checked={listMode === 'grid'}
-								onChange={e => {
-									setListMode(e.target.value);
-								}}
-							/>
+							<legend>Display</legend>
+							<label>
+								<input
+									className="visually-hidden"
+									type="radio"
+									value="list"
+									checked={listMode === 'list'}
+									onChange={e => {
+										setListMode(e.target.value);
+									}}
+								/>
+								<LuRectangleVertical
+									className={`radio-icon ${listMode === 'list' ? 'selected' : ''}`}
+									title="List view"
+								/>
+							</label>
+							<label>
+								<input
+									className="visually-hidden"
+									type="radio"
+									value="grid"
+									checked={listMode === 'grid'}
+									onChange={e => {
+										setListMode(e.target.value);
+									}}
+								/>
+								<LuColumns className={`radio-icon ${listMode === 'grid' ? 'selected' : ''}`} title="Grid view" />
+							</label>
 						</fieldset>
 					</div>
 				</div>
