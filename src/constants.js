@@ -169,7 +169,7 @@ export const COLLECTION_GROUPS = [
 			FRESH_FONTS_COLLECTION: 'Fresh Fonts',
 			FUTURE_FONTS_COLLECTION: 'Future Fonts',
 			GOOGLE_FONTS_COLLECTION: 'Google fonts',
-			LOCAL_FONTS_COLLECTION: 'Local fonts',
+			LOCAL_FONTS_COLLECTION: 'Riley’s local fonts',
 			SYSTEM_FONTS_COLLECTION: 'System fonts',
 		},
 	},
