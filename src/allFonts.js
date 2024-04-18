@@ -101,6 +101,7 @@ const STARRED_FONTS = [
 	'EB Garamond',
 	'Epilogue',
 	'IBM Plex Mono',
+	'Inclusive Sans',
 	'Instrument Sans',
 	'Instrument Serif',
 	'Instrument',
@@ -114,13 +115,14 @@ const STARRED_FONTS = [
 	'Newsreader',
 	'Ovo',
 	'Redacted Script',
-	'Rethink',
+	'Rethink Sans',
 	'Roboto Flex',
 	'Space Grotesk',
 	'Space Mono',
 	'Spectral',
 	'Trispace',
 	'Victor Mono',
+	'Warbler Text',
 ];
 
 // Include fonts from scraped sources.
