@@ -2019,6 +2019,95 @@
 
 /******************************************************************************
  *
+ * Hypertext Display font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Hypertext Display';
+	src: url('00HypertextDisplay-Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Hypertext Display';
+	src: url('00HypertextDisplay-ThinItalic.woff2') format('woff2');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Hypertext Display';
+	src: url('00HypertextDisplay-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Hypertext Display';
+	src: url('00HypertextDisplay-LightItalic.woff2') format('woff2');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Hypertext Display';
+	src: url('00HypertextDisplay-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Hypertext Display';
+	src: url('00HypertextDisplay-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Hypertext Display';
+	src: url('00HypertextDisplay-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Hypertext Display';
+	src: url('00HypertextDisplay-MediumItalic.woff2') format('woff2');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Hypertext Display';
+	src: url('00HypertextDisplay-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Hypertext Display';
+	src: url('00HypertextDisplay-BoldItalic.woff2') format('woff2');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Hypertext Display';
+	src: url('00HypertextDisplay-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Hypertext Display';
+	src: url('00HypertextDisplay-BlackItalic.woff2') format('woff2');
+	font-weight: 900;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Integral CF font family.
  *
  *****************************************************************************/

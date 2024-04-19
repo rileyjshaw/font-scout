@@ -642,6 +642,11 @@ const otherLicensedFonts = [
 		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
+		name: 'Hypertext Display',
+		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, BLACK],
+		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
 		name: 'Integral CF',
 		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
 		italics: true,
