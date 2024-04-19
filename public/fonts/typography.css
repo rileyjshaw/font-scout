@@ -1370,7 +1370,7 @@
 	font-family: 'Gestura Text';
 	src: url('GesturaText-Thin.woff2') format('woff2');
 	font-weight: 100;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
@@ -1384,7 +1384,7 @@
 	font-family: 'Gestura Text';
 	src: url('GesturaText-Extralight.woff2') format('woff2');
 	font-weight: 200;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
@@ -1398,7 +1398,7 @@
 	font-family: 'Gestura Text';
 	src: url('GesturaText-Light.woff2') format('woff2');
 	font-weight: 300;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
@@ -1412,7 +1412,7 @@
 	font-family: 'Gestura Text';
 	src: url('GesturaText-Regular.woff2') format('woff2');
 	font-weight: 400;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
@@ -1426,7 +1426,7 @@
 	font-family: 'Gestura Text';
 	src: url('GesturaText-Semibold.woff2') format('woff2');
 	font-weight: 600;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
@@ -1440,7 +1440,7 @@
 	font-family: 'Gestura Text';
 	src: url('GesturaText-Bold.woff2') format('woff2');
 	font-weight: 700;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
@@ -1454,7 +1454,7 @@
 	font-family: 'Gestura Text';
 	src: url('GesturaText-Black.woff2') format('woff2');
 	font-weight: 900;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
@@ -1604,7 +1604,7 @@
 	font-family: 'Gosh';
 	src: url('VCGosh-Bold.woff2') format('woff2');
 	font-weight: 700;
-	font-style: regular;
+	font-style: normal;
 }
 
 /******************************************************************************
@@ -1616,7 +1616,7 @@
 	font-family: 'Henrietta';
 	src: url('VCHenrietta-Light.woff2') format('woff2');
 	font-weight: 300;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
@@ -1630,7 +1630,7 @@
 	font-family: 'Henrietta';
 	src: url('VCHenriettaCondensed-Light.woff2') format('woff2');
 	font-weight: 300;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: condensed;
 }
 
@@ -1638,7 +1638,7 @@
 	font-family: 'Henrietta';
 	src: url('VCHenrietta-Regular.woff2') format('woff2');
 	font-weight: 400;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
@@ -1652,7 +1652,7 @@
 	font-family: 'Henrietta';
 	src: url('VCHenriettaCondensed-Regular.woff2') format('woff2');
 	font-weight: 400;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: condensed;
 }
 
@@ -1660,7 +1660,7 @@
 	font-family: 'Henrietta';
 	src: url('VCHenrietta-Medium.woff2') format('woff2');
 	font-weight: 500;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
@@ -1674,7 +1674,7 @@
 	font-family: 'Henrietta';
 	src: url('VCHenriettaCondensed-Medium.woff2') format('woff2');
 	font-weight: 500;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: condensed;
 }
 
@@ -1682,7 +1682,7 @@
 	font-family: 'Henrietta';
 	src: url('VCHenrietta-SemiBold.woff2') format('woff2');
 	font-weight: 600;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
@@ -1696,7 +1696,7 @@
 	font-family: 'Henrietta';
 	src: url('VCHenriettaCondensed-SemiBold.woff2') format('woff2');
 	font-weight: 600;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: condensed;
 }
 
@@ -1704,7 +1704,7 @@
 	font-family: 'Henrietta';
 	src: url('VCHenrietta-Bold.woff2') format('woff2');
 	font-weight: 700;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
@@ -1718,7 +1718,7 @@
 	font-family: 'Henrietta';
 	src: url('VCHenriettaCondensed-Bold.woff2') format('woff2');
 	font-weight: 700;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: condensed;
 }
 
@@ -1726,7 +1726,7 @@
 	font-family: 'Henrietta';
 	src: url('VCHenrietta-Black.woff2') format('woff2');
 	font-weight: 900;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
@@ -1740,7 +1740,7 @@
 	font-family: 'Henrietta';
 	src: url('VCHenriettaCondensed-Black.woff2') format('woff2');
 	font-weight: 900;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: condensed;
 }
 
@@ -1753,7 +1753,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Extra_Condensed-Regular.woff2') format('woff2');
 	font-weight: 400;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: extra-condensed;
 }
 
@@ -1761,7 +1761,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Extra_Condensed-Medium.woff2') format('woff2');
 	font-weight: 500;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: extra-condensed;
 }
 
@@ -1769,7 +1769,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Extra_Condensed-Semibold.woff2') format('woff2');
 	font-weight: 600;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: extra-condensed;
 }
 
@@ -1777,7 +1777,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Extra_Condensed-Bold.woff2') format('woff2');
 	font-weight: 700;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: extra-condensed;
 }
 
@@ -1785,7 +1785,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Extra_Condensed-Extrabold.woff2') format('woff2');
 	font-weight: 800;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: extra-condensed;
 }
 
@@ -1793,7 +1793,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Condensed-Regular.woff2') format('woff2');
 	font-weight: 400;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: condensed;
 }
 
@@ -1801,7 +1801,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Condensed-Medium.woff2') format('woff2');
 	font-weight: 500;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: condensed;
 }
 
@@ -1809,7 +1809,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Condensed-Semibold.woff2') format('woff2');
 	font-weight: 600;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: condensed;
 }
 
@@ -1817,7 +1817,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Condensed-Bold.woff2') format('woff2');
 	font-weight: 700;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: condensed;
 }
 
@@ -1825,7 +1825,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Condensed-Extrabold.woff2') format('woff2');
 	font-weight: 800;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: condensed;
 }
 
@@ -1833,7 +1833,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Narrow-Regular.woff2') format('woff2');
 	font-weight: 400;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: semi-condensed;
 }
 
@@ -1841,7 +1841,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Narrow-Medium.woff2') format('woff2');
 	font-weight: 500;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: semi-condensed;
 }
 
@@ -1849,7 +1849,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Narrow-Semibold.woff2') format('woff2');
 	font-weight: 600;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: semi-condensed;
 }
 
@@ -1857,7 +1857,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Narrow-Bold.woff2') format('woff2');
 	font-weight: 700;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: semi-condensed;
 }
 
@@ -1865,7 +1865,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2_Narrow-Extrabold.woff2') format('woff2');
 	font-weight: 800;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: semi-condensed;
 }
 
@@ -1873,7 +1873,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2-Regular.woff2') format('woff2');
 	font-weight: 400;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: normal;
 }
 
@@ -1881,7 +1881,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2-Medium.woff2') format('woff2');
 	font-weight: 500;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: normal;
 }
 
@@ -1889,7 +1889,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2-Semibold.woff2') format('woff2');
 	font-weight: 600;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: normal;
 }
 
@@ -1897,7 +1897,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2-Bold.woff2') format('woff2');
 	font-weight: 700;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: normal;
 }
 
@@ -1905,7 +1905,7 @@
 	font-family: 'HEX Franklin';
 	src: url('HEX_Franklin_v0.2-Extrabold.woff2') format('woff2');
 	font-weight: 800;
-	font-style: regular;
+	font-style: normal;
 	font-stretch: normal;
 }
 
@@ -1918,49 +1918,49 @@
 	font-family: 'Hop Rounded';
 	src: url('Hop Rounded Thin.woff2') format('woff2');
 	font-weight: 100;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Hop Rounded';
 	src: url('Hop Rounded Light.woff2') format('woff2');
 	font-weight: 300;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Hop Rounded';
 	src: url('Hop Rounded Regular.woff2') format('woff2');
 	font-weight: 400;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Hop Rounded';
 	src: url('Hop Rounded Medium.woff2') format('woff2');
 	font-weight: 500;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Hop Rounded';
 	src: url('Hop Rounded Bold.woff2') format('woff2');
 	font-weight: 700;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Hop Rounded';
 	src: url('Hop Rounded Black.woff2') format('woff2');
 	font-weight: 900;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Hop Rounded';
 	src: url('Hop Rounded Ultra.woff2') format('woff2');
 	font-weight: 950;
-	font-style: regular;
+	font-style: normal;
 }
 
 /******************************************************************************
@@ -1972,49 +1972,49 @@
 	font-family: 'Hop Standard';
 	src: url('Hop Standard Thin.woff2') format('woff2');
 	font-weight: 100;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Hop Standard';
 	src: url('Hop Standard Light.woff2') format('woff2');
 	font-weight: 300;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Hop Standard';
 	src: url('Hop Standard Regular.woff2') format('woff2');
 	font-weight: 400;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Hop Standard';
 	src: url('Hop Standard Medium.woff2') format('woff2');
 	font-weight: 500;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Hop Standard';
 	src: url('Hop Standard Bold.woff2') format('woff2');
 	font-weight: 700;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Hop Standard';
 	src: url('Hop Standard Black.woff2') format('woff2');
 	font-weight: 900;
-	font-style: regular;
+	font-style: normal;
 }
 
 @font-face {
 	font-family: 'Hop Standard';
 	src: url('Hop Standard Ultra.woff2') format('woff2');
 	font-weight: 950;
-	font-style: regular;
+	font-style: normal;
 }
 
 /******************************************************************************
