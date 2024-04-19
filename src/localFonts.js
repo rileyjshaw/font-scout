@@ -654,6 +654,11 @@ const otherLicensedFonts = [
 		collections: [SERIF_COLLECTION, FRESH_FONTS_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
+		name: 'Louche',
+		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
+		collections: [DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION, FUTURE_FONTS_COLLECTION],
+	},
+	{
 		name: 'Macabre',
 		weights: [REGULAR],
 		collections: [DISPLAY_COLLECTION, FUTURE_FONTS_COLLECTION],

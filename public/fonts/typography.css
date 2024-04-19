@@ -2343,6 +2343,46 @@
 
 /******************************************************************************
  *
+ * Louche font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Louche';
+	src: url('Louche-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Louche';
+	src: url('Louche-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Louche';
+	src: url('Louche-Semibold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Louche';
+	src: url('Louche-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Louche';
+	src: url('Louche-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+}
+
+/******************************************************************************
+ *
  * Macabre font family.
  *
  *****************************************************************************/

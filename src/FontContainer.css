@@ -7,7 +7,7 @@
 .font-settings {
 	align-items: center;
 	display: flex;
-	margin: auto;
+	margin: 0 auto 24px;
 	max-width: 720px;
 }
 
