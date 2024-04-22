@@ -126,7 +126,7 @@ const STARRED_FONTS = [
 ];
 
 // Include fonts from scraped sources.
-const UI_FONTS = ['Inter'];
+const UI_FONTS = ['DM Sans', 'Inter Tight', 'Inter', 'Plus Jakarta Sans', 'Poppins', 'Public Sans', 'Work Sans'];
 
 allFonts.forEach(font => {
 	if (STARRED_FONTS.includes(font.name)) font.collections.push(STARRED_COLLECTION);
