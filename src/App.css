@@ -159,6 +159,7 @@ label > * {
 .grid-container {
 	display: flex;
 	flex-grow: 1;
+	overflow: hidden;
 }
 
 .font-containers {
@@ -199,7 +200,7 @@ label > * {
 }
 
 .comparison-mode {
-	height: 100vh;
+	height: 100dvh;
 	width: 100vw;
 	display: flex;
 	align-items: center;
