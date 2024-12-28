@@ -20,19 +20,26 @@ const allFonts = [...googleFonts, ...localFonts]
 		name: font.name,
 		href: font.href,
 		variants: [
-			...font.weights.map(weight => ({
+			...font.regularWeights.map(weight => ({
 				weight: WEIGHTS[weight].value,
 				name: WEIGHTS[weight].name,
 				style: 'normal',
 				stretch: 'normal',
 			})),
-			...(Array.isArray(font.italics) ? font.italics : font.italics ? font.weights : []).map(weight => ({
-				weight: WEIGHTS[weight].value,
-				name: [WEIGHTS[weight].name, 'italic'].filter(x => x).join(' '),
-				style: 'italic',
-				stretch: 'normal',
-			})),
-			...(Array.isArray(font.obliques) ? font.obliques : font.obliques ? font.weights : []).map(weight => ({
+			...(Array.isArray(font.italicWeights) ? font.italicWeights : font.italicWeights ? font.regularWeights : []).map(
+				weight => ({
+					weight: WEIGHTS[weight].value,
+					name: [WEIGHTS[weight].name, 'italic'].filter(x => x).join(' '),
+					style: 'italic',
+					stretch: 'normal',
+				})
+			),
+			...(Array.isArray(font.obliqueWeights)
+				? font.obliqueWeights
+				: font.obliqueWeights
+				? font.regularWeights
+				: []
+			).map(weight => ({
 				weight: WEIGHTS[weight].value,
 				name: [WEIGHTS[weight].name, 'oblique'].filter(x => x).join(' '),
 				style: 'oblique',
@@ -40,7 +47,7 @@ const allFonts = [...googleFonts, ...localFonts]
 			})),
 			...(font.stretches
 				? Reflect.ownKeys(font.stretches).flatMap(weight => {
-						const { values, italics, obliques } = font.stretches[weight];
+						const { values, italicWeights, obliqueWeights } = font.stretches[weight];
 						const variants = values.map(stretch => ({
 							weight: WEIGHTS[weight].value,
 							name: [WEIGHTS[weight].name, stretch].filter(x => x).join(' '),
@@ -49,14 +56,14 @@ const allFonts = [...googleFonts, ...localFonts]
 						}));
 						return [
 							...variants,
-							...(italics
+							...(italicWeights
 								? variants.map(variant => ({
 										...variant,
 										name: [WEIGHTS[weight].name, 'italic', variant.stretch].filter(x => x).join(' '),
 										style: 'italic',
 								  }))
 								: []),
-							...(obliques
+							...(obliqueWeights
 								? variants.map(variant => ({
 										...variant,
 										name: [WEIGHTS[weight].name, 'oblique', variant.stretch].filter(x => x).join(' '),
@@ -134,8 +141,8 @@ allFonts.forEach(font => {
 	if (multiplexedFonts.includes(font.name)) font.collections.push(MULTIPLEXED_COLLECTION);
 	if (font.variants.length === 1) font.collections.push(SINGLE_VARIANT_COLLECTION);
 	else {
-		if (font.source.weights.length > 1) font.collections.push(MULTIPLE_WEIGHTS_COLLECTION);
-		if (font.source.italics || font.source.obliques) font.collections.push(MULTIPLE_STYLES_COLLECTION);
+		if (font.source.regularWeights.length > 1) font.collections.push(MULTIPLE_WEIGHTS_COLLECTION);
+		if (font.source.italicWeights || font.source.obliqueWeights) font.collections.push(MULTIPLE_STYLES_COLLECTION);
 	}
 	if (font.collections.length === 0) font.collections.push(UNCATEGORIZED_COLLECTION);
 	font.collections.push(ALL_FONTS_COLLECTION);

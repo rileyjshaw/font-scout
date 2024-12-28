@@ -106,14 +106,14 @@ const FONT_CATEGORY_COLLECTIONS = {
 const googleFonts = responseJson.items
 	.filter(font => !IGNORED_FONTS.includes(font.family))
 	.map(font => {
-		const [weights, italics] = font.variants.reduce(
+		const [regularWeights, italicWeights] = font.variants.reduce(
 			(acc, variant) => {
-				const [weights, italics] = acc;
-				if (variant === 'regular') weights.push(WEIGHT_SYMBOLS[400]);
-				else if (variant === 'italic') italics.push(WEIGHT_SYMBOLS[400]);
+				const [regularWeights, italicWeights] = acc;
+				if (variant === 'regular') regularWeights.push(WEIGHT_SYMBOLS[400]);
+				else if (variant === 'italic') italicWeights.push(WEIGHT_SYMBOLS[400]);
 				else {
 					const [, weight, isItalic] = variant.match(/([0-9]+)(italic)?/);
-					(isItalic ? italics : weights).push(WEIGHT_SYMBOLS[weight]);
+					(isItalic ? italicWeights : regularWeights).push(WEIGHT_SYMBOLS[weight]);
 				}
 				return acc;
 			},
@@ -121,8 +121,8 @@ const googleFonts = responseJson.items
 		);
 		return {
 			name: font.family,
-			weights,
-			italics,
+			regularWeights,
+			italicWeights,
 			collections: [
 				GOOGLE_FONTS_COLLECTION,
 				FREE_OPEN_COLLECTION,
@@ -130,7 +130,10 @@ const googleFonts = responseJson.items
 				...(font.axes ? [VARIABLE_COLLECTION] : []),
 				...(GOOGLE_FONTS_SHORTLIST.includes(font.family) ? [GOOGLE_FONTS_SHORTLIST_COLLECTION] : []),
 			],
-			href: `https://fonts.googleapis.com/css2?family=${font.family.replace(/ /g, '+')}:ital,wght@${[weights, italics]
+			href: `https://fonts.googleapis.com/css2?family=${font.family.replace(/ /g, '+')}:ital,wght@${[
+				regularWeights,
+				italicWeights,
+			]
 				.flatMap((arr, i) => arr.map(symbol => `${i},${WEIGHTS[symbol].value}`))
 				.join(';')}&display=block`,
 		};

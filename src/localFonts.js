@@ -31,83 +31,83 @@ import {
 const atipoFonts = [
 	{
 		name: 'Archia',
-		weights: [THIN, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
+		regularWeights: [THIN, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Argesta Display',
-		weights: [REGULAR],
-		italics: true,
+		regularWeights: [REGULAR],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION],
 	},
 	{
 		name: 'Argesta Hairline',
-		weights: [REGULAR],
-		italics: true,
+		regularWeights: [REGULAR],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION],
 	},
 	{
 		name: 'Argesta Headline',
-		weights: [REGULAR],
-		italics: true,
+		regularWeights: [REGULAR],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION],
 	},
 	{
 		name: 'Bariol',
-		weights: [THIN, LIGHT, REGULAR, BOLD],
-		italics: true,
+		regularWeights: [THIN, LIGHT, REGULAR, BOLD],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Bariol Serif',
-		weights: [THIN, LIGHT, REGULAR, BOLD],
-		italics: true,
+		regularWeights: [THIN, LIGHT, REGULAR, BOLD],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION],
 	},
 	{
 		name: 'Basier Circle',
-		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Basier Circle Mono',
-		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
+		italicWeights: true,
 		collections: [MONOSPACE_COLLECTION],
 	},
 	{
 		name: 'Basier Square',
-		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Basier Square Mono',
-		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
+		italicWeights: true,
 		collections: [MONOSPACE_COLLECTION],
 	},
 	{
 		name: 'Bould',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Calendas Plus',
-		weights: [REGULAR, BOLD],
-		italics: [REGULAR],
+		regularWeights: [REGULAR, BOLD],
+		italicWeights: [REGULAR],
 		collections: [SERIF_COLLECTION],
 	},
 	{
 		name: 'Cassannet Plus',
-		weights: [THIN, LIGHT, REGULAR, BOLD, BLACK, ULTRA_BLACK],
+		regularWeights: [THIN, LIGHT, REGULAR, BOLD, BLACK, ULTRA_BLACK],
 		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Chaney',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		stretches: {
 			[REGULAR]: {
 				values: ['semi-expanded', 'expanded', 'ultra-expanded'],
@@ -120,84 +120,84 @@ const atipoFonts = [
 	},
 	{
 		name: 'Geomanist',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, BOOK, MEDIUM, BOLD, BLACK, ULTRA_BLACK],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, BOOK, MEDIUM, BOLD, BLACK, ULTRA_BLACK],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Knile',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION],
 	},
 	{
 		name: 'MUSETTA',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Noway',
-		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
-		italics: true,
+		regularWeights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Noway Round',
-		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
-		italics: true,
+		regularWeights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'PARKING',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Salome',
-		weights: [REGULAR],
-		italics: true,
+		regularWeights: [REGULAR],
+		italicWeights: true,
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Salome Deco',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Salome Fine',
-		weights: [REGULAR],
-		italics: true,
+		regularWeights: [REGULAR],
+		italicWeights: true,
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Salome Stencil',
-		weights: [REGULAR],
-		italics: true,
+		regularWeights: [REGULAR],
+		italicWeights: true,
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Sawton Bauhaus',
-		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
+		regularWeights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Sawton Circular',
-		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
+		regularWeights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Sawton Industrial',
-		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
+		regularWeights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD],
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Scilla',
-		weights: [REGULAR],
-		italics: true,
+		regularWeights: [REGULAR],
+		italicWeights: true,
 		stretches: {
 			[REGULAR]: {
 				values: ['condensed'],
-				italics: true,
+				italicWeights: true,
 			},
 		},
 		aliases: {
@@ -208,26 +208,26 @@ const atipoFonts = [
 	},
 	{
 		name: 'Silka',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Silka Mono',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
+		italicWeights: true,
 		collections: [MONOSPACE_COLLECTION],
 	},
 	{
 		name: 'Strawford',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, BLACK],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, BLACK],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Wotfard',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 ].map(font => ({
@@ -238,7 +238,7 @@ const atipoFonts = [
 const djrFontOfTheMonth = [
 	{
 		name: 'Job Clarendon',
-		weights: [],
+		regularWeights: [],
 		stretches: {
 			[THIN]: {
 				values: ['condensed', 'extra-condensed', 'ultra-condensed'],
@@ -248,32 +248,32 @@ const djrFontOfTheMonth = [
 	},
 	{
 		name: 'Megazoid',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Megazoid Fill',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Megazoid Shade Left',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Megazoid Shade Right',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Nickel',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Nickel Gothic',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		stretches: {
 			[REGULAR]: {
 				values: ['semi-expanded', 'expanded'],
@@ -283,7 +283,7 @@ const djrFontOfTheMonth = [
 	},
 	{
 		name: 'Nickel Gothic Variable',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		stretches: {
 			[REGULAR]: {
 				values: ['expanded', 'ultra-expanded'],
@@ -293,23 +293,23 @@ const djrFontOfTheMonth = [
 	},
 	{
 		name: 'Nickel Open Face',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Output Sans 2 Beta',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, BOOK, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, BOOK, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, UI_FONTS_COLLECTION],
 	},
 	{
 		name: 'Pomfret',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [SERIF_COLLECTION, DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Roslindale Extended',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		stretches: {
 			[REGULAR]: {
 				values: ['expanded'],
@@ -324,13 +324,13 @@ const djrFontOfTheMonth = [
 	},
 	{
 		name: 'Roslindale Extended Variable',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION, VARIABLE_COLLECTION],
 	},
 	{
 		name: 'Warbler Text',
-		weights: [REGULAR],
-		italics: true,
+		regularWeights: [REGULAR],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION],
 	},
 ].map(font => ({
@@ -341,17 +341,17 @@ const djrFontOfTheMonth = [
 const freeOpenFonts = [
 	{
 		name: 'Apfel Grotezk',
-		weights: [REGULAR, BOLD],
+		regularWeights: [REGULAR, BOLD],
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Apfel Grotezk Brukt',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'AUTHENTIC Sans',
-		weights: [LIGHT, REGULAR, BOLD, BLACK],
+		regularWeights: [LIGHT, REGULAR, BOLD, BLACK],
 		stretches: [LIGHT, REGULAR, BOLD, BLACK].reduce((acc, weight) => {
 			acc[weight] = {
 				values: ['condensed'],
@@ -362,53 +362,53 @@ const freeOpenFonts = [
 	},
 	{
 		name: 'Bagnard',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [SERIF_COLLECTION],
 	},
 	{
 		name: 'Blackout 2AM',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Blackout Midnight',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Blackout Sunrise',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Butler',
-		weights: [EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK],
+		regularWeights: [EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK],
 		collections: [SERIF_COLLECTION],
 	},
 	{
 		name: 'Butler Stencil',
-		weights: [EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK],
+		regularWeights: [EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK],
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Cooper Hewitt',
-		weights: [THIN, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
-		italics: true,
+		regularWeights: [THIN, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Golos UI',
-		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
+		regularWeights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD],
 		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION, MULTIPLEXED_COLLECTION],
 	},
 	{
 		name: 'Junction',
-		weights: [LIGHT, REGULAR, BOLD],
+		regularWeights: [LIGHT, REGULAR, BOLD],
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'League Mono',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD],
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD],
 		stretches: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD].reduce((acc, weight) => {
 			acc[weight] = {
 				values: ['condensed', 'semi-condensed', 'semi-expanded', 'expanded'],
@@ -419,25 +419,25 @@ const freeOpenFonts = [
 	},
 	{
 		name: 'Liberation Mono',
-		weights: [REGULAR, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, BOLD],
+		italicWeights: true,
 		collections: [MONOSPACE_COLLECTION],
 	},
 	{
 		name: 'Liberation Sans',
-		weights: [REGULAR, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, BOLD],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Liberation Serif',
-		weights: [REGULAR, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, BOLD],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION],
 	},
 	{
 		name: 'Martian Mono',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD],
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD],
 		stretches: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD].reduce((acc, weight) => {
 			acc[weight] = {
 				values: ['condensed', 'semi-condensed', 'expanded'],
@@ -448,43 +448,43 @@ const freeOpenFonts = [
 	},
 	{
 		name: 'Metropolis',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Open Sauce One',
-		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
-		italics: true,
+		regularWeights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Open Sauce Sans',
-		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
-		italics: true,
+		regularWeights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Open Sauce Two',
-		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
-		italics: true,
+		regularWeights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'PT Root UI',
-		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
+		regularWeights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
 		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION, MULTIPLEXED_COLLECTION],
 	},
 	{
 		name: 'SuperDuper',
-		weights: [LIGHT, REGULAR, MEDIUM, BOLD],
+		regularWeights: [LIGHT, REGULAR, MEDIUM, BOLD],
 		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Victor Mono',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
-		italics: true,
-		obliques: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
+		italicWeights: true,
+		obliqueWeights: true,
 		collections: [MONOSPACE_COLLECTION],
 	},
 ].map(font => ({
@@ -495,60 +495,60 @@ const freeOpenFonts = [
 const systemFonts = [
 	{
 		name: 'Times New Roman',
-		weights: [REGULAR, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, BOLD],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION],
 	},
 	{
 		name: 'Georgia',
-		weights: [REGULAR, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, BOLD],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION],
 	},
 	{
 		name: 'Charter',
-		weights: [REGULAR, BOLD, BLACK],
-		italics: true,
+		regularWeights: [REGULAR, BOLD, BLACK],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION],
 	},
 	{
 		name: 'Palatino',
-		weights: [REGULAR, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, BOLD],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION],
 	},
 	{
 		name: 'Arial',
-		weights: [REGULAR, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, BOLD],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Verdana',
-		weights: [REGULAR, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, BOLD],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Tahoma',
-		weights: [REGULAR, BOLD],
+		regularWeights: [REGULAR, BOLD],
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Trebuchet MS',
-		weights: [REGULAR, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, BOLD],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Courier New',
-		weights: [REGULAR, BOLD],
-		italics: true,
+		regularWeights: [REGULAR, BOLD],
+		italicWeights: true,
 		collections: [MONOSPACE_COLLECTION],
 	},
 	{
 		name: 'Arial Black',
-		weights: [BOLD],
+		regularWeights: [BOLD],
 		collections: [DISPLAY_COLLECTION],
 	},
 ].map(font => ({
@@ -559,33 +559,33 @@ const systemFonts = [
 const otherLicensedFonts = [
 	{
 		name: 'Acorn',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD],
 		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'ALT Riviera',
-		weights: [EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD],
+		regularWeights: [EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD],
 		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'AUTHENTIC Classified',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
 		name: 'Cartograph CF',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italicWeights: true,
 		collections: [MONOSPACE_COLLECTION],
 	},
 	{
 		name: 'Def Sans',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italicWeights: true,
 		stretches: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK].reduce((acc, weight) => {
 			acc[weight] = {
 				values: ['condensed'],
-				italics: true,
+				italicWeights: true,
 			};
 			return acc;
 		}, {}),
@@ -593,25 +593,25 @@ const otherLicensedFonts = [
 	},
 	{
 		name: 'Gestura Text',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, SEMI_BOLD, BOLD, BLACK],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, SEMI_BOLD, BOLD, BLACK],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'Greycliff CF',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION],
 	},
 	{
 		name: 'Gosh',
-		weights: [BOLD],
+		regularWeights: [BOLD],
 		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
 		name: 'Henrietta',
-		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
-		italics: true,
+		regularWeights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
+		italicWeights: true,
 		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
 		stretches: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK].reduce((acc, weight) => {
 			acc[weight] = {
@@ -622,7 +622,7 @@ const otherLicensedFonts = [
 	},
 	{
 		name: 'HEX Franklin',
-		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		regularWeights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
 		stretches: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK].reduce((acc, weight) => {
 			acc[weight] = {
 				values: ['semi-condensed', 'condensed', 'extra-condensed'],
@@ -633,73 +633,73 @@ const otherLicensedFonts = [
 	},
 	{
 		name: 'Hop Rounded',
-		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, BLACK, ULTRA_BLACK],
+		regularWeights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, BLACK, ULTRA_BLACK],
 		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'Hop Standard',
-		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, BLACK, ULTRA_BLACK],
+		regularWeights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, BLACK, ULTRA_BLACK],
 		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'Hypertext Display',
-		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, BLACK],
+		regularWeights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, BLACK],
 		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'Integral CF',
-		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
-		italics: true,
+		regularWeights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
+		italicWeights: true,
 		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
 	{
 		name: 'Loretta',
-		weights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD],
-		italics: true,
+		regularWeights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION, FRESH_FONTS_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
 		name: 'Louche',
-		weights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
+		regularWeights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
 		collections: [DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
 		name: 'Macabre',
-		weights: [REGULAR],
+		regularWeights: [REGULAR],
 		collections: [DISPLAY_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
 		name: 'McQueen',
-		weights: [EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
-		italics: true,
+		regularWeights: [EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'Mint Grotesk',
-		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
-		italics: true,
+		regularWeights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
+		italicWeights: true,
 		collections: [SERIF_COLLECTION, FRESH_FONTS_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
 		name: 'Mint Grotesk Display',
-		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
-		italics: true,
+		regularWeights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
+		italicWeights: true,
 		collections: [DISPLAY_COLLECTION, SERIF_COLLECTION, FRESH_FONTS_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
 		name: 'Nicephore',
-		weights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
+		regularWeights: [THIN, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
 		collections: [DISPLAY_COLLECTION, SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'Peridot PE',
-		weights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
-		italics: true,
+		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
+		italicWeights: true,
 		stretches: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK].reduce(
 			(acc, weight) => {
 				acc[weight] = {
 					values: ['expanded', 'semi-expanded', 'semi-condensed', 'condensed', 'extra-condensed'],
-					italics: true,
+					italicWeights: true,
 				};
 				return acc;
 			},
@@ -709,8 +709,8 @@ const otherLicensedFonts = [
 	},
 	{
 		name: 'Protest Grotesk',
-		weights: [THIN, LIGHT, REGULAR, BOOK, MEDIUM, BOLD, ULTRA_BOLD, BLACK],
-		italics: true,
+		regularWeights: [THIN, LIGHT, REGULAR, BOOK, MEDIUM, BOLD, ULTRA_BOLD, BLACK],
+		italicWeights: true,
 		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 ].map(font => ({
