@@ -10,7 +10,7 @@ import {
 	LuAlignCenter,
 	LuAlignRight,
 	LuRectangleVertical,
-	LuColumns,
+	LuColumns2,
 } from 'react-icons/lu';
 
 import FontContainer, { FontPreview } from './FontContainer.js';
@@ -492,7 +492,7 @@ function ExplorationMode({
 										setListMode(e.target.value);
 									}}
 								/>
-								<LuColumns className={`radio-icon ${listMode === 'grid' ? 'selected' : ''}`} title="Grid view" />
+								<LuColumns2 className={`radio-icon ${listMode === 'grid' ? 'selected' : ''}`} title="Grid view" />
 							</label>
 						</fieldset>
 					</div>

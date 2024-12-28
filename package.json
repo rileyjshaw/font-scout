@@ -1,67 +1,69 @@
 {
-  "name": "font-previews",
-  "version": "0.1.0",
-  "private": true,
-  "type": "module",
-  "dependencies": {
-    "@react-hook/hover": "^4.0.0",
-    "@react-hook/resize-observer": "^1.2.5",
-    "dotenv": "^16.0.1",
-    "json-stable-stringify": "^1.0.1",
-    "lint-staged": "^13.0.2",
-    "prettier": "^2.7.1",
-    "puppeteer": "^14.4.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-helmet-async": "^1.3.0",
-    "react-icons": "^5.0.1",
-    "react-scripts": "5.0.1",
-    "react-select": "^5.3.2",
-    "react-use-keypress": "^1.3.1",
-    "react-window": "^1.8.7",
-    "request-promise-native": "^1.0.9",
-    "styled-components": "^5.3.5",
-    "web-vitals": "^2.1.4"
-  },
-  "scripts": {
-    "start": "react-scripts start",
-    "start-prod": "yarn build && serve -s build",
-    "build": "react-scripts build",
-    "test": "echo No tests here.",
-    "eject": "react-scripts eject",
-    "lint": "prettier --write \"{font_scripts,src}/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
-    "update-fonts": "caffeinate -i node --experimental-json-modules --no-warnings ./updateFonts.js && yarn lint"
-  },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
-  },
-  "prettier": {
-    "arrowParens": "avoid",
-    "printWidth": 120,
-    "singleQuote": true,
-    "useTabs": true
-  },
-  "lint-staged": {
-    "src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
-      "prettier --write"
-    ]
-  },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
-  "devDependencies": {
-    "request": "^2.88.2"
-  }
+	"name": "font-scout",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"dependencies": {
+		"@react-hook/hover": "^4.0.0",
+		"@react-hook/resize-observer": "^1.2.5",
+		"dotenv": "^16.4.7",
+		"json-stable-stringify": "^1.2.1",
+		"lint-staged": "^13.0.2",
+		"prettier": "^2.7.1",
+		"puppeteer": "^14.4.1",
+		"react": "^18.2.0",
+		"react-dom": "^18.2.0",
+		"react-helmet-async": "^1.3.0",
+		"react-icons": "^5.4.0",
+		"react-scripts": "5.0.1",
+		"react-select": "^5.9.0",
+		"react-use-keypress": "^1.3.1",
+		"react-window": "^1.8.11",
+		"request-promise-native": "^1.0.9",
+		"styled-components": "^5.3.5",
+		"web-vitals": "^2.1.4"
+	},
+	"scripts": {
+		"start": "react-scripts start",
+		"start-prod": "yarn build && serve -s build",
+		"build": "react-scripts build",
+		"test": "echo No tests here.",
+		"eject": "react-scripts eject",
+		"lint": "prettier --write \"{font_scripts,src}/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
+		"update-fonts": "caffeinate -i node --experimental-json-modules --no-warnings ./updateFonts.js && yarn lint"
+	},
+	"eslintConfig": {
+		"extends": [
+			"react-app",
+			"react-app/jest"
+		]
+	},
+	"prettier": {
+		"arrowParens": "avoid",
+		"printWidth": 120,
+		"singleQuote": true,
+		"useTabs": true
+	},
+	"lint-staged": {
+		"src/**/*.{js,jsx,ts,tsx,json,css,scss,md}": [
+			"prettier --write"
+		]
+	},
+	"browserslist": {
+		"production": [
+			">0.2%",
+			"not dead",
+			"not op_mini all"
+		],
+		"development": [
+			"last 1 chrome version",
+			"last 1 firefox version",
+			"last 1 safari version"
+		]
+	},
+	"devDependencies": {
+		"fontkit": "^2.0.4",
+		"request": "^2.88.2"
+	},
+	"packageManager": "yarn@1.22.22"
 }
