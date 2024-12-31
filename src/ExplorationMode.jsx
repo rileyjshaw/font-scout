@@ -307,11 +307,11 @@ function ExplorationMode({
 				</button>
 				<div className="global-settings-rows">
 					<div className="global-settings-row">
-						<label>
+						<label className="self-end">
 							Font size
 							<input type="number" min={1} value={fontSize} onChange={e => setFontSize(+e.target.value)} />
 						</label>
-						<label>
+						<label className="self-end">
 							Line height
 							<input
 								type="number"
@@ -321,7 +321,7 @@ function ExplorationMode({
 								onChange={e => setLineHeight(+e.target.value)}
 							/>
 						</label>
-						<label>
+						<label className="self-end">
 							Nearest weight
 							<input
 								className="global-font-weight-input"
@@ -364,7 +364,7 @@ function ExplorationMode({
 							<legend>Align</legend>
 							<label>
 								<input
-									className="visually-hidden"
+									className="sr-only"
 									type="radio"
 									value="left"
 									checked={alignment === 'left'}
@@ -376,7 +376,7 @@ function ExplorationMode({
 							</label>
 							<label>
 								<input
-									className="visually-hidden"
+									className="sr-only"
 									type="radio"
 									value="center"
 									checked={alignment === 'center'}
@@ -391,7 +391,7 @@ function ExplorationMode({
 							</label>
 							<label>
 								<input
-									className="visually-hidden"
+									className="sr-only"
 									type="radio"
 									value="right"
 									checked={alignment === 'right'}
@@ -408,7 +408,7 @@ function ExplorationMode({
 							<label
 								htmlFor={'include'}
 								onClick={() => setIncludeMethod(method => (method === 'ALL' ? 'ANY' : 'ALL'))}
-								className="pointer"
+								className="cursor-pointer"
 							>
 								Include fonts matching <span className="underline">{includeMethod.toLowerCase()}</span> of
 							</label>
@@ -431,7 +431,7 @@ function ExplorationMode({
 							<label
 								htmlFor={'exclude'}
 								onClick={() => setExcludeMethod(method => (method === 'ALL' ? 'ANY' : 'ALL'))}
-								className="pointer"
+								className="cursor-pointer"
 							>
 								Exclude fonts matching <span className="underline">{excludeMethod.toLowerCase()}</span> of
 							</label>
@@ -451,7 +451,7 @@ function ExplorationMode({
 							<legend>Display</legend>
 							<label>
 								<input
-									className="visually-hidden"
+									className="sr-only"
 									type="radio"
 									value="list"
 									checked={listMode === 'list'}
@@ -466,7 +466,7 @@ function ExplorationMode({
 							</label>
 							<label>
 								<input
-									className="visually-hidden"
+									className="sr-only"
 									type="radio"
 									value="grid"
 									checked={listMode === 'grid'}

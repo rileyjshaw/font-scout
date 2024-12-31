@@ -34,12 +34,21 @@
 	padding: 0 1em 22px;
 }
 
+.global-settings-row input {
+	font-weight: 400;
+}
+
+.global-settings-row fieldset {
+	min-width: 80px;
+}
+
 .select-with-label,
 .collection-select {
 	flex: 1 1 0;
 }
 
 .select-with-label {
+	align-self: stretch;
 	display: flex;
 	flex-direction: column;
 }
@@ -66,10 +75,6 @@ legend,
 	gap: 22px;
 	height: 100%;
 	margin-left: 8px;
-}
-
-button {
-	cursor: pointer;
 }
 
 .details button {
@@ -238,11 +243,11 @@ label > * {
 	border-radius: 100%;
 	border: 2px solid;
 	content: '';
-	height: 18px;
+	height: 22px;
 	left: 0;
 	position: absolute;
 	top: 0;
-	width: 18px;
+	width: 22px;
 }
 
 [type='checkbox']:checked + label:after {
