@@ -46,10 +46,10 @@ function useSize(target) {
 	return size;
 }
 
-function activeFontsFromCollections(includedCollections, includeMethod, excludedCollections, excludeMethod, fonts) {
+function matchedFontsFromCollections(includedCollections, includeMethod, excludedCollections, excludeMethod, fonts) {
 	const includeArrayMethod = includeMethod === 'ANY' ? 'some' : 'every';
 	const excludeArrayMethod = excludeMethod === 'ANY' ? 'some' : 'every';
-	const activeFonts = fonts.filter(
+	const matchedFonts = fonts.filter(
 		({ collections }) =>
 			includedCollections.length &&
 			includedCollections[includeArrayMethod](collection => collections.includes(collection)) &&
@@ -58,8 +58,8 @@ function activeFontsFromCollections(includedCollections, includeMethod, excluded
 				excludedCollections[excludeArrayMethod](collection => collections.includes(collection))
 			)
 	);
-	if (!activeFonts.length) return false;
-	return activeFonts.reduce((acc, font) => {
+	if (!matchedFonts.length) return false;
+	return matchedFonts.reduce((acc, font) => {
 		acc[font.name] = font;
 		return acc;
 	}, {});
@@ -108,9 +108,9 @@ function ExplorationMode({
 	const probeRef = useRef(null);
 	const { height: probeHeight } = useSize(probeRef);
 	const { width: gridWidth, height: gridHeight } = useSize(gridRef);
-	const activeFonts = useMemo(
+	const matchedFonts = useMemo(
 		() =>
-			activeFontsFromCollections(
+			matchedFontsFromCollections(
 				includedCollections,
 				includeMethod,
 				excludedCollections,
@@ -123,9 +123,9 @@ function ExplorationMode({
 	const columnCount = listMode === 'grid' ? Math.max(Math.floor(gridWidth / MIN_COLUMN_WIDTH), 1) : 1;
 
 	const [visibleFonts, bigFonts] = useMemo(() => {
-		const [selectedFonts, unselectedFonts] = activeFonts
+		const [selectedFonts, unselectedFonts] = matchedFonts
 			? fonts
-					.filter(font => activeFonts[font.name])
+					.filter(font => matchedFonts[font.name])
 					.reduce(
 						(acc, font) => {
 							const [_selectedFonts, _unselectedFonts] = acc;
@@ -183,7 +183,7 @@ function ExplorationMode({
 		);
 
 		return [visibleFonts, bigFonts];
-	}, [activeFonts, configMode, fonts]);
+	}, [matchedFonts, configMode, fonts]);
 
 	const onChangeShowToggle = useCallback(
 		(checked, font) => {
@@ -497,7 +497,7 @@ function ExplorationMode({
 				))}
 			</div>
 			<div className="grid-container" ref={gridRef}>
-				{activeFonts ? (
+				{matchedFonts ? (
 					visibleFonts.length ? (
 						<Grid
 							className="font-containers"
