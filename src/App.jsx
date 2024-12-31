@@ -2,9 +2,9 @@ import { useCallback, useMemo, useState } from 'react';
 import { Helmet, HelmetProvider } from 'react-helmet-async';
 import styled, { createGlobalStyle } from 'styled-components';
 
-import { getPreviewComponent } from './Preview.js';
-import ComparisonMode from './ComparisonMode.js';
-import ExplorationMode from './ExplorationMode.js';
+import { getPreviewComponent } from './Preview';
+import ComparisonMode from './ComparisonMode';
+import ExplorationMode from './ExplorationMode';
 
 import allFonts from './allFonts.js';
 import { defaultPreviews, LOCAL_FONTS_COLLECTION } from './constants.js';

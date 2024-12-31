@@ -13,7 +13,7 @@ import {
 	LuColumns2,
 } from 'react-icons/lu';
 
-import FontContainer, { FontPreview } from './FontContainer.js';
+import FontContainer, { FontPreview } from './FontContainer';
 import { COLLECTION_GROUPS, LOCAL_FONTS_COLLECTION, MIN_COLUMN_WIDTH } from './constants.js';
 import sizeSortedFontVariants from './size_sorted_font_variants.json'; // assert { type: 'json' };
 
