@@ -2,7 +2,6 @@ import React, { useCallback, useLayoutEffect, useMemo, useRef, useState } from '
 import Select from 'react-select';
 import { FixedSizeGrid as Grid, areEqual } from 'react-window';
 import useResizeObserver from '@react-hook/resize-observer';
-import styled from 'styled-components';
 import {
 	LuChevronUp,
 	LuChevronDown,
@@ -35,23 +34,6 @@ const collectionOptions = COLLECTION_GROUPS.map(group => ({
 		label,
 	})),
 }));
-
-const Probe = styled.div`
-	clip-path: inset(50%);
-	clip: rect(0 0 0 0);
-	display: flex;
-	overflow: hidden;
-	pointer-events: none;
-	position: absolute;
-	touch-action: none;
-	white-space: nowrap;
-	width: 1px;
-`;
-
-const StyledTextArea = styled.textarea`
-	border: 1px solid hsl(0, 0%, 80%);
-	border-radius: 4px;
-`;
 
 function useSize(target) {
 	const [size, setSize] = useState({ width: 0, height: 0 });
@@ -368,7 +350,7 @@ function ExplorationMode({
 								}}
 							/>
 						</label>
-						<StyledTextArea
+						<textarea
 							rows={2}
 							className="preview-text-input"
 							value={previewContent ?? ''}
@@ -498,7 +480,7 @@ function ExplorationMode({
 					</div>
 				</div>
 			</div>
-			<Probe aria-hidden="true" ref={probeRef}>
+			<div className="probe" aria-hidden="true" ref={probeRef}>
 				{bigFonts.map((font, i) => (
 					<FontPreview
 						key={i}
@@ -513,7 +495,7 @@ function ExplorationMode({
 						}}
 					/>
 				))}
-			</Probe>
+			</div>
 			<div className="grid-container" ref={gridRef}>
 				{activeFonts ? (
 					visibleFonts.length ? (

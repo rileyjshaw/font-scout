@@ -1,16 +1,8 @@
-.visually-hidden {
-	clip: rect(0 0 0 0);
-	clip-path: inset(50%);
-	height: 1px;
-	overflow: hidden;
-	position: absolute;
-	white-space: nowrap;
-	width: 1px;
-}
-
-button {
-	all: unset;
-	cursor: pointer;
+.app {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
 .global-settings {
@@ -123,7 +115,21 @@ input[type='number'] {
 	margin: 4px 0 0;
 }
 
+.probe {
+	clip-path: inset(50%);
+	clip: rect(0 0 0 0);
+	display: flex;
+	overflow: hidden;
+	pointer-events: none;
+	position: absolute;
+	touch-action: none;
+	white-space: nowrap;
+	width: 1px;
+}
+
 .preview-text-input {
+	border: 1px solid hsl(0, 0%, 80%);
+	border-radius: 4px;
 	flex-grow: 1;
 	font: inherit;
 	padding: 0.2em 0.4em;
