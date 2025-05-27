@@ -1,5 +1,6 @@
 import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { FixedSizeGrid as Grid, areEqual } from 'react-window';
+import useKeypress from 'react-use-keypress';
 import useResizeObserver from '@react-hook/resize-observer';
 import { ChevronUp, ChevronDown, AlignLeft, AlignCenter, AlignRight, RectangleVertical, Columns2 } from 'lucide-react';
 
@@ -31,7 +32,6 @@ function useSize(target) {
 	return size;
 }
 
-// TODO: Add an "Individual fonts" category/collection so you can search or exclude specific fonts.
 function matchedFontsFromCollections(includedCollections, includeMethod, excludedCollections, excludeMethod) {
 	if (!includedCollections.length) return false;
 	const includeArrayMethod = includeMethod === 'ANY' ? 'some' : 'every';
@@ -108,6 +108,8 @@ function ExplorationMode({
 	const probeRef = useRef(null);
 	const { height: probeHeight } = useSize(probeRef);
 	const { width: gridWidth, height: gridHeight } = useSize(gridRef);
+	const [filterText, setFilterText] = useState('');
+	const [isShowingFilter, setIsShowingFilter] = useState(false);
 	const matchedFonts = useMemo(
 		() => matchedFontsFromCollections(includedCollections, includeMethod, excludedCollections, excludeMethod),
 		[includedCollections, includeMethod, excludedCollections, excludeMethod]
@@ -127,17 +129,17 @@ function ExplorationMode({
 					[[], []]
 			  )
 			: [[], []];
-		const visibleFonts = configMode ? [...selectedFonts, ...unselectedFonts] : selectedFonts;
-		const visibleFontNames = visibleFonts.reduce((acc, font) => {
-			acc[font.name] = true;
-			return acc;
-		}, {});
+		const listedFonts = configMode ? [...selectedFonts, ...unselectedFonts] : selectedFonts;
+
+		const filteredFonts = filterText
+			? listedFonts.filter(font => font.name.toLowerCase().includes(filterText.toLowerCase()))
+			: listedFonts;
 
 		// Our virtual grid needs to know the height of the tallest font, since it doesn’t handle dynamic row heights.
 		// We measure all fonts with manually adjusted settings, since their new settings might make them taller than
 		// the tallest untweaked font. Then we take the 3 tallest untweaked fonts.
 		const bigFonts = [];
-		visibleFonts.forEach(font => {
+		filteredFonts.forEach(font => {
 			if (manuallyAdjustedSettings[font.name]) {
 				bigFonts.push({
 					font,
@@ -145,9 +147,11 @@ function ExplorationMode({
 				});
 			}
 		});
+
+		const visibleFontNames = new Set(filteredFonts.map(font => font.name));
 		for (const sortedList of Object.values(sizeSortedFontVariants)) {
 			for (const { name } of sortedList) {
-				if (visibleFontNames[name] && !manuallyAdjustedSettings[name]) {
+				if (visibleFontNames.has(name) && !manuallyAdjustedSettings[name]) {
 					bigFonts.push({
 						font: allFontsByName[name],
 						settings: {},
@@ -157,8 +161,8 @@ function ExplorationMode({
 			}
 		}
 
-		return [visibleFonts, bigFonts];
-	}, [matchedFonts, configMode, fontSettings, hiddenFonts, manuallyAdjustedSettings]);
+		return [filteredFonts, bigFonts];
+	}, [matchedFonts, configMode, fontSettings, hiddenFonts, manuallyAdjustedSettings, filterText]);
 
 	const onChangeAllVisibleMarked = useCallback(
 		marked => {
@@ -219,6 +223,20 @@ function ExplorationMode({
 
 		onChangeFontSettingsBatch(updates, false);
 	}, [globalFontWeight]);
+
+	useKeypress(['f'], event => {
+		if (event.ctrlKey || event.metaKey) {
+			event.preventDefault();
+			setIsShowingFilter(true);
+		}
+	});
+
+	useKeypress(['Escape'], () => {
+		if (isShowingFilter) {
+			setIsShowingFilter(false);
+			setFilterText('');
+		}
+	});
 
 	return (
 		<>
@@ -404,6 +422,29 @@ function ExplorationMode({
 								</label>
 							</fieldset>
 						</div>
+					</div>
+				)}
+				{isShowingFilter && (
+					<div className="border-t py-2 px-4 flex items-center gap-2">
+						<label htmlFor="filter">Filter results</label>
+						<Input
+							autoFocus
+							id="filter"
+							type="text"
+							value={filterText}
+							onChange={e => setFilterText(e.target.value)}
+							placeholder="Font name"
+							className="flex-1"
+						/>
+						<button
+							onClick={() => {
+								setIsShowingFilter(false);
+								setFilterText('');
+							}}
+							className="text-sm text-gray-500 hover:text-gray-700"
+						>
+							✕
+						</button>
 					</div>
 				)}
 			</div>
