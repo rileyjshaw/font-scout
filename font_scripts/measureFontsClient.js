@@ -69,7 +69,7 @@ document.fonts.ready.then(async () => {
 				fontFamily: font.name,
 				fontStyle: variant.style,
 				fontWeight: variant.weight,
-				fontStretch: variant.stretch,
+				fontStretch: variant.width,
 				overflow: 'hidden',
 			};
 			Object.assign(document.body.style, style);
@@ -104,11 +104,11 @@ document.fonts.ready.then(async () => {
 			}
 		}
 
-		// A font is multiplexed if for any set fontStyle and fontStretch, the
-		// fontWidth is the same. Just to be safe, we also check that the width
-		// is the same across all characterWidthProbes.
+		// A font is multiplexed if for any set fontStyle and fontWidth, the
+		// measured width is the same. Just to be safe, we also check that the
+		// width is the same across all characterWidthProbes.
 		const groupedVariants = variantsWithStats.reduce((acc, variant) => {
-			const key = `${variant.variant.style} ${variant.variant.stretch}`;
+			const key = `${variant.variant.style} ${variant.variant.width}`;
 			if (!acc[key]) {
 				acc[key] = [];
 			}

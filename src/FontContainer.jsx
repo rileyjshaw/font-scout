@@ -1,26 +1,31 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useMemo } from 'react';
 import useHover from '@react-hook/hover';
-import Select from 'react-select';
+import { Eye, EyeOff, Pin, PinOff } from 'lucide-react';
 
+import { cn, getNearestValue } from '@/lib/utils';
+import { SettingsPopover } from '@/components/settings-popover';
+import { Button } from '@/components/ui/button';
+import { FONT_SETTINGS } from '@/constants';
 import './FontContainer.css';
 
-const FontPreview = ({ font, variant, Preview, loadFont, ...props }) => {
+const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, ...props }) => {
 	useEffect(() => {
 		if (loadFont) loadFont(font);
 	}, [font, loadFont]);
 
 	return (
-		<div className="font-preview-wrapper" {...props}>
+		<div className="text-[length:--font-preview-size] flex justify-center" {...props}>
 			<pre
-				className={`font-preview${font.marked ? ' marked' : ''}`}
+				className={cn('font-preview p-3', isMarked && 'marked')}
 				style={{
 					fontFamily: `"${font.name}"`,
-					fontWeight: variant.weight,
-					fontSize: `${font.sizeOffset}em`,
-					fontStyle: variant.style,
-					fontStretch: variant.stretch,
+					fontWeight: settings.weight ?? 'normal',
+					fontSize: `${settings.scale ?? 1}em`,
+					fontStyle: settings.italic ? 'italic' : 'normal',
+					fontStretch: settings.width == null ? 'normal' : `${settings.width}%`,
+					lineHeight: `calc(var(--font-preview-line-height) + ${settings.lineHeightOffset ?? 0})`,
 				}}
-				title={variant.name}
+				title={font.name}
 			>
 				<Preview />
 			</pre>
@@ -30,100 +35,135 @@ const FontPreview = ({ font, variant, Preview, loadFont, ...props }) => {
 
 const FontContainer = React.memo(function FontContainer({
 	font,
-	onChangeShowToggle,
-	onChangeMarkedToggle,
-	onChangeSizeOffset,
-	onChangeSelect,
+	isMarked,
+	isHidden,
+	onChangeMarked,
+	onChangeHidden,
+	onChangeFontSettings,
 	Preview,
 	loadFont,
 	showSettings,
 	style,
 	isShowingTitles,
+	settings = {},
 }) {
 	const ref = useRef(null);
 	const isHovering = useHover(ref);
 
-	const variantOptions = font.variants.map((variant, i) => ({
-		value: i,
-		label: `${variant.name}`,
-	}));
+	const handleValueChange = (id, value, isManual) => {
+		const newSettings = {
+			...settings,
+			[id]: value,
+		};
+
+		const validVariantsForChangedProperty = font.variantsByProperty.get(id);
+		if (!validVariantsForChangedProperty) {
+			// For properties that don’t have specific valid variants, we assume any value is valid.
+			return onChangeFontSettings(newSettings, font, isManual);
+		}
+
+		const validVariantsForNewValue = validVariantsForChangedProperty.get(value);
+		if (!validVariantsForNewValue) {
+			// We should never get here. Throw an error.
+			console.error(`No valid variants found for ${id} = ${value}`);
+		}
+
+		// Find the variant with the closest other properties
+		const bestMatch = validVariantsForNewValue.reduce(
+			(best, variant) => {
+				const [bestDiff] = best;
+				const weightDiff = Math.abs(variant.weight - (newSettings.weight ?? FONT_SETTINGS.weight.defaultValue));
+				const italicDiff = Math.abs(variant.italic - (newSettings.italic ?? FONT_SETTINGS.italic.defaultValue));
+				const widthDiff = Math.abs(variant.width - (newSettings.width ?? FONT_SETTINGS.width.defaultValue));
+				const currentDiff = weightDiff + italicDiff * 1000 + widthDiff * 1000;
+				return currentDiff < bestDiff ? [currentDiff, variant] : best;
+			},
+			[Infinity, null]
+		)[1];
+
+		onChangeFontSettings(bestMatch, font, isManual);
+	};
+
+	// const handleToggleFeature = feature => {
+	// 	setSelectedFeatures(prev => (prev.includes(feature) ? prev.filter(f => f !== feature) : [...prev, feature]));
+	// };
+	const shouldHideButtons = !(showSettings || isHovering);
+	const PinIcon = isMarked ? PinOff : Pin;
+	const EyeIcon = isHidden ? Eye : EyeOff;
+
+	const validSettings = [
+		...Array.from(font.variantsByProperty.entries())
+			.filter(([_, variants]) => variants.size > 1)
+			.map(([id, variants]) => {
+				const steps = [...variants.keys()].map(Number).sort((a, b) => a - b);
+				return {
+					id,
+					...FONT_SETTINGS[id],
+					steps,
+					defaultValue: getNearestValue(FONT_SETTINGS[id].defaultValue, steps),
+				};
+			}),
+		{
+			id: 'scale',
+			...FONT_SETTINGS.scale,
+		},
+		{ id: 'lineHeightOffset', ...FONT_SETTINGS.lineHeightOffset },
+	];
 
 	return (
-		<li ref={ref} className="font-container" style={style}>
-			{showSettings && (
-				<div className="font-settings">
-					<Select
-						value={variantOptions[font.activeVariant]}
-						options={variantOptions}
-						isDisabled={variantOptions.length < 2}
-						className="select-font-variant"
-						styles={{
-							option: (provided, state) => ({
-								...provided,
-								fontFamily: `"${font.name}"`,
-								fontWeight: font.variants[state.value].weight,
-								fontStyle: font.variants[state.value].style,
-								fontStretch: font.variants[state.value].stretch,
-							}),
-							singleValue: (provided, state) => ({
-								...provided,
-								fontFamily: `"${font.name}"`,
-								fontWeight: font.variants[state.data.value].weight,
-								fontStyle: font.variants[state.data.value].style,
-								fontStretch: font.variants[state.data.value].stretch,
-							}),
-						}}
-						onChange={({ value }) => onChangeSelect(value, font)}
-					/>
-					<input
-						className="font-size-offset-input"
-						type="number"
-						value={font.sizeOffset}
-						step={0.05}
-						onChange={e => onChangeSizeOffset(e.target.value, font)}
-					/>
-					<div className="font-actions">
-						<input
-							className="show-font-toggle"
-							type="checkbox"
-							checked={font.show}
-							onChange={e => onChangeShowToggle(e.target.checked, font)}
-							id={`show-font-toggle-${font.name.toLowerCase().replace(/[ _]/g, '-')}`}
+		<li ref={ref} className="px-2 pt-2" style={style}>
+			<div className={cn('flex flex-col rounded-xl px-1', isMarked && 'bg-green-400')}>
+				<div
+					className={cn(
+						'grid items-center grid-cols-[auto_1fr_auto] w-full text-gray-300',
+						isMarked && 'text-foreground/50'
+					)}
+				>
+					{/* HACK: This empty container simplifies title alignment */}
+					<div className="flex flex-nowrap">
+						<div className="w-6" />
+						<div className="w-6" />
+						<div className="w-6" />
+					</div>
+					<div className="grow font-title text-center">
+						{isShowingTitles ? (
+							<>
+								{/* TODO: Handle variable fonts properly here. */}
+								{font.name} • <span>{font.isVariable ? '∞' : font.variants.length}</span>
+							</>
+						) : null}
+					</div>
+					<div className="flex flex-nowrap">
+						<Button
+							variant="simple"
+							size="icon"
+							className={cn('transition-opacity', shouldHideButtons && 'opacity-0')}
+							onClick={() => onChangeHidden(font.name, !isHidden)}
+						>
+							<EyeIcon className="h-3 w-3" />
+							<span className="sr-only">{isHidden ? 'Show font in list' : 'Hide font from list'}</span>
+						</Button>
+						<Button
+							variant="simple"
+							size="icon"
+							className={cn('transition-opacity', shouldHideButtons && 'opacity-0')}
+							onClick={() => onChangeMarked(font.name, !isMarked)}
+						>
+							<PinIcon className="h-3 w-3 relative top-[1px]" />
+							<span className="sr-only">{isMarked ? 'Unmark font for comparison' : 'Mark font for comparison'}</span>
+						</Button>
+						<SettingsPopover
+							validSettings={validSettings}
+							values={settings}
+							onChangeValue={handleValueChange}
+							shouldHideButton={shouldHideButtons}
+							// selectedFeatures={selectedFeatures}
+							// onToggleFeature={handleToggleFeature}
 						/>
-						<label htmlFor={`show-font-toggle-${font.name.toLowerCase().replace(/[ _]/g, '-')}`} />
-						<input
-							className="marked-font-toggle"
-							type="checkbox"
-							checked={font.marked}
-							onChange={e => onChangeMarkedToggle(e.target.checked, font)}
-							id={`marked-font-toggle-${font.name.toLowerCase().replace(/[ _]/g, '-')}`}
-						/>
-						<label htmlFor={`marked-font-toggle-${font.name.toLowerCase().replace(/[ _]/g, '-')}`} />
 					</div>
 				</div>
-			)}
-			{!showSettings && isHovering && (
-				<div className="font-hover-settings">
-					<input
-						className="show-font-toggle"
-						type="checkbox"
-						checked={font.show}
-						onChange={e => onChangeShowToggle(e.target.checked, font)}
-						id={`show-font-toggle-hover-${font.name.toLowerCase().replace(/[ _]/g, '-')}`}
-					/>
-					<label htmlFor={`show-font-toggle-hover-${font.name.toLowerCase().replace(/[ _]/g, '-')}`} />
-					<input
-						className="marked-font-toggle"
-						type="checkbox"
-						checked={font.marked}
-						onChange={e => onChangeMarkedToggle(e.target.checked, font)}
-						id={`marked-font-toggle-hover-${font.name.toLowerCase().replace(/[ _]/g, '-')}`}
-					/>
-					<label htmlFor={`marked-font-toggle-hover-${font.name.toLowerCase().replace(/[ _]/g, '-')}`} />
-				</div>
-			)}
-			<FontPreview font={font} variant={font.variants[font.activeVariant]} Preview={Preview} loadFont={loadFont} />
-			{!showSettings && isShowingTitles && <div className="font-title">{font.name}</div>}
+				<FontPreview font={font} isMarked={isMarked} settings={settings} Preview={Preview} loadFont={loadFont} />
+			</div>
 		</li>
 	);
 });

@@ -1,30 +1,3 @@
-.app {
-	height: 100%;
-	width: 100%;
-	display: flex;
-	flex-direction: column;
-}
-
-.global-settings {
-	border-bottom: 1px solid hsl(0, 0%, 80%);
-	box-shadow: 0 -2px 4px hsl(0, 0%, 20%);
-	height: 34px;
-}
-
-.global-settings.show-global-settings {
-	height: auto;
-	padding-top: 22px;
-}
-
-.global-settings-rows {
-	display: none;
-	flex-direction: column;
-}
-
-.show-global-settings .global-settings-rows {
-	display: flex;
-}
-
 .global-settings-row {
 	align-items: center;
 	display: flex;
@@ -40,21 +13,6 @@
 
 .global-settings-row fieldset {
 	min-width: 80px;
-}
-
-.select-with-label,
-.collection-select {
-	flex: 1 1 0;
-}
-
-.select-with-label {
-	align-self: stretch;
-	display: flex;
-	flex-direction: column;
-}
-
-.select-with-label .collection-select {
-	margin-top: 4px;
 }
 
 label,
@@ -88,35 +46,12 @@ legend,
 	text-transform: inherit;
 }
 
-.font-title {
-	color: hsl(0, 0%, 80%);
-	left: 0;
-	pointer-events: none;
-	position: absolute;
-	right: 0;
-	text-align: center;
-	top: 26px;
-}
-
 input[type='radio'] {
 	margin: 0 4px;
 	position: relative;
 }
 
-input[type='number'] {
-	border-radius: 4px;
-	border: 1px solid hsl(0, 0%, 80%);
-	color: hsl(0, 0%, 20%);
-	font-size: inherit;
-	margin-left: 12px;
-	min-height: 41px;
-	padding: 2px 8px;
-	width: 5em;
-}
-
 .global-settings input[type='number'] {
-	display: block;
-	font-size: 0.85rem;
 	margin: 4px 0 0;
 }
 
@@ -130,15 +65,6 @@ input[type='number'] {
 	touch-action: none;
 	white-space: nowrap;
 	width: 1px;
-}
-
-.preview-text-input {
-	border: 1px solid hsl(0, 0%, 80%);
-	border-radius: 4px;
-	flex-grow: 1;
-	font: inherit;
-	padding: 0.2em 0.4em;
-	resize: none;
 }
 
 .alignment-options,
@@ -163,20 +89,6 @@ label > * {
 	grid-area: 1 / 1;
 }
 
-.list-mode-options {
-	padding-right: 6px;
-}
-
-.grid-container {
-	display: flex;
-	flex-grow: 1;
-	overflow: hidden;
-}
-
-.font-containers {
-	list-style: none;
-}
-
 .no-fonts-warning {
 	color: rgba(0, 0, 0, 0.5);
 	font-style: italic;
@@ -189,97 +101,6 @@ label > * {
 	display: block;
 	font-size: 2em;
 	font-style: normal;
-}
-
-.start-comparison-button {
-	background: #2ecc40;
-	border-radius: 100px;
-	border: 3px solid #29bb3a;
-	bottom: 36px;
-	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.12), 0 1px 5px 0 rgba(0, 0, 0, 0.2);
-	color: #fff;
-	font: inherit;
-	font-weight: 600;
-	left: 50%;
-	padding: 0.7em 1.2em;
-	position: fixed;
-	transform: translateX(-50%);
-}
-
-.start-comparison-button-visible {
-	padding-bottom: 300px;
-}
-
-.comparison-mode {
-	height: 100dvh;
-	width: 100vw;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	flex-direction: column;
-}
-
-.comparison-mode-font-name {
-	position: absolute;
-	bottom: 36px;
-	padding: 0.7em;
-	opacity: 0.3;
-}
-
-[type='checkbox'] {
-	left: -9999px;
-	position: absolute;
-}
-
-[type='checkbox'] + label {
-	cursor: pointer;
-	padding-left: 28px;
-	position: relative;
-	top: -11px;
-}
-
-[type='checkbox'] + label:before {
-	background: #fff;
-	border-radius: 100%;
-	border: 2px solid;
-	content: '';
-	height: 22px;
-	left: 0;
-	position: absolute;
-	top: 0;
-	width: 22px;
-}
-
-[type='checkbox']:checked + label:after {
-	border-radius: 100%;
-	content: '';
-	height: 14px;
-	left: 4px;
-	position: absolute;
-	top: 4px;
-	width: 14px;
-}
-
-.config-mode-toggle {
-	position: absolute;
-	top: 6px;
-	right: 6px;
-}
-
-.show-font-toggle + label:before {
-	border-color: #ff4136;
-}
-
-.show-font-toggle + label:after {
-	background: #ff4136;
-}
-
-.marked-font-toggle + label:before {
-	border-color: #2ecc40;
-}
-
-.marked-font-toggle + label:after {
-	background: #2ecc40;
 }
 
 .radio-icon {

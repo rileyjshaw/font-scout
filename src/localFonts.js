@@ -109,13 +109,10 @@ const atipoFonts = [
 	{
 		name: 'Chaney',
 		regularWeights: [REGULAR],
-		stretches: {
+		widths: {
 			[REGULAR]: {
 				values: ['semi-expanded', 'expanded', 'ultra-expanded'],
 			},
-		},
-		aliases: {
-			'semi-expanded': 'wide',
 		},
 		collections: [DISPLAY_COLLECTION, ALL_CAPS_COLLECTION],
 	},
@@ -195,15 +192,11 @@ const atipoFonts = [
 		name: 'Scilla',
 		regularWeights: [REGULAR],
 		italicWeights: true,
-		stretches: {
+		widths: {
 			[REGULAR]: {
 				values: ['condensed'],
 				italicWeights: true,
 			},
-		},
-		aliases: {
-			condensed: 'narrow',
-			'italic condensed': 'italic narrow',
 		},
 		collections: [SERIF_COLLECTION],
 	},
@@ -240,7 +233,7 @@ const djrFontOfTheMonth = [
 	{
 		name: 'Job Clarendon',
 		regularWeights: [],
-		stretches: {
+		widths: {
 			[THIN]: {
 				values: ['condensed', 'extra-condensed', 'ultra-condensed'],
 			},
@@ -275,7 +268,7 @@ const djrFontOfTheMonth = [
 	{
 		name: 'Nickel Gothic',
 		regularWeights: [REGULAR],
-		stretches: {
+		widths: {
 			[REGULAR]: {
 				values: ['semi-expanded', 'expanded'],
 			},
@@ -285,7 +278,7 @@ const djrFontOfTheMonth = [
 	{
 		name: 'Nickel Gothic Variable',
 		regularWeights: [REGULAR],
-		stretches: {
+		widths: {
 			[REGULAR]: {
 				values: ['expanded', 'ultra-expanded'],
 			},
@@ -311,15 +304,10 @@ const djrFontOfTheMonth = [
 	{
 		name: 'Roslindale Extended',
 		regularWeights: [REGULAR],
-		stretches: {
+		widths: {
 			[REGULAR]: {
 				values: ['expanded'],
 			},
-		},
-		aliases: {
-			_font: 'Roslindale',
-			_regular: 'Wide',
-			expanded: 'Extended',
 		},
 		collections: [DISPLAY_COLLECTION],
 	},
@@ -353,7 +341,7 @@ const freeOpenFonts = [
 	{
 		name: 'AUTHENTIC Sans',
 		regularWeights: [LIGHT, REGULAR, BOLD, BLACK],
-		stretches: [LIGHT, REGULAR, BOLD, BLACK].reduce((acc, weight) => {
+		widths: [LIGHT, REGULAR, BOLD, BLACK].reduce((acc, weight) => {
 			acc[weight] = {
 				values: ['condensed'],
 			};
@@ -410,7 +398,7 @@ const freeOpenFonts = [
 	{
 		name: 'League Mono',
 		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD],
-		stretches: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD].reduce((acc, weight) => {
+		widths: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD].reduce((acc, weight) => {
 			acc[weight] = {
 				values: ['condensed', 'semi-condensed', 'semi-expanded', 'expanded'],
 			};
@@ -439,7 +427,7 @@ const freeOpenFonts = [
 	{
 		name: 'Martian Mono',
 		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD],
-		stretches: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD].reduce((acc, weight) => {
+		widths: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, BOLD, ULTRA_BOLD].reduce((acc, weight) => {
 			acc[weight] = {
 				values: ['condensed', 'semi-condensed', 'expanded'],
 			};
@@ -583,7 +571,7 @@ const otherLicensedFonts = [
 		name: 'Def Sans',
 		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
 		italicWeights: true,
-		stretches: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK].reduce((acc, weight) => {
+		widths: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK].reduce((acc, weight) => {
 			acc[weight] = {
 				values: ['condensed'],
 				italicWeights: true,
@@ -614,7 +602,7 @@ const otherLicensedFonts = [
 		regularWeights: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK],
 		italicWeights: true,
 		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
-		stretches: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK].reduce((acc, weight) => {
+		widths: [LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, BLACK].reduce((acc, weight) => {
 			acc[weight] = {
 				values: ['condensed'],
 			};
@@ -636,7 +624,7 @@ const otherLicensedFonts = [
 			BLACK,
 			ULTRA_BLACK,
 		],
-		stretches: [
+		widths: [
 			HAIRLINE,
 			THIN,
 			EXTRA_LIGHT,
@@ -720,7 +708,7 @@ const otherLicensedFonts = [
 		name: 'Peridot PE',
 		regularWeights: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK],
 		italicWeights: true,
-		stretches: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK].reduce(
+		widths: [THIN, EXTRA_LIGHT, LIGHT, REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK, ULTRA_BLACK].reduce(
 			(acc, weight) => {
 				acc[weight] = {
 					values: ['expanded', 'semi-expanded', 'semi-condensed', 'condensed', 'extra-condensed'],

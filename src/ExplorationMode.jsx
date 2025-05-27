@@ -1,31 +1,16 @@
-import React, { useCallback, useLayoutEffect, useMemo, useRef, useState } from 'react';
-import Select from 'react-select';
+import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
 import { FixedSizeGrid as Grid, areEqual } from 'react-window';
 import useResizeObserver from '@react-hook/resize-observer';
-import {
-	LuChevronUp,
-	LuChevronDown,
-	LuAlignLeft,
-	LuAlignCenter,
-	LuAlignRight,
-	LuRectangleVertical,
-	LuColumns2,
-} from 'react-icons/lu';
+import { ChevronUp, ChevronDown, AlignLeft, AlignCenter, AlignRight, RectangleVertical, Columns2 } from 'lucide-react';
 
+import allFonts, { allFontsByName } from './allFonts.js';
+import { cn, getNearestValue } from '@/lib/utils';
+import { Input } from './components/ui/input';
+import { Select } from './components/ui/select';
+import { TextArea } from './components/ui/textarea';
 import FontContainer, { FontPreview } from './FontContainer';
 import { COLLECTION_GROUPS, LOCAL_FONTS_COLLECTION, MIN_COLUMN_WIDTH } from './constants.js';
 import sizeSortedFontVariants from './size_sorted_font_variants.json'; // assert { type: 'json' };
-
-function setDeepValue(object, value, ...keys) {
-	keys.reduce((branch, key, i, { length }) => {
-		if (i + 1 === length) {
-			branch[key] = Math.max(branch[key] ?? 0, value);
-		} else {
-			branch[key] = branch[key] ?? {};
-		}
-		return branch[key];
-	}, object);
-}
 
 const collectionOptions = COLLECTION_GROUPS.map(group => ({
 	...group,
@@ -46,12 +31,13 @@ function useSize(target) {
 	return size;
 }
 
-function matchedFontsFromCollections(includedCollections, includeMethod, excludedCollections, excludeMethod, fonts) {
+// TODO: Add an "Individual fonts" category/collection so you can search or exclude specific fonts.
+function matchedFontsFromCollections(includedCollections, includeMethod, excludedCollections, excludeMethod) {
+	if (!includedCollections.length) return false;
 	const includeArrayMethod = includeMethod === 'ANY' ? 'some' : 'every';
 	const excludeArrayMethod = excludeMethod === 'ANY' ? 'some' : 'every';
-	const matchedFonts = fonts.filter(
+	const matchedFonts = allFonts.filter(
 		({ collections }) =>
-			includedCollections.length &&
 			includedCollections[includeArrayMethod](collection => collections.includes(collection)) &&
 			!(
 				excludedCollections.length &&
@@ -66,9 +52,18 @@ function matchedFontsFromCollections(includedCollections, includeMethod, exclude
 }
 
 const GridCell = React.memo(function GridCell({ columnIndex, rowIndex, style, data }) {
-	const { columnCount, visibleFonts, ...props } = data;
+	const { columnCount, visibleFonts, fontSettings, markedFonts, hiddenFonts, ...props } = data;
 	const font = visibleFonts[columnIndex + rowIndex * columnCount];
-	return font ? <FontContainer font={font} style={style} {...props} /> : null;
+	return font ? (
+		<FontContainer
+			font={font}
+			isMarked={markedFonts.has(font.name)}
+			isHidden={hiddenFonts.has(font.name)}
+			settings={fontSettings[font.name] ?? {}}
+			style={style}
+			{...props}
+		/>
+	) : null;
 }, areEqual);
 
 function ExplorationMode({
@@ -76,12 +71,11 @@ function ExplorationMode({
 	setConfigMode,
 	fontSize,
 	setFontSize,
-	lineHeight,
-	setLineHeight,
-	fontWeight,
-	setFontWeight,
+	globalLineHeight,
+	setGlobalLineHeight,
+	globalFontWeight,
+	setGlobalFontWeight,
 	defaultPreviewContent,
-	unsetDefaultPreview,
 	previewContent,
 	setPreviewContent,
 	alignment,
@@ -98,42 +92,40 @@ function ExplorationMode({
 	setListMode,
 	isShowingTitles,
 	setIsShowingTitles,
-	allFontsWithIndex,
-	fonts,
 	loadFont,
-	setFonts,
 	Preview,
+	fontSettings,
+	markedFonts,
+	hiddenFonts,
+	onChangeMarked,
+	onChangeMarkedBatch,
+	onChangeHidden,
+	manuallyAdjustedSettings,
+	onChangeFontSettings,
+	onChangeFontSettingsBatch,
 }) {
 	const gridRef = useRef(null);
 	const probeRef = useRef(null);
 	const { height: probeHeight } = useSize(probeRef);
 	const { width: gridWidth, height: gridHeight } = useSize(gridRef);
 	const matchedFonts = useMemo(
-		() =>
-			matchedFontsFromCollections(
-				includedCollections,
-				includeMethod,
-				excludedCollections,
-				excludeMethod,
-				allFontsWithIndex
-			),
-		[includedCollections, includeMethod, excludedCollections, excludeMethod, allFontsWithIndex]
+		() => matchedFontsFromCollections(includedCollections, includeMethod, excludedCollections, excludeMethod),
+		[includedCollections, includeMethod, excludedCollections, excludeMethod]
 	);
 
 	const columnCount = listMode === 'grid' ? Math.max(Math.floor(gridWidth / MIN_COLUMN_WIDTH), 1) : 1;
+	const columnWidth = gridWidth / columnCount;
 
 	const [visibleFonts, bigFonts] = useMemo(() => {
 		const [selectedFonts, unselectedFonts] = matchedFonts
-			? fonts
-					.filter(font => matchedFonts[font.name])
-					.reduce(
-						(acc, font) => {
-							const [_selectedFonts, _unselectedFonts] = acc;
-							(font.show ? _selectedFonts : _unselectedFonts).push(font);
-							return acc;
-						},
-						[[], []]
-					)
+			? Object.values(matchedFonts).reduce(
+					(acc, font) => {
+						const [_selectedFonts, _unselectedFonts] = acc;
+						(hiddenFonts.has(font.name) ? _unselectedFonts : _selectedFonts).push(font);
+						return acc;
+					},
+					[[], []]
+			  )
 			: [[], []];
 		const visibleFonts = configMode ? [...selectedFonts, ...unselectedFonts] : selectedFonts;
 		const visibleFontNames = visibleFonts.reduce((acc, font) => {
@@ -141,368 +133,301 @@ function ExplorationMode({
 			return acc;
 		}, {});
 
-		const bigFontMap = {};
-		Object.values(sizeSortedFontVariants).forEach(sortedList => {
-			for (const { name, href, variant } of sortedList) {
-				if (visibleFontNames[name]) {
-					setDeepValue(bigFontMap, 1, name, 'variants', variant.weight, variant.style, variant.stretch);
-					if (href) bigFontMap[name].href = href;
-					break;
-				}
+		// Our virtual grid needs to know the height of the tallest font, since it doesn’t handle dynamic row heights.
+		// We measure all fonts with manually adjusted settings, since their new settings might make them taller than
+		// the tallest untweaked font. Then we take the 3 tallest untweaked fonts.
+		const bigFonts = [];
+		visibleFonts.forEach(font => {
+			if (manuallyAdjustedSettings[font.name]) {
+				bigFonts.push({
+					font,
+					settings: fontSettings[font.name] ?? {},
+				});
 			}
 		});
-		visibleFonts
-			.filter(font => font.sizeOffset > 1)
-			.forEach(offsetFont => {
-				Object.values(sizeSortedFontVariants).forEach(sortedList => {
-					const { variant: biggestVariant } = sortedList.find(font => font.name === offsetFont.name);
-					if (biggestVariant) {
-						setDeepValue(
-							bigFontMap,
-							offsetFont.sizeOffset,
-							offsetFont.name,
-							'variants',
-							biggestVariant.weight,
-							biggestVariant.style,
-							biggestVariant.stretch
-						);
-						if (offsetFont.href) bigFontMap[offsetFont.name].href = offsetFont.href;
-					}
-				});
-			});
-
-		const bigFonts = Object.entries(bigFontMap).flatMap(([name, { href, variants }]) =>
-			Object.entries(variants).flatMap(([weight, _obj2]) =>
-				Object.entries(_obj2).flatMap(([style, _obj3]) =>
-					Object.entries(_obj3).map(([stretch, sizeOffset]) => ({
-						font: { name, href, sizeOffset },
-						variant: { weight, style, stretch },
-					}))
-				)
-			)
-		);
+		for (const sortedList of Object.values(sizeSortedFontVariants)) {
+			for (const { name } of sortedList) {
+				if (visibleFontNames[name] && !manuallyAdjustedSettings[name]) {
+					bigFonts.push({
+						font: allFontsByName[name],
+						settings: {},
+					});
+					if (bigFonts.length >= 3) break;
+				}
+			}
+		}
 
 		return [visibleFonts, bigFonts];
-	}, [matchedFonts, configMode, fonts]);
-
-	const onChangeShowToggle = useCallback(
-		(checked, font) => {
-			const { originalIndex } = font;
-			setFonts(fonts => {
-				const newFonts = [...fonts];
-				newFonts[originalIndex] = {
-					...fonts[originalIndex],
-					show: checked,
-					marked: checked && fonts[originalIndex].marked,
-				};
-				return newFonts;
-			});
-		},
-		[setFonts]
-	);
-
-	const onChangeMarkedToggle = useCallback(
-		(checked, font) => {
-			const { originalIndex } = font;
-			setFonts(fonts => {
-				const newFonts = [...fonts];
-				newFonts[originalIndex] = {
-					...fonts[originalIndex],
-					marked: checked,
-				};
-				return newFonts;
-			});
-		},
-		[setFonts]
-	);
+	}, [matchedFonts, configMode, fontSettings, hiddenFonts, manuallyAdjustedSettings]);
 
 	const onChangeAllVisibleMarked = useCallback(
-		checked => {
-			setFonts(fonts => {
-				const newFonts = [...fonts];
-				visibleFonts.forEach(({ originalIndex }) => {
-					newFonts[originalIndex] = {
-						...fonts[originalIndex],
-						marked: checked,
-					};
-				});
-				return newFonts;
-			});
+		marked => {
+			onChangeMarkedBatch(
+				visibleFonts.map(font => font.name),
+				marked
+			);
 		},
-		[setFonts, visibleFonts]
-	);
-
-	const onChangeSizeOffset = useCallback(
-		(sizeOffset, font) => {
-			const { originalIndex } = font;
-			setFonts(fonts => {
-				const newFonts = [...fonts];
-				newFonts[originalIndex] = {
-					...fonts[originalIndex],
-					sizeOffset,
-				};
-				return newFonts;
-			});
-		},
-		[setFonts]
-	);
-
-	const onChangeSelect = useCallback(
-		(activeVariant, font) => {
-			const { originalIndex } = font;
-			setFonts(fonts => {
-				const newFonts = [...fonts];
-				newFonts[originalIndex] = {
-					...fonts[originalIndex],
-					activeVariant,
-				};
-				return newFonts;
-			});
-		},
-		[setFonts]
+		[visibleFonts, onChangeMarkedBatch]
 	);
 
 	const itemData = useMemo(
 		() => ({
 			columnCount,
-			onChangeMarkedToggle,
-			onChangeSelect,
-			onChangeShowToggle,
-			onChangeSizeOffset,
 			Preview,
 			loadFont,
 			showSettings: configMode,
 			visibleFonts,
 			isShowingTitles,
+			fontSettings,
+			markedFonts,
+			hiddenFonts,
+			onChangeMarked,
+			onChangeHidden,
+			onChangeFontSettings,
 		}),
 		[
 			columnCount,
 			configMode,
-			onChangeMarkedToggle,
-			onChangeSelect,
-			onChangeShowToggle,
-			onChangeSizeOffset,
 			Preview,
 			loadFont,
 			visibleFonts,
 			isShowingTitles,
+			fontSettings,
+			markedFonts,
+			hiddenFonts,
+			onChangeMarked,
+			onChangeHidden,
+			onChangeFontSettings,
 		]
 	);
 
-	const isAllFontsMarked = useMemo(() => visibleFonts.every(font => font.marked), [visibleFonts]);
+	const isEveryVisibleFontMarked = useMemo(
+		() => visibleFonts.length <= markedFonts.size && visibleFonts.every(font => markedFonts.has(font.name)),
+		[visibleFonts, markedFonts]
+	);
+
+	useEffect(() => {
+		// Update all fonts' weights to their nearest available weight.
+		const updates = allFonts.reduce((acc, font) => {
+			const availableWeights = font.variantsByProperty.get('weight').keys();
+			const closestWeight = getNearestValue(globalFontWeight, availableWeights);
+			return {
+				...acc,
+				[font.name]: { weight: closestWeight },
+			};
+		}, {});
+
+		onChangeFontSettingsBatch(updates, false);
+	}, [globalFontWeight]);
+
 	return (
 		<>
-			<div className={`global-settings${configMode ? ' show-global-settings' : ''}`}>
+			<div className={cn('min-h-6 border-b shadow-sm', configMode && 'pt-4')}>
 				{!configMode && (
 					<div className="details">
 						<span>Showing {visibleFonts.length} fonts</span>
 						<button onClick={() => setIsShowingTitles(x => !x)}>{isShowingTitles ? 'Hide' : 'Show'} titles</button>
-						<button onClick={() => onChangeAllVisibleMarked(!isAllFontsMarked)}>
-							{isAllFontsMarked ? 'Unmark' : 'Mark'} all
+						<button onClick={() => onChangeAllVisibleMarked(!isEveryVisibleFontMarked)}>
+							{isEveryVisibleFontMarked ? 'Unmark' : 'Mark'} all
 						</button>
 					</div>
 				)}
-				<button className={`config-mode-toggle ${configMode ? 'active' : ''}`} onClick={() => setConfigMode(x => !x)}>
-					{configMode ? <LuChevronUp /> : <LuChevronDown />}
+				<button
+					className={`top-0.5 right-1 absolute ${configMode ? 'active' : ''}`}
+					onClick={() => setConfigMode(x => !x)}
+				>
+					{configMode ? <ChevronUp /> : <ChevronDown />}
 				</button>
-				<div className="global-settings-rows">
-					<div className="global-settings-row">
-						<label className="self-end">
-							Font size
-							<input type="number" min={1} value={fontSize} onChange={e => setFontSize(+e.target.value)} />
-						</label>
-						<label className="self-end">
-							Line height
-							<input
-								type="number"
-								min={0}
-								step={0.05}
-								value={lineHeight}
-								onChange={e => setLineHeight(+e.target.value)}
-							/>
-						</label>
-						<label className="self-end">
-							Nearest weight
-							<input
-								className="global-font-weight-input"
-								type="number"
-								value={fontWeight}
-								step={100}
-								min={0}
-								max={1000}
+				{configMode && (
+					<div className="flex flex-col">
+						<div className="global-settings-row">
+							<label className="self-end">
+								Font size
+								<Input
+									className="mt-0.5"
+									type="number"
+									min={1}
+									value={fontSize}
+									onChange={e => setFontSize(+e.target.value)}
+								/>
+							</label>
+							<label className="self-end">
+								Line height
+								<Input
+									className="mt-0.5"
+									type="number"
+									min={0}
+									step={0.05}
+									value={globalLineHeight}
+									onChange={e => setGlobalLineHeight(+e.target.value)}
+								/>
+							</label>
+							<label className="self-end">
+								Nearest weight
+								<Input
+									className="mt-0.5"
+									type="number"
+									value={globalFontWeight}
+									step={50}
+									min={0}
+									max={1000}
+									onChange={e => {
+										const targetWeight = Number(e.target.value);
+										setGlobalFontWeight(targetWeight);
+									}}
+								/>
+							</label>
+							<TextArea
+								rows={2}
+								className="preview-text-input"
+								value={previewContent ?? ''}
+								placeholder={defaultPreviewContent}
 								onChange={e => {
-									const targetWeight = +e.target.value;
-									setFontWeight(targetWeight);
-									setFonts(fonts =>
-										fonts.map(font => {
-											const activeStyle = font.variants[font.activeVariant].style;
-											return {
-												...font,
-												activeVariant: font.variants
-													.map((variant, index) => ({
-														index,
-														score: Math.abs(variant.weight - targetWeight) - (variant.style === activeStyle),
-													}))
-													.sort((a, b) => a.score - b.score)[0].index,
-											};
-										})
-									);
+									setPreviewContent(e.target.value);
 								}}
 							/>
-						</label>
-						<textarea
-							rows={2}
-							className="preview-text-input"
-							value={previewContent ?? ''}
-							placeholder={defaultPreviewContent}
-							onChange={e => {
-								setPreviewContent(e.target.value);
-								unsetDefaultPreview();
-							}}
-						/>
-						<fieldset className="alignment-options">
-							<legend>Align</legend>
-							<label>
-								<input
-									className="sr-only"
-									type="radio"
-									value="left"
-									checked={alignment === 'left'}
-									onChange={e => {
-										setAlignment(e.target.value);
-									}}
-								/>
-								<LuAlignLeft className={`radio-icon ${alignment === 'left' ? 'selected' : ''}`} title="Left align" />
-							</label>
-							<label>
-								<input
-									className="sr-only"
-									type="radio"
-									value="center"
-									checked={alignment === 'center'}
-									onChange={e => {
-										setAlignment(e.target.value);
-									}}
-								/>
-								<LuAlignCenter
-									className={`radio-icon ${alignment === 'center' ? 'selected' : ''}`}
-									title="Center align"
-								/>
-							</label>
-							<label>
-								<input
-									className="sr-only"
-									type="radio"
-									value="right"
-									checked={alignment === 'right'}
-									onChange={e => {
-										setAlignment(e.target.value);
-									}}
-								/>
-								<LuAlignRight className={`radio-icon ${alignment === 'right' ? 'selected' : ''}`} title="Right align" />
-							</label>
-						</fieldset>
-					</div>
-					<div className="global-settings-row">
-						<div className="select-with-label">
-							<label
-								htmlFor={'include'}
-								onClick={() => setIncludeMethod(method => (method === 'ALL' ? 'ANY' : 'ALL'))}
-								className="cursor-pointer"
-							>
-								Include fonts matching <span className="underline">{includeMethod.toLowerCase()}</span> of
-							</label>
-							<Select
-								inputId="include"
-								className="collection-select"
-								placeholder="Include collections…"
-								isMulti={true}
-								isSearchable={true}
-								options={collectionOptions}
-								defaultValue={collectionOptions
-									.flatMap(group => group.options)
-									.filter(option => option.value === LOCAL_FONTS_COLLECTION)}
-								onChange={collections => {
-									setIncludedCollections(collections.map(collection => collection.value));
-								}}
-							/>
+							<fieldset className="alignment-options">
+								<legend>Align</legend>
+								<label>
+									<input
+										className="sr-only"
+										type="radio"
+										value="left"
+										checked={alignment === 'left'}
+										onChange={e => {
+											setAlignment(e.target.value);
+										}}
+									/>
+									<AlignLeft className={`radio-icon ${alignment === 'left' ? 'selected' : ''}`} title="Left align" />
+								</label>
+								<label>
+									<input
+										className="sr-only"
+										type="radio"
+										value="center"
+										checked={alignment === 'center'}
+										onChange={e => {
+											setAlignment(e.target.value);
+										}}
+									/>
+									<AlignCenter
+										className={`radio-icon ${alignment === 'center' ? 'selected' : ''}`}
+										title="Center align"
+									/>
+								</label>
+								<label>
+									<input
+										className="sr-only"
+										type="radio"
+										value="right"
+										checked={alignment === 'right'}
+										onChange={e => {
+											setAlignment(e.target.value);
+										}}
+									/>
+									<AlignRight className={`radio-icon ${alignment === 'right' ? 'selected' : ''}`} title="Right align" />
+								</label>
+							</fieldset>
 						</div>
-						<div className="select-with-label">
-							<label
-								htmlFor={'exclude'}
-								onClick={() => setExcludeMethod(method => (method === 'ALL' ? 'ANY' : 'ALL'))}
-								className="cursor-pointer"
-							>
-								Exclude fonts matching <span className="underline">{excludeMethod.toLowerCase()}</span> of
-							</label>
-							<Select
-								inputId="exclude"
-								className="collection-select"
-								placeholder="Exclude collections…"
-								isMulti={true}
-								isSearchable={true}
-								options={collectionOptions}
-								onChange={collections => {
-									setExcludedCollections(collections.map(collection => collection.value));
-								}}
-							/>
+						<div className="global-settings-row">
+							<div className="flex-1 flex flex-col">
+								<label
+									htmlFor={'include'}
+									onClick={() => setIncludeMethod(method => (method === 'ALL' ? 'ANY' : 'ALL'))}
+									className="cursor-pointer"
+								>
+									Include fonts matching <span className="underline">{includeMethod.toLowerCase()}</span> of
+								</label>
+								<Select
+									inputId="include"
+									className="mt-0.5"
+									placeholder="Include collections…"
+									isMulti={true}
+									isSearchable={true}
+									options={collectionOptions}
+									defaultValue={collectionOptions
+										.flatMap(group => group.options)
+										.filter(option => option.value === LOCAL_FONTS_COLLECTION)}
+									onChange={collections => {
+										setIncludedCollections(collections.map(collection => collection.value));
+									}}
+								/>
+							</div>
+							<div className="flex-1 flex flex-col">
+								<label
+									htmlFor={'exclude'}
+									onClick={() => setExcludeMethod(method => (method === 'ALL' ? 'ANY' : 'ALL'))}
+									className="cursor-pointer"
+								>
+									Exclude fonts matching <span className="underline">{excludeMethod.toLowerCase()}</span> of
+								</label>
+								<Select
+									inputId="exclude"
+									className="mt-0.5"
+									placeholder="Exclude collections…"
+									isMulti={true}
+									isSearchable={true}
+									options={collectionOptions}
+									onChange={collections => {
+										setExcludedCollections(collections.map(collection => collection.value));
+									}}
+								/>
+							</div>
+							<fieldset className="list-mode-options pr-1">
+								<legend>Display</legend>
+								<label>
+									<input
+										className="sr-only"
+										type="radio"
+										value="list"
+										checked={listMode === 'list'}
+										onChange={e => {
+											setListMode(e.target.value);
+										}}
+									/>
+									<RectangleVertical
+										className={`radio-icon ${listMode === 'list' ? 'selected' : ''}`}
+										title="List view"
+									/>
+								</label>
+								<label>
+									<input
+										className="sr-only"
+										type="radio"
+										value="grid"
+										checked={listMode === 'grid'}
+										onChange={e => {
+											setListMode(e.target.value);
+										}}
+									/>
+									<Columns2 className={`radio-icon ${listMode === 'grid' ? 'selected' : ''}`} title="Grid view" />
+								</label>
+							</fieldset>
 						</div>
-						<fieldset className="list-mode-options">
-							<legend>Display</legend>
-							<label>
-								<input
-									className="sr-only"
-									type="radio"
-									value="list"
-									checked={listMode === 'list'}
-									onChange={e => {
-										setListMode(e.target.value);
-									}}
-								/>
-								<LuRectangleVertical
-									className={`radio-icon ${listMode === 'list' ? 'selected' : ''}`}
-									title="List view"
-								/>
-							</label>
-							<label>
-								<input
-									className="sr-only"
-									type="radio"
-									value="grid"
-									checked={listMode === 'grid'}
-									onChange={e => {
-										setListMode(e.target.value);
-									}}
-								/>
-								<LuColumns2 className={`radio-icon ${listMode === 'grid' ? 'selected' : ''}`} title="Grid view" />
-							</label>
-						</fieldset>
 					</div>
-				</div>
+				)}
 			</div>
 			<div className="probe" aria-hidden="true" ref={probeRef}>
 				{bigFonts.map((font, i) => (
-					<FontPreview
-						key={i}
-						font={font.font}
-						variant={font.variant}
-						Preview={Preview}
-						loadFont={loadFont}
+					// TODO: This is pretty hack; it mimics the spacing of the real list
+					<div
+						key={`${font.font.name}-${i}`}
+						className="shrink-0 grow-0 px-5 py-4"
 						style={{
-							width: gridWidth / columnCount,
-							flexShrink: 0,
-							flexGrow: 0,
+							width: columnWidth,
 						}}
-					/>
+					>
+						<FontPreview font={font.font} settings={font.settings} Preview={Preview} loadFont={loadFont} />
+					</div>
 				))}
 			</div>
-			<div className="grid-container" ref={gridRef}>
+			<div className="flex flex-grow overflow-hidden" ref={gridRef}>
 				{matchedFonts ? (
 					visibleFonts.length ? (
 						<Grid
-							className="font-containers"
+							className="list-none"
 							columnCount={columnCount}
-							columnWidth={gridWidth / columnCount}
+							columnWidth={columnWidth}
 							rowCount={Math.ceil(visibleFonts.length / columnCount)}
 							rowHeight={probeHeight + 80}
 							height={gridHeight}

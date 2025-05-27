@@ -87,7 +87,7 @@ const AWWWARDS_BEST_GOOGLE_FONTS = [
 ];
 
 const IGNORED_FONTS = [
-	'Martian Mono', // The local version includes various stretches.
+	'Martian Mono', // The local version includes various widths.
 	'Victor Mono', // The local version includes obliques.
 ];
 
@@ -106,6 +106,13 @@ const FONT_CATEGORY_COLLECTIONS = {
 const googleFonts = responseJson.items
 	.filter(font => !IGNORED_FONTS.includes(font.family))
 	.map(font => {
+		const name = font.family;
+		const hrefBase = `https://fonts.googleapis.com/css2?family=${name.replace(/ /g, '+')}`;
+		// A lot of Google fonts with variable axes may still have a static `ital` axis.
+		// As of 2024-12-28, Google doesn’t differentiate between a font with a variable
+		// `ital` axis (eg. EB Garamond), and a font with a static 0|1 `font-style: italic`
+		// switch. I’m not really sure how to handle this, but my current thinking is that
+		// any variable font with italics should automatically have a 0..1 `ital` slider.
 		const [regularWeights, italicWeights] = font.variants.reduce(
 			(acc, variant) => {
 				const [regularWeights, italicWeights] = acc;
@@ -119,24 +126,52 @@ const googleFonts = responseJson.items
 			},
 			[[], []]
 		);
-		return {
-			name: font.family,
+		// TODO: Remove this once we have a way to handle variable fonts.
+		const isVariable = false && !!font.axes?.find(axis => axis.tag === 'wght');
+		const commonProperties = {
+			name,
 			regularWeights,
 			italicWeights,
 			collections: [
 				GOOGLE_FONTS_COLLECTION,
 				FREE_OPEN_COLLECTION,
 				FONT_CATEGORY_COLLECTIONS[font.category],
-				...(font.axes ? [VARIABLE_COLLECTION] : []),
+				...(isVariable ? [VARIABLE_COLLECTION] : []),
 				...(GOOGLE_FONTS_SHORTLIST.includes(font.family) ? [GOOGLE_FONTS_SHORTLIST_COLLECTION] : []),
 			],
-			href: `https://fonts.googleapis.com/css2?family=${font.family.replace(/ /g, '+')}:ital,wght@${[
-				regularWeights,
-				italicWeights,
-			]
-				.flatMap((arr, i) => arr.map(symbol => `${i},${WEIGHTS[symbol].value}`))
-				.join(';')}&display=block`,
 		};
+
+		if (isVariable) {
+			// Switch from Google’s object format to a simpler { wght: [100, 900], ital: [0, 1] } format.
+			const axes = font.axes.reduce((acc, cur) => {
+				acc[cur.tag] = [cur.start, cur.end];
+				return acc;
+			}, {});
+			const hasStaticItalics = font.variants.includes('italic');
+			const href = `${hrefBase}:${Object.entries(axes)
+				.sort(([tagA], [tagB]) => tagB.localeCompare(tagA))
+				.reduce(
+					(acc, [tag, range]) => {
+						// TODO: Form a string like "ital,opsz,wght@0..1,8..30,100..900" if hasVariableItalics, otherwise "ital,opsz,wght@0,8..30,100..900;1,8..30,100..900" if hasStaticItalics
+					},
+					[[], []]
+				)}&display=block`;
+
+			return {
+				...commonProperties,
+				href,
+				axes,
+			};
+		} else {
+			const href = `${hrefBase}:ital,wght@${[regularWeights, italicWeights]
+				.flatMap((arr, i) => arr.map(symbol => `${i},${WEIGHTS[symbol]}`))
+				.join(';')}&display=block`;
+
+			return {
+				...commonProperties,
+				href,
+			};
+		}
 	});
 
 export default googleFonts;

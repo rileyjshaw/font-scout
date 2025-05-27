@@ -4,26 +4,40 @@
 	"private": true,
 	"type": "module",
 	"dependencies": {
+		"@radix-ui/react-label": "^2.1.1",
+		"@radix-ui/react-popover": "^1.1.4",
+		"@radix-ui/react-slider": "^1.2.2",
+		"@radix-ui/react-slot": "^1.1.1",
 		"@react-hook/hover": "^4.0.0",
 		"@react-hook/resize-observer": "^1.2.5",
-		"@vitejs/plugin-react-swc": "^3.7.2",
-		"autoprefixer": "^10.4.20",
-		"dotenv": "^16.4.7",
+		"class-variance-authority": "^0.7.1",
+		"cnz": "^1.1.1",
 		"json-stable-stringify": "^1.2.1",
-		"lint-staged": "^13.0.2",
-		"postcss": "^8.4.49",
+		"lucide-react": "^0.469.0",
 		"prettier": "^2.7.1",
-		"puppeteer": "^14.4.1",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-helmet-async": "^1.3.0",
-		"react-icons": "^5.4.0",
 		"react-select": "^5.9.0",
 		"react-use-keypress": "^1.3.1",
 		"react-window": "^1.8.11",
 		"request-promise-native": "^1.0.9",
+		"tailwind-merge": "^2.6.0",
 		"tailwindcss": "^3.4.17",
-		"vite": "^6.0.6"
+		"tailwindcss-animate": "^1.0.7"
+	},
+	"devDependencies": {
+		"@vitejs/plugin-react-swc": "^3.7.2",
+		"autoprefixer": "^10.4.20",
+		"dotenv": "^16.4.7",
+		"fontkit": "^2.0.4",
+		"lint-staged": "^13.0.2",
+		"opentype.js": "^1.3.4",
+		"postcss": "^8.4.49",
+		"puppeteer": "^14.4.1",
+		"request": "^2.88.2",
+		"vite": "^6.0.6",
+		"wawoff2": "^2.0.1"
 	},
 	"scripts": {
 		"start": "vite",
@@ -60,10 +74,6 @@
 			"last 1 firefox version",
 			"last 1 safari version"
 		]
-	},
-	"devDependencies": {
-		"fontkit": "^2.0.4",
-		"request": "^2.88.2"
 	},
 	"packageManager": "yarn@1.22.22"
 }

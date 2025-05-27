@@ -1,37 +1,43 @@
 import googleFonts from './googleFonts.js';
 import localFonts from './localFonts.js';
 import {
-	REGULAR,
 	WEIGHTS,
-	STRETCH_ORDER,
 	ALL_FONTS_COLLECTION,
 	SINGLE_VARIANT_COLLECTION,
 	MULTIPLE_WEIGHTS_COLLECTION,
 	MULTIPLE_STYLES_COLLECTION,
+	MULTIPLE_WIDTHS_COLLECTION,
 	MULTIPLEXED_COLLECTION,
 	STARRED_COLLECTION,
 	UI_FONTS_COLLECTION,
 	UNCATEGORIZED_COLLECTION,
+	WIDTH_PERCENTAGES,
 } from './constants.js';
-import multiplexedFonts from './multiplexed_fonts.json'; // assert { type: 'json' };
+import multiplexedFontsArray from './multiplexed_fonts.json'; // assert { type: 'json' };
 
+const multiplexedFonts = new Set(multiplexedFontsArray);
 const allFonts = [...googleFonts, ...localFonts]
 	.map(font => ({
 		name: font.name,
 		href: font.href,
+		// TODO: This needs to be reworked to handle variable fonts properly.
+		// TODO: I can make a bunch of utility functions to make this easier. For instance:
+		// generatePermutations({
+		//   weight: [REGULAR],
+		//   italic: [false, true],
+		//   width: ['normal', 'condensed'],
+		// })
 		variants: [
 			...font.regularWeights.map(weight => ({
-				weight: WEIGHTS[weight].value,
-				name: WEIGHTS[weight].name,
-				style: 'normal',
-				stretch: 'normal',
+				weight: WEIGHTS[weight],
+				italic: 0,
+				width: WIDTH_PERCENTAGES.normal,
 			})),
 			...(Array.isArray(font.italicWeights) ? font.italicWeights : font.italicWeights ? font.regularWeights : []).map(
 				weight => ({
-					weight: WEIGHTS[weight].value,
-					name: [WEIGHTS[weight].name, 'italic'].filter(x => x).join(' '),
-					style: 'italic',
-					stretch: 'normal',
+					weight: WEIGHTS[weight],
+					italic: 1,
+					width: WIDTH_PERCENTAGES.normal,
 				})
 			),
 			...(Array.isArray(font.obliqueWeights)
@@ -40,65 +46,42 @@ const allFonts = [...googleFonts, ...localFonts]
 				? font.regularWeights
 				: []
 			).map(weight => ({
-				weight: WEIGHTS[weight].value,
-				name: [WEIGHTS[weight].name, 'oblique'].filter(x => x).join(' '),
-				style: 'oblique',
-				stretch: 'normal',
+				weight: WEIGHTS[weight],
+				italic: 1, // TODO: This should be oblique: 1
+				width: WIDTH_PERCENTAGES.normal,
 			})),
-			...(font.stretches
-				? Reflect.ownKeys(font.stretches).flatMap(weight => {
-						const { values, italicWeights, obliqueWeights } = font.stretches[weight];
-						const variants = values.map(stretch => ({
-							weight: WEIGHTS[weight].value,
-							name: [WEIGHTS[weight].name, stretch].filter(x => x).join(' '),
-							style: 'normal',
-							stretch,
+			...(font.widths
+				? Reflect.ownKeys(font.widths).flatMap(weight => {
+						const { values, italicWeights, obliqueWeights } = font.widths[weight];
+						const variants = values.map(width => ({
+							weight: WEIGHTS[weight],
+							italic: 0,
+							width: WIDTH_PERCENTAGES[width],
 						}));
 						return [
 							...variants,
 							...(italicWeights
 								? variants.map(variant => ({
 										...variant,
-										name: [WEIGHTS[weight].name, 'italic', variant.stretch].filter(x => x).join(' '),
-										style: 'italic',
+										italic: 1,
 								  }))
 								: []),
 							...(obliqueWeights
 								? variants.map(variant => ({
 										...variant,
-										name: [WEIGHTS[weight].name, 'oblique', variant.stretch].filter(x => x).join(' '),
-										style: 'oblique',
+										italic: 1, // TODO: This should be oblique: 1
 								  }))
 								: []),
 						];
 				  })
 				: []),
-		]
-			.map(variant => {
-				const fontName = font.aliases?._font ?? font.name;
-				const variantName = font.aliases?.[variant.name || '_regular'] ?? variant.name;
-				return {
-					...variant,
-					name: [fontName, variantName].filter(x => x).join(' '),
-				};
-			})
-			.sort(
-				(a, b) =>
-					(a.weight - b.weight) * 1000 +
-					((a.style === 'italic') - (b.style === 'italic')) * 100 +
-					((a.style === 'oblique') - (b.style === 'oblique')) * 10 +
-					(STRETCH_ORDER.indexOf(a.stretch) - STRETCH_ORDER.indexOf(b.stretch))
-			),
-		show: true,
-		marked: false,
-		sizeOffset: 1,
+		],
 		collections: font.collections ?? [],
-		source: font,
 	}))
 	.sort((a, b) => a.name.localeCompare(b.name));
 
 // TODO: Save these to a DB or something.
-const STARRED_FONTS = [
+const STARRED_FONTS = new Set([
 	'Anton',
 	'Atkinson Hyperlegible',
 	'Azeret Mono',
@@ -130,32 +113,56 @@ const STARRED_FONTS = [
 	'Trispace',
 	'Victor Mono',
 	'Warbler Text',
-];
+]);
 
 // Include fonts from scraped sources.
-const UI_FONTS = ['DM Sans', 'Inter Tight', 'Inter', 'Plus Jakarta Sans', 'Poppins', 'Public Sans', 'Work Sans'];
+const UI_FONTS = new Set([
+	'DM Sans',
+	'Inter Tight',
+	'Inter',
+	'Plus Jakarta Sans',
+	'Poppins',
+	'Public Sans',
+	'Work Sans',
+]);
 
 allFonts.forEach(font => {
-	if (STARRED_FONTS.includes(font.name)) font.collections.push(STARRED_COLLECTION);
-	if (UI_FONTS.includes(font.name)) font.collections.push(UI_FONTS_COLLECTION);
-	if (multiplexedFonts.includes(font.name)) font.collections.push(MULTIPLEXED_COLLECTION);
+	// Index variants by their properties for quick lookup.
+	const propertyKeys = Object.keys(font.variants[0] || {});
+	font.variantsByProperty = new Map(
+		propertyKeys.map(key => [
+			key,
+			new Map(
+				font.variants.reduce((acc, variant) => {
+					const value = variant[key];
+					if (!acc.has(value)) {
+						acc.set(value, []);
+					}
+					acc.get(value).push(variant);
+					return acc;
+				}, new Map())
+			),
+		])
+	);
+
+	// Add collections based on font properties.
+	if (STARRED_FONTS.has(font.name)) font.collections.push(STARRED_COLLECTION);
+	if (UI_FONTS.has(font.name)) font.collections.push(UI_FONTS_COLLECTION);
+	if (multiplexedFonts.has(font.name)) font.collections.push(MULTIPLEXED_COLLECTION);
 	if (font.variants.length === 1) font.collections.push(SINGLE_VARIANT_COLLECTION);
 	else {
-		if (font.source.regularWeights.length > 1) font.collections.push(MULTIPLE_WEIGHTS_COLLECTION);
-		if (font.source.italicWeights || font.source.obliqueWeights) font.collections.push(MULTIPLE_STYLES_COLLECTION);
+		if (font.variantsByProperty.get('weight').size > 1) font.collections.push(MULTIPLE_WEIGHTS_COLLECTION);
+		if (font.variantsByProperty.get('width').size > 1) font.collections.push(MULTIPLE_WIDTHS_COLLECTION);
+		if (font.variantsByProperty.get('italic').size > 1) font.collections.push(MULTIPLE_STYLES_COLLECTION);
 	}
 	if (font.collections.length === 0) font.collections.push(UNCATEGORIZED_COLLECTION);
 	font.collections.push(ALL_FONTS_COLLECTION);
 });
-allFonts.forEach(
-	font =>
-		(font.activeVariant = Math.max(
-			0,
-			font.variants.findIndex(
-				variant =>
-					variant.weight === WEIGHTS[REGULAR].value && variant.style === 'normal' && variant.stretch === 'normal'
-			)
-		))
-);
 
 export default allFonts;
+
+// Also export allFonts as an object indexed by name.
+export const allFontsByName = allFonts.reduce((acc, font) => {
+	acc[font.name] = font;
+	return acc;
+}, {});
