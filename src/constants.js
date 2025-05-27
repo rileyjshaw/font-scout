@@ -1,5 +1,7 @@
 export const MIN_COLUMN_WIDTH = 600;
 
+// TODO: Ditch these and just use numbers directly.
+export const HAIRLINE = Symbol('HAIRLINE');
 export const THIN = Symbol('THIN');
 export const EXTRA_LIGHT = Symbol('EXTRA_LIGHT');
 export const LIGHT = Symbol('LIGHT');

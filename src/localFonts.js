@@ -1,4 +1,5 @@
 import {
+	HAIRLINE,
 	THIN,
 	EXTRA_LIGHT,
 	LIGHT,
@@ -622,10 +623,34 @@ const otherLicensedFonts = [
 	},
 	{
 		name: 'HEX Franklin',
-		regularWeights: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK],
-		stretches: [REGULAR, MEDIUM, SEMI_BOLD, BOLD, ULTRA_BOLD, BLACK].reduce((acc, weight) => {
+		regularWeights: [
+			HAIRLINE,
+			THIN,
+			EXTRA_LIGHT,
+			LIGHT,
+			REGULAR,
+			MEDIUM,
+			SEMI_BOLD,
+			BOLD,
+			ULTRA_BOLD,
+			BLACK,
+			ULTRA_BLACK,
+		],
+		stretches: [
+			HAIRLINE,
+			THIN,
+			EXTRA_LIGHT,
+			LIGHT,
+			REGULAR,
+			MEDIUM,
+			SEMI_BOLD,
+			BOLD,
+			ULTRA_BOLD,
+			BLACK,
+			ULTRA_BLACK,
+		].reduce((acc, weight) => {
 			acc[weight] = {
-				values: ['semi-condensed', 'condensed', 'extra-condensed'],
+				values: ['extra-condensed', 'condensed', 'semi-condensed', 'semi-expanded', 'expanded'],
 			};
 			return acc;
 		}, {}),

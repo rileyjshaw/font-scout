@@ -1751,7 +1751,39 @@
  *****************************************************************************/
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Extra_Condensed-Regular.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_X_Condensed-Hairline.woff2') format('woff2');
+	font-weight: 50;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_X_Condensed-Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_X_Condensed-Extralight.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_X_Condensed-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_X_Condensed-Regular.woff2') format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: extra-condensed;
@@ -1759,7 +1791,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Extra_Condensed-Medium.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_X_Condensed-Medium.woff2') format('woff2');
 	font-weight: 500;
 	font-style: normal;
 	font-stretch: extra-condensed;
@@ -1767,7 +1799,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Extra_Condensed-Semibold.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_X_Condensed-Semibold.woff2') format('woff2');
 	font-weight: 600;
 	font-style: normal;
 	font-stretch: extra-condensed;
@@ -1775,7 +1807,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Extra_Condensed-Bold.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_X_Condensed-Bold.woff2') format('woff2');
 	font-weight: 700;
 	font-style: normal;
 	font-stretch: extra-condensed;
@@ -1783,7 +1815,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Extra_Condensed-Extrabold.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_X_Condensed-Extrabold.woff2') format('woff2');
 	font-weight: 800;
 	font-style: normal;
 	font-stretch: extra-condensed;
@@ -1791,7 +1823,55 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Condensed-Regular.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_X_Condensed-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_X_Condensed-Ultra.woff2') format('woff2');
+	font-weight: 950;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Condensed-Hairline.woff2') format('woff2');
+	font-weight: 50;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Condensed-Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Condensed-Extralight.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Condensed-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Condensed-Regular.woff2') format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: condensed;
@@ -1799,7 +1879,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Condensed-Medium.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_Condensed-Medium.woff2') format('woff2');
 	font-weight: 500;
 	font-style: normal;
 	font-stretch: condensed;
@@ -1807,7 +1887,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Condensed-Semibold.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_Condensed-Semibold.woff2') format('woff2');
 	font-weight: 600;
 	font-style: normal;
 	font-stretch: condensed;
@@ -1815,7 +1895,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Condensed-Bold.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_Condensed-Bold.woff2') format('woff2');
 	font-weight: 700;
 	font-style: normal;
 	font-stretch: condensed;
@@ -1823,7 +1903,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Condensed-Extrabold.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_Condensed-Extrabold.woff2') format('woff2');
 	font-weight: 800;
 	font-style: normal;
 	font-stretch: condensed;
@@ -1831,7 +1911,55 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Narrow-Regular.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_Condensed-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Condensed-Ultra.woff2') format('woff2');
+	font-weight: 950;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Narrow-Hairline.woff2') format('woff2');
+	font-weight: 50;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Narrow-Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Narrow-Extralight.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Narrow-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Narrow-Regular.woff2') format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: semi-condensed;
@@ -1839,7 +1967,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Narrow-Medium.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_Narrow-Medium.woff2') format('woff2');
 	font-weight: 500;
 	font-style: normal;
 	font-stretch: semi-condensed;
@@ -1847,7 +1975,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Narrow-Semibold.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_Narrow-Semibold.woff2') format('woff2');
 	font-weight: 600;
 	font-style: normal;
 	font-stretch: semi-condensed;
@@ -1855,7 +1983,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Narrow-Bold.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_Narrow-Bold.woff2') format('woff2');
 	font-weight: 700;
 	font-style: normal;
 	font-stretch: semi-condensed;
@@ -1863,7 +1991,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2_Narrow-Extrabold.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_Narrow-Extrabold.woff2') format('woff2');
 	font-weight: 800;
 	font-style: normal;
 	font-stretch: semi-condensed;
@@ -1871,7 +1999,55 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2-Regular.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3_Narrow-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Narrow-Ultra.woff2') format('woff2');
+	font-weight: 950;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3-Hairline.woff2') format('woff2');
+	font-weight: 50;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3-Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3-Extralight.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3-Regular.woff2') format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: normal;
@@ -1879,7 +2055,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2-Medium.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3-Medium.woff2') format('woff2');
 	font-weight: 500;
 	font-style: normal;
 	font-stretch: normal;
@@ -1887,7 +2063,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2-Semibold.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3-Semibold.woff2') format('woff2');
 	font-weight: 600;
 	font-style: normal;
 	font-stretch: normal;
@@ -1895,7 +2071,7 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2-Bold.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3-Bold.woff2') format('woff2');
 	font-weight: 700;
 	font-style: normal;
 	font-stretch: normal;
@@ -1903,10 +2079,202 @@
 
 @font-face {
 	font-family: 'HEX Franklin';
-	src: url('HEX_Franklin_v0.2-Extrabold.woff2') format('woff2');
+	src: url('HEX_Franklin_v0.3-Extrabold.woff2') format('woff2');
 	font-weight: 800;
 	font-style: normal;
 	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3-Ultra.woff2') format('woff2');
+	font-weight: 950;
+	font-style: normal;
+	font-stretch: normal;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Semiwide-Hairline.woff2') format('woff2');
+	font-weight: 50;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Semiwide-Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Semiwide-Extralight.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Semiwide-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Semiwide-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Semiwide-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Semiwide-Semibold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Semiwide-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Semiwide-Extrabold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Semiwide-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Semiwide-Ultra.woff2') format('woff2');
+	font-weight: 950;
+	font-style: normal;
+	font-stretch: semi-expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Wide-Hairline.woff2') format('woff2');
+	font-weight: 50;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Wide-Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Wide-Extralight.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Wide-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Wide-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Wide-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Wide-Semibold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Wide-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Wide-Extrabold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Wide-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'HEX Franklin';
+	src: url('HEX_Franklin_v0.3_Wide-Ultra.woff2') format('woff2');
+	font-weight: 950;
+	font-style: normal;
+	font-stretch: expanded;
 }
 
 /******************************************************************************
