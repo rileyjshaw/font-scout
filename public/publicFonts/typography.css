@@ -76,7 +76,7 @@
 
 @font-face {
 	font-family: 'AUTHENTIC Sans';
-	src: url('AUTHENTICSans-condensed-60.woff2') format('woff2');
+	src: url('AUTHENTICSans-Condensed-60.woff2') format('woff2');
 	font-weight: 300;
 	font-style: normal;
 	font-stretch: condensed;
@@ -84,7 +84,7 @@
 
 @font-face {
 	font-family: 'AUTHENTIC Sans';
-	src: url('AUTHENTICSans-condensed-90.woff2') format('woff2');
+	src: url('AUTHENTICSans-Condensed-90.woff2') format('woff2');
 	font-weight: 400;
 	font-style: normal;
 	font-stretch: condensed;
@@ -92,7 +92,7 @@
 
 @font-face {
 	font-family: 'AUTHENTIC Sans';
-	src: url('AUTHENTICSans-condensed-130.woff2') format('woff2');
+	src: url('AUTHENTICSans-Condensed-130.woff2') format('woff2');
 	font-weight: 700;
 	font-style: normal;
 	font-stretch: condensed;
@@ -100,7 +100,7 @@
 
 @font-face {
 	font-family: 'AUTHENTIC Sans';
-	src: url('AUTHENTICSans-condensed-150.woff2') format('woff2');
+	src: url('AUTHENTICSans-Condensed-150.woff2') format('woff2');
 	font-weight: 900;
 	font-style: normal;
 	font-stretch: condensed;
