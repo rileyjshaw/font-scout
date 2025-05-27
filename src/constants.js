@@ -1,44 +1,53 @@
 export const MIN_COLUMN_WIDTH = 600;
 
-// TODO: Ditch these and just use numbers directly.
-export const HAIRLINE = Symbol('HAIRLINE');
-export const THIN = Symbol('THIN');
-export const EXTRA_LIGHT = Symbol('EXTRA_LIGHT');
-export const LIGHT = Symbol('LIGHT');
-export const REGULAR = Symbol('REGULAR');
-export const BOOK = Symbol('BOOK');
-export const MEDIUM = Symbol('MEDIUM');
-export const SEMI_BOLD = Symbol('SEMI_BOLD');
-export const BOLD = Symbol('BOLD');
-export const ULTRA_BOLD = Symbol('ULTRA_BOLD');
-export const BLACK = Symbol('BLACK');
-export const ULTRA_BLACK = Symbol('ULTRA_BLACK');
+export const WEIGHT_HAIRLINE = 50;
+export const WEIGHT_THIN = 100;
+export const WEIGHT_EXTRA_LIGHT = 200;
+export const WEIGHT_LIGHT = 300;
+export const WEIGHT_REGULAR = 400;
+export const WEIGHT_BOOK = 450;
+export const WEIGHT_MEDIUM = 500;
+export const WEIGHT_SEMI_BOLD = 600;
+export const WEIGHT_BOLD = 700;
+export const WEIGHT_ULTRA_BOLD = 800;
+export const WEIGHT_BLACK = 900;
+export const WEIGHT_ULTRA_BLACK = 950;
+
+export const WIDTH_ULTRA_CONDENSED = 50;
+export const WIDTH_EXTRA_CONDENSED = 62.5;
+export const WIDTH_CONDENSED = 75;
+export const WIDTH_SEMI_CONDENSED = 87.5;
+export const WIDTH_NORMAL = 100;
+export const WIDTH_SEMI_EXPANDED = 112.5;
+export const WIDTH_EXPANDED = 125;
+export const WIDTH_EXTRA_EXPANDED = 150;
+export const WIDTH_ULTRA_EXPANDED = 200;
 
 export const READABLE_VALUES = {
 	weight: {
-		50: 'Hairline',
-		100: 'Thin',
-		200: 'Extra Light',
-		300: 'Light',
-		400: 'Regular',
-		450: 'Book',
-		500: 'Medium',
-		600: 'Semi Bold',
-		700: 'Bold',
-		800: 'Ultra Bold',
-		900: 'Black',
-		950: 'Ultra Black',
+		WEIGHT_HAIRLINE: 'Hairline',
+		WEIGHT_THIN: 'Thin',
+		WEIGHT_EXTRA_LIGHT: 'Extra Light',
+		WEIGHT_LIGHT: 'Light',
+		WEIGHT_REGULAR: 'Regular',
+		WEIGHT_BOOK: 'Book',
+		WEIGHT_MEDIUM: 'Medium',
+		WEIGHT_SEMI_BOLD: 'Semi Bold',
+		WEIGHT_BOLD: 'Bold',
+		WEIGHT_ULTRA_BOLD: 'Ultra Bold',
+		WEIGHT_BLACK: 'Black',
+		WEIGHT_ULTRA_BLACK: 'Ultra Black',
 	},
 	width: {
-		50: 'Ultra condensed',
-		62.5: 'Extra condensed',
-		75: 'Condensed',
-		87.5: 'Semi condensed',
-		100: 'Normal',
-		112.5: 'Semi expanded',
-		125: 'Expanded',
-		150: 'Extra expanded',
-		200: 'Ultra expanded',
+		WIDTH_ULTRA_CONDENSED: 'Ultra condensed',
+		WIDTH_EXTRA_CONDENSED: 'Extra condensed',
+		WIDTH_CONDENSED: 'Condensed',
+		WIDTH_SEMI_CONDENSED: 'Semi condensed',
+		WIDTH_NORMAL: 'Normal',
+		WIDTH_SEMI_EXPANDED: 'Semi expanded',
+		WIDTH_EXPANDED: 'Expanded',
+		WIDTH_EXTRA_EXPANDED: 'Extra expanded',
+		WIDTH_ULTRA_EXPANDED: 'Ultra expanded',
 	},
 	italic: {
 		0: 'Normal',
@@ -49,39 +58,6 @@ export const READABLE_VALUES = {
 		1: 'Oblique',
 	},
 };
-
-export const WEIGHTS = {
-	[HAIRLINE]: 50,
-	[THIN]: 100,
-	[EXTRA_LIGHT]: 200,
-	[LIGHT]: 300,
-	[REGULAR]: 400,
-	[BOOK]: 450,
-	[MEDIUM]: 500,
-	[SEMI_BOLD]: 600,
-	[BOLD]: 700,
-	[ULTRA_BOLD]: 800,
-	[BLACK]: 900,
-	[ULTRA_BLACK]: 950,
-};
-
-export const WIDTH_PERCENTAGES = {
-	'ultra-condensed': 50,
-	'extra-condensed': 62.5,
-	condensed: 75,
-	'semi-condensed': 87.5,
-	normal: 100,
-	'semi-expanded': 112.5,
-	expanded: 125,
-	'extra-expanded': 150,
-	'ultra-expanded': 200,
-};
-
-export const WEIGHT_SYMBOLS = Reflect.ownKeys(WEIGHTS).reduce((acc, key) => {
-	const value = WEIGHTS[key];
-	acc[value] = key;
-	return acc;
-}, {});
 
 export const defaultPreviews = [
 	['David\nWowie!', 120, 0.8, 900, 'left', 'grid'],
@@ -208,15 +184,19 @@ export const COLLECTION_GROUPS = [
 export const FONT_SETTINGS = {
 	weight: {
 		label: 'Weight',
-		defaultValue: 400,
+		defaultValue: WEIGHT_REGULAR,
 	},
 	italic: {
 		label: 'Italic',
 		defaultValue: 0,
 	},
+	oblique: {
+		label: 'Oblique',
+		defaultValue: 0,
+	},
 	width: {
 		label: 'Width',
-		defaultValue: WIDTH_PERCENTAGES.normal,
+		defaultValue: WIDTH_NORMAL,
 		isUniformSteps: true,
 	},
 	scale: {

@@ -137,7 +137,10 @@ function ExplorationMode({
 
 		// Our virtual grid needs to know the height of the tallest font, since it doesn’t handle dynamic row heights.
 		// We measure all fonts with manually adjusted settings, since their new settings might make them taller than
-		// the tallest untweaked font. Then we take the 3 tallest untweaked fonts.
+		// the tallest untweaked font. Then we take the 3 biggest untweaked fonts in each category.
+		// TODO: This doesn’t actually make sense. We should look through whatever variants are actually being shown,
+		//       not their biggest variants. For instance, even if the interface is showing hairline weights right now,
+		//       the “biggest” fonts that are matched are based on their size at ultra-bold, then rendered at hairline.
 		const bigFonts = [];
 		filteredFonts.forEach(font => {
 			if (manuallyAdjustedSettings[font.name]) {
@@ -149,17 +152,22 @@ function ExplorationMode({
 		});
 
 		const visibleFontNames = new Set(filteredFonts.map(font => font.name));
-		for (const sortedList of Object.values(sizeSortedFontVariants)) {
-			for (const { name } of sortedList) {
-				if (visibleFontNames.has(name) && !manuallyAdjustedSettings[name]) {
-					bigFonts.push({
-						font: allFontsByName[name],
-						settings: {},
-					});
-					if (bigFonts.length >= 3) break;
+		const untweakedBigFonts = new Set();
+		Object.values(sizeSortedFontVariants).forEach(sizeSortedList => {
+			let count = 0;
+			for (const { name } of sizeSortedList) {
+				if (visibleFontNames.has(name) && !manuallyAdjustedSettings[name] && !untweakedBigFonts.has(name)) {
+					untweakedBigFonts.add(name);
+					if (++count >= 3) break;
 				}
 			}
-		}
+		});
+		bigFonts.push(
+			...Array.from(untweakedBigFonts).map(name => ({
+				font: allFontsByName[name],
+				settings: {},
+			}))
+		);
 
 		return [filteredFonts, bigFonts];
 	}, [matchedFonts, configMode, fontSettings, hiddenFonts, manuallyAdjustedSettings, filterText]);

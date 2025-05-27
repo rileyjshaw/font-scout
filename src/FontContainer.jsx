@@ -21,7 +21,7 @@ const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, ...prop
 					fontFamily: `"${font.name}"`,
 					fontWeight: settings.weight ?? 'normal',
 					fontSize: `${settings.scale ?? 1}em`,
-					fontStyle: settings.italic ? 'italic' : 'normal',
+					fontStyle: settings.italic ? 'italic' : settings.oblique ? 'oblique' : 'normal',
 					fontStretch: settings.width == null ? 'normal' : `${settings.width}%`,
 					lineHeight: `calc(var(--font-preview-line-height) + ${settings.lineHeightOffset ?? 0})`,
 				}}
@@ -74,8 +74,9 @@ const FontContainer = React.memo(function FontContainer({
 				const [bestDiff] = best;
 				const weightDiff = Math.abs(variant.weight - (newSettings.weight ?? FONT_SETTINGS.weight.defaultValue));
 				const italicDiff = Math.abs(variant.italic - (newSettings.italic ?? FONT_SETTINGS.italic.defaultValue));
+				const obliqueDiff = Math.abs(variant.oblique - (newSettings.oblique ?? FONT_SETTINGS.oblique.defaultValue));
 				const widthDiff = Math.abs(variant.width - (newSettings.width ?? FONT_SETTINGS.width.defaultValue));
-				const currentDiff = weightDiff + italicDiff * 1000 + widthDiff * 1000;
+				const currentDiff = weightDiff + italicDiff * 1000 + obliqueDiff * 1000 + widthDiff * 1000;
 				return currentDiff < bestDiff ? [currentDiff, variant] : best;
 			},
 			[Infinity, null]

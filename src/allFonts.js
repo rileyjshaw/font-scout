@@ -1,7 +1,6 @@
 import googleFonts from './googleFonts.js';
 import localFonts from './localFonts.js';
 import {
-	WEIGHTS,
 	ALL_FONTS_COLLECTION,
 	SINGLE_VARIANT_COLLECTION,
 	MULTIPLE_WEIGHTS_COLLECTION,
@@ -11,72 +10,24 @@ import {
 	STARRED_COLLECTION,
 	UI_FONTS_COLLECTION,
 	UNCATEGORIZED_COLLECTION,
-	WIDTH_PERCENTAGES,
+	VARIABLE_COLLECTION,
+	FONT_SETTINGS,
 } from './constants.js';
 import multiplexedFontsArray from './multiplexed_fonts.json'; // assert { type: 'json' };
 
+const variantDefaults = ['weight', 'italic', 'oblique', 'width'].reduce((acc, key) => {
+	acc[key] = FONT_SETTINGS[key].defaultValue;
+	return acc;
+}, {});
+
 const multiplexedFonts = new Set(multiplexedFontsArray);
-const allFonts = [...googleFonts, ...localFonts]
+const allFonts = [...localFonts, ...googleFonts]
 	.map(font => ({
-		name: font.name,
-		href: font.href,
-		// TODO: This needs to be reworked to handle variable fonts properly.
-		// TODO: I can make a bunch of utility functions to make this easier. For instance:
-		// generatePermutations({
-		//   weight: [REGULAR],
-		//   italic: [false, true],
-		//   width: ['normal', 'condensed'],
-		// })
-		variants: [
-			...font.regularWeights.map(weight => ({
-				weight: WEIGHTS[weight],
-				italic: 0,
-				width: WIDTH_PERCENTAGES.normal,
-			})),
-			...(Array.isArray(font.italicWeights) ? font.italicWeights : font.italicWeights ? font.regularWeights : []).map(
-				weight => ({
-					weight: WEIGHTS[weight],
-					italic: 1,
-					width: WIDTH_PERCENTAGES.normal,
-				})
-			),
-			...(Array.isArray(font.obliqueWeights)
-				? font.obliqueWeights
-				: font.obliqueWeights
-				? font.regularWeights
-				: []
-			).map(weight => ({
-				weight: WEIGHTS[weight],
-				italic: 1, // TODO: This should be oblique: 1
-				width: WIDTH_PERCENTAGES.normal,
-			})),
-			...(font.widths
-				? Reflect.ownKeys(font.widths).flatMap(weight => {
-						const { values, italicWeights, obliqueWeights } = font.widths[weight];
-						const variants = values.map(width => ({
-							weight: WEIGHTS[weight],
-							italic: 0,
-							width: WIDTH_PERCENTAGES[width],
-						}));
-						return [
-							...variants,
-							...(italicWeights
-								? variants.map(variant => ({
-										...variant,
-										italic: 1,
-								  }))
-								: []),
-							...(obliqueWeights
-								? variants.map(variant => ({
-										...variant,
-										italic: 1, // TODO: This should be oblique: 1
-								  }))
-								: []),
-						];
-				  })
-				: []),
-		],
-		collections: font.collections ?? [],
+		...font,
+		variants: font.variants.map(variant => ({
+			...variantDefaults,
+			...variant,
+		})),
 	}))
 	.sort((a, b) => a.name.localeCompare(b.name));
 
@@ -128,7 +79,7 @@ const UI_FONTS = new Set([
 
 allFonts.forEach(font => {
 	// Index variants by their properties for quick lookup.
-	const propertyKeys = Object.keys(font.variants[0] || {});
+	const propertyKeys = [...new Set(font.variants.flatMap(variant => Object.keys(variant)))];
 	font.variantsByProperty = new Map(
 		propertyKeys.map(key => [
 			key,
@@ -149,11 +100,16 @@ allFonts.forEach(font => {
 	if (STARRED_FONTS.has(font.name)) font.collections.push(STARRED_COLLECTION);
 	if (UI_FONTS.has(font.name)) font.collections.push(UI_FONTS_COLLECTION);
 	if (multiplexedFonts.has(font.name)) font.collections.push(MULTIPLEXED_COLLECTION);
-	if (font.variants.length === 1) font.collections.push(SINGLE_VARIANT_COLLECTION);
-	else {
+	if (font.isVariable) {
+		font.collections.push(VARIABLE_COLLECTION);
+	} else if (font.variants.length === 1) {
+		font.collections.push(SINGLE_VARIANT_COLLECTION);
+	} else {
 		if (font.variantsByProperty.get('weight').size > 1) font.collections.push(MULTIPLE_WEIGHTS_COLLECTION);
 		if (font.variantsByProperty.get('width').size > 1) font.collections.push(MULTIPLE_WIDTHS_COLLECTION);
-		if (font.variantsByProperty.get('italic').size > 1) font.collections.push(MULTIPLE_STYLES_COLLECTION);
+		if (font.variantsByProperty.get('italic').size > 1 || font.variantsByProperty.get('oblique').size > 1) {
+			font.collections.push(MULTIPLE_STYLES_COLLECTION);
+		}
 	}
 	if (font.collections.length === 0) font.collections.push(UNCATEGORIZED_COLLECTION);
 	font.collections.push(ALL_FONTS_COLLECTION);

@@ -1,6 +1,4 @@
 import {
-	WEIGHTS,
-	WEIGHT_SYMBOLS,
 	GOOGLE_FONTS_COLLECTION,
 	GOOGLE_FONTS_SHORTLIST_COLLECTION,
 	FREE_OPEN_COLLECTION,
@@ -9,7 +7,7 @@ import {
 	MONOSPACE_COLLECTION,
 	SANS_SERIF_COLLECTION,
 	SERIF_COLLECTION,
-	VARIABLE_COLLECTION,
+	WEIGHT_REGULAR,
 } from './constants.js';
 import responseJson from './google_fonts_raw.json'; // assert { type: 'json' };
 
@@ -116,31 +114,43 @@ const googleFonts = responseJson.items
 		const [regularWeights, italicWeights] = font.variants.reduce(
 			(acc, variant) => {
 				const [regularWeights, italicWeights] = acc;
-				if (variant === 'regular') regularWeights.push(WEIGHT_SYMBOLS[400]);
-				else if (variant === 'italic') italicWeights.push(WEIGHT_SYMBOLS[400]);
+				if (variant === 'regular') regularWeights.push(WEIGHT_REGULAR);
+				else if (variant === 'italic') italicWeights.push(WEIGHT_REGULAR);
 				else {
 					const [, weight, isItalic] = variant.match(/([0-9]+)(italic)?/);
-					(isItalic ? italicWeights : regularWeights).push(WEIGHT_SYMBOLS[weight]);
+					(isItalic ? italicWeights : regularWeights).push(weight);
 				}
 				return acc;
 			},
 			[[], []]
 		);
+
+		const variants = [
+			...regularWeights.map(weight => ({
+				weight,
+				italic: 0,
+			})),
+			...italicWeights.map(weight => ({
+				weight,
+				italic: 1,
+			})),
+		];
+
 		// TODO: Remove this once we have a way to handle variable fonts.
 		const isVariable = false && !!font.axes?.find(axis => axis.tag === 'wght');
 		const commonProperties = {
 			name,
-			regularWeights,
-			italicWeights,
+			isVariable,
+			variants,
 			collections: [
 				GOOGLE_FONTS_COLLECTION,
 				FREE_OPEN_COLLECTION,
 				FONT_CATEGORY_COLLECTIONS[font.category],
-				...(isVariable ? [VARIABLE_COLLECTION] : []),
 				...(GOOGLE_FONTS_SHORTLIST.includes(font.family) ? [GOOGLE_FONTS_SHORTLIST_COLLECTION] : []),
 			],
 		};
 
+		let additionalProperties = {};
 		if (isVariable) {
 			// Switch from Google’s object format to a simpler { wght: [100, 900], ital: [0, 1] } format.
 			const axes = font.axes.reduce((acc, cur) => {
@@ -157,21 +167,24 @@ const googleFonts = responseJson.items
 					[[], []]
 				)}&display=block`;
 
-			return {
-				...commonProperties,
+			additionalProperties = {
 				href,
 				axes,
 			};
 		} else {
 			const href = `${hrefBase}:ital,wght@${[regularWeights, italicWeights]
-				.flatMap((arr, i) => arr.map(symbol => `${i},${WEIGHTS[symbol]}`))
+				.flatMap((arr, i) => arr.map(weight => `${i},${weight}`))
 				.join(';')}&display=block`;
 
-			return {
-				...commonProperties,
+			additionalProperties = {
 				href,
 			};
 		}
+
+		return {
+			...commonProperties,
+			...additionalProperties,
+		};
 	});
 
 export default googleFonts;

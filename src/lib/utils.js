@@ -15,3 +15,19 @@ export function getNearestValue(value, array, isRange) {
 		return Math.abs(closest - value) < Math.abs(acc - value) ? closest : acc;
 	});
 }
+
+// Expands an object with arrays of values into an array of objects with all possible combinations of values.
+// For example, generatePermutations({ weight: [400, 700], italic: [false, true] }) returns:
+// [{ weight: 400, italic: false }, { weight: 400, italic: true }, { weight: 700, italic: false }, { weight: 700, italic: true }]
+export function generatePermutations(options) {
+	return Object.entries(options).reduce(
+		(results, [key, values]) =>
+			results.flatMap(result =>
+				values.map(value => ({
+					...result,
+					[key]: value,
+				}))
+			),
+		[{}]
+	);
+}
