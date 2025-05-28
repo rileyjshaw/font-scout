@@ -1,3 +1,27 @@
+// Expands an object with arrays of values into an array of objects with all possible combinations of values.
+// For example, generatePermutations({ weight: [400, 700], italic: [false, true] }) returns:
+// [{ weight: 400, italic: false }, { weight: 400, italic: true }, { weight: 700, italic: false }, { weight: 700, italic: true }]
+export function generatePermutations(options) {
+	return Object.entries(options).reduce(
+		(results, [key, values]) =>
+			results.flatMap(result =>
+				Array.isArray(values)
+					? values.map(value => ({
+							...result,
+							[key]: value,
+					  }))
+					: [
+							{
+								...result,
+								[key]: values,
+							},
+					  ]
+			),
+		[{}]
+	);
+}
+// ^ copied from utils.js.
+
 const notice = document.createElement('p');
 const fontFamily = document.createElement('span');
 const progress = document.createElement('span');
@@ -65,28 +89,31 @@ document.fonts.ready.then(async () => {
 
 		const variantsWithStats = [];
 		for (const variant of font.variants) {
-			const style = {
-				fontFamily: font.name,
-				fontStyle: variant.style,
-				fontWeight: variant.weight,
-				fontStretch: variant.width,
-				overflow: 'hidden',
-			};
-			Object.assign(document.body.style, style);
-			progress.textContent = Math.round((++variantIdx / nVariants) * 100);
-			await new Promise(r => setTimeout(r, 400));
-			const characterWidths = characterWidthProbes.map(span => span.getBoundingClientRect().width);
-			const width = widthProbe.getBoundingClientRect().width;
-			const height = heightProbe.getBoundingClientRect().height;
-			const size = width * height;
+			const permutations = generatePermutations(variant);
+			for (const permutation of permutations) {
+				const style = {
+					fontFamily: font.name,
+					fontStyle: permutation.italic ? 'italic' : permutation.oblique ? 'oblique' : 'normal',
+					fontWeight: permutation.weight,
+					fontStretch: permutation.width,
+					overflow: 'hidden',
+				};
+				Object.assign(document.body.style, style);
+				await new Promise(r => setTimeout(r, 400));
+				const characterWidths = characterWidthProbes.map(span => span.getBoundingClientRect().width);
+				const width = widthProbe.getBoundingClientRect().width;
+				const height = heightProbe.getBoundingClientRect().height;
+				const size = width * height;
 
-			variantsWithStats.push({
-				variant,
-				characterWidths,
-				width,
-				height,
-				size,
-			});
+				variantsWithStats.push({
+					variant: permutation,
+					characterWidths,
+					width,
+					height,
+					size,
+				});
+			}
+			progress.textContent = Math.round((++variantIdx / nVariants) * 100);
 		}
 
 		for (const variant of variantsWithStats) {

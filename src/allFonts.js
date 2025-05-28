@@ -80,7 +80,7 @@ const UI_FONTS = new Set([
 allFonts.forEach(font => {
 	// Index variants by their properties for quick lookup.
 	const propertyKeys = [...new Set(font.variants.flatMap(variant => Object.keys(variant)))];
-	font.variantsByProperty = new Map(
+	font.variantGroupsByProperty = new Map(
 		propertyKeys.map(key => [
 			key,
 			new Map(
@@ -104,12 +104,25 @@ allFonts.forEach(font => {
 		font.collections.push(VARIABLE_COLLECTION);
 	} else if (font.variants.length === 1) {
 		font.collections.push(SINGLE_VARIANT_COLLECTION);
-	} else {
-		if (font.variantsByProperty.get('weight').size > 1) font.collections.push(MULTIPLE_WEIGHTS_COLLECTION);
-		if (font.variantsByProperty.get('width').size > 1) font.collections.push(MULTIPLE_WIDTHS_COLLECTION);
-		if (font.variantsByProperty.get('italic').size > 1 || font.variantsByProperty.get('oblique').size > 1) {
-			font.collections.push(MULTIPLE_STYLES_COLLECTION);
-		}
+	}
+
+	const weightVariants = font.variantGroupsByProperty.get('weight');
+	if (weightVariants.size > 1 || Array.isArray(weightVariants.values().next().value)) {
+		font.collections.push(MULTIPLE_WEIGHTS_COLLECTION);
+	}
+	const widthVariants = font.variantGroupsByProperty.get('width');
+	if (widthVariants.size > 1 || Array.isArray(widthVariants.values().next().value)) {
+		font.collections.push(MULTIPLE_WIDTHS_COLLECTION);
+	}
+	const italicVariants = font.variantGroupsByProperty.get('italic');
+	const obliqueVariants = font.variantGroupsByProperty.get('oblique');
+	if (
+		italicVariants.size > 1 ||
+		Array.isArray(italicVariants.values().next().value) ||
+		obliqueVariants.size > 1 ||
+		Array.isArray(obliqueVariants.values().next().value)
+	) {
+		font.collections.push(MULTIPLE_STYLES_COLLECTION);
 	}
 	if (font.collections.length === 0) font.collections.push(UNCATEGORIZED_COLLECTION);
 	font.collections.push(ALL_FONTS_COLLECTION);

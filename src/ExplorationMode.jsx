@@ -219,9 +219,9 @@ function ExplorationMode({
 	);
 
 	useEffect(() => {
-		// Update all fonts' weights to their nearest available weight.
+		// Update all fonts’ weights to their nearest available weight.
 		const updates = allFonts.reduce((acc, font) => {
-			const availableWeights = font.variantsByProperty.get('weight').keys();
+			const availableWeights = Array.from(font.variantGroupsByProperty.get('weight').keys());
 			const closestWeight = getNearestValue(globalFontWeight, availableWeights);
 			return {
 				...acc,
@@ -433,7 +433,7 @@ function ExplorationMode({
 					</div>
 				)}
 				{isShowingFilter && (
-					<div className="border-t py-2 px-4 flex items-center gap-2">
+					<div className="border-t py-2 px-5 flex items-center gap-2">
 						<label htmlFor="filter">Filter results</label>
 						<Input
 							autoFocus

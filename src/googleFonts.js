@@ -85,7 +85,6 @@ const AWWWARDS_BEST_GOOGLE_FONTS = [
 ];
 
 const IGNORED_FONTS = [
-	'Martian Mono', // The local version includes various widths.
 	'Victor Mono', // The local version includes obliques.
 ];
 

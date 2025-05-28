@@ -1,9 +1,9 @@
-import React, { useEffect, useRef, useMemo } from 'react';
+import React, { useEffect, useRef } from 'react';
 import useHover from '@react-hook/hover';
 import { Eye, EyeOff, Pin, PinOff } from 'lucide-react';
 
-import { cn, getNearestValue } from '@/lib/utils';
-import { SettingsPopover } from '@/components/settings-popover';
+import { cn, getMatchingVariants, getNearestValue, getNearestValueFromRange } from '@/lib/utils';
+import { SettingsPopover } from '@/components/SettingsPopover';
 import { Button } from '@/components/ui/button';
 import { FONT_SETTINGS } from '@/constants';
 import './FontContainer.css';
@@ -33,6 +33,16 @@ const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, ...prop
 	);
 };
 
+function getSettingsFromVariant(variant, oldSettings) {
+	const newSettings = { ...variant };
+	Object.entries(newSettings).forEach(([key, value]) => {
+		if (Array.isArray(value)) {
+			newSettings[key] = getNearestValueFromRange(oldSettings[key], value);
+		}
+	});
+	return newSettings;
+}
+
 const FontContainer = React.memo(function FontContainer({
 	font,
 	isMarked,
@@ -56,28 +66,31 @@ const FontContainer = React.memo(function FontContainer({
 			[id]: value,
 		};
 
-		const validVariantsForChangedProperty = font.variantsByProperty.get(id);
-		if (!validVariantsForChangedProperty) {
+		const variantGroupsForChangedProperty = font.variantGroupsByProperty.get(id);
+		if (!variantGroupsForChangedProperty) {
 			// For properties that don’t have specific valid variants, we assume any value is valid.
 			return onChangeFontSettings(newSettings, font, isManual);
 		}
 
-		const validVariantsForNewValue = validVariantsForChangedProperty.get(value);
-		if (!validVariantsForNewValue) {
+		const validVariantsForNewValue = getMatchingVariants(value, variantGroupsForChangedProperty);
+		if (!validVariantsForNewValue.length) {
 			// We should never get here. Throw an error.
 			console.error(`No valid variants found for ${id} = ${value}`);
 		}
 
-		// Find the variant with the closest other properties
+		// Find the variant with the closest other properties.
 		const bestMatch = validVariantsForNewValue.reduce(
 			(best, variant) => {
 				const [bestDiff] = best;
-				const weightDiff = Math.abs(variant.weight - (newSettings.weight ?? FONT_SETTINGS.weight.defaultValue));
-				const italicDiff = Math.abs(variant.italic - (newSettings.italic ?? FONT_SETTINGS.italic.defaultValue));
-				const obliqueDiff = Math.abs(variant.oblique - (newSettings.oblique ?? FONT_SETTINGS.oblique.defaultValue));
-				const widthDiff = Math.abs(variant.width - (newSettings.width ?? FONT_SETTINGS.width.defaultValue));
+				const variantSettings = getSettingsFromVariant(variant, newSettings);
+				const [weightDiff, italicDiff, obliqueDiff, widthDiff] = ['weight', 'italic', 'oblique', 'width'].map(key => {
+					const defaultValue = FONT_SETTINGS[key].defaultValue;
+					const oldValue = newSettings[key] ?? defaultValue;
+					const newValue = variantSettings[key] ?? defaultValue;
+					return Math.abs(newValue - oldValue);
+				});
 				const currentDiff = weightDiff + italicDiff * 1000 + obliqueDiff * 1000 + widthDiff * 1000;
-				return currentDiff < bestDiff ? [currentDiff, variant] : best;
+				return currentDiff < bestDiff ? [currentDiff, variantSettings] : best;
 			},
 			[Infinity, null]
 		)[1];
@@ -93,15 +106,27 @@ const FontContainer = React.memo(function FontContainer({
 	const EyeIcon = isHidden ? Eye : EyeOff;
 
 	const validSettings = [
-		...Array.from(font.variantsByProperty.entries())
-			.filter(([_, variants]) => variants.size > 1)
+		...Array.from(font.variantGroupsByProperty.entries())
+			.filter(([_, variants]) => variants.size > 1 || Array.isArray(variants.keys().next().value))
 			.map(([id, variants]) => {
-				const steps = [...variants.keys()].map(Number).sort((a, b) => a - b);
+				const keys = [...variants.keys()];
+				const variableRange = keys.find(key => Array.isArray(key));
+
+				const settingsProperties = {};
+				if (variableRange) {
+					const [min, max] = variableRange;
+					settingsProperties.min = min;
+					settingsProperties.max = max;
+					settingsProperties.step = 0.1;
+				} else {
+					const steps = keys.map(Number).sort((a, b) => a - b);
+					settingsProperties.steps = steps;
+					settingsProperties.defaultValue = getNearestValue(FONT_SETTINGS[id].defaultValue, steps);
+				}
 				return {
 					id,
 					...FONT_SETTINGS[id],
-					steps,
-					defaultValue: getNearestValue(FONT_SETTINGS[id].defaultValue, steps),
+					...settingsProperties,
 				};
 			}),
 		{
@@ -129,7 +154,6 @@ const FontContainer = React.memo(function FontContainer({
 					<div className="grow font-title text-center">
 						{isShowingTitles ? (
 							<>
-								{/* TODO: Handle variable fonts properly here. */}
 								{font.name} • <span>{font.isVariable ? '∞' : font.variants.length}</span>
 							</>
 						) : null}

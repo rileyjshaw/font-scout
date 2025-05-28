@@ -1,5 +1,5 @@
 import {
-	WEIGHT_HAIRLINE,
+	WEIGHT_MIN,
 	WEIGHT_THIN,
 	WEIGHT_EXTRA_LIGHT,
 	WEIGHT_LIGHT,
@@ -11,6 +11,7 @@ import {
 	WEIGHT_ULTRA_BOLD,
 	WEIGHT_BLACK,
 	WEIGHT_ULTRA_BLACK,
+	WEIGHT_MAX,
 	ALL_CAPS_COLLECTION,
 	ATIPO_COLLECTION,
 	DISPLAY_COLLECTION,
@@ -24,7 +25,6 @@ import {
 	SANS_SERIF_COLLECTION,
 	SERIF_COLLECTION,
 	SYSTEM_FONTS_COLLECTION,
-	VARIABLE_COLLECTION,
 	MULTIPLEXED_COLLECTION,
 	UI_FONTS_COLLECTION,
 	WIDTH_CONDENSED,
@@ -35,6 +35,7 @@ import {
 	WIDTH_EXPANDED,
 	WIDTH_ULTRA_EXPANDED,
 	WIDTH_SEMI_CONDENSED,
+	WIDTH_EXTRA_EXPANDED,
 } from './constants.js';
 import { generatePermutations } from './lib/utils.js';
 
@@ -397,19 +398,11 @@ const djrFontOfTheMonth = [
 	},
 	{
 		name: 'Nickel Gothic',
+		isVariable: true,
 		variants: generatePermutations({
-			weight: [WEIGHT_REGULAR],
-			width: [WIDTH_NORMAL, WIDTH_SEMI_EXPANDED, WIDTH_EXPANDED],
+			width: [[WIDTH_NORMAL, WIDTH_EXTRA_EXPANDED]],
 		}),
 		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION],
-	},
-	{
-		name: 'Nickel Gothic Variable',
-		variants: generatePermutations({
-			weight: [WEIGHT_REGULAR],
-			width: [WIDTH_NORMAL, WIDTH_EXPANDED, WIDTH_ULTRA_EXPANDED],
-		}),
-		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, VARIABLE_COLLECTION],
 	},
 	{
 		name: 'Nickel Open Face',
@@ -420,21 +413,14 @@ const djrFontOfTheMonth = [
 	},
 	{
 		name: 'Output Sans 2 Beta',
+		isVariable: true,
 		variants: generatePermutations({
-			weight: [
-				WEIGHT_THIN,
-				WEIGHT_EXTRA_LIGHT,
-				WEIGHT_LIGHT,
-				WEIGHT_REGULAR,
-				WEIGHT_BOOK,
-				WEIGHT_MEDIUM,
-				WEIGHT_SEMI_BOLD,
-				WEIGHT_BOLD,
-				WEIGHT_ULTRA_BOLD,
-			],
+			weight: [[WEIGHT_MIN, WEIGHT_ULTRA_BOLD]],
+			width: [[WIDTH_CONDENSED, WIDTH_EXPANDED]],
+			// TODO: There are more axes for this font.
 			italic: [0, 1],
 		}),
-		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, UI_FONTS_COLLECTION],
+		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION],
 	},
 	{
 		name: 'Pomfret',
@@ -445,18 +431,12 @@ const djrFontOfTheMonth = [
 	},
 	{
 		name: 'Roslindale Extended',
+		isVariable: true,
 		variants: generatePermutations({
 			weight: [WEIGHT_REGULAR],
-			width: [WIDTH_NORMAL, WIDTH_EXPANDED],
+			width: [[80, WIDTH_EXTRA_EXPANDED]],
 		}),
 		collections: [DISPLAY_COLLECTION],
-	},
-	{
-		name: 'Roslindale Extended Variable',
-		variants: generatePermutations({
-			weight: [WEIGHT_REGULAR],
-		}),
-		collections: [DISPLAY_COLLECTION, VARIABLE_COLLECTION],
 	},
 	{
 		name: 'Warbler Text',
@@ -614,22 +594,6 @@ const freeOpenFonts = [
 			italic: [0, 1],
 		}),
 		collections: [SERIF_COLLECTION],
-	},
-	{
-		name: 'Martian Mono',
-		variants: generatePermutations({
-			weight: [
-				WEIGHT_THIN,
-				WEIGHT_EXTRA_LIGHT,
-				WEIGHT_LIGHT,
-				WEIGHT_REGULAR,
-				WEIGHT_MEDIUM,
-				WEIGHT_BOLD,
-				WEIGHT_ULTRA_BOLD,
-			],
-			width: [WIDTH_NORMAL, WIDTH_CONDENSED, WIDTH_SEMI_CONDENSED, WIDTH_EXPANDED],
-		}),
-		collections: [MONOSPACE_COLLECTION, VARIABLE_COLLECTION],
 	},
 	{
 		name: 'Metropolis',
@@ -820,25 +784,19 @@ const systemFonts = [
 const otherLicensedFonts = [
 	{
 		name: 'Acorn',
+		isVariable: true,
 		variants: generatePermutations({
-			weight: [
-				WEIGHT_THIN,
-				WEIGHT_EXTRA_LIGHT,
-				WEIGHT_LIGHT,
-				WEIGHT_REGULAR,
-				WEIGHT_MEDIUM,
-				WEIGHT_SEMI_BOLD,
-				WEIGHT_BOLD,
-			],
+			weight: [[WEIGHT_THIN, WEIGHT_BOLD]],
 		}),
-		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'ALT Riviera',
+		isVariable: true,
 		variants: generatePermutations({
-			weight: [WEIGHT_EXTRA_LIGHT, WEIGHT_LIGHT, WEIGHT_REGULAR, WEIGHT_MEDIUM, WEIGHT_BOLD, WEIGHT_ULTRA_BOLD],
+			weight: [[WEIGHT_EXTRA_LIGHT, WEIGHT_ULTRA_BOLD]],
 		}),
-		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'AUTHENTIC Classified',
@@ -866,38 +824,23 @@ const otherLicensedFonts = [
 	},
 	{
 		name: 'Def Sans',
+		isVariable: true,
 		variants: generatePermutations({
-			weight: [
-				WEIGHT_THIN,
-				WEIGHT_EXTRA_LIGHT,
-				WEIGHT_LIGHT,
-				WEIGHT_REGULAR,
-				WEIGHT_MEDIUM,
-				WEIGHT_SEMI_BOLD,
-				WEIGHT_BOLD,
-				WEIGHT_ULTRA_BOLD,
-				WEIGHT_BLACK,
-			],
-			width: [WIDTH_NORMAL, WIDTH_CONDENSED],
+			weight: [[WEIGHT_THIN, WEIGHT_BLACK]],
+			width: [[WIDTH_CONDENSED, WIDTH_NORMAL]],
+			// TODO: There's also a slnt axis that goes from -8 to 0.
 			italic: [0, 1],
 		}),
-		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'Gestura Text',
+		isVariable: true,
 		variants: generatePermutations({
-			weight: [
-				WEIGHT_THIN,
-				WEIGHT_EXTRA_LIGHT,
-				WEIGHT_LIGHT,
-				WEIGHT_REGULAR,
-				WEIGHT_SEMI_BOLD,
-				WEIGHT_BOLD,
-				WEIGHT_BLACK,
-			],
+			weight: [[WEIGHT_THIN, WEIGHT_BLACK]],
 			italic: [0, 1],
 		}),
-		collections: [SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+		collections: [SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'Greycliff CF',
@@ -941,44 +884,38 @@ const otherLicensedFonts = [
 	},
 	{
 		name: 'HEX Franklin',
+		isVariable: true,
 		variants: generatePermutations({
-			weight: [
-				WEIGHT_HAIRLINE,
-				WEIGHT_THIN,
-				WEIGHT_EXTRA_LIGHT,
-				WEIGHT_LIGHT,
-				WEIGHT_REGULAR,
-				WEIGHT_MEDIUM,
-				WEIGHT_SEMI_BOLD,
-				WEIGHT_BOLD,
-				WEIGHT_ULTRA_BOLD,
-				WEIGHT_BLACK,
-				WEIGHT_ULTRA_BLACK,
-			],
-			width: [
-				WIDTH_NORMAL,
-				WIDTH_EXTRA_CONDENSED,
-				WIDTH_CONDENSED,
-				WIDTH_SEMI_CONDENSED,
-				WIDTH_SEMI_EXPANDED,
-				WIDTH_EXPANDED,
-			],
+			weight: [[WEIGHT_MIN, WEIGHT_MAX]],
+			width: [[60, 120]],
 		}),
-		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FUTURE_FONTS_COLLECTION, MULTIPLEXED_COLLECTION],
+		collections: [SANS_SERIF_COLLECTION, FUTURE_FONTS_COLLECTION, MULTIPLEXED_COLLECTION],
 	},
 	{
+		name: 'HEX Franklin Tyght',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [WEIGHT_REGULAR],
+			// TODO: There's a TYTE (Tyght) axis that goes from -100 to 0, and a NOTC (Not Touching) that goes from 0 to 1.
+			width: [[60, WIDTH_NORMAL]],
+		}),
+		collections: [SANS_SERIF_COLLECTION, FUTURE_FONTS_COLLECTION, MULTIPLEXED_COLLECTION],
+	},
+	{
+		name: 'Hop',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [[WEIGHT_THIN, WEIGHT_BLACK]],
+		}),
+		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
+		// TODO: This is redundant with the Hop variable font, setting the cstm (Custom) axis 0-100.
 		name: 'Hop Rounded',
 		variants: generatePermutations({
 			weight: [WEIGHT_THIN, WEIGHT_LIGHT, WEIGHT_REGULAR, WEIGHT_MEDIUM, WEIGHT_BOLD, WEIGHT_BLACK, WEIGHT_ULTRA_BLACK],
 		}),
-		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
-	},
-	{
-		name: 'Hop Standard',
-		variants: generatePermutations({
-			weight: [WEIGHT_THIN, WEIGHT_LIGHT, WEIGHT_REGULAR, WEIGHT_MEDIUM, WEIGHT_BOLD, WEIGHT_BLACK, WEIGHT_ULTRA_BLACK],
-		}),
-		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'Hypertext Display',
@@ -1071,46 +1008,22 @@ const otherLicensedFonts = [
 	},
 	{
 		name: 'Nicephore',
+		isVariable: true,
 		variants: generatePermutations({
-			weight: [
-				WEIGHT_THIN,
-				WEIGHT_LIGHT,
-				WEIGHT_REGULAR,
-				WEIGHT_MEDIUM,
-				WEIGHT_BOLD,
-				WEIGHT_ULTRA_BOLD,
-				WEIGHT_BLACK,
-				WEIGHT_ULTRA_BLACK,
-			],
+			weight: [[0, WEIGHT_MAX]],
 		}),
-		collections: [DISPLAY_COLLECTION, SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+		collections: [DISPLAY_COLLECTION, SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'Peridot PE',
+		isVariable: true,
 		variants: generatePermutations({
-			weight: [
-				WEIGHT_THIN,
-				WEIGHT_EXTRA_LIGHT,
-				WEIGHT_LIGHT,
-				WEIGHT_REGULAR,
-				WEIGHT_MEDIUM,
-				WEIGHT_SEMI_BOLD,
-				WEIGHT_BOLD,
-				WEIGHT_ULTRA_BOLD,
-				WEIGHT_BLACK,
-				WEIGHT_ULTRA_BLACK,
-			],
-			width: [
-				WIDTH_NORMAL,
-				WIDTH_EXPANDED,
-				WIDTH_SEMI_EXPANDED,
-				WIDTH_SEMI_CONDENSED,
-				WIDTH_CONDENSED,
-				WIDTH_EXTRA_CONDENSED,
-			],
+			weight: [[WEIGHT_THIN, WEIGHT_ULTRA_BLACK]],
+			// TODO: ital (Italic) axis is variable 0-1.
 			italic: [0, 1],
+			width: [[WIDTH_ULTRA_CONDENSED, WIDTH_EXTRA_EXPANDED]],
 		}),
-		collections: [SANS_SERIF_COLLECTION, VARIABLE_COLLECTION, FRESH_FONTS_COLLECTION],
+		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'Protest Grotesk',
