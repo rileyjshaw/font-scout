@@ -916,9 +916,12 @@ const otherLicensedFonts = [
 		isVariable: true,
 		variants: generatePermutations({
 			weight: [WEIGHT_REGULAR],
-			// TODO: There's a TYTE (Tyght) axis that goes from -100 to 0, and a NOTC (Not Touching) that goes from 0 to 1.
 			width: [[60, WIDTH_NORMAL]],
 		}),
+		axes: {
+			TYTE: ['Tyght', -100, 0, -100],
+			NOTC: ['Not Touching', 0, 1, 0],
+		},
 		collections: [SANS_SERIF_COLLECTION, FUTURE_FONTS_COLLECTION, MULTIPLEXED_COLLECTION],
 	},
 	{
