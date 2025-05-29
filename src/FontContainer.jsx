@@ -13,17 +13,26 @@ const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, ...prop
 		if (loadFont) loadFont(font);
 	}, [font, loadFont]);
 
+	const fontVariationSettings = font.axes
+		? Object.entries(settings.axes ?? {})
+				.map(([axis, value]) => `"${axis}" ${value}`)
+				.join(', ')
+		: undefined;
+
 	return (
 		<div className="text-[length:--font-preview-size] flex justify-center" {...props}>
 			<pre
 				className={cn('font-preview p-3', isMarked && 'marked')}
 				style={{
 					fontFamily: `"${font.name}"`,
-					fontWeight: settings.weight ?? 'normal',
-					fontSize: `${settings.scale ?? 1}em`,
+					fontWeight: settings.weight ?? FONT_SETTINGS.weight.defaultValue,
+					fontSize: `${settings.scale ?? FONT_SETTINGS.scale.defaultValue}em`,
 					fontStyle: settings.italic ? 'italic' : settings.oblique ? 'oblique' : 'normal',
-					fontStretch: settings.width == null ? 'normal' : `${settings.width}%`,
-					lineHeight: `calc(var(--font-preview-line-height) + ${settings.lineHeightOffset ?? 0})`,
+					fontStretch: `${settings.width ?? FONT_SETTINGS.width.defaultValue}%`,
+					lineHeight: `calc(var(--font-preview-line-height) + ${
+						settings.lineHeightOffset ?? FONT_SETTINGS.lineHeightOffset.defaultValue
+					})`,
+					fontVariationSettings,
 				}}
 				title={font.name}
 			>
@@ -60,11 +69,20 @@ const FontContainer = React.memo(function FontContainer({
 	const ref = useRef(null);
 	const isHovering = useHover(ref);
 
-	const handleValueChange = (id, value, isManual) => {
+	const handleValueChange = ({ id, type }, value, isManual) => {
 		const newSettings = {
 			...settings,
-			[id]: value,
 		};
+
+		if (type === 'axis') {
+			newSettings.axes = {
+				...settings.axes,
+				[id]: value,
+			};
+			return onChangeFontSettings(newSettings, font, isManual);
+		}
+
+		newSettings[id] = value;
 
 		const variantGroupsForChangedProperty = font.variantGroupsByProperty.get(id);
 		if (!variantGroupsForChangedProperty) {
@@ -125,15 +143,28 @@ const FontContainer = React.memo(function FontContainer({
 				}
 				return {
 					id,
+					type: 'property',
 					...FONT_SETTINGS[id],
 					...settingsProperties,
 				};
 			}),
+		...(font.axes
+			? Object.entries(font.axes).map(([axisName, [min, max, label]]) => ({
+					id: axisName,
+					type: 'axis',
+					label,
+					min,
+					max,
+					step: 0.01,
+					defaultValue: min,
+			  }))
+			: []),
 		{
 			id: 'scale',
+			type: 'default',
 			...FONT_SETTINGS.scale,
 		},
-		{ id: 'lineHeightOffset', ...FONT_SETTINGS.lineHeightOffset },
+		{ id: 'lineHeightOffset', type: 'default', ...FONT_SETTINGS.lineHeightOffset },
 	];
 
 	return (

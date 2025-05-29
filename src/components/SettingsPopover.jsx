@@ -92,8 +92,8 @@ export function SettingsPopover({ validSettings, values, onChangeValue, shouldHi
 						<SettingSlider
 							key={setting.id}
 							setting={setting}
-							value={values[setting.id]}
-							onChange={(value, isManual) => onChangeValue(setting.id, value, isManual)}
+							value={setting.type === 'axis' ? values.axes?.[setting.id] : values[setting.id]}
+							onChange={(value, isManual) => onChangeValue(setting, value, isManual)}
 						/>
 					))}
 				</div>

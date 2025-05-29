@@ -846,8 +846,10 @@ const otherLicensedFonts = [
 		isVariable: true,
 		variants: generatePermutations({
 			weight: [[WEIGHT_EXTRA_LIGHT, WEIGHT_BLACK]],
-			italic: [0, 1],
 		}),
+		axes: {
+			slnt: [0, 10, 'Slant'],
+		},
 		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
