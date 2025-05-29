@@ -1118,6 +1118,14 @@ const otherLicensedFonts = [
 		}),
 		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
+	{
+		name: 'Quasar',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [[10, 180]],
+		}),
+		collections: [DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
 ].map(font => ({
 	...font,
 	collections: [...(font.collections ?? []), LICENSED_COLLECTION],
