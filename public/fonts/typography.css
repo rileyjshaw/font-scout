@@ -962,6 +962,25 @@
 
 /******************************************************************************
  *
+ * Ernst font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Ernst';
+	src: url('ErnstVF.woff2') format('woff2');
+	font-weight: 100 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Ernst';
+	src: url('ErnstVF-Italic.woff2') format('woff2');
+	font-weight: 100 800;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Geomanist font family.
  *
  *****************************************************************************/
