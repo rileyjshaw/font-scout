@@ -53,3 +53,26 @@ export function generatePermutations(options) {
 		[{}]
 	);
 }
+
+export function findNearestFontWeight(target, sortedWeights) {
+	// Find first weight >= target.
+	let i = 0;
+	while (i < sortedWeights.length && sortedWeights[i] < target) {
+		i++;
+	}
+
+	if (i === sortedWeights.length) {
+		// Return early; target is larger than all weights.
+		return sortedWeights[sortedWeights.length - 1];
+	}
+
+	if (i === 0 || sortedWeights[i] === target) {
+		// Return early; exact match found, or target is smaller than all weights.
+		return sortedWeights[i];
+	}
+
+	// Choose the closer weight. In the case of a tie, round up to the bigger weight.
+	const lighterDiff = target - sortedWeights[i - 1];
+	const heavierDiff = sortedWeights[i] - target;
+	return heavierDiff <= lighterDiff ? sortedWeights[i] : sortedWeights[i - 1];
+}

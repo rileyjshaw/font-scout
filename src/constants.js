@@ -220,3 +220,6 @@ export const FONT_SETTINGS = {
 		defaultValue: 0,
 	},
 };
+
+// 0 to 1000 in steps of 50.
+export const STANDARD_GLOBAL_FONT_WEIGHTS = Array.from({ length: 21 }, (_, i) => i * 50);

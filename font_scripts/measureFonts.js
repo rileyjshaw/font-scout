@@ -44,7 +44,14 @@ async function measureFonts(__dirname) {
 								});
 								req.on('end', async function () {
 									const result = JSON.parse(resultsBody);
-									writeJson('sizeSortedFontVariants', result);
+									// Strip unnecessary fields.
+									result.forEach(font => {
+										font.measurements.forEach(measurement => {
+											delete measurement.characterWidths;
+											delete measurement.isMultiplexed;
+										});
+									});
+									writeJson('fontMeasurements', result);
 									res.writeHead(200);
 									res.end();
 								});

@@ -5,13 +5,18 @@ import useResizeObserver from '@react-hook/resize-observer';
 import { ChevronUp, ChevronDown, AlignLeft, AlignCenter, AlignRight, RectangleVertical, Columns2 } from 'lucide-react';
 
 import allFonts, { allFontsByName } from './allFonts.js';
-import { cn, getNearestValue } from '@/lib/utils';
+import { cn, getNearestValue, findNearestFontWeight } from '@/lib/utils';
 import { Input } from './components/ui/input';
 import { Select } from './components/ui/select';
 import { TextArea } from './components/ui/textarea';
 import FontContainer, { FontPreview } from './FontContainer';
-import { COLLECTION_GROUPS, LOCAL_FONTS_COLLECTION, MIN_COLUMN_WIDTH } from './constants.js';
-import sizeSortedFontVariants from './sizeSortedFontVariants.json.js';
+import {
+	COLLECTION_GROUPS,
+	LOCAL_FONTS_COLLECTION,
+	MIN_COLUMN_WIDTH,
+	STANDARD_GLOBAL_FONT_WEIGHTS,
+} from './constants.js';
+import sizeSortedFontLists from './sizeSortedFontLists.js';
 
 const collectionOptions = COLLECTION_GROUPS.map(group => ({
 	...group,
@@ -138,9 +143,6 @@ function ExplorationMode({
 		// Our virtual grid needs to know the height of the tallest font, since it doesn’t handle dynamic row heights.
 		// We measure all fonts with manually adjusted settings, since their new settings might make them taller than
 		// the tallest untweaked font. Then we take the 3 biggest untweaked fonts in each category.
-		// TODO: This doesn’t actually make sense. We should look through whatever variants are actually being shown,
-		//       not their biggest variants. For instance, even if the interface is showing hairline weights right now,
-		//       the “biggest” fonts that are matched are based on their size at ultra-bold, then rendered at hairline.
 		const bigFonts = [];
 		filteredFonts.forEach(font => {
 			if (manuallyAdjustedSettings[font.name]) {
@@ -153,11 +155,14 @@ function ExplorationMode({
 
 		const visibleFontNames = new Set(filteredFonts.map(font => font.name));
 		const untweakedBigFonts = new Set();
-		Object.values(sizeSortedFontVariants).forEach(sizeSortedList => {
+		// Get the top 3 biggest fonts from each measurement type.
+		const nearestStandardWeight = findNearestFontWeight(globalFontWeight, STANDARD_GLOBAL_FONT_WEIGHTS);
+		['height', 'width', 'size'].forEach(measurementType => {
+			const sortedList = sizeSortedFontLists[measurementType][nearestStandardWeight] || [];
 			let count = 0;
-			for (const { name } of sizeSortedList) {
-				if (visibleFontNames.has(name) && !manuallyAdjustedSettings[name] && !untweakedBigFonts.has(name)) {
-					untweakedBigFonts.add(name);
+			for (const fontName of sortedList) {
+				if (visibleFontNames.has(fontName) && !manuallyAdjustedSettings[fontName] && !untweakedBigFonts.has(fontName)) {
+					untweakedBigFonts.add(fontName);
 					if (++count >= 3) break;
 				}
 			}
