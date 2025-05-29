@@ -248,9 +248,9 @@ function ExplorationMode({
 
 	return (
 		<>
-			<div className={cn('min-h-6 border-b shadow-sm', configMode && 'pt-4')}>
+			<div className={cn('border-b shadow-sm', configMode && 'pt-4')}>
 				{!configMode && (
-					<div className="details">
+					<div className="details min-h-6 flex items-center gap-4 px-2 text-gray-500">
 						<span>Showing {visibleFonts.length} fonts</span>
 						<button onClick={() => setIsShowingTitles(x => !x)}>{isShowingTitles ? 'Hide' : 'Show'} titles</button>
 						<button onClick={() => onChangeAllVisibleMarked(!isEveryVisibleFontMarked)}>
@@ -433,7 +433,7 @@ function ExplorationMode({
 					</div>
 				)}
 				{isShowingFilter && (
-					<div className="border-t py-2 px-5 flex items-center gap-2">
+					<div className={cn('p-2 flex items-center gap-2', configMode && 'px-5')}>
 						<label htmlFor="filter">Filter results</label>
 						<Input
 							autoFocus

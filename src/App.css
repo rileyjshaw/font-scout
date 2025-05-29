@@ -26,15 +26,6 @@ legend,
 	text-transform: uppercase;
 }
 
-.details {
-	align-items: center;
-	color: rgba(0, 0, 0, 0.5);
-	display: flex;
-	gap: 22px;
-	height: 100%;
-	margin-left: 8px;
-}
-
 .details button {
 	background: none;
 	border: 0;
