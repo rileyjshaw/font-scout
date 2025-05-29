@@ -981,6 +981,25 @@
 
 /******************************************************************************
  *
+ * FL Prefere font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'FL Prefere';
+	src: url('FLPrefere-Variable.woff2') format('woff2');
+	font-weight: 300 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'FL Prefere';
+	src: url('FLPrefereItalic-Variable.woff2') format('woff2');
+	font-weight: 300 800;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Geomanist font family.
  *
  *****************************************************************************/

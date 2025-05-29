@@ -867,6 +867,15 @@ const otherLicensedFonts = [
 		collections: [SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
+		name: 'FL Prefere',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [[WEIGHT_LIGHT, WEIGHT_ULTRA_BOLD]],
+			italic: [0, 1],
+		}),
+		collections: [SERIF_COLLECTION, DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
 		name: 'Gestura Text',
 		isVariable: true,
 		variants: generatePermutations({
