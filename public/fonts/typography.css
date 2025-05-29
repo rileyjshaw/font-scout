@@ -454,7 +454,6 @@
 	font-style: italic;
 }
 
-
 @font-face {
 	font-family: 'Basier Square';
 	src: url('basiersquare-bold-webfont.woff2') format('woff2');
@@ -2312,6 +2311,18 @@
 
 /******************************************************************************
  *
+ * MD Nichrome font family.
+ *
+ *****************************************************************************/
+ @font-face {
+	font-family: 'MD Nichrome';
+	src: url('MDNichrome-VF.woff2') format('woff2');
+	font-weight: 100 900;
+	font-style: normal;
+}
+
+/******************************************************************************
+ *
  * Megazoid font family.
  *
  *****************************************************************************/
@@ -3447,7 +3458,6 @@
 	font-style: normal;
 }
 
-
 @font-face {
 	font-family: 'Silka Mono';
 	src: url('silkamono-extralightitalic-webfont.woff2') format('woff2');
@@ -3742,7 +3752,6 @@
 	font-weight: 600;
 	font-style: normal;
 }
-
 
 @font-face {
 	font-family: 'Wotfard';

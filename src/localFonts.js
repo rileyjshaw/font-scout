@@ -1041,6 +1041,17 @@ const otherLicensedFonts = [
 		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
+		name: 'MD Nichrome',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [[WEIGHT_THIN, WEIGHT_BLACK]],
+		}),
+		axes: {
+			slnt: ['Slant', -10, 0, 0],
+		},
+		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
 		name: 'Metra',
 		variants: generatePermutations({
 			weight: [WEIGHT_REGULAR, WEIGHT_MEDIUM, WEIGHT_BOLD, WEIGHT_ULTRA_BOLD, WEIGHT_BLACK, WEIGHT_ULTRA_BLACK],
