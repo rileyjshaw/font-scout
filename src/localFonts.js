@@ -1154,6 +1154,15 @@ const otherLicensedFonts = [
 		}),
 		collections: [DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
+	{
+		name: 'Softcore',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [[10, WEIGHT_MAX]],
+			italic: [0, 1],
+		}),
+		collections: [SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
 ].map(font => ({
 	...font,
 	collections: [...(font.collections ?? []), LICENSED_COLLECTION],

@@ -3570,6 +3570,25 @@
 
 /******************************************************************************
  *
+ * Softcore font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Softcore';
+	src: url('SoftcoreVar.woff2') format('woff2');
+	font-weight: 10 1000;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Softcore';
+	src: url('SoftcoreVarItalic.woff2') format('woff2');
+	font-weight: 10 1000;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Strawford font family.
  *
  *****************************************************************************/
