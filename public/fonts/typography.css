@@ -1984,6 +1984,165 @@
 
 /******************************************************************************
  *
+ * Marcin Antique font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-Thin.woff2') format('woff2');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-ThinItalic.woff2') format('woff2');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-Extralight.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-ExtralightItalic.woff2') format('woff2');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-LightItalic.woff2') format('woff2');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-RegularItalic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-Book.woff2') format('woff2');
+	font-weight: 450;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-BookItalic.woff2') format('woff2');
+	font-weight: 450;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-MediumItalic.woff2') format('woff2');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-Semibold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-SemiboldItalic.woff2') format('woff2');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-BoldItalic.woff2') format('woff2');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-Extra.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-ExtraItalic.woff2') format('woff2');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-BlackItalic.woff2') format('woff2');
+	font-weight: 900;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-Super.woff2') format('woff2');
+	font-weight: 950;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Marcin Antique';
+	src: url('MarcinAntiqueStandard-SuperItalic.woff2') format('woff2');
+	font-weight: 950;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * McQueen font family.
  *
  *****************************************************************************/

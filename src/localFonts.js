@@ -985,6 +985,26 @@ const otherLicensedFonts = [
 		collections: [DISPLAY_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
+		name: 'Marcin Antique',
+		variants: generatePermutations({
+			weight: [
+				WEIGHT_THIN,
+				WEIGHT_EXTRA_LIGHT,
+				WEIGHT_LIGHT,
+				WEIGHT_REGULAR,
+				WEIGHT_BOOK,
+				WEIGHT_MEDIUM,
+				WEIGHT_SEMI_BOLD,
+				WEIGHT_BOLD,
+				WEIGHT_ULTRA_BOLD,
+				WEIGHT_BLACK,
+				WEIGHT_ULTRA_BLACK,
+			],
+			italic: [0, 1],
+		}),
+		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION, FUTURE_FONTS_COLLECTION],
+	},
+	{
 		name: 'McQueen',
 		variants: generatePermutations({
 			weight: [
