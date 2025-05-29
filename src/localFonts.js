@@ -934,14 +934,9 @@ const otherLicensedFonts = [
 		variants: generatePermutations({
 			weight: [[WEIGHT_THIN, WEIGHT_BLACK]],
 		}),
-		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
-	},
-	{
-		// TODO: This is redundant with the Hop variable font, setting the cstm (Custom) axis 0-100.
-		name: 'Hop Rounded',
-		variants: generatePermutations({
-			weight: [WEIGHT_THIN, WEIGHT_LIGHT, WEIGHT_REGULAR, WEIGHT_MEDIUM, WEIGHT_BOLD, WEIGHT_BLACK, WEIGHT_ULTRA_BLACK],
-		}),
+		axes: {
+			cstm: ['Rounded', 0, 100, 0],
+		},
 		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
