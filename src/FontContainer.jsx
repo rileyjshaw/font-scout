@@ -149,14 +149,14 @@ const FontContainer = React.memo(function FontContainer({
 				};
 			}),
 		...(font.axes
-			? Object.entries(font.axes).map(([axisName, [min, max, label]]) => ({
+			? Object.entries(font.axes).map(([axisName, [label, min, max, defaultValue = min, step = 0.01]]) => ({
 					id: axisName,
 					type: 'axis',
 					label,
 					min,
 					max,
-					step: 0.01,
-					defaultValue: min,
+					step,
+					defaultValue,
 			  }))
 			: []),
 		{

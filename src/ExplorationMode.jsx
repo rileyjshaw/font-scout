@@ -219,13 +219,26 @@ function ExplorationMode({
 	);
 
 	useEffect(() => {
-		// Update all fonts’ weights to their nearest available weight.
 		const updates = allFonts.reduce((acc, font) => {
+			// Update all fonts’ weights to their nearest available weight.
 			const availableWeights = Array.from(font.variantGroupsByProperty.get('weight').keys());
 			const closestWeight = getNearestValue(globalFontWeight, availableWeights);
+			const newSettings = { weight: closestWeight };
+
+			// Initialize axis settings for variable fonts
+			if (font.axes) {
+				newSettings.axes = Object.entries(font.axes).reduce(
+					(axes, [axisName, [_label, min, _max, defaultValue = min]]) => {
+						axes[axisName] = defaultValue;
+						return axes;
+					},
+					{}
+				);
+			}
+
 			return {
 				...acc,
-				[font.name]: { weight: closestWeight },
+				[font.name]: newSettings,
 			};
 		}, {});
 

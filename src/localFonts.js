@@ -848,7 +848,7 @@ const otherLicensedFonts = [
 			weight: [[WEIGHT_EXTRA_LIGHT, WEIGHT_BLACK]],
 		}),
 		axes: {
-			slnt: [0, 10, 'Slant'],
+			slnt: ['Slant', 0, 10],
 		},
 		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
