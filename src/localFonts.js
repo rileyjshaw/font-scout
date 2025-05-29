@@ -842,6 +842,15 @@ const otherLicensedFonts = [
 		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
+		name: 'Easy Grotesk',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [[WEIGHT_EXTRA_LIGHT, WEIGHT_BLACK]],
+			italic: [0, 1],
+		}),
+		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
 		name: 'Gestura Text',
 		isVariable: true,
 		variants: generatePermutations({
