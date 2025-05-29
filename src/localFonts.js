@@ -1042,10 +1042,11 @@ const otherLicensedFonts = [
 		isVariable: true,
 		variants: generatePermutations({
 			weight: [[WEIGHT_THIN, WEIGHT_ULTRA_BLACK]],
-			// TODO: ital (Italic) axis is variable 0-1.
-			italic: [0, 1],
 			width: [[WIDTH_ULTRA_CONDENSED, WIDTH_EXTRA_EXPANDED]],
 		}),
+		axes: {
+			ital: ['Italic', 0, 1, 0],
+		},
 		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
