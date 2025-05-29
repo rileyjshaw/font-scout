@@ -2407,6 +2407,25 @@
 
 /******************************************************************************
  *
+ * Micrograph font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Micrograph';
+	src: url('MicrographVF-RomanVF.woff2') format('woff2');
+	font-weight: 100 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Micrograph';
+	src: url('MicrographVF-ItalicVF.woff2') format('woff2');
+	font-weight: 100 800;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Mint Grotesk font family.
  *
  *****************************************************************************/

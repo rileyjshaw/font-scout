@@ -1048,6 +1048,15 @@ const otherLicensedFonts = [
 		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
 	{
+		name: 'Micrograph',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [[WEIGHT_THIN, WEIGHT_ULTRA_BOLD]],
+			italic: [0, 1],
+		}),
+		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION, UI_FONTS_COLLECTION],
+	},
+	{
 		name: 'Mint Grotesk',
 		variants: generatePermutations({
 			weight: [
