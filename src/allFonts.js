@@ -33,6 +33,7 @@ const allFonts = [...localFonts, ...googleFonts]
 
 // TODO: Save these to a DB or something.
 const STARRED_FONTS = new Set([
+	'Acorn',
 	'Anton',
 	'Atkinson Hyperlegible',
 	'Azeret Mono',
@@ -40,6 +41,7 @@ const STARRED_FONTS = new Set([
 	'Cartograph CF',
 	'Cousine',
 	'EB Garamond',
+	'Ernst',
 	'Epilogue',
 	'IBM Plex Mono',
 	'Inclusive Sans',
@@ -52,6 +54,7 @@ const STARRED_FONTS = new Set([
 	'Lexend',
 	'Manrope',
 	'McQueen',
+	'Metra',
 	'Montserrat',
 	'Newsreader',
 	'Ovo',
