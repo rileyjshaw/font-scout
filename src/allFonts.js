@@ -107,11 +107,11 @@ allFonts.forEach(font => {
 	}
 
 	const weightVariants = font.variantGroupsByProperty.get('weight');
-	if (weightVariants.size > 1 || Array.isArray(weightVariants.values().next().value)) {
+	if (weightVariants.size > 1 || Array.isArray(weightVariants.values().next().value) || font.axes?.wght) {
 		font.collections.push(MULTIPLE_WEIGHTS_COLLECTION);
 	}
 	const widthVariants = font.variantGroupsByProperty.get('width');
-	if (widthVariants.size > 1 || Array.isArray(widthVariants.values().next().value)) {
+	if (widthVariants.size > 1 || Array.isArray(widthVariants.values().next().value) || font.axes?.wdth) {
 		font.collections.push(MULTIPLE_WIDTHS_COLLECTION);
 	}
 	const italicVariants = font.variantGroupsByProperty.get('italic');
@@ -120,7 +120,9 @@ allFonts.forEach(font => {
 		italicVariants.size > 1 ||
 		Array.isArray(italicVariants.values().next().value) ||
 		obliqueVariants.size > 1 ||
-		Array.isArray(obliqueVariants.values().next().value)
+		Array.isArray(obliqueVariants.values().next().value) ||
+		font.axes?.slnt ||
+		font.axes?.ital
 	) {
 		font.collections.push(MULTIPLE_STYLES_COLLECTION);
 	}
