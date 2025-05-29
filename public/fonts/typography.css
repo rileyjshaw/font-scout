@@ -709,6 +709,25 @@
 
 /******************************************************************************
  *
+ * Cabrio font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Cabrio';
+	src: url('Cabrio-Variable.woff2') format('woff2');
+	font-weight: 300 950;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Cabrio';
+	src: url('Cabrio-Variable-Italic.woff2') format('woff2');
+	font-weight: 300 950;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Calendas Plus font family.
  *
  *****************************************************************************/

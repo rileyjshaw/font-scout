@@ -818,6 +818,14 @@ const otherLicensedFonts = [
 		collections: [SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
+		name: 'Cabrio',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [[WEIGHT_LIGHT, WEIGHT_ULTRA_BLACK]],
+		}),
+		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION, UI_FONTS_COLLECTION],
+	},
+	{
 		name: 'Cartograph CF',
 		variants: generatePermutations({
 			weight: [
