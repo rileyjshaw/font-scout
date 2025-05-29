@@ -417,9 +417,13 @@ const djrFontOfTheMonth = [
 		variants: generatePermutations({
 			weight: [[WEIGHT_MIN, WEIGHT_ULTRA_BOLD]],
 			width: [[WIDTH_CONDENSED, WIDTH_EXPANDED]],
-			// TODO: There are more axes for this font.
-			italic: [0, 1],
 		}),
+		axes: {
+			opsz: ['Optical Size', 10, 48, 48],
+			slnt: ['Slant', -13, 0, 0],
+			GRAD: ['Grade', 0, 10, 0],
+			TERM: ['Terminals', -1, 1, 0],
+		},
 		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION],
 	},
 	{
