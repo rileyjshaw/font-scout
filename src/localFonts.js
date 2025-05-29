@@ -1023,6 +1023,13 @@ const otherLicensedFonts = [
 		collections: [SANS_SERIF_COLLECTION, DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
+		name: 'Metra',
+		variants: generatePermutations({
+			weight: [WEIGHT_REGULAR, WEIGHT_MEDIUM, WEIGHT_BOLD, WEIGHT_ULTRA_BOLD, WEIGHT_BLACK, WEIGHT_ULTRA_BLACK],
+		}),
+		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION, FUTURE_FONTS_COLLECTION],
+	},
+	{
 		name: 'Mint Grotesk',
 		variants: generatePermutations({
 			weight: [

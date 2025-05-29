@@ -2322,6 +2322,53 @@
 
 /******************************************************************************
  *
+ * Metra font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Metra';
+	src: url('HLC-Metra-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Metra';
+	src: url('HLC-Metra-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Metra';
+	src: url('HLC-Metra-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Metra';
+	src: url('HLC-Metra-Extrabold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Metra';
+	src: url('HLC-Metra-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Metra';
+	src: url('HLC-Metra-Ultra.woff2') format('woff2');
+	font-weight: 950;
+	font-style: normal;
+}
+
+/******************************************************************************
+ *
  * Mint Grotesk font family.
  *
  *****************************************************************************/
