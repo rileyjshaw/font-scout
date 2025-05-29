@@ -1248,9 +1248,49 @@
  *****************************************************************************/
 @font-face {
 	font-family: 'Gosh';
+	src: url('VCGosh-ExtraCondensedBold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Gosh';
+	src: url('VCGosh-CondensedBold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Gosh';
+	src: url('VCGosh-SemiCondensedBold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Gosh';
 	src: url('VCGosh-Bold.woff2') format('woff2');
 	font-weight: 700;
 	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gosh';
+	src: url('VCGosh-WideBold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Gosh';
+	src: url('VCGosh-ExtraWideBold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: extra-expanded;
 }
 
 /******************************************************************************

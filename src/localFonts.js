@@ -888,6 +888,14 @@ const otherLicensedFonts = [
 		name: 'Gosh',
 		variants: generatePermutations({
 			weight: [WEIGHT_BOLD],
+			width: [
+				WIDTH_NORMAL,
+				WIDTH_EXTRA_CONDENSED,
+				WIDTH_CONDENSED,
+				WIDTH_SEMI_CONDENSED,
+				WIDTH_EXPANDED,
+				WIDTH_EXTRA_EXPANDED,
+			],
 		}),
 		collections: [DISPLAY_COLLECTION, SANS_SERIF_COLLECTION, FUTURE_FONTS_COLLECTION],
 	},
