@@ -635,6 +635,81 @@
 
 /******************************************************************************
  *
+ * Bureau Serif font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Bureau Serif';
+	src: url('STKBureauSerif-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bureau Serif';
+	src: url('STKBureauSerif-LightItalic.woff2') format('woff2');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Bureau Serif';
+	src: url('STKBureauSerif-Book.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bureau Serif';
+	src: url('STKBureauSerif-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Bureau Serif';
+	src: url('STKBureauSerif-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bureau Serif';
+	src: url('STKBureauSerif-MediumItalic.woff2') format('woff2');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Bureau Serif';
+	src: url('STKBureauSerif-SemiBold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bureau Serif';
+	src: url('STKBureauSerif-SemiBoldItalic.woff2') format('woff2');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Bureau Serif';
+	src: url('STKBureauSerif-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Bureau Serif';
+	src: url('STKBureauSerif-BoldItalic.woff2') format('woff2');
+	font-weight: 700;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Calendas Plus font family.
  *
  *****************************************************************************/

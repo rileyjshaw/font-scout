@@ -806,6 +806,14 @@ const otherLicensedFonts = [
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
+		name: 'Bureau Serif',
+		variants: generatePermutations({
+			weight: [WEIGHT_LIGHT, WEIGHT_REGULAR, WEIGHT_MEDIUM, WEIGHT_SEMI_BOLD, WEIGHT_BOLD],
+			italic: [0, 1],
+		}),
+		collections: [SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
 		name: 'Cartograph CF',
 		variants: generatePermutations({
 			weight: [
