@@ -25,6 +25,9 @@ yarn-debug.log*
 yarn-error.log*
 .eslintcache
 
-# be kind and buy these from atipo foundary
+# be kind and buy these
 public/fonts/*
 !public/fonts/*.css
+
+# generated files
+src/googleFontsRaw.json.js

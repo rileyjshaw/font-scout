@@ -1,3 +1,4 @@
+import multiplexedFontsArray from './multiplexedFonts.json.js';
 import googleFonts from './googleFonts.js';
 import localFonts from './localFonts.js';
 import {
@@ -13,7 +14,6 @@ import {
 	VARIABLE_COLLECTION,
 	FONT_SETTINGS,
 } from './constants.js';
-import multiplexedFontsArray from './multiplexed_fonts.json'; // assert { type: 'json' };
 
 const variantDefaults = ['weight', 'italic', 'oblique', 'width'].reduce((acc, key) => {
 	acc[key] = FONT_SETTINGS[key].defaultValue;
@@ -121,8 +121,8 @@ allFonts.forEach(font => {
 		Array.isArray(italicVariants.values().next().value) ||
 		obliqueVariants.size > 1 ||
 		Array.isArray(obliqueVariants.values().next().value) ||
-		font.axes?.slnt ||
-		font.axes?.ital
+		font.axes?.ital ||
+		font.axes?.slnt
 	) {
 		font.collections.push(MULTIPLE_STYLES_COLLECTION);
 	}

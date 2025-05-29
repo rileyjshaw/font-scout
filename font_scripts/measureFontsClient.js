@@ -1,8 +1,5 @@
-// Expands an object with arrays of values into an array of objects with all possible combinations of values.
-// For example, generatePermutations({ weight: [400, 700], italic: [false, true] }) returns:
-// [{ weight: 400, italic: false }, { weight: 400, italic: true }, { weight: 700, italic: false }, { weight: 700, italic: true }]
-function generatePermutations(options) {
-	return Object.entries(options).reduce(
+function generatePermutations(variants, axes) {
+	const variantPermutations = Object.entries(variants).reduce(
 		(results, [key, values]) =>
 			results.flatMap(result =>
 				Array.isArray(values)
@@ -19,8 +16,26 @@ function generatePermutations(options) {
 			),
 		[{}]
 	);
+	if (!axes) return variantPermutations;
+
+	const axisPermutations = Object.entries(axes).reduce(
+		(results, [tag, [_label, min, max]]) =>
+			results.flatMap(result =>
+				[min, max].map(value => ({
+					...result,
+					[tag]: value,
+				}))
+			),
+		[{}]
+	);
+
+	return variantPermutations.flatMap(variantPerm =>
+		axisPermutations.map(axisPerm => ({
+			...variantPerm,
+			axes: axisPerm,
+		}))
+	);
 }
-// ^ copied from utils.js.
 
 const notice = document.createElement('p');
 const fontFamily = document.createElement('span');
@@ -89,7 +104,7 @@ document.fonts.ready.then(async () => {
 
 		const variantsWithStats = [];
 		for (const variant of font.variants) {
-			const permutations = generatePermutations(variant);
+			const permutations = generatePermutations(variant, font.axes);
 			for (const permutation of permutations) {
 				const style = {
 					fontFamily: font.name,
@@ -98,6 +113,11 @@ document.fonts.ready.then(async () => {
 					fontStretch: permutation.width,
 					overflow: 'hidden',
 				};
+				if (permutation.axes) {
+					style.fontVariationSettings = Object.entries(permutation.axes)
+						.map(([axis, value]) => `"${axis}" ${value}`)
+						.join(', ');
+				}
 				Object.assign(document.body.style, style);
 				await new Promise(r => setTimeout(r, 400));
 				const characterWidths = characterWidthProbes.map(span => span.getBoundingClientRect().width);

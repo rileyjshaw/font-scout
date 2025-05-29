@@ -11,7 +11,7 @@ import { Select } from './components/ui/select';
 import { TextArea } from './components/ui/textarea';
 import FontContainer, { FontPreview } from './FontContainer';
 import { COLLECTION_GROUPS, LOCAL_FONTS_COLLECTION, MIN_COLUMN_WIDTH } from './constants.js';
-import sizeSortedFontVariants from './size_sorted_font_variants.json'; // assert { type: 'json' };
+import sizeSortedFontVariants from './sizeSortedFontVariants.json.js';
 
 const collectionOptions = COLLECTION_GROUPS.map(group => ({
 	...group,

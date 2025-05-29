@@ -106,7 +106,6 @@ export const defaultPreviews = [
 	// ],
 ];
 
-// Note: Not using Symbols because React Select doesn’t expect them.
 export const ALL_FONTS_COLLECTION = 'ALL_FONTS_COLLECTION';
 export const ATIPO_COLLECTION = 'ATIPO_COLLECTION';
 export const DJR_FONT_OF_THE_MONTH_COLLECTION = 'DJR_FONT_OF_THE_MONTH_COLLECTION';

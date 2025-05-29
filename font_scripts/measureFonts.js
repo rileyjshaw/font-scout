@@ -1,12 +1,13 @@
 import puppeteer from 'puppeteer';
 import fs from 'fs';
 import http from 'http';
-import stableStringify from 'json-stable-stringify';
+
+import { writeJson } from './util.js';
 
 async function measureFonts(__dirname) {
 	const { default: allFonts } = await import('../src/allFonts.js');
 	const remoteFonts = allFonts.filter(font => font.href);
-	return new Promise((resolve, reject) => {
+	return new Promise((resolve, _reject) => {
 		let browser;
 		http
 			.createServer(async function (req, res) {
@@ -43,7 +44,7 @@ async function measureFonts(__dirname) {
 								});
 								req.on('end', async function () {
 									const result = JSON.parse(resultsBody);
-									fs.writeFileSync('./src/size_sorted_font_variants.json', stableStringify(result, { space: '\t' }));
+									writeJson('sizeSortedFontVariants', result);
 									res.writeHead(200);
 									res.end();
 								});
@@ -55,7 +56,7 @@ async function measureFonts(__dirname) {
 								});
 								req.on('end', async function () {
 									const result = JSON.parse(multiplexedBody);
-									fs.writeFileSync('./src/multiplexed_fonts.json', stableStringify(result, { space: '\t' }));
+									writeJson('multiplexedFonts', result);
 									res.writeHead(200);
 									res.end();
 								});
