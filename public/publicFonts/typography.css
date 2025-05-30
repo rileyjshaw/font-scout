@@ -1292,6 +1292,25 @@
 
 /******************************************************************************
  *
+ * Satoshi font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'Satoshi';
+	src: url('Satoshi-Variable.woff2') format('woff2');
+	font-weight: 300 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Satoshi';
+	src: url('Satoshi-VariableItalic.woff2') format('woff2');
+	font-weight: 300 900;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * SuperDuper font family.
  *
  *****************************************************************************/

@@ -670,7 +670,16 @@ const freeOpenFonts = [
 		variants: generatePermutations({
 			weight: [WEIGHT_LIGHT, WEIGHT_REGULAR, WEIGHT_MEDIUM, WEIGHT_SEMI_BOLD, WEIGHT_BOLD],
 		}),
-		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION, MULTIPLEXED_COLLECTION],
+		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION],
+	},
+	{
+		name: 'Satoshi',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [[WEIGHT_LIGHT, WEIGHT_BLACK]],
+			italic: [0, 1],
+		}),
+		collections: [SANS_SERIF_COLLECTION, UI_FONTS_COLLECTION],
 	},
 	{
 		name: 'SuperDuper',
