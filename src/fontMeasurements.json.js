@@ -2454,10 +2454,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1426,
-				"size": 112531141.1875,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 78913.84375
+				"width": 68647.71875
 			}
 		],
 		"name": "Aoboshi One"
@@ -2899,10 +2899,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1240,
-				"size": 96150200.625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 77540.484375
+				"width": 68647.71875
 			}
 		],
 		"name": "Armata"
