@@ -884,6 +884,13 @@ const otherLicensedFonts = [
 		collections: [SERIF_COLLECTION, DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
+		name: 'Gangster Grotesk',
+		variants: generatePermutations({
+			weight: [WEIGHT_LIGHT, WEIGHT_REGULAR, WEIGHT_BOLD],
+		}),
+		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
 		name: 'Gestura Text',
 		isVariable: true,
 		variants: generatePermutations({
