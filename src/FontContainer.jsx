@@ -20,7 +20,7 @@ const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, ...prop
 		: undefined;
 
 	return (
-		<div className="text-[length:--font-preview-size] flex justify-center" {...props}>
+		<div className="flex-grow text-[length:--font-preview-size] flex justify-center" {...props}>
 			<pre
 				className={cn('font-preview p-3', isMarked && 'marked')}
 				style={{
@@ -169,7 +169,7 @@ const FontContainer = React.memo(function FontContainer({
 
 	return (
 		<li ref={ref} className="px-2 pt-2" style={style}>
-			<div className={cn('flex flex-col rounded-xl px-1', isMarked && 'bg-green-400')}>
+			<div className={cn('h-full flex flex-col rounded-xl px-1 pb-4', isMarked && 'bg-green-400')}>
 				<div
 					className={cn(
 						'grid items-center grid-cols-[auto_1fr_auto] w-full text-gray-300',

@@ -476,7 +476,7 @@ function ExplorationMode({
 			</div>
 			<div className="probe" aria-hidden="true" ref={probeRef}>
 				{bigFonts.map((font, i) => (
-					// TODO: This is pretty hack; it mimics the spacing of the real list
+					// TODO: This is pretty hack; it mimics the spacing of the old list.
 					<div
 						key={`${font.font.name}-${i}`}
 						className="shrink-0 grow-0 px-5 py-4"
@@ -496,7 +496,7 @@ function ExplorationMode({
 							columnCount={columnCount}
 							columnWidth={columnWidth}
 							rowCount={Math.ceil(visibleFonts.length / columnCount)}
-							rowHeight={probeHeight + 80}
+							rowHeight={probeHeight + 80} // 80 = Top bar + bottom padding + wiggle room
 							height={gridHeight}
 							width={gridWidth}
 							itemData={itemData}
