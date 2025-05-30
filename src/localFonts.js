@@ -1155,6 +1155,18 @@ const otherLicensedFonts = [
 		collections: [DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
+		name: 'SFT Schrifted Serif',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [[WEIGHT_EXTRA_LIGHT, WEIGHT_BLACK]],
+			italic: [0, 1],
+		}),
+		axes: {
+			opsz: ['Optical Size', 12, 36, 24],
+		},
+		collections: [SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
 		name: 'Softcore',
 		isVariable: true,
 		variants: generatePermutations({

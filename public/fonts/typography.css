@@ -3299,6 +3299,25 @@
 
 /******************************************************************************
  *
+ * SFT Schrifted Serif font family.
+ *
+ *****************************************************************************/
+@font-face {
+	font-family: 'SFT Schrifted Serif';
+	src: url('SFT Schrifted Serif Variable Roman.woff2') format('woff2');
+	font-weight: 200 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'SFT Schrifted Serif';
+	src: url('SFT Schrifted Serif Variable Italic.woff2') format('woff2');
+	font-weight: 200 900;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Scilla font family.
  *
  *****************************************************************************/
