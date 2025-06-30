@@ -1191,6 +1191,22 @@ const otherLicensedFonts = [
 		}),
 		collections: [SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
+	{
+		name: 'Ufficio Display',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [[WEIGHT_LIGHT, WEIGHT_BLACK]],
+		}),
+		collections: [DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
+		name: 'Ufficio Sans',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [[WEIGHT_LIGHT, WEIGHT_BLACK]],
+		}),
+		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
 ].map(font => ({
 	...font,
 	collections: [...(font.collections ?? []), LICENSED_COLLECTION],
