@@ -223,3 +223,8 @@ export const FONT_SETTINGS = {
 
 // 0 to 1000 in steps of 50.
 export const STANDARD_GLOBAL_FONT_WEIGHTS = Array.from({ length: 21 }, (_, i) => i * 50);
+
+export const SETTINGS_SORT_ORDER = ['Weight', 'Italic', 'Slant', 'Oblique', 'Width'].reduce((acc, axis, i) => {
+	acc[axis] = i;
+	return acc;
+}, {});

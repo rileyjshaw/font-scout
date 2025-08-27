@@ -5,7 +5,7 @@ import useResizeObserver from '@react-hook/resize-observer';
 import { ChevronUp, ChevronDown, AlignLeft, AlignCenter, AlignRight, RectangleVertical, Columns2 } from 'lucide-react';
 
 import allFonts, { allFontsByName } from './allFonts.js';
-import { cn, getNearestValue, findNearestFontWeight } from '@/lib/utils';
+import { cn, getNearestValue, getNearestValueFromRange, findNearestFontWeight } from '@/lib/utils';
 import { Input } from './components/ui/input';
 import { Select } from './components/ui/select';
 import { TextArea } from './components/ui/textarea';
@@ -233,8 +233,13 @@ function ExplorationMode({
 			// Initialize axis settings for variable fonts
 			if (font.axes) {
 				newSettings.axes = Object.entries(font.axes).reduce(
-					(axes, [axisName, [_label, min, _max, defaultValue = min]]) => {
-						axes[axisName] = defaultValue;
+					(axes, [axisName, [_label, min, max, defaultValue = min]]) => {
+						// For `wght` axis, use the global font weight default.
+						if (axisName === 'wght') {
+							axes[axisName] = getNearestValueFromRange(globalFontWeight, [min, max]);
+						} else {
+							axes[axisName] = defaultValue;
+						}
 						return axes;
 					},
 					{}

@@ -5,7 +5,7 @@ import { Eye, EyeOff, Pin, PinOff } from 'lucide-react';
 import { cn, getMatchingVariants, getNearestValue, getNearestValueFromRange } from '@/lib/utils';
 import { SettingsPopover } from '@/components/SettingsPopover';
 import { Button } from '@/components/ui/button';
-import { FONT_SETTINGS } from '@/constants';
+import { FONT_SETTINGS, SETTINGS_SORT_ORDER } from '@/constants';
 import './FontContainer.css';
 
 const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, ...props }) => {
@@ -165,7 +165,7 @@ const FontContainer = React.memo(function FontContainer({
 			...FONT_SETTINGS.scale,
 		},
 		{ id: 'lineHeightOffset', type: 'default', ...FONT_SETTINGS.lineHeightOffset },
-	];
+	].sort((a, b) => (SETTINGS_SORT_ORDER[a.label] ?? Infinity) - (SETTINGS_SORT_ORDER[b.label] ?? Infinity));
 
 	return (
 		<li ref={ref} className="px-2 pt-2" style={style}>

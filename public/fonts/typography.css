@@ -531,6 +531,18 @@
 
 /******************************************************************************
  *
+ * Bloyd font family.
+ *
+ *****************************************************************************/
+ @font-face {
+	font-family: 'Bloyd';
+	src: url('Bloyd-Variable[wght,slnt].woff2') format('woff2');
+	font-weight: 200 900;
+	font-style: normal;
+}
+
+/******************************************************************************
+ *
  * Bould font family.
  *
  *****************************************************************************/
@@ -3119,6 +3131,27 @@
 	src: url('RGQuasar-VariableVF.woff2') format('woff2');
 	font-weight: 10 180;
 	font-style: normal;
+}
+
+/******************************************************************************
+ *
+ * Resist Mono font family.
+ *
+ *****************************************************************************/
+ @font-face {
+	font-family: 'Resist Mono';
+	src: url('Resist Mono Variable.woff2') format('woff2');
+	font-weight: 100 900;
+	font-style: normal;
+	font-variation-settings: 'wght' 400;
+}
+
+@font-face {
+	font-family: 'Resist Mono';
+	src: url('Resist Mono Italic Variable.woff2') format('woff2');
+	font-weight: 100 900;
+	font-style: italic;
+	font-variation-settings: 'wght' 400;
 }
 
 /******************************************************************************

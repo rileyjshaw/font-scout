@@ -819,6 +819,17 @@ const otherLicensedFonts = [
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
+		name: 'Bloyd',
+		isVariable: true,
+		variants: generatePermutations({
+			weight: [[WEIGHT_EXTRA_LIGHT, WEIGHT_BLACK]],
+		}),
+		axes: {
+			slnt: ['Slant', -10, 0, 0],
+		},
+		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
 		name: 'Bureau Serif',
 		variants: generatePermutations({
 			weight: [WEIGHT_LIGHT, WEIGHT_REGULAR, WEIGHT_MEDIUM, WEIGHT_SEMI_BOLD, WEIGHT_BOLD],
@@ -1169,6 +1180,17 @@ const otherLicensedFonts = [
 			weight: [[10, 180]],
 		}),
 		collections: [DISPLAY_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
+		name: 'Resist Mono',
+		isVariable: true,
+		variants: generatePermutations({
+			italic: [0, 1],
+		}),
+		axes: {
+			wght: ['Weight', WEIGHT_THIN, WEIGHT_BLACK, WEIGHT_REGULAR],
+		},
+		collections: [MONOSPACE_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'SFT Schrifted Serif',
