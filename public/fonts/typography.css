@@ -967,6 +967,123 @@
 
 /******************************************************************************
  *
+ * Crit font family.
+ *
+ *****************************************************************************/
+ @font-face {
+	font-family: 'Crit';
+	src: url('Crit-Extralight.woff2') format('woff2');
+	font-weight: 200;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Extralight-Italic.woff2') format('woff2');
+	font-weight: 200;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Light.woff2') format('woff2');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Light-Italic.woff2') format('woff2');
+	font-weight: 300;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Regular.woff2') format('woff2');
+	font-weight: 400;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Italic.woff2') format('woff2');
+	font-weight: 400;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Medium.woff2') format('woff2');
+	font-weight: 500;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Medium-Italic.woff2') format('woff2');
+	font-weight: 500;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Semibold.woff2') format('woff2');
+	font-weight: 600;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Semibold-Italic.woff2') format('woff2');
+	font-weight: 600;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Bold.woff2') format('woff2');
+	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Bold-Italic.woff2') format('woff2');
+	font-weight: 700;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Extrabold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Extrabold-Italic.woff2') format('woff2');
+	font-weight: 800;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Black.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Crit';
+	src: url('Crit-Black-Italic.woff2') format('woff2');
+	font-weight: 900;
+	font-style: italic;
+}
+
+/******************************************************************************
+ *
  * Def Sans font family.
  *
  *****************************************************************************/

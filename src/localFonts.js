@@ -877,6 +877,23 @@ const otherLicensedFonts = [
 		collections: [MONOSPACE_COLLECTION],
 	},
 	{
+		name: 'Crit',
+		variants: generatePermutations({
+			weight: [
+				WEIGHT_EXTRA_LIGHT,
+				WEIGHT_LIGHT,
+				WEIGHT_REGULAR,
+				WEIGHT_MEDIUM,
+				WEIGHT_SEMI_BOLD,
+				WEIGHT_BOLD,
+				WEIGHT_ULTRA_BOLD,
+				WEIGHT_BLACK,
+			],
+			italic: [0, 1],
+		}),
+		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
 		name: 'Def Sans',
 		isVariable: true,
 		variants: generatePermutations({
