@@ -537,6 +537,20 @@ const freeOpenFonts = [
 		collections: [DISPLAY_COLLECTION],
 	},
 	{
+		name: 'Cloitre',
+		variants: generatePermutations({
+			weight: [WEIGHT_REGULAR],
+		}),
+		collections: [DISPLAY_COLLECTION],
+	},
+	{
+		name: 'Cloitre Rounded',
+		variants: generatePermutations({
+			weight: [WEIGHT_REGULAR],
+		}),
+		collections: [DISPLAY_COLLECTION],
+	},
+	{
 		name: 'Cooper Hewitt',
 		variants: generatePermutations({
 			weight: [WEIGHT_THIN, WEIGHT_LIGHT, WEIGHT_REGULAR, WEIGHT_MEDIUM, WEIGHT_SEMI_BOLD, WEIGHT_BOLD, WEIGHT_BLACK],
