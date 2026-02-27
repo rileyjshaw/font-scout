@@ -1467,8 +1467,40 @@
 
 @font-face {
 	font-family: 'Gosh';
+	src: url('VCGosh-ExtraCondensedExtraBold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Gosh';
+	src: url('VCGosh-ExtraCondensedBlack.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: extra-condensed;
+}
+
+@font-face {
+	font-family: 'Gosh';
 	src: url('VCGosh-CondensedBold.woff2') format('woff2');
 	font-weight: 700;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Gosh';
+	src: url('VCGosh-CondensedExtraBold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: condensed;
+}
+
+@font-face {
+	font-family: 'Gosh';
+	src: url('VCGosh-CondensedBlack.woff2') format('woff2');
+	font-weight: 900;
 	font-style: normal;
 	font-stretch: condensed;
 }
@@ -1483,8 +1515,38 @@
 
 @font-face {
 	font-family: 'Gosh';
+	src: url('VCGosh-SemiCondensedExtraBold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Gosh';
+	src: url('VCGosh-SemiCondensedBlack.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: semi-condensed;
+}
+
+@font-face {
+	font-family: 'Gosh';
 	src: url('VCGosh-Bold.woff2') format('woff2');
 	font-weight: 700;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gosh';
+	src: url('VCGosh-ExtraBold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Gosh';
+	src: url('VCGosh-Black.woff2') format('woff2');
+	font-weight: 900;
 	font-style: normal;
 }
 
@@ -1498,8 +1560,40 @@
 
 @font-face {
 	font-family: 'Gosh';
+	src: url('VCGosh-WideExtraBold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Gosh';
+	src: url('VCGosh-WideBlack.woff2') format('woff2');
+	font-weight: 900;
+	font-style: normal;
+	font-stretch: expanded;
+}
+
+@font-face {
+	font-family: 'Gosh';
 	src: url('VCGosh-ExtraWideBold.woff2') format('woff2');
 	font-weight: 700;
+	font-style: normal;
+	font-stretch: extra-expanded;
+}
+
+@font-face {
+	font-family: 'Gosh';
+	src: url('VCGosh-ExtraWideExtraBold.woff2') format('woff2');
+	font-weight: 800;
+	font-style: normal;
+	font-stretch: extra-expanded;
+}
+
+@font-face {
+	font-family: 'Gosh';
+	src: url('VCGosh-ExtraWideBlack.woff2') format('woff2');
+	font-weight: 900;
 	font-style: normal;
 	font-stretch: extra-expanded;
 }

@@ -971,7 +971,7 @@ const otherLicensedFonts = [
 	{
 		name: 'Gosh',
 		variants: generatePermutations({
-			weight: [WEIGHT_BOLD],
+			weight: [WEIGHT_BOLD, WEIGHT_ULTRA_BOLD, WEIGHT_BLACK],
 			width: [
 				WIDTH_NORMAL,
 				WIDTH_EXTRA_CONDENSED,
