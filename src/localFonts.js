@@ -1189,19 +1189,13 @@ const otherLicensedFonts = [
 	},
 	{
 		name: 'Protest Grotesk',
+		isVariable: true,
 		variants: generatePermutations({
-			weight: [
-				WEIGHT_THIN,
-				WEIGHT_LIGHT,
-				WEIGHT_REGULAR,
-				WEIGHT_BOOK,
-				WEIGHT_MEDIUM,
-				WEIGHT_BOLD,
-				WEIGHT_ULTRA_BOLD,
-				WEIGHT_BLACK,
-			],
-			italic: [0, 1],
+			weight: [[WEIGHT_THIN, WEIGHT_BLACK]],
 		}),
+		axes: {
+			slnt: ['Slant', -11, 0, 0],
+		},
 		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
