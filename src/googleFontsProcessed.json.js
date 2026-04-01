@@ -1,22 +1,6 @@
 export default [
 	{
 		"category": "sans-serif",
-		"href": "https://fonts.googleapis.com/css2?family=42dot+Sans:wght@300..800&display=block",
-		"isVariable": true,
-		"name": "42dot Sans",
-		"variants": [
-			{
-				"weight": [
-					[
-						300,
-						800
-					]
-				]
-			}
-		]
-	},
-	{
-		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@0,400;1,400&display=block",
 		"name": "ABeeZee",
 		"variants": [
@@ -409,6 +393,22 @@ export default [
 				"italic": 0,
 				"weight": [
 					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=block",
+		"isVariable": true,
+		"name": "Alan Sans",
+		"variants": [
+			{
+				"weight": [
+					[
+						300,
+						900
+					]
 				]
 			}
 		]
@@ -940,6 +940,44 @@ export default [
 		]
 	},
 	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:wght@100..900&display=block",
+		"isVariable": true,
+		"name": "Alumni Sans SC",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "serif",
+		"href": "https://fonts.googleapis.com/css2?family=Alyamama:wght@300..900&display=block",
+		"isVariable": true,
+		"name": "Alyamama",
+		"variants": [
+			{
+				"weight": [
+					[
+						300,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Amarante:ital,wght@0,400&display=block",
 		"name": "Amarante",
@@ -969,6 +1007,28 @@ export default [
 				"weight": [
 					400,
 					"700"
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Amarna:wght@100..700&display=block",
+		"isVariable": true,
+		"name": "Amarna",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						100,
+						700
+					]
 				]
 			}
 		]
@@ -1989,6 +2049,19 @@ export default [
 		]
 	},
 	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Asimovian:ital,wght@0,400&display=block",
+		"name": "Asimovian",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Asset:ital,wght@0,400&display=block",
 		"name": "Asset",
@@ -2011,6 +2084,22 @@ export default [
 				"weight": [
 					[
 						200,
+						800
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&display=block",
+		"isVariable": true,
+		"name": "Asta Sans",
+		"variants": [
+			{
+				"weight": [
+					[
+						300,
 						800
 					]
 				]
@@ -2365,6 +2454,45 @@ export default [
 				"weight": [
 					400,
 					"700"
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=BBH+Bartle:ital,wght@0,400&display=block",
+		"name": "BBH Bartle",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=BBH+Bogle:ital,wght@0,400&display=block",
+		"name": "BBH Bogle",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=BBH+Hegarty:ital,wght@0,400&display=block",
+		"name": "BBH Hegarty",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
 				]
 			}
 		]
@@ -2952,13 +3080,16 @@ export default [
 	},
 	{
 		"category": "serif",
-		"href": "https://fonts.googleapis.com/css2?family=Baskervville+SC:ital,wght@0,400&display=block",
+		"href": "https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400..700&display=block",
+		"isVariable": true,
 		"name": "Baskervville SC",
 		"variants": [
 			{
-				"italic": 0,
 				"weight": [
-					400
+					[
+						400,
+						700
+					]
 				]
 			}
 		]
@@ -3261,6 +3392,58 @@ export default [
 	},
 	{
 		"category": "handwriting",
+		"href": "https://fonts.googleapis.com/css2?family=Betania+Patmos:ital,wght@0,400&display=block",
+		"name": "Betania Patmos",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "handwriting",
+		"href": "https://fonts.googleapis.com/css2?family=Betania+Patmos+GDL:ital,wght@0,400&display=block",
+		"name": "Betania Patmos GDL",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "handwriting",
+		"href": "https://fonts.googleapis.com/css2?family=Betania+Patmos+In:ital,wght@0,400&display=block",
+		"name": "Betania Patmos In",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "handwriting",
+		"href": "https://fonts.googleapis.com/css2?family=Betania+Patmos+In+GDL:ital,wght@0,400&display=block",
+		"name": "Betania Patmos In GDL",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Beth+Ellen:ital,wght@0,400&display=block",
 		"name": "Beth Ellen",
 		"variants": [
@@ -3512,6 +3695,810 @@ export default [
 					"700",
 					"800",
 					"900"
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"CRSV": [
+				"Cursive",
+				0,
+				1,
+				0.5,
+				0.1
+			],
+			"ELSH": [
+				"Element Shape",
+				0,
+				100,
+				0,
+				0.1
+			],
+			"ELXP": [
+				"Element Expansion",
+				0,
+				100,
+				0,
+				1
+			],
+			"slnt": [
+				"Slant",
+				-8,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Bitcount:CRSV,ELSH,ELXP,slnt,wght@0..1,0..100,0..100,-8..0,100..900&display=block",
+		"isVariable": true,
+		"name": "Bitcount",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"CRSV": [
+				"Cursive",
+				0,
+				1,
+				0.5,
+				0.1
+			],
+			"ELSH": [
+				"Element Shape",
+				0,
+				100,
+				0,
+				0.1
+			],
+			"ELXP": [
+				"Element Expansion",
+				0,
+				100,
+				0,
+				1
+			],
+			"slnt": [
+				"Slant",
+				-8,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:CRSV,ELSH,ELXP,slnt,wght@0..1,0..100,0..100,-8..0,100..900&display=block",
+		"isVariable": true,
+		"name": "Bitcount Grid Double",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"CRSV": [
+				"Cursive",
+				0,
+				1,
+				0.5,
+				0.1
+			],
+			"ELSH": [
+				"Element Shape",
+				0,
+				100,
+				0,
+				0.1
+			],
+			"ELXP": [
+				"Element Expansion",
+				0,
+				100,
+				0,
+				1
+			],
+			"SZP1": [
+				"Size of Paint 1",
+				0,
+				100,
+				0,
+				1
+			],
+			"SZP2": [
+				"Size of Paint 2",
+				0,
+				100,
+				0,
+				1
+			],
+			"XPN1": [
+				"Horizontal Position of Paint 1",
+				-100,
+				100,
+				0,
+				1
+			],
+			"XPN2": [
+				"Horizontal Position of Paint 2",
+				-100,
+				100,
+				0,
+				1
+			],
+			"YPN1": [
+				"Vertical Position of Paint 1",
+				-100,
+				100,
+				0,
+				1
+			],
+			"YPN2": [
+				"Vertical Position of Paint 2",
+				-100,
+				100,
+				0,
+				1
+			],
+			"slnt": [
+				"Slant",
+				-8,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:CRSV,ELSH,ELXP,slnt,SZP1,SZP2,wght,XPN1,XPN2,YPN1,YPN2@0..1,0..100,0..100,-8..0,0..100,0..100,100..900,-100..100,-100..100,-100..100,-100..100&display=block",
+		"isVariable": true,
+		"name": "Bitcount Grid Double Ink",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"CRSV": [
+				"Cursive",
+				0,
+				1,
+				0.5,
+				0.1
+			],
+			"ELSH": [
+				"Element Shape",
+				0,
+				100,
+				0,
+				0.1
+			],
+			"ELXP": [
+				"Element Expansion",
+				0,
+				100,
+				0,
+				1
+			],
+			"slnt": [
+				"Slant",
+				-8,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:CRSV,ELSH,ELXP,slnt,wght@0..1,0..100,0..100,-8..0,100..900&display=block",
+		"isVariable": true,
+		"name": "Bitcount Grid Single",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"CRSV": [
+				"Cursive",
+				0,
+				1,
+				0.5,
+				0.1
+			],
+			"ELSH": [
+				"Element Shape",
+				0,
+				100,
+				0,
+				0.1
+			],
+			"ELXP": [
+				"Element Expansion",
+				0,
+				100,
+				0,
+				1
+			],
+			"SZP1": [
+				"Size of Paint 1",
+				0,
+				100,
+				0,
+				1
+			],
+			"SZP2": [
+				"Size of Paint 2",
+				0,
+				100,
+				0,
+				1
+			],
+			"XPN1": [
+				"Horizontal Position of Paint 1",
+				-100,
+				100,
+				0,
+				1
+			],
+			"XPN2": [
+				"Horizontal Position of Paint 2",
+				-100,
+				100,
+				0,
+				1
+			],
+			"YPN1": [
+				"Vertical Position of Paint 1",
+				-100,
+				100,
+				0,
+				1
+			],
+			"YPN2": [
+				"Vertical Position of Paint 2",
+				-100,
+				100,
+				0,
+				1
+			],
+			"slnt": [
+				"Slant",
+				-8,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single+Ink:CRSV,ELSH,ELXP,slnt,SZP1,SZP2,wght,XPN1,XPN2,YPN1,YPN2@0..1,0..100,0..100,-8..0,0..100,0..100,100..900,-100..100,-100..100,-100..100,-100..100&display=block",
+		"isVariable": true,
+		"name": "Bitcount Grid Single Ink",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"CRSV": [
+				"Cursive",
+				0,
+				1,
+				0.5,
+				0.1
+			],
+			"ELSH": [
+				"Element Shape",
+				0,
+				100,
+				0,
+				0.1
+			],
+			"ELXP": [
+				"Element Expansion",
+				0,
+				100,
+				0,
+				1
+			],
+			"SZP1": [
+				"Size of Paint 1",
+				0,
+				100,
+				0,
+				1
+			],
+			"SZP2": [
+				"Size of Paint 2",
+				0,
+				100,
+				0,
+				1
+			],
+			"XPN1": [
+				"Horizontal Position of Paint 1",
+				-100,
+				100,
+				0,
+				1
+			],
+			"XPN2": [
+				"Horizontal Position of Paint 2",
+				-100,
+				100,
+				0,
+				1
+			],
+			"YPN1": [
+				"Vertical Position of Paint 1",
+				-100,
+				100,
+				0,
+				1
+			],
+			"YPN2": [
+				"Vertical Position of Paint 2",
+				-100,
+				100,
+				0,
+				1
+			],
+			"slnt": [
+				"Slant",
+				-8,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Ink:CRSV,ELSH,ELXP,slnt,SZP1,SZP2,wght,XPN1,XPN2,YPN1,YPN2@0..1,0..100,0..100,-8..0,0..100,0..100,100..900,-100..100,-100..100,-100..100,-100..100&display=block",
+		"isVariable": true,
+		"name": "Bitcount Ink",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"CRSV": [
+				"Cursive",
+				0,
+				1,
+				0.5,
+				0.1
+			],
+			"ELSH": [
+				"Element Shape",
+				0,
+				100,
+				0,
+				0.1
+			],
+			"ELXP": [
+				"Element Expansion",
+				0,
+				100,
+				0,
+				1
+			],
+			"slnt": [
+				"Slant",
+				-8,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:CRSV,ELSH,ELXP,slnt,wght@0..1,0..100,0..100,-8..0,100..900&display=block",
+		"isVariable": true,
+		"name": "Bitcount Prop Double",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"CRSV": [
+				"Cursive",
+				0,
+				1,
+				0.5,
+				0.1
+			],
+			"ELSH": [
+				"Element Shape",
+				0,
+				100,
+				0,
+				0.1
+			],
+			"ELXP": [
+				"Element Expansion",
+				0,
+				100,
+				0,
+				1
+			],
+			"SZP1": [
+				"Size of Paint 1",
+				0,
+				100,
+				0,
+				1
+			],
+			"SZP2": [
+				"Size of Paint 2",
+				0,
+				100,
+				0,
+				1
+			],
+			"XPN1": [
+				"Horizontal Position of Paint 1",
+				-100,
+				100,
+				0,
+				1
+			],
+			"XPN2": [
+				"Horizontal Position of Paint 2",
+				-100,
+				100,
+				0,
+				1
+			],
+			"YPN1": [
+				"Vertical Position of Paint 1",
+				-100,
+				100,
+				0,
+				1
+			],
+			"YPN2": [
+				"Vertical Position of Paint 2",
+				-100,
+				100,
+				0,
+				1
+			],
+			"slnt": [
+				"Slant",
+				-8,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:CRSV,ELSH,ELXP,slnt,SZP1,SZP2,wght,XPN1,XPN2,YPN1,YPN2@0..1,0..100,0..100,-8..0,0..100,0..100,100..900,-100..100,-100..100,-100..100,-100..100&display=block",
+		"isVariable": true,
+		"name": "Bitcount Prop Double Ink",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"CRSV": [
+				"Cursive",
+				0,
+				1,
+				0.5,
+				0.1
+			],
+			"ELSH": [
+				"Element Shape",
+				0,
+				100,
+				0,
+				0.1
+			],
+			"ELXP": [
+				"Element Expansion",
+				0,
+				100,
+				0,
+				1
+			],
+			"slnt": [
+				"Slant",
+				-8,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:CRSV,ELSH,ELXP,slnt,wght@0..1,0..100,0..100,-8..0,100..900&display=block",
+		"isVariable": true,
+		"name": "Bitcount Prop Single",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"CRSV": [
+				"Cursive",
+				0,
+				1,
+				0.5,
+				0.1
+			],
+			"ELSH": [
+				"Element Shape",
+				0,
+				100,
+				0,
+				0.1
+			],
+			"ELXP": [
+				"Element Expansion",
+				0,
+				100,
+				0,
+				1
+			],
+			"SZP1": [
+				"Size of Paint 1",
+				0,
+				100,
+				0,
+				1
+			],
+			"SZP2": [
+				"Size of Paint 2",
+				0,
+				100,
+				0,
+				1
+			],
+			"XPN1": [
+				"Horizontal Position of Paint 1",
+				-100,
+				100,
+				0,
+				1
+			],
+			"XPN2": [
+				"Horizontal Position of Paint 2",
+				-100,
+				100,
+				0,
+				1
+			],
+			"YPN1": [
+				"Vertical Position of Paint 1",
+				-100,
+				100,
+				0,
+				1
+			],
+			"YPN2": [
+				"Vertical Position of Paint 2",
+				-100,
+				100,
+				0,
+				1
+			],
+			"slnt": [
+				"Slant",
+				-8,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:CRSV,ELSH,ELXP,slnt,SZP1,SZP2,wght,XPN1,XPN2,YPN1,YPN2@0..1,0..100,0..100,-8..0,0..100,0..100,100..900,-100..100,-100..100,-100..100,-100..100&display=block",
+		"isVariable": true,
+		"name": "Bitcount Prop Single Ink",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"CRSV": [
+				"Cursive",
+				0,
+				1,
+				0.5,
+				0.1
+			],
+			"ELSH": [
+				"Element Shape",
+				0,
+				100,
+				0,
+				0.1
+			],
+			"ELXP": [
+				"Element Expansion",
+				0,
+				100,
+				0,
+				1
+			],
+			"slnt": [
+				"Slant",
+				-8,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Single:CRSV,ELSH,ELXP,slnt,wght@0..1,0..100,0..100,-8..0,100..900&display=block",
+		"isVariable": true,
+		"name": "Bitcount Single",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"CRSV": [
+				"Cursive",
+				0,
+				1,
+				0.5,
+				0.1
+			],
+			"ELSH": [
+				"Element Shape",
+				0,
+				100,
+				0,
+				0.1
+			],
+			"ELXP": [
+				"Element Expansion",
+				0,
+				100,
+				0,
+				1
+			],
+			"SZP1": [
+				"Size of Paint 1",
+				0,
+				100,
+				0,
+				1
+			],
+			"SZP2": [
+				"Size of Paint 2",
+				0,
+				100,
+				0,
+				1
+			],
+			"XPN1": [
+				"Horizontal Position of Paint 1",
+				-100,
+				100,
+				0,
+				1
+			],
+			"XPN2": [
+				"Horizontal Position of Paint 2",
+				-100,
+				100,
+				0,
+				1
+			],
+			"YPN1": [
+				"Vertical Position of Paint 1",
+				-100,
+				100,
+				0,
+				1
+			],
+			"YPN2": [
+				"Vertical Position of Paint 2",
+				-100,
+				100,
+				0,
+				1
+			],
+			"slnt": [
+				"Slant",
+				-8,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:CRSV,ELSH,ELXP,slnt,SZP1,SZP2,wght,XPN1,XPN2,YPN1,YPN2@0..1,0..100,0..100,-8..0,0..100,0..100,100..900,-100..100,-100..100,-100..100,-100..100&display=block",
+		"isVariable": true,
+		"name": "Bitcount Single Ink",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
 				]
 			}
 		]
@@ -3833,6 +4820,45 @@ export default [
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Bowlby+One+SC:ital,wght@0,400&display=block",
 		"name": "Bowlby One SC",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Bpmf+Huninn:ital,wght@0,400&display=block",
+		"name": "Bpmf Huninn",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "handwriting",
+		"href": "https://fonts.googleapis.com/css2?family=Bpmf+Iansui:ital,wght@0,400&display=block",
+		"name": "Bpmf Iansui",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Bpmf+Zihi+Kai+Std:ital,wght@0,400&display=block",
+		"name": "Bpmf Zihi Kai Std",
 		"variants": [
 			{
 				"italic": 0,
@@ -4707,6 +5733,22 @@ export default [
 	},
 	{
 		"category": "handwriting",
+		"href": "https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=block",
+		"isVariable": true,
+		"name": "Cause",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=block",
 		"isVariable": true,
 		"name": "Caveat",
@@ -5034,6 +6076,66 @@ export default [
 				"italic": 0,
 				"weight": [
 					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=block",
+		"isVariable": true,
+		"name": "Chiron GoRound TC",
+		"variants": [
+			{
+				"weight": [
+					[
+						200,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:wght@200..900&display=block",
+		"isVariable": true,
+		"name": "Chiron Hei HK",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						200,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "serif",
+		"href": "https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:wght@200..900&display=block",
+		"isVariable": true,
+		"name": "Chiron Sung HK",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						200,
+						900
+					]
 				]
 			}
 		]
@@ -5622,6 +6724,34 @@ export default [
 		]
 	},
 	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Cossette+Texte:ital,wght@0,400;0,700&display=block",
+		"name": "Cossette Texte",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400,
+					"700"
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Cossette+Titre:ital,wght@0,400;0,700&display=block",
+		"name": "Cossette Titre",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400,
+					"700"
+				]
+			}
+		]
+	},
+	{
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Courgette:ital,wght@0,400&display=block",
 		"name": "Courgette",
@@ -6085,6 +7215,28 @@ export default [
 				"italic": 0,
 				"weight": [
 					400
+				]
+			}
+		]
+	},
+	{
+		"category": "monospace",
+		"href": "https://fonts.googleapis.com/css2?family=Datatype:wdth,wght@50..150,100..900&display=block",
+		"isVariable": true,
+		"name": "Datatype",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				],
+				"width": [
+					[
+						50,
+						150
+					]
 				]
 			}
 		]
@@ -6704,9 +7856,41 @@ export default [
 	},
 	{
 		"category": "handwriting",
+		"href": "https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=block",
+		"isVariable": true,
+		"name": "Edu NSW ACT Cursive",
+		"variants": [
+			{
+				"weight": [
+					[
+						400,
+						700
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=block",
 		"isVariable": true,
 		"name": "Edu NSW ACT Foundation",
+		"variants": [
+			{
+				"weight": [
+					[
+						400,
+						700
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "handwriting",
+		"href": "https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=block",
+		"isVariable": true,
+		"name": "Edu NSW ACT Hand Pre",
 		"variants": [
 			{
 				"weight": [
@@ -6736,9 +7920,41 @@ export default [
 	},
 	{
 		"category": "handwriting",
+		"href": "https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=block",
+		"isVariable": true,
+		"name": "Edu QLD Hand",
+		"variants": [
+			{
+				"weight": [
+					[
+						400,
+						700
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&display=block",
 		"isVariable": true,
 		"name": "Edu SA Beginner",
+		"variants": [
+			{
+				"weight": [
+					[
+						400,
+						700
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "handwriting",
+		"href": "https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=block",
+		"isVariable": true,
+		"name": "Edu SA Hand",
 		"variants": [
 			{
 				"weight": [
@@ -6783,6 +7999,38 @@ export default [
 		]
 	},
 	{
+		"category": "handwriting",
+		"href": "https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=block",
+		"isVariable": true,
+		"name": "Edu VIC WA NT Hand",
+		"variants": [
+			{
+				"weight": [
+					[
+						400,
+						700
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "handwriting",
+		"href": "https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&display=block",
+		"isVariable": true,
+		"name": "Edu VIC WA NT Hand Pre",
+		"variants": [
+			{
+				"weight": [
+					[
+						400,
+						700
+					]
+				]
+			}
+		]
+	},
+	{
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=block",
 		"isVariable": true,
@@ -6807,6 +8055,28 @@ export default [
 				"italic": 0,
 				"weight": [
 					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Elms+Sans:wght@100..900&display=block",
+		"isVariable": true,
+		"name": "Elms Sans",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						100,
+						900
+					]
 				]
 			}
 		]
@@ -7064,6 +8334,50 @@ export default [
 				"weight": [
 					[
 						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Epunda+Sans:wght@300..900&display=block",
+		"isVariable": true,
+		"name": "Epunda Sans",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						300,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "serif",
+		"href": "https://fonts.googleapis.com/css2?family=Epunda+Slab:wght@300..900&display=block",
+		"isVariable": true,
+		"name": "Epunda Slab",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						300,
 						900
 					]
 				]
@@ -8569,6 +9883,28 @@ export default [
 	},
 	{
 		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Geom:wght@300..900&display=block",
+		"isVariable": true,
+		"name": "Geom",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						300,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Georama:wdth,wght@62.5..150,100..900&display=block",
 		"isVariable": true,
 		"name": "Georama",
@@ -8863,6 +10199,118 @@ export default [
 					[
 						400,
 						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"GRAD": [
+				"Grade",
+				-50,
+				200,
+				0,
+				1
+			],
+			"opsz": [
+				"Optical Size",
+				17,
+				18,
+				14,
+				0.1
+			]
+		},
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Google+Sans:GRAD,opsz,wght@-50..200,17..18,400..700&display=block",
+		"isVariable": true,
+		"name": "Google Sans",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						400,
+						700
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "monospace",
+		"href": "https://fonts.googleapis.com/css2?family=Google+Sans+Code:wght@300..800&display=block",
+		"isVariable": true,
+		"name": "Google Sans Code",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						300,
+						800
+					]
+				]
+			}
+		]
+	},
+	{
+		"axes": {
+			"GRAD": [
+				"Grade",
+				0,
+				100,
+				0,
+				1
+			],
+			"ROND": [
+				"Roundness",
+				0,
+				100,
+				0,
+				1
+			],
+			"opsz": [
+				"Optical Size",
+				6,
+				144,
+				14,
+				0.1
+			],
+			"slnt": [
+				"Slant",
+				-10,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Google+Sans+Flex:GRAD,opsz,ROND,slnt,wdth,wght@0..100,6..144,0..100,-10..0,25..151,1..1000&display=block",
+		"isVariable": true,
+		"name": "Google Sans Flex",
+		"variants": [
+			{
+				"weight": [
+					[
+						1,
+						1000
+					]
+				],
+				"width": [
+					[
+						25,
+						151
 					]
 				]
 			}
@@ -9235,6 +10683,19 @@ export default [
 	},
 	{
 		"category": "handwriting",
+		"href": "https://fonts.googleapis.com/css2?family=Gveret+Levin:ital,wght@0,400&display=block",
+		"name": "Gveret Levin",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Gwendolyn:ital,wght@0,400;0,700&display=block",
 		"name": "Gwendolyn",
 		"variants": [
@@ -9414,17 +10875,16 @@ export default [
 	},
 	{
 		"category": "serif",
-		"href": "https://fonts.googleapis.com/css2?family=Hanuman:ital,wght@0,100;0,300;0,400;0,700;0,900&display=block",
+		"href": "https://fonts.googleapis.com/css2?family=Hanuman:wght@100..900&display=block",
+		"isVariable": true,
 		"name": "Hanuman",
 		"variants": [
 			{
-				"italic": 0,
 				"weight": [
-					"100",
-					"300",
-					400,
-					"700",
-					"900"
+					[
+						100,
+						900
+					]
 				]
 			}
 		]
@@ -9813,6 +11273,19 @@ export default [
 						75,
 						125
 					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Huninn:ital,wght@0,400&display=block",
+		"name": "Huninn",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
 				]
 			}
 		]
@@ -10306,6 +11779,21 @@ export default [
 		]
 	},
 	{
+		"category": "serif",
+		"href": "https://fonts.googleapis.com/css2?family=Idiqlat:ital,wght@0,200;0,300;0,400&display=block",
+		"name": "Idiqlat",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					"200",
+					"300",
+					400
+				]
+			}
+		]
+	},
+	{
 		"axes": {
 			"opsz": [
 				"Optical Size",
@@ -10579,6 +12067,28 @@ export default [
 		]
 	},
 	{
+		"category": "monospace",
+		"href": "https://fonts.googleapis.com/css2?family=Intel+One+Mono:wght@300..700&display=block",
+		"isVariable": true,
+		"name": "Intel One Mono",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						300,
+						700
+					]
+				]
+			}
+		]
+	},
+	{
 		"axes": {
 			"opsz": [
 				"Optical Size",
@@ -10627,6 +12137,56 @@ export default [
 						100,
 						900
 					]
+				]
+			}
+		]
+	},
+	{
+		"category": "monospace",
+		"href": "https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=block",
+		"name": "Iosevka Charon",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					"300",
+					400,
+					"500",
+					"700"
+				]
+			},
+			{
+				"italic": 1,
+				"weight": [
+					"300",
+					400,
+					"500",
+					"700"
+				]
+			}
+		]
+	},
+	{
+		"category": "monospace",
+		"href": "https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=block",
+		"name": "Iosevka Charon Mono",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					"300",
+					400,
+					"500",
+					"700"
+				]
+			},
+			{
+				"italic": 1,
+				"weight": [
+					"300",
+					400,
+					"500",
+					"700"
 				]
 			}
 		]
@@ -11717,6 +13277,24 @@ export default [
 		]
 	},
 	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Kedebideri:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"name": "Kedebideri",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400,
+					"500",
+					"600",
+					"700",
+					"800",
+					"900"
+				]
+			}
+		]
+	},
+	{
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Kelly+Slab:ital,wght@0,400&display=block",
 		"name": "Kelly Slab",
@@ -12224,6 +13802,35 @@ export default [
 		]
 	},
 	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=LINE+Seed+JP:ital,wght@0,100;0,400;0,700;0,800&display=block",
+		"name": "LINE Seed JP",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					"100",
+					400,
+					"700",
+					"800"
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=LXGW+Marker+Gothic:ital,wght@0,400&display=block",
+		"name": "LXGW Marker Gothic",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
 		"category": "monospace",
 		"href": "https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:ital,wght@0,300;0,400;0,700&display=block",
 		"name": "LXGW WenKai Mono TC",
@@ -12679,6 +14286,101 @@ export default [
 	},
 	{
 		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Libertinus+Keyboard:ital,wght@0,400&display=block",
+		"name": "Libertinus Keyboard",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Libertinus+Math:ital,wght@0,400&display=block",
+		"name": "Libertinus Math",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "monospace",
+		"href": "https://fonts.googleapis.com/css2?family=Libertinus+Mono:ital,wght@0,400&display=block",
+		"name": "Libertinus Mono",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=block",
+		"name": "Libertinus Sans",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400,
+					"700"
+				]
+			},
+			{
+				"italic": 1,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "serif",
+		"href": "https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=block",
+		"name": "Libertinus Serif",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400,
+					"600",
+					"700"
+				]
+			},
+			{
+				"italic": 1,
+				"weight": [
+					400,
+					"600",
+					"700"
+				]
+			}
+		]
+	},
+	{
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display:ital,wght@0,400&display=block",
+		"name": "Libertinus Serif Display",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Libre+Barcode+128:ital,wght@0,400&display=block",
 		"name": "Libre Barcode 128",
 		"variants": [
@@ -12770,20 +14472,22 @@ export default [
 	},
 	{
 		"category": "serif",
-		"href": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=block",
+		"href": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400..700&display=block",
+		"isVariable": true,
 		"name": "Libre Baskerville",
 		"variants": [
 			{
-				"italic": 0,
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
 				"weight": [
-					400,
-					"700"
-				]
-			},
-			{
-				"italic": 1,
-				"weight": [
-					400
+					[
+						400,
+						700
+					]
 				]
 			}
 		]
@@ -12889,6 +14593,28 @@ export default [
 					400,
 					"700",
 					"800"
+				]
+			}
+		]
+	},
+	{
+		"category": "monospace",
+		"href": "https://fonts.googleapis.com/css2?family=Lilex:wght@100..700&display=block",
+		"isVariable": true,
+		"name": "Lilex",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						100,
+						700
+					]
 				]
 			}
 		]
@@ -13738,6 +15464,19 @@ export default [
 		]
 	},
 	{
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Manufacturing+Consent:ital,wght@0,400&display=block",
+		"name": "Manufacturing Consent",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Marcellus:ital,wght@0,400&display=block",
 		"name": "Marcellus",
@@ -13929,6 +15668,22 @@ export default [
 		]
 	},
 	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Matangi:wght@300..900&display=block",
+		"isVariable": true,
+		"name": "Matangi",
+		"variants": [
+			{
+				"weight": [
+					[
+						300,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Mate:ital,wght@0,400;1,400&display=block",
 		"name": "Mate",
@@ -14089,6 +15844,22 @@ export default [
 				"italic": 0,
 				"weight": [
 					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Menbere:wght@100..700&display=block",
+		"isVariable": true,
+		"name": "Menbere",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						700
+					]
 				]
 			}
 		]
@@ -14558,6 +16329,48 @@ export default [
 	},
 	{
 		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Momo+Signature:ital,wght@0,400&display=block",
+		"name": "Momo Signature",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Momo+Trust+Display:ital,wght@0,400&display=block",
+		"name": "Momo Trust Display",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Momo+Trust+Sans:wght@200..800&display=block",
+		"isVariable": true,
+		"name": "Momo Trust Sans",
+		"variants": [
+			{
+				"weight": [
+					[
+						200,
+						800
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Mona+Sans:wdth,wght@75..125,200..900&display=block",
 		"isVariable": true,
 		"name": "Mona Sans",
@@ -14896,6 +16709,44 @@ export default [
 				"italic": 0,
 				"weight": [
 					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Mozilla+Headline:wdth,wght@75..125,200..700&display=block",
+		"isVariable": true,
+		"name": "Mozilla Headline",
+		"variants": [
+			{
+				"weight": [
+					[
+						200,
+						700
+					]
+				],
+				"width": [
+					[
+						75,
+						125
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=block",
+		"isVariable": true,
+		"name": "Mozilla Text",
+		"variants": [
+			{
+				"weight": [
+					[
+						200,
+						700
+					]
 				]
 			}
 		]
@@ -15298,6 +17149,22 @@ export default [
 	},
 	{
 		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=block",
+		"isVariable": true,
+		"name": "Nata Sans",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=block",
 		"isVariable": true,
 		"name": "National Park",
@@ -15538,17 +17405,16 @@ export default [
 	},
 	{
 		"category": "sans-serif",
-		"href": "https://fonts.googleapis.com/css2?family=Nokora:ital,wght@0,100;0,300;0,400;0,700;0,900&display=block",
+		"href": "https://fonts.googleapis.com/css2?family=Nokora:wght@100..900&display=block",
+		"isVariable": true,
 		"name": "Nokora",
 		"variants": [
 			{
-				"italic": 0,
 				"weight": [
-					"100",
-					"300",
-					400,
-					"700",
-					"900"
+					[
+						100,
+						900
+					]
 				]
 			}
 		]
@@ -17072,6 +18938,28 @@ export default [
 	},
 	{
 		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wdth,wght@62.5..100,100..900&display=block",
+		"isVariable": true,
+		"name": "Noto Sans Myanmar",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				],
+				"width": [
+					[
+						62.5,
+						100
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+NKo:ital,wght@0,400&display=block",
 		"name": "Noto Sans NKo",
 		"variants": [
@@ -17644,6 +19532,19 @@ export default [
 	},
 	{
 		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Sunuwar:ital,wght@0,400&display=block",
+		"name": "Noto Sans Sunuwar",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Syloti+Nagri:ital,wght@0,400&display=block",
 		"name": "Noto Sans Syloti Nagri",
 		"variants": [
@@ -17705,6 +19606,22 @@ export default [
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac+Eastern:wght@100..900&display=block",
 		"isVariable": true,
 		"name": "Noto Sans Syriac Eastern",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac+Western:wght@100..900&display=block",
+		"isVariable": true,
+		"name": "Noto Sans Syriac Western",
 		"variants": [
 			{
 				"weight": [
@@ -17926,21 +19843,22 @@ export default [
 	},
 	{
 		"category": "sans-serif",
-		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wdth,wght@62.5..100,100..900&display=block",
+		"isVariable": true,
 		"name": "Noto Sans Thai Looped",
 		"variants": [
 			{
-				"italic": 0,
 				"weight": [
-					"100",
-					"200",
-					"300",
-					400,
-					"500",
-					"600",
-					"700",
-					"800",
-					"900"
+					[
+						100,
+						900
+					]
+				],
+				"width": [
+					[
+						62.5,
+						100
+					]
 				]
 			}
 		]
@@ -18214,7 +20132,7 @@ export default [
 		]
 	},
 	{
-		"category": "sans-serif",
+		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Dives+Akuru:ital,wght@0,400&display=block",
 		"name": "Noto Serif Dives Akuru",
 		"variants": [
@@ -19712,6 +21630,22 @@ export default [
 				"italic": 0,
 				"weight": [
 					400
+				]
+			}
+		]
+	},
+	{
+		"category": "serif",
+		"href": "https://fonts.googleapis.com/css2?family=Parastoo:wght@400..700&display=block",
+		"isVariable": true,
+		"name": "Parastoo",
+		"variants": [
+			{
+				"weight": [
+					[
+						400,
+						700
+					]
 				]
 			}
 		]
@@ -21321,6 +23255,19 @@ export default [
 		]
 	},
 	{
+		"category": "serif",
+		"href": "https://fonts.googleapis.com/css2?family=Ramsina:ital,wght@0,400&display=block",
+		"name": "Ramsina",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Ranchers:ital,wght@0,400&display=block",
 		"name": "Ranchers",
@@ -22772,6 +24719,28 @@ export default [
 		]
 	},
 	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=SN+Pro:wght@200..900&display=block",
+		"isVariable": true,
+		"name": "SN Pro",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						200,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400..700&display=block",
 		"isVariable": true,
@@ -22795,11 +24764,39 @@ export default [
 	},
 	{
 		"category": "sans-serif",
-		"href": "https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=block",
+		"href": "https://fonts.googleapis.com/css2?family=SUSE:wght@100..900&display=block",
 		"isVariable": true,
 		"name": "SUSE",
 		"variants": [
 			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						100,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=SUSE+Mono:wght@100..800&display=block",
+		"isVariable": true,
+		"name": "SUSE Mono",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
 				"weight": [
 					[
 						100,
@@ -23181,6 +25178,28 @@ export default [
 	},
 	{
 		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Savate:wght@200..900&display=block",
+		"isVariable": true,
+		"name": "Savate",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						200,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Sawarabi+Gothic:ital,wght@0,400&display=block",
 		"name": "Sawarabi Gothic",
 		"variants": [
@@ -23278,6 +25297,44 @@ export default [
 		]
 	},
 	{
+		"axes": {
+			"CTRS": [
+				"Contrast",
+				0,
+				85,
+				0,
+				1
+			],
+			"slnt": [
+				"Slant",
+				-10,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Science+Gothic:CTRS,slnt,wdth,wght@0..85,-10..0,50..200,100..900&display=block",
+		"isVariable": true,
+		"name": "Science Gothic",
+		"variants": [
+			{
+				"weight": [
+					[
+						100,
+						900
+					]
+				],
+				"width": [
+					[
+						50,
+						200
+					]
+				]
+			}
+		]
+	},
+	{
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Scope+One:ital,wght@0,400&display=block",
 		"name": "Scope One",
@@ -23365,6 +25422,19 @@ export default [
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display:ital,wght@0,400&display=block",
 		"name": "Sedgwick Ave Display",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "display",
+		"href": "https://fonts.googleapis.com/css2?family=Sekuya:ital,wght@0,400&display=block",
+		"name": "Sekuya",
 		"variants": [
 			{
 				"italic": 0,
@@ -23818,6 +25888,19 @@ export default [
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Sirin+Stencil:ital,wght@0,400&display=block",
 		"name": "Sirin Stencil",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Sirivennela:ital,wght@0,400&display=block",
+		"name": "Sirivennela",
 		"variants": [
 			{
 				"italic": 0,
@@ -24461,13 +26544,22 @@ export default [
 	},
 	{
 		"category": "sans-serif",
-		"href": "https://fonts.googleapis.com/css2?family=Special+Gothic:ital,wght@0,400&display=block",
+		"href": "https://fonts.googleapis.com/css2?family=Special+Gothic:wdth,wght@75..125,400..700&display=block",
+		"isVariable": true,
 		"name": "Special Gothic",
 		"variants": [
 			{
-				"italic": 0,
 				"weight": [
-					400
+					[
+						400,
+						700
+					]
+				],
+				"width": [
+					[
+						75,
+						125
+					]
 				]
 			}
 		]
@@ -24730,6 +26822,54 @@ export default [
 		]
 	},
 	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=block",
+		"isVariable": true,
+		"name": "Stack Sans Headline",
+		"variants": [
+			{
+				"weight": [
+					[
+						200,
+						700
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=block",
+		"isVariable": true,
+		"name": "Stack Sans Notch",
+		"variants": [
+			{
+				"weight": [
+					[
+						200,
+						700
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=block",
+		"isVariable": true,
+		"name": "Stack Sans Text",
+		"variants": [
+			{
+				"weight": [
+					[
+						200,
+						700
+					]
+				]
+			}
+		]
+	},
+	{
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Stalemate:ital,wght@0,400&display=block",
 		"name": "Stalemate",
@@ -24833,6 +26973,19 @@ export default [
 				"italic": 0,
 				"weight": [
 					"300",
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Story+Script:ital,wght@0,400&display=block",
+		"name": "Story Script",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
 					400
 				]
 			}
@@ -25067,6 +27220,38 @@ export default [
 				"italic": 0,
 				"weight": [
 					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=block",
+		"isVariable": true,
+		"name": "TASA Explorer",
+		"variants": [
+			{
+				"weight": [
+					[
+						400,
+						800
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=block",
+		"isVariable": true,
+		"name": "TASA Orbiter",
+		"variants": [
+			{
+				"weight": [
+					[
+						400,
+						800
+					]
 				]
 			}
 		]
@@ -25425,6 +27610,44 @@ export default [
 		]
 	},
 	{
+		"axes": {
+			"opsz": [
+				"Optical Size",
+				12,
+				36,
+				14,
+				0.1
+			],
+			"slnt": [
+				"Slant",
+				-6,
+				0,
+				0,
+				1
+			]
+		},
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,slnt,wdth,wght@12..36,-6..0,75..150,300..900&display=block",
+		"isVariable": true,
+		"name": "TikTok Sans",
+		"variants": [
+			{
+				"weight": [
+					[
+						300,
+						900
+					]
+				],
+				"width": [
+					[
+						75,
+						150
+					]
+				]
+			}
+		]
+	},
+	{
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Tillana:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
 		"name": "Tillana",
@@ -25714,6 +27937,24 @@ export default [
 				"italic": 1,
 				"weight": [
 					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Tirra:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"name": "Tirra",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400,
+					"500",
+					"600",
+					"700",
+					"800",
+					"900"
 				]
 			}
 		]
@@ -26342,6 +28583,19 @@ export default [
 		]
 	},
 	{
+		"category": "serif",
+		"href": "https://fonts.googleapis.com/css2?family=UoqMunThenKhung:ital,wght@0,400&display=block",
+		"name": "UoqMunThenKhung",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Updock:ital,wght@0,400&display=block",
 		"name": "Updock",
@@ -26468,6 +28722,28 @@ export default [
 					[
 						100,
 						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Vend+Sans:wght@300..700&display=block",
+		"isVariable": true,
+		"name": "Vend Sans",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						300,
+						700
 					]
 				]
 			}
@@ -26656,6 +28932,32 @@ export default [
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Vujahday+Script:ital,wght@0,400&display=block",
 		"name": "Vujahday Script",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+JP+N:ital,wght@0,400&display=block",
+		"name": "WDXL Lubrifont JP N",
+		"variants": [
+			{
+				"italic": 0,
+				"weight": [
+					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+SC:ital,wght@0,400&display=block",
+		"name": "WDXL Lubrifont SC",
 		"variants": [
 			{
 				"italic": 0,
@@ -27428,6 +29730,78 @@ export default [
 				"weight": [
 					"300",
 					400
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Zalando+Sans:wdth,wght@75..125,200..900&display=block",
+		"isVariable": true,
+		"name": "Zalando Sans",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						200,
+						900
+					]
+				],
+				"width": [
+					[
+						75,
+						125
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:wght@200..900&display=block",
+		"isVariable": true,
+		"name": "Zalando Sans Expanded",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						200,
+						900
+					]
+				]
+			}
+		]
+	},
+	{
+		"category": "sans-serif",
+		"href": "https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:wght@200..900&display=block",
+		"isVariable": true,
+		"name": "Zalando Sans SemiExpanded",
+		"variants": [
+			{
+				"italic": [
+					[
+						0,
+						1
+					]
+				],
+				"weight": [
+					[
+						200,
+						900
+					]
 				]
 			}
 		]
