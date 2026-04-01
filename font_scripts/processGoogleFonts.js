@@ -1,6 +1,6 @@
 import { WEIGHT_REGULAR, WIDTH_NORMAL } from '../src/constants.js';
 
-// Copied from https://fonts.google.com/variablefonts#axis-definitions on 2025-05-29.
+// Copied from https://fonts.google.com/variablefonts#axis-definitions on 2026-04-01.
 const GOOGLE_AXIS_DEFINITIONS = {
 	// NOTE: I modified the Italic step value from 1 to 0.01, since Google doesn’t indicate whether a specific font has
 	//       discrete or continuous italics.
@@ -14,6 +14,7 @@ const GOOGLE_AXIS_DEFINITIONS = {
 	BLED: ['Bleed', 0, 100, 0, 1],
 	BNCE: ['Bounce', -100, 100, 0, 1],
 	CASL: ['Casual', 0, 1, 0, 0.01],
+	CTRS: ['Contrast', -100, 100, 0, 1],
 	XTRA: ['Counter Width', -1000, 2000, 400, 1],
 	CRSV: ['Cursive', 0, 1, 0.5, 0.1],
 	YTDE: ['Descender Depth', -1000, 0, -250, 1],
@@ -82,7 +83,16 @@ export default function processGoogleFonts(rawJson) {
 				// Switch from Google’s object format to our expected format.
 				const { wght, ital, wdth, ...axes } = font.axes.reduce((acc, cur) => {
 					const { tag, start, end } = cur;
-					const [label, _min, _max, defaultValue, step] = GOOGLE_AXIS_DEFINITIONS[tag];
+					const definition = GOOGLE_AXIS_DEFINITIONS[tag];
+					if (!definition) {
+						throw new Error(
+							`Unknown variable-font axis tag “${tag}” on “${name}”. ` +
+								`Add it to GOOGLE_AXIS_DEFINITIONS in font_scripts/processGoogleFonts.js ` +
+								`by referencing https://fonts.google.com/variablefonts#axis-definitions ` +
+								`or https://github.com/googlefonts/axisregistry/tree/main/Lib/axisregistry/data for the official values.`
+						);
+					}
+					const [label, _min, _max, defaultValue, step] = definition;
 					acc[tag] = [label, start, end, defaultValue, step];
 					return acc;
 				}, {});
