@@ -1194,8 +1194,8 @@
 	font-family: 'Def Sans';
 	src: url('DefSansVF.woff2') format('woff2');
 	font-weight: 100 900;
-	font-style: normal italic;
-	font-stretch: normal condensed;
+	font-style: normal;
+	font-stretch: 75% 100%;
 }
 
 /******************************************************************************
@@ -1207,7 +1207,7 @@
 	font-family: 'Easy Grotesk';
 	src: url('Easy-Grotesk-Variable.woff2') format('woff2');
 	font-weight: 200 900;
-	font-style: normal italic;
+	font-style: normal;
 }
 
 /******************************************************************************
@@ -3060,7 +3060,7 @@
 @font-face {
 	font-family: 'Nicephore';
 	src: url('Nicephore-Variable.woff2') format('woff2');
-	font-weight: 0 1000;
+	font-weight: 1 1000;
 	font-style: normal;
 }
 
@@ -3290,7 +3290,7 @@
     font-family: 'Peridot PE';
     src: url('PeridotPEVF.woff2') format('woff2-variations');
     font-weight: 100 950;
-    font-style: normal italic;
+    font-style: normal;
     font-stretch: 50% 150%;
 }
 
@@ -3303,7 +3303,7 @@
 	font-family: 'Protest Grotesk';
 	src: url('ProtestGrotesk[slnt,wght].woff2') format('woff2');
 	font-weight: 100 900;
-	font-style: normal italic;
+	font-style: normal;
 }
 
 /******************************************************************************
@@ -3315,7 +3315,7 @@
 	font-family: 'Output Sans 2 Beta';
 	src: url('OutputSans2Beta-Regular.woff2') format('woff2');
 	font-weight: 1 800;
-	font-style: normal italic;
+	font-style: normal;
 }
 
 /******************************************************************************

@@ -94,9 +94,9 @@ allFonts.forEach(font => {
 					}
 					acc.get(value).push(variant);
 					return acc;
-				}, new Map())
+				}, new Map()),
 			),
-		])
+		]),
 	);
 
 	// Add collections based on font properties.

@@ -42,15 +42,15 @@ export function generatePermutations(options) {
 					? values.map(value => ({
 							...result,
 							[key]: value,
-					  }))
+						}))
 					: [
 							{
 								...result,
 								[key]: values,
 							},
-					  ]
+						],
 			),
-		[{}]
+		[{}],
 	);
 }
 

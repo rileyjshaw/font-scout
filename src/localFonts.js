@@ -1179,7 +1179,7 @@ const otherLicensedFonts = [
 		name: 'Nicephore',
 		isVariable: true,
 		variants: generatePermutations({
-			weight: [[0, WEIGHT_MAX]],
+			weight: [[WEIGHT_MIN, WEIGHT_MAX]],
 		}),
 		collections: [DISPLAY_COLLECTION, SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
@@ -1271,7 +1271,7 @@ const localFonts = [...atipoFonts, ...djrFontOfTheMonth, ...freeOpenFonts, ...sy
 	font => ({
 		...font,
 		collections: [...(font.collections ?? []), LOCAL_FONTS_COLLECTION],
-	})
+	}),
 );
 
 export default localFonts;

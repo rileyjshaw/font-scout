@@ -19,8 +19,8 @@ async function measureFonts(__dirname) {
 									`<html><head><link href="./public/fonts/typography.css" rel="stylesheet" type="text/css" /><link href="./public/publicFonts/typography.css" rel="stylesheet" type="text/css" />${remoteFonts
 										.map(font => `<link href="${font.href}&display=block" rel="stylesheet" type="text/css" />`)
 										.join('')}</head><body><script>var allFonts = JSON.parse('${JSON.stringify(
-										allFonts
-									)}')</script><script src="./font_scripts/measureFontsClient.js"></script></body></html>`
+										allFonts,
+									)}')</script><script src="./font_scripts/measureFontsClient.js"></script></body></html>`,
 								);
 								break;
 							default:

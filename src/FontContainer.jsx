@@ -20,7 +20,7 @@ const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, ...prop
 		: undefined;
 
 	return (
-		<div className="flex-grow text-[length:--font-preview-size] flex justify-center" {...props}>
+		<div className="flex-grow flex justify-center" style={{ fontSize: 'var(--font-preview-size)' }} {...props}>
 			<pre
 				className={cn('font-preview p-3', isMarked && 'marked')}
 				style={{
@@ -53,6 +53,7 @@ function getSettingsFromVariant(variant, oldSettings) {
 }
 
 const FontContainer = React.memo(function FontContainer({
+	ariaAttributes,
 	font,
 	isMarked,
 	isHidden,
@@ -110,7 +111,7 @@ const FontContainer = React.memo(function FontContainer({
 				const currentDiff = weightDiff + italicDiff * 1000 + obliqueDiff * 1000 + widthDiff * 1000;
 				return currentDiff < bestDiff ? [currentDiff, variantSettings] : best;
 			},
-			[Infinity, null]
+			[Infinity, null],
 		)[1];
 
 		onChangeFontSettings(bestMatch, font, isManual);
@@ -157,7 +158,7 @@ const FontContainer = React.memo(function FontContainer({
 					max,
 					step,
 					defaultValue,
-			  }))
+				}))
 			: []),
 		{
 			id: 'scale',
@@ -168,12 +169,12 @@ const FontContainer = React.memo(function FontContainer({
 	].sort((a, b) => (SETTINGS_SORT_ORDER[a.label] ?? Infinity) - (SETTINGS_SORT_ORDER[b.label] ?? Infinity));
 
 	return (
-		<li ref={ref} className="px-2 pt-2" style={style}>
+		<li {...ariaAttributes} ref={ref} className="px-2 pt-2" style={style}>
 			<div className={cn('h-full flex flex-col rounded-xl px-1 pb-4', isMarked && 'bg-green-400')}>
 				<div
 					className={cn(
 						'grid items-center grid-cols-[auto_1fr_auto] w-full text-gray-300',
-						isMarked && 'text-foreground/50'
+						isMarked && 'text-foreground/50',
 					)}
 				>
 					{/* HACK: This empty container simplifies title alignment */}

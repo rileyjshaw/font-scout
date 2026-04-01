@@ -22,7 +22,7 @@ const Slider = React.forwardRef(
 			scale = linearScale,
 			...props
 		},
-		ref
+		ref,
 	) => {
 		const isUniformSteps = !!(isUniformStepsProp && steps);
 		const [sortedSteps, stepIdxFromValue, stepValueFromIdx] = useMemo(() => {
@@ -100,10 +100,10 @@ const Slider = React.forwardRef(
 						</div>
 					)}
 				</SliderPrimitive.Track>
-				<SliderPrimitive.Thumb className="block h-4 w-4 rounded-full border border-primary/50 bg-background shadow transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50" />
+				<SliderPrimitive.Thumb className="block h-4 w-4 rounded-full border border-primary/50 bg-background shadow-sm transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50" />
 			</SliderPrimitive.Root>
 		);
-	}
+	},
 );
 Slider.displayName = SliderPrimitive.Root.displayName;
 

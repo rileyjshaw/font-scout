@@ -1,5 +1,5 @@
 import React, { useCallback, useEffect, useLayoutEffect, useMemo, useRef, useState } from 'react';
-import { FixedSizeGrid as Grid, areEqual } from 'react-window';
+import { Grid } from 'react-window';
 import useKeypress from 'react-use-keypress';
 import useResizeObserver from '@react-hook/resize-observer';
 import { ChevronUp, ChevronDown, AlignLeft, AlignCenter, AlignRight, RectangleVertical, Columns2 } from 'lucide-react';
@@ -47,7 +47,7 @@ function matchedFontsFromCollections(includedCollections, includeMethod, exclude
 			!(
 				excludedCollections.length &&
 				excludedCollections[excludeArrayMethod](collection => collections.includes(collection))
-			)
+			),
 	);
 	if (!matchedFonts.length) return false;
 	return matchedFonts.reduce((acc, font) => {
@@ -56,11 +56,22 @@ function matchedFontsFromCollections(includedCollections, includeMethod, exclude
 	}, {});
 }
 
-const GridCell = React.memo(function GridCell({ columnIndex, rowIndex, style, data }) {
-	const { columnCount, visibleFonts, fontSettings, markedFonts, hiddenFonts, ...props } = data;
+const GridCell = React.memo(function GridCell({
+	ariaAttributes,
+	columnCount,
+	columnIndex,
+	fontSettings,
+	hiddenFonts,
+	markedFonts,
+	rowIndex,
+	style,
+	visibleFonts,
+	...props
+}) {
 	const font = visibleFonts[columnIndex + rowIndex * columnCount];
 	return font ? (
 		<FontContainer
+			ariaAttributes={ariaAttributes}
 			font={font}
 			isMarked={markedFonts.has(font.name)}
 			isHidden={hiddenFonts.has(font.name)}
@@ -69,7 +80,7 @@ const GridCell = React.memo(function GridCell({ columnIndex, rowIndex, style, da
 			{...props}
 		/>
 	) : null;
-}, areEqual);
+});
 
 function ExplorationMode({
 	configMode,
@@ -117,7 +128,7 @@ function ExplorationMode({
 	const [isShowingFilter, setIsShowingFilter] = useState(false);
 	const matchedFonts = useMemo(
 		() => matchedFontsFromCollections(includedCollections, includeMethod, excludedCollections, excludeMethod),
-		[includedCollections, includeMethod, excludedCollections, excludeMethod]
+		[includedCollections, includeMethod, excludedCollections, excludeMethod],
 	);
 
 	const columnCount = listMode === 'grid' ? Math.max(Math.floor(gridWidth / MIN_COLUMN_WIDTH), 1) : 1;
@@ -131,8 +142,8 @@ function ExplorationMode({
 						(hiddenFonts.has(font.name) ? _unselectedFonts : _selectedFonts).push(font);
 						return acc;
 					},
-					[[], []]
-			  )
+					[[], []],
+				)
 			: [[], []];
 		const listedFonts = configMode ? [...selectedFonts, ...unselectedFonts] : selectedFonts;
 
@@ -171,7 +182,7 @@ function ExplorationMode({
 			...Array.from(untweakedBigFonts).map(name => ({
 				font: allFontsByName[name],
 				settings: {},
-			}))
+			})),
 		);
 
 		return [filteredFonts, bigFonts];
@@ -181,13 +192,13 @@ function ExplorationMode({
 		marked => {
 			onChangeMarkedBatch(
 				visibleFonts.map(font => font.name),
-				marked
+				marked,
 			);
 		},
-		[visibleFonts, onChangeMarkedBatch]
+		[visibleFonts, onChangeMarkedBatch],
 	);
 
-	const itemData = useMemo(
+	const cellProps = useMemo(
 		() => ({
 			columnCount,
 			Preview,
@@ -215,12 +226,12 @@ function ExplorationMode({
 			onChangeMarked,
 			onChangeHidden,
 			onChangeFontSettings,
-		]
+		],
 	);
 
 	const isEveryVisibleFontMarked = useMemo(
 		() => visibleFonts.length <= markedFonts.size && visibleFonts.every(font => markedFonts.has(font.name)),
-		[visibleFonts, markedFonts]
+		[visibleFonts, markedFonts],
 	);
 
 	useEffect(() => {
@@ -242,7 +253,7 @@ function ExplorationMode({
 						}
 						return axes;
 					},
-					{}
+					{},
 				);
 			}
 
@@ -271,7 +282,7 @@ function ExplorationMode({
 
 	return (
 		<>
-			<div className={cn('border-b shadow-sm', configMode && 'pt-4')}>
+			<div className={cn('border-b shadow-xs', configMode && 'pt-4')}>
 				{!configMode && (
 					<div className="details min-h-6 flex items-center gap-4 px-2 text-gray-500">
 						<span>Showing {visibleFonts.length} fonts</span>
@@ -497,17 +508,17 @@ function ExplorationMode({
 				{matchedFonts ? (
 					visibleFonts.length ? (
 						<Grid
+							cellComponent={GridCell}
+							cellProps={cellProps}
 							className="list-none"
 							columnCount={columnCount}
 							columnWidth={columnWidth}
+							defaultHeight={gridHeight}
+							defaultWidth={gridWidth}
 							rowCount={Math.ceil(visibleFonts.length / columnCount)}
 							rowHeight={probeHeight + 80} // 80 = Top bar + bottom padding + wiggle room
-							height={gridHeight}
-							width={gridWidth}
-							itemData={itemData}
-						>
-							{GridCell}
-						</Grid>
+							style={{ height: gridHeight, width: gridWidth }}
+						/>
 					) : (
 						<p className="no-fonts-warning">
 							<strong>No fonts to display.</strong> Select one or more fonts in config mode.

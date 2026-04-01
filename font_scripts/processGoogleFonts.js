@@ -89,7 +89,7 @@ export default function processGoogleFonts(rawJson) {
 							`Unknown variable-font axis tag “${tag}” on “${name}”. ` +
 								`Add it to GOOGLE_AXIS_DEFINITIONS in font_scripts/processGoogleFonts.js ` +
 								`by referencing https://fonts.google.com/variablefonts#axis-definitions ` +
-								`or https://github.com/googlefonts/axisregistry/tree/main/Lib/axisregistry/data for the official values.`
+								`or https://github.com/googlefonts/axisregistry/tree/main/Lib/axisregistry/data for the official values.`,
 						);
 					}
 					const [label, _min, _max, defaultValue, step] = definition;
@@ -105,7 +105,7 @@ export default function processGoogleFonts(rawJson) {
 				if (ital) {
 					// Warn if the above comment becomes outdated.
 					console.warn(
-						'Google may have changed their API to include a variable `ital` axis for variable fonts. This script assumes italics are defined in the `variants` property. Please update the script.'
+						'Google may have changed their API to include a variable `ital` axis for variable fonts. This script assumes italics are defined in the `variants` property. Please update the script.',
 					);
 				}
 				const hasItalics = font.variants.includes('italic');
@@ -124,7 +124,7 @@ export default function processGoogleFonts(rawJson) {
 							acc[1].push(`${start}..${end}`);
 							return acc;
 						},
-						[[], []]
+						[[], []],
 					)
 					.map(arr => arr.join(','))
 					.join('@')}&display=block`;
@@ -148,7 +148,7 @@ export default function processGoogleFonts(rawJson) {
 						}
 						return acc;
 					},
-					[[], []]
+					[[], []],
 				);
 
 				const href = `${hrefBase}:ital,wght@${[regularWeights, italicWeights]

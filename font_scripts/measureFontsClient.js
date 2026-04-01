@@ -14,7 +14,7 @@ function getWeights(variants) {
 				}
 				// Otherwise, just return the static weight.
 				return [variant.weight];
-			})
+			}),
 		),
 	];
 }
@@ -46,7 +46,7 @@ const alphabet = Array.from({ length: 26 }, (_, i) => [String.fromCharCode(65 + 
 const [widthProbe, heightProbe] = [
 	alphabet
 		.flatMap(
-			letter1 => `<span>${letter1}</span> ${alphabet.map(letter2 => `<span>${letter1}${letter2}</span>`).join('')}`
+			letter1 => `<span>${letter1}</span> ${alphabet.map(letter2 => `<span>${letter1}${letter2}</span>`).join('')}`,
 		)
 		.join(''),
 	alphabet.join('\n'),
@@ -105,7 +105,7 @@ document.fonts.ready.then(async () => {
 				.every(
 					stats =>
 						stats.width === perWeightStats[0].width &&
-						stats.characterWidths.every((width, i) => width === perWeightStats[0].characterWidths[i])
+						stats.characterWidths.every((width, i) => width === perWeightStats[0].characterWidths[i]),
 				);
 
 		const result = {

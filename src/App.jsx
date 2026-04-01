@@ -48,12 +48,12 @@ function App() {
 				});
 			}
 		},
-		[setLoadedStylesheets]
+		[setLoadedStylesheets],
 	);
 
 	const Preview = useMemo(
 		() => getPreviewComponent(previewContent || defaultPreviewContent),
-		[defaultPreviewContent, previewContent]
+		[defaultPreviewContent, previewContent],
 	);
 
 	const appStyles = useMemo(
@@ -62,7 +62,7 @@ function App() {
 			'--font-preview-line-height': globalLineHeight,
 			'--font-preview-align': alignment,
 		}),
-		[fontSize, globalLineHeight, alignment]
+		[fontSize, globalLineHeight, alignment],
 	);
 
 	const handleMarkFont = useCallback((name, shouldMark) => {
