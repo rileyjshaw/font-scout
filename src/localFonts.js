@@ -894,6 +894,14 @@ const otherLicensedFonts = [
 		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
+		name: 'DaVinci',
+		variants: generatePermutations({
+			weight: [WEIGHT_THIN, WEIGHT_LIGHT, WEIGHT_REGULAR, WEIGHT_MEDIUM, WEIGHT_SEMI_BOLD, WEIGHT_BOLD, WEIGHT_BLACK],
+			italic: [0, 1],
+		}),
+		collections: [SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
+	},
+	{
 		name: 'Def Sans',
 		isVariable: true,
 		variants: generatePermutations({
