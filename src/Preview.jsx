@@ -10,7 +10,7 @@ function parseBrackets(str, startIdx = 0, isChild = false) {
 			if (char === '[') isOpen = true;
 			else if (char === ']') isClosed = true;
 		}
-		if (isOpen || isClosed) {
+		if (isOpen || (isClosed && isChild)) {
 			// Ensure the possible substring between the prior token and here is captured.
 			if (i > startIdx + 1) result.push(str.slice(startIdx, i - 1));
 			if (isOpen) {
