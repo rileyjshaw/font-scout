@@ -857,7 +857,7 @@ const otherLicensedFonts = [
 		variants: generatePermutations({
 			weight: [[WEIGHT_LIGHT, WEIGHT_ULTRA_BLACK]],
 		}),
-		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION, UI_FONTS_COLLECTION],
+		collections: [SANS_SERIF_COLLECTION, FRESH_FONTS_COLLECTION],
 	},
 	{
 		name: 'Cartograph CF',
