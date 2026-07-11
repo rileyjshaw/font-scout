@@ -297,6 +297,7 @@ function ExplorationMode({
 					onClick={() => setConfigMode(x => !x)}
 				>
 					{configMode ? <ChevronUp /> : <ChevronDown />}
+					<span className="sr-only">{configMode ? 'Hide settings' : 'Show settings'}</span>
 				</button>
 				{configMode && (
 					<div className="flex flex-col">
@@ -359,6 +360,7 @@ function ExplorationMode({
 										}}
 									/>
 									<AlignLeft className={`radio-icon ${alignment === 'left' ? 'selected' : ''}`} title="Left align" />
+									<span className="sr-only">Left align</span>
 								</label>
 								<label>
 									<input
@@ -374,6 +376,7 @@ function ExplorationMode({
 										className={`radio-icon ${alignment === 'center' ? 'selected' : ''}`}
 										title="Center align"
 									/>
+									<span className="sr-only">Center align</span>
 								</label>
 								<label>
 									<input
@@ -386,6 +389,7 @@ function ExplorationMode({
 										}}
 									/>
 									<AlignRight className={`radio-icon ${alignment === 'right' ? 'selected' : ''}`} title="Right align" />
+									<span className="sr-only">Right align</span>
 								</label>
 							</fieldset>
 						</div>
@@ -449,6 +453,7 @@ function ExplorationMode({
 										className={`radio-icon ${listMode === 'list' ? 'selected' : ''}`}
 										title="List view"
 									/>
+									<span className="sr-only">List view</span>
 								</label>
 								<label>
 									<input
@@ -461,6 +466,7 @@ function ExplorationMode({
 										}}
 									/>
 									<Columns2 className={`radio-icon ${listMode === 'grid' ? 'selected' : ''}`} title="Grid view" />
+									<span className="sr-only">Grid view</span>
 								</label>
 							</fieldset>
 						</div>

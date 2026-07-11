@@ -215,6 +215,7 @@ function App() {
 										onClick={() => setMarkedFonts(new Set())}
 									>
 										<PinOff className="w-3 h-3" />
+										<span className="sr-only">Clear marked fonts</span>
 									</Button>
 								</div>
 							)}
