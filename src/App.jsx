@@ -159,6 +159,7 @@ function App() {
 							Preview={Preview}
 							setIsComparisonMode={setIsComparisonMode}
 							loadFont={loadFont}
+							fontSettings={fontSettings}
 						/>
 					) : (
 						<>

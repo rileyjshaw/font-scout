@@ -62,112 +62,155 @@ const IGNORED_FONTS = [
 	'Victor Mono', // The local version includes obliques.
 ];
 
-export default function processGoogleFonts(rawJson) {
-	return rawJson.items
-		.filter(font => !IGNORED_FONTS.includes(font.family))
-		.map(font => {
-			const name = font.family;
-			const hrefBase = `https://fonts.googleapis.com/css2?family=${name.replace(/ /g, '+')}`;
+function variantKeyToDescriptor(font, variantKey) {
+	const italic = variantKey.endsWith('italic') ? 1 : 0;
+	const weightMatch = variantKey.match(/^[0-9]+/);
+	const descriptor = {
+		weight: weightMatch ? Number(weightMatch[0]) : WEIGHT_REGULAR,
+		italic,
+	};
+	for (const { tag, start, end } of font.axes ?? []) {
+		if (tag === 'wght') descriptor.weight = [start, end];
+		if (tag === 'wdth') descriptor.width = [start, end];
+	}
+	return descriptor;
+}
 
-			const isVariable = !!font.axes;
-			const commonProperties = {
-				name,
-				category: font.category,
-			};
-			if (isVariable) {
-				commonProperties.isVariable = true;
-			}
+export function compactFontFeatures(font, featureFaces = {}) {
+	const faces = Object.entries(featureFaces)
+		.filter(([variant]) => Object.hasOwn(font.files ?? {}, variant))
+		.sort(([variantA], [variantB]) => variantA.localeCompare(variantB, undefined, { numeric: true }))
+		.map(([variant, features]) => ({
+			features: [...new Set(features)].sort(),
+			variant: variantKeyToDescriptor(font, variant),
+		}));
+	if (!faces.length) return {};
 
-			let additionalProperties = {};
-			if (isVariable) {
-				// Switch from Google’s object format to our expected format.
-				const { wght, ital, wdth, ...axes } = font.axes.reduce((acc, cur) => {
-					const { tag, start, end } = cur;
-					const definition = GOOGLE_AXIS_DEFINITIONS[tag];
-					if (!definition) {
-						throw new Error(
-							`Unknown variable-font axis tag “${tag}” on “${name}”. ` +
-								`Add it to GOOGLE_AXIS_DEFINITIONS in font_scripts/processGoogleFonts.js ` +
-								`by referencing https://fonts.google.com/variablefonts#axis-definitions ` +
-								`or https://github.com/googlefonts/axisregistry/tree/main/Lib/axisregistry/data for the official values.`,
+	const common = faces[0].features.filter(feature => faces.every(face => face.features.includes(feature)));
+	const groups = new Map();
+	for (const face of faces) {
+		const extras = face.features.filter(feature => !common.includes(feature));
+		if (!extras.length) continue;
+		const key = extras.join(',');
+		if (!groups.has(key)) groups.set(key, { features: extras, variants: [] });
+		groups.get(key).variants.push(face.variant);
+	}
+
+	return {
+		...(common.length ? { features: common } : {}),
+		...(groups.size ? { featureGroups: [...groups.values()] } : {}),
+	};
+}
+
+export default function processGoogleFonts(rawJson, featureMap = {}) {
+	return Object.fromEntries(
+		rawJson.items
+			.filter(font => !IGNORED_FONTS.includes(font.family))
+			.map(font => {
+				const name = font.family;
+				const hrefBase = `https://fonts.googleapis.com/css2?family=${name.replace(/ /g, '+')}`;
+
+				const isVariable = !!font.axes;
+				const commonProperties = { category: font.category };
+				if (isVariable) {
+					commonProperties.isVariable = true;
+				}
+
+				let additionalProperties = {};
+				if (isVariable) {
+					// Switch from Google’s object format to our expected format.
+					const { wght, ital, wdth, ...axes } = font.axes.reduce((acc, cur) => {
+						const { tag, start, end } = cur;
+						const definition = GOOGLE_AXIS_DEFINITIONS[tag];
+						if (!definition) {
+							throw new Error(
+								`Unknown variable-font axis tag “${tag}” on “${name}”. ` +
+									`Add it to GOOGLE_AXIS_DEFINITIONS in font_scripts/processGoogleFonts.js ` +
+									`by referencing https://fonts.google.com/variablefonts#axis-definitions ` +
+									`or https://github.com/googlefonts/axisregistry/tree/main/Lib/axisregistry/data for the official values.`,
+							);
+						}
+						const [label, _min, _max, defaultValue, step] = definition;
+						acc[tag] = [label, start, end, defaultValue, step];
+						return acc;
+					}, {});
+
+					// A lot of Google fonts with variable axes may still have a static `ital` axis.
+					// As of 2024-12-28, Google doesn’t differentiate between a font with a variable
+					// `ital` axis (eg. EB Garamond), and a font with a static 0|1 `font-style: italic`
+					// switch. I’m not really sure how to handle this, but my current thinking is that
+					// any variable font with italics should automatically have a 0..1 `ital` slider.
+					if (ital) {
+						// Warn if the above comment becomes outdated.
+						console.warn(
+							'Google may have changed their API to include a variable `ital` axis for variable fonts. This script assumes italics are defined in the `variants` property. Please update the script.',
 						);
 					}
-					const [label, _min, _max, defaultValue, step] = definition;
-					acc[tag] = [label, start, end, defaultValue, step];
-					return acc;
-				}, {});
+					const hasItalics = font.variants.includes('italic');
+					const variant = {};
+					if (wght) variant.weight = [[wght[1], wght[2]]];
+					if (hasItalics) variant.italic = [[0, 1]];
+					if (wdth) variant.width = [[wdth[1], wdth[2]]];
+					const variants = [variant];
 
-				// A lot of Google fonts with variable axes may still have a static `ital` axis.
-				// As of 2024-12-28, Google doesn’t differentiate between a font with a variable
-				// `ital` axis (eg. EB Garamond), and a font with a static 0|1 `font-style: italic`
-				// switch. I’m not really sure how to handle this, but my current thinking is that
-				// any variable font with italics should automatically have a 0..1 `ital` slider.
-				if (ital) {
-					// Warn if the above comment becomes outdated.
-					console.warn(
-						'Google may have changed their API to include a variable `ital` axis for variable fonts. This script assumes italics are defined in the `variants` property. Please update the script.',
-					);
-				}
-				const hasItalics = font.variants.includes('italic');
-				const variant = {};
-				if (wght) variant.weight = [[wght[1], wght[2]]];
-				if (hasItalics) variant.italic = [[0, 1]];
-				if (wdth) variant.width = [[wdth[1], wdth[2]]];
-				const variants = [variant];
+					const href = `${hrefBase}:${font.axes
+						.sort(({ tag: tagA }, { tag: tagB }) => tagA.localeCompare(tagB))
+						// Form a string like "ital,opsz,wght@0..1,8..30,100..900".
+						.reduce(
+							(acc, { tag, start, end }) => {
+								acc[0].push(tag);
+								acc[1].push(`${start}..${end}`);
+								return acc;
+							},
+							[[], []],
+						)
+						.map(arr => arr.join(','))
+						.join('@')}&display=block`;
 
-				const href = `${hrefBase}:${font.axes
-					.sort(({ tag: tagA }, { tag: tagB }) => tagA.localeCompare(tagB))
-					// Form a string like "ital,opsz,wght@0..1,8..30,100..900".
-					.reduce(
-						(acc, { tag, start, end }) => {
-							acc[0].push(tag);
-							acc[1].push(`${start}..${end}`);
+					additionalProperties = {
+						href,
+						variants,
+					};
+					if (Object.keys(axes).length) {
+						additionalProperties.axes = axes;
+					}
+				} else {
+					const [regularWeights, italicWeights] = font.variants.reduce(
+						(acc, variant) => {
+							const [regularWeights, italicWeights] = acc;
+							if (variant === 'regular') regularWeights.push(WEIGHT_REGULAR);
+							else if (variant === 'italic') italicWeights.push(WEIGHT_REGULAR);
+							else {
+								const [, weight, isItalic] = variant.match(/([0-9]+)(italic)?/);
+								(isItalic ? italicWeights : regularWeights).push(Number(weight));
+							}
 							return acc;
 						},
 						[[], []],
-					)
-					.map(arr => arr.join(','))
-					.join('@')}&display=block`;
+					);
 
-				additionalProperties = {
-					href,
-					variants,
-				};
-				if (Object.keys(axes).length) {
-					additionalProperties.axes = axes;
+					const href = `${hrefBase}:ital,wght@${[regularWeights, italicWeights]
+						.flatMap((arr, i) => arr.map(weight => `${i},${weight}`))
+						.join(';')}&display=block`;
+					const variants = [
+						...(regularWeights.length ? [{ weight: regularWeights, italic: 0 }] : []),
+						...(italicWeights.length ? [{ weight: italicWeights, italic: 1 }] : []),
+					];
+
+					additionalProperties = {
+						href,
+						variants,
+					};
 				}
-			} else {
-				const [regularWeights, italicWeights] = font.variants.reduce(
-					(acc, variant) => {
-						const [regularWeights, italicWeights] = acc;
-						if (variant === 'regular') regularWeights.push(WEIGHT_REGULAR);
-						else if (variant === 'italic') italicWeights.push(WEIGHT_REGULAR);
-						else {
-							const [, weight, isItalic] = variant.match(/([0-9]+)(italic)?/);
-							(isItalic ? italicWeights : regularWeights).push(weight);
-						}
-						return acc;
+
+				return [
+					name,
+					{
+						...commonProperties,
+						...additionalProperties,
+						...compactFontFeatures(font, featureMap[font.family]),
 					},
-					[[], []],
-				);
-
-				const href = `${hrefBase}:ital,wght@${[regularWeights, italicWeights]
-					.flatMap((arr, i) => arr.map(weight => `${i},${weight}`))
-					.join(';')}&display=block`;
-				const variants = [
-					...(regularWeights.length ? [{ weight: regularWeights, italic: 0 }] : []),
-					...(italicWeights.length ? [{ weight: italicWeights, italic: 1 }] : []),
 				];
-
-				additionalProperties = {
-					href,
-					variants,
-				};
-			}
-
-			return {
-				...commonProperties,
-				...additionalProperties,
-			};
-		});
+			}),
+	);
 }

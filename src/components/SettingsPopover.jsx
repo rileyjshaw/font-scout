@@ -7,6 +7,7 @@ import { Select } from '@/components/ui/select';
 import { Settings, RotateCcw } from 'lucide-react';
 import { cn } from '@/lib/utils';
 import { READABLE_VALUES } from '@/constants';
+import { getFontFeatureLabel, getFontFeatureValue } from '@/lib/fontFeatures';
 
 function SettingSlider({ setting, value, onChange }) {
 	const defaultValue = setting.defaultValue;
@@ -77,7 +78,59 @@ function SettingSlider({ setting, value, onChange }) {
 	);
 }
 
-export function SettingsPopover({ validSettings, values, onChangeValue, shouldHideButton }) {
+function FeatureToggles({ features, values, onChange, onReset }) {
+	if (!features.length) return null;
+
+	return (
+		<div className="grid gap-2 border-t pt-4">
+			<div className="flex items-center justify-between">
+				<Label>OpenType features</Label>
+				<Button
+					variant="outline"
+					size="icon"
+					className="h-8 w-8"
+					disabled={!Object.keys(values).length}
+					onClick={onReset}
+				>
+					<RotateCcw className="h-3 w-3" />
+					<span className="sr-only">Reset OpenType features</span>
+				</Button>
+			</div>
+			<div className="grid grid-cols-2 gap-2">
+				{features.map(tag => {
+					const enabled = getFontFeatureValue(tag, values);
+					return (
+						<Button
+							key={tag}
+							type="button"
+							variant="outline"
+							size="sm"
+							className={cn(
+								'h-auto min-h-8 justify-between gap-2 px-2 py-1 text-left whitespace-normal',
+								enabled && 'bg-[#ffdc00] text-foreground hover:bg-[#ffe740] hover:text-foreground',
+							)}
+							aria-pressed={enabled}
+							onClick={() => onChange(tag, !enabled)}
+						>
+							<span>{getFontFeatureLabel(tag)}</span>
+							<code className="shrink-0 text-[10px] opacity-60">{tag}</code>
+						</Button>
+					);
+				})}
+			</div>
+		</div>
+	);
+}
+
+export function SettingsPopover({
+	validSettings,
+	values,
+	availableFeatures = [],
+	onChangeValue,
+	onChangeFeature,
+	onResetFeatures,
+	shouldHideButton,
+}) {
 	return (
 		<Popover>
 			<PopoverTrigger asChild>
@@ -86,7 +139,7 @@ export function SettingsPopover({ validSettings, values, onChangeValue, shouldHi
 					<span className="sr-only">Open settings</span>
 				</Button>
 			</PopoverTrigger>
-			<PopoverContent side="top" align="start" className="w-80 m-2">
+			<PopoverContent side="top" align="start" className="w-96 max-h-[80vh] overflow-y-auto m-2">
 				<div className="grid gap-4">
 					{validSettings.map(setting => (
 						<SettingSlider
@@ -96,6 +149,12 @@ export function SettingsPopover({ validSettings, values, onChangeValue, shouldHi
 							onChange={(value, isManual) => onChangeValue(setting, value, isManual)}
 						/>
 					))}
+					<FeatureToggles
+						features={availableFeatures}
+						values={values.features ?? {}}
+						onChange={onChangeFeature}
+						onReset={onResetFeatures}
+					/>
 				</div>
 			</PopoverContent>
 		</Popover>

@@ -2,9 +2,17 @@ import request from 'request-promise-native';
 import 'dotenv/config.js';
 
 import { writeJson } from './util.js';
+import findGoogleFontFeatures from './findGoogleFontFeatures.js';
 import processGoogleFonts from './processGoogleFonts.js';
 
-const url = `https://www.googleapis.com/webfonts/v1/webfonts?subset=latin&capability=vf&sort=alpha&key=${process.env.GOOGLE_FONTS_API_KEY}`;
+const params = new URLSearchParams({
+	subset: 'latin',
+	capability: 'VF',
+	sort: 'alpha',
+	key: process.env.GOOGLE_FONTS_API_KEY,
+});
+params.append('capability', 'WOFF2');
+const url = `https://www.googleapis.com/webfonts/v1/webfonts?${params}`;
 
 async function fetchFonts() {
 	const response = await request(url);
@@ -15,6 +23,16 @@ async function fetchFonts() {
 
 export default async function fetchAndProcessFonts() {
 	const responseJson = await fetchFonts();
-	const processedFonts = processGoogleFonts(responseJson);
+	let lastProgress = 0;
+	const featureMap = await findGoogleFontFeatures(responseJson, {
+		onProgress(completed, total) {
+			const percent = Math.floor((completed / total) * 100);
+			if (percent >= lastProgress + 5 || completed === total) {
+				lastProgress = percent;
+				console.log(`Inspecting Google font features… ${completed}/${total} (${percent}%)`);
+			}
+		},
+	});
+	const processedFonts = processGoogleFonts(responseJson, featureMap);
 	writeJson('googleFontsProcessed', processedFonts);
 }

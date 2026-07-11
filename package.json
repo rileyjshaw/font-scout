@@ -41,7 +41,8 @@
 		"start": "vite",
 		"start-prod": "yarn build && serve -s build",
 		"build": "vite build",
-		"test": "echo No tests here.",
+		"test": "node --test font_scripts/*.test.js",
+		"scan-fonts": "node ./font_scripts/findFontFeatures.js",
 		"lint": "prettier --write \"{font_scripts,src}/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
 		"update-fonts": "caffeinate -i node --experimental-json-modules --no-warnings ./updateFonts.js && yarn lint"
 	},

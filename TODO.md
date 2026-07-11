@@ -5,13 +5,7 @@ Make sure pinned fonts are always shown in the list, even if filters change
 
 ---
 
-Also handle font toggle features.
-// const FONT_FEATURES = ['liga', 'pnum', 'tnum', 'kern', 'dlig', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'ss07'];
-
----
-
 - Add more font sources
-
   - http://velvetyne.fr/fonts/basteleur/
   - https://www.fontshare.com/
   - http://usemodify.com/

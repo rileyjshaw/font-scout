@@ -15,6 +15,16 @@ yarn install
 yarn start
 ```
 
+## Add local fonts
+
+Copy `.woff`, `.woff2`, `.ttf`, or `.otf` files anywhere under `public/fonts` or `public/publicFonts`, then regenerate the local catalog and stylesheet:
+
+```sh
+yarn scan-fonts
+```
+
+The command reads names, variants, variable axes, and OpenType features directly from each font. It fails with the affected path when a font has invalid metadata; known broken files can be corrected explicitly in `font_scripts/localFontOverrides.js`.
+
 ## Where is the rest of the documentation?
 
 Sorry, I haven’t written any! [Here’s a quick screen recording of an early version instead.](https://youtu.be/TRGodGOu3Ww)

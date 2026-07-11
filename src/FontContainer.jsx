@@ -6,6 +6,7 @@ import { cn, getMatchingVariants, getNearestValue, getNearestValueFromRange } fr
 import { SettingsPopover } from '@/components/SettingsPopover';
 import { Button } from '@/components/ui/button';
 import { FONT_SETTINGS, SETTINGS_SORT_ORDER } from '@/constants';
+import { getAvailableFontFeatures, serializeFontFeatureSettings } from '@/lib/fontFeatures';
 import './FontContainer.css';
 
 const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, ...props }) => {
@@ -18,6 +19,8 @@ const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, ...prop
 				.map(([axis, value]) => `"${axis}" ${value}`)
 				.join(', ')
 		: undefined;
+	const availableFeatures = getAvailableFontFeatures(font, settings);
+	const fontFeatureSettings = serializeFontFeatureSettings(settings.features, availableFeatures);
 
 	return (
 		<div className="flex-grow flex justify-center" style={{ fontSize: 'var(--font-preview-size)' }} {...props}>
@@ -33,6 +36,7 @@ const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, ...prop
 						settings.lineHeightOffset ?? FONT_SETTINGS.lineHeightOffset.defaultValue
 					})`,
 					fontVariationSettings,
+					fontFeatureSettings,
 				}}
 				title={font.name}
 			>
@@ -117,9 +121,23 @@ const FontContainer = React.memo(function FontContainer({
 		onChangeFontSettings(bestMatch, font, isManual);
 	};
 
-	// const handleToggleFeature = feature => {
-	// 	setSelectedFeatures(prev => (prev.includes(feature) ? prev.filter(f => f !== feature) : [...prev, feature]));
-	// };
+	const handleFeatureChange = (tag, enabled) => {
+		onChangeFontSettings(
+			{
+				features: {
+					...(settings.features ?? {}),
+					[tag]: enabled,
+				},
+			},
+			font,
+			true,
+		);
+	};
+
+	const handleResetFeatures = () => {
+		onChangeFontSettings({ features: {} }, font, false);
+	};
+	const availableFeatures = getAvailableFontFeatures(font, settings);
 	const shouldHideButtons = !(showSettings || isHovering);
 	const PinIcon = isMarked ? PinOff : Pin;
 	const EyeIcon = isHidden ? Eye : EyeOff;
@@ -212,10 +230,11 @@ const FontContainer = React.memo(function FontContainer({
 						<SettingsPopover
 							validSettings={validSettings}
 							values={settings}
+							availableFeatures={availableFeatures}
 							onChangeValue={handleValueChange}
+							onChangeFeature={handleFeatureChange}
+							onResetFeatures={handleResetFeatures}
 							shouldHideButton={shouldHideButtons}
-							// selectedFeatures={selectedFeatures}
-							// onToggleFeature={handleToggleFeature}
 						/>
 					</div>
 				</div>

@@ -16,7 +16,7 @@ async function measureFonts(__dirname) {
 						switch (req.url) {
 							case '/':
 								res.end(
-									`<html><head><link href="./public/fonts/typography.css" rel="stylesheet" type="text/css" /><link href="./public/publicFonts/typography.css" rel="stylesheet" type="text/css" />${remoteFonts
+									`<html><head><link href="./public/fonts.generated.css" rel="stylesheet" type="text/css" />${remoteFonts
 										.map(font => `<link href="${font.href}&display=block" rel="stylesheet" type="text/css" />`)
 										.join('')}</head><body><script>var allFonts = JSON.parse('${JSON.stringify(
 										allFonts,

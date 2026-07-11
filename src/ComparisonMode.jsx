@@ -4,7 +4,7 @@ import useKeypress from 'react-use-keypress';
 import { FontPreview } from './FontContainer';
 import { allFontsByName } from './allFonts';
 
-function ComparisonMode({ markedFonts, hiddenFonts, Preview, setIsComparisonMode, loadFont }) {
+function ComparisonMode({ markedFonts, hiddenFonts, Preview, setIsComparisonMode, loadFont, fontSettings }) {
 	const [comparisonIdx, setComparisonIdx] = useState(0);
 
 	const comparisonFonts = useMemo(() => {
@@ -30,7 +30,7 @@ function ComparisonMode({ markedFonts, hiddenFonts, Preview, setIsComparisonMode
 
 	return (
 		<div className="h-dvh w-screen flex items-center justify-center flex-col relative">
-			<FontPreview font={comparisonFont} settings={comparisonFont.settings} Preview={Preview} />
+			<FontPreview font={comparisonFont} settings={fontSettings[comparisonFont.name] ?? {}} Preview={Preview} />
 			<div className="absolute bottom-9 text-gray-300">{comparisonFont.name}</div>
 		</div>
 	);

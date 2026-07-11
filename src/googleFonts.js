@@ -95,8 +95,9 @@ const FONT_CATEGORY_COLLECTIONS = {
 	serif: SERIF_COLLECTION,
 };
 
-const googleFonts = googleFontsJson.map(({ category, variants, ...font }) => ({
+const googleFonts = Object.entries(googleFontsJson).map(([name, { category, variants, ...font }]) => ({
 	...font,
+	name,
 	collections: [
 		GOOGLE_FONTS_COLLECTION,
 		FREE_OPEN_COLLECTION,
