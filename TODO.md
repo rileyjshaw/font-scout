@@ -9,6 +9,3 @@
 
 - Add integration with the localfonts API, like this site does: https://fallback.localfonts.xyz
 - Also take some design inspiration from https://fallback.localfonts.xyz. The small grid option with two characters is nice, as is adding a background.
-
-- Improve filtering. For instance, I should be able to fuzzy search a specific font name
-- Add a stylistic alternatives popup like this site has: https://www.paratype.com/fonts/pt/pt-root-ui/light

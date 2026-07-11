@@ -6,6 +6,7 @@ import { ChevronUp, ChevronDown, AlignLeft, AlignCenter, AlignRight, RectangleVe
 
 import allFonts, { allFontsByName } from './allFonts.js';
 import { cn, getNearestValue, getNearestValueFromRange, findNearestFontWeight } from '@/lib/utils';
+import { fuzzySearch } from '@/lib/fuzzySearch';
 import { Input } from './components/ui/input';
 import { Select } from './components/ui/select';
 import { TextArea } from './components/ui/textarea';
@@ -156,9 +157,7 @@ function ExplorationMode({
 			: [...selectedFonts, ...unselectedFonts.filter(font => markedFonts.has(font.name))];
 
 		const filteredFonts = filterText
-			? listedFonts.filter(
-					font => markedFonts.has(font.name) || font.name.toLowerCase().includes(filterText.toLowerCase()),
-				)
+			? fuzzySearch(listedFonts, filterText, 'name', font => markedFonts.has(font.name))
 			: listedFonts;
 
 		// Our virtual grid needs to know the height of the tallest font, since it doesn’t handle dynamic row heights.
