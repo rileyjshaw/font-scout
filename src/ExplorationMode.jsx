@@ -135,20 +135,30 @@ function ExplorationMode({
 	const columnWidth = gridWidth / columnCount;
 
 	const [visibleFonts, bigFonts] = useMemo(() => {
-		const [selectedFonts, unselectedFonts] = matchedFonts
-			? Object.values(matchedFonts).reduce(
-					(acc, font) => {
-						const [_selectedFonts, _unselectedFonts] = acc;
-						(hiddenFonts.has(font.name) ? _unselectedFonts : _selectedFonts).push(font);
-						return acc;
-					},
-					[[], []],
-				)
-			: [[], []];
-		const listedFonts = configMode ? [...selectedFonts, ...unselectedFonts] : selectedFonts;
+		const matchedFontList = matchedFonts ? Object.values(matchedFonts) : [];
+		const matchedFontNames = new Set(matchedFontList.map(font => font.name));
+		const pinnedFontsOutsideFilters = Array.from(markedFonts)
+			.filter(fontName => !matchedFontNames.has(fontName))
+			.map(fontName => allFontsByName[fontName])
+			.filter(Boolean);
+		const candidateFonts = [...matchedFontList, ...pinnedFontsOutsideFilters];
+
+		const [selectedFonts, unselectedFonts] = candidateFonts.reduce(
+			(acc, font) => {
+				const [_selectedFonts, _unselectedFonts] = acc;
+				(hiddenFonts.has(font.name) ? _unselectedFonts : _selectedFonts).push(font);
+				return acc;
+			},
+			[[], []],
+		);
+		const listedFonts = configMode
+			? [...selectedFonts, ...unselectedFonts]
+			: [...selectedFonts, ...unselectedFonts.filter(font => markedFonts.has(font.name))];
 
 		const filteredFonts = filterText
-			? listedFonts.filter(font => font.name.toLowerCase().includes(filterText.toLowerCase()))
+			? listedFonts.filter(
+					font => markedFonts.has(font.name) || font.name.toLowerCase().includes(filterText.toLowerCase()),
+				)
 			: listedFonts;
 
 		// Our virtual grid needs to know the height of the tallest font, since it doesn’t handle dynamic row heights.
@@ -186,7 +196,7 @@ function ExplorationMode({
 		);
 
 		return [filteredFonts, bigFonts];
-	}, [matchedFonts, configMode, fontSettings, hiddenFonts, manuallyAdjustedSettings, filterText]);
+	}, [matchedFonts, configMode, fontSettings, markedFonts, hiddenFonts, manuallyAdjustedSettings, filterText]);
 
 	const onChangeAllVisibleMarked = useCallback(
 		marked => {
@@ -511,25 +521,23 @@ function ExplorationMode({
 				))}
 			</div>
 			<div className="flex flex-grow overflow-hidden" ref={gridRef}>
-				{matchedFonts ? (
-					visibleFonts.length ? (
-						<Grid
-							cellComponent={GridCell}
-							cellProps={cellProps}
-							className="list-none"
-							columnCount={columnCount}
-							columnWidth={columnWidth}
-							defaultHeight={gridHeight}
-							defaultWidth={gridWidth}
-							rowCount={Math.ceil(visibleFonts.length / columnCount)}
-							rowHeight={probeHeight + 80} // 80 = Top bar + bottom padding + wiggle room
-							style={{ height: gridHeight, width: gridWidth }}
-						/>
-					) : (
-						<p className="no-fonts-warning">
-							<strong>No fonts to display.</strong> Select one or more fonts in config mode.
-						</p>
-					)
+				{visibleFonts.length ? (
+					<Grid
+						cellComponent={GridCell}
+						cellProps={cellProps}
+						className="list-none"
+						columnCount={columnCount}
+						columnWidth={columnWidth}
+						defaultHeight={gridHeight}
+						defaultWidth={gridWidth}
+						rowCount={Math.ceil(visibleFonts.length / columnCount)}
+						rowHeight={probeHeight + 80} // 80 = Top bar + bottom padding + wiggle room
+						style={{ height: gridHeight, width: gridWidth }}
+					/>
+				) : matchedFonts ? (
+					<p className="no-fonts-warning">
+						<strong>No fonts to display.</strong> Select one or more fonts in config mode.
+					</p>
 				) : (
 					<p className="no-fonts-warning">
 						<strong>No fonts to display.</strong> Include more categories in config mode.

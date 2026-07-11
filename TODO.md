@@ -1,10 +1,5 @@
 # TODO
 
-Grey out unselected fonts
-Make sure pinned fonts are always shown in the list, even if filters change
-
----
-
 - Add more font sources
   - http://velvetyne.fr/fonts/basteleur/
   - https://www.fontshare.com/

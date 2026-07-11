@@ -9,7 +9,7 @@ import { FONT_SETTINGS, SETTINGS_SORT_ORDER } from '@/constants';
 import { getAvailableFontFeatures, serializeFontFeatureSettings } from '@/lib/fontFeatures';
 import './FontContainer.css';
 
-const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, ...props }) => {
+const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, isHidden, ...props }) => {
 	useEffect(() => {
 		if (loadFont) loadFont(font);
 	}, [font, loadFont]);
@@ -25,7 +25,7 @@ const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, ...prop
 	return (
 		<div className="flex-grow flex justify-center" style={{ fontSize: 'var(--font-preview-size)' }} {...props}>
 			<pre
-				className={cn('font-preview p-3', isMarked && 'marked')}
+				className={cn('font-preview p-3 transition-colors', isMarked && 'marked', isHidden && 'text-gray-400')}
 				style={{
 					fontFamily: `"${font.name}"`,
 					fontWeight: settings.weight ?? FONT_SETTINGS.weight.defaultValue,
@@ -238,7 +238,14 @@ const FontContainer = React.memo(function FontContainer({
 						/>
 					</div>
 				</div>
-				<FontPreview font={font} isMarked={isMarked} settings={settings} Preview={Preview} loadFont={loadFont} />
+				<FontPreview
+					font={font}
+					isMarked={isMarked}
+					isHidden={isHidden}
+					settings={settings}
+					Preview={Preview}
+					loadFont={loadFont}
+				/>
 			</div>
 		</li>
 	);
