@@ -1,4 +1,3 @@
-import multiplexedFontsArray from './multiplexedFonts.json.js';
 import googleFonts from './googleFonts.js';
 import localFonts from './localFonts.js';
 import {
@@ -20,7 +19,6 @@ const variantDefaults = ['weight', 'italic', 'oblique', 'width'].reduce((acc, ke
 	return acc;
 }, {});
 
-const multiplexedFonts = new Set(multiplexedFontsArray);
 const allFonts = [...localFonts, ...googleFonts]
 	.map(font => ({
 		...font,
@@ -102,7 +100,7 @@ allFonts.forEach(font => {
 	// Add collections based on font properties.
 	if (STARRED_FONTS.has(font.name)) font.collections.push(STARRED_COLLECTION);
 	if (UI_FONTS.has(font.name)) font.collections.push(UI_FONTS_COLLECTION);
-	if (multiplexedFonts.has(font.name)) font.collections.push(MULTIPLEXED_COLLECTION);
+	if (font.multiplexed) font.collections.push(MULTIPLEXED_COLLECTION);
 	if (font.isVariable) {
 		font.collections.push(VARIABLE_COLLECTION);
 	} else if (font.variants.length === 1) {
@@ -131,6 +129,7 @@ allFonts.forEach(font => {
 	}
 	if (font.collections.length === 0) font.collections.push(UNCATEGORIZED_COLLECTION);
 	font.collections.push(ALL_FONTS_COLLECTION);
+	font.collections = [...new Set(font.collections)];
 });
 
 export default allFonts;

@@ -1,16 +1,14 @@
-import { createRequire } from 'module';
 import fs from 'fs/promises';
 import path from 'path';
 import { fileURLToPath } from 'url';
 
 import stableStringify from 'json-stable-stringify';
+import * as fontkit from 'fontkit';
 import opentype from 'opentype.js';
 import wawoff2 from 'wawoff2';
 
 import { applyFamilyAlias, FONT_FILE_OVERRIDES, getFontFileOverride } from './localFontOverrides.js';
-
-const require = createRequire(import.meta.url);
-const fontkit = require('fontkit');
+import { aggregateFamilyMetrics, analyzeFontBuffer } from './fontMetrics.js';
 
 export const SUPPORTED_FONT_EXTENSIONS = new Set(['.woff', '.woff2', '.ttf', '.otf']);
 const UNSUPPORTED_COLLECTION_EXTENSIONS = new Set(['.ttc', '.otc']);
@@ -80,11 +78,11 @@ async function discoverFontFiles(projectRoot, roots) {
 	return discovered;
 }
 
-async function parseOpenTypeFont(absolutePath, extension) {
+async function loadOpenTypeFont(absolutePath, extension) {
 	const source = await fs.readFile(absolutePath);
 	const decoded = extension === '.woff2' ? await wawoff2.decompress(source) : source;
 	const arrayBuffer = decoded.buffer.slice(decoded.byteOffset, decoded.byteOffset + decoded.byteLength);
-	return opentype.parse(arrayBuffer);
+	return { font: opentype.parse(arrayBuffer), source };
 }
 
 function readFeatures(absolutePath) {
@@ -118,9 +116,10 @@ export async function parseFontFile(
 	const absolutePath = path.resolve(projectRoot, normalizedPath);
 	const extension = path.extname(normalizedPath).toLowerCase();
 	let font;
+	let source;
 	let parseError;
 	try {
-		font = await parseOpenTypeFont(absolutePath, extension);
+		({ font, source } = await loadOpenTypeFont(absolutePath, extension));
 	} catch (error) {
 		parseError = error;
 	}
@@ -131,7 +130,7 @@ export async function parseFontFile(
 		);
 	}
 	if (!font) {
-		const required = ['family', 'subfamily', 'weight', 'width', 'italic', 'oblique', 'axes'];
+		const required = ['family', 'subfamily', 'weight', 'width', 'italic', 'oblique', 'axes', 'metrics'];
 		const missing = required.filter(key => override[key] === undefined);
 		if (missing.length) {
 			throw new Error(
@@ -171,7 +170,22 @@ export async function parseFontFile(
 	const weight = override.weight ?? (weightAxis ? [weightAxis[1], weightAxis[2]] : os2.usWeightClass || 400);
 	const width =
 		override.width ?? (widthAxis ? [widthAxis[1], widthAxis[2]] : (WIDTH_CLASS_TO_PERCENT[os2.usWidthClass] ?? 100));
-	const features = [...new Set(override.features ?? readFeatures(absolutePath))].sort();
+	let analysis;
+	if (font) {
+		try {
+			analysis = await analyzeFontBuffer(source, { staticWeight: Array.isArray(weight) ? weight[0] : weight });
+		} catch (error) {
+			if (!override.metrics) throw new Error(`${normalizedPath}: could not calculate font metrics (${error.message})`);
+		}
+	}
+	const features = [...new Set(override.features ?? analysis?.features ?? readFeatures(absolutePath))].sort();
+	const metricSamples = override.metrics
+		? override.metrics.map(([sampleWeight, sampleWidth, lineHeight]) => ({
+				weight: sampleWeight,
+				width: sampleWidth,
+				lineHeight,
+			}))
+		: analysis.samples;
 
 	return {
 		path: normalizedPath.replace(/^public\//, ''),
@@ -184,6 +198,7 @@ export async function parseFontFile(
 		oblique,
 		axes,
 		features,
+		metricSamples,
 		isVariable: Object.keys(axes).length > 0 || Array.isArray(weight) || Array.isArray(width) || Array.isArray(italic),
 	};
 }
@@ -231,12 +246,14 @@ export function aggregateFonts(faces) {
 			}
 
 			const features = [...new Set(familyFaces.flatMap(face => face.features))].sort();
+			const metricData = aggregateFamilyMetrics(familyFaces);
 			return {
 				name,
 				isVariable: familyFaces.some(face => face.isVariable),
 				variants,
 				...(Object.keys(customAxes).length ? { axes: Object.fromEntries(Object.entries(customAxes).sort()) } : {}),
 				features,
+				...metricData,
 				faces: familyFaces.map(({ family: _family, ...face }) => face),
 			};
 		});

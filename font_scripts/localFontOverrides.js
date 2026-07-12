@@ -29,6 +29,7 @@ export const FONT_FILE_OVERRIDES = {
 		italic: 0,
 		oblique: 0,
 		axes: { wght: ['Weight', 10, 1000, 400, 1] },
+		metrics: [[400, 0.541967, 1.23]],
 	},
 	'public/fonts/SoftcoreVarItalic.woff2': {
 		family: 'Softcore',
@@ -38,6 +39,7 @@ export const FONT_FILE_OVERRIDES = {
 		italic: 1,
 		oblique: 0,
 		axes: { wght: ['Weight', 10, 1000, 400, 1] },
+		metrics: [[400, 0.520553, 1.23]],
 	},
 	'public/publicFonts/Satoshi-Variable.woff2': { family: 'Satoshi' },
 	'public/publicFonts/Satoshi-VariableItalic.woff2': { family: 'Satoshi', italic: 1 },

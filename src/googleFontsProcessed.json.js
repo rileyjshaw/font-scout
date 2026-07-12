@@ -10,6 +10,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=ABeeZee:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.531313,
+				1.182
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35,6 +42,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=ADLaM+Display:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.544128,
+				1.304688
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -67,6 +81,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=AR+One+Sans:ARRR,wght@10..60,400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.5391,
+				1.36
+			],
+			[
+				450,
+				0.542386,
+				1.36
+			],
+			[
+				500,
+				0.545671,
+				1.36
+			],
+			[
+				550,
+				0.548956,
+				1.36
+			],
+			[
+				600,
+				0.552241,
+				1.36
+			],
+			[
+				650,
+				0.555937,
+				1.36
+			],
+			[
+				700,
+				0.559633,
+				1.36
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -84,6 +135,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Abel:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.427803,
+				1.274414
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -105,6 +163,33 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Abhaya+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
+		"metrics": [
+			[
+				400,
+				0.465026,
+				1.179688
+			],
+			[
+				500,
+				0.467734,
+				1.179688
+			],
+			[
+				600,
+				0.470736,
+				1.179688
+			],
+			[
+				700,
+				0.474512,
+				1.179688
+			],
+			[
+				800,
+				0.478932,
+				1.179688
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -135,6 +220,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Aboreto:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.60992,
+				1.16
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -154,6 +246,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Abril+Fatface:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.526867,
+				1.349
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -198,6 +297,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Abyssinica+SIL:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.533522,
+				1.326172
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -218,6 +324,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Aclonica:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.614049,
+				1.133301
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -230,6 +343,13 @@ export default {
 	"Acme": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Acme:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.456367,
+				1.266
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -246,6 +366,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Actor:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.483007,
+				1.203
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -261,6 +388,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Adamina:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.562287,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -278,6 +412,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Advent+Pro:wdth,wght@100..200,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.40968,
+				1.194
+			],
+			[
+				150,
+				0.410828,
+				1.194
+			],
+			[
+				200,
+				0.411976,
+				1.194
+			],
+			[
+				250,
+				0.413123,
+				1.194
+			],
+			[
+				300,
+				0.414271,
+				1.194
+			],
+			[
+				350,
+				0.415419,
+				1.194
+			],
+			[
+				400,
+				0.416567,
+				1.194
+			],
+			[
+				450,
+				0.41917,
+				1.194
+			],
+			[
+				500,
+				0.421774,
+				1.194
+			],
+			[
+				550,
+				0.424377,
+				1.194
+			],
+			[
+				600,
+				0.42698,
+				1.194
+			],
+			[
+				650,
+				0.429584,
+				1.194
+			],
+			[
+				700,
+				0.432188,
+				1.194
+			],
+			[
+				750,
+				0.435969,
+				1.194
+			],
+			[
+				800,
+				0.43975,
+				1.194
+			],
+			[
+				850,
+				0.443532,
+				1.194
+			],
+			[
+				900,
+				0.447313,
+				1.194
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -327,6 +548,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Afacad:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.450417,
+				1.333333
+			],
+			[
+				450,
+				0.450058,
+				1.333333
+			],
+			[
+				500,
+				0.449699,
+				1.333333
+			],
+			[
+				550,
+				0.44952,
+				1.333333
+			],
+			[
+				600,
+				0.44934,
+				1.333333
+			],
+			[
+				650,
+				0.449161,
+				1.333333
+			],
+			[
+				700,
+				0.448981,
+				1.333333
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -379,6 +637,103 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Afacad+Flux:slnt,wght@-14..14,100..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.438935,
+				1.333333
+			],
+			[
+				150,
+				0.440324,
+				1.333333
+			],
+			[
+				200,
+				0.441713,
+				1.333333
+			],
+			[
+				250,
+				0.443102,
+				1.333333
+			],
+			[
+				300,
+				0.444491,
+				1.333333
+			],
+			[
+				350,
+				0.447268,
+				1.333333
+			],
+			[
+				400,
+				0.450046,
+				1.333333
+			],
+			[
+				450,
+				0.449734,
+				1.333333
+			],
+			[
+				500,
+				0.449421,
+				1.333333
+			],
+			[
+				550,
+				0.449265,
+				1.333333
+			],
+			[
+				600,
+				0.449109,
+				1.333333
+			],
+			[
+				650,
+				0.448953,
+				1.333333
+			],
+			[
+				700,
+				0.448796,
+				1.333333
+			],
+			[
+				750,
+				0.453078,
+				1.333333
+			],
+			[
+				800,
+				0.45736,
+				1.333333
+			],
+			[
+				850,
+				0.459502,
+				1.333333
+			],
+			[
+				900,
+				0.461644,
+				1.333333
+			],
+			[
+				950,
+				0.463785,
+				1.333333
+			],
+			[
+				1000,
+				0.465926,
+				1.333333
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -417,6 +772,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Agbalumo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.514553,
+				1.48
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -429,6 +791,18 @@ export default {
 	"Agdasima": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Agdasima:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.347773,
+				1.024414
+			],
+			[
+				700,
+				0.380846,
+				1.024414
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -465,6 +839,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Agu+Display:MORF@0..60&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.536007,
+				1.5
+			]
+		],
 		"variants": [
 			{
 			}
@@ -476,6 +857,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Aguafina+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.34406,
+				1.547
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -548,6 +936,38 @@ export default {
 			"ss20"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Akatab:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.492832,
+				1.370117
+			],
+			[
+				500,
+				0.498724,
+				1.370117
+			],
+			[
+				600,
+				0.503167,
+				1.370117
+			],
+			[
+				700,
+				0.507611,
+				1.370117
+			],
+			[
+				800,
+				0.514961,
+				1.370117
+			],
+			[
+				900,
+				0.522214,
+				1.370117
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -578,6 +998,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Akaya+Kanadaka:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.455233,
+				1.196
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -603,6 +1030,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Akaya+Telivigala:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.45802,
+				1.196
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -618,6 +1052,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Akronim:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.384507,
+				1.142
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -649,6 +1090,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Akshar:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.3912,
+				1.38
+			],
+			[
+				350,
+				0.403889,
+				1.38
+			],
+			[
+				400,
+				0.416578,
+				1.38
+			],
+			[
+				450,
+				0.429267,
+				1.38
+			],
+			[
+				500,
+				0.441957,
+				1.38
+			],
+			[
+				550,
+				0.454646,
+				1.38
+			],
+			[
+				600,
+				0.467335,
+				1.38
+			],
+			[
+				650,
+				0.480024,
+				1.38
+			],
+			[
+				700,
+				0.492713,
+				1.38
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -694,6 +1182,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Akt:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.523733,
+				1.2
+			],
+			[
+				150,
+				0.523733,
+				1.2
+			],
+			[
+				200,
+				0.523733,
+				1.2
+			],
+			[
+				250,
+				0.523733,
+				1.2
+			],
+			[
+				300,
+				0.523733,
+				1.2
+			],
+			[
+				350,
+				0.523733,
+				1.2
+			],
+			[
+				400,
+				0.523733,
+				1.2
+			],
+			[
+				450,
+				0.523733,
+				1.2
+			],
+			[
+				500,
+				0.523733,
+				1.2
+			],
+			[
+				550,
+				0.523733,
+				1.2
+			],
+			[
+				600,
+				0.523733,
+				1.2
+			],
+			[
+				650,
+				0.523733,
+				1.2
+			],
+			[
+				700,
+				0.523733,
+				1.2
+			],
+			[
+				750,
+				0.523733,
+				1.2
+			],
+			[
+				800,
+				0.523733,
+				1.2
+			],
+			[
+				850,
+				0.523733,
+				1.2
+			],
+			[
+				900,
+				0.523733,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -711,6 +1287,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Aladin:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.39456,
+				1.226
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -738,6 +1321,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alan+Sans:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.517513,
+				1.3
+			],
+			[
+				350,
+				0.522401,
+				1.3
+			],
+			[
+				400,
+				0.527289,
+				1.3
+			],
+			[
+				450,
+				0.530402,
+				1.3
+			],
+			[
+				500,
+				0.533514,
+				1.3
+			],
+			[
+				550,
+				0.535292,
+				1.3
+			],
+			[
+				600,
+				0.53707,
+				1.3
+			],
+			[
+				650,
+				0.540181,
+				1.3
+			],
+			[
+				700,
+				0.543292,
+				1.3
+			],
+			[
+				750,
+				0.548182,
+				1.3
+			],
+			[
+				800,
+				0.553071,
+				1.3
+			],
+			[
+				850,
+				0.557516,
+				1.3
+			],
+			[
+				900,
+				0.56196,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -771,6 +1421,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alata:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.508773,
+				1.38
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -803,6 +1460,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alatsi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.4745,
+				1.28
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -829,6 +1493,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Albert+Sans:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.511893,
+				1.2
+			],
+			[
+				150,
+				0.514137,
+				1.2
+			],
+			[
+				200,
+				0.516382,
+				1.2
+			],
+			[
+				250,
+				0.51948,
+				1.2
+			],
+			[
+				300,
+				0.522578,
+				1.2
+			],
+			[
+				350,
+				0.525249,
+				1.2
+			],
+			[
+				400,
+				0.52792,
+				1.2
+			],
+			[
+				450,
+				0.529709,
+				1.2
+			],
+			[
+				500,
+				0.531498,
+				1.2
+			],
+			[
+				550,
+				0.533219,
+				1.2
+			],
+			[
+				600,
+				0.535128,
+				1.2
+			],
+			[
+				650,
+				0.536988,
+				1.2
+			],
+			[
+				700,
+				0.538848,
+				1.2
+			],
+			[
+				750,
+				0.541046,
+				1.2
+			],
+			[
+				800,
+				0.543244,
+				1.2
+			],
+			[
+				850,
+				0.545442,
+				1.2
+			],
+			[
+				900,
+				0.54764,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -852,6 +1603,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Aldrich:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.576611,
+				0.978027
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -867,6 +1625,18 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alef:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.516846,
+				1
+			],
+			[
+				700,
+				0.555413,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -907,6 +1677,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alegreya:wght@400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.465373,
+				1.361
+			],
+			[
+				450,
+				0.467248,
+				1.361
+			],
+			[
+				500,
+				0.469123,
+				1.361
+			],
+			[
+				550,
+				0.470239,
+				1.361
+			],
+			[
+				600,
+				0.471355,
+				1.361
+			],
+			[
+				650,
+				0.472471,
+				1.361
+			],
+			[
+				700,
+				0.473588,
+				1.361
+			],
+			[
+				750,
+				0.47582,
+				1.361
+			],
+			[
+				800,
+				0.478052,
+				1.361
+			],
+			[
+				850,
+				0.480819,
+				1.361
+			],
+			[
+				900,
+				0.483587,
+				1.361
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -950,6 +1777,33 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alegreya+SC:ital,wght@0,400;0,500;0,700;0,800;0,900;1,400;1,500;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.49906,
+				1.361
+			],
+			[
+				500,
+				0.50092,
+				1.361
+			],
+			[
+				700,
+				0.50302,
+				1.361
+			],
+			[
+				800,
+				0.505113,
+				1.361
+			],
+			[
+				900,
+				0.507853,
+				1.361
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1001,6 +1855,43 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.42434,
+				1.2
+			],
+			[
+				300,
+				0.432247,
+				1.2
+			],
+			[
+				400,
+				0.4392,
+				1.2
+			],
+			[
+				500,
+				0.44464,
+				1.2
+			],
+			[
+				700,
+				0.451967,
+				1.2
+			],
+			[
+				800,
+				0.458267,
+				1.2
+			],
+			[
+				900,
+				0.46694,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1054,6 +1945,43 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.449813,
+				1.2
+			],
+			[
+				300,
+				0.456733,
+				1.2
+			],
+			[
+				400,
+				0.462807,
+				1.2
+			],
+			[
+				500,
+				0.467747,
+				1.2
+			],
+			[
+				700,
+				0.474447,
+				1.2
+			],
+			[
+				800,
+				0.480293,
+				1.2
+			],
+			[
+				900,
+				0.48834,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1094,6 +2022,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Aleo:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.516513,
+				1.2
+			],
+			[
+				150,
+				0.520155,
+				1.2
+			],
+			[
+				200,
+				0.523796,
+				1.2
+			],
+			[
+				250,
+				0.525048,
+				1.2
+			],
+			[
+				300,
+				0.5263,
+				1.2
+			],
+			[
+				350,
+				0.531193,
+				1.2
+			],
+			[
+				400,
+				0.536087,
+				1.2
+			],
+			[
+				450,
+				0.53796,
+				1.2
+			],
+			[
+				500,
+				0.539834,
+				1.2
+			],
+			[
+				550,
+				0.542018,
+				1.2
+			],
+			[
+				600,
+				0.544203,
+				1.2
+			],
+			[
+				650,
+				0.546546,
+				1.2
+			],
+			[
+				700,
+				0.548889,
+				1.2
+			],
+			[
+				750,
+				0.551386,
+				1.2
+			],
+			[
+				800,
+				0.553884,
+				1.2
+			],
+			[
+				850,
+				0.556225,
+				1.2
+			],
+			[
+				900,
+				0.558567,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -1124,6 +2139,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alex+Brush:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.472573,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1159,6 +2181,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.535593,
+				1.219
+			],
+			[
+				150,
+				0.539028,
+				1.219
+			],
+			[
+				200,
+				0.542462,
+				1.219
+			],
+			[
+				250,
+				0.548471,
+				1.219
+			],
+			[
+				300,
+				0.554479,
+				1.219
+			],
+			[
+				350,
+				0.56049,
+				1.219
+			],
+			[
+				400,
+				0.5665,
+				1.219
+			],
+			[
+				450,
+				0.568661,
+				1.219
+			],
+			[
+				500,
+				0.570822,
+				1.219
+			],
+			[
+				550,
+				0.573991,
+				1.219
+			],
+			[
+				600,
+				0.577159,
+				1.219
+			],
+			[
+				650,
+				0.580474,
+				1.219
+			],
+			[
+				700,
+				0.583788,
+				1.219
+			],
+			[
+				750,
+				0.587101,
+				1.219
+			],
+			[
+				800,
+				0.590415,
+				1.219
+			],
+			[
+				850,
+				0.593584,
+				1.219
+			],
+			[
+				900,
+				0.596753,
+				1.219
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -1186,6 +2295,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alfa+Slab+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.61802,
+				1.369
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1210,6 +2326,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alice:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.504453,
+				1.143
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1227,6 +2350,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alien+Block:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.707,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1247,6 +2377,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alike:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.51636,
+				1.254
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1267,6 +2404,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alike+Angular:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.516467,
+				1.254
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1293,6 +2437,13 @@ export default {
 			"ss09"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alkalami:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.525687,
+				1.892
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1318,6 +2469,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.481973,
+				1.684
+			],
+			[
+				450,
+				0.485532,
+				1.684
+			],
+			[
+				500,
+				0.489091,
+				1.684
+			],
+			[
+				550,
+				0.49265,
+				1.684
+			],
+			[
+				600,
+				0.496209,
+				1.684
+			],
+			[
+				650,
+				0.499768,
+				1.684
+			],
+			[
+				700,
+				0.503327,
+				1.684
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -1348,6 +2536,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Allan:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.35943,
+				1.142578
+			],
+			[
+				700,
+				0.385781,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1364,6 +2564,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Allerta:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.569388,
+				1.27832
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1379,6 +2586,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Allerta+Stencil:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.569388,
+				1.27832
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1402,6 +2616,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Allison:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.362593,
+				1.27
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1431,6 +2652,13 @@ export default {
 			"swsh"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Allura:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.43622,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1448,6 +2676,28 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Almarai:ital,wght@0,300;0,400;0,700;0,800&display=block",
+		"metrics": [
+			[
+				300,
+				0.4919,
+				1.116
+			],
+			[
+				400,
+				0.491073,
+				1.116
+			],
+			[
+				700,
+				0.52242,
+				1.116
+			],
+			[
+				800,
+				0.546913,
+				1.116
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1467,6 +2717,18 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Almendra:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.458813,
+				1.296
+			],
+			[
+				700,
+				0.491193,
+				1.296
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1487,6 +2749,13 @@ export default {
 	"Almendra Display": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Almendra+Display:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.463827,
+				1.296
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1499,6 +2768,13 @@ export default {
 	"Almendra SC": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Almendra+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.481593,
+				1.19
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1528,6 +2804,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alumni+Sans:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.314053,
+				1.2
+			],
+			[
+				150,
+				0.315606,
+				1.2
+			],
+			[
+				200,
+				0.317158,
+				1.2
+			],
+			[
+				250,
+				0.318712,
+				1.2
+			],
+			[
+				300,
+				0.320266,
+				1.2
+			],
+			[
+				350,
+				0.322078,
+				1.2
+			],
+			[
+				400,
+				0.32389,
+				1.2
+			],
+			[
+				450,
+				0.325701,
+				1.2
+			],
+			[
+				500,
+				0.327512,
+				1.2
+			],
+			[
+				550,
+				0.329842,
+				1.2
+			],
+			[
+				600,
+				0.332171,
+				1.2
+			],
+			[
+				650,
+				0.33476,
+				1.2
+			],
+			[
+				700,
+				0.337349,
+				1.2
+			],
+			[
+				750,
+				0.340197,
+				1.2
+			],
+			[
+				800,
+				0.343044,
+				1.2
+			],
+			[
+				850,
+				0.345632,
+				1.2
+			],
+			[
+				900,
+				0.34822,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -1569,6 +2932,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.33262,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1604,6 +2974,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alumni+Sans+Inline+One:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.348,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1638,6 +3015,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alumni+Sans+Pinstripe:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.316213,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1673,6 +3057,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.337333,
+				1.2
+			],
+			[
+				150,
+				0.338097,
+				1.2
+			],
+			[
+				200,
+				0.33886,
+				1.2
+			],
+			[
+				250,
+				0.339624,
+				1.2
+			],
+			[
+				300,
+				0.340388,
+				1.2
+			],
+			[
+				350,
+				0.341279,
+				1.2
+			],
+			[
+				400,
+				0.34217,
+				1.2
+			],
+			[
+				450,
+				0.343061,
+				1.2
+			],
+			[
+				500,
+				0.343951,
+				1.2
+			],
+			[
+				550,
+				0.345097,
+				1.2
+			],
+			[
+				600,
+				0.346242,
+				1.2
+			],
+			[
+				650,
+				0.347515,
+				1.2
+			],
+			[
+				700,
+				0.348788,
+				1.2
+			],
+			[
+				750,
+				0.350188,
+				1.2
+			],
+			[
+				800,
+				0.351588,
+				1.2
+			],
+			[
+				850,
+				0.352861,
+				1.2
+			],
+			[
+				900,
+				0.354133,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -1711,6 +3182,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Alyamama:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.470347,
+				1.43
+			],
+			[
+				350,
+				0.474291,
+				1.43
+			],
+			[
+				400,
+				0.478235,
+				1.43
+			],
+			[
+				450,
+				0.480218,
+				1.43
+			],
+			[
+				500,
+				0.482201,
+				1.43
+			],
+			[
+				550,
+				0.484184,
+				1.43
+			],
+			[
+				600,
+				0.486167,
+				1.43
+			],
+			[
+				650,
+				0.491439,
+				1.43
+			],
+			[
+				700,
+				0.496712,
+				1.43
+			],
+			[
+				750,
+				0.500658,
+				1.43
+			],
+			[
+				800,
+				0.504604,
+				1.43
+			],
+			[
+				850,
+				0.508569,
+				1.43
+			],
+			[
+				900,
+				0.512533,
+				1.43
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -1725,6 +3263,13 @@ export default {
 	"Amarante": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Amarante:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.484378,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1740,6 +3285,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Amaranth:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.475853,
+				1.212
+			],
+			[
+				700,
+				0.491087,
+				1.212
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1769,6 +3326,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Amarna:wght@100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.48104,
+				1.375
+			],
+			[
+				150,
+				0.485169,
+				1.375
+			],
+			[
+				200,
+				0.489299,
+				1.375
+			],
+			[
+				250,
+				0.493427,
+				1.375
+			],
+			[
+				300,
+				0.497556,
+				1.375
+			],
+			[
+				350,
+				0.502718,
+				1.375
+			],
+			[
+				400,
+				0.50788,
+				1.375
+			],
+			[
+				450,
+				0.508447,
+				1.375
+			],
+			[
+				500,
+				0.509015,
+				1.375
+			],
+			[
+				550,
+				0.509771,
+				1.375
+			],
+			[
+				600,
+				0.510527,
+				1.375
+			],
+			[
+				650,
+				0.511284,
+				1.375
+			],
+			[
+				700,
+				0.51204,
+				1.375
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -1800,6 +3424,18 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Amatic+SC:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.30238,
+				1.261
+			],
+			[
+				700,
+				0.307547,
+				1.261
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1813,6 +3449,13 @@ export default {
 	"Amethysta": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Amethysta:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.551097,
+				1.262207
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1839,6 +3482,24 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Amiko:ital,wght@0,400;0,600;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.569733,
+				1.334
+			],
+			[
+				600,
+				0.569733,
+				1.334
+			],
+			[
+				700,
+				0.569733,
+				1.334
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -1868,6 +3529,18 @@ export default {
 			"ss08"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.480313,
+				1.758
+			],
+			[
+				700,
+				0.507267,
+				1.758
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1896,6 +3569,13 @@ export default {
 			"ss08"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Amiri+Quran:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.47912,
+				2.449
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1917,6 +3597,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Amita:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.501587,
+				1.942
+			],
+			[
+				700,
+				0.5092,
+				1.942
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -1945,6 +3637,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anaheim:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.440212,
+				1.289063
+			],
+			[
+				450,
+				0.445653,
+				1.289063
+			],
+			[
+				500,
+				0.451094,
+				1.289063
+			],
+			[
+				550,
+				0.457047,
+				1.289063
+			],
+			[
+				600,
+				0.463001,
+				1.289063
+			],
+			[
+				650,
+				0.474394,
+				1.289063
+			],
+			[
+				700,
+				0.485787,
+				1.289063
+			],
+			[
+				750,
+				0.497011,
+				1.289063
+			],
+			[
+				800,
+				0.508236,
+				1.289063
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -1981,6 +3720,103 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ancizar+Sans:wght@100..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.44188,
+				1.2
+			],
+			[
+				150,
+				0.443154,
+				1.2
+			],
+			[
+				200,
+				0.444428,
+				1.2
+			],
+			[
+				250,
+				0.445702,
+				1.2
+			],
+			[
+				300,
+				0.446976,
+				1.2
+			],
+			[
+				350,
+				0.449906,
+				1.2
+			],
+			[
+				400,
+				0.452837,
+				1.2
+			],
+			[
+				450,
+				0.454312,
+				1.2
+			],
+			[
+				500,
+				0.455788,
+				1.2
+			],
+			[
+				550,
+				0.457263,
+				1.2
+			],
+			[
+				600,
+				0.458739,
+				1.2
+			],
+			[
+				650,
+				0.461627,
+				1.2
+			],
+			[
+				700,
+				0.464515,
+				1.2
+			],
+			[
+				750,
+				0.4684,
+				1.2
+			],
+			[
+				800,
+				0.472287,
+				1.2
+			],
+			[
+				850,
+				0.475195,
+				1.2
+			],
+			[
+				900,
+				0.478104,
+				1.2
+			],
+			[
+				950,
+				0.481225,
+				1.2
+			],
+			[
+				1000,
+				0.484347,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -2023,6 +3859,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ancizar+Serif:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.475467,
+				1.2
+			],
+			[
+				350,
+				0.478414,
+				1.2
+			],
+			[
+				400,
+				0.481361,
+				1.2
+			],
+			[
+				450,
+				0.482842,
+				1.2
+			],
+			[
+				500,
+				0.484324,
+				1.2
+			],
+			[
+				550,
+				0.485805,
+				1.2
+			],
+			[
+				600,
+				0.487287,
+				1.2
+			],
+			[
+				650,
+				0.491226,
+				1.2
+			],
+			[
+				700,
+				0.495166,
+				1.2
+			],
+			[
+				750,
+				0.498114,
+				1.2
+			],
+			[
+				800,
+				0.501062,
+				1.2
+			],
+			[
+				850,
+				0.504024,
+				1.2
+			],
+			[
+				900,
+				0.506987,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -2072,6 +3975,58 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Andada+Pro:wght@400..840&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.537387,
+				1.177
+			],
+			[
+				450,
+				0.539968,
+				1.177
+			],
+			[
+				500,
+				0.54255,
+				1.177
+			],
+			[
+				550,
+				0.545133,
+				1.177
+			],
+			[
+				600,
+				0.547716,
+				1.177
+			],
+			[
+				650,
+				0.550584,
+				1.177
+			],
+			[
+				700,
+				0.553452,
+				1.177
+			],
+			[
+				750,
+				0.556608,
+				1.177
+			],
+			[
+				800,
+				0.559763,
+				1.177
+			],
+			[
+				840,
+				0.562633,
+				1.177
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -2146,6 +4101,18 @@ export default {
 			"ss14"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.528851,
+				1.611328
+			],
+			[
+				700,
+				0.553262,
+				1.611328
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2183,6 +4150,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anek+Bangla:wdth,wght@75..125,100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.44348,
+				1.866
+			],
+			[
+				150,
+				0.446726,
+				1.866
+			],
+			[
+				200,
+				0.449973,
+				1.866
+			],
+			[
+				250,
+				0.453219,
+				1.866
+			],
+			[
+				300,
+				0.456466,
+				1.866
+			],
+			[
+				350,
+				0.459589,
+				1.866
+			],
+			[
+				400,
+				0.462712,
+				1.866
+			],
+			[
+				450,
+				0.465346,
+				1.866
+			],
+			[
+				500,
+				0.46798,
+				1.866
+			],
+			[
+				550,
+				0.473643,
+				1.866
+			],
+			[
+				600,
+				0.479305,
+				1.866
+			],
+			[
+				650,
+				0.483932,
+				1.866
+			],
+			[
+				700,
+				0.488559,
+				1.866
+			],
+			[
+				750,
+				0.493039,
+				1.866
+			],
+			[
+				800,
+				0.49752,
+				1.866
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -2223,6 +4267,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anek+Devanagari:wdth,wght@75..125,100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.44628,
+				1.7055
+			],
+			[
+				150,
+				0.449671,
+				1.7055
+			],
+			[
+				200,
+				0.453063,
+				1.7055
+			],
+			[
+				250,
+				0.456454,
+				1.7055
+			],
+			[
+				300,
+				0.459845,
+				1.7055
+			],
+			[
+				350,
+				0.463108,
+				1.7055
+			],
+			[
+				400,
+				0.46637,
+				1.7055
+			],
+			[
+				450,
+				0.469122,
+				1.7055
+			],
+			[
+				500,
+				0.471873,
+				1.7055
+			],
+			[
+				550,
+				0.477751,
+				1.7055
+			],
+			[
+				600,
+				0.483628,
+				1.7055
+			],
+			[
+				650,
+				0.48843,
+				1.7055
+			],
+			[
+				700,
+				0.493232,
+				1.7055
+			],
+			[
+				750,
+				0.497883,
+				1.7055
+			],
+			[
+				800,
+				0.502533,
+				1.7055
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -2260,6 +4381,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anek+Gujarati:wdth,wght@75..125,100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.4452,
+				1.5195
+			],
+			[
+				150,
+				0.448581,
+				1.5195
+			],
+			[
+				200,
+				0.451961,
+				1.5195
+			],
+			[
+				250,
+				0.455342,
+				1.5195
+			],
+			[
+				300,
+				0.458723,
+				1.5195
+			],
+			[
+				350,
+				0.461975,
+				1.5195
+			],
+			[
+				400,
+				0.465227,
+				1.5195
+			],
+			[
+				450,
+				0.46797,
+				1.5195
+			],
+			[
+				500,
+				0.470713,
+				1.5195
+			],
+			[
+				550,
+				0.47656,
+				1.5195
+			],
+			[
+				600,
+				0.482406,
+				1.5195
+			],
+			[
+				650,
+				0.487184,
+				1.5195
+			],
+			[
+				700,
+				0.491961,
+				1.5195
+			],
+			[
+				750,
+				0.496587,
+				1.5195
+			],
+			[
+				800,
+				0.501213,
+				1.5195
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -2297,6 +4495,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anek+Gurmukhi:wdth,wght@75..125,100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.453453,
+				1.2
+			],
+			[
+				150,
+				0.456806,
+				1.2
+			],
+			[
+				200,
+				0.460158,
+				1.2
+			],
+			[
+				250,
+				0.463511,
+				1.2
+			],
+			[
+				300,
+				0.466863,
+				1.2
+			],
+			[
+				350,
+				0.470088,
+				1.2
+			],
+			[
+				400,
+				0.473313,
+				1.2
+			],
+			[
+				450,
+				0.476033,
+				1.2
+			],
+			[
+				500,
+				0.478753,
+				1.2
+			],
+			[
+				550,
+				0.484528,
+				1.2
+			],
+			[
+				600,
+				0.490303,
+				1.2
+			],
+			[
+				650,
+				0.495022,
+				1.2
+			],
+			[
+				700,
+				0.499741,
+				1.2
+			],
+			[
+				750,
+				0.50431,
+				1.2
+			],
+			[
+				800,
+				0.50888,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -2336,6 +4611,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anek+Kannada:wdth,wght@75..125,100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.449067,
+				1.67
+			],
+			[
+				150,
+				0.452493,
+				1.67
+			],
+			[
+				200,
+				0.45592,
+				1.67
+			],
+			[
+				250,
+				0.459347,
+				1.67
+			],
+			[
+				300,
+				0.462773,
+				1.67
+			],
+			[
+				350,
+				0.46607,
+				1.67
+			],
+			[
+				400,
+				0.469366,
+				1.67
+			],
+			[
+				450,
+				0.472146,
+				1.67
+			],
+			[
+				500,
+				0.474927,
+				1.67
+			],
+			[
+				550,
+				0.480865,
+				1.67
+			],
+			[
+				600,
+				0.486804,
+				1.67
+			],
+			[
+				650,
+				0.491656,
+				1.67
+			],
+			[
+				700,
+				0.496508,
+				1.67
+			],
+			[
+				750,
+				0.501208,
+				1.67
+			],
+			[
+				800,
+				0.505907,
+				1.67
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -2373,6 +4725,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anek+Latin:wdth,wght@75..125,100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.446653,
+				1.1
+			],
+			[
+				150,
+				0.449946,
+				1.1
+			],
+			[
+				200,
+				0.453238,
+				1.1
+			],
+			[
+				250,
+				0.45653,
+				1.1
+			],
+			[
+				300,
+				0.459823,
+				1.1
+			],
+			[
+				350,
+				0.46299,
+				1.1
+			],
+			[
+				400,
+				0.466157,
+				1.1
+			],
+			[
+				450,
+				0.468829,
+				1.1
+			],
+			[
+				500,
+				0.4715,
+				1.1
+			],
+			[
+				550,
+				0.477367,
+				1.1
+			],
+			[
+				600,
+				0.483234,
+				1.1
+			],
+			[
+				650,
+				0.488028,
+				1.1
+			],
+			[
+				700,
+				0.492822,
+				1.1
+			],
+			[
+				750,
+				0.497464,
+				1.1
+			],
+			[
+				800,
+				0.502107,
+				1.1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -2411,6 +4840,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anek+Malayalam:wdth,wght@75..125,100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.448267,
+				1.4325
+			],
+			[
+				150,
+				0.451799,
+				1.4325
+			],
+			[
+				200,
+				0.455332,
+				1.4325
+			],
+			[
+				250,
+				0.458865,
+				1.4325
+			],
+			[
+				300,
+				0.462397,
+				1.4325
+			],
+			[
+				350,
+				0.465796,
+				1.4325
+			],
+			[
+				400,
+				0.469194,
+				1.4325
+			],
+			[
+				450,
+				0.47206,
+				1.4325
+			],
+			[
+				500,
+				0.474927,
+				1.4325
+			],
+			[
+				550,
+				0.481019,
+				1.4325
+			],
+			[
+				600,
+				0.487111,
+				1.4325
+			],
+			[
+				650,
+				0.492088,
+				1.4325
+			],
+			[
+				700,
+				0.497066,
+				1.4325
+			],
+			[
+				750,
+				0.501886,
+				1.4325
+			],
+			[
+				800,
+				0.506707,
+				1.4325
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -2448,6 +4954,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anek+Odia:wdth,wght@75..125,100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.44669,
+				1.68
+			],
+			[
+				150,
+				0.449993,
+				1.68
+			],
+			[
+				200,
+				0.453296,
+				1.68
+			],
+			[
+				250,
+				0.456599,
+				1.68
+			],
+			[
+				300,
+				0.459902,
+				1.68
+			],
+			[
+				350,
+				0.463079,
+				1.68
+			],
+			[
+				400,
+				0.466257,
+				1.68
+			],
+			[
+				450,
+				0.468937,
+				1.68
+			],
+			[
+				500,
+				0.471617,
+				1.68
+			],
+			[
+				550,
+				0.477484,
+				1.68
+			],
+			[
+				600,
+				0.483351,
+				1.68
+			],
+			[
+				650,
+				0.488145,
+				1.68
+			],
+			[
+				700,
+				0.492938,
+				1.68
+			],
+			[
+				750,
+				0.497581,
+				1.68
+			],
+			[
+				800,
+				0.502223,
+				1.68
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -2488,6 +5071,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anek+Tamil:wdth,wght@75..125,100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.453533,
+				1.408
+			],
+			[
+				150,
+				0.456875,
+				1.408
+			],
+			[
+				200,
+				0.460217,
+				1.408
+			],
+			[
+				250,
+				0.463559,
+				1.408
+			],
+			[
+				300,
+				0.466901,
+				1.408
+			],
+			[
+				350,
+				0.470116,
+				1.408
+			],
+			[
+				400,
+				0.47333,
+				1.408
+			],
+			[
+				450,
+				0.476042,
+				1.408
+			],
+			[
+				500,
+				0.478753,
+				1.408
+			],
+			[
+				550,
+				0.484528,
+				1.408
+			],
+			[
+				600,
+				0.490303,
+				1.408
+			],
+			[
+				650,
+				0.495022,
+				1.408
+			],
+			[
+				700,
+				0.499741,
+				1.408
+			],
+			[
+				750,
+				0.50431,
+				1.408
+			],
+			[
+				800,
+				0.50888,
+				1.408
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -2525,6 +5185,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anek+Telugu:wdth,wght@75..125,100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.447097,
+				1.5
+			],
+			[
+				150,
+				0.450689,
+				1.5
+			],
+			[
+				200,
+				0.454282,
+				1.5
+			],
+			[
+				250,
+				0.457875,
+				1.5
+			],
+			[
+				300,
+				0.461468,
+				1.5
+			],
+			[
+				350,
+				0.464924,
+				1.5
+			],
+			[
+				400,
+				0.46838,
+				1.5
+			],
+			[
+				450,
+				0.471295,
+				1.5
+			],
+			[
+				500,
+				0.47421,
+				1.5
+			],
+			[
+				550,
+				0.480333,
+				1.5
+			],
+			[
+				600,
+				0.486455,
+				1.5
+			],
+			[
+				650,
+				0.491458,
+				1.5
+			],
+			[
+				700,
+				0.496461,
+				1.5
+			],
+			[
+				750,
+				0.501305,
+				1.5
+			],
+			[
+				800,
+				0.50615,
+				1.5
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -2548,6 +5285,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Angkor:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.65541,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2583,6 +5327,18 @@ export default {
 			"ss17"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Annapurna+SIL:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.470716,
+				1.427246
+			],
+			[
+				700,
+				0.498145,
+				1.427246
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2596,6 +5352,13 @@ export default {
 	"Annie Use Your Telescope": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Annie+Use+Your+Telescope:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.389167,
+				1.433594
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2608,6 +5371,19 @@ export default {
 	"Anonymous Pro": {
 		"category": "monospace",
 		"href": "https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.545898,
+				1
+			],
+			[
+				700,
+				0.545898,
+				1
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -2637,6 +5413,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anta:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53359,
+				1.220703
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2652,6 +5435,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Antic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.477713,
+				1.191
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2667,6 +5457,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Antic+Didone:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5022,
+				1.19
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2682,6 +5479,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Antic+Slab:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.503093,
+				1.19
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2712,6 +5516,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anton:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.435824,
+				1.505371
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2742,6 +5553,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anton+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.440547,
+				1.505371
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2762,6 +5580,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.37388,
+				1.293945
+			],
+			[
+				150,
+				0.377175,
+				1.293945
+			],
+			[
+				200,
+				0.38047,
+				1.293945
+			],
+			[
+				250,
+				0.383765,
+				1.293945
+			],
+			[
+				300,
+				0.38706,
+				1.293945
+			],
+			[
+				350,
+				0.392374,
+				1.293945
+			],
+			[
+				400,
+				0.397689,
+				1.293945
+			],
+			[
+				450,
+				0.399598,
+				1.293945
+			],
+			[
+				500,
+				0.401506,
+				1.293945
+			],
+			[
+				550,
+				0.403415,
+				1.293945
+			],
+			[
+				600,
+				0.405324,
+				1.293945
+			],
+			[
+				650,
+				0.410668,
+				1.293945
+			],
+			[
+				700,
+				0.416012,
+				1.293945
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -2791,6 +5676,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anuphan:wght@100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.49712,
+				1.3
+			],
+			[
+				150,
+				0.500048,
+				1.3
+			],
+			[
+				200,
+				0.502976,
+				1.3
+			],
+			[
+				250,
+				0.505903,
+				1.3
+			],
+			[
+				300,
+				0.508831,
+				1.3
+			],
+			[
+				350,
+				0.511759,
+				1.3
+			],
+			[
+				400,
+				0.514687,
+				1.3
+			],
+			[
+				450,
+				0.518597,
+				1.3
+			],
+			[
+				500,
+				0.522507,
+				1.3
+			],
+			[
+				550,
+				0.526417,
+				1.3
+			],
+			[
+				600,
+				0.530327,
+				1.3
+			],
+			[
+				650,
+				0.534237,
+				1.3
+			],
+			[
+				700,
+				0.538147,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -2821,6 +5773,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Anybody:wdth,wght@50..150,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.439813,
+				1.035
+			],
+			[
+				150,
+				0.454161,
+				1.035
+			],
+			[
+				200,
+				0.46851,
+				1.035
+			],
+			[
+				250,
+				0.477709,
+				1.035
+			],
+			[
+				300,
+				0.486908,
+				1.035
+			],
+			[
+				350,
+				0.505305,
+				1.035
+			],
+			[
+				400,
+				0.523703,
+				1.035
+			],
+			[
+				450,
+				0.532902,
+				1.035
+			],
+			[
+				500,
+				0.542101,
+				1.035
+			],
+			[
+				550,
+				0.5513,
+				1.035
+			],
+			[
+				600,
+				0.560499,
+				1.035
+			],
+			[
+				650,
+				0.573375,
+				1.035
+			],
+			[
+				700,
+				0.586251,
+				1.035
+			],
+			[
+				750,
+				0.600966,
+				1.035
+			],
+			[
+				800,
+				0.61568,
+				1.035
+			],
+			[
+				850,
+				0.627824,
+				1.035
+			],
+			[
+				900,
+				0.639967,
+				1.035
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -2858,6 +5897,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Aoboshi+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.564353,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2889,6 +5935,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Arapey:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.448633,
+				1.096
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2907,6 +5960,13 @@ export default {
 	"Arbutus": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Arbutus:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.708877,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2919,6 +5979,13 @@ export default {
 	"Arbutus Slab": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Arbutus+Slab:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.569193,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2931,6 +5998,13 @@ export default {
 	"Architects Daughter": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Architects+Daughter:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.537201,
+				1.389648
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -2962,6 +6036,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.494467,
+				1.088
+			],
+			[
+				150,
+				0.49668,
+				1.088
+			],
+			[
+				200,
+				0.498894,
+				1.088
+			],
+			[
+				250,
+				0.501994,
+				1.088
+			],
+			[
+				300,
+				0.505093,
+				1.088
+			],
+			[
+				350,
+				0.508636,
+				1.088
+			],
+			[
+				400,
+				0.512179,
+				1.088
+			],
+			[
+				450,
+				0.515721,
+				1.088
+			],
+			[
+				500,
+				0.519264,
+				1.088
+			],
+			[
+				550,
+				0.523249,
+				1.088
+			],
+			[
+				600,
+				0.527233,
+				1.088
+			],
+			[
+				650,
+				0.53549,
+				1.088
+			],
+			[
+				700,
+				0.543748,
+				1.088
+			],
+			[
+				750,
+				0.556128,
+				1.088
+			],
+			[
+				800,
+				0.568509,
+				1.088
+			],
+			[
+				850,
+				0.585848,
+				1.088
+			],
+			[
+				900,
+				0.603187,
+				1.088
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -2997,6 +6158,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Archivo+Black:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.620713,
+				1.088
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3045,6 +6213,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Archivo+Narrow:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.423213,
+				1.347
+			],
+			[
+				450,
+				0.426588,
+				1.347
+			],
+			[
+				500,
+				0.429963,
+				1.347
+			],
+			[
+				550,
+				0.433619,
+				1.347
+			],
+			[
+				600,
+				0.437274,
+				1.347
+			],
+			[
+				650,
+				0.440931,
+				1.347
+			],
+			[
+				700,
+				0.444587,
+				1.347
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -3074,6 +6279,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Are+You+Serious:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.423173,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3104,6 +6316,18 @@ export default {
 			"numr"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Aref+Ruqaa:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.516107,
+				1.563
+			],
+			[
+				700,
+				0.563767,
+				1.563
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3123,6 +6347,18 @@ export default {
 			"numr"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Aref+Ruqaa+Ink:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.515973,
+				1.563
+			],
+			[
+				700,
+				0.563653,
+				1.563
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3153,6 +6389,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Arima:wght@100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.490347,
+				1.633
+			],
+			[
+				150,
+				0.491732,
+				1.633
+			],
+			[
+				200,
+				0.493118,
+				1.633
+			],
+			[
+				250,
+				0.494967,
+				1.633
+			],
+			[
+				300,
+				0.496816,
+				1.633
+			],
+			[
+				350,
+				0.499126,
+				1.633
+			],
+			[
+				400,
+				0.501436,
+				1.633
+			],
+			[
+				450,
+				0.502637,
+				1.633
+			],
+			[
+				500,
+				0.503838,
+				1.633
+			],
+			[
+				550,
+				0.506795,
+				1.633
+			],
+			[
+				600,
+				0.509753,
+				1.633
+			],
+			[
+				650,
+				0.512063,
+				1.633
+			],
+			[
+				700,
+				0.514373,
+				1.633
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -3172,6 +6475,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Arimo:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.513809,
+				1.149902
+			],
+			[
+				450,
+				0.518483,
+				1.149902
+			],
+			[
+				500,
+				0.523158,
+				1.149902
+			],
+			[
+				550,
+				0.527832,
+				1.149902
+			],
+			[
+				600,
+				0.532507,
+				1.149902
+			],
+			[
+				650,
+				0.537181,
+				1.149902
+			],
+			[
+				700,
+				0.541855,
+				1.149902
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -3203,6 +6543,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Arizonia:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.450153,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3215,6 +6562,13 @@ export default {
 	"Armata": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Armata:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.573011,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3244,6 +6598,18 @@ export default {
 			"swsh"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.4492,
+				1.254
+			],
+			[
+				700,
+				0.475827,
+				1.254
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3281,6 +6647,18 @@ export default {
 			"swsh"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Arsenal+SC:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.463467,
+				1.254
+			],
+			[
+				700,
+				0.485513,
+				1.254
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3304,6 +6682,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Artifika:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.583405,
+				1.216797
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3319,6 +6704,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.559834,
+				1.043457
+			],
+			[
+				700,
+				0.583975,
+				1.043457
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3352,6 +6749,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Arya:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.46654,
+				1.809
+			],
+			[
+				700,
+				0.47158,
+				1.809
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3408,6 +6817,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Asap:wdth,wght@75..125,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.499187,
+				1.146
+			],
+			[
+				150,
+				0.499187,
+				1.146
+			],
+			[
+				200,
+				0.499187,
+				1.146
+			],
+			[
+				250,
+				0.499187,
+				1.146
+			],
+			[
+				300,
+				0.499187,
+				1.146
+			],
+			[
+				350,
+				0.499187,
+				1.146
+			],
+			[
+				400,
+				0.499187,
+				1.146
+			],
+			[
+				450,
+				0.499187,
+				1.146
+			],
+			[
+				500,
+				0.499187,
+				1.146
+			],
+			[
+				550,
+				0.499187,
+				1.146
+			],
+			[
+				600,
+				0.499187,
+				1.146
+			],
+			[
+				650,
+				0.499187,
+				1.146
+			],
+			[
+				700,
+				0.499187,
+				1.146
+			],
+			[
+				750,
+				0.499187,
+				1.146
+			],
+			[
+				800,
+				0.499187,
+				1.146
+			],
+			[
+				850,
+				0.499187,
+				1.146
+			],
+			[
+				900,
+				0.499187,
+				1.146
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -3497,6 +6994,48 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Asap+Condensed:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				200,
+				0.40908,
+				1.146
+			],
+			[
+				300,
+				0.40912,
+				1.146
+			],
+			[
+				400,
+				0.40918,
+				1.146
+			],
+			[
+				500,
+				0.40918,
+				1.146
+			],
+			[
+				600,
+				0.40918,
+				1.146
+			],
+			[
+				700,
+				0.40918,
+				1.146
+			],
+			[
+				800,
+				0.40918,
+				1.146
+			],
+			[
+				900,
+				0.40918,
+				1.146
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3535,6 +7074,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Asar:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.488607,
+				1.753
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3552,6 +7098,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Asimovian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.519447,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3572,6 +7125,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Asset:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				1.2611,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3593,6 +7153,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Assistant:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.4438,
+				1.508
+			],
+			[
+				250,
+				0.448268,
+				1.508
+			],
+			[
+				300,
+				0.452736,
+				1.508
+			],
+			[
+				350,
+				0.457204,
+				1.508
+			],
+			[
+				400,
+				0.461672,
+				1.508
+			],
+			[
+				450,
+				0.46465,
+				1.508
+			],
+			[
+				500,
+				0.467629,
+				1.508
+			],
+			[
+				550,
+				0.470607,
+				1.508
+			],
+			[
+				600,
+				0.473586,
+				1.508
+			],
+			[
+				650,
+				0.481033,
+				1.508
+			],
+			[
+				700,
+				0.488482,
+				1.508
+			],
+			[
+				750,
+				0.495928,
+				1.508
+			],
+			[
+				800,
+				0.503373,
+				1.508
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -3622,6 +7249,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Asta+Sans:wght@300..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.506127,
+				1.193
+			],
+			[
+				350,
+				0.510797,
+				1.193
+			],
+			[
+				400,
+				0.515468,
+				1.193
+			],
+			[
+				450,
+				0.517804,
+				1.193
+			],
+			[
+				500,
+				0.520139,
+				1.193
+			],
+			[
+				550,
+				0.523301,
+				1.193
+			],
+			[
+				600,
+				0.526464,
+				1.193
+			],
+			[
+				650,
+				0.529624,
+				1.193
+			],
+			[
+				700,
+				0.532784,
+				1.193
+			],
+			[
+				750,
+				0.535945,
+				1.193
+			],
+			[
+				800,
+				0.539107,
+				1.193
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -3639,6 +7323,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Astloch:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.447145,
+				1.051758
+			],
+			[
+				700,
+				0.458597,
+				1.051758
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3655,6 +7351,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Asul:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.5021,
+				1.213
+			],
+			[
+				700,
+				0.549213,
+				1.213
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3677,6 +7385,38 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Athiti:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				200,
+				0.46624,
+				1.2
+			],
+			[
+				300,
+				0.47032,
+				1.2
+			],
+			[
+				400,
+				0.474387,
+				1.2
+			],
+			[
+				500,
+				0.480927,
+				1.2
+			],
+			[
+				600,
+				0.49676,
+				1.2
+			],
+			[
+				700,
+				0.522687,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3704,6 +7444,18 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.503227,
+				1.24
+			],
+			[
+				700,
+				0.540193,
+				1.24
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3733,6 +7485,74 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Mono:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.632,
+				1.3
+			],
+			[
+				250,
+				0.632,
+				1.3
+			],
+			[
+				300,
+				0.632,
+				1.3
+			],
+			[
+				350,
+				0.632,
+				1.3
+			],
+			[
+				400,
+				0.632,
+				1.3
+			],
+			[
+				450,
+				0.632,
+				1.3
+			],
+			[
+				500,
+				0.632,
+				1.3
+			],
+			[
+				550,
+				0.632,
+				1.3
+			],
+			[
+				600,
+				0.632,
+				1.3
+			],
+			[
+				650,
+				0.632,
+				1.3
+			],
+			[
+				700,
+				0.632,
+				1.3
+			],
+			[
+				750,
+				0.632,
+				1.3
+			],
+			[
+				800,
+				0.632,
+				1.3
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -3764,6 +7584,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible+Next:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.480313,
+				1.3
+			],
+			[
+				250,
+				0.485479,
+				1.3
+			],
+			[
+				300,
+				0.490645,
+				1.3
+			],
+			[
+				350,
+				0.497189,
+				1.3
+			],
+			[
+				400,
+				0.503733,
+				1.3
+			],
+			[
+				450,
+				0.510532,
+				1.3
+			],
+			[
+				500,
+				0.51733,
+				1.3
+			],
+			[
+				550,
+				0.522187,
+				1.3
+			],
+			[
+				600,
+				0.527044,
+				1.3
+			],
+			[
+				650,
+				0.532224,
+				1.3
+			],
+			[
+				700,
+				0.537403,
+				1.3
+			],
+			[
+				750,
+				0.545173,
+				1.3
+			],
+			[
+				800,
+				0.554367,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -3788,6 +7675,33 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Atma:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.411747,
+				1.619
+			],
+			[
+				400,
+				0.429687,
+				1.619
+			],
+			[
+				500,
+				0.453987,
+				1.619
+			],
+			[
+				600,
+				0.49024,
+				1.619
+			],
+			[
+				700,
+				0.533287,
+				1.619
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3809,6 +7723,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Atomic+Age:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.570781,
+				1.341309
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3828,6 +7749,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Aubrey:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.37192,
+				1.042
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3848,6 +7776,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Audiowide:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.638102,
+				1.274902
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3860,6 +7795,13 @@ export default {
 	"Autour One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Autour+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.655905,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3883,6 +7825,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Average:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.49556,
+				1.216
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3899,6 +7848,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Average+Sans:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.472913,
+				1.296
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3914,6 +7870,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Averia+Gruesa+Libre:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.504938,
+				1.193359
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3929,6 +7892,23 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Averia+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.501885,
+				1.193359
+			],
+			[
+				400,
+				0.50764,
+				1.193359
+			],
+			[
+				700,
+				0.522594,
+				1.193359
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3954,6 +7934,23 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.488252,
+				1.237305
+			],
+			[
+				400,
+				0.494453,
+				1.237305
+			],
+			[
+				700,
+				0.511195,
+				1.237305
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -3979,6 +7976,23 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.524622,
+				1.089844
+			],
+			[
+				400,
+				0.529004,
+				1.089844
+			],
+			[
+				700,
+				0.540804,
+				1.089844
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4034,6 +8048,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Azeret+Mono:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.65,
+				1.167
+			],
+			[
+				150,
+				0.65,
+				1.167
+			],
+			[
+				200,
+				0.65,
+				1.167
+			],
+			[
+				250,
+				0.65,
+				1.167
+			],
+			[
+				300,
+				0.65,
+				1.167
+			],
+			[
+				350,
+				0.65,
+				1.167
+			],
+			[
+				400,
+				0.65,
+				1.167
+			],
+			[
+				450,
+				0.65,
+				1.167
+			],
+			[
+				500,
+				0.65,
+				1.167
+			],
+			[
+				550,
+				0.65,
+				1.167
+			],
+			[
+				600,
+				0.65,
+				1.167
+			],
+			[
+				650,
+				0.65,
+				1.167
+			],
+			[
+				700,
+				0.65,
+				1.167
+			],
+			[
+				750,
+				0.65,
+				1.167
+			],
+			[
+				800,
+				0.65,
+				1.167
+			],
+			[
+				850,
+				0.65,
+				1.167
+			],
+			[
+				900,
+				0.65,
+				1.167
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -4057,6 +8159,19 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=B612:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.554833,
+				1.215
+			],
+			[
+				700,
+				0.5545,
+				1.215
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -4077,6 +8192,19 @@ export default {
 	"B612 Mono": {
 		"category": "monospace",
 		"href": "https://fonts.googleapis.com/css2?family=B612+Mono:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.65,
+				1.215
+			],
+			[
+				700,
+				0.65,
+				1.215
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -4102,6 +8230,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=BBH+Bartle:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				1.188073,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4119,6 +8254,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=BBH+Bogle:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.397547,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4139,6 +8281,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=BBH+Hegarty:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.63584,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4161,6 +8310,19 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=BIZ+UDGothic:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.5,
+				1
+			],
+			[
+				700,
+				0.5,
+				1
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -4184,6 +8346,19 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=BIZ+UDMincho:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.5,
+				1
+			],
+			[
+				700,
+				0.5,
+				1
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -4208,6 +8383,18 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=BIZ+UDPGothic:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.636126,
+				1
+			],
+			[
+				700,
+				0.647712,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4232,6 +8419,18 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=BIZ+UDPMincho:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.610928,
+				1
+			],
+			[
+				700,
+				0.669652,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4245,6 +8444,28 @@ export default {
 	"BJCree": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=BJCree:ital,wght@0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.552523,
+				1.210938
+			],
+			[
+				500,
+				0.578073,
+				1.210938
+			],
+			[
+				600,
+				0.603431,
+				1.210938
+			],
+			[
+				700,
+				0.628981,
+				1.210938
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4269,6 +8490,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Babylonica:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.442227,
+				1.325
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4281,6 +8509,13 @@ export default {
 	"Bacasime Antique": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Bacasime+Antique:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.485013,
+				1.069824
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4306,6 +8541,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bad+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.442133,
+				1.972
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4325,6 +8567,13 @@ export default {
 			"smcp"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Badeen+Display:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.556293,
+				1.4
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4347,6 +8596,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bagel+Fat+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.519167,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4370,6 +8626,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bahiana:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.296233,
+				1.15
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4398,6 +8661,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bahianita:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.268767,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4419,6 +8689,38 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=block",
+		"metrics": [
+			[
+				200,
+				0.499013,
+				1.25
+			],
+			[
+				300,
+				0.50604,
+				1.25
+			],
+			[
+				400,
+				0.512973,
+				1.25
+			],
+			[
+				500,
+				0.521973,
+				1.25
+			],
+			[
+				600,
+				0.531333,
+				1.25
+			],
+			[
+				700,
+				0.540333,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4450,6 +8752,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bakbak+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52232,
+				1.4
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4488,6 +8797,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ballet:opsz@16..72&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.518967,
+				1.9
+			]
+		],
 		"variants": [
 			{
 			}
@@ -4512,6 +8828,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.480507,
+				1.602
+			],
+			[
+				450,
+				0.483995,
+				1.602
+			],
+			[
+				500,
+				0.487483,
+				1.602
+			],
+			[
+				550,
+				0.490692,
+				1.602
+			],
+			[
+				600,
+				0.493901,
+				1.602
+			],
+			[
+				650,
+				0.497809,
+				1.602
+			],
+			[
+				700,
+				0.501716,
+				1.602
+			],
+			[
+				750,
+				0.505065,
+				1.602
+			],
+			[
+				800,
+				0.508413,
+				1.602
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -4539,6 +8902,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.480507,
+				1.622
+			],
+			[
+				450,
+				0.483785,
+				1.622
+			],
+			[
+				500,
+				0.487064,
+				1.622
+			],
+			[
+				550,
+				0.491007,
+				1.622
+			],
+			[
+				600,
+				0.494949,
+				1.622
+			],
+			[
+				650,
+				0.498681,
+				1.622
+			],
+			[
+				700,
+				0.502413,
+				1.622
+			],
+			[
+				750,
+				0.505413,
+				1.622
+			],
+			[
+				800,
+				0.508413,
+				1.622
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -4568,6 +8978,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.481313,
+				1.712
+			],
+			[
+				450,
+				0.484762,
+				1.712
+			],
+			[
+				500,
+				0.48821,
+				1.712
+			],
+			[
+				550,
+				0.491382,
+				1.712
+			],
+			[
+				600,
+				0.494554,
+				1.712
+			],
+			[
+				650,
+				0.498417,
+				1.712
+			],
+			[
+				700,
+				0.502279,
+				1.712
+			],
+			[
+				750,
+				0.50559,
+				1.712
+			],
+			[
+				800,
+				0.5089,
+				1.712
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -4599,6 +9056,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.480133,
+				2.012
+			],
+			[
+				450,
+				0.483925,
+				2.012
+			],
+			[
+				500,
+				0.487717,
+				2.012
+			],
+			[
+				550,
+				0.490902,
+				2.012
+			],
+			[
+				600,
+				0.494087,
+				2.012
+			],
+			[
+				650,
+				0.497879,
+				2.012
+			],
+			[
+				700,
+				0.501671,
+				2.012
+			],
+			[
+				750,
+				0.506069,
+				2.012
+			],
+			[
+				800,
+				0.510467,
+				2.012
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -4626,6 +9130,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.480507,
+				1.47
+			],
+			[
+				450,
+				0.483995,
+				1.47
+			],
+			[
+				500,
+				0.487483,
+				1.47
+			],
+			[
+				550,
+				0.490692,
+				1.47
+			],
+			[
+				600,
+				0.493901,
+				1.47
+			],
+			[
+				650,
+				0.497809,
+				1.47
+			],
+			[
+				700,
+				0.501716,
+				1.47
+			],
+			[
+				750,
+				0.505065,
+				1.47
+			],
+			[
+				800,
+				0.508413,
+				1.47
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -4654,6 +9205,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Baloo+Da+2:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.480507,
+				1.684
+			],
+			[
+				450,
+				0.483855,
+				1.684
+			],
+			[
+				500,
+				0.487204,
+				1.684
+			],
+			[
+				550,
+				0.490135,
+				1.684
+			],
+			[
+				600,
+				0.493065,
+				1.684
+			],
+			[
+				650,
+				0.497251,
+				1.684
+			],
+			[
+				700,
+				0.501437,
+				1.684
+			],
+			[
+				750,
+				0.504925,
+				1.684
+			],
+			[
+				800,
+				0.508413,
+				1.684
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -4682,6 +9280,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Baloo+Paaji+2:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.480507,
+				1.771
+			],
+			[
+				450,
+				0.483995,
+				1.771
+			],
+			[
+				500,
+				0.487483,
+				1.771
+			],
+			[
+				550,
+				0.490692,
+				1.771
+			],
+			[
+				600,
+				0.493901,
+				1.771
+			],
+			[
+				650,
+				0.497809,
+				1.771
+			],
+			[
+				700,
+				0.501716,
+				1.771
+			],
+			[
+				750,
+				0.505065,
+				1.771
+			],
+			[
+				800,
+				0.508413,
+				1.771
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -4712,6 +9357,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.4908,
+				1.751
+			],
+			[
+				450,
+				0.492767,
+				1.751
+			],
+			[
+				500,
+				0.494734,
+				1.751
+			],
+			[
+				550,
+				0.4967,
+				1.751
+			],
+			[
+				600,
+				0.498667,
+				1.751
+			],
+			[
+				650,
+				0.501223,
+				1.751
+			],
+			[
+				700,
+				0.503779,
+				1.751
+			],
+			[
+				750,
+				0.507123,
+				1.751
+			],
+			[
+				800,
+				0.510467,
+				1.751
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -4733,6 +9425,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.480507,
+				2.296
+			],
+			[
+				450,
+				0.483298,
+				2.296
+			],
+			[
+				500,
+				0.486088,
+				2.296
+			],
+			[
+				550,
+				0.488879,
+				2.296
+			],
+			[
+				600,
+				0.49167,
+				2.296
+			],
+			[
+				650,
+				0.495297,
+				2.296
+			],
+			[
+				700,
+				0.498924,
+				2.296
+			],
+			[
+				750,
+				0.503669,
+				2.296
+			],
+			[
+				800,
+				0.508413,
+				2.296
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -4754,6 +9493,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.480507,
+				1.564
+			],
+			[
+				450,
+				0.484414,
+				1.564
+			],
+			[
+				500,
+				0.488321,
+				1.564
+			],
+			[
+				550,
+				0.49167,
+				1.564
+			],
+			[
+				600,
+				0.495019,
+				1.564
+			],
+			[
+				650,
+				0.498228,
+				1.564
+			],
+			[
+				700,
+				0.501437,
+				1.564
+			],
+			[
+				750,
+				0.504925,
+				1.564
+			],
+			[
+				800,
+				0.508413,
+				1.564
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -4777,6 +9563,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Balsamiq+Sans:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.508913,
+				1.2
+			],
+			[
+				700,
+				0.516593,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4800,6 +9598,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Balthazar:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.440093,
+				1.018
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4821,6 +9626,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bangers:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.395013,
+				1.064
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4847,6 +9659,53 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.473007,
+				1.2
+			],
+			[
+				200,
+				0.474927,
+				1.2
+			],
+			[
+				300,
+				0.477913,
+				1.2
+			],
+			[
+				400,
+				0.481647,
+				1.2
+			],
+			[
+				500,
+				0.48696,
+				1.2
+			],
+			[
+				600,
+				0.491233,
+				1.2
+			],
+			[
+				700,
+				0.496507,
+				1.2
+			],
+			[
+				800,
+				0.502067,
+				1.2
+			],
+			[
+				900,
+				0.506987,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4895,6 +9754,53 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.358853,
+				1.2
+			],
+			[
+				200,
+				0.362327,
+				1.2
+			],
+			[
+				300,
+				0.367467,
+				1.2
+			],
+			[
+				400,
+				0.37432,
+				1.2
+			],
+			[
+				500,
+				0.38364,
+				1.2
+			],
+			[
+				600,
+				0.391147,
+				1.2
+			],
+			[
+				700,
+				0.40062,
+				1.2
+			],
+			[
+				800,
+				0.410013,
+				1.2
+			],
+			[
+				900,
+				0.418167,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4943,6 +9849,53 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.415907,
+				1.2
+			],
+			[
+				200,
+				0.418653,
+				1.2
+			],
+			[
+				300,
+				0.422667,
+				1.2
+			],
+			[
+				400,
+				0.427993,
+				1.2
+			],
+			[
+				500,
+				0.435447,
+				1.2
+			],
+			[
+				600,
+				0.440973,
+				1.2
+			],
+			[
+				700,
+				0.448687,
+				1.2
+			],
+			[
+				800,
+				0.455973,
+				1.2
+			],
+			[
+				900,
+				0.462807,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -4993,6 +9946,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Barriecito:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.465413,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5016,6 +9976,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Barrio:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.516,
+				1.127
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5028,6 +9995,13 @@ export default {
 	"Basic": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Basic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.477536,
+				1.258301
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5095,6 +10069,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Baskervville:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.513973,
+				1.293
+			],
+			[
+				450,
+				0.516291,
+				1.293
+			],
+			[
+				500,
+				0.518609,
+				1.293
+			],
+			[
+				550,
+				0.521063,
+				1.293
+			],
+			[
+				600,
+				0.523516,
+				1.293
+			],
+			[
+				650,
+				0.528288,
+				1.293
+			],
+			[
+				700,
+				0.53306,
+				1.293
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -5137,6 +10148,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Baskervville+SC:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.524567,
+				1.293
+			],
+			[
+				450,
+				0.526091,
+				1.293
+			],
+			[
+				500,
+				0.527616,
+				1.293
+			],
+			[
+				550,
+				0.529229,
+				1.293
+			],
+			[
+				600,
+				0.530843,
+				1.293
+			],
+			[
+				650,
+				0.533981,
+				1.293
+			],
+			[
+				700,
+				0.53712,
+				1.293
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -5154,6 +10202,33 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Battambang:ital,wght@0,100;0,300;0,400;0,700;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.5418,
+				1.806641
+			],
+			[
+				300,
+				0.54696,
+				1.806641
+			],
+			[
+				400,
+				0.552982,
+				1.806641
+			],
+			[
+				700,
+				0.561715,
+				1.806641
+			],
+			[
+				900,
+				0.567152,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5170,6 +10245,13 @@ export default {
 	"Baumans": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Baumans:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.48078,
+				1.182
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5185,6 +10267,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bayon:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.41347,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5211,6 +10300,53 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.530787,
+				1.265
+			],
+			[
+				200,
+				0.53976,
+				1.265
+			],
+			[
+				300,
+				0.548753,
+				1.265
+			],
+			[
+				400,
+				0.557727,
+				1.265
+			],
+			[
+				500,
+				0.56444,
+				1.265
+			],
+			[
+				600,
+				0.571133,
+				1.265
+			],
+			[
+				700,
+				0.578113,
+				1.265
+			],
+			[
+				800,
+				0.584807,
+				1.265
+			],
+			[
+				900,
+				0.59152,
+				1.265
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5258,6 +10394,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Beau+Rivage:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.453313,
+				1.34
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5282,6 +10425,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bebas+Neue:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.361787,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5309,6 +10459,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Beiruti:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.38116,
+				1.2
+			],
+			[
+				250,
+				0.383632,
+				1.2
+			],
+			[
+				300,
+				0.386103,
+				1.2
+			],
+			[
+				350,
+				0.388575,
+				1.2
+			],
+			[
+				400,
+				0.391047,
+				1.2
+			],
+			[
+				450,
+				0.393425,
+				1.2
+			],
+			[
+				500,
+				0.395803,
+				1.2
+			],
+			[
+				550,
+				0.398181,
+				1.2
+			],
+			[
+				600,
+				0.400559,
+				1.2
+			],
+			[
+				650,
+				0.402937,
+				1.2
+			],
+			[
+				700,
+				0.405315,
+				1.2
+			],
+			[
+				750,
+				0.407693,
+				1.2
+			],
+			[
+				800,
+				0.410071,
+				1.2
+			],
+			[
+				850,
+				0.412449,
+				1.2
+			],
+			[
+				900,
+				0.414827,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -5323,6 +10550,23 @@ export default {
 	"Belanosima": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Belanosima:ital,wght@0,400;0,600;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.475267,
+				1.191895
+			],
+			[
+				600,
+				0.508411,
+				1.225098
+			],
+			[
+				700,
+				0.541156,
+				1.342773
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5340,6 +10584,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Belgrano:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.576567,
+				1.268
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5362,6 +10613,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bellefair:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.453027,
+				1.146
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5382,6 +10640,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Belleza:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.4681,
+				1.152
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5412,6 +10677,23 @@ export default {
 			"swsh"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bellota:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.512467,
+				1.258
+			],
+			[
+				400,
+				0.517147,
+				1.258
+			],
+			[
+				700,
+				0.525607,
+				1.258
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5452,6 +10734,23 @@ export default {
 			"swsh"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bellota+Text:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.4963,
+				1.258
+			],
+			[
+				400,
+				0.498533,
+				1.258
+			],
+			[
+				700,
+				0.506973,
+				1.258
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5490,6 +10789,23 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=BenchNine:ital,wght@0,300;0,400;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.306585,
+				1.337891
+			],
+			[
+				400,
+				0.320465,
+				1.337891
+			],
+			[
+				700,
+				0.328997,
+				1.337891
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5516,6 +10832,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Benne:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.466887,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5531,6 +10854,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bentham:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.488275,
+				1.089844
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5551,6 +10881,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Berkshire+Swash:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.501455,
+				1.242188
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5572,6 +10909,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Besley:wght@400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.579337,
+				1.675
+			],
+			[
+				450,
+				0.585664,
+				1.675
+			],
+			[
+				500,
+				0.591992,
+				1.675
+			],
+			[
+				550,
+				0.599221,
+				1.675
+			],
+			[
+				600,
+				0.606451,
+				1.675
+			],
+			[
+				650,
+				0.615492,
+				1.675
+			],
+			[
+				700,
+				0.624534,
+				1.675
+			],
+			[
+				750,
+				0.635019,
+				1.675
+			],
+			[
+				800,
+				0.645503,
+				1.675
+			],
+			[
+				850,
+				0.657615,
+				1.675
+			],
+			[
+				900,
+				0.669727,
+				1.675
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -5606,6 +11000,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Betania+Patmos:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.555573,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5632,6 +11033,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Betania+Patmos+GDL:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.55556,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5658,6 +11066,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Betania+Patmos+In:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5606,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5684,6 +11099,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Betania+Patmos+In+GDL:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.560567,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5700,6 +11122,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Beth+Ellen:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.668217,
+				2.22
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5725,6 +11154,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bevan:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.645052,
+				1.606934
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5763,6 +11199,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.766853,
+				1.008
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5803,6 +11246,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Big+Shoulders:opsz,wght@10..72,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.25324,
+				1.2
+			],
+			[
+				150,
+				0.271116,
+				1.2
+			],
+			[
+				200,
+				0.285318,
+				1.2
+			],
+			[
+				250,
+				0.297946,
+				1.2
+			],
+			[
+				300,
+				0.307252,
+				1.2
+			],
+			[
+				350,
+				0.316019,
+				1.2
+			],
+			[
+				400,
+				0.327335,
+				1.2
+			],
+			[
+				450,
+				0.344604,
+				1.2
+			],
+			[
+				500,
+				0.362138,
+				1.2
+			],
+			[
+				550,
+				0.373364,
+				1.2
+			],
+			[
+				600,
+				0.382134,
+				1.2
+			],
+			[
+				650,
+				0.390892,
+				1.2
+			],
+			[
+				700,
+				0.399592,
+				1.2
+			],
+			[
+				750,
+				0.408293,
+				1.2
+			],
+			[
+				800,
+				0.416993,
+				1.2
+			],
+			[
+				850,
+				0.425693,
+				1.2
+			],
+			[
+				900,
+				0.434393,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -5845,6 +11375,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.254322,
+				1.2
+			],
+			[
+				150,
+				0.272487,
+				1.2
+			],
+			[
+				200,
+				0.286919,
+				1.2
+			],
+			[
+				250,
+				0.299753,
+				1.2
+			],
+			[
+				300,
+				0.309216,
+				1.2
+			],
+			[
+				350,
+				0.318133,
+				1.2
+			],
+			[
+				400,
+				0.329643,
+				1.2
+			],
+			[
+				450,
+				0.347208,
+				1.2
+			],
+			[
+				500,
+				0.365041,
+				1.2
+			],
+			[
+				550,
+				0.376459,
+				1.2
+			],
+			[
+				600,
+				0.385379,
+				1.2
+			],
+			[
+				650,
+				0.394288,
+				1.2
+			],
+			[
+				700,
+				0.403137,
+				1.2
+			],
+			[
+				750,
+				0.411986,
+				1.2
+			],
+			[
+				800,
+				0.420835,
+				1.2
+			],
+			[
+				850,
+				0.429684,
+				1.2
+			],
+			[
+				900,
+				0.438533,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -5887,6 +11504,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.254053,
+				1.2
+			],
+			[
+				150,
+				0.272077,
+				1.2
+			],
+			[
+				200,
+				0.286396,
+				1.2
+			],
+			[
+				250,
+				0.299129,
+				1.2
+			],
+			[
+				300,
+				0.308462,
+				1.2
+			],
+			[
+				350,
+				0.317244,
+				1.2
+			],
+			[
+				400,
+				0.32858,
+				1.2
+			],
+			[
+				450,
+				0.34588,
+				1.2
+			],
+			[
+				500,
+				0.363444,
+				1.2
+			],
+			[
+				550,
+				0.37469,
+				1.2
+			],
+			[
+				600,
+				0.383475,
+				1.2
+			],
+			[
+				650,
+				0.392249,
+				1.2
+			],
+			[
+				700,
+				0.400965,
+				1.2
+			],
+			[
+				750,
+				0.40968,
+				1.2
+			],
+			[
+				800,
+				0.418396,
+				1.2
+			],
+			[
+				850,
+				0.427111,
+				1.2
+			],
+			[
+				900,
+				0.435827,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -5909,6 +11613,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bigelow+Rules:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.268037,
+				1.158691
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5924,6 +11635,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bigshot+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.49922,
+				1.048
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5948,6 +11666,13 @@ export default {
 			"swsh"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bilbo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.36838,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5963,6 +11688,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bilbo+Swash+Caps:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.434753,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -5997,6 +11729,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=BioRhyme:wdth,wght@100..125,200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.601893,
+				1.549
+			],
+			[
+				250,
+				0.603644,
+				1.549
+			],
+			[
+				300,
+				0.605394,
+				1.549
+			],
+			[
+				350,
+				0.608895,
+				1.549
+			],
+			[
+				400,
+				0.612395,
+				1.549
+			],
+			[
+				450,
+				0.613031,
+				1.549
+			],
+			[
+				500,
+				0.613607,
+				1.549
+			],
+			[
+				550,
+				0.614255,
+				1.549
+			],
+			[
+				600,
+				0.614904,
+				1.549
+			],
+			[
+				650,
+				0.615552,
+				1.549
+			],
+			[
+				700,
+				0.616201,
+				1.549
+			],
+			[
+				750,
+				0.618217,
+				1.549
+			],
+			[
+				800,
+				0.620233,
+				1.549
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -6037,6 +11836,33 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=BioRhyme+Expanded:ital,wght@0,200;0,300;0,400;0,700;0,800&display=block",
+		"metrics": [
+			[
+				200,
+				0.9917,
+				1.549
+			],
+			[
+				300,
+				0.991113,
+				1.549
+			],
+			[
+				400,
+				0.98958,
+				1.549
+			],
+			[
+				700,
+				0.988793,
+				1.549
+			],
+			[
+				800,
+				0.987853,
+				1.549
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -6072,6 +11898,13 @@ export default {
 			"titl"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Birthstone:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.327313,
+				1.36
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -6098,6 +11931,18 @@ export default {
 			"titl"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Birthstone+Bounce:ital,wght@0,400;0,500&display=block",
+		"metrics": [
+			[
+				400,
+				0.43608,
+				1.36
+			],
+			[
+				500,
+				0.42766,
+				1.36
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -6120,6 +11965,43 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Biryani:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				200,
+				0.539753,
+				1.765
+			],
+			[
+				300,
+				0.548393,
+				1.765
+			],
+			[
+				400,
+				0.55716,
+				1.765
+			],
+			[
+				600,
+				0.565927,
+				1.765
+			],
+			[
+				700,
+				0.574513,
+				1.765
+			],
+			[
+				800,
+				0.58328,
+				1.765
+			],
+			[
+				900,
+				0.59192,
+				1.765
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -6182,6 +12064,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bitcount:CRSV,ELSH,ELXP,slnt,wght@0..1,0..100,0..100,-8..0,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.2
+			],
+			[
+				150,
+				0.6,
+				1.2
+			],
+			[
+				200,
+				0.6,
+				1.2
+			],
+			[
+				250,
+				0.6,
+				1.2
+			],
+			[
+				300,
+				0.6,
+				1.2
+			],
+			[
+				350,
+				0.6,
+				1.2
+			],
+			[
+				400,
+				0.6,
+				1.2
+			],
+			[
+				450,
+				0.6,
+				1.2
+			],
+			[
+				500,
+				0.6,
+				1.2
+			],
+			[
+				550,
+				0.6,
+				1.2
+			],
+			[
+				600,
+				0.6,
+				1.2
+			],
+			[
+				650,
+				0.6,
+				1.2
+			],
+			[
+				700,
+				0.6,
+				1.2
+			],
+			[
+				750,
+				0.6,
+				1.2
+			],
+			[
+				800,
+				0.6,
+				1.2
+			],
+			[
+				850,
+				0.6,
+				1.2
+			],
+			[
+				900,
+				0.6,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -6238,6 +12208,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double:CRSV,ELSH,ELXP,slnt,wght@0..1,0..100,0..100,-8..0,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.2
+			],
+			[
+				150,
+				0.6,
+				1.2
+			],
+			[
+				200,
+				0.6,
+				1.2
+			],
+			[
+				250,
+				0.6,
+				1.2
+			],
+			[
+				300,
+				0.6,
+				1.2
+			],
+			[
+				350,
+				0.6,
+				1.2
+			],
+			[
+				400,
+				0.6,
+				1.2
+			],
+			[
+				450,
+				0.6,
+				1.2
+			],
+			[
+				500,
+				0.6,
+				1.2
+			],
+			[
+				550,
+				0.6,
+				1.2
+			],
+			[
+				600,
+				0.6,
+				1.2
+			],
+			[
+				650,
+				0.6,
+				1.2
+			],
+			[
+				700,
+				0.6,
+				1.2
+			],
+			[
+				750,
+				0.6,
+				1.2
+			],
+			[
+				800,
+				0.6,
+				1.2
+			],
+			[
+				850,
+				0.6,
+				1.2
+			],
+			[
+				900,
+				0.6,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -6336,6 +12394,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Grid+Double+Ink:CRSV,ELSH,ELXP,slnt,SZP1,SZP2,wght,XPN1,XPN2,YPN1,YPN2@0..1,0..100,0..100,-8..0,0..100,0..100,100..900,-100..100,-100..100,-100..100,-100..100&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.2
+			],
+			[
+				150,
+				0.6,
+				1.2
+			],
+			[
+				200,
+				0.6,
+				1.2
+			],
+			[
+				250,
+				0.6,
+				1.2
+			],
+			[
+				300,
+				0.6,
+				1.2
+			],
+			[
+				350,
+				0.6,
+				1.2
+			],
+			[
+				400,
+				0.6,
+				1.2
+			],
+			[
+				450,
+				0.6,
+				1.2
+			],
+			[
+				500,
+				0.6,
+				1.2
+			],
+			[
+				550,
+				0.6,
+				1.2
+			],
+			[
+				600,
+				0.6,
+				1.2
+			],
+			[
+				650,
+				0.6,
+				1.2
+			],
+			[
+				700,
+				0.6,
+				1.2
+			],
+			[
+				750,
+				0.6,
+				1.2
+			],
+			[
+				800,
+				0.6,
+				1.2
+			],
+			[
+				850,
+				0.6,
+				1.2
+			],
+			[
+				900,
+				0.6,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -6394,6 +12540,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single:CRSV,ELSH,ELXP,slnt,wght@0..1,0..100,0..100,-8..0,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.2
+			],
+			[
+				150,
+				0.6,
+				1.2
+			],
+			[
+				200,
+				0.6,
+				1.2
+			],
+			[
+				250,
+				0.6,
+				1.2
+			],
+			[
+				300,
+				0.6,
+				1.2
+			],
+			[
+				350,
+				0.6,
+				1.2
+			],
+			[
+				400,
+				0.6,
+				1.2
+			],
+			[
+				450,
+				0.6,
+				1.2
+			],
+			[
+				500,
+				0.6,
+				1.2
+			],
+			[
+				550,
+				0.6,
+				1.2
+			],
+			[
+				600,
+				0.6,
+				1.2
+			],
+			[
+				650,
+				0.6,
+				1.2
+			],
+			[
+				700,
+				0.6,
+				1.2
+			],
+			[
+				750,
+				0.6,
+				1.2
+			],
+			[
+				800,
+				0.6,
+				1.2
+			],
+			[
+				850,
+				0.6,
+				1.2
+			],
+			[
+				900,
+				0.6,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -6494,6 +12728,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Grid+Single+Ink:CRSV,ELSH,ELXP,slnt,SZP1,SZP2,wght,XPN1,XPN2,YPN1,YPN2@0..1,0..100,0..100,-8..0,0..100,0..100,100..900,-100..100,-100..100,-100..100,-100..100&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.2
+			],
+			[
+				150,
+				0.6,
+				1.2
+			],
+			[
+				200,
+				0.6,
+				1.2
+			],
+			[
+				250,
+				0.6,
+				1.2
+			],
+			[
+				300,
+				0.6,
+				1.2
+			],
+			[
+				350,
+				0.6,
+				1.2
+			],
+			[
+				400,
+				0.6,
+				1.2
+			],
+			[
+				450,
+				0.6,
+				1.2
+			],
+			[
+				500,
+				0.6,
+				1.2
+			],
+			[
+				550,
+				0.6,
+				1.2
+			],
+			[
+				600,
+				0.6,
+				1.2
+			],
+			[
+				650,
+				0.6,
+				1.2
+			],
+			[
+				700,
+				0.6,
+				1.2
+			],
+			[
+				750,
+				0.6,
+				1.2
+			],
+			[
+				800,
+				0.6,
+				1.2
+			],
+			[
+				850,
+				0.6,
+				1.2
+			],
+			[
+				900,
+				0.6,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -6594,6 +12916,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Ink:CRSV,ELSH,ELXP,slnt,SZP1,SZP2,wght,XPN1,XPN2,YPN1,YPN2@0..1,0..100,0..100,-8..0,0..100,0..100,100..900,-100..100,-100..100,-100..100,-100..100&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.2
+			],
+			[
+				150,
+				0.6,
+				1.2
+			],
+			[
+				200,
+				0.6,
+				1.2
+			],
+			[
+				250,
+				0.6,
+				1.2
+			],
+			[
+				300,
+				0.6,
+				1.2
+			],
+			[
+				350,
+				0.6,
+				1.2
+			],
+			[
+				400,
+				0.6,
+				1.2
+			],
+			[
+				450,
+				0.6,
+				1.2
+			],
+			[
+				500,
+				0.6,
+				1.2
+			],
+			[
+				550,
+				0.6,
+				1.2
+			],
+			[
+				600,
+				0.6,
+				1.2
+			],
+			[
+				650,
+				0.6,
+				1.2
+			],
+			[
+				700,
+				0.6,
+				1.2
+			],
+			[
+				750,
+				0.6,
+				1.2
+			],
+			[
+				800,
+				0.6,
+				1.2
+			],
+			[
+				850,
+				0.6,
+				1.2
+			],
+			[
+				900,
+				0.6,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -6658,6 +13068,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double:CRSV,ELSH,ELXP,slnt,wght@0..1,0..100,0..100,-8..0,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.555333,
+				1.2
+			],
+			[
+				150,
+				0.555333,
+				1.2
+			],
+			[
+				200,
+				0.555333,
+				1.2
+			],
+			[
+				250,
+				0.555333,
+				1.2
+			],
+			[
+				300,
+				0.555333,
+				1.2
+			],
+			[
+				350,
+				0.555333,
+				1.2
+			],
+			[
+				400,
+				0.555333,
+				1.2
+			],
+			[
+				450,
+				0.555333,
+				1.2
+			],
+			[
+				500,
+				0.555333,
+				1.2
+			],
+			[
+				550,
+				0.555333,
+				1.2
+			],
+			[
+				600,
+				0.555333,
+				1.2
+			],
+			[
+				650,
+				0.555333,
+				1.2
+			],
+			[
+				700,
+				0.555333,
+				1.2
+			],
+			[
+				750,
+				0.555333,
+				1.2
+			],
+			[
+				800,
+				0.555333,
+				1.2
+			],
+			[
+				850,
+				0.555333,
+				1.2
+			],
+			[
+				900,
+				0.555333,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -6764,6 +13262,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Prop+Double+Ink:CRSV,ELSH,ELXP,slnt,SZP1,SZP2,wght,XPN1,XPN2,YPN1,YPN2@0..1,0..100,0..100,-8..0,0..100,0..100,100..900,-100..100,-100..100,-100..100,-100..100&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.555333,
+				1.2
+			],
+			[
+				150,
+				0.555333,
+				1.2
+			],
+			[
+				200,
+				0.555333,
+				1.2
+			],
+			[
+				250,
+				0.555333,
+				1.2
+			],
+			[
+				300,
+				0.555333,
+				1.2
+			],
+			[
+				350,
+				0.555333,
+				1.2
+			],
+			[
+				400,
+				0.555333,
+				1.2
+			],
+			[
+				450,
+				0.555333,
+				1.2
+			],
+			[
+				500,
+				0.555333,
+				1.2
+			],
+			[
+				550,
+				0.555333,
+				1.2
+			],
+			[
+				600,
+				0.555333,
+				1.2
+			],
+			[
+				650,
+				0.555333,
+				1.2
+			],
+			[
+				700,
+				0.555333,
+				1.2
+			],
+			[
+				750,
+				0.555333,
+				1.2
+			],
+			[
+				800,
+				0.555333,
+				1.2
+			],
+			[
+				850,
+				0.555333,
+				1.2
+			],
+			[
+				900,
+				0.555333,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -6829,6 +13415,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single:CRSV,ELSH,ELXP,slnt,wght@0..1,0..100,0..100,-8..0,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.566,
+				1.2
+			],
+			[
+				150,
+				0.566,
+				1.2
+			],
+			[
+				200,
+				0.566,
+				1.2
+			],
+			[
+				250,
+				0.566,
+				1.2
+			],
+			[
+				300,
+				0.566,
+				1.2
+			],
+			[
+				350,
+				0.566,
+				1.2
+			],
+			[
+				400,
+				0.566,
+				1.2
+			],
+			[
+				450,
+				0.566,
+				1.2
+			],
+			[
+				500,
+				0.566,
+				1.2
+			],
+			[
+				550,
+				0.566,
+				1.2
+			],
+			[
+				600,
+				0.566,
+				1.2
+			],
+			[
+				650,
+				0.566,
+				1.2
+			],
+			[
+				700,
+				0.566,
+				1.2
+			],
+			[
+				750,
+				0.566,
+				1.2
+			],
+			[
+				800,
+				0.566,
+				1.2
+			],
+			[
+				850,
+				0.566,
+				1.2
+			],
+			[
+				900,
+				0.566,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -6936,6 +13610,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:CRSV,ELSH,ELXP,slnt,SZP1,SZP2,wght,XPN1,XPN2,YPN1,YPN2@0..1,0..100,0..100,-8..0,0..100,0..100,100..900,-100..100,-100..100,-100..100,-100..100&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.566,
+				1.2
+			],
+			[
+				150,
+				0.566,
+				1.2
+			],
+			[
+				200,
+				0.566,
+				1.2
+			],
+			[
+				250,
+				0.566,
+				1.2
+			],
+			[
+				300,
+				0.566,
+				1.2
+			],
+			[
+				350,
+				0.566,
+				1.2
+			],
+			[
+				400,
+				0.566,
+				1.2
+			],
+			[
+				450,
+				0.566,
+				1.2
+			],
+			[
+				500,
+				0.566,
+				1.2
+			],
+			[
+				550,
+				0.566,
+				1.2
+			],
+			[
+				600,
+				0.566,
+				1.2
+			],
+			[
+				650,
+				0.566,
+				1.2
+			],
+			[
+				700,
+				0.566,
+				1.2
+			],
+			[
+				750,
+				0.566,
+				1.2
+			],
+			[
+				800,
+				0.566,
+				1.2
+			],
+			[
+				850,
+				0.566,
+				1.2
+			],
+			[
+				900,
+				0.566,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -6996,6 +13758,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Single:CRSV,ELSH,ELXP,slnt,wght@0..1,0..100,0..100,-8..0,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.2
+			],
+			[
+				150,
+				0.6,
+				1.2
+			],
+			[
+				200,
+				0.6,
+				1.2
+			],
+			[
+				250,
+				0.6,
+				1.2
+			],
+			[
+				300,
+				0.6,
+				1.2
+			],
+			[
+				350,
+				0.6,
+				1.2
+			],
+			[
+				400,
+				0.6,
+				1.2
+			],
+			[
+				450,
+				0.6,
+				1.2
+			],
+			[
+				500,
+				0.6,
+				1.2
+			],
+			[
+				550,
+				0.6,
+				1.2
+			],
+			[
+				600,
+				0.6,
+				1.2
+			],
+			[
+				650,
+				0.6,
+				1.2
+			],
+			[
+				700,
+				0.6,
+				1.2
+			],
+			[
+				750,
+				0.6,
+				1.2
+			],
+			[
+				800,
+				0.6,
+				1.2
+			],
+			[
+				850,
+				0.6,
+				1.2
+			],
+			[
+				900,
+				0.6,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -7098,6 +13948,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bitcount+Single+Ink:CRSV,ELSH,ELXP,slnt,SZP1,SZP2,wght,XPN1,XPN2,YPN1,YPN2@0..1,0..100,0..100,-8..0,0..100,0..100,100..900,-100..100,-100..100,-100..100,-100..100&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.2
+			],
+			[
+				150,
+				0.6,
+				1.2
+			],
+			[
+				200,
+				0.6,
+				1.2
+			],
+			[
+				250,
+				0.6,
+				1.2
+			],
+			[
+				300,
+				0.6,
+				1.2
+			],
+			[
+				350,
+				0.6,
+				1.2
+			],
+			[
+				400,
+				0.6,
+				1.2
+			],
+			[
+				450,
+				0.6,
+				1.2
+			],
+			[
+				500,
+				0.6,
+				1.2
+			],
+			[
+				550,
+				0.6,
+				1.2
+			],
+			[
+				600,
+				0.6,
+				1.2
+			],
+			[
+				650,
+				0.6,
+				1.2
+			],
+			[
+				700,
+				0.6,
+				1.2
+			],
+			[
+				750,
+				0.6,
+				1.2
+			],
+			[
+				800,
+				0.6,
+				1.2
+			],
+			[
+				850,
+				0.6,
+				1.2
+			],
+			[
+				900,
+				0.6,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -7136,6 +14074,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bitter:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.516233,
+				1.2
+			],
+			[
+				150,
+				0.517073,
+				1.2
+			],
+			[
+				200,
+				0.517912,
+				1.2
+			],
+			[
+				250,
+				0.518881,
+				1.2
+			],
+			[
+				300,
+				0.51985,
+				1.2
+			],
+			[
+				350,
+				0.521916,
+				1.2
+			],
+			[
+				400,
+				0.523982,
+				1.2
+			],
+			[
+				450,
+				0.525274,
+				1.2
+			],
+			[
+				500,
+				0.526565,
+				1.2
+			],
+			[
+				550,
+				0.527875,
+				1.2
+			],
+			[
+				600,
+				0.529234,
+				1.2
+			],
+			[
+				650,
+				0.530594,
+				1.2
+			],
+			[
+				700,
+				0.531955,
+				1.2
+			],
+			[
+				750,
+				0.533994,
+				1.2
+			],
+			[
+				800,
+				0.536033,
+				1.2
+			],
+			[
+				850,
+				0.538073,
+				1.2
+			],
+			[
+				900,
+				0.540113,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -7156,6 +14181,13 @@ export default {
 	"Black And White Picture": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Black+And+White+Picture:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.40646,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7168,6 +14200,13 @@ export default {
 	"Black Han Sans": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Black+Han+Sans:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.606027,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7192,6 +14231,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Black+Ops+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.601312,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7208,6 +14254,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Blaka:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.404087,
+				1.167
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7224,6 +14277,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Blaka+Hollow:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.40436,
+				1.167
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7243,6 +14303,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Blaka+Ink:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.404087,
+				1.167
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7269,6 +14336,48 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Blinker:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.46274,
+				1.2
+			],
+			[
+				200,
+				0.462213,
+				1.2
+			],
+			[
+				300,
+				0.461107,
+				1.2
+			],
+			[
+				400,
+				0.46034,
+				1.2
+			],
+			[
+				600,
+				0.460833,
+				1.2
+			],
+			[
+				700,
+				0.46114,
+				1.2
+			],
+			[
+				800,
+				0.462553,
+				1.2
+			],
+			[
+				900,
+				0.464873,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7318,6 +14427,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.53423,
+				1.525
+			],
+			[
+				450,
+				0.538389,
+				1.525
+			],
+			[
+				500,
+				0.542548,
+				1.525
+			],
+			[
+				550,
+				0.547299,
+				1.525
+			],
+			[
+				600,
+				0.552051,
+				1.525
+			],
+			[
+				650,
+				0.557994,
+				1.525
+			],
+			[
+				700,
+				0.563937,
+				1.525
+			],
+			[
+				750,
+				0.570828,
+				1.525
+			],
+			[
+				800,
+				0.577719,
+				1.525
+			],
+			[
+				850,
+				0.585679,
+				1.525
+			],
+			[
+				900,
+				0.59364,
+				1.525
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -7368,6 +14534,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bodoni+Moda+SC:opsz,wght@6..96,400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.56087,
+				1.525
+			],
+			[
+				450,
+				0.566009,
+				1.525
+			],
+			[
+				500,
+				0.571147,
+				1.525
+			],
+			[
+				550,
+				0.577018,
+				1.525
+			],
+			[
+				600,
+				0.58289,
+				1.525
+			],
+			[
+				650,
+				0.590232,
+				1.525
+			],
+			[
+				700,
+				0.597575,
+				1.525
+			],
+			[
+				750,
+				0.60609,
+				1.525
+			],
+			[
+				800,
+				0.614604,
+				1.525
+			],
+			[
+				850,
+				0.624441,
+				1.525
+			],
+			[
+				900,
+				0.634277,
+				1.525
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -7392,6 +14615,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bokor:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.38651,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7417,6 +14647,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Boldonse:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.65288,
+				1.92
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7468,6 +14705,18 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bona+Nova:ital,wght@0,400;0,700;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.503767,
+				1.2
+			],
+			[
+				700,
+				0.530127,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7526,6 +14775,18 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bona+Nova+SC:ital,wght@0,400;0,700;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.541887,
+				1.2
+			],
+			[
+				700,
+				0.567233,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7545,6 +14806,13 @@ export default {
 	"Bonbon": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Bonbon:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.576447,
+				1.175
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7566,6 +14834,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bonheur+Royale:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.3896,
+				1.16
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7581,6 +14856,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Boogaloo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.39964,
+				1.189
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7604,6 +14886,13 @@ export default {
 			"ss02"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Borel:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.575787,
+				2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7619,6 +14908,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bowlby+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.669557,
+				1.566406
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7634,6 +14930,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bowlby+One+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.651989,
+				1.525391
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7655,6 +14958,13 @@ export default {
 			"ss10"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bpmf+Huninn:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.54728,
+				1.12
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7676,6 +14986,13 @@ export default {
 			"ss10"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bpmf+Iansui:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.539713,
+				1.12
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7697,6 +15014,13 @@ export default {
 			"ss10"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bpmf+Zihi+Kai+Std:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.556407,
+				1.12
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7723,6 +15047,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Braah+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.531927,
+				1.4
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7742,6 +15073,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Brawler:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.536367,
+				1.219
+			],
+			[
+				700,
+				0.596173,
+				1.219
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7758,6 +15101,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bree+Serif:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.500773,
+				1.358
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7796,6 +15146,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wdth,wght@12..96,75..100,200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.459893,
+				1.2
+			],
+			[
+				250,
+				0.463222,
+				1.2
+			],
+			[
+				300,
+				0.46655,
+				1.2
+			],
+			[
+				350,
+				0.469878,
+				1.2
+			],
+			[
+				400,
+				0.473207,
+				1.2
+			],
+			[
+				450,
+				0.476535,
+				1.2
+			],
+			[
+				500,
+				0.479863,
+				1.2
+			],
+			[
+				550,
+				0.483192,
+				1.2
+			],
+			[
+				600,
+				0.48652,
+				1.2
+			],
+			[
+				650,
+				0.489848,
+				1.2
+			],
+			[
+				700,
+				0.493177,
+				1.2
+			],
+			[
+				750,
+				0.496505,
+				1.2
+			],
+			[
+				800,
+				0.499833,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -7824,6 +15241,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bruno+Ace:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.703627,
+				1.206
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7844,6 +15268,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bruno+Ace+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.706133,
+				1.206
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7893,6 +15324,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Brygada+1918:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.531553,
+				1.17
+			],
+			[
+				450,
+				0.533117,
+				1.17
+			],
+			[
+				500,
+				0.53468,
+				1.17
+			],
+			[
+				550,
+				0.536243,
+				1.17
+			],
+			[
+				600,
+				0.537806,
+				1.17
+			],
+			[
+				650,
+				0.541453,
+				1.17
+			],
+			[
+				700,
+				0.5451,
+				1.17
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -7916,6 +15384,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bubblegum+Sans:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.44094,
+				1.163
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7931,6 +15406,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bubbler+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.408553,
+				1.163
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7946,6 +15428,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Buda:ital,wght@0,300&display=block",
+		"metrics": [
+			[
+				300,
+				0.463184,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -7959,6 +15448,43 @@ export default {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Buenard:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.47896,
+				1.301
+			],
+			[
+				450,
+				0.480072,
+				1.301
+			],
+			[
+				500,
+				0.481184,
+				1.301
+			],
+			[
+				550,
+				0.482523,
+				1.301
+			],
+			[
+				600,
+				0.483862,
+				1.301
+			],
+			[
+				650,
+				0.485201,
+				1.301
+			],
+			[
+				700,
+				0.48654,
+				1.301
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -7993,6 +15519,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bungee:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.648093,
+				1.32
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8025,6 +15558,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bungee+Hairline:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.648093,
+				1.32
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8057,6 +15597,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bungee+Inline:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.648093,
+				1.32
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8089,6 +15636,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bungee+Outline:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.648093,
+				1.32
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8121,6 +15675,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bungee+Shade:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.748093,
+				1.32
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8153,6 +15714,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bungee+Spice:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.648093,
+				1.32
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8185,6 +15753,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bungee+Tint:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.648093,
+				1.32
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8197,6 +15772,13 @@ export default {
 	"Butcherman": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Butcherman:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.531374,
+				1.935059
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8209,6 +15791,13 @@ export default {
 	"Butterfly Kids": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Butterfly+Kids:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.357936,
+				1.192383
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8224,6 +15813,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Bytesized:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8250,6 +15846,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cabin:wdth,wght@75..100,400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.487073,
+				1.215
+			],
+			[
+				450,
+				0.489424,
+				1.215
+			],
+			[
+				500,
+				0.491774,
+				1.215
+			],
+			[
+				550,
+				0.492949,
+				1.215
+			],
+			[
+				600,
+				0.494124,
+				1.215
+			],
+			[
+				650,
+				0.496139,
+				1.215
+			],
+			[
+				700,
+				0.498153,
+				1.215
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -8289,6 +15922,28 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cabin+Condensed:ital,wght@0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.42522,
+				1.215
+			],
+			[
+				500,
+				0.427133,
+				1.215
+			],
+			[
+				600,
+				0.427913,
+				1.215
+			],
+			[
+				700,
+				0.429433,
+				1.215
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8311,6 +15966,19 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cabin+Sketch:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.495467,
+				1.171
+			],
+			[
+				700,
+				0.495467,
+				1.171
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -8343,6 +16011,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.51072,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8355,6 +16030,13 @@ export default {
 	"Caesar Dressing": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Caesar+Dressing:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.476673,
+				1.213867
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8370,6 +16052,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cagliostro:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5067,
+				1.353
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8404,6 +16093,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cairo:slnt,wght@-11..11,200..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.47328,
+				1.874
+			],
+			[
+				250,
+				0.474558,
+				1.874
+			],
+			[
+				300,
+				0.475836,
+				1.874
+			],
+			[
+				350,
+				0.478575,
+				1.874
+			],
+			[
+				400,
+				0.481313,
+				1.874
+			],
+			[
+				450,
+				0.481944,
+				1.874
+			],
+			[
+				500,
+				0.482576,
+				1.874
+			],
+			[
+				550,
+				0.483208,
+				1.874
+			],
+			[
+				600,
+				0.48384,
+				1.874
+			],
+			[
+				650,
+				0.487155,
+				1.874
+			],
+			[
+				700,
+				0.490469,
+				1.874
+			],
+			[
+				750,
+				0.492047,
+				1.874
+			],
+			[
+				800,
+				0.493626,
+				1.874
+			],
+			[
+				850,
+				0.495204,
+				1.874
+			],
+			[
+				900,
+				0.496783,
+				1.874
+			],
+			[
+				950,
+				0.501045,
+				1.874
+			],
+			[
+				1000,
+				0.505307,
+				1.874
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -8440,6 +16216,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cairo+Play:slnt,wght@-11..11,200..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.47328,
+				1.874
+			],
+			[
+				250,
+				0.474558,
+				1.874
+			],
+			[
+				300,
+				0.475836,
+				1.874
+			],
+			[
+				350,
+				0.478575,
+				1.874
+			],
+			[
+				400,
+				0.481313,
+				1.874
+			],
+			[
+				450,
+				0.481944,
+				1.874
+			],
+			[
+				500,
+				0.482576,
+				1.874
+			],
+			[
+				550,
+				0.483208,
+				1.874
+			],
+			[
+				600,
+				0.48384,
+				1.874
+			],
+			[
+				650,
+				0.487155,
+				1.874
+			],
+			[
+				700,
+				0.490469,
+				1.874
+			],
+			[
+				750,
+				0.492047,
+				1.874
+			],
+			[
+				800,
+				0.493626,
+				1.874
+			],
+			[
+				850,
+				0.495204,
+				1.874
+			],
+			[
+				900,
+				0.496783,
+				1.874
+			],
+			[
+				950,
+				0.501045,
+				1.874
+			],
+			[
+				1000,
+				0.505307,
+				1.874
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -8473,6 +16336,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cal+Sans:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.496973,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8512,6 +16382,18 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Caladea:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.462493,
+				1.15
+			],
+			[
+				700,
+				0.5029,
+				1.15
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8551,6 +16433,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Calistoga:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.524153,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8563,6 +16452,13 @@ export default {
 	"Calligraffitti": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Calligraffitti:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.470866,
+				1.319336
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8579,6 +16475,18 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cambay:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.493242,
+				1.62875
+			],
+			[
+				700,
+				0.5137,
+				1.62875
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8602,6 +16510,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cambo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.51798,
+				1.122
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8617,6 +16532,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Candal:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.624707,
+				1.297852
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8629,6 +16551,18 @@ export default {
 	"Cantarell": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Cantarell:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.547288,
+				1.416016
+			],
+			[
+				700,
+				0.617793,
+				1.416016
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8649,6 +16583,13 @@ export default {
 	"Cantata One": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Cantata+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.603285,
+				1.269531
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8671,6 +16612,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cantora+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.475767,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8686,6 +16634,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Caprasimo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.588408,
+				0.864746
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8698,6 +16653,13 @@ export default {
 	"Capriola": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Capriola:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.571471,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8723,6 +16685,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Caramel:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.324933,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8744,6 +16713,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Carattere:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.40302,
+				1.15
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8819,6 +16795,18 @@ export default {
 			}
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.519062,
+				1.354004
+			],
+			[
+				700,
+				0.544466,
+				1.354004
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8863,6 +16851,18 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Carlito:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.457936,
+				1.220703
+			],
+			[
+				700,
+				0.468008,
+				1.220703
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8886,6 +16886,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Carme:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.527269,
+				1.200684
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8901,6 +16908,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Carrois+Gothic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.48246,
+				1.192
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8916,6 +16930,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Carrois+Gothic+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.50844,
+				1.192
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8931,6 +16952,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Carter+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.543727,
+				1.540039
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -8978,6 +17006,64 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cascadia+Code:wght@200..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.585938,
+				1.162109
+			],
+			[
+				250,
+				0.585938,
+				1.162109
+			],
+			[
+				300,
+				0.585938,
+				1.162109
+			],
+			[
+				350,
+				0.585938,
+				1.162109
+			],
+			[
+				400,
+				0.585938,
+				1.162109
+			],
+			[
+				450,
+				0.585938,
+				1.162109
+			],
+			[
+				500,
+				0.585938,
+				1.162109
+			],
+			[
+				550,
+				0.585938,
+				1.162109
+			],
+			[
+				600,
+				0.585938,
+				1.162109
+			],
+			[
+				650,
+				0.585938,
+				1.162109
+			],
+			[
+				700,
+				0.585938,
+				1.162109
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -9032,6 +17118,64 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cascadia+Mono:wght@200..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.585938,
+				1.162109
+			],
+			[
+				250,
+				0.585938,
+				1.162109
+			],
+			[
+				300,
+				0.585938,
+				1.162109
+			],
+			[
+				350,
+				0.585938,
+				1.162109
+			],
+			[
+				400,
+				0.585938,
+				1.162109
+			],
+			[
+				450,
+				0.585938,
+				1.162109
+			],
+			[
+				500,
+				0.585938,
+				1.162109
+			],
+			[
+				550,
+				0.585938,
+				1.162109
+			],
+			[
+				600,
+				0.585938,
+				1.162109
+			],
+			[
+				650,
+				0.585938,
+				1.162109
+			],
+			[
+				700,
+				0.585938,
+				1.162109
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -9063,6 +17207,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Castoro:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.520493,
+				1.33
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9087,6 +17238,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Castoro+Titling:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.632093,
+				1.33
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9103,6 +17261,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.45098,
+				1.64
+			],
+			[
+				150,
+				0.452923,
+				1.64
+			],
+			[
+				200,
+				0.454867,
+				1.64
+			],
+			[
+				250,
+				0.457133,
+				1.64
+			],
+			[
+				300,
+				0.4594,
+				1.64
+			],
+			[
+				350,
+				0.464753,
+				1.64
+			],
+			[
+				400,
+				0.470106,
+				1.64
+			],
+			[
+				450,
+				0.475457,
+				1.64
+			],
+			[
+				500,
+				0.480807,
+				1.64
+			],
+			[
+				550,
+				0.485383,
+				1.64
+			],
+			[
+				600,
+				0.489959,
+				1.64
+			],
+			[
+				650,
+				0.494821,
+				1.64
+			],
+			[
+				700,
+				0.499682,
+				1.64
+			],
+			[
+				750,
+				0.509084,
+				1.64
+			],
+			[
+				800,
+				0.518486,
+				1.64
+			],
+			[
+				850,
+				0.527539,
+				1.64
+			],
+			[
+				900,
+				0.536593,
+				1.64
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -9120,6 +17365,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.525267,
+				1.289063
+			],
+			[
+				700,
+				0.524678,
+				1.289063
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9152,6 +17409,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cause:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.49528,
+				1.2
+			],
+			[
+				150,
+				0.494892,
+				1.2
+			],
+			[
+				200,
+				0.494504,
+				1.2
+			],
+			[
+				250,
+				0.494117,
+				1.2
+			],
+			[
+				300,
+				0.493729,
+				1.2
+			],
+			[
+				350,
+				0.493341,
+				1.2
+			],
+			[
+				400,
+				0.492953,
+				1.2
+			],
+			[
+				450,
+				0.496207,
+				1.2
+			],
+			[
+				500,
+				0.499461,
+				1.2
+			],
+			[
+				550,
+				0.502715,
+				1.2
+			],
+			[
+				600,
+				0.505969,
+				1.2
+			],
+			[
+				650,
+				0.509223,
+				1.2
+			],
+			[
+				700,
+				0.512477,
+				1.2
+			],
+			[
+				750,
+				0.515731,
+				1.2
+			],
+			[
+				800,
+				0.518985,
+				1.2
+			],
+			[
+				850,
+				0.522239,
+				1.2
+			],
+			[
+				900,
+				0.525493,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -9182,6 +17526,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.38712,
+				1.26
+			],
+			[
+				450,
+				0.38777,
+				1.26
+			],
+			[
+				500,
+				0.38842,
+				1.26
+			],
+			[
+				550,
+				0.38907,
+				1.26
+			],
+			[
+				600,
+				0.38972,
+				1.26
+			],
+			[
+				650,
+				0.39037,
+				1.26
+			],
+			[
+				700,
+				0.39102,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -9206,6 +17587,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Caveat+Brush:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.395627,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9218,6 +17606,13 @@ export default {
 	"Cedarville Cursive": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Cedarville+Cursive:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.519935,
+				1.896484
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9233,6 +17628,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ceviche+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.40976,
+				1.043
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9254,6 +17656,33 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.498827,
+				1.3
+			],
+			[
+				400,
+				0.50764,
+				1.3
+			],
+			[
+				500,
+				0.515893,
+				1.3
+			],
+			[
+				600,
+				0.52448,
+				1.3
+			],
+			[
+				700,
+				0.532733,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9294,6 +17723,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.475733,
+				1.84
+			],
+			[
+				250,
+				0.477983,
+				1.84
+			],
+			[
+				300,
+				0.480234,
+				1.84
+			],
+			[
+				350,
+				0.483233,
+				1.84
+			],
+			[
+				400,
+				0.486233,
+				1.84
+			],
+			[
+				450,
+				0.489685,
+				1.84
+			],
+			[
+				500,
+				0.493137,
+				1.84
+			],
+			[
+				550,
+				0.49704,
+				1.84
+			],
+			[
+				600,
+				0.500943,
+				1.84
+			],
+			[
+				650,
+				0.504996,
+				1.84
+			],
+			[
+				700,
+				0.509049,
+				1.84
+			],
+			[
+				750,
+				0.512651,
+				1.84
+			],
+			[
+				800,
+				0.516253,
+				1.84
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -9325,6 +17821,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Changa+One:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.506207,
+				1.062
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9343,6 +17846,13 @@ export default {
 	"Chango": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Chango:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.774013,
+				1.211
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9396,6 +17906,18 @@ export default {
 			"ss12"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Charis+SIL:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.519557,
+				1.635742
+			],
+			[
+				700,
+				0.550033,
+				1.635742
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9427,6 +17949,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Charm:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.435507,
+				1.549
+			],
+			[
+				700,
+				0.449553,
+				1.549
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9450,6 +17984,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Charmonman:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.4891,
+				1.9
+			],
+			[
+				700,
+				0.501927,
+				1.9
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9463,6 +18009,33 @@ export default {
 	"Chathura": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Chathura:ital,wght@0,100;0,300;0,400;0,700;0,800&display=block",
+		"metrics": [
+			[
+				100,
+				0.249353,
+				1.622
+			],
+			[
+				300,
+				0.249893,
+				1.622
+			],
+			[
+				400,
+				0.249893,
+				1.622
+			],
+			[
+				700,
+				0.249893,
+				1.622
+			],
+			[
+				800,
+				0.249893,
+				1.622
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9485,6 +18058,13 @@ export default {
 			"smcp"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chau+Philomene+One:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.44468,
+				1.367
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9506,6 +18086,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chela+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.41778,
+				1.177
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9518,6 +18105,13 @@ export default {
 	"Chelsea Market": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Chelsea+Market:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.560547,
+				1.272461
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9540,6 +18134,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cherish:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.421653,
+				1.17
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9565,6 +18166,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cherry+Bomb+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53484,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9580,6 +18188,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cherry+Cream+Soda:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.656862,
+				1.017578
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9592,6 +18207,18 @@ export default {
 	"Cherry Swash": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Cherry+Swash:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.55438,
+				1.326
+			],
+			[
+				700,
+				0.589713,
+				1.326
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9608,6 +18235,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chewy:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.44194,
+				1.130859
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9623,6 +18257,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chicle:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.370133,
+				1.209
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9640,6 +18281,13 @@ export default {
 			"salt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chilanka:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.523073,
+				1.098633
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -9678,6 +18326,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.511287,
+				1.18
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -9766,6 +18421,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chiron+Hei+HK:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.485227,
+				1.18
+			],
+			[
+				250,
+				0.4916,
+				1.18
+			],
+			[
+				300,
+				0.497973,
+				1.18
+			],
+			[
+				350,
+				0.507141,
+				1.18
+			],
+			[
+				400,
+				0.516309,
+				1.18
+			],
+			[
+				450,
+				0.523081,
+				1.18
+			],
+			[
+				500,
+				0.529853,
+				1.18
+			],
+			[
+				550,
+				0.534237,
+				1.18
+			],
+			[
+				600,
+				0.538621,
+				1.18
+			],
+			[
+				650,
+				0.543005,
+				1.18
+			],
+			[
+				700,
+				0.547389,
+				1.18
+			],
+			[
+				750,
+				0.551773,
+				1.18
+			],
+			[
+				800,
+				0.556157,
+				1.18
+			],
+			[
+				850,
+				0.560538,
+				1.18
+			],
+			[
+				900,
+				0.56492,
+				1.18
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -9847,6 +18579,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chiron+Sung+HK:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.515533,
+				1.18
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -9902,6 +18641,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chivo:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.52984,
+				1.19
+			],
+			[
+				150,
+				0.531084,
+				1.19
+			],
+			[
+				200,
+				0.532328,
+				1.19
+			],
+			[
+				250,
+				0.533573,
+				1.19
+			],
+			[
+				300,
+				0.534817,
+				1.19
+			],
+			[
+				350,
+				0.536061,
+				1.19
+			],
+			[
+				400,
+				0.537305,
+				1.19
+			],
+			[
+				450,
+				0.538549,
+				1.19
+			],
+			[
+				500,
+				0.539793,
+				1.19
+			],
+			[
+				550,
+				0.541362,
+				1.19
+			],
+			[
+				600,
+				0.54293,
+				1.19
+			],
+			[
+				650,
+				0.544498,
+				1.19
+			],
+			[
+				700,
+				0.546067,
+				1.19
+			],
+			[
+				750,
+				0.547635,
+				1.19
+			],
+			[
+				800,
+				0.549203,
+				1.19
+			],
+			[
+				850,
+				0.550772,
+				1.19
+			],
+			[
+				900,
+				0.55234,
+				1.19
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -9956,6 +18782,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chivo+Mono:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.584,
+				1.19
+			],
+			[
+				150,
+				0.584,
+				1.19
+			],
+			[
+				200,
+				0.584,
+				1.19
+			],
+			[
+				250,
+				0.584,
+				1.19
+			],
+			[
+				300,
+				0.584,
+				1.19
+			],
+			[
+				350,
+				0.584,
+				1.19
+			],
+			[
+				400,
+				0.584,
+				1.19
+			],
+			[
+				450,
+				0.584,
+				1.19
+			],
+			[
+				500,
+				0.584,
+				1.19
+			],
+			[
+				550,
+				0.584,
+				1.19
+			],
+			[
+				600,
+				0.584,
+				1.19
+			],
+			[
+				650,
+				0.584,
+				1.19
+			],
+			[
+				700,
+				0.584,
+				1.19
+			],
+			[
+				750,
+				0.584,
+				1.19
+			],
+			[
+				800,
+				0.584,
+				1.19
+			],
+			[
+				850,
+				0.584,
+				1.19
+			],
+			[
+				900,
+				0.584,
+				1.19
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -10031,6 +18945,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.520607,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10052,6 +18973,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chokokutai:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.58058,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10072,6 +19000,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Chonburi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.638413,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10092,6 +19027,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.583333,
+				1.348
+			],
+			[
+				450,
+				0.586732,
+				1.348
+			],
+			[
+				500,
+				0.590131,
+				1.348
+			],
+			[
+				550,
+				0.593529,
+				1.348
+			],
+			[
+				600,
+				0.596928,
+				1.348
+			],
+			[
+				650,
+				0.600327,
+				1.348
+			],
+			[
+				700,
+				0.603725,
+				1.348
+			],
+			[
+				750,
+				0.607024,
+				1.348
+			],
+			[
+				800,
+				0.610323,
+				1.348
+			],
+			[
+				850,
+				0.613621,
+				1.348
+			],
+			[
+				900,
+				0.61692,
+				1.348
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -10109,6 +19101,23 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cinzel+Decorative:ital,wght@0,400;0,700;0,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.603567,
+				1.348
+			],
+			[
+				700,
+				0.642107,
+				1.348
+			],
+			[
+				900,
+				0.667733,
+				1.348
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10131,6 +19140,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Clicker+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.412611,
+				1.320801
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10168,6 +19184,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979..2050&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.8138,
+				1.33
+			]
+		],
 		"variants": [
 			{
 			}
@@ -10192,6 +19215,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Coda:ital,wght@0,400;0,800&display=block",
+		"metrics": [
+			[
+				400,
+				0.494951,
+				1.419922
+			],
+			[
+				800,
+				0.619596,
+				1.419922
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10205,6 +19240,19 @@ export default {
 	"Codystar": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Codystar:ital,wght@0,300;0,400&display=block",
+		"metrics": [
+			[
+				300,
+				0.612155,
+				1.179688
+			],
+			[
+				400,
+				0.612155,
+				1.179688
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -10221,6 +19269,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Coiny:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.579827,
+				1.6
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10236,6 +19291,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Combo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.44728,
+				1.176
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10261,6 +19323,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.56732,
+				1.115
+			],
+			[
+				350,
+				0.568653,
+				1.115
+			],
+			[
+				400,
+				0.569987,
+				1.115
+			],
+			[
+				450,
+				0.570594,
+				1.115
+			],
+			[
+				500,
+				0.571201,
+				1.115
+			],
+			[
+				550,
+				0.571808,
+				1.115
+			],
+			[
+				600,
+				0.572415,
+				1.115
+			],
+			[
+				650,
+				0.573174,
+				1.115
+			],
+			[
+				700,
+				0.573933,
+				1.115
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -10294,6 +19403,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Comforter:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.391927,
+				1.41
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10325,6 +19441,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Comforter+Brush:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.392413,
+				1.41
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10345,6 +19468,23 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.488087,
+				1.15
+			],
+			[
+				400,
+				0.4843,
+				1.15
+			],
+			[
+				700,
+				0.484367,
+				1.15
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10367,6 +19507,18 @@ export default {
 	"Comic Relief": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Comic+Relief:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.5468,
+				1.39502
+			],
+			[
+				700,
+				0.567438,
+				1.39502
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10383,6 +19535,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Coming+Soon:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.518314,
+				1.248047
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10407,6 +19566,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Comme:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.521312,
+				1.200195
+			],
+			[
+				150,
+				0.524706,
+				1.200195
+			],
+			[
+				200,
+				0.5281,
+				1.200195
+			],
+			[
+				250,
+				0.531494,
+				1.200195
+			],
+			[
+				300,
+				0.534888,
+				1.200195
+			],
+			[
+				350,
+				0.538282,
+				1.200195
+			],
+			[
+				400,
+				0.541676,
+				1.200195
+			],
+			[
+				450,
+				0.546503,
+				1.200195
+			],
+			[
+				500,
+				0.551329,
+				1.200195
+			],
+			[
+				550,
+				0.556155,
+				1.200195
+			],
+			[
+				600,
+				0.560981,
+				1.200195
+			],
+			[
+				650,
+				0.565807,
+				1.200195
+			],
+			[
+				700,
+				0.570633,
+				1.200195
+			],
+			[
+				750,
+				0.57546,
+				1.200195
+			],
+			[
+				800,
+				0.580286,
+				1.200195
+			],
+			[
+				850,
+				0.585112,
+				1.200195
+			],
+			[
+				900,
+				0.589938,
+				1.200195
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -10459,6 +19705,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Commissioner:FLAR,slnt,VOLM,wght@0..100,-12..0,0..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.513553,
+				1.223
+			],
+			[
+				150,
+				0.51488,
+				1.223
+			],
+			[
+				200,
+				0.516207,
+				1.223
+			],
+			[
+				250,
+				0.517699,
+				1.223
+			],
+			[
+				300,
+				0.519191,
+				1.223
+			],
+			[
+				350,
+				0.520683,
+				1.223
+			],
+			[
+				400,
+				0.522175,
+				1.223
+			],
+			[
+				450,
+				0.524165,
+				1.223
+			],
+			[
+				500,
+				0.526155,
+				1.223
+			],
+			[
+				550,
+				0.527813,
+				1.223
+			],
+			[
+				600,
+				0.529444,
+				1.223
+			],
+			[
+				650,
+				0.531236,
+				1.223
+			],
+			[
+				700,
+				0.533029,
+				1.223
+			],
+			[
+				750,
+				0.536043,
+				1.223
+			],
+			[
+				800,
+				0.539058,
+				1.223
+			],
+			[
+				850,
+				0.541909,
+				1.223
+			],
+			[
+				900,
+				0.54476,
+				1.223
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -10473,6 +19806,13 @@ export default {
 	"Concert One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Concert+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.483561,
+				1.179199
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10488,6 +19828,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Condiment:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.407307,
+				1.523
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10500,6 +19847,13 @@ export default {
 	"Contrail One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Contrail+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.436452,
+				1.251953
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10515,6 +19869,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Convergence:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53562,
+				1.173
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10530,6 +19891,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cookie:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.36492,
+				1.109
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10545,6 +19913,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Copse:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.531833,
+				1.04248
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10564,6 +19939,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Coral+Pixels:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.530267,
+				1.385
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10595,6 +19977,18 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Corben:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.548698,
+				1.853027
+			],
+			[
+				700,
+				0.722617,
+				1.853027
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10624,6 +20018,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Corinthia:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.357407,
+				1.2
+			],
+			[
+				700,
+				0.452947,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10711,6 +20117,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cormorant:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.458933,
+				1.211
+			],
+			[
+				350,
+				0.459619,
+				1.211
+			],
+			[
+				400,
+				0.460304,
+				1.211
+			],
+			[
+				450,
+				0.461161,
+				1.211
+			],
+			[
+				500,
+				0.462017,
+				1.211
+			],
+			[
+				550,
+				0.46296,
+				1.211
+			],
+			[
+				600,
+				0.463902,
+				1.211
+			],
+			[
+				650,
+				0.464844,
+				1.211
+			],
+			[
+				700,
+				0.465787,
+				1.211
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -10803,6 +20256,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.459253,
+				1.211
+			],
+			[
+				350,
+				0.459925,
+				1.211
+			],
+			[
+				400,
+				0.460597,
+				1.211
+			],
+			[
+				450,
+				0.461437,
+				1.211
+			],
+			[
+				500,
+				0.462277,
+				1.211
+			],
+			[
+				550,
+				0.463201,
+				1.211
+			],
+			[
+				600,
+				0.464125,
+				1.211
+			],
+			[
+				650,
+				0.465049,
+				1.211
+			],
+			[
+				700,
+				0.465973,
+				1.211
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -10892,6 +20392,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.465747,
+				1.211
+			],
+			[
+				350,
+				0.466441,
+				1.211
+			],
+			[
+				400,
+				0.467136,
+				1.211
+			],
+			[
+				450,
+				0.468004,
+				1.211
+			],
+			[
+				500,
+				0.468873,
+				1.211
+			],
+			[
+				550,
+				0.469828,
+				1.211
+			],
+			[
+				600,
+				0.470783,
+				1.211
+			],
+			[
+				650,
+				0.471738,
+				1.211
+			],
+			[
+				700,
+				0.472693,
+				1.211
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -10939,6 +20486,33 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cormorant+SC:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.503493,
+				1.211
+			],
+			[
+				400,
+				0.5043,
+				1.211
+			],
+			[
+				500,
+				0.505413,
+				1.211
+			],
+			[
+				600,
+				0.506453,
+				1.211
+			],
+			[
+				700,
+				0.507633,
+				1.211
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -10982,6 +20556,33 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cormorant+Unicase:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.50812,
+				1.211
+			],
+			[
+				400,
+				0.509253,
+				1.211
+			],
+			[
+				500,
+				0.51086,
+				1.211
+			],
+			[
+				600,
+				0.512327,
+				1.211
+			],
+			[
+				700,
+				0.513967,
+				1.211
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11033,6 +20634,33 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cormorant+Upright:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.442067,
+				1.211
+			],
+			[
+				400,
+				0.44424,
+				1.211
+			],
+			[
+				500,
+				0.446927,
+				1.211
+			],
+			[
+				600,
+				0.449907,
+				1.211
+			],
+			[
+				700,
+				0.45268,
+				1.211
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11055,6 +20683,18 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cossette+Texte:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.501527,
+				1.21
+			],
+			[
+				700,
+				0.52668,
+				1.21
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11074,6 +20714,18 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cossette+Titre:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.376593,
+				1.21
+			],
+			[
+				700,
+				0.400073,
+				1.21
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11087,6 +20739,13 @@ export default {
 	"Courgette": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Courgette:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.499163,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11123,6 +20782,19 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.599609,
+				1.123047
+			],
+			[
+				700,
+				0.599609,
+				1.123047
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -11146,6 +20818,19 @@ export default {
 			"dlig"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.600098,
+				1.132813
+			],
+			[
+				700,
+				0.600098,
+				1.132813
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -11174,6 +20859,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Coustard:ital,wght@0,400;0,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.574583,
+				1.404297
+			],
+			[
+				900,
+				0.670677,
+				1.404297
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11187,6 +20884,13 @@ export default {
 	"Covered By Your Grace": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.393555,
+				1.34668
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11202,6 +20906,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Crafty+Girls:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.562077,
+				1.101563
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11217,6 +20928,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Creepster:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.419434,
+				1.168945
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11232,6 +20950,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Crete+Round:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5063,
+				1.276
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11269,6 +20994,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.443242,
+				1.111328
+			],
+			[
+				250,
+				0.446006,
+				1.111328
+			],
+			[
+				300,
+				0.44877,
+				1.111328
+			],
+			[
+				350,
+				0.452634,
+				1.111328
+			],
+			[
+				400,
+				0.456497,
+				1.111328
+			],
+			[
+				450,
+				0.460751,
+				1.111328
+			],
+			[
+				500,
+				0.465006,
+				1.111328
+			],
+			[
+				550,
+				0.469807,
+				1.111328
+			],
+			[
+				600,
+				0.474608,
+				1.111328
+			],
+			[
+				650,
+				0.480399,
+				1.111328
+			],
+			[
+				700,
+				0.48619,
+				1.111328
+			],
+			[
+				750,
+				0.492225,
+				1.111328
+			],
+			[
+				800,
+				0.498259,
+				1.111328
+			],
+			[
+				850,
+				0.50356,
+				1.111328
+			],
+			[
+				900,
+				0.508861,
+				1.111328
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -11323,6 +21125,23 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.466374,
+				1.299805
+			],
+			[
+				600,
+				0.484564,
+				1.299805
+			],
+			[
+				700,
+				0.496159,
+				1.299805
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11349,6 +21168,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Croissant+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59296,
+				1.415
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11364,6 +21190,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Crushed:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.386706,
+				0.775879
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11385,6 +21218,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cuprum:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.4166,
+				1.155
+			],
+			[
+				450,
+				0.420489,
+				1.155
+			],
+			[
+				500,
+				0.424378,
+				1.155
+			],
+			[
+				550,
+				0.428267,
+				1.155
+			],
+			[
+				600,
+				0.432156,
+				1.155
+			],
+			[
+				650,
+				0.436044,
+				1.155
+			],
+			[
+				700,
+				0.439933,
+				1.155
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -11405,6 +21275,13 @@ export default {
 	"Cute Font": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Cute+Font:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.340493,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11427,6 +21304,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cutive:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.673467,
+				1.09668
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11448,6 +21332,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Cutive+Mono:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.597396,
+				1.101074
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11472,6 +21363,24 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=block",
+		"metrics": [
+			[
+				300,
+				0.6,
+				1.302
+			],
+			[
+				400,
+				0.6,
+				1.302
+			],
+			[
+				500,
+				0.6,
+				1.302
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -11524,6 +21433,103 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,100..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.478487,
+				1.302
+			],
+			[
+				150,
+				0.488899,
+				1.302
+			],
+			[
+				200,
+				0.499311,
+				1.302
+			],
+			[
+				250,
+				0.509722,
+				1.302
+			],
+			[
+				300,
+				0.520132,
+				1.302
+			],
+			[
+				350,
+				0.521683,
+				1.302
+			],
+			[
+				400,
+				0.523233,
+				1.302
+			],
+			[
+				450,
+				0.52798,
+				1.302
+			],
+			[
+				500,
+				0.532727,
+				1.302
+			],
+			[
+				550,
+				0.538664,
+				1.302
+			],
+			[
+				600,
+				0.544601,
+				1.302
+			],
+			[
+				650,
+				0.549051,
+				1.302
+			],
+			[
+				700,
+				0.5535,
+				1.302
+			],
+			[
+				750,
+				0.554984,
+				1.302
+			],
+			[
+				800,
+				0.556468,
+				1.302
+			],
+			[
+				850,
+				0.559436,
+				1.302
+			],
+			[
+				900,
+				0.562404,
+				1.302
+			],
+			[
+				950,
+				0.568635,
+				1.302
+			],
+			[
+				1000,
+				0.574867,
+				1.302
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -11553,6 +21559,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.49896,
+				1.371
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11580,6 +21593,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.496187,
+				1.371
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11598,6 +21618,33 @@ export default {
 	"Dai Banna SIL": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Dai+Banna+SIL:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.437155,
+				1.134277
+			],
+			[
+				400,
+				0.445273,
+				1.134277
+			],
+			[
+				500,
+				0.451992,
+				1.134277
+			],
+			[
+				600,
+				0.458727,
+				1.134277
+			],
+			[
+				700,
+				0.469531,
+				1.134277
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11633,6 +21680,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Damion:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.432188,
+				1.374023
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11657,6 +21711,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.435207,
+				1.2
+			],
+			[
+				450,
+				0.438421,
+				1.2
+			],
+			[
+				500,
+				0.441636,
+				1.2
+			],
+			[
+				550,
+				0.444849,
+				1.2
+			],
+			[
+				600,
+				0.448063,
+				1.2
+			],
+			[
+				650,
+				0.451375,
+				1.2
+			],
+			[
+				700,
+				0.454687,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -11702,6 +21793,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Danfo:ELSH@0..100&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.571807,
+				1.3
+			]
+		],
 		"variants": [
 			{
 			}
@@ -11714,6 +21812,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Dangrek:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.465508,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11742,6 +21847,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.411153,
+				1.356
+			],
+			[
+				350,
+				0.41547,
+				1.356
+			],
+			[
+				400,
+				0.419787,
+				1.356
+			],
+			[
+				450,
+				0.424103,
+				1.356
+			],
+			[
+				500,
+				0.42842,
+				1.356
+			],
+			[
+				550,
+				0.432737,
+				1.356
+			],
+			[
+				600,
+				0.437053,
+				1.356
+			],
+			[
+				650,
+				0.44137,
+				1.356
+			],
+			[
+				700,
+				0.445687,
+				1.356
+			],
+			[
+				750,
+				0.450003,
+				1.356
+			],
+			[
+				800,
+				0.45432,
+				1.356
+			],
+			[
+				850,
+				0.458637,
+				1.356
+			],
+			[
+				900,
+				0.462953,
+				1.356
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -11764,6 +21936,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Darumadrop+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.497047,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11781,6 +21960,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Datatype:wdth,wght@50..150,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.473333,
+				1.3
+			],
+			[
+				150,
+				0.473333,
+				1.3
+			],
+			[
+				200,
+				0.473333,
+				1.3
+			],
+			[
+				250,
+				0.473333,
+				1.3
+			],
+			[
+				300,
+				0.473333,
+				1.3
+			],
+			[
+				350,
+				0.473333,
+				1.3
+			],
+			[
+				400,
+				0.473333,
+				1.3
+			],
+			[
+				450,
+				0.473333,
+				1.3
+			],
+			[
+				500,
+				0.473333,
+				1.3
+			],
+			[
+				550,
+				0.473333,
+				1.3
+			],
+			[
+				600,
+				0.473333,
+				1.3
+			],
+			[
+				650,
+				0.473333,
+				1.3
+			],
+			[
+				700,
+				0.473333,
+				1.3
+			],
+			[
+				750,
+				0.473333,
+				1.3
+			],
+			[
+				800,
+				0.473333,
+				1.3
+			],
+			[
+				850,
+				0.473333,
+				1.3
+			],
+			[
+				900,
+				0.473333,
+				1.3
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -11807,6 +22074,23 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=David+Libre:ital,wght@0,400;0,500;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.469831,
+				1
+			],
+			[
+				500,
+				0.484072,
+				1
+			],
+			[
+				700,
+				0.491999,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11821,6 +22105,13 @@ export default {
 	"Dawning of a New Day": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Dawning+of+a+New+Day:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.43237,
+				1.612305
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11836,6 +22127,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Days+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.631673,
+				1.273438
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11854,6 +22152,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Dekko:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.40816,
+				1.429
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11886,6 +22191,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Dela+Gothic+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.6906,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11904,6 +22216,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Delicious+Handrawn:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.368033,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11919,6 +22238,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Delius:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.509527,
+				1.256
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11934,6 +22260,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Delius+Swash+Caps:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.533273,
+				1.256
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11949,6 +22282,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Delius+Unicase:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.660553,
+				1.252
+			],
+			[
+				700,
+				0.66424,
+				1.283
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11965,6 +22310,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Della+Respira:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.529505,
+				1.368652
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -11986,6 +22338,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Denk+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.47641,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12006,6 +22365,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Devonshire:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.353413,
+				1.414
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12018,6 +22384,13 @@ export default {
 	"Dhurjati": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Dhurjati:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.431785,
+				1.850575
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12044,6 +22417,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Didact+Gothic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.470687,
+				1.311
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12068,6 +22448,13 @@ export default {
 			"ss03"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Diphylleia:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.513973,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12092,6 +22479,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Diplomata:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				1.080233,
+				1.217
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12116,6 +22510,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Diplomata+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				1.124613,
+				1.217
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12131,6 +22532,13 @@ export default {
 			"fwid"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Do+Hyeon:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.468353,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12146,6 +22554,13 @@ export default {
 			"fwid"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Dokdo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.469267,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12167,6 +22582,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Domine:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.5532,
+				1.14
+			],
+			[
+				450,
+				0.554852,
+				1.14
+			],
+			[
+				500,
+				0.556504,
+				1.14
+			],
+			[
+				550,
+				0.558157,
+				1.14
+			],
+			[
+				600,
+				0.559809,
+				1.14
+			],
+			[
+				650,
+				0.561461,
+				1.14
+			],
+			[
+				700,
+				0.563113,
+				1.14
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12184,6 +22636,13 @@ export default {
 			"aalt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Donegal+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.570934,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12212,6 +22671,23 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Dongle:ital,wght@0,300;0,400;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.31542,
+				1
+			],
+			[
+				400,
+				0.320027,
+				1
+			],
+			[
+				700,
+				0.329567,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12233,6 +22709,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Doppio+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.518952,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12248,6 +22731,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Dorsa:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.175027,
+				1.057
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12274,6 +22764,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.413807,
+				1.264
+			],
+			[
+				250,
+				0.417211,
+				1.264
+			],
+			[
+				300,
+				0.420616,
+				1.264
+			],
+			[
+				350,
+				0.42451,
+				1.264
+			],
+			[
+				400,
+				0.428404,
+				1.264
+			],
+			[
+				450,
+				0.432784,
+				1.264
+			],
+			[
+				500,
+				0.437163,
+				1.264
+			],
+			[
+				550,
+				0.442513,
+				1.264
+			],
+			[
+				600,
+				0.447863,
+				1.264
+			],
+			[
+				650,
+				0.453703,
+				1.264
+			],
+			[
+				700,
+				0.459544,
+				1.264
+			],
+			[
+				750,
+				0.465869,
+				1.264
+			],
+			[
+				800,
+				0.472193,
+				1.264
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12294,6 +22851,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=DotGothic16:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.493333,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12316,6 +22880,94 @@ export default {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Doto:ROND,wght@0..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.2
+			],
+			[
+				150,
+				0.6,
+				1.2
+			],
+			[
+				200,
+				0.6,
+				1.2
+			],
+			[
+				250,
+				0.6,
+				1.2
+			],
+			[
+				300,
+				0.6,
+				1.2
+			],
+			[
+				350,
+				0.6,
+				1.2
+			],
+			[
+				400,
+				0.6,
+				1.2
+			],
+			[
+				450,
+				0.6,
+				1.2
+			],
+			[
+				500,
+				0.6,
+				1.2
+			],
+			[
+				550,
+				0.6,
+				1.2
+			],
+			[
+				600,
+				0.6,
+				1.2
+			],
+			[
+				650,
+				0.6,
+				1.2
+			],
+			[
+				700,
+				0.6,
+				1.2
+			],
+			[
+				750,
+				0.6,
+				1.2
+			],
+			[
+				800,
+				0.6,
+				1.2
+			],
+			[
+				850,
+				0.6,
+				1.2
+			],
+			[
+				900,
+				0.6,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -12333,6 +22985,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Dr+Sugiyama:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.375253,
+				1.459
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12345,6 +23004,13 @@ export default {
 	"Duru Sans": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Duru+Sans:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.57984,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12374,6 +23040,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=DynaPuff:wdth,wght@75..100,400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.543327,
+				1.2
+			],
+			[
+				450,
+				0.545767,
+				1.2
+			],
+			[
+				500,
+				0.548207,
+				1.2
+			],
+			[
+				550,
+				0.550342,
+				1.2
+			],
+			[
+				600,
+				0.552476,
+				1.2
+			],
+			[
+				650,
+				0.554002,
+				1.2
+			],
+			[
+				700,
+				0.555527,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12402,6 +23105,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Dynalight:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.396126,
+				1.213379
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12445,6 +23155,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=EB+Garamond:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.464847,
+				1.305
+			],
+			[
+				450,
+				0.471518,
+				1.305
+			],
+			[
+				500,
+				0.47819,
+				1.305
+			],
+			[
+				550,
+				0.484171,
+				1.305
+			],
+			[
+				600,
+				0.490153,
+				1.305
+			],
+			[
+				650,
+				0.496366,
+				1.305
+			],
+			[
+				700,
+				0.502578,
+				1.305
+			],
+			[
+				750,
+				0.506719,
+				1.305
+			],
+			[
+				800,
+				0.51086,
+				1.305
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -12473,6 +23230,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Eagle+Lake:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.641243,
+				1.633301
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12488,6 +23252,13 @@ export default {
 			"fwid"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=East+Sea+Dokdo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.35282,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12500,6 +23271,13 @@ export default {
 	"Eater": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Eater:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.627181,
+				1.86377
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12516,6 +23294,18 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Economica:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.350867,
+				1.149
+			],
+			[
+				700,
+				0.36836,
+				1.149
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -12558,6 +23348,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Eczar:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.49584,
+				1.777
+			],
+			[
+				450,
+				0.504167,
+				1.777
+			],
+			[
+				500,
+				0.512493,
+				1.777
+			],
+			[
+				550,
+				0.52082,
+				1.777
+			],
+			[
+				600,
+				0.529147,
+				1.777
+			],
+			[
+				650,
+				0.537473,
+				1.777
+			],
+			[
+				700,
+				0.5458,
+				1.777
+			],
+			[
+				750,
+				0.554127,
+				1.777
+			],
+			[
+				800,
+				0.562453,
+				1.777
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12576,6 +23413,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52816,
+				1.7395
+			],
+			[
+				450,
+				0.538518,
+				1.7395
+			],
+			[
+				500,
+				0.548877,
+				1.7395
+			],
+			[
+				550,
+				0.556274,
+				1.7395
+			],
+			[
+				600,
+				0.563671,
+				1.7395
+			],
+			[
+				650,
+				0.56811,
+				1.7395
+			],
+			[
+				700,
+				0.57255,
+				1.7395
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12594,6 +23468,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Dots:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.513957,
+				1.7395
+			],
+			[
+				450,
+				0.524392,
+				1.7395
+			],
+			[
+				500,
+				0.534827,
+				1.7395
+			],
+			[
+				550,
+				0.542279,
+				1.7395
+			],
+			[
+				600,
+				0.549731,
+				1.7395
+			],
+			[
+				650,
+				0.554204,
+				1.7395
+			],
+			[
+				700,
+				0.558677,
+				1.7395
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12623,6 +23534,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.51691,
+				1.7395
+			],
+			[
+				450,
+				0.527194,
+				1.7395
+			],
+			[
+				500,
+				0.537477,
+				1.7395
+			],
+			[
+				550,
+				0.544821,
+				1.7395
+			],
+			[
+				600,
+				0.552165,
+				1.7395
+			],
+			[
+				650,
+				0.556572,
+				1.7395
+			],
+			[
+				700,
+				0.56098,
+				1.7395
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12652,6 +23600,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.517357,
+				1.7395
+			],
+			[
+				450,
+				0.527717,
+				1.7395
+			],
+			[
+				500,
+				0.538078,
+				1.7395
+			],
+			[
+				550,
+				0.545477,
+				1.7395
+			],
+			[
+				600,
+				0.552875,
+				1.7395
+			],
+			[
+				650,
+				0.557316,
+				1.7395
+			],
+			[
+				700,
+				0.561757,
+				1.7395
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12680,6 +23665,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.537183,
+				1.7395
+			],
+			[
+				450,
+				0.54977,
+				1.7395
+			],
+			[
+				500,
+				0.562357,
+				1.7395
+			],
+			[
+				550,
+				0.571345,
+				1.7395
+			],
+			[
+				600,
+				0.580334,
+				1.7395
+			],
+			[
+				650,
+				0.585729,
+				1.7395
+			],
+			[
+				700,
+				0.591123,
+				1.7395
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12709,6 +23731,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.546057,
+				1.784
+			],
+			[
+				450,
+				0.557062,
+				1.784
+			],
+			[
+				500,
+				0.568068,
+				1.784
+			],
+			[
+				550,
+				0.575927,
+				1.784
+			],
+			[
+				600,
+				0.583786,
+				1.784
+			],
+			[
+				650,
+				0.588503,
+				1.784
+			],
+			[
+				700,
+				0.59322,
+				1.784
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12731,6 +23790,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Foundation:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.406807,
+				1.26
+			],
+			[
+				450,
+				0.415278,
+				1.26
+			],
+			[
+				500,
+				0.423749,
+				1.26
+			],
+			[
+				550,
+				0.433914,
+				1.26
+			],
+			[
+				600,
+				0.444079,
+				1.26
+			],
+			[
+				650,
+				0.450856,
+				1.26
+			],
+			[
+				700,
+				0.457633,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12760,6 +23856,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.552917,
+				1.784
+			],
+			[
+				450,
+				0.563535,
+				1.784
+			],
+			[
+				500,
+				0.574153,
+				1.784
+			],
+			[
+				550,
+				0.581735,
+				1.784
+			],
+			[
+				600,
+				0.589318,
+				1.784
+			],
+			[
+				650,
+				0.593869,
+				1.784
+			],
+			[
+				700,
+				0.59842,
+				1.784
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12781,6 +23914,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.440853,
+				1.26
+			],
+			[
+				450,
+				0.449699,
+				1.26
+			],
+			[
+				500,
+				0.458545,
+				1.26
+			],
+			[
+				550,
+				0.469159,
+				1.26
+			],
+			[
+				600,
+				0.479773,
+				1.26
+			],
+			[
+				650,
+				0.48685,
+				1.26
+			],
+			[
+				700,
+				0.493927,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12816,6 +23986,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+QLD+Hand:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.543687,
+				1.935
+			],
+			[
+				450,
+				0.553785,
+				1.935
+			],
+			[
+				500,
+				0.563884,
+				1.935
+			],
+			[
+				550,
+				0.571095,
+				1.935
+			],
+			[
+				600,
+				0.578307,
+				1.935
+			],
+			[
+				650,
+				0.582635,
+				1.935
+			],
+			[
+				700,
+				0.586963,
+				1.935
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12834,6 +24041,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.421833,
+				1.26
+			],
+			[
+				450,
+				0.42881,
+				1.26
+			],
+			[
+				500,
+				0.435787,
+				1.26
+			],
+			[
+				550,
+				0.444158,
+				1.26
+			],
+			[
+				600,
+				0.45253,
+				1.26
+			],
+			[
+				650,
+				0.458112,
+				1.26
+			],
+			[
+				700,
+				0.463693,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12863,6 +24107,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+SA+Hand:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.552153,
+				1.7395
+			],
+			[
+				450,
+				0.560985,
+				1.7395
+			],
+			[
+				500,
+				0.569816,
+				1.7395
+			],
+			[
+				550,
+				0.576123,
+				1.7395
+			],
+			[
+				600,
+				0.582429,
+				1.7395
+			],
+			[
+				650,
+				0.586215,
+				1.7395
+			],
+			[
+				700,
+				0.59,
+				1.7395
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12881,6 +24162,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.43866,
+				1.26
+			],
+			[
+				450,
+				0.4421,
+				1.26
+			],
+			[
+				500,
+				0.44554,
+				1.26
+			],
+			[
+				550,
+				0.449668,
+				1.26
+			],
+			[
+				600,
+				0.453796,
+				1.26
+			],
+			[
+				650,
+				0.456548,
+				1.26
+			],
+			[
+				700,
+				0.4593,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12899,6 +24217,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.444273,
+				1.26
+			],
+			[
+				450,
+				0.452007,
+				1.26
+			],
+			[
+				500,
+				0.45974,
+				1.26
+			],
+			[
+				550,
+				0.46902,
+				1.26
+			],
+			[
+				600,
+				0.478299,
+				1.26
+			],
+			[
+				650,
+				0.484486,
+				1.26
+			],
+			[
+				700,
+				0.490673,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12928,6 +24283,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.5013,
+				1.7395
+			],
+			[
+				450,
+				0.511409,
+				1.7395
+			],
+			[
+				500,
+				0.521517,
+				1.7395
+			],
+			[
+				550,
+				0.528736,
+				1.7395
+			],
+			[
+				600,
+				0.535955,
+				1.7395
+			],
+			[
+				650,
+				0.540287,
+				1.7395
+			],
+			[
+				700,
+				0.54462,
+				1.7395
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12957,6 +24349,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Hand+Pre:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.521307,
+				1.7395
+			],
+			[
+				450,
+				0.533694,
+				1.7395
+			],
+			[
+				500,
+				0.54608,
+				1.7395
+			],
+			[
+				550,
+				0.554926,
+				1.7395
+			],
+			[
+				600,
+				0.563772,
+				1.7395
+			],
+			[
+				650,
+				0.569081,
+				1.7395
+			],
+			[
+				700,
+				0.57439,
+				1.7395
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12980,6 +24409,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.487553,
+				1.563
+			],
+			[
+				450,
+				0.489613,
+				1.563
+			],
+			[
+				500,
+				0.491672,
+				1.563
+			],
+			[
+				550,
+				0.494286,
+				1.563
+			],
+			[
+				600,
+				0.496899,
+				1.563
+			],
+			[
+				650,
+				0.500146,
+				1.563
+			],
+			[
+				700,
+				0.503393,
+				1.563
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -12994,6 +24460,13 @@ export default {
 	"Electrolize": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Electrolize:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.525573,
+				1.186
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13026,6 +24499,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Elms+Sans:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.50998,
+				1.3
+			],
+			[
+				150,
+				0.514518,
+				1.3
+			],
+			[
+				200,
+				0.519057,
+				1.3
+			],
+			[
+				250,
+				0.523595,
+				1.3
+			],
+			[
+				300,
+				0.528133,
+				1.3
+			],
+			[
+				350,
+				0.532672,
+				1.3
+			],
+			[
+				400,
+				0.53721,
+				1.3
+			],
+			[
+				450,
+				0.541748,
+				1.3
+			],
+			[
+				500,
+				0.546287,
+				1.3
+			],
+			[
+				550,
+				0.550521,
+				1.3
+			],
+			[
+				600,
+				0.554755,
+				1.3
+			],
+			[
+				650,
+				0.558989,
+				1.3
+			],
+			[
+				700,
+				0.563223,
+				1.3
+			],
+			[
+				750,
+				0.567457,
+				1.3
+			],
+			[
+				800,
+				0.571692,
+				1.3
+			],
+			[
+				850,
+				0.575926,
+				1.3
+			],
+			[
+				900,
+				0.58016,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -13063,6 +24623,18 @@ export default {
 			"salt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Elsie:ital,wght@0,400;0,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.500367,
+				1.152
+			],
+			[
+				900,
+				0.549087,
+				1.152
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13079,6 +24651,18 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Elsie+Swash+Caps:ital,wght@0,400;0,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.4985,
+				1.152
+			],
+			[
+				900,
+				0.54392,
+				1.152
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13092,6 +24676,13 @@ export default {
 	"Emblema One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Emblema+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.647656,
+				1.193359
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13104,6 +24695,13 @@ export default {
 	"Emilys Candy": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Emilys+Candy:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.501947,
+				1.251953
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13136,6 +24734,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Encode+Sans:wdth,wght@75..125,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.478947,
+				1.25
+			],
+			[
+				150,
+				0.4819,
+				1.25
+			],
+			[
+				200,
+				0.484854,
+				1.25
+			],
+			[
+				250,
+				0.488792,
+				1.25
+			],
+			[
+				300,
+				0.492731,
+				1.25
+			],
+			[
+				350,
+				0.498391,
+				1.25
+			],
+			[
+				400,
+				0.504052,
+				1.25
+			],
+			[
+				450,
+				0.510697,
+				1.25
+			],
+			[
+				500,
+				0.517342,
+				1.25
+			],
+			[
+				550,
+				0.524728,
+				1.25
+			],
+			[
+				600,
+				0.532114,
+				1.25
+			],
+			[
+				650,
+				0.539743,
+				1.25
+			],
+			[
+				700,
+				0.547373,
+				1.25
+			],
+			[
+				750,
+				0.55525,
+				1.25
+			],
+			[
+				800,
+				0.563126,
+				1.25
+			],
+			[
+				850,
+				0.569772,
+				1.25
+			],
+			[
+				900,
+				0.576417,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -13175,6 +24860,53 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Encode+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.41418,
+				1.25
+			],
+			[
+				200,
+				0.41929,
+				1.25
+			],
+			[
+				300,
+				0.42644,
+				1.25
+			],
+			[
+				400,
+				0.435583,
+				1.25
+			],
+			[
+				500,
+				0.446293,
+				1.25
+			],
+			[
+				600,
+				0.45855,
+				1.25
+			],
+			[
+				700,
+				0.471287,
+				1.25
+			],
+			[
+				800,
+				0.48401,
+				1.25
+			],
+			[
+				900,
+				0.495293,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13214,6 +24946,53 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Encode+Sans+Expanded:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.541403,
+				1.25
+			],
+			[
+				200,
+				0.54773,
+				1.25
+			],
+			[
+				300,
+				0.557447,
+				1.25
+			],
+			[
+				400,
+				0.57004,
+				1.25
+			],
+			[
+				500,
+				0.58547,
+				1.25
+			],
+			[
+				600,
+				0.602667,
+				1.25
+			],
+			[
+				700,
+				0.62091,
+				1.25
+			],
+			[
+				800,
+				0.638687,
+				1.25
+			],
+			[
+				900,
+				0.654643,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13241,6 +25020,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wdth,wght@75..125,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.511247,
+				1.25
+			],
+			[
+				150,
+				0.514201,
+				1.25
+			],
+			[
+				200,
+				0.517155,
+				1.25
+			],
+			[
+				250,
+				0.521094,
+				1.25
+			],
+			[
+				300,
+				0.525034,
+				1.25
+			],
+			[
+				350,
+				0.530695,
+				1.25
+			],
+			[
+				400,
+				0.536357,
+				1.25
+			],
+			[
+				450,
+				0.543004,
+				1.25
+			],
+			[
+				500,
+				0.54965,
+				1.25
+			],
+			[
+				550,
+				0.557037,
+				1.25
+			],
+			[
+				600,
+				0.564425,
+				1.25
+			],
+			[
+				650,
+				0.572056,
+				1.25
+			],
+			[
+				700,
+				0.579687,
+				1.25
+			],
+			[
+				750,
+				0.587565,
+				1.25
+			],
+			[
+				800,
+				0.595444,
+				1.25
+			],
+			[
+				850,
+				0.60209,
+				1.25
+			],
+			[
+				900,
+				0.608737,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -13280,6 +25146,53 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.44614,
+				1.25
+			],
+			[
+				200,
+				0.451353,
+				1.25
+			],
+			[
+				300,
+				0.45954,
+				1.25
+			],
+			[
+				400,
+				0.469807,
+				1.25
+			],
+			[
+				500,
+				0.48173,
+				1.25
+			],
+			[
+				600,
+				0.494487,
+				1.25
+			],
+			[
+				700,
+				0.508243,
+				1.25
+			],
+			[
+				800,
+				0.522823,
+				1.25
+			],
+			[
+				900,
+				0.535233,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13319,6 +25232,53 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Encode+Sans+Semi+Expanded:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.509747,
+				1.25
+			],
+			[
+				200,
+				0.51554,
+				1.25
+			],
+			[
+				300,
+				0.524227,
+				1.25
+			],
+			[
+				400,
+				0.535827,
+				1.25
+			],
+			[
+				500,
+				0.550767,
+				1.25
+			],
+			[
+				600,
+				0.56674,
+				1.25
+			],
+			[
+				700,
+				0.584433,
+				1.25
+			],
+			[
+				800,
+				0.59983,
+				1.25
+			],
+			[
+				900,
+				0.61473,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13347,6 +25307,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Engagement:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.36373,
+				1.233887
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13367,6 +25334,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Englebert:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.402428,
+				1.299805
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13390,6 +25364,28 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Enriqueta:ital,wght@0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.50524,
+				1.338
+			],
+			[
+				500,
+				0.507847,
+				1.338
+			],
+			[
+				600,
+				0.51058,
+				1.338
+			],
+			[
+				700,
+				0.513373,
+				1.338
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13414,6 +25410,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ephesis:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.47022,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13448,6 +25451,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.501457,
+				1.025
+			],
+			[
+				150,
+				0.50563,
+				1.025
+			],
+			[
+				200,
+				0.509803,
+				1.025
+			],
+			[
+				250,
+				0.513977,
+				1.025
+			],
+			[
+				300,
+				0.51815,
+				1.025
+			],
+			[
+				350,
+				0.522323,
+				1.025
+			],
+			[
+				400,
+				0.526497,
+				1.025
+			],
+			[
+				450,
+				0.531779,
+				1.025
+			],
+			[
+				500,
+				0.537061,
+				1.025
+			],
+			[
+				550,
+				0.542344,
+				1.025
+			],
+			[
+				600,
+				0.547626,
+				1.025
+			],
+			[
+				650,
+				0.552908,
+				1.025
+			],
+			[
+				700,
+				0.558191,
+				1.025
+			],
+			[
+				750,
+				0.563473,
+				1.025
+			],
+			[
+				800,
+				0.568755,
+				1.025
+			],
+			[
+				850,
+				0.574038,
+				1.025
+			],
+			[
+				900,
+				0.57932,
+				1.025
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -13487,6 +25577,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Epunda+Sans:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.44834,
+				1.301
+			],
+			[
+				350,
+				0.45112,
+				1.301
+			],
+			[
+				400,
+				0.4539,
+				1.301
+			],
+			[
+				450,
+				0.45668,
+				1.301
+			],
+			[
+				500,
+				0.45946,
+				1.301
+			],
+			[
+				550,
+				0.46224,
+				1.301
+			],
+			[
+				600,
+				0.46502,
+				1.301
+			],
+			[
+				650,
+				0.4678,
+				1.301
+			],
+			[
+				700,
+				0.47058,
+				1.301
+			],
+			[
+				750,
+				0.47336,
+				1.301
+			],
+			[
+				800,
+				0.47614,
+				1.301
+			],
+			[
+				850,
+				0.47892,
+				1.301
+			],
+			[
+				900,
+				0.4817,
+				1.301
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -13529,6 +25686,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Epunda+Slab:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.457307,
+				1.301
+			],
+			[
+				350,
+				0.461921,
+				1.301
+			],
+			[
+				400,
+				0.466536,
+				1.301
+			],
+			[
+				450,
+				0.47115,
+				1.301
+			],
+			[
+				500,
+				0.475764,
+				1.301
+			],
+			[
+				550,
+				0.480379,
+				1.301
+			],
+			[
+				600,
+				0.484993,
+				1.301
+			],
+			[
+				650,
+				0.489608,
+				1.301
+			],
+			[
+				700,
+				0.494222,
+				1.301
+			],
+			[
+				750,
+				0.498837,
+				1.301
+			],
+			[
+				800,
+				0.503451,
+				1.301
+			],
+			[
+				850,
+				0.508066,
+				1.301
+			],
+			[
+				900,
+				0.51268,
+				1.301
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -13552,6 +25776,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Erica+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.610767,
+				1.492
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13567,6 +25798,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Esteban:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.50382,
+				1.274
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13600,6 +25838,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Estedad:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.476487,
+				1.525
+			],
+			[
+				150,
+				0.481053,
+				1.525
+			],
+			[
+				200,
+				0.48562,
+				1.525
+			],
+			[
+				250,
+				0.490187,
+				1.525
+			],
+			[
+				300,
+				0.494753,
+				1.525
+			],
+			[
+				350,
+				0.49932,
+				1.525
+			],
+			[
+				400,
+				0.503887,
+				1.525
+			],
+			[
+				450,
+				0.506089,
+				1.525
+			],
+			[
+				500,
+				0.508292,
+				1.525
+			],
+			[
+				550,
+				0.510495,
+				1.525
+			],
+			[
+				600,
+				0.512697,
+				1.525
+			],
+			[
+				650,
+				0.5149,
+				1.525
+			],
+			[
+				700,
+				0.517103,
+				1.525
+			],
+			[
+				750,
+				0.519305,
+				1.525
+			],
+			[
+				800,
+				0.521508,
+				1.525
+			],
+			[
+				850,
+				0.523711,
+				1.525
+			],
+			[
+				900,
+				0.525913,
+				1.525
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -13636,6 +25961,13 @@ export default {
 			"titl"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Estonia:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.301,
+				1.24
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13648,6 +25980,13 @@ export default {
 	"Euphoria Script": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Euphoria+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.384539,
+				1.164
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13660,6 +25999,13 @@ export default {
 	"Ewert": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Ewert:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.683153,
+				1.243
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13678,6 +26024,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Exile:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.634893,
+				1.35
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13706,6 +26059,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Exo:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.518447,
+				1.329
+			],
+			[
+				150,
+				0.519436,
+				1.329
+			],
+			[
+				200,
+				0.520425,
+				1.329
+			],
+			[
+				250,
+				0.521415,
+				1.329
+			],
+			[
+				300,
+				0.522404,
+				1.329
+			],
+			[
+				350,
+				0.523641,
+				1.329
+			],
+			[
+				400,
+				0.524878,
+				1.329
+			],
+			[
+				450,
+				0.526114,
+				1.329
+			],
+			[
+				500,
+				0.527351,
+				1.329
+			],
+			[
+				550,
+				0.528711,
+				1.329
+			],
+			[
+				600,
+				0.530072,
+				1.329
+			],
+			[
+				650,
+				0.531494,
+				1.329
+			],
+			[
+				700,
+				0.532916,
+				1.329
+			],
+			[
+				750,
+				0.534338,
+				1.329
+			],
+			[
+				800,
+				0.53576,
+				1.329
+			],
+			[
+				850,
+				0.536997,
+				1.329
+			],
+			[
+				900,
+				0.538233,
+				1.329
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -13761,6 +26201,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Exo+2:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.49492,
+				1.2
+			],
+			[
+				150,
+				0.496489,
+				1.2
+			],
+			[
+				200,
+				0.498058,
+				1.2
+			],
+			[
+				250,
+				0.500411,
+				1.2
+			],
+			[
+				300,
+				0.502765,
+				1.2
+			],
+			[
+				350,
+				0.504922,
+				1.2
+			],
+			[
+				400,
+				0.50708,
+				1.2
+			],
+			[
+				450,
+				0.509015,
+				1.2
+			],
+			[
+				500,
+				0.510949,
+				1.2
+			],
+			[
+				550,
+				0.514979,
+				1.2
+			],
+			[
+				600,
+				0.51901,
+				1.2
+			],
+			[
+				650,
+				0.523364,
+				1.2
+			],
+			[
+				700,
+				0.527718,
+				1.2
+			],
+			[
+				750,
+				0.533361,
+				1.2
+			],
+			[
+				800,
+				0.539003,
+				1.2
+			],
+			[
+				850,
+				0.543678,
+				1.2
+			],
+			[
+				900,
+				0.548353,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -13790,6 +26317,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Expletus+Sans:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52496,
+				1.339
+			],
+			[
+				450,
+				0.527732,
+				1.339
+			],
+			[
+				500,
+				0.530504,
+				1.339
+			],
+			[
+				550,
+				0.533968,
+				1.339
+			],
+			[
+				600,
+				0.537433,
+				1.339
+			],
+			[
+				650,
+				0.54136,
+				1.339
+			],
+			[
+				700,
+				0.545287,
+				1.339
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -13829,6 +26393,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Explora:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.308607,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13850,6 +26421,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Faculty+Glyphic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.550053,
+				1.299
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13871,6 +26449,38 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fahkwang:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=block",
+		"metrics": [
+			[
+				200,
+				0.55752,
+				1.3
+			],
+			[
+				300,
+				0.5726,
+				1.3
+			],
+			[
+				400,
+				0.587073,
+				1.3
+			],
+			[
+				500,
+				0.601727,
+				1.3
+			],
+			[
+				600,
+				0.616487,
+				1.3
+			],
+			[
+				700,
+				0.63114,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13919,6 +26529,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Familjen+Grotesk:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.483278,
+				1.25
+			],
+			[
+				450,
+				0.488318,
+				1.25
+			],
+			[
+				500,
+				0.493289,
+				1.25
+			],
+			[
+				550,
+				0.495792,
+				1.25
+			],
+			[
+				600,
+				0.498294,
+				1.25
+			],
+			[
+				650,
+				0.500797,
+				1.25
+			],
+			[
+				700,
+				0.5033,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -13968,6 +26615,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fanwood+Text:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.467702,
+				1.311035
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -13999,6 +26653,28 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Farro:ital,wght@0,300;0,400;0,500;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.54238,
+				1
+			],
+			[
+				400,
+				0.533573,
+				1
+			],
+			[
+				500,
+				0.524333,
+				1
+			],
+			[
+				700,
+				0.515873,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14023,6 +26699,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Farsan:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.360833,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14044,6 +26727,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fascinate:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.569251,
+				1.326172
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14065,6 +26755,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fascinate+Inline:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.569251,
+				1.326172
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14087,6 +26784,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Faster+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.669133,
+				1.063
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14102,6 +26806,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fasthand:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.419746,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14126,6 +26837,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fauna+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.562587,
+				1.23
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14157,6 +26875,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Faustina:wght@300..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.468807,
+				1.26
+			],
+			[
+				350,
+				0.47193,
+				1.26
+			],
+			[
+				400,
+				0.475054,
+				1.26
+			],
+			[
+				450,
+				0.478659,
+				1.26
+			],
+			[
+				500,
+				0.482264,
+				1.26
+			],
+			[
+				550,
+				0.486351,
+				1.26
+			],
+			[
+				600,
+				0.490438,
+				1.26
+			],
+			[
+				650,
+				0.494763,
+				1.26
+			],
+			[
+				700,
+				0.499088,
+				1.26
+			],
+			[
+				750,
+				0.503174,
+				1.26
+			],
+			[
+				800,
+				0.50726,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -14180,6 +26955,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Federant:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.509493,
+				1.226
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14195,6 +26977,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Federo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.475752,
+				1.178223
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14207,6 +26996,13 @@ export default {
 	"Felipa": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Felipa:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.434627,
+				1.285
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14223,6 +27019,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fenix:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.474487,
+				1.117
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14258,6 +27061,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Festive:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.44204,
+				1.69
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14287,6 +27097,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Figtree:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.511413,
+				1.2
+			],
+			[
+				350,
+				0.514441,
+				1.2
+			],
+			[
+				400,
+				0.51747,
+				1.2
+			],
+			[
+				450,
+				0.519651,
+				1.2
+			],
+			[
+				500,
+				0.521831,
+				1.2
+			],
+			[
+				550,
+				0.524435,
+				1.2
+			],
+			[
+				600,
+				0.527038,
+				1.2
+			],
+			[
+				650,
+				0.530126,
+				1.2
+			],
+			[
+				700,
+				0.533214,
+				1.2
+			],
+			[
+				750,
+				0.53693,
+				1.2
+			],
+			[
+				800,
+				0.540645,
+				1.2
+			],
+			[
+				850,
+				0.544359,
+				1.2
+			],
+			[
+				900,
+				0.548073,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -14310,6 +27187,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Finger+Paint:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.582887,
+				1.474
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14342,6 +27226,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Finlandica+Headline:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.4281,
+				1.2
+			],
+			[
+				150,
+				0.434846,
+				1.2
+			],
+			[
+				200,
+				0.441593,
+				1.2
+			],
+			[
+				250,
+				0.448339,
+				1.2
+			],
+			[
+				300,
+				0.455085,
+				1.2
+			],
+			[
+				350,
+				0.458762,
+				1.2
+			],
+			[
+				400,
+				0.46244,
+				1.2
+			],
+			[
+				450,
+				0.4698,
+				1.2
+			],
+			[
+				500,
+				0.47716,
+				1.2
+			],
+			[
+				550,
+				0.482488,
+				1.2
+			],
+			[
+				600,
+				0.487817,
+				1.2
+			],
+			[
+				650,
+				0.491014,
+				1.2
+			],
+			[
+				700,
+				0.494212,
+				1.2
+			],
+			[
+				750,
+				0.49954,
+				1.2
+			],
+			[
+				800,
+				0.504868,
+				1.2
+			],
+			[
+				850,
+				0.512328,
+				1.2
+			],
+			[
+				900,
+				0.519787,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -14382,6 +27353,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Finlandica+Text:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.523573,
+				1.2
+			],
+			[
+				150,
+				0.526227,
+				1.2
+			],
+			[
+				200,
+				0.52888,
+				1.2
+			],
+			[
+				250,
+				0.532528,
+				1.2
+			],
+			[
+				300,
+				0.536176,
+				1.2
+			],
+			[
+				350,
+				0.539825,
+				1.2
+			],
+			[
+				400,
+				0.543473,
+				1.2
+			],
+			[
+				450,
+				0.54679,
+				1.2
+			],
+			[
+				500,
+				0.550107,
+				1.2
+			],
+			[
+				550,
+				0.554769,
+				1.2
+			],
+			[
+				600,
+				0.559431,
+				1.2
+			],
+			[
+				650,
+				0.566423,
+				1.2
+			],
+			[
+				700,
+				0.573414,
+				1.2
+			],
+			[
+				750,
+				0.582737,
+				1.2
+			],
+			[
+				800,
+				0.592059,
+				1.2
+			],
+			[
+				850,
+				0.60216,
+				1.2
+			],
+			[
+				900,
+				0.61226,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -14428,6 +27486,54 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.6,
+				1.312
+			],
+			[
+				350,
+				0.6,
+				1.312
+			],
+			[
+				400,
+				0.6,
+				1.312
+			],
+			[
+				450,
+				0.6,
+				1.312
+			],
+			[
+				500,
+				0.6,
+				1.312
+			],
+			[
+				550,
+				0.6,
+				1.312
+			],
+			[
+				600,
+				0.6,
+				1.312
+			],
+			[
+				650,
+				0.6,
+				1.312
+			],
+			[
+				700,
+				0.6,
+				1.312
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -14457,6 +27563,24 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fira+Mono:ital,wght@0,400;0,500;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.6,
+				1.2
+			],
+			[
+				500,
+				0.6,
+				1.2
+			],
+			[
+				700,
+				0.6,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -14542,6 +27666,53 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.475307,
+				1.2
+			],
+			[
+				200,
+				0.480947,
+				1.2
+			],
+			[
+				300,
+				0.484273,
+				1.2
+			],
+			[
+				400,
+				0.4938,
+				1.2
+			],
+			[
+				500,
+				0.4982,
+				1.2
+			],
+			[
+				600,
+				0.499767,
+				1.2
+			],
+			[
+				700,
+				0.5017,
+				1.2
+			],
+			[
+				800,
+				0.504107,
+				1.2
+			],
+			[
+				900,
+				0.506513,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14647,6 +27818,53 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.428527,
+				1.2
+			],
+			[
+				200,
+				0.43418,
+				1.2
+			],
+			[
+				300,
+				0.43724,
+				1.2
+			],
+			[
+				400,
+				0.445593,
+				1.2
+			],
+			[
+				500,
+				0.452313,
+				1.2
+			],
+			[
+				600,
+				0.454373,
+				1.2
+			],
+			[
+				700,
+				0.45676,
+				1.2
+			],
+			[
+				800,
+				0.459867,
+				1.2
+			],
+			[
+				900,
+				0.462613,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14752,6 +27970,53 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.39102,
+				1.2
+			],
+			[
+				200,
+				0.396987,
+				1.2
+			],
+			[
+				300,
+				0.400093,
+				1.2
+			],
+			[
+				400,
+				0.409573,
+				1.2
+			],
+			[
+				500,
+				0.415667,
+				1.2
+			],
+			[
+				600,
+				0.418093,
+				1.2
+			],
+			[
+				700,
+				0.42058,
+				1.2
+			],
+			[
+				800,
+				0.423993,
+				1.2
+			],
+			[
+				900,
+				0.427527,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14801,6 +28066,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fjalla+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.424938,
+				1.256836
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14816,6 +28088,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fjord+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.514424,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14831,6 +28110,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Flamenco:ital,wght@0,300;0,400&display=block",
+		"metrics": [
+			[
+				300,
+				0.44274,
+				1.031
+			],
+			[
+				400,
+				0.450513,
+				1.031
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14844,6 +28135,13 @@ export default {
 	"Flavors": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Flavors:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.451582,
+				1.277344
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14865,6 +28163,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fleur+De+Leah:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.449713,
+				1.37
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14885,6 +28190,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Flow+Block:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.517787,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14905,6 +28217,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Flow+Circular:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.510853,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14925,6 +28244,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Flow+Rounded:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.517787,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14949,6 +28275,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Foldit:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.213993,
+				1.2
+			],
+			[
+				150,
+				0.22767,
+				1.2
+			],
+			[
+				200,
+				0.241348,
+				1.2
+			],
+			[
+				250,
+				0.267446,
+				1.2
+			],
+			[
+				300,
+				0.293544,
+				1.2
+			],
+			[
+				350,
+				0.333302,
+				1.2
+			],
+			[
+				400,
+				0.373059,
+				1.2
+			],
+			[
+				450,
+				0.412835,
+				1.2
+			],
+			[
+				500,
+				0.45261,
+				1.2
+			],
+			[
+				550,
+				0.470003,
+				1.2
+			],
+			[
+				600,
+				0.487396,
+				1.2
+			],
+			[
+				650,
+				0.527153,
+				1.2
+			],
+			[
+				700,
+				0.566911,
+				1.2
+			],
+			[
+				750,
+				0.626574,
+				1.2
+			],
+			[
+				800,
+				0.686237,
+				1.2
+			],
+			[
+				850,
+				0.735938,
+				1.2
+			],
+			[
+				900,
+				0.78564,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -14971,6 +28384,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fondamento:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.515921,
+				1.383789
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -14992,6 +28412,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fontdiner+Swanky:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.616335,
+				1.142578
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15007,6 +28434,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Forum:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.450307,
+				1.104
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15034,6 +28468,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fragment+Mono:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.618,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15061,6 +28502,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Francois+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.46386,
+				1.418
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15093,6 +28541,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.486733,
+				1.291
+			],
+			[
+				350,
+				0.492023,
+				1.291
+			],
+			[
+				400,
+				0.497313,
+				1.291
+			],
+			[
+				450,
+				0.506003,
+				1.291
+			],
+			[
+				500,
+				0.514692,
+				1.291
+			],
+			[
+				550,
+				0.517448,
+				1.291
+			],
+			[
+				600,
+				0.520203,
+				1.291
+			],
+			[
+				650,
+				0.522615,
+				1.291
+			],
+			[
+				700,
+				0.525026,
+				1.291
+			],
+			[
+				750,
+				0.526748,
+				1.291
+			],
+			[
+				800,
+				0.52847,
+				1.291
+			],
+			[
+				850,
+				0.530191,
+				1.291
+			],
+			[
+				900,
+				0.531913,
+				1.291
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -15137,6 +28652,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fraunces:opsz,SOFT,wght,WONK@9..144,0..100,100..900,0..1&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.510337,
+				1.233
+			],
+			[
+				150,
+				0.514832,
+				1.233
+			],
+			[
+				200,
+				0.519328,
+				1.233
+			],
+			[
+				250,
+				0.523823,
+				1.233
+			],
+			[
+				300,
+				0.528318,
+				1.233
+			],
+			[
+				350,
+				0.537309,
+				1.233
+			],
+			[
+				400,
+				0.5463,
+				1.233
+			],
+			[
+				450,
+				0.550794,
+				1.233
+			],
+			[
+				500,
+				0.555288,
+				1.233
+			],
+			[
+				550,
+				0.559782,
+				1.233
+			],
+			[
+				600,
+				0.564276,
+				1.233
+			],
+			[
+				650,
+				0.573267,
+				1.233
+			],
+			[
+				700,
+				0.582258,
+				1.233
+			],
+			[
+				750,
+				0.586754,
+				1.233
+			],
+			[
+				800,
+				0.591249,
+				1.233
+			],
+			[
+				850,
+				0.595745,
+				1.233
+			],
+			[
+				900,
+				0.60024,
+				1.233
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -15165,6 +28767,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Freckle+Face:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.468643,
+				1.229004
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15177,6 +28786,13 @@ export default {
 	"Fredericka the Great": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Fredericka+the+Great:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.530163,
+				1.225586
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15196,6 +28812,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fredoka:wdth,wght@75..125,300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.509833,
+				1.21
+			],
+			[
+				350,
+				0.509381,
+				1.21
+			],
+			[
+				400,
+				0.508928,
+				1.21
+			],
+			[
+				450,
+				0.508476,
+				1.21
+			],
+			[
+				500,
+				0.508023,
+				1.21
+			],
+			[
+				550,
+				0.507571,
+				1.21
+			],
+			[
+				600,
+				0.507118,
+				1.21
+			],
+			[
+				650,
+				0.506666,
+				1.21
+			],
+			[
+				700,
+				0.506213,
+				1.21
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -15219,6 +28882,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Freehand:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.419746,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15252,6 +28922,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Freeman:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.447427,
+				1.33
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15264,6 +28941,13 @@ export default {
 	"Fresca": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Fresca:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.442587,
+				1.154
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15276,6 +28960,13 @@ export default {
 	"Frijole": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Frijole:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.773926,
+				1.056641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15301,6 +28992,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fruktur:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.499915,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15322,6 +29020,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fugaz+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.557827,
+				1.468
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15360,6 +29065,13 @@ export default {
 			"titl"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fuggles:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.327407,
+				1.201
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15384,6 +29096,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Funnel+Display:wght@300..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.531644,
+				1.25
+			],
+			[
+				350,
+				0.533702,
+				1.25
+			],
+			[
+				400,
+				0.53576,
+				1.25
+			],
+			[
+				450,
+				0.538503,
+				1.25
+			],
+			[
+				500,
+				0.541247,
+				1.25
+			],
+			[
+				550,
+				0.542733,
+				1.25
+			],
+			[
+				600,
+				0.54422,
+				1.25
+			],
+			[
+				650,
+				0.546163,
+				1.25
+			],
+			[
+				700,
+				0.548107,
+				1.25
+			],
+			[
+				750,
+				0.550164,
+				1.25
+			],
+			[
+				800,
+				0.552222,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -15410,6 +29179,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Funnel+Sans:wght@300..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.5042,
+				1.25
+			],
+			[
+				350,
+				0.505871,
+				1.25
+			],
+			[
+				400,
+				0.507542,
+				1.25
+			],
+			[
+				450,
+				0.50977,
+				1.25
+			],
+			[
+				500,
+				0.511998,
+				1.25
+			],
+			[
+				550,
+				0.513205,
+				1.25
+			],
+			[
+				600,
+				0.514412,
+				1.25
+			],
+			[
+				650,
+				0.515991,
+				1.25
+			],
+			[
+				700,
+				0.517569,
+				1.25
+			],
+			[
+				750,
+				0.51924,
+				1.25
+			],
+			[
+				800,
+				0.520911,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -15453,6 +29279,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fustat:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.499433,
+				1.42
+			],
+			[
+				250,
+				0.502274,
+				1.42
+			],
+			[
+				300,
+				0.505115,
+				1.42
+			],
+			[
+				350,
+				0.507387,
+				1.42
+			],
+			[
+				400,
+				0.50966,
+				1.42
+			],
+			[
+				450,
+				0.512021,
+				1.42
+			],
+			[
+				500,
+				0.514383,
+				1.42
+			],
+			[
+				550,
+				0.517924,
+				1.42
+			],
+			[
+				600,
+				0.521466,
+				1.42
+			],
+			[
+				650,
+				0.525008,
+				1.42
+			],
+			[
+				700,
+				0.528549,
+				1.42
+			],
+			[
+				750,
+				0.533271,
+				1.42
+			],
+			[
+				800,
+				0.537993,
+				1.42
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -15475,6 +29368,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Fuzzy+Bubbles:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.573393,
+				1.25
+			],
+			[
+				700,
+				0.573373,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15503,6 +29408,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=GFS+Didot:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.531673,
+				1.024
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15558,6 +29470,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=GFS+Neohellenic:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.458867,
+				0.869
+			],
+			[
+				700,
+				0.4737,
+				0.894
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15592,6 +29516,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ga+Maamli:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.45072,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15623,6 +29554,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.495667,
+				1.2
+			],
+			[
+				450,
+				0.497268,
+				1.2
+			],
+			[
+				500,
+				0.498869,
+				1.2
+			],
+			[
+				550,
+				0.50037,
+				1.2
+			],
+			[
+				600,
+				0.501871,
+				1.2
+			],
+			[
+				650,
+				0.503373,
+				1.2
+			],
+			[
+				700,
+				0.504874,
+				1.2
+			],
+			[
+				750,
+				0.506476,
+				1.2
+			],
+			[
+				800,
+				0.508077,
+				1.2
+			],
+			[
+				850,
+				0.509979,
+				1.2
+			],
+			[
+				900,
+				0.51188,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -15650,6 +29638,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gabriela:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.544473,
+				1.281
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15679,6 +29674,23 @@ export default {
 			}
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gaegu:ital,wght@0,300;0,400;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.469713,
+				1.25
+			],
+			[
+				400,
+				0.471313,
+				1.25
+			],
+			[
+				700,
+				0.47398,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15699,6 +29711,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gafata:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.456513,
+				1.123
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15720,6 +29739,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gajraj+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.623493,
+				1.465
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15736,6 +29762,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Galada:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.457753,
+				1.627
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15751,6 +29784,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Galdeano:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.452313,
+				1.05
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15771,6 +29811,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Galindo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.586185,
+				1.414551
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15786,6 +29833,13 @@ export default {
 			"fwid"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gamja+Flower:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.406849,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15807,6 +29861,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gantari:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.517227,
+				1.2
+			],
+			[
+				150,
+				0.517652,
+				1.2
+			],
+			[
+				200,
+				0.518077,
+				1.2
+			],
+			[
+				250,
+				0.518502,
+				1.2
+			],
+			[
+				300,
+				0.518927,
+				1.2
+			],
+			[
+				350,
+				0.51995,
+				1.2
+			],
+			[
+				400,
+				0.520973,
+				1.2
+			],
+			[
+				450,
+				0.521465,
+				1.2
+			],
+			[
+				500,
+				0.521957,
+				1.2
+			],
+			[
+				550,
+				0.522571,
+				1.2
+			],
+			[
+				600,
+				0.523349,
+				1.2
+			],
+			[
+				650,
+				0.524128,
+				1.2
+			],
+			[
+				700,
+				0.524969,
+				1.2
+			],
+			[
+				750,
+				0.525944,
+				1.2
+			],
+			[
+				800,
+				0.526832,
+				1.2
+			],
+			[
+				850,
+				0.527436,
+				1.2
+			],
+			[
+				900,
+				0.52804,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -15840,6 +29981,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gasoek+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.622767,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15857,6 +30005,23 @@ export default {
 			"salt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gayathri:ital,wght@0,100;0,400;0,700&display=block",
+		"metrics": [
+			[
+				100,
+				0.482878,
+				1.220703
+			],
+			[
+				400,
+				0.499945,
+				1.220703
+			],
+			[
+				700,
+				0.517025,
+				1.220703
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -15899,6 +30064,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.495667,
+				1.3
+			],
+			[
+				150,
+				0.499553,
+				1.3
+			],
+			[
+				200,
+				0.50344,
+				1.3
+			],
+			[
+				250,
+				0.507327,
+				1.3
+			],
+			[
+				300,
+				0.511213,
+				1.3
+			],
+			[
+				350,
+				0.5151,
+				1.3
+			],
+			[
+				400,
+				0.518987,
+				1.3
+			],
+			[
+				450,
+				0.524881,
+				1.3
+			],
+			[
+				500,
+				0.530775,
+				1.3
+			],
+			[
+				550,
+				0.536669,
+				1.3
+			],
+			[
+				600,
+				0.542563,
+				1.3
+			],
+			[
+				650,
+				0.548457,
+				1.3
+			],
+			[
+				700,
+				0.554351,
+				1.3
+			],
+			[
+				750,
+				0.560245,
+				1.3
+			],
+			[
+				800,
+				0.566139,
+				1.3
+			],
+			[
+				850,
+				0.572033,
+				1.3
+			],
+			[
+				900,
+				0.577927,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -15971,6 +30223,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.3
+			],
+			[
+				150,
+				0.6,
+				1.3
+			],
+			[
+				200,
+				0.6,
+				1.3
+			],
+			[
+				250,
+				0.6,
+				1.3
+			],
+			[
+				300,
+				0.6,
+				1.3
+			],
+			[
+				350,
+				0.6,
+				1.3
+			],
+			[
+				400,
+				0.6,
+				1.3
+			],
+			[
+				450,
+				0.6,
+				1.3
+			],
+			[
+				500,
+				0.6,
+				1.3
+			],
+			[
+				550,
+				0.6,
+				1.3
+			],
+			[
+				600,
+				0.6,
+				1.3
+			],
+			[
+				650,
+				0.6,
+				1.3
+			],
+			[
+				700,
+				0.6,
+				1.3
+			],
+			[
+				750,
+				0.6,
+				1.3
+			],
+			[
+				800,
+				0.6,
+				1.3
+			],
+			[
+				850,
+				0.6,
+				1.3
+			],
+			[
+				900,
+				0.6,
+				1.3
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -16019,6 +30359,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Geist+Pixel:ELSH@0..100&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.5396,
+				1.3
+			]
+		],
 		"variants": [
 			{
 			}
@@ -16045,6 +30392,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gelasio:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.518646,
+				1.269531
+			],
+			[
+				450,
+				0.525849,
+				1.269531
+			],
+			[
+				500,
+				0.533054,
+				1.269531
+			],
+			[
+				550,
+				0.55256,
+				1.269531
+			],
+			[
+				600,
+				0.572066,
+				1.269531
+			],
+			[
+				650,
+				0.583773,
+				1.269531
+			],
+			[
+				700,
+				0.595479,
+				1.269531
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -16072,6 +30456,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gemunu+Libre:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.393667,
+				1.084
+			],
+			[
+				250,
+				0.398327,
+				1.084
+			],
+			[
+				300,
+				0.402987,
+				1.084
+			],
+			[
+				350,
+				0.406483,
+				1.084
+			],
+			[
+				400,
+				0.409978,
+				1.084
+			],
+			[
+				450,
+				0.411609,
+				1.084
+			],
+			[
+				500,
+				0.413241,
+				1.084
+			],
+			[
+				550,
+				0.41627,
+				1.084
+			],
+			[
+				600,
+				0.419299,
+				1.084
+			],
+			[
+				650,
+				0.422796,
+				1.084
+			],
+			[
+				700,
+				0.426294,
+				1.084
+			],
+			[
+				750,
+				0.433283,
+				1.084
+			],
+			[
+				800,
+				0.440273,
+				1.084
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -16107,6 +30558,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Genos:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.40124,
+				1.2
+			],
+			[
+				150,
+				0.405049,
+				1.2
+			],
+			[
+				200,
+				0.408857,
+				1.2
+			],
+			[
+				250,
+				0.414949,
+				1.2
+			],
+			[
+				300,
+				0.42104,
+				1.2
+			],
+			[
+				350,
+				0.429418,
+				1.2
+			],
+			[
+				400,
+				0.437796,
+				1.2
+			],
+			[
+				450,
+				0.446935,
+				1.2
+			],
+			[
+				500,
+				0.456074,
+				1.2
+			],
+			[
+				550,
+				0.46674,
+				1.2
+			],
+			[
+				600,
+				0.477405,
+				1.2
+			],
+			[
+				650,
+				0.488066,
+				1.2
+			],
+			[
+				700,
+				0.498726,
+				1.2
+			],
+			[
+				750,
+				0.510152,
+				1.2
+			],
+			[
+				800,
+				0.521578,
+				1.2
+			],
+			[
+				850,
+				0.532239,
+				1.2
+			],
+			[
+				900,
+				0.5429,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -16173,6 +30711,18 @@ export default {
 			"ss12"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gentium+Book+Plus:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.472135,
+				1.464844
+			],
+			[
+				700,
+				0.499098,
+				1.464844
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16239,6 +30789,18 @@ export default {
 			"ss12"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gentium+Plus:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.463063,
+				1.464844
+			],
+			[
+				700,
+				0.490156,
+				1.464844
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16259,6 +30821,13 @@ export default {
 	"Geo": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Geo:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.437324,
+				1.089844
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16315,6 +30884,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Geologica:CRSV,SHRP,slnt,wght@0..1,0..100,-12..0,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.524243,
+				1.25
+			],
+			[
+				150,
+				0.527667,
+				1.25
+			],
+			[
+				200,
+				0.53109,
+				1.25
+			],
+			[
+				250,
+				0.534514,
+				1.25
+			],
+			[
+				300,
+				0.537937,
+				1.25
+			],
+			[
+				350,
+				0.541361,
+				1.25
+			],
+			[
+				400,
+				0.544785,
+				1.25
+			],
+			[
+				450,
+				0.548208,
+				1.25
+			],
+			[
+				500,
+				0.551632,
+				1.25
+			],
+			[
+				550,
+				0.555055,
+				1.25
+			],
+			[
+				600,
+				0.558479,
+				1.25
+			],
+			[
+				650,
+				0.561902,
+				1.25
+			],
+			[
+				700,
+				0.565326,
+				1.25
+			],
+			[
+				750,
+				0.568749,
+				1.25
+			],
+			[
+				800,
+				0.572173,
+				1.25
+			],
+			[
+				850,
+				0.575596,
+				1.25
+			],
+			[
+				900,
+				0.57902,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -16340,6 +30996,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Geom:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.5113,
+				1.25
+			],
+			[
+				350,
+				0.517063,
+				1.25
+			],
+			[
+				400,
+				0.522827,
+				1.25
+			],
+			[
+				450,
+				0.528494,
+				1.25
+			],
+			[
+				500,
+				0.534161,
+				1.25
+			],
+			[
+				550,
+				0.539829,
+				1.25
+			],
+			[
+				600,
+				0.545496,
+				1.25
+			],
+			[
+				650,
+				0.551163,
+				1.25
+			],
+			[
+				700,
+				0.556831,
+				1.25
+			],
+			[
+				750,
+				0.562498,
+				1.25
+			],
+			[
+				800,
+				0.568165,
+				1.25
+			],
+			[
+				850,
+				0.573833,
+				1.25
+			],
+			[
+				900,
+				0.5795,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -16364,6 +31087,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Geomini:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.547113,
+				1.2
+			],
+			[
+				250,
+				0.551212,
+				1.2
+			],
+			[
+				300,
+				0.555311,
+				1.2
+			],
+			[
+				350,
+				0.55941,
+				1.2
+			],
+			[
+				400,
+				0.563509,
+				1.2
+			],
+			[
+				450,
+				0.567608,
+				1.2
+			],
+			[
+				500,
+				0.571707,
+				1.2
+			],
+			[
+				550,
+				0.575806,
+				1.2
+			],
+			[
+				600,
+				0.579904,
+				1.2
+			],
+			[
+				650,
+				0.584003,
+				1.2
+			],
+			[
+				700,
+				0.588102,
+				1.2
+			],
+			[
+				750,
+				0.592201,
+				1.2
+			],
+			[
+				800,
+				0.5963,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -16400,6 +31190,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Georama:wdth,wght@62.5..150,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.467327,
+				1.194
+			],
+			[
+				150,
+				0.471918,
+				1.194
+			],
+			[
+				200,
+				0.476509,
+				1.194
+			],
+			[
+				250,
+				0.482119,
+				1.194
+			],
+			[
+				300,
+				0.487728,
+				1.194
+			],
+			[
+				350,
+				0.493337,
+				1.194
+			],
+			[
+				400,
+				0.498946,
+				1.194
+			],
+			[
+				450,
+				0.505066,
+				1.194
+			],
+			[
+				500,
+				0.511186,
+				1.194
+			],
+			[
+				550,
+				0.517306,
+				1.194
+			],
+			[
+				600,
+				0.523391,
+				1.194
+			],
+			[
+				650,
+				0.53099,
+				1.194
+			],
+			[
+				700,
+				0.53859,
+				1.194
+			],
+			[
+				750,
+				0.546693,
+				1.194
+			],
+			[
+				800,
+				0.554797,
+				1.194
+			],
+			[
+				850,
+				0.561889,
+				1.194
+			],
+			[
+				900,
+				0.568981,
+				1.194
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -16429,6 +31306,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Geostar:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.774167,
+				1.148
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16444,6 +31328,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Geostar+Fill:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.774167,
+				1.148
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16459,6 +31350,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Germania+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.432867,
+				1.161
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16485,6 +31383,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gideon+Roman:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52408,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16519,6 +31424,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gidole:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.473685,
+				1.230469
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16531,6 +31443,13 @@ export default {
 	"Gidugu": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Gidugu:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.340314,
+				1.854093
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16555,6 +31474,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gilda+Display:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52546,
+				1.177
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16575,6 +31501,13 @@ export default {
 			"titl"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Girassol:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.452547,
+				1.194
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16587,6 +31520,13 @@ export default {
 	"Give You Glory": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Give+You+Glory:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.511777,
+				1.608398
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16602,6 +31542,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Glass+Antiqua:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.411887,
+				1.035
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16627,6 +31574,18 @@ export default {
 			}
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Glegoo:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.553853,
+				1.793
+			],
+			[
+				700,
+				0.559693,
+				1.793
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16656,6 +31615,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gloock:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.523633,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16668,6 +31634,13 @@ export default {
 	"Gloria Hallelujah": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Gloria+Hallelujah:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.552565,
+				1.982422
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16690,6 +31663,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Glory:wght@100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.4278,
+				1.12
+			],
+			[
+				150,
+				0.428604,
+				1.12
+			],
+			[
+				200,
+				0.429409,
+				1.12
+			],
+			[
+				250,
+				0.430661,
+				1.12
+			],
+			[
+				300,
+				0.431913,
+				1.12
+			],
+			[
+				350,
+				0.433343,
+				1.12
+			],
+			[
+				400,
+				0.434772,
+				1.12
+			],
+			[
+				450,
+				0.436382,
+				1.12
+			],
+			[
+				500,
+				0.437992,
+				1.12
+			],
+			[
+				550,
+				0.439958,
+				1.12
+			],
+			[
+				600,
+				0.441924,
+				1.12
+			],
+			[
+				650,
+				0.443534,
+				1.12
+			],
+			[
+				700,
+				0.445143,
+				1.12
+			],
+			[
+				750,
+				0.446842,
+				1.12
+			],
+			[
+				800,
+				0.44854,
+				1.12
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -16737,6 +31787,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gluten:slnt,wght@-13..13,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.47844,
+				0.8825
+			],
+			[
+				150,
+				0.48939,
+				0.8825
+			],
+			[
+				200,
+				0.50034,
+				0.8825
+			],
+			[
+				250,
+				0.511291,
+				0.8825
+			],
+			[
+				300,
+				0.522241,
+				0.8825
+			],
+			[
+				350,
+				0.533191,
+				0.8825
+			],
+			[
+				400,
+				0.544141,
+				0.8825
+			],
+			[
+				450,
+				0.555091,
+				0.8825
+			],
+			[
+				500,
+				0.566042,
+				0.8825
+			],
+			[
+				550,
+				0.576992,
+				0.8825
+			],
+			[
+				600,
+				0.587942,
+				0.8825
+			],
+			[
+				650,
+				0.598892,
+				0.8825
+			],
+			[
+				700,
+				0.609843,
+				0.8825
+			],
+			[
+				750,
+				0.620793,
+				0.8825
+			],
+			[
+				800,
+				0.631743,
+				0.8825
+			],
+			[
+				850,
+				0.642693,
+				0.8825
+			],
+			[
+				900,
+				0.653643,
+				0.8825
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -16751,6 +31888,13 @@ export default {
 	"Goblin One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Goblin+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.832607,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16766,6 +31910,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gochi+Hand:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.463203,
+				1.178711
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16791,6 +31942,18 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Goldman:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.593833,
+				1.2
+			],
+			[
+				700,
+				0.633747,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -16820,6 +31983,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Golos+Text:wght@400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.54202,
+				1.2
+			],
+			[
+				450,
+				0.543877,
+				1.2
+			],
+			[
+				500,
+				0.545733,
+				1.2
+			],
+			[
+				550,
+				0.547635,
+				1.2
+			],
+			[
+				600,
+				0.549538,
+				1.2
+			],
+			[
+				650,
+				0.552329,
+				1.2
+			],
+			[
+				700,
+				0.55512,
+				1.2
+			],
+			[
+				750,
+				0.559117,
+				1.2
+			],
+			[
+				800,
+				0.563113,
+				1.2
+			],
+			[
+				850,
+				0.56711,
+				1.2
+			],
+			[
+				900,
+				0.571107,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -16895,6 +32115,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Google+Sans:GRAD,opsz,wght@-50..200,17..18,400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.508187,
+				1.252
+			],
+			[
+				450,
+				0.516261,
+				1.252
+			],
+			[
+				500,
+				0.524335,
+				1.252
+			],
+			[
+				550,
+				0.528465,
+				1.252
+			],
+			[
+				600,
+				0.532594,
+				1.252
+			],
+			[
+				650,
+				0.536724,
+				1.252
+			],
+			[
+				700,
+				0.540853,
+				1.252
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -16948,6 +32205,64 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Google+Sans+Code:MONO,wght@0..1,300..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.6,
+				1.252
+			],
+			[
+				350,
+				0.6,
+				1.252
+			],
+			[
+				400,
+				0.6,
+				1.252
+			],
+			[
+				450,
+				0.6,
+				1.252
+			],
+			[
+				500,
+				0.6,
+				1.252
+			],
+			[
+				550,
+				0.6,
+				1.252
+			],
+			[
+				600,
+				0.6,
+				1.252
+			],
+			[
+				650,
+				0.6,
+				1.252
+			],
+			[
+				700,
+				0.6,
+				1.252
+			],
+			[
+				750,
+				0.6,
+				1.252
+			],
+			[
+				800,
+				0.6,
+				1.252
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -17020,6 +32335,113 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Google+Sans+Flex:GRAD,opsz,ROND,slnt,wdth,wght@0..100,6..144,0..100,-10..0,25..151,1..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				1,
+				0.486557,
+				1.252
+			],
+			[
+				50,
+				0.489317,
+				1.252
+			],
+			[
+				100,
+				0.492134,
+				1.252
+			],
+			[
+				150,
+				0.49495,
+				1.252
+			],
+			[
+				200,
+				0.497767,
+				1.252
+			],
+			[
+				250,
+				0.500583,
+				1.252
+			],
+			[
+				300,
+				0.5034,
+				1.252
+			],
+			[
+				350,
+				0.506217,
+				1.252
+			],
+			[
+				400,
+				0.509033,
+				1.252
+			],
+			[
+				450,
+				0.51556,
+				1.252
+			],
+			[
+				500,
+				0.522087,
+				1.252
+			],
+			[
+				550,
+				0.528604,
+				1.252
+			],
+			[
+				600,
+				0.535121,
+				1.252
+			],
+			[
+				650,
+				0.541639,
+				1.252
+			],
+			[
+				700,
+				0.548156,
+				1.252
+			],
+			[
+				750,
+				0.554524,
+				1.252
+			],
+			[
+				800,
+				0.560893,
+				1.252
+			],
+			[
+				850,
+				0.567261,
+				1.252
+			],
+			[
+				900,
+				0.57363,
+				1.252
+			],
+			[
+				950,
+				0.579998,
+				1.252
+			],
+			[
+				1000,
+				0.586367,
+				1.252
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -17043,6 +32465,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gorditas:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.575827,
+				1.213
+			],
+			[
+				700,
+				0.584827,
+				1.213
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17096,6 +32530,53 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gothic+A1:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.484427,
+				1.25
+			],
+			[
+				200,
+				0.492806,
+				1.25
+			],
+			[
+				300,
+				0.501074,
+				1.25
+			],
+			[
+				400,
+				0.50987,
+				1.25
+			],
+			[
+				500,
+				0.520124,
+				1.25
+			],
+			[
+				600,
+				0.530703,
+				1.25
+			],
+			[
+				700,
+				0.541465,
+				1.25
+			],
+			[
+				800,
+				0.552044,
+				1.25
+			],
+			[
+				900,
+				0.562702,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17132,6 +32613,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gotu:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.554867,
+				1.66
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17148,6 +32636,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Goudy+Bookletter+1911:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.474629,
+				1.089844
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17176,6 +32671,18 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gowun+Batang:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.505833,
+				1
+			],
+			[
+				700,
+				0.526467,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17205,6 +32712,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gowun+Dodum:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.492933,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17220,6 +32734,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Graduate:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.623767,
+				1.139
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17240,6 +32761,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Grand+Hotel:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.370625,
+				1.358398
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17266,6 +32794,13 @@ export default {
 			"swsh"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Grandiflora+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5075,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17297,6 +32832,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Grandstander:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.517283,
+				0.9975
+			],
+			[
+				150,
+				0.517629,
+				0.9975
+			],
+			[
+				200,
+				0.517975,
+				0.9975
+			],
+			[
+				250,
+				0.518321,
+				0.9975
+			],
+			[
+				300,
+				0.518667,
+				0.9975
+			],
+			[
+				350,
+				0.519013,
+				0.9975
+			],
+			[
+				400,
+				0.519358,
+				0.9975
+			],
+			[
+				450,
+				0.519704,
+				0.9975
+			],
+			[
+				500,
+				0.52005,
+				0.9975
+			],
+			[
+				550,
+				0.520396,
+				0.9975
+			],
+			[
+				600,
+				0.520742,
+				0.9975
+			],
+			[
+				650,
+				0.521087,
+				0.9975
+			],
+			[
+				700,
+				0.521433,
+				0.9975
+			],
+			[
+				750,
+				0.521779,
+				0.9975
+			],
+			[
+				800,
+				0.522125,
+				0.9975
+			],
+			[
+				850,
+				0.522471,
+				0.9975
+			],
+			[
+				900,
+				0.522817,
+				0.9975
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -17326,6 +32948,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Grape+Nuts:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.43512,
+				1.225
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17338,6 +32967,13 @@ export default {
 	"Gravitas One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Gravitas+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.787708,
+				1.271973
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17372,6 +33008,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Great+Vibes:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.46012,
+				1.252
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17393,6 +33036,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Grechen+Fuemen:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.513833,
+				1.22
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17427,6 +33077,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Grenze:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.383713,
+				1.48
+			],
+			[
+				150,
+				0.387917,
+				1.48
+			],
+			[
+				200,
+				0.39212,
+				1.48
+			],
+			[
+				250,
+				0.396323,
+				1.48
+			],
+			[
+				300,
+				0.400527,
+				1.48
+			],
+			[
+				350,
+				0.40473,
+				1.48
+			],
+			[
+				400,
+				0.408933,
+				1.48
+			],
+			[
+				450,
+				0.414765,
+				1.48
+			],
+			[
+				500,
+				0.420596,
+				1.48
+			],
+			[
+				550,
+				0.426427,
+				1.48
+			],
+			[
+				600,
+				0.432259,
+				1.48
+			],
+			[
+				650,
+				0.43809,
+				1.48
+			],
+			[
+				700,
+				0.443921,
+				1.48
+			],
+			[
+				750,
+				0.449753,
+				1.48
+			],
+			[
+				800,
+				0.455584,
+				1.48
+			],
+			[
+				850,
+				0.461415,
+				1.48
+			],
+			[
+				900,
+				0.467247,
+				1.48
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -17469,6 +33206,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.379527,
+				1.48
+			],
+			[
+				150,
+				0.384366,
+				1.48
+			],
+			[
+				200,
+				0.389204,
+				1.48
+			],
+			[
+				250,
+				0.394043,
+				1.48
+			],
+			[
+				300,
+				0.398882,
+				1.48
+			],
+			[
+				350,
+				0.403721,
+				1.48
+			],
+			[
+				400,
+				0.40856,
+				1.48
+			],
+			[
+				450,
+				0.412681,
+				1.48
+			],
+			[
+				500,
+				0.416801,
+				1.48
+			],
+			[
+				550,
+				0.420922,
+				1.48
+			],
+			[
+				600,
+				0.425043,
+				1.48
+			],
+			[
+				650,
+				0.429163,
+				1.48
+			],
+			[
+				700,
+				0.433284,
+				1.48
+			],
+			[
+				750,
+				0.437405,
+				1.48
+			],
+			[
+				800,
+				0.441525,
+				1.48
+			],
+			[
+				850,
+				0.445646,
+				1.48
+			],
+			[
+				900,
+				0.449767,
+				1.48
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -17492,6 +33316,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Grey+Qo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.321027,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17504,6 +33335,13 @@ export default {
 	"Griffy": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Griffy:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.486315,
+				1.350586
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17526,6 +33364,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gruppo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.504163,
+				0.966309
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17541,6 +33386,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gudea:ital,wght@0,400;0,700;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.47792,
+				1.236
+			],
+			[
+				700,
+				0.486867,
+				1.236
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17560,6 +33417,13 @@ export default {
 	"Gugi": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Gugi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.539867,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17583,6 +33447,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gulzar:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.489027,
+				2.7
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17601,6 +33472,23 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gupter:ital,wght@0,400;0,500;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.43842,
+				1.15
+			],
+			[
+				500,
+				0.449253,
+				1.15
+			],
+			[
+				700,
+				0.467847,
+				1.15
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17618,6 +33506,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gurajada:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.317209,
+				1.966355
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17638,6 +33533,13 @@ export default {
 			"ss02"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gveret+Levin:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52464,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17659,6 +33561,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Gwendolyn:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.440193,
+				1.2
+			],
+			[
+				700,
+				0.46288,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17681,6 +33595,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Habibi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.552354,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17700,6 +33621,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.709313,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17733,6 +33661,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hahmlet:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.562773,
+				1
+			],
+			[
+				150,
+				0.565316,
+				1
+			],
+			[
+				200,
+				0.56786,
+				1
+			],
+			[
+				250,
+				0.570403,
+				1
+			],
+			[
+				300,
+				0.572946,
+				1
+			],
+			[
+				350,
+				0.57532,
+				1
+			],
+			[
+				400,
+				0.577693,
+				1
+			],
+			[
+				450,
+				0.580897,
+				1
+			],
+			[
+				500,
+				0.5841,
+				1
+			],
+			[
+				550,
+				0.588145,
+				1
+			],
+			[
+				600,
+				0.59219,
+				1
+			],
+			[
+				650,
+				0.596406,
+				1
+			],
+			[
+				700,
+				0.600622,
+				1
+			],
+			[
+				750,
+				0.605006,
+				1
+			],
+			[
+				800,
+				0.60939,
+				1
+			],
+			[
+				850,
+				0.613098,
+				1
+			],
+			[
+				900,
+				0.616807,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -17750,6 +33765,33 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Halant:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.45746,
+				1.575
+			],
+			[
+				400,
+				0.472007,
+				1.575
+			],
+			[
+				500,
+				0.487993,
+				1.575
+			],
+			[
+				600,
+				0.506133,
+				1.575
+			],
+			[
+				700,
+				0.526893,
+				1.575
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17766,6 +33808,13 @@ export default {
 	"Hammersmith One": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Hammersmith+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.521185,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17786,6 +33835,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hanalei:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.48376,
+				1.30127
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17806,6 +33862,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hanalei+Fill:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.48376,
+				1.30127
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17854,6 +33917,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Handjet:ELGR,ELSH,wght@1..2,0..16,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.360784,
+				1.117647
+			],
+			[
+				150,
+				0.360784,
+				1.117647
+			],
+			[
+				200,
+				0.360784,
+				1.117647
+			],
+			[
+				250,
+				0.360784,
+				1.117647
+			],
+			[
+				300,
+				0.360784,
+				1.117647
+			],
+			[
+				350,
+				0.360784,
+				1.117647
+			],
+			[
+				400,
+				0.360784,
+				1.117647
+			],
+			[
+				450,
+				0.360784,
+				1.117647
+			],
+			[
+				500,
+				0.360784,
+				1.117647
+			],
+			[
+				550,
+				0.360784,
+				1.117647
+			],
+			[
+				600,
+				0.360784,
+				1.117647
+			],
+			[
+				650,
+				0.360784,
+				1.117647
+			],
+			[
+				700,
+				0.360784,
+				1.117647
+			],
+			[
+				750,
+				0.360784,
+				1.117647
+			],
+			[
+				800,
+				0.360784,
+				1.117647
+			],
+			[
+				850,
+				0.360784,
+				1.117647
+			],
+			[
+				900,
+				0.360784,
+				1.117647
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -17871,6 +34022,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Handlee:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.47896,
+				1.334
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17916,6 +34074,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.49586,
+				1.303
+			],
+			[
+				150,
+				0.497832,
+				1.303
+			],
+			[
+				200,
+				0.499804,
+				1.303
+			],
+			[
+				250,
+				0.501777,
+				1.303
+			],
+			[
+				300,
+				0.503749,
+				1.303
+			],
+			[
+				350,
+				0.505721,
+				1.303
+			],
+			[
+				400,
+				0.507693,
+				1.303
+			],
+			[
+				450,
+				0.509001,
+				1.303
+			],
+			[
+				500,
+				0.510309,
+				1.303
+			],
+			[
+				550,
+				0.511617,
+				1.303
+			],
+			[
+				600,
+				0.512925,
+				1.303
+			],
+			[
+				650,
+				0.514233,
+				1.303
+			],
+			[
+				700,
+				0.515541,
+				1.303
+			],
+			[
+				750,
+				0.516849,
+				1.303
+			],
+			[
+				800,
+				0.518157,
+				1.303
+			],
+			[
+				850,
+				0.519465,
+				1.303
+			],
+			[
+				900,
+				0.520773,
+				1.303
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -17941,6 +34186,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hanuman:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.553411,
+				1.464844
+			],
+			[
+				150,
+				0.553411,
+				1.464844
+			],
+			[
+				200,
+				0.553411,
+				1.464844
+			],
+			[
+				250,
+				0.553411,
+				1.464844
+			],
+			[
+				300,
+				0.553411,
+				1.464844
+			],
+			[
+				350,
+				0.553411,
+				1.464844
+			],
+			[
+				400,
+				0.553411,
+				1.464844
+			],
+			[
+				450,
+				0.553411,
+				1.464844
+			],
+			[
+				500,
+				0.553411,
+				1.464844
+			],
+			[
+				550,
+				0.553411,
+				1.464844
+			],
+			[
+				600,
+				0.553411,
+				1.464844
+			],
+			[
+				650,
+				0.553411,
+				1.464844
+			],
+			[
+				700,
+				0.553411,
+				1.464844
+			],
+			[
+				750,
+				0.553411,
+				1.464844
+			],
+			[
+				800,
+				0.553411,
+				1.464844
+			],
+			[
+				850,
+				0.553411,
+				1.464844
+			],
+			[
+				900,
+				0.553411,
+				1.464844
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -17958,6 +34291,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Happy+Monkey:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.542107,
+				1.205
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -17988,6 +34328,28 @@ export default {
 			"salt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Harmattan:ital,wght@0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.399583,
+				1.703613
+			],
+			[
+				500,
+				0.405501,
+				1.703613
+			],
+			[
+				600,
+				0.411419,
+				1.703613
+			],
+			[
+				700,
+				0.417337,
+				1.703613
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18003,6 +34365,13 @@ export default {
 	"Headland One": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Headland+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.610472,
+				1.252441
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18030,6 +34399,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hedvig+Letters+Sans:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.51046,
+				1.34
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18067,6 +34443,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hedvig+Letters+Serif:opsz@12..24&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.524087,
+				1.34
+			]
+		],
 		"variants": [
 			{
 			}
@@ -18093,6 +34476,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.495547,
+				1.46875
+			],
+			[
+				150,
+				0.497787,
+				1.46875
+			],
+			[
+				200,
+				0.500027,
+				1.46875
+			],
+			[
+				250,
+				0.502043,
+				1.46875
+			],
+			[
+				300,
+				0.504059,
+				1.46875
+			],
+			[
+				350,
+				0.506524,
+				1.46875
+			],
+			[
+				400,
+				0.508988,
+				1.46875
+			],
+			[
+				450,
+				0.510283,
+				1.46875
+			],
+			[
+				500,
+				0.511579,
+				1.46875
+			],
+			[
+				550,
+				0.513163,
+				1.46875
+			],
+			[
+				600,
+				0.514747,
+				1.46875
+			],
+			[
+				650,
+				0.516187,
+				1.46875
+			],
+			[
+				700,
+				0.517626,
+				1.46875
+			],
+			[
+				750,
+				0.519066,
+				1.46875
+			],
+			[
+				800,
+				0.520506,
+				1.46875
+			],
+			[
+				850,
+				0.521946,
+				1.46875
+			],
+			[
+				900,
+				0.523385,
+				1.46875
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -18113,6 +34583,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Henny+Penny:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.524694,
+				1.771973
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18154,6 +34631,103 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				1,
+				0.62466,
+				1.251
+			],
+			[
+				50,
+				0.624806,
+				1.251
+			],
+			[
+				100,
+				0.624955,
+				1.251
+			],
+			[
+				150,
+				0.625207,
+				1.251
+			],
+			[
+				200,
+				0.62546,
+				1.251
+			],
+			[
+				250,
+				0.624976,
+				1.251
+			],
+			[
+				300,
+				0.624492,
+				1.251
+			],
+			[
+				350,
+				0.623815,
+				1.251
+			],
+			[
+				400,
+				0.623138,
+				1.251
+			],
+			[
+				450,
+				0.622606,
+				1.251
+			],
+			[
+				500,
+				0.622074,
+				1.251
+			],
+			[
+				550,
+				0.62571,
+				1.251
+			],
+			[
+				600,
+				0.631073,
+				1.251
+			],
+			[
+				650,
+				0.636815,
+				1.251
+			],
+			[
+				700,
+				0.642552,
+				1.251
+			],
+			[
+				750,
+				0.65157,
+				1.251
+			],
+			[
+				800,
+				0.660535,
+				1.251
+			],
+			[
+				850,
+				0.670484,
+				1.251
+			],
+			[
+				900,
+				0.680433,
+				1.251
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -18171,6 +34745,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Herr+Von+Muellerhoff:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.346113,
+				1.422
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18186,6 +34767,13 @@ export default {
 			"fwid"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hi+Melody:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.368229,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18203,6 +34791,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hibur+Mono:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.6,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18230,6 +34825,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hina+Mincho:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.464267,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18245,6 +34847,33 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hind:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.474787,
+				1.601
+			],
+			[
+				400,
+				0.48286,
+				1.601
+			],
+			[
+				500,
+				0.49162,
+				1.601
+			],
+			[
+				600,
+				0.5015,
+				1.601
+			],
+			[
+				700,
+				0.51288,
+				1.601
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18261,6 +34890,33 @@ export default {
 	"Hind Guntur": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Hind+Guntur:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.476587,
+				1.888
+			],
+			[
+				400,
+				0.484273,
+				1.888
+			],
+			[
+				500,
+				0.492607,
+				1.888
+			],
+			[
+				600,
+				0.502033,
+				1.888
+			],
+			[
+				700,
+				0.512853,
+				1.888
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18283,6 +34939,33 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hind+Madurai:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.476587,
+				1.38
+			],
+			[
+				400,
+				0.484273,
+				1.38
+			],
+			[
+				500,
+				0.492607,
+				1.38
+			],
+			[
+				600,
+				0.502033,
+				1.38
+			],
+			[
+				700,
+				0.512853,
+				1.38
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18299,6 +34982,33 @@ export default {
 	"Hind Mysuru": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Hind+Mysuru:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.476587,
+				1.714
+			],
+			[
+				400,
+				0.484273,
+				1.714
+			],
+			[
+				500,
+				0.492607,
+				1.714
+			],
+			[
+				600,
+				0.502033,
+				1.714
+			],
+			[
+				700,
+				0.512853,
+				1.714
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18315,6 +35025,33 @@ export default {
 	"Hind Siliguri": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Hind+Siliguri:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.47424,
+				1.617
+			],
+			[
+				400,
+				0.482353,
+				1.617
+			],
+			[
+				500,
+				0.49122,
+				1.617
+			],
+			[
+				600,
+				0.501287,
+				1.617
+			],
+			[
+				700,
+				0.512853,
+				1.617
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18331,6 +35068,33 @@ export default {
 	"Hind Vadodara": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Hind+Vadodara:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.476587,
+				1.498
+			],
+			[
+				400,
+				0.484273,
+				1.498
+			],
+			[
+				500,
+				0.492607,
+				1.498
+			],
+			[
+				600,
+				0.502033,
+				1.498
+			],
+			[
+				700,
+				0.512853,
+				1.498
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18356,6 +35120,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Holtwood+One+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.757262,
+				1.627441
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18368,6 +35139,13 @@ export default {
 	"Homemade Apple": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Homemade+Apple:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.604733,
+				1.646484
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18387,6 +35165,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Homenaje:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.366107,
+				1.096
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18423,6 +35208,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Honk:MORF,SHLN@0..45,0..100&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.469793,
+				1.22
+			]
+		],
 		"variants": [
 			{
 			}
@@ -18444,6 +35236,64 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Host+Grotesk:wght@300..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.533827,
+				1.33
+			],
+			[
+				350,
+				0.533823,
+				1.33
+			],
+			[
+				400,
+				0.533819,
+				1.33
+			],
+			[
+				450,
+				0.533815,
+				1.33
+			],
+			[
+				500,
+				0.533811,
+				1.33
+			],
+			[
+				550,
+				0.53381,
+				1.33
+			],
+			[
+				600,
+				0.533808,
+				1.33
+			],
+			[
+				650,
+				0.533806,
+				1.33
+			],
+			[
+				700,
+				0.533804,
+				1.33
+			],
+			[
+				750,
+				0.533802,
+				1.33
+			],
+			[
+				800,
+				0.5338,
+				1.33
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -18470,6 +35320,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hubballi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.46628,
+				0.956
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18502,6 +35359,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hubot+Sans:wdth,wght@75..125,200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.511234,
+				1.41
+			],
+			[
+				250,
+				0.516952,
+				1.41
+			],
+			[
+				300,
+				0.52267,
+				1.41
+			],
+			[
+				350,
+				0.528388,
+				1.41
+			],
+			[
+				400,
+				0.534106,
+				1.41
+			],
+			[
+				450,
+				0.541605,
+				1.41
+			],
+			[
+				500,
+				0.549104,
+				1.41
+			],
+			[
+				550,
+				0.556603,
+				1.41
+			],
+			[
+				600,
+				0.564102,
+				1.41
+			],
+			[
+				650,
+				0.571601,
+				1.41
+			],
+			[
+				700,
+				0.579101,
+				1.41
+			],
+			[
+				750,
+				0.5866,
+				1.41
+			],
+			[
+				800,
+				0.594099,
+				1.41
+			],
+			[
+				850,
+				0.601598,
+				1.41
+			],
+			[
+				900,
+				0.609097,
+				1.41
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -18545,6 +35479,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Huninn:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.544287,
+				1.12
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18575,6 +35516,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Hurricane:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.388667,
+				1.38
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18603,6 +35551,44 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=block",
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.3
+			],
+			[
+				200,
+				0.6,
+				1.3
+			],
+			[
+				300,
+				0.6,
+				1.3
+			],
+			[
+				400,
+				0.6,
+				1.3
+			],
+			[
+				500,
+				0.6,
+				1.3
+			],
+			[
+				600,
+				0.6,
+				1.3
+			],
+			[
+				700,
+				0.6,
+				1.3
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -18656,6 +35642,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wdth,wght@75..100,100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.49712,
+				1.3
+			],
+			[
+				150,
+				0.499206,
+				1.3
+			],
+			[
+				200,
+				0.501292,
+				1.3
+			],
+			[
+				250,
+				0.504587,
+				1.3
+			],
+			[
+				300,
+				0.507883,
+				1.3
+			],
+			[
+				350,
+				0.511311,
+				1.3
+			],
+			[
+				400,
+				0.51474,
+				1.3
+			],
+			[
+				450,
+				0.51921,
+				1.3
+			],
+			[
+				500,
+				0.524735,
+				1.3
+			],
+			[
+				550,
+				0.527988,
+				1.3
+			],
+			[
+				600,
+				0.531242,
+				1.3
+			],
+			[
+				650,
+				0.534694,
+				1.3
+			],
+			[
+				700,
+				0.538147,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -18704,6 +35757,43 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				100,
+				0.49796,
+				1.5
+			],
+			[
+				200,
+				0.501813,
+				1.5
+			],
+			[
+				300,
+				0.508147,
+				1.5
+			],
+			[
+				400,
+				0.51474,
+				1.5
+			],
+			[
+				500,
+				0.524747,
+				1.5
+			],
+			[
+				600,
+				0.530913,
+				1.5
+			],
+			[
+				700,
+				0.537607,
+				1.5
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18741,6 +35831,43 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=block",
+		"metrics": [
+			[
+				100,
+				0.44846,
+				1.3
+			],
+			[
+				200,
+				0.45242,
+				1.3
+			],
+			[
+				300,
+				0.458353,
+				1.3
+			],
+			[
+				400,
+				0.464647,
+				1.3
+			],
+			[
+				500,
+				0.474053,
+				1.3
+			],
+			[
+				600,
+				0.480167,
+				1.3
+			],
+			[
+				700,
+				0.486347,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18789,6 +35916,43 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Devanagari:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				100,
+				0.49796,
+				1.53
+			],
+			[
+				200,
+				0.501813,
+				1.53
+			],
+			[
+				300,
+				0.508147,
+				1.53
+			],
+			[
+				400,
+				0.51474,
+				1.53
+			],
+			[
+				500,
+				0.524747,
+				1.53
+			],
+			[
+				600,
+				0.53092,
+				1.53
+			],
+			[
+				700,
+				0.537607,
+				1.53
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18827,6 +35991,43 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Hebrew:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				100,
+				0.49796,
+				1.3
+			],
+			[
+				200,
+				0.501813,
+				1.3
+			],
+			[
+				300,
+				0.508147,
+				1.3
+			],
+			[
+				400,
+				0.51474,
+				1.3
+			],
+			[
+				500,
+				0.524747,
+				1.3
+			],
+			[
+				600,
+				0.530913,
+				1.3
+			],
+			[
+				700,
+				0.537607,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18861,6 +36062,43 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+JP:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				100,
+				0.523567,
+				1
+			],
+			[
+				200,
+				0.52738,
+				1
+			],
+			[
+				300,
+				0.533327,
+				1
+			],
+			[
+				400,
+				0.539667,
+				1
+			],
+			[
+				500,
+				0.54918,
+				1
+			],
+			[
+				600,
+				0.55556,
+				1
+			],
+			[
+				700,
+				0.561927,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18896,6 +36134,43 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				100,
+				0.49796,
+				1
+			],
+			[
+				200,
+				0.50182,
+				1
+			],
+			[
+				300,
+				0.508173,
+				1
+			],
+			[
+				400,
+				0.51478,
+				1
+			],
+			[
+				500,
+				0.524787,
+				1
+			],
+			[
+				600,
+				0.53096,
+				1
+			],
+			[
+				700,
+				0.537647,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18933,6 +36208,43 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				100,
+				0.49796,
+				1.65
+			],
+			[
+				200,
+				0.501813,
+				1.65
+			],
+			[
+				300,
+				0.508147,
+				1.65
+			],
+			[
+				400,
+				0.51474,
+				1.65
+			],
+			[
+				500,
+				0.524747,
+				1.65
+			],
+			[
+				600,
+				0.53092,
+				1.65
+			],
+			[
+				700,
+				0.537607,
+				1.65
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -18971,6 +36283,43 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				100,
+				0.49796,
+				1.65
+			],
+			[
+				200,
+				0.501813,
+				1.65
+			],
+			[
+				300,
+				0.508147,
+				1.65
+			],
+			[
+				400,
+				0.51474,
+				1.65
+			],
+			[
+				500,
+				0.524747,
+				1.65
+			],
+			[
+				600,
+				0.530913,
+				1.65
+			],
+			[
+				700,
+				0.537607,
+				1.65
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19007,6 +36356,43 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=block",
+		"metrics": [
+			[
+				100,
+				0.520033,
+				1.3
+			],
+			[
+				200,
+				0.525307,
+				1.3
+			],
+			[
+				300,
+				0.533133,
+				1.3
+			],
+			[
+				400,
+				0.5421,
+				1.3
+			],
+			[
+				500,
+				0.551633,
+				1.3
+			],
+			[
+				600,
+				0.557767,
+				1.3
+			],
+			[
+				700,
+				0.564907,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19062,6 +36448,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.478174,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19089,6 +36482,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IM+Fell+DW+Pica+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.490905,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19126,6 +36526,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.483177,
+				1.253418
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19153,6 +36560,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IM+Fell+Double+Pica+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.499378,
+				1.253418
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19190,6 +36604,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IM+Fell+English:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.488577,
+				1.268555
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19217,6 +36638,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IM+Fell+English+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.498232,
+				1.268555
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19254,6 +36682,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.498317,
+				1.170898
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19281,6 +36716,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IM+Fell+French+Canon+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.511585,
+				1.170898
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19318,6 +36760,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.490983,
+				1.222656
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19345,6 +36794,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=IM+Fell+Great+Primer+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.515752,
+				1.222656
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19373,6 +36829,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Iansui:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53574,
+				1.12
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19396,6 +36859,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.506627,
+				1.25
+			],
+			[
+				450,
+				0.509704,
+				1.25
+			],
+			[
+				500,
+				0.512782,
+				1.25
+			],
+			[
+				550,
+				0.51586,
+				1.25
+			],
+			[
+				600,
+				0.518938,
+				1.25
+			],
+			[
+				650,
+				0.523042,
+				1.25
+			],
+			[
+				700,
+				0.527147,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -19416,6 +36916,13 @@ export default {
 	"Iceberg": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Iceberg:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.46448,
+				1.22
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19428,6 +36935,13 @@ export default {
 	"Iceland": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Iceland:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.448667,
+				0.97
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19458,6 +36972,23 @@ export default {
 			"ss16"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Idiqlat:ital,wght@0,200;0,300;0,400&display=block",
+		"metrics": [
+			[
+				200,
+				0.550397,
+				1.631836
+			],
+			[
+				300,
+				0.560579,
+				1.631836
+			],
+			[
+				400,
+				0.570615,
+				1.631836
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19500,6 +37031,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Imbue:opsz,wght@10..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.270903,
+				1.2
+			],
+			[
+				150,
+				0.278827,
+				1.2
+			],
+			[
+				200,
+				0.28675,
+				1.2
+			],
+			[
+				250,
+				0.294673,
+				1.2
+			],
+			[
+				300,
+				0.302597,
+				1.2
+			],
+			[
+				350,
+				0.31052,
+				1.2
+			],
+			[
+				400,
+				0.318443,
+				1.2
+			],
+			[
+				450,
+				0.326367,
+				1.2
+			],
+			[
+				500,
+				0.33429,
+				1.2
+			],
+			[
+				550,
+				0.342213,
+				1.2
+			],
+			[
+				600,
+				0.350137,
+				1.2
+			],
+			[
+				650,
+				0.35806,
+				1.2
+			],
+			[
+				700,
+				0.365983,
+				1.2
+			],
+			[
+				750,
+				0.373907,
+				1.2
+			],
+			[
+				800,
+				0.38183,
+				1.2
+			],
+			[
+				850,
+				0.389753,
+				1.2
+			],
+			[
+				900,
+				0.397677,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -19524,6 +37142,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Imperial+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.41824,
+				1.21
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19546,6 +37171,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Imprima:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.480507,
+				1.158
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19566,6 +37198,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Inclusive+Sans:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.519993,
+				1.2
+			],
+			[
+				350,
+				0.52481,
+				1.2
+			],
+			[
+				400,
+				0.529627,
+				1.2
+			],
+			[
+				450,
+				0.534644,
+				1.2
+			],
+			[
+				500,
+				0.539662,
+				1.2
+			],
+			[
+				550,
+				0.54468,
+				1.2
+			],
+			[
+				600,
+				0.549698,
+				1.2
+			],
+			[
+				650,
+				0.554716,
+				1.2
+			],
+			[
+				700,
+				0.559733,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -19603,6 +37282,84 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Inconsolata:wdth,wght@50..200,200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.5,
+				1.049
+			],
+			[
+				250,
+				0.5,
+				1.049
+			],
+			[
+				300,
+				0.5,
+				1.049
+			],
+			[
+				350,
+				0.5,
+				1.049
+			],
+			[
+				400,
+				0.5,
+				1.049
+			],
+			[
+				450,
+				0.5,
+				1.049
+			],
+			[
+				500,
+				0.5,
+				1.049
+			],
+			[
+				550,
+				0.5,
+				1.049
+			],
+			[
+				600,
+				0.5,
+				1.049
+			],
+			[
+				650,
+				0.5,
+				1.049
+			],
+			[
+				700,
+				0.5,
+				1.049
+			],
+			[
+				750,
+				0.5,
+				1.049
+			],
+			[
+				800,
+				0.5,
+				1.049
+			],
+			[
+				850,
+				0.5,
+				1.049
+			],
+			[
+				900,
+				0.5,
+				1.049
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -19623,6 +37380,13 @@ export default {
 	"Inder": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Inder:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.532829,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19635,6 +37399,13 @@ export default {
 	"Indie Flower": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Indie+Flower:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.454219,
+				1.458984
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19657,6 +37428,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ingrid+Darling:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.3684,
+				1.24
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19672,6 +37450,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Inika:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.526047,
+				1.303
+			],
+			[
+				700,
+				0.5256,
+				1.303
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19706,6 +37496,43 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Inknut+Antiqua:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				300,
+				0.6319,
+				2.579
+			],
+			[
+				400,
+				0.636013,
+				2.579
+			],
+			[
+				500,
+				0.640793,
+				2.579
+			],
+			[
+				600,
+				0.645533,
+				2.579
+			],
+			[
+				700,
+				0.659713,
+				2.579
+			],
+			[
+				800,
+				0.666773,
+				2.579
+			],
+			[
+				900,
+				0.67382,
+				2.579
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19742,6 +37569,23 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.472247,
+				1.199
+			],
+			[
+				400,
+				0.47732,
+				1.199
+			],
+			[
+				700,
+				0.4854,
+				1.199
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19782,6 +37626,23 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.50222,
+				1.199
+			],
+			[
+				400,
+				0.506407,
+				1.199
+			],
+			[
+				700,
+				0.513587,
+				1.199
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19818,6 +37679,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Inspiration:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.354753,
+				1.27
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19852,6 +37720,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Instrument+Sans:wdth,wght@75..100,400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52704,
+				1.22
+			],
+			[
+				450,
+				0.529749,
+				1.22
+			],
+			[
+				500,
+				0.532458,
+				1.22
+			],
+			[
+				550,
+				0.535167,
+				1.22
+			],
+			[
+				600,
+				0.537876,
+				1.22
+			],
+			[
+				650,
+				0.540584,
+				1.22
+			],
+			[
+				700,
+				0.543293,
+				1.22
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -19887,6 +37792,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Instrument+Serif:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.381273,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -19921,6 +37833,54 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Intel+One+Mono:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.614,
+				1.38
+			],
+			[
+				350,
+				0.614,
+				1.38
+			],
+			[
+				400,
+				0.614,
+				1.38
+			],
+			[
+				450,
+				0.614,
+				1.38
+			],
+			[
+				500,
+				0.614,
+				1.38
+			],
+			[
+				550,
+				0.614,
+				1.38
+			],
+			[
+				600,
+				0.614,
+				1.38
+			],
+			[
+				650,
+				0.614,
+				1.38
+			],
+			[
+				700,
+				0.614,
+				1.38
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -20007,6 +37967,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.516875,
+				1.209961
+			],
+			[
+				150,
+				0.521369,
+				1.209961
+			],
+			[
+				200,
+				0.525864,
+				1.209961
+			],
+			[
+				250,
+				0.530358,
+				1.209961
+			],
+			[
+				300,
+				0.534852,
+				1.209961
+			],
+			[
+				350,
+				0.539347,
+				1.209961
+			],
+			[
+				400,
+				0.543841,
+				1.209961
+			],
+			[
+				450,
+				0.546949,
+				1.209961
+			],
+			[
+				500,
+				0.550056,
+				1.209961
+			],
+			[
+				550,
+				0.553164,
+				1.209961
+			],
+			[
+				600,
+				0.556271,
+				1.209961
+			],
+			[
+				650,
+				0.55938,
+				1.209961
+			],
+			[
+				700,
+				0.562488,
+				1.209961
+			],
+			[
+				750,
+				0.566287,
+				1.209961
+			],
+			[
+				800,
+				0.570086,
+				1.209961
+			],
+			[
+				850,
+				0.574229,
+				1.209961
+			],
+			[
+				900,
+				0.578372,
+				1.209961
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -20063,6 +38110,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Inter+Tight:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.51638,
+				1.209961
+			],
+			[
+				150,
+				0.512522,
+				1.209961
+			],
+			[
+				200,
+				0.508664,
+				1.209961
+			],
+			[
+				250,
+				0.504806,
+				1.209961
+			],
+			[
+				300,
+				0.500948,
+				1.209961
+			],
+			[
+				350,
+				0.49709,
+				1.209961
+			],
+			[
+				400,
+				0.493232,
+				1.209961
+			],
+			[
+				450,
+				0.499455,
+				1.209961
+			],
+			[
+				500,
+				0.505678,
+				1.209961
+			],
+			[
+				550,
+				0.511901,
+				1.209961
+			],
+			[
+				600,
+				0.518124,
+				1.209961
+			],
+			[
+				650,
+				0.524347,
+				1.209961
+			],
+			[
+				700,
+				0.53057,
+				1.209961
+			],
+			[
+				750,
+				0.536793,
+				1.209961
+			],
+			[
+				800,
+				0.543016,
+				1.209961
+			],
+			[
+				850,
+				0.549239,
+				1.209961
+			],
+			[
+				900,
+				0.555462,
+				1.209961
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -20091,6 +38225,29 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Iosevka+Charon:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.480027,
+				1.28
+			],
+			[
+				400,
+				0.480027,
+				1.28
+			],
+			[
+				500,
+				0.480027,
+				1.28
+			],
+			[
+				700,
+				0.480027,
+				1.28
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -20123,6 +38280,29 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Iosevka+Charon+Mono:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.5,
+				1.28
+			],
+			[
+				400,
+				0.5,
+				1.28
+			],
+			[
+				500,
+				0.5,
+				1.28
+			],
+			[
+				700,
+				0.5,
+				1.28
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -20150,6 +38330,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Irish+Grover:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.503626,
+				0.990234
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20176,6 +38363,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Island+Moments:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.38918,
+				1.15
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20224,6 +38418,18 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.508962,
+				1.439453
+			],
+			[
+				700,
+				0.537598,
+				1.439453
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20247,6 +38453,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Italiana:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.465633,
+				1.178
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20279,6 +38492,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Italianno:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.345167,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20305,6 +38525,13 @@ export default {
 			"swsh"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Itim:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.490487,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20323,6 +38550,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jacquard+12:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.433651,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20341,6 +38575,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jacquard+12+Charted:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.433651,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20359,6 +38600,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jacquard+24:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.413798,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20377,6 +38625,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jacquard+24+Charted:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.412868,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20395,6 +38650,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.556923,
+				1.3125
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20410,6 +38672,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jacquarda+Bastarda+9+Charted:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.557949,
+				1.3125
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20422,6 +38691,13 @@ export default {
 	"Jacques Francois": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Jacques+Francois:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.546706,
+				1.318848
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20434,6 +38710,13 @@ export default {
 	"Jacques Francois Shadow": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Jacques+Francois+Shadow:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.593431,
+				1.318848
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20459,6 +38742,13 @@ export default {
 			"ss03"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jaini:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.374887,
+				1.314
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20485,6 +38775,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jaini+Purva:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.374887,
+				1.314
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20507,6 +38804,19 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jaldi:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.434492,
+				1.689941
+			],
+			[
+				700,
+				0.434492,
+				1.689941
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -20544,6 +38854,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jaro:opsz@6..72&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.455777,
+				1.25
+			]
+		],
 		"variants": [
 			{
 			}
@@ -20559,6 +38876,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jersey+10:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.378214,
+				1.071429
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20578,6 +38902,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jersey+10+Charted:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.378214,
+				1.071429
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20597,6 +38928,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jersey+15:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.398025,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20616,6 +38954,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jersey+15+Charted:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.398025,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20635,6 +38980,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jersey+20:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.414118,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20654,6 +39006,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jersey+20+Charted:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.414118,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20673,6 +39032,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jersey+25:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.429431,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20692,6 +39058,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jersey+25+Charted:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.429431,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20716,6 +39089,84 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.32
+			],
+			[
+				150,
+				0.6,
+				1.32
+			],
+			[
+				200,
+				0.6,
+				1.32
+			],
+			[
+				250,
+				0.6,
+				1.32
+			],
+			[
+				300,
+				0.6,
+				1.32
+			],
+			[
+				350,
+				0.6,
+				1.32
+			],
+			[
+				400,
+				0.6,
+				1.32
+			],
+			[
+				450,
+				0.6,
+				1.32
+			],
+			[
+				500,
+				0.6,
+				1.32
+			],
+			[
+				550,
+				0.6,
+				1.32
+			],
+			[
+				600,
+				0.6,
+				1.32
+			],
+			[
+				650,
+				0.6,
+				1.32
+			],
+			[
+				700,
+				0.6,
+				1.32
+			],
+			[
+				750,
+				0.6,
+				1.32
+			],
+			[
+				800,
+				0.6,
+				1.32
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -20744,6 +39195,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jim+Nightshade:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.359883,
+				1.416992
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20781,6 +39239,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Joan:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.48342,
+				1.292
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20797,6 +39262,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jockey+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.402873,
+				1.398
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20809,6 +39281,13 @@ export default {
 	"Jolly Lodger": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Jolly+Lodger:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.314414,
+				1.21582
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20830,6 +39309,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jomhuria:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.276496,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20842,6 +39328,13 @@ export default {
 	"Jomolhari": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Jomolhari:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.548678,
+				1.601563
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20881,6 +39374,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.48064,
+				1
+			],
+			[
+				150,
+				0.484127,
+				1
+			],
+			[
+				200,
+				0.487614,
+				1
+			],
+			[
+				250,
+				0.491104,
+				1
+			],
+			[
+				300,
+				0.494596,
+				1
+			],
+			[
+				350,
+				0.506447,
+				1
+			],
+			[
+				400,
+				0.518298,
+				1
+			],
+			[
+				450,
+				0.52067,
+				1
+			],
+			[
+				500,
+				0.523042,
+				1
+			],
+			[
+				550,
+				0.525412,
+				1
+			],
+			[
+				600,
+				0.527784,
+				1
+			],
+			[
+				650,
+				0.534895,
+				1
+			],
+			[
+				700,
+				0.542007,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -20905,6 +39465,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.489913,
+				1
+			],
+			[
+				150,
+				0.490827,
+				1
+			],
+			[
+				200,
+				0.49174,
+				1
+			],
+			[
+				250,
+				0.492653,
+				1
+			],
+			[
+				300,
+				0.493567,
+				1
+			],
+			[
+				350,
+				0.495263,
+				1
+			],
+			[
+				400,
+				0.496959,
+				1
+			],
+			[
+				450,
+				0.498133,
+				1
+			],
+			[
+				500,
+				0.499308,
+				1
+			],
+			[
+				550,
+				0.501004,
+				1
+			],
+			[
+				600,
+				0.502701,
+				1
+			],
+			[
+				650,
+				0.505311,
+				1
+			],
+			[
+				700,
+				0.50792,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -20931,6 +39558,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jost:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.457027,
+				1.445
+			],
+			[
+				150,
+				0.461962,
+				1.445
+			],
+			[
+				200,
+				0.466897,
+				1.445
+			],
+			[
+				250,
+				0.472055,
+				1.445
+			],
+			[
+				300,
+				0.477213,
+				1.445
+			],
+			[
+				350,
+				0.483943,
+				1.445
+			],
+			[
+				400,
+				0.490673,
+				1.445
+			],
+			[
+				450,
+				0.501976,
+				1.445
+			],
+			[
+				500,
+				0.513279,
+				1.445
+			],
+			[
+				550,
+				0.521353,
+				1.445
+			],
+			[
+				600,
+				0.529427,
+				1.445
+			],
+			[
+				650,
+				0.538147,
+				1.445
+			],
+			[
+				700,
+				0.546866,
+				1.445
+			],
+			[
+				750,
+				0.555263,
+				1.445
+			],
+			[
+				800,
+				0.56366,
+				1.445
+			],
+			[
+				850,
+				0.57238,
+				1.445
+			],
+			[
+				900,
+				0.5811,
+				1.445
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -20964,6 +39678,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Joti+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.55104,
+				1.334
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20979,6 +39700,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jua:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.496253,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -20991,6 +39719,18 @@ export default {
 	"Judson": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Judson:ital,wght@0,400;0,700;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.470767,
+				1.15
+			],
+			[
+				700,
+				0.4864,
+				1.163
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21020,6 +39760,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Julee:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.43852,
+				1.178
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21035,6 +39782,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Julius+Sans+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5899,
+				1.091
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21047,6 +39801,13 @@ export default {
 	"Junge": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Junge:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.535215,
+				1.215332
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21076,6 +39837,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Jura:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.498887,
+				1.183
+			],
+			[
+				350,
+				0.507173,
+				1.183
+			],
+			[
+				400,
+				0.515458,
+				1.183
+			],
+			[
+				450,
+				0.523744,
+				1.183
+			],
+			[
+				500,
+				0.53203,
+				1.183
+			],
+			[
+				550,
+				0.540316,
+				1.183
+			],
+			[
+				600,
+				0.548602,
+				1.183
+			],
+			[
+				650,
+				0.556887,
+				1.183
+			],
+			[
+				700,
+				0.565173,
+				1.183
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -21098,6 +39906,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Just+Another+Hand:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.264401,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21110,6 +39925,13 @@ export default {
 	"Just Me Again Down Here": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Just+Me+Again+Down+Here:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.350627,
+				1.498
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21131,6 +39953,48 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=block",
+		"metrics": [
+			[
+				100,
+				0.505673,
+				1.3
+			],
+			[
+				200,
+				0.509053,
+				1.3
+			],
+			[
+				300,
+				0.512427,
+				1.3
+			],
+			[
+				400,
+				0.515807,
+				1.3
+			],
+			[
+				500,
+				0.51962,
+				1.3
+			],
+			[
+				600,
+				0.523547,
+				1.3
+			],
+			[
+				700,
+				0.527073,
+				1.3
+			],
+			[
+				800,
+				0.530787,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21185,6 +40049,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kablammo:MORF@0..60&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.53189,
+				1.292
+			]
+		],
 		"variants": [
 			{
 			}
@@ -21203,6 +40074,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kadwa:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.5471,
+				2.007813
+			],
+			[
+				700,
+				0.568695,
+				2.007813
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21216,6 +40099,24 @@ export default {
 	"Kaisei Decol": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Kaisei+Decol:ital,wght@0,400;0,500;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.56752,
+				1
+			],
+			[
+				500,
+				0.56752,
+				1
+			],
+			[
+				700,
+				0.56752,
+				1
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -21230,6 +40131,24 @@ export default {
 	"Kaisei HarunoUmi": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi:ital,wght@0,400;0,500;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.56752,
+				1
+			],
+			[
+				500,
+				0.56752,
+				1
+			],
+			[
+				700,
+				0.56752,
+				1
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -21244,6 +40163,24 @@ export default {
 	"Kaisei Opti": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Kaisei+Opti:ital,wght@0,400;0,500;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.56752,
+				1
+			],
+			[
+				500,
+				0.56752,
+				1
+			],
+			[
+				700,
+				0.56752,
+				1
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -21258,6 +40195,28 @@ export default {
 	"Kaisei Tokumin": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:ital,wght@0,400;0,500;0,700;0,800&display=block",
+		"metrics": [
+			[
+				400,
+				0.56752,
+				1
+			],
+			[
+				500,
+				0.56752,
+				1
+			],
+			[
+				700,
+				0.56752,
+				1
+			],
+			[
+				800,
+				0.567493,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21276,6 +40235,23 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kalam:ital,wght@0,300;0,400;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.478653,
+				1.594
+			],
+			[
+				400,
+				0.485627,
+				1.594
+			],
+			[
+				700,
+				0.498533,
+				1.594
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21301,6 +40277,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kalnia:wdth,wght@100..125,100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.558213,
+				1.345
+			],
+			[
+				150,
+				0.562566,
+				1.345
+			],
+			[
+				200,
+				0.566919,
+				1.345
+			],
+			[
+				250,
+				0.570266,
+				1.345
+			],
+			[
+				300,
+				0.573614,
+				1.345
+			],
+			[
+				350,
+				0.581983,
+				1.345
+			],
+			[
+				400,
+				0.590352,
+				1.345
+			],
+			[
+				450,
+				0.595373,
+				1.345
+			],
+			[
+				500,
+				0.600394,
+				1.345
+			],
+			[
+				550,
+				0.608765,
+				1.345
+			],
+			[
+				600,
+				0.617137,
+				1.345
+			],
+			[
+				650,
+				0.624669,
+				1.345
+			],
+			[
+				700,
+				0.6322,
+				1.345
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -21332,6 +40375,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kalnia+Glaze:wdth,wght@100..125,100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.558213,
+				1.345
+			],
+			[
+				150,
+				0.561938,
+				1.345
+			],
+			[
+				200,
+				0.565664,
+				1.345
+			],
+			[
+				250,
+				0.568528,
+				1.345
+			],
+			[
+				300,
+				0.571394,
+				1.345
+			],
+			[
+				350,
+				0.578556,
+				1.345
+			],
+			[
+				400,
+				0.585719,
+				1.345
+			],
+			[
+				450,
+				0.590016,
+				1.345
+			],
+			[
+				500,
+				0.594313,
+				1.345
+			],
+			[
+				550,
+				0.601477,
+				1.345
+			],
+			[
+				600,
+				0.608642,
+				1.345
+			],
+			[
+				650,
+				0.615088,
+				1.345
+			],
+			[
+				700,
+				0.621533,
+				1.345
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -21366,6 +40476,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kameron:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.512113,
+				1.187012
+			],
+			[
+				450,
+				0.521257,
+				1.187012
+			],
+			[
+				500,
+				0.530401,
+				1.187012
+			],
+			[
+				550,
+				0.539546,
+				1.187012
+			],
+			[
+				600,
+				0.54869,
+				1.187012
+			],
+			[
+				650,
+				0.557835,
+				1.187012
+			],
+			[
+				700,
+				0.566979,
+				1.187012
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -21387,6 +40534,28 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kanchenjunga:ital,wght@0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.530452,
+				1.611328
+			],
+			[
+				500,
+				0.535658,
+				1.611328
+			],
+			[
+				600,
+				0.540908,
+				1.611328
+			],
+			[
+				700,
+				0.546113,
+				1.611328
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21412,6 +40581,53 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.47446,
+				1.495
+			],
+			[
+				200,
+				0.484627,
+				1.495
+			],
+			[
+				300,
+				0.49328,
+				1.495
+			],
+			[
+				400,
+				0.500833,
+				1.495
+			],
+			[
+				500,
+				0.506953,
+				1.495
+			],
+			[
+				600,
+				0.513787,
+				1.495
+			],
+			[
+				700,
+				0.52114,
+				1.495
+			],
+			[
+				800,
+				0.530113,
+				1.495
+			],
+			[
+				900,
+				0.53968,
+				1.495
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21451,6 +40667,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kantumruy+Pro:wght@100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.471813,
+				1.18
+			],
+			[
+				150,
+				0.481662,
+				1.18
+			],
+			[
+				200,
+				0.491511,
+				1.18
+			],
+			[
+				250,
+				0.501359,
+				1.18
+			],
+			[
+				300,
+				0.511208,
+				1.18
+			],
+			[
+				350,
+				0.519087,
+				1.18
+			],
+			[
+				400,
+				0.526967,
+				1.18
+			],
+			[
+				450,
+				0.53153,
+				1.18
+			],
+			[
+				500,
+				0.536093,
+				1.18
+			],
+			[
+				550,
+				0.539894,
+				1.18
+			],
+			[
+				600,
+				0.543695,
+				1.18
+			],
+			[
+				650,
+				0.547751,
+				1.18
+			],
+			[
+				700,
+				0.551807,
+				1.18
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -21472,6 +40755,23 @@ export default {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Kapakana:wght@300..400&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.377607,
+				1
+			],
+			[
+				350,
+				0.379227,
+				1
+			],
+			[
+				400,
+				0.380847,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -21494,6 +40794,23 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Karantina:ital,wght@0,300;0,400;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.242827,
+				1.012
+			],
+			[
+				400,
+				0.273813,
+				1.012
+			],
+			[
+				700,
+				0.33912,
+				1.012
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21526,6 +40843,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Karla:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.480417,
+				1.169
+			],
+			[
+				250,
+				0.487257,
+				1.169
+			],
+			[
+				300,
+				0.494098,
+				1.169
+			],
+			[
+				350,
+				0.500612,
+				1.169
+			],
+			[
+				400,
+				0.507127,
+				1.169
+			],
+			[
+				450,
+				0.51266,
+				1.169
+			],
+			[
+				500,
+				0.518194,
+				1.169
+			],
+			[
+				550,
+				0.522099,
+				1.169
+			],
+			[
+				600,
+				0.526004,
+				1.169
+			],
+			[
+				650,
+				0.529584,
+				1.169
+			],
+			[
+				700,
+				0.533165,
+				1.169
+			],
+			[
+				750,
+				0.546836,
+				1.169
+			],
+			[
+				800,
+				0.560507,
+				1.169
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -21546,6 +40930,33 @@ export default {
 	"Karma": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Karma:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.476693,
+				1.419
+			],
+			[
+				400,
+				0.48584,
+				1.453
+			],
+			[
+				500,
+				0.49588,
+				1.493
+			],
+			[
+				600,
+				0.507187,
+				1.544
+			],
+			[
+				700,
+				0.52026,
+				1.628
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21574,6 +40985,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Katibeh:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.36464,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21595,6 +41013,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kaushan+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.479207,
+				1.451
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21610,6 +41035,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kavivanar:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.486593,
+				1.482
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21625,6 +41057,13 @@ export default {
 			"aalt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kavoon:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.543685,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21640,6 +41079,28 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kay+Pho+Du:ital,wght@0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.512051,
+				1.205566
+			],
+			[
+				500,
+				0.51237,
+				1.205566
+			],
+			[
+				600,
+				0.51265,
+				1.205566
+			],
+			[
+				700,
+				0.512969,
+				1.205566
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21659,6 +41120,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.526027,
+				1.546
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21674,6 +41142,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Keania+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.506033,
+				1.217
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21689,6 +41164,38 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kedebideri:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.48528,
+				1.25
+			],
+			[
+				500,
+				0.49138,
+				1.25
+			],
+			[
+				600,
+				0.49752,
+				1.25
+			],
+			[
+				700,
+				0.50346,
+				1.25
+			],
+			[
+				800,
+				0.5096,
+				1.25
+			],
+			[
+				900,
+				0.5157,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21709,6 +41216,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kelly+Slab:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.491333,
+				1.212
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21724,6 +41238,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kenia:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.417047,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21739,6 +41260,33 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Khand:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.373293,
+				1.529
+			],
+			[
+				400,
+				0.379627,
+				1.529
+			],
+			[
+				500,
+				0.386493,
+				1.529
+			],
+			[
+				600,
+				0.39442,
+				1.529
+			],
+			[
+				700,
+				0.403407,
+				1.529
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21758,6 +41306,33 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Khula:ital,wght@0,300;0,400;0,600;0,700;0,800&display=block",
+		"metrics": [
+			[
+				300,
+				0.472932,
+				1.605662
+			],
+			[
+				400,
+				0.490347,
+				1.605662
+			],
+			[
+				600,
+				0.504435,
+				1.605662
+			],
+			[
+				700,
+				0.518824,
+				1.605662
+			],
+			[
+				800,
+				0.536505,
+				1.605662
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21785,6 +41360,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kings:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.456013,
+				1.4
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21800,6 +41382,13 @@ export default {
 			"calt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kirang+Haerang:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.4399,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21824,6 +41413,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kite+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.522213,
+				1.445
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21847,6 +41443,23 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kiwi+Maru:ital,wght@0,300;0,400;0,500&display=block",
+		"metrics": [
+			[
+				300,
+				0.57324,
+				1
+			],
+			[
+				400,
+				0.58364,
+				1
+			],
+			[
+				500,
+				0.594133,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21876,6 +41489,18 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Klee+One:ital,wght@0,400;0,600&display=block",
+		"metrics": [
+			[
+				400,
+				0.535,
+				1
+			],
+			[
+				600,
+				0.535267,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21892,6 +41517,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Knewave:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.51162,
+				1.554
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21913,6 +41545,38 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=block",
+		"metrics": [
+			[
+				200,
+				0.480553,
+				1.3
+			],
+			[
+				300,
+				0.48866,
+				1.3
+			],
+			[
+				400,
+				0.496233,
+				1.3
+			],
+			[
+				500,
+				0.502987,
+				1.3
+			],
+			[
+				600,
+				0.509613,
+				1.3
+			],
+			[
+				700,
+				0.516367,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21950,6 +41614,38 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kodchasan:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=block",
+		"metrics": [
+			[
+				200,
+				0.562693,
+				1.3
+			],
+			[
+				300,
+				0.564433,
+				1.3
+			],
+			[
+				400,
+				0.56584,
+				1.3
+			],
+			[
+				500,
+				0.570167,
+				1.3
+			],
+			[
+				600,
+				0.574373,
+				1.3
+			],
+			[
+				700,
+				0.5787,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -21990,6 +41686,44 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.6,
+				1.28
+			],
+			[
+				450,
+				0.6,
+				1.28
+			],
+			[
+				500,
+				0.6,
+				1.28
+			],
+			[
+				550,
+				0.6,
+				1.28
+			],
+			[
+				600,
+				0.6,
+				1.28
+			],
+			[
+				650,
+				0.6,
+				1.28
+			],
+			[
+				700,
+				0.6,
+				1.28
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -22007,6 +41741,33 @@ export default {
 			"aalt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Koh+Santepheap:ital,wght@0,100;0,300;0,400;0,700;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.512181,
+				1.333984
+			],
+			[
+				300,
+				0.530885,
+				1.333984
+			],
+			[
+				400,
+				0.546715,
+				1.333984
+			],
+			[
+				700,
+				0.574212,
+				1.333984
+			],
+			[
+				900,
+				0.596224,
+				1.333984
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22036,6 +41797,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kolker+Brush:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.313787,
+				1.1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22052,6 +41820,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Konkhmer+Sleokchher:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.567354,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22070,6 +41845,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kosugi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22088,6 +41870,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kosugi+Maru:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22103,6 +41892,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kotta+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.4908,
+				1.203
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22119,6 +41915,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Koulen:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.41347,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22134,6 +41937,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kranky:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.516523,
+				0.996094
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22150,6 +41960,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kreon:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.455633,
+				1.26
+			],
+			[
+				350,
+				0.464046,
+				1.26
+			],
+			[
+				400,
+				0.472458,
+				1.26
+			],
+			[
+				450,
+				0.475007,
+				1.26
+			],
+			[
+				500,
+				0.477557,
+				1.26
+			],
+			[
+				550,
+				0.480106,
+				1.26
+			],
+			[
+				600,
+				0.482654,
+				1.26
+			],
+			[
+				650,
+				0.485204,
+				1.26
+			],
+			[
+				700,
+				0.487753,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -22167,6 +42024,13 @@ export default {
 			"calt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kristi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.276891,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22179,6 +42043,13 @@ export default {
 	"Krona One": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Krona+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.741618,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22200,6 +42071,38 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Krub:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=block",
+		"metrics": [
+			[
+				200,
+				0.51818,
+				1.3
+			],
+			[
+				300,
+				0.518227,
+				1.3
+			],
+			[
+				400,
+				0.51824,
+				1.3
+			],
+			[
+				500,
+				0.522593,
+				1.3
+			],
+			[
+				600,
+				0.526847,
+				1.3
+			],
+			[
+				700,
+				0.5312,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22254,6 +42157,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kufam:wght@400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.547647,
+				1.3
+			],
+			[
+				450,
+				0.551739,
+				1.3
+			],
+			[
+				500,
+				0.55583,
+				1.3
+			],
+			[
+				550,
+				0.561558,
+				1.3
+			],
+			[
+				600,
+				0.567286,
+				1.3
+			],
+			[
+				650,
+				0.574653,
+				1.3
+			],
+			[
+				700,
+				0.582018,
+				1.3
+			],
+			[
+				750,
+				0.5857,
+				1.3
+			],
+			[
+				800,
+				0.589382,
+				1.3
+			],
+			[
+				850,
+				0.593065,
+				1.3
+			],
+			[
+				900,
+				0.596747,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -22287,6 +42247,33 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=block",
+		"metrics": [
+			[
+				200,
+				0.4923,
+				1.135
+			],
+			[
+				300,
+				0.496387,
+				1.135
+			],
+			[
+				400,
+				0.5003,
+				1.135
+			],
+			[
+				600,
+				0.508387,
+				1.135
+			],
+			[
+				700,
+				0.512473,
+				1.135
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22313,6 +42300,13 @@ export default {
 	"Kumar One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Kumar+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.671573,
+				1.779
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22325,6 +42319,13 @@ export default {
 	"Kumar One Outline": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Kumar+One+Outline:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.670573,
+				1.779
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22356,6 +42357,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght,YOPQ@100..900,40..300&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.525661,
+				1.240234
+			],
+			[
+				150,
+				0.526807,
+				1.240234
+			],
+			[
+				200,
+				0.527954,
+				1.240234
+			],
+			[
+				250,
+				0.5291,
+				1.240234
+			],
+			[
+				300,
+				0.530246,
+				1.240234
+			],
+			[
+				350,
+				0.531393,
+				1.240234
+			],
+			[
+				400,
+				0.532539,
+				1.240234
+			],
+			[
+				450,
+				0.53439,
+				1.240234
+			],
+			[
+				500,
+				0.53624,
+				1.240234
+			],
+			[
+				550,
+				0.538091,
+				1.240234
+			],
+			[
+				600,
+				0.539941,
+				1.240234
+			],
+			[
+				650,
+				0.541792,
+				1.240234
+			],
+			[
+				700,
+				0.543643,
+				1.240234
+			],
+			[
+				750,
+				0.545493,
+				1.240234
+			],
+			[
+				800,
+				0.547344,
+				1.240234
+			],
+			[
+				850,
+				0.549194,
+				1.240234
+			],
+			[
+				900,
+				0.551045,
+				1.240234
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -22381,6 +42469,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Kurale:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.506713,
+				1.478
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22403,6 +42498,28 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=LINE+Seed+JP:ital,wght@0,100;0,400;0,700;0,800&display=block",
+		"metrics": [
+			[
+				100,
+				0.558853,
+				1.1
+			],
+			[
+				400,
+				0.585913,
+				1.1
+			],
+			[
+				700,
+				0.618093,
+				1.1
+			],
+			[
+				800,
+				0.653553,
+				1.1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22425,6 +42542,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=LXGW+Marker+Gothic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.517593,
+				1.18
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22446,6 +42570,24 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=LXGW+WenKai+Mono+TC:ital,wght@0,300;0,400;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.5,
+				1
+			],
+			[
+				400,
+				0.5,
+				1
+			],
+			[
+				700,
+				0.5,
+				1
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -22469,6 +42611,23 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:ital,wght@0,300;0,400;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.539213,
+				1
+			],
+			[
+				400,
+				0.53948,
+				1
+			],
+			[
+				700,
+				0.53948,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22483,6 +42642,13 @@ export default {
 	"La Belle Aurore": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=La+Belle+Aurore:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.488783,
+				1.854492
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22514,6 +42680,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Labrada:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.47554,
+				1.445
+			],
+			[
+				150,
+				0.476617,
+				1.445
+			],
+			[
+				200,
+				0.477693,
+				1.445
+			],
+			[
+				250,
+				0.479455,
+				1.445
+			],
+			[
+				300,
+				0.481216,
+				1.445
+			],
+			[
+				350,
+				0.484055,
+				1.445
+			],
+			[
+				400,
+				0.486893,
+				1.445
+			],
+			[
+				450,
+				0.489494,
+				1.445
+			],
+			[
+				500,
+				0.492094,
+				1.445
+			],
+			[
+				550,
+				0.495344,
+				1.445
+			],
+			[
+				600,
+				0.498595,
+				1.445
+			],
+			[
+				650,
+				0.502497,
+				1.445
+			],
+			[
+				700,
+				0.506398,
+				1.445
+			],
+			[
+				750,
+				0.51111,
+				1.445
+			],
+			[
+				800,
+				0.515823,
+				1.445
+			],
+			[
+				850,
+				0.521511,
+				1.445
+			],
+			[
+				900,
+				0.5272,
+				1.445
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -22547,6 +42800,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lacquer:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.528467,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22559,6 +42819,33 @@ export default {
 	"Laila": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Laila:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.513933,
+				1.55
+			],
+			[
+				400,
+				0.526667,
+				1.55
+			],
+			[
+				500,
+				0.540673,
+				1.55
+			],
+			[
+				600,
+				0.5566,
+				1.55
+			],
+			[
+				700,
+				0.574773,
+				1.55
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22575,6 +42862,13 @@ export default {
 	"Lakki Reddy": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Lakki+Reddy:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.496888,
+				1.663086
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22593,6 +42887,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lalezar:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.469573,
+				1.567
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22609,6 +42910,13 @@ export default {
 			"titl"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lancelot:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.431572,
+				1.10498
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22639,6 +42947,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Langar:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.49096,
+				1.394
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22670,6 +42985,43 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lateef:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=block",
+		"metrics": [
+			[
+				200,
+				0.360635,
+				1.445801
+			],
+			[
+				300,
+				0.3686,
+				1.445801
+			],
+			[
+				400,
+				0.376338,
+				1.445801
+			],
+			[
+				500,
+				0.382604,
+				1.445801
+			],
+			[
+				600,
+				0.388883,
+				1.445801
+			],
+			[
+				700,
+				0.395075,
+				1.445801
+			],
+			[
+				800,
+				0.401257,
+				1.445801
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22694,6 +43046,33 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.48852,
+				1.2
+			],
+			[
+				300,
+				0.49811,
+				1.2
+			],
+			[
+				400,
+				0.509293,
+				1.2
+			],
+			[
+				700,
+				0.518753,
+				1.2
+			],
+			[
+				900,
+				0.527267,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22731,6 +43110,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lavishly+Yours:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.460113,
+				1.6
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22752,6 +43138,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=League+Gothic:wdth@75..100&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.295277,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"width": [
@@ -22770,6 +43163,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=League+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.498785,
+				1.106771
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22796,6 +43196,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.440657,
+				0.92
+			],
+			[
+				150,
+				0.443082,
+				0.92
+			],
+			[
+				200,
+				0.445507,
+				0.92
+			],
+			[
+				250,
+				0.449143,
+				0.92
+			],
+			[
+				300,
+				0.45278,
+				0.92
+			],
+			[
+				350,
+				0.460055,
+				0.92
+			],
+			[
+				400,
+				0.467331,
+				0.92
+			],
+			[
+				450,
+				0.472181,
+				0.92
+			],
+			[
+				500,
+				0.477031,
+				0.92
+			],
+			[
+				550,
+				0.481894,
+				0.92
+			],
+			[
+				600,
+				0.486757,
+				0.92
+			],
+			[
+				650,
+				0.492837,
+				0.92
+			],
+			[
+				700,
+				0.498916,
+				0.92
+			],
+			[
+				750,
+				0.504994,
+				0.92
+			],
+			[
+				800,
+				0.511071,
+				0.92
+			],
+			[
+				850,
+				0.515934,
+				0.92
+			],
+			[
+				900,
+				0.520797,
+				0.92
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -22813,6 +43300,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Leckerli+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.54828,
+				1.345
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22828,6 +43322,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ledger:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.591373,
+				1.391
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22883,6 +43384,19 @@ export default {
 			}
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lekton:ital,wght@0,400;0,700;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5,
+				1
+			],
+			[
+				700,
+				0.5,
+				1
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -22913,6 +43427,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lemon:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.63894,
+				1.306
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -22936,6 +43457,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lemonada:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.619647,
+				1.998
+			],
+			[
+				350,
+				0.62226,
+				1.998
+			],
+			[
+				400,
+				0.624873,
+				1.998
+			],
+			[
+				450,
+				0.628102,
+				1.998
+			],
+			[
+				500,
+				0.631331,
+				1.998
+			],
+			[
+				550,
+				0.634559,
+				1.998
+			],
+			[
+				600,
+				0.637787,
+				1.998
+			],
+			[
+				650,
+				0.641897,
+				1.998
+			],
+			[
+				700,
+				0.646007,
+				1.998
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -22967,6 +43535,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.508267,
+				1.25
+			],
+			[
+				150,
+				0.515254,
+				1.25
+			],
+			[
+				200,
+				0.522241,
+				1.25
+			],
+			[
+				250,
+				0.52908,
+				1.25
+			],
+			[
+				300,
+				0.535919,
+				1.25
+			],
+			[
+				350,
+				0.543246,
+				1.25
+			],
+			[
+				400,
+				0.550573,
+				1.25
+			],
+			[
+				450,
+				0.555867,
+				1.25
+			],
+			[
+				500,
+				0.56116,
+				1.25
+			],
+			[
+				550,
+				0.565974,
+				1.25
+			],
+			[
+				600,
+				0.570788,
+				1.25
+			],
+			[
+				650,
+				0.575602,
+				1.25
+			],
+			[
+				700,
+				0.580417,
+				1.25
+			],
+			[
+				750,
+				0.587153,
+				1.25
+			],
+			[
+				800,
+				0.593889,
+				1.25
+			],
+			[
+				850,
+				0.598221,
+				1.25
+			],
+			[
+				900,
+				0.602553,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -22998,6 +43653,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.508267,
+				1.25
+			],
+			[
+				150,
+				0.515254,
+				1.25
+			],
+			[
+				200,
+				0.522241,
+				1.25
+			],
+			[
+				250,
+				0.52908,
+				1.25
+			],
+			[
+				300,
+				0.535919,
+				1.25
+			],
+			[
+				350,
+				0.543246,
+				1.25
+			],
+			[
+				400,
+				0.550573,
+				1.25
+			],
+			[
+				450,
+				0.555867,
+				1.25
+			],
+			[
+				500,
+				0.56116,
+				1.25
+			],
+			[
+				550,
+				0.565974,
+				1.25
+			],
+			[
+				600,
+				0.570788,
+				1.25
+			],
+			[
+				650,
+				0.575602,
+				1.25
+			],
+			[
+				700,
+				0.580417,
+				1.25
+			],
+			[
+				750,
+				0.587153,
+				1.25
+			],
+			[
+				800,
+				0.593889,
+				1.25
+			],
+			[
+				850,
+				0.598221,
+				1.25
+			],
+			[
+				900,
+				0.602553,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -23029,6 +43771,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lexend+Exa:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.629933,
+				1.25
+			],
+			[
+				150,
+				0.636877,
+				1.25
+			],
+			[
+				200,
+				0.643821,
+				1.25
+			],
+			[
+				250,
+				0.650616,
+				1.25
+			],
+			[
+				300,
+				0.657412,
+				1.25
+			],
+			[
+				350,
+				0.664692,
+				1.25
+			],
+			[
+				400,
+				0.671973,
+				1.25
+			],
+			[
+				450,
+				0.677315,
+				1.25
+			],
+			[
+				500,
+				0.682656,
+				1.25
+			],
+			[
+				550,
+				0.687514,
+				1.25
+			],
+			[
+				600,
+				0.692372,
+				1.25
+			],
+			[
+				650,
+				0.69723,
+				1.25
+			],
+			[
+				700,
+				0.702088,
+				1.25
+			],
+			[
+				750,
+				0.708886,
+				1.25
+			],
+			[
+				800,
+				0.715684,
+				1.25
+			],
+			[
+				850,
+				0.720055,
+				1.25
+			],
+			[
+				900,
+				0.724427,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -23060,6 +43889,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lexend+Giga:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.678647,
+				1.25
+			],
+			[
+				150,
+				0.68557,
+				1.25
+			],
+			[
+				200,
+				0.692493,
+				1.25
+			],
+			[
+				250,
+				0.699268,
+				1.25
+			],
+			[
+				300,
+				0.706043,
+				1.25
+			],
+			[
+				350,
+				0.713301,
+				1.25
+			],
+			[
+				400,
+				0.72056,
+				1.25
+			],
+			[
+				450,
+				0.725922,
+				1.25
+			],
+			[
+				500,
+				0.731285,
+				1.25
+			],
+			[
+				550,
+				0.736162,
+				1.25
+			],
+			[
+				600,
+				0.741039,
+				1.25
+			],
+			[
+				650,
+				0.745916,
+				1.25
+			],
+			[
+				700,
+				0.750794,
+				1.25
+			],
+			[
+				750,
+				0.757618,
+				1.25
+			],
+			[
+				800,
+				0.764443,
+				1.25
+			],
+			[
+				850,
+				0.768831,
+				1.25
+			],
+			[
+				900,
+				0.77322,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -23091,6 +44007,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.703,
+				1.25
+			],
+			[
+				150,
+				0.709914,
+				1.25
+			],
+			[
+				200,
+				0.716829,
+				1.25
+			],
+			[
+				250,
+				0.723595,
+				1.25
+			],
+			[
+				300,
+				0.730361,
+				1.25
+			],
+			[
+				350,
+				0.737611,
+				1.25
+			],
+			[
+				400,
+				0.74486,
+				1.25
+			],
+			[
+				450,
+				0.750226,
+				1.25
+			],
+			[
+				500,
+				0.755593,
+				1.25
+			],
+			[
+				550,
+				0.760474,
+				1.25
+			],
+			[
+				600,
+				0.765355,
+				1.25
+			],
+			[
+				650,
+				0.770235,
+				1.25
+			],
+			[
+				700,
+				0.775117,
+				1.25
+			],
+			[
+				750,
+				0.781946,
+				1.25
+			],
+			[
+				800,
+				0.788776,
+				1.25
+			],
+			[
+				850,
+				0.793168,
+				1.25
+			],
+			[
+				900,
+				0.79756,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -23122,6 +44125,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lexend+Peta:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.727273,
+				1.25
+			],
+			[
+				150,
+				0.734182,
+				1.25
+			],
+			[
+				200,
+				0.741091,
+				1.25
+			],
+			[
+				250,
+				0.747852,
+				1.25
+			],
+			[
+				300,
+				0.754613,
+				1.25
+			],
+			[
+				350,
+				0.761856,
+				1.25
+			],
+			[
+				400,
+				0.7691,
+				1.25
+			],
+			[
+				450,
+				0.774472,
+				1.25
+			],
+			[
+				500,
+				0.779844,
+				1.25
+			],
+			[
+				550,
+				0.78473,
+				1.25
+			],
+			[
+				600,
+				0.789615,
+				1.25
+			],
+			[
+				650,
+				0.794501,
+				1.25
+			],
+			[
+				700,
+				0.799387,
+				1.25
+			],
+			[
+				750,
+				0.806224,
+				1.25
+			],
+			[
+				800,
+				0.813061,
+				1.25
+			],
+			[
+				850,
+				0.817457,
+				1.25
+			],
+			[
+				900,
+				0.821853,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -23153,6 +44243,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lexend+Tera:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.751593,
+				1.25
+			],
+			[
+				150,
+				0.758493,
+				1.25
+			],
+			[
+				200,
+				0.765392,
+				1.25
+			],
+			[
+				250,
+				0.772143,
+				1.25
+			],
+			[
+				300,
+				0.778894,
+				1.25
+			],
+			[
+				350,
+				0.786127,
+				1.25
+			],
+			[
+				400,
+				0.79336,
+				1.25
+			],
+			[
+				450,
+				0.798752,
+				1.25
+			],
+			[
+				500,
+				0.804145,
+				1.25
+			],
+			[
+				550,
+				0.809049,
+				1.25
+			],
+			[
+				600,
+				0.813953,
+				1.25
+			],
+			[
+				650,
+				0.818857,
+				1.25
+			],
+			[
+				700,
+				0.823762,
+				1.25
+			],
+			[
+				750,
+				0.830625,
+				1.25
+			],
+			[
+				800,
+				0.837487,
+				1.25
+			],
+			[
+				850,
+				0.8419,
+				1.25
+			],
+			[
+				900,
+				0.846313,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -23184,6 +44361,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lexend+Zetta:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.812433,
+				1.25
+			],
+			[
+				150,
+				0.819311,
+				1.25
+			],
+			[
+				200,
+				0.826188,
+				1.25
+			],
+			[
+				250,
+				0.832918,
+				1.25
+			],
+			[
+				300,
+				0.839647,
+				1.25
+			],
+			[
+				350,
+				0.846857,
+				1.25
+			],
+			[
+				400,
+				0.854067,
+				1.25
+			],
+			[
+				450,
+				0.859479,
+				1.25
+			],
+			[
+				500,
+				0.864891,
+				1.25
+			],
+			[
+				550,
+				0.869813,
+				1.25
+			],
+			[
+				600,
+				0.874735,
+				1.25
+			],
+			[
+				650,
+				0.879657,
+				1.25
+			],
+			[
+				700,
+				0.88458,
+				1.25
+			],
+			[
+				750,
+				0.891467,
+				1.25
+			],
+			[
+				800,
+				0.898355,
+				1.25
+			],
+			[
+				850,
+				0.902784,
+				1.25
+			],
+			[
+				900,
+				0.907213,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -23201,6 +44465,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libertinus+Keyboard:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				1.009333,
+				1.14
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23218,6 +44489,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libertinus+Mono:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.64,
+				1.14
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23234,6 +44512,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libertinus+Sans:ital,wght@0,400;0,700;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.475627,
+				1.14
+			],
+			[
+				700,
+				0.526893,
+				1.14
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23283,6 +44573,23 @@ export default {
 			}
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.477313,
+				1.14
+			],
+			[
+				600,
+				0.492827,
+				1.14
+			],
+			[
+				700,
+				0.52768,
+				1.14
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23309,6 +44616,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libertinus+Serif+Display:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.471273,
+				1.14
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23324,6 +44638,13 @@ export default {
 			"calt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libre+Barcode+128:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.33,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23339,6 +44660,13 @@ export default {
 			"calt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libre+Barcode+128+Text:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.33,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23354,6 +44682,13 @@ export default {
 			"calt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libre+Barcode+39:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.48,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23369,6 +44704,13 @@ export default {
 			"calt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.7296,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23384,6 +44726,13 @@ export default {
 			"calt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Extended+Text:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.7296,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23399,6 +44748,13 @@ export default {
 			"calt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.48,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23415,6 +44771,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libre+Barcode+EAN13+Text:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.159349,
+				0.9375
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23456,6 +44819,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.59742,
+				1.24
+			],
+			[
+				450,
+				0.601893,
+				1.24
+			],
+			[
+				500,
+				0.606365,
+				1.24
+			],
+			[
+				550,
+				0.608602,
+				1.24
+			],
+			[
+				600,
+				0.610838,
+				1.24
+			],
+			[
+				650,
+				0.613969,
+				1.24
+			],
+			[
+				700,
+				0.6171,
+				1.24
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -23490,6 +44890,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libre+Bodoni:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.523353,
+				1.25
+			],
+			[
+				450,
+				0.529107,
+				1.25
+			],
+			[
+				500,
+				0.53486,
+				1.25
+			],
+			[
+				550,
+				0.536778,
+				1.25
+			],
+			[
+				600,
+				0.538696,
+				1.25
+			],
+			[
+				650,
+				0.542531,
+				1.25
+			],
+			[
+				700,
+				0.546367,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -23523,6 +44960,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libre+Caslon+Display:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.451893,
+				1.236
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23561,6 +45005,18 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.55278,
+				1.23
+			],
+			[
+				700,
+				0.597047,
+				1.23
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23593,6 +45049,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.528247,
+				1.212
+			],
+			[
+				150,
+				0.529704,
+				1.212
+			],
+			[
+				200,
+				0.531161,
+				1.212
+			],
+			[
+				250,
+				0.533492,
+				1.212
+			],
+			[
+				300,
+				0.535822,
+				1.212
+			],
+			[
+				350,
+				0.538446,
+				1.212
+			],
+			[
+				400,
+				0.54107,
+				1.212
+			],
+			[
+				450,
+				0.544275,
+				1.212
+			],
+			[
+				500,
+				0.547479,
+				1.212
+			],
+			[
+				550,
+				0.550977,
+				1.212
+			],
+			[
+				600,
+				0.554474,
+				1.212
+			],
+			[
+				650,
+				0.557972,
+				1.212
+			],
+			[
+				700,
+				0.561469,
+				1.212
+			],
+			[
+				750,
+				0.564965,
+				1.212
+			],
+			[
+				800,
+				0.568462,
+				1.212
+			],
+			[
+				850,
+				0.571667,
+				1.212
+			],
+			[
+				900,
+				0.574873,
+				1.212
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -23622,6 +45165,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Licorice:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.39994,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23646,6 +45196,23 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Life+Savers:ital,wght@0,400;0,700;0,800&display=block",
+		"metrics": [
+			[
+				400,
+				0.490647,
+				1.222
+			],
+			[
+				700,
+				0.507973,
+				1.222
+			],
+			[
+				800,
+				0.519667,
+				1.222
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23706,6 +45273,74 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lilex:wght@100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.3
+			],
+			[
+				150,
+				0.6,
+				1.3
+			],
+			[
+				200,
+				0.6,
+				1.3
+			],
+			[
+				250,
+				0.6,
+				1.3
+			],
+			[
+				300,
+				0.6,
+				1.3
+			],
+			[
+				350,
+				0.6,
+				1.3
+			],
+			[
+				400,
+				0.6,
+				1.3
+			],
+			[
+				450,
+				0.6,
+				1.3
+			],
+			[
+				500,
+				0.6,
+				1.3
+			],
+			[
+				550,
+				0.6,
+				1.3
+			],
+			[
+				600,
+				0.6,
+				1.3
+			],
+			[
+				650,
+				0.6,
+				1.3
+			],
+			[
+				700,
+				0.6,
+				1.3
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -23729,6 +45364,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lilita+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.488993,
+				1.141
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23744,6 +45386,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lily+Script+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.503927,
+				1.376
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23756,6 +45405,13 @@ export default {
 	"Limelight": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Limelight:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.588835,
+				1.219727
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23810,6 +45466,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Linden+Hill:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.46237,
+				1.3479
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23831,6 +45494,48 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lisu+Bosa:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				200,
+				0.477473,
+				1
+			],
+			[
+				300,
+				0.47994,
+				1
+			],
+			[
+				400,
+				0.48156,
+				1
+			],
+			[
+				500,
+				0.48266,
+				1
+			],
+			[
+				600,
+				0.483747,
+				1
+			],
+			[
+				700,
+				0.485213,
+				1
+			],
+			[
+				800,
+				0.486093,
+				1
+			],
+			[
+				900,
+				0.48724,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23870,6 +45575,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Liter:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.505487,
+				1.426
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -23916,6 +45628,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Literata:opsz,wght@7..72,200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.5109,
+				1.485
+			],
+			[
+				250,
+				0.519263,
+				1.485
+			],
+			[
+				300,
+				0.527627,
+				1.485
+			],
+			[
+				350,
+				0.53599,
+				1.485
+			],
+			[
+				400,
+				0.544353,
+				1.485
+			],
+			[
+				450,
+				0.549051,
+				1.485
+			],
+			[
+				500,
+				0.553749,
+				1.485
+			],
+			[
+				550,
+				0.55786,
+				1.485
+			],
+			[
+				600,
+				0.561972,
+				1.485
+			],
+			[
+				650,
+				0.567846,
+				1.485
+			],
+			[
+				700,
+				0.573722,
+				1.485
+			],
+			[
+				750,
+				0.582531,
+				1.485
+			],
+			[
+				800,
+				0.59134,
+				1.485
+			],
+			[
+				850,
+				0.597213,
+				1.485
+			],
+			[
+				900,
+				0.603087,
+				1.485
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -23936,6 +45725,13 @@ export default {
 	"Liu Jian Mao Cao": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.43238,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24007,6 +45803,48 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Livvic:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.49118,
+				1.255
+			],
+			[
+				200,
+				0.4959,
+				1.255
+			],
+			[
+				300,
+				0.5026,
+				1.255
+			],
+			[
+				400,
+				0.511047,
+				1.255
+			],
+			[
+				500,
+				0.521787,
+				1.255
+			],
+			[
+				600,
+				0.534447,
+				1.255
+			],
+			[
+				700,
+				0.548907,
+				1.255
+			],
+			[
+				900,
+				0.564287,
+				1.255
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24050,6 +45888,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lobster:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.45284,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24068,6 +45913,18 @@ export default {
 			"salt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.443547,
+				1.25
+			],
+			[
+				700,
+				0.465713,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24096,6 +45953,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Londrina+Outline:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.41548,
+				1.183
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24111,6 +45975,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Londrina+Shadow:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.415607,
+				1.183
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24126,6 +45997,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Londrina+Sketch:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.415627,
+				1.183
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24141,6 +46019,28 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Londrina+Solid:ital,wght@0,100;0,300;0,400;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.41338,
+				1.183
+			],
+			[
+				300,
+				0.414627,
+				1.183
+			],
+			[
+				400,
+				0.415607,
+				1.183
+			],
+			[
+				900,
+				0.415607,
+				1.183
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24159,6 +46059,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Long+Cang:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.415653,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24184,6 +46091,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lora:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.528573,
+				1.28
+			],
+			[
+				450,
+				0.531139,
+				1.28
+			],
+			[
+				500,
+				0.533704,
+				1.28
+			],
+			[
+				550,
+				0.53627,
+				1.28
+			],
+			[
+				600,
+				0.538836,
+				1.28
+			],
+			[
+				650,
+				0.541401,
+				1.28
+			],
+			[
+				700,
+				0.543967,
+				1.28
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -24217,6 +46161,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Love+Light:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.422713,
+				1.4
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24229,6 +46180,13 @@ export default {
 	"Love Ya Like A Sister": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Love+Ya+Like+A+Sister:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.479232,
+				1.245117
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24241,6 +46199,13 @@ export default {
 	"Loved by the King": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Loved+by+the+King:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.338857,
+				1.726074
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24262,6 +46227,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lovers+Quarrel:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.33246,
+				1.127
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24282,6 +46254,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Luckiest+Guy:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.535658,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24294,6 +46273,13 @@ export default {
 	"Lugrasimo": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Lugrasimo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.622767,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24306,6 +46292,13 @@ export default {
 	"Lumanosimo": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Lumanosimo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.625732,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24322,6 +46315,18 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lunasima:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.555742,
+				1.069824
+			],
+			[
+				700,
+				0.589395,
+				1.069824
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24338,6 +46343,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lusitana:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.50538,
+				1.297
+			],
+			[
+				700,
+				0.52128,
+				1.297
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24354,6 +46371,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Lustria:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.531013,
+				1.182
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24378,6 +46402,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Luxurious+Roman:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.524873,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24407,6 +46438,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Luxurious+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.359593,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24433,6 +46471,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=M+PLUS+1:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.545293,
+				1
+			],
+			[
+				150,
+				0.546468,
+				1
+			],
+			[
+				200,
+				0.547642,
+				1
+			],
+			[
+				250,
+				0.548853,
+				1
+			],
+			[
+				300,
+				0.550063,
+				1
+			],
+			[
+				350,
+				0.55243,
+				1
+			],
+			[
+				400,
+				0.554796,
+				1
+			],
+			[
+				450,
+				0.557128,
+				1
+			],
+			[
+				500,
+				0.559459,
+				1
+			],
+			[
+				550,
+				0.560692,
+				1
+			],
+			[
+				600,
+				0.561925,
+				1
+			],
+			[
+				650,
+				0.563215,
+				1
+			],
+			[
+				700,
+				0.564505,
+				1
+			],
+			[
+				750,
+				0.567046,
+				1
+			],
+			[
+				800,
+				0.569588,
+				1
+			],
+			[
+				850,
+				0.57211,
+				1
+			],
+			[
+				900,
+				0.574633,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -24459,6 +46584,74 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.5,
+				1.235
+			],
+			[
+				150,
+				0.5,
+				1.235
+			],
+			[
+				200,
+				0.5,
+				1.235
+			],
+			[
+				250,
+				0.5,
+				1.235
+			],
+			[
+				300,
+				0.5,
+				1.235
+			],
+			[
+				350,
+				0.5,
+				1.235
+			],
+			[
+				400,
+				0.5,
+				1.235
+			],
+			[
+				450,
+				0.5,
+				1.235
+			],
+			[
+				500,
+				0.5,
+				1.235
+			],
+			[
+				550,
+				0.5,
+				1.235
+			],
+			[
+				600,
+				0.5,
+				1.235
+			],
+			[
+				650,
+				0.5,
+				1.235
+			],
+			[
+				700,
+				0.5,
+				1.235
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -24477,6 +46670,43 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=M+PLUS+1p:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.523807,
+				1.09
+			],
+			[
+				300,
+				0.533367,
+				1.09
+			],
+			[
+				400,
+				0.54278,
+				1.09
+			],
+			[
+				500,
+				0.55234,
+				1.09
+			],
+			[
+				700,
+				0.566187,
+				1.09
+			],
+			[
+				800,
+				0.57994,
+				1.09
+			],
+			[
+				900,
+				0.593787,
+				1.09
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24509,6 +46739,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.545887,
+				1
+			],
+			[
+				150,
+				0.547164,
+				1
+			],
+			[
+				200,
+				0.548442,
+				1
+			],
+			[
+				250,
+				0.549759,
+				1
+			],
+			[
+				300,
+				0.551076,
+				1
+			],
+			[
+				350,
+				0.553686,
+				1
+			],
+			[
+				400,
+				0.556296,
+				1
+			],
+			[
+				450,
+				0.558868,
+				1
+			],
+			[
+				500,
+				0.561439,
+				1
+			],
+			[
+				550,
+				0.562626,
+				1
+			],
+			[
+				600,
+				0.563813,
+				1
+			],
+			[
+				650,
+				0.565054,
+				1
+			],
+			[
+				700,
+				0.566296,
+				1
+			],
+			[
+				750,
+				0.568743,
+				1
+			],
+			[
+				800,
+				0.571189,
+				1
+			],
+			[
+				850,
+				0.573618,
+				1
+			],
+			[
+				900,
+				0.576047,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -24533,6 +46850,74 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=M+PLUS+Code+Latin:wdth,wght@100..125,100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.5,
+				1.235
+			],
+			[
+				150,
+				0.5,
+				1.235
+			],
+			[
+				200,
+				0.5,
+				1.235
+			],
+			[
+				250,
+				0.5,
+				1.235
+			],
+			[
+				300,
+				0.5,
+				1.235
+			],
+			[
+				350,
+				0.5,
+				1.235
+			],
+			[
+				400,
+				0.5,
+				1.235
+			],
+			[
+				450,
+				0.5,
+				1.235
+			],
+			[
+				500,
+				0.5,
+				1.235
+			],
+			[
+				550,
+				0.5,
+				1.235
+			],
+			[
+				600,
+				0.5,
+				1.235
+			],
+			[
+				650,
+				0.5,
+				1.235
+			],
+			[
+				700,
+				0.5,
+				1.235
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -24557,6 +46942,43 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.510227,
+				1.09
+			],
+			[
+				300,
+				0.518167,
+				1.09
+			],
+			[
+				400,
+				0.5261,
+				1.09
+			],
+			[
+				500,
+				0.534467,
+				1.09
+			],
+			[
+				700,
+				0.54876,
+				1.09
+			],
+			[
+				800,
+				0.563313,
+				1.09
+			],
+			[
+				900,
+				0.57762,
+				1.09
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24589,6 +47011,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=M+PLUS+U:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.582613,
+				1
+			],
+			[
+				150,
+				0.583284,
+				1
+			],
+			[
+				200,
+				0.583955,
+				1
+			],
+			[
+				250,
+				0.584647,
+				1
+			],
+			[
+				300,
+				0.585338,
+				1
+			],
+			[
+				350,
+				0.586863,
+				1
+			],
+			[
+				400,
+				0.588388,
+				1
+			],
+			[
+				450,
+				0.58989,
+				1
+			],
+			[
+				500,
+				0.591392,
+				1
+			],
+			[
+				550,
+				0.592118,
+				1
+			],
+			[
+				600,
+				0.592843,
+				1
+			],
+			[
+				650,
+				0.593602,
+				1
+			],
+			[
+				700,
+				0.594361,
+				1
+			],
+			[
+				750,
+				0.595856,
+				1
+			],
+			[
+				800,
+				0.597351,
+				1
+			],
+			[
+				850,
+				0.598836,
+				1
+			],
+			[
+				900,
+				0.60032,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -24607,6 +47116,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ma+Shan+Zheng:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.353547,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24622,6 +47138,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Macondo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.481313,
+				1.18
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24637,6 +47160,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Macondo+Swash+Caps:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.485767,
+				1.18
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24658,6 +47188,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mada:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.443713,
+				1.3
+			],
+			[
+				250,
+				0.446698,
+				1.3
+			],
+			[
+				300,
+				0.449682,
+				1.3
+			],
+			[
+				350,
+				0.457681,
+				1.3
+			],
+			[
+				400,
+				0.46568,
+				1.3
+			],
+			[
+				450,
+				0.469263,
+				1.3
+			],
+			[
+				500,
+				0.472846,
+				1.3
+			],
+			[
+				550,
+				0.476189,
+				1.3
+			],
+			[
+				600,
+				0.479532,
+				1.3
+			],
+			[
+				650,
+				0.486221,
+				1.3
+			],
+			[
+				700,
+				0.49291,
+				1.3
+			],
+			[
+				750,
+				0.49518,
+				1.3
+			],
+			[
+				800,
+				0.49745,
+				1.3
+			],
+			[
+				850,
+				0.500435,
+				1.3
+			],
+			[
+				900,
+				0.50342,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -24679,6 +47286,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Madimi+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.490533,
+				1.32
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24691,6 +47305,18 @@ export default {
 	"Magra": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Magra:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.45736,
+				1.215
+			],
+			[
+				700,
+				0.4726,
+				1.215
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24712,6 +47338,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Maiden+Orange:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.378854,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24733,6 +47366,38 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Maitree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				200,
+				0.514887,
+				1.2
+			],
+			[
+				300,
+				0.530967,
+				1.2
+			],
+			[
+				400,
+				0.539673,
+				1.2
+			],
+			[
+				500,
+				0.550467,
+				1.2
+			],
+			[
+				600,
+				0.56386,
+				1.2
+			],
+			[
+				700,
+				0.577427,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24760,6 +47425,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Major+Mono+Display:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.74,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24782,6 +47454,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mako:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.48708,
+				1.308105
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24803,6 +47482,38 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=block",
+		"metrics": [
+			[
+				200,
+				0.528473,
+				1.3
+			],
+			[
+				300,
+				0.53688,
+				1.3
+			],
+			[
+				400,
+				0.544953,
+				1.3
+			],
+			[
+				500,
+				0.55184,
+				1.3
+			],
+			[
+				600,
+				0.55878,
+				1.3
+			],
+			[
+				700,
+				0.565667,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24831,6 +47542,13 @@ export default {
 	"Mallanna": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Mallanna:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.468307,
+				1.849425
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24851,6 +47569,13 @@ export default {
 			"ss02"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Maname:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.485013,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24863,6 +47588,13 @@ export default {
 	"Mandali": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Mandali:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.523367,
+				1.977215
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24882,6 +47614,23 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Manjari:ital,wght@0,100;0,400;0,700&display=block",
+		"metrics": [
+			[
+				100,
+				0.494801,
+				1.074219
+			],
+			[
+				400,
+				0.509375,
+				1.098633
+			],
+			[
+				700,
+				0.517064,
+				1.171875
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24913,6 +47662,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.495073,
+				1.366
+			],
+			[
+				250,
+				0.499533,
+				1.366
+			],
+			[
+				300,
+				0.503992,
+				1.366
+			],
+			[
+				350,
+				0.508452,
+				1.366
+			],
+			[
+				400,
+				0.512911,
+				1.366
+			],
+			[
+				450,
+				0.517371,
+				1.366
+			],
+			[
+				500,
+				0.52183,
+				1.366
+			],
+			[
+				550,
+				0.526289,
+				1.366
+			],
+			[
+				600,
+				0.530749,
+				1.366
+			],
+			[
+				650,
+				0.535208,
+				1.366
+			],
+			[
+				700,
+				0.539668,
+				1.366
+			],
+			[
+				750,
+				0.544127,
+				1.366
+			],
+			[
+				800,
+				0.548587,
+				1.366
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -24941,6 +47757,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mansalva:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5164,
+				1.578
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -24973,6 +47796,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Manuale:wght@300..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.48524,
+				1.437
+			],
+			[
+				350,
+				0.485947,
+				1.437
+			],
+			[
+				400,
+				0.486653,
+				1.437
+			],
+			[
+				450,
+				0.48744,
+				1.437
+			],
+			[
+				500,
+				0.488227,
+				1.437
+			],
+			[
+				550,
+				0.489112,
+				1.437
+			],
+			[
+				600,
+				0.489997,
+				1.437
+			],
+			[
+				650,
+				0.490882,
+				1.437
+			],
+			[
+				700,
+				0.491767,
+				1.437
+			],
+			[
+				750,
+				0.492667,
+				1.437
+			],
+			[
+				800,
+				0.493567,
+				1.437
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -25003,6 +47883,13 @@ export default {
 			"salt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Manufacturing+Consent:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.44335,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25023,6 +47910,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Marcellus:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.514391,
+				1.253906
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25043,6 +47937,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Marcellus+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.522985,
+				1.253906
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25058,6 +47959,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Marck+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.471413,
+				1.249
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25078,6 +47986,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Margarine:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.495794,
+				1.344238
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25106,6 +48021,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Marhey:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.552967,
+				1.74
+			],
+			[
+				350,
+				0.558822,
+				1.74
+			],
+			[
+				400,
+				0.564677,
+				1.74
+			],
+			[
+				450,
+				0.570532,
+				1.74
+			],
+			[
+				500,
+				0.576387,
+				1.74
+			],
+			[
+				550,
+				0.582242,
+				1.74
+			],
+			[
+				600,
+				0.588097,
+				1.74
+			],
+			[
+				650,
+				0.593952,
+				1.74
+			],
+			[
+				700,
+				0.599807,
+				1.74
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -25136,6 +48098,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Markazi+Text:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.379775,
+				1.200195
+			],
+			[
+				450,
+				0.381206,
+				1.200195
+			],
+			[
+				500,
+				0.382637,
+				1.200195
+			],
+			[
+				550,
+				0.384458,
+				1.200195
+			],
+			[
+				600,
+				0.386279,
+				1.200195
+			],
+			[
+				650,
+				0.38771,
+				1.200195
+			],
+			[
+				700,
+				0.389141,
+				1.200195
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -25150,6 +48149,13 @@ export default {
 	"Marko One": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Marko+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.590723,
+				1.34082
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25171,6 +48177,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Marmelad:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.51436,
+				1.193
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25224,6 +48237,43 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Martel:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				200,
+				0.564987,
+				1.687
+			],
+			[
+				300,
+				0.559873,
+				1.687
+			],
+			[
+				400,
+				0.5643,
+				1.687
+			],
+			[
+				600,
+				0.56282,
+				1.687
+			],
+			[
+				700,
+				0.57514,
+				1.687
+			],
+			[
+				800,
+				0.580393,
+				1.687
+			],
+			[
+				900,
+				0.598033,
+				1.687
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25250,6 +48300,43 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Martel+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				200,
+				0.51464,
+				1.824
+			],
+			[
+				300,
+				0.529913,
+				1.824
+			],
+			[
+				400,
+				0.53998,
+				1.824
+			],
+			[
+				600,
+				0.555313,
+				1.824
+			],
+			[
+				700,
+				0.57048,
+				1.824
+			],
+			[
+				800,
+				0.585767,
+				1.824
+			],
+			[
+				900,
+				0.60104,
+				1.824
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25283,6 +48370,84 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Martian+Mono:wdth,wght@75..112.5,100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.7,
+				1.2
+			],
+			[
+				150,
+				0.7,
+				1.2
+			],
+			[
+				200,
+				0.7,
+				1.2
+			],
+			[
+				250,
+				0.7,
+				1.2
+			],
+			[
+				300,
+				0.7,
+				1.2
+			],
+			[
+				350,
+				0.7,
+				1.2
+			],
+			[
+				400,
+				0.7,
+				1.2
+			],
+			[
+				450,
+				0.7,
+				1.2
+			],
+			[
+				500,
+				0.7,
+				1.2
+			],
+			[
+				550,
+				0.7,
+				1.2
+			],
+			[
+				600,
+				0.7,
+				1.2
+			],
+			[
+				650,
+				0.7,
+				1.2
+			],
+			[
+				700,
+				0.7,
+				1.2
+			],
+			[
+				750,
+				0.7,
+				1.2
+			],
+			[
+				800,
+				0.7,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -25306,6 +48471,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Marvel:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.37984,
+				1.21
+			],
+			[
+				700,
+				0.380687,
+				1.21
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25338,6 +48515,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Matangi:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.510173,
+				1.56
+			],
+			[
+				350,
+				0.517706,
+				1.56
+			],
+			[
+				400,
+				0.525238,
+				1.56
+			],
+			[
+				450,
+				0.53277,
+				1.56
+			],
+			[
+				500,
+				0.540302,
+				1.56
+			],
+			[
+				550,
+				0.547834,
+				1.56
+			],
+			[
+				600,
+				0.555367,
+				1.56
+			],
+			[
+				650,
+				0.562899,
+				1.56
+			],
+			[
+				700,
+				0.570431,
+				1.56
+			],
+			[
+				750,
+				0.577963,
+				1.56
+			],
+			[
+				800,
+				0.585496,
+				1.56
+			],
+			[
+				850,
+				0.593028,
+				1.56
+			],
+			[
+				900,
+				0.60056,
+				1.56
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -25375,6 +48619,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mate:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.492627,
+				1.22
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25407,6 +48658,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mate+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.50966,
+				1.22
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25428,6 +48686,13 @@ export default {
 			"ss03"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Matemasie:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.613307,
+				1.48
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25452,6 +48717,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.519427,
+				1.175
+			],
+			[
+				450,
+				0.52566,
+				1.175
+			],
+			[
+				500,
+				0.531893,
+				1.175
+			],
+			[
+				550,
+				0.53605,
+				1.175
+			],
+			[
+				600,
+				0.540206,
+				1.175
+			],
+			[
+				650,
+				0.544363,
+				1.175
+			],
+			[
+				700,
+				0.54852,
+				1.175
+			],
+			[
+				750,
+				0.551636,
+				1.175
+			],
+			[
+				800,
+				0.554752,
+				1.175
+			],
+			[
+				850,
+				0.557869,
+				1.175
+			],
+			[
+				900,
+				0.560987,
+				1.175
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -25474,6 +48796,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=McLaren:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.563206,
+				1.43457
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25495,6 +48824,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mea+Culpa:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.485427,
+				1.4
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25507,6 +48843,13 @@ export default {
 	"Meddon": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Meddon:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.740492,
+				2.10791
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25519,6 +48862,13 @@ export default {
 	"MedievalSharp": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=MedievalSharp:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52278,
+				1.129883
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25534,6 +48884,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Medula+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.27814,
+				1.008
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25546,6 +48903,13 @@ export default {
 	"Meera Inimai": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Meera+Inimai:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.498424,
+				1.089844
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25558,6 +48922,13 @@ export default {
 	"Megrim": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Megrim:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.510153,
+				1.09
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25570,6 +48941,13 @@ export default {
 	"Meie Script": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Meie+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.551602,
+				1.266602
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25599,6 +48977,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Menbere:wght@100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.52724,
+				1.567
+			],
+			[
+				150,
+				0.531365,
+				1.567
+			],
+			[
+				200,
+				0.53549,
+				1.567
+			],
+			[
+				250,
+				0.539065,
+				1.567
+			],
+			[
+				300,
+				0.54264,
+				1.567
+			],
+			[
+				350,
+				0.54649,
+				1.567
+			],
+			[
+				400,
+				0.55034,
+				1.567
+			],
+			[
+				450,
+				0.554443,
+				1.567
+			],
+			[
+				500,
+				0.558547,
+				1.567
+			],
+			[
+				550,
+				0.56265,
+				1.567
+			],
+			[
+				600,
+				0.566754,
+				1.567
+			],
+			[
+				650,
+				0.57031,
+				1.567
+			],
+			[
+				700,
+				0.573867,
+				1.567
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -25631,6 +49076,13 @@ export default {
 			"titl"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Meow+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.462867,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25658,6 +49110,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.546987,
+				1.444
+			],
+			[
+				350,
+				0.55001,
+				1.444
+			],
+			[
+				400,
+				0.553033,
+				1.444
+			],
+			[
+				450,
+				0.553269,
+				1.444
+			],
+			[
+				500,
+				0.553504,
+				1.444
+			],
+			[
+				550,
+				0.553857,
+				1.444
+			],
+			[
+				600,
+				0.55421,
+				1.444
+			],
+			[
+				650,
+				0.554398,
+				1.444
+			],
+			[
+				700,
+				0.554589,
+				1.444
+			],
+			[
+				750,
+				0.563023,
+				1.444
+			],
+			[
+				800,
+				0.571456,
+				1.444
+			],
+			[
+				850,
+				0.576015,
+				1.444
+			],
+			[
+				900,
+				0.580573,
+				1.444
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -25707,6 +49226,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Merriweather:opsz,wdth,wght@18..144,87..112,300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.54157,
+				1.257
+			],
+			[
+				350,
+				0.545937,
+				1.257
+			],
+			[
+				400,
+				0.550304,
+				1.257
+			],
+			[
+				450,
+				0.55116,
+				1.257
+			],
+			[
+				500,
+				0.552017,
+				1.257
+			],
+			[
+				550,
+				0.55373,
+				1.257
+			],
+			[
+				600,
+				0.555443,
+				1.257
+			],
+			[
+				650,
+				0.559637,
+				1.257
+			],
+			[
+				700,
+				0.563832,
+				1.257
+			],
+			[
+				750,
+				0.56606,
+				1.257
+			],
+			[
+				800,
+				0.568287,
+				1.257
+			],
+			[
+				850,
+				0.570085,
+				1.257
+			],
+			[
+				900,
+				0.571883,
+				1.257
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -25755,6 +49341,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.536087,
+				1.257
+			],
+			[
+				350,
+				0.538665,
+				1.257
+			],
+			[
+				400,
+				0.541243,
+				1.257
+			],
+			[
+				450,
+				0.544025,
+				1.257
+			],
+			[
+				500,
+				0.546806,
+				1.257
+			],
+			[
+				550,
+				0.549587,
+				1.257
+			],
+			[
+				600,
+				0.552368,
+				1.257
+			],
+			[
+				650,
+				0.55515,
+				1.257
+			],
+			[
+				700,
+				0.557931,
+				1.257
+			],
+			[
+				750,
+				0.564245,
+				1.257
+			],
+			[
+				800,
+				0.57056,
+				1.257
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -25779,6 +49422,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Metal:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.426283,
+				2.050781
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25794,6 +49444,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Metal+Mania:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.423353,
+				1.238281
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25806,6 +49463,13 @@ export default {
 	"Metamorphous": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Metamorphous:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.6214,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25827,6 +49491,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Metrophobic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.526113,
+				1.23291
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25851,6 +49522,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Michroma:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.765508,
+				1.421875
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25870,6 +49548,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Micro+5:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.34303,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25889,6 +49574,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Micro+5+Charted:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.34303,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25912,6 +49604,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Milonga:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.543667,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25927,6 +49626,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Miltonian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.577827,
+				1.192
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25942,6 +49648,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Miltonian+Tattoo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.577827,
+				1.192
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25954,6 +49667,18 @@ export default {
 	"Mina": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Mina:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.523373,
+				1.59
+			],
+			[
+				700,
+				0.52924,
+				1.59
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25970,6 +49695,13 @@ export default {
 			"clig"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mingzat:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5699,
+				2.097
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -25982,6 +49714,13 @@ export default {
 	"Miniver": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Miniver:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.497591,
+				1.458008
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26005,6 +49744,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Miranda+Sans:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.53038,
+				1.23
+			],
+			[
+				450,
+				0.533748,
+				1.23
+			],
+			[
+				500,
+				0.537116,
+				1.23
+			],
+			[
+				550,
+				0.540483,
+				1.23
+			],
+			[
+				600,
+				0.543851,
+				1.23
+			],
+			[
+				650,
+				0.547219,
+				1.23
+			],
+			[
+				700,
+				0.550587,
+				1.23
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -26039,6 +49815,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.524833,
+				1.313
+			],
+			[
+				450,
+				0.52871,
+				1.313
+			],
+			[
+				500,
+				0.532587,
+				1.313
+			],
+			[
+				550,
+				0.536463,
+				1.313
+			],
+			[
+				600,
+				0.54034,
+				1.313
+			],
+			[
+				650,
+				0.544217,
+				1.313
+			],
+			[
+				700,
+				0.548093,
+				1.313
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -26065,6 +49878,28 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mirza:ital,wght@0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.43864,
+				1.2
+			],
+			[
+				500,
+				0.44024,
+				1.2
+			],
+			[
+				600,
+				0.44192,
+				1.2
+			],
+			[
+				700,
+				0.443333,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26083,6 +49918,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Miss+Fajardose:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.366867,
+				1.248
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26104,6 +49946,38 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mitr:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				200,
+				0.553813,
+				1.2
+			],
+			[
+				300,
+				0.54998,
+				1.2
+			],
+			[
+				400,
+				0.551767,
+				1.2
+			],
+			[
+				500,
+				0.5542,
+				1.2
+			],
+			[
+				600,
+				0.556427,
+				1.2
+			],
+			[
+				700,
+				0.558913,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26128,6 +50002,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mochiy+Pop+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.66208,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26147,6 +50028,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mochiy+Pop+P+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.66208,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26167,6 +50055,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Modak:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.515951,
+				1.505859
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26179,6 +50074,13 @@ export default {
 	"Modern Antiqua": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Modern+Antiqua:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.556748,
+				1.134277
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26227,6 +50129,64 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Moderustic:wght@300..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.53472,
+				1.25
+			],
+			[
+				350,
+				0.53472,
+				1.25
+			],
+			[
+				400,
+				0.53472,
+				1.25
+			],
+			[
+				450,
+				0.53472,
+				1.25
+			],
+			[
+				500,
+				0.53472,
+				1.25
+			],
+			[
+				550,
+				0.53472,
+				1.25
+			],
+			[
+				600,
+				0.53472,
+				1.25
+			],
+			[
+				650,
+				0.53472,
+				1.25
+			],
+			[
+				700,
+				0.53472,
+				1.25
+			],
+			[
+				750,
+				0.53472,
+				1.25
+			],
+			[
+				800,
+				0.53472,
+				1.25
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -26247,6 +50207,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mogra:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52722,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26297,6 +50264,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mohave:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.41068,
+				1.393
+			],
+			[
+				350,
+				0.411073,
+				1.393
+			],
+			[
+				400,
+				0.411465,
+				1.393
+			],
+			[
+				450,
+				0.411857,
+				1.393
+			],
+			[
+				500,
+				0.41225,
+				1.393
+			],
+			[
+				550,
+				0.412642,
+				1.393
+			],
+			[
+				600,
+				0.413035,
+				1.393
+			],
+			[
+				650,
+				0.413428,
+				1.393
+			],
+			[
+				700,
+				0.41382,
+				1.393
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -26327,6 +50341,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Moirai+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.580613,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26342,6 +50363,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Molengo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.477464,
+				1.196289
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26357,6 +50385,13 @@ export default {
 			"calt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Molle:ital,wght@1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.576309,
+				1.246582
+			]
+		],
 		"variants": [
 			{
 				"italic": 1,
@@ -26381,6 +50416,13 @@ export default {
 			"ss03"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Momo+Signature:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.658753,
+				1.43
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26400,6 +50442,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Momo+Trust+Display:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.575733,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26421,6 +50470,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Momo+Trust+Sans:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.533913,
+				1.3
+			],
+			[
+				250,
+				0.537212,
+				1.3
+			],
+			[
+				300,
+				0.54051,
+				1.3
+			],
+			[
+				350,
+				0.543808,
+				1.3
+			],
+			[
+				400,
+				0.547107,
+				1.3
+			],
+			[
+				450,
+				0.548833,
+				1.3
+			],
+			[
+				500,
+				0.550558,
+				1.3
+			],
+			[
+				550,
+				0.552284,
+				1.3
+			],
+			[
+				600,
+				0.55401,
+				1.3
+			],
+			[
+				650,
+				0.555736,
+				1.3
+			],
+			[
+				700,
+				0.557462,
+				1.3
+			],
+			[
+				750,
+				0.559187,
+				1.3
+			],
+			[
+				800,
+				0.560913,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -26459,6 +50575,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mona+Sans:wdth,wght@75..125,200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.52112,
+				1.41
+			],
+			[
+				250,
+				0.523482,
+				1.41
+			],
+			[
+				300,
+				0.525844,
+				1.41
+			],
+			[
+				350,
+				0.529536,
+				1.41
+			],
+			[
+				400,
+				0.533229,
+				1.41
+			],
+			[
+				450,
+				0.537286,
+				1.41
+			],
+			[
+				500,
+				0.541344,
+				1.41
+			],
+			[
+				550,
+				0.545402,
+				1.41
+			],
+			[
+				600,
+				0.54946,
+				1.41
+			],
+			[
+				650,
+				0.553518,
+				1.41
+			],
+			[
+				700,
+				0.557575,
+				1.41
+			],
+			[
+				750,
+				0.561633,
+				1.41
+			],
+			[
+				800,
+				0.565691,
+				1.41
+			],
+			[
+				850,
+				0.569749,
+				1.41
+			],
+			[
+				900,
+				0.573807,
+				1.41
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -26505,6 +50698,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Monda:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.546605,
+				1.628906
+			],
+			[
+				450,
+				0.549239,
+				1.628906
+			],
+			[
+				500,
+				0.551873,
+				1.628906
+			],
+			[
+				550,
+				0.554507,
+				1.628906
+			],
+			[
+				600,
+				0.557141,
+				1.628906
+			],
+			[
+				650,
+				0.559775,
+				1.628906
+			],
+			[
+				700,
+				0.562409,
+				1.628906
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -26525,6 +50755,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Monofett:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.530407,
+				1.130859
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26553,6 +50790,13 @@ export default {
 			"ss15"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Monomakh:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.548613,
+				1.273
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26573,6 +50817,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Monomaniac+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.436207,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26588,6 +50839,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Monoton:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.683415,
+				1.556641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26603,6 +50861,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.47968,
+				1.561
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26618,6 +50883,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Montaga:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.514333,
+				1.232
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26654,6 +50926,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Montagu+Slab:opsz,wght@16..144,100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.533153,
+				1.282
+			],
+			[
+				150,
+				0.537166,
+				1.282
+			],
+			[
+				200,
+				0.541179,
+				1.282
+			],
+			[
+				250,
+				0.545192,
+				1.282
+			],
+			[
+				300,
+				0.549205,
+				1.282
+			],
+			[
+				350,
+				0.555122,
+				1.282
+			],
+			[
+				400,
+				0.56104,
+				1.282
+			],
+			[
+				450,
+				0.566759,
+				1.282
+			],
+			[
+				500,
+				0.572479,
+				1.282
+			],
+			[
+				550,
+				0.577298,
+				1.282
+			],
+			[
+				600,
+				0.582117,
+				1.282
+			],
+			[
+				650,
+				0.587735,
+				1.282
+			],
+			[
+				700,
+				0.593353,
+				1.282
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -26694,6 +51033,13 @@ export default {
 			"swsh"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=MonteCarlo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.435747,
+				1.7
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26714,6 +51060,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.564473,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26734,6 +51087,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Montez:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.383122,
+				1.308105
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26768,6 +51128,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.551493,
+				1.219
+			],
+			[
+				150,
+				0.553543,
+				1.219
+			],
+			[
+				200,
+				0.555593,
+				1.219
+			],
+			[
+				250,
+				0.558273,
+				1.219
+			],
+			[
+				300,
+				0.560953,
+				1.219
+			],
+			[
+				350,
+				0.564264,
+				1.219
+			],
+			[
+				400,
+				0.567575,
+				1.219
+			],
+			[
+				450,
+				0.571518,
+				1.219
+			],
+			[
+				500,
+				0.575461,
+				1.219
+			],
+			[
+				550,
+				0.58003,
+				1.219
+			],
+			[
+				600,
+				0.58454,
+				1.219
+			],
+			[
+				650,
+				0.589362,
+				1.219
+			],
+			[
+				700,
+				0.594185,
+				1.219
+			],
+			[
+				750,
+				0.599473,
+				1.219
+			],
+			[
+				800,
+				0.604762,
+				1.219
+			],
+			[
+				850,
+				0.610361,
+				1.219
+			],
+			[
+				900,
+				0.61596,
+				1.219
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -26808,6 +51255,53 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.56884,
+				1.219
+			],
+			[
+				200,
+				0.57218,
+				1.219
+			],
+			[
+				300,
+				0.576587,
+				1.219
+			],
+			[
+				400,
+				0.582087,
+				1.219
+			],
+			[
+				500,
+				0.588733,
+				1.219
+			],
+			[
+				600,
+				0.596527,
+				1.219
+			],
+			[
+				700,
+				0.60538,
+				1.219
+			],
+			[
+				800,
+				0.61502,
+				1.219
+			],
+			[
+				900,
+				0.625293,
+				1.219
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26864,6 +51358,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Montserrat+Underline:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.5524,
+				1.219
+			],
+			[
+				150,
+				0.554405,
+				1.219
+			],
+			[
+				200,
+				0.556409,
+				1.219
+			],
+			[
+				250,
+				0.55903,
+				1.219
+			],
+			[
+				300,
+				0.561651,
+				1.219
+			],
+			[
+				350,
+				0.564889,
+				1.219
+			],
+			[
+				400,
+				0.568126,
+				1.219
+			],
+			[
+				450,
+				0.571982,
+				1.219
+			],
+			[
+				500,
+				0.575838,
+				1.219
+			],
+			[
+				550,
+				0.580312,
+				1.219
+			],
+			[
+				600,
+				0.584874,
+				1.219
+			],
+			[
+				650,
+				0.589753,
+				1.219
+			],
+			[
+				700,
+				0.594632,
+				1.219
+			],
+			[
+				750,
+				0.599982,
+				1.219
+			],
+			[
+				800,
+				0.605331,
+				1.219
+			],
+			[
+				850,
+				0.610996,
+				1.219
+			],
+			[
+				900,
+				0.61666,
+				1.219
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -26893,6 +51474,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Moo+Lah+Lah:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.47306,
+				1.22
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26916,6 +51504,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mooli:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.550213,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26940,6 +51535,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Moon+Dance:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.384967,
+				1.34
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26956,6 +51558,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Moul:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.65541,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26972,6 +51581,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Moulpali:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.43596,
+				2.197266
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -26987,6 +51603,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.408099,
+				1.386719
+			],
+			[
+				700,
+				0.427285,
+				1.386719
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27008,6 +51636,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mouse+Memoirs:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.312083,
+				1.14502
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27038,6 +51673,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mozilla+Headline:wdth,wght@75..125,200..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.53426,
+				1.2
+			],
+			[
+				250,
+				0.534261,
+				1.2
+			],
+			[
+				300,
+				0.534263,
+				1.2
+			],
+			[
+				350,
+				0.534264,
+				1.2
+			],
+			[
+				400,
+				0.534265,
+				1.2
+			],
+			[
+				450,
+				0.534267,
+				1.2
+			],
+			[
+				500,
+				0.534268,
+				1.2
+			],
+			[
+				550,
+				0.534269,
+				1.2
+			],
+			[
+				600,
+				0.534271,
+				1.2
+			],
+			[
+				650,
+				0.534272,
+				1.2
+			],
+			[
+				700,
+				0.534273,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -27072,6 +51764,64 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mozilla+Text:wght@200..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.55072,
+				1.2
+			],
+			[
+				250,
+				0.55072,
+				1.2
+			],
+			[
+				300,
+				0.55072,
+				1.2
+			],
+			[
+				350,
+				0.55072,
+				1.2
+			],
+			[
+				400,
+				0.55072,
+				1.2
+			],
+			[
+				450,
+				0.55072,
+				1.2
+			],
+			[
+				500,
+				0.55072,
+				1.2
+			],
+			[
+				550,
+				0.55072,
+				1.2
+			],
+			[
+				600,
+				0.55072,
+				1.2
+			],
+			[
+				650,
+				0.55072,
+				1.2
+			],
+			[
+				700,
+				0.55072,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -27089,6 +51839,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mr+Bedfort:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.47118,
+				1.676
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27104,6 +51861,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mr+Dafoe:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.412653,
+				1.397
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27119,6 +51883,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mr+De+Haviland:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.33356,
+				1.317
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27134,6 +51905,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mrs+Saint+Delafield:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.387987,
+				1.525
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27149,6 +51927,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mrs+Sheppards:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.46756,
+				1.337
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27170,6 +51955,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ms+Madi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.453307,
+				1.32
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27199,6 +51991,43 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mukta:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=block",
+		"metrics": [
+			[
+				200,
+				0.444113,
+				1.662
+			],
+			[
+				300,
+				0.455147,
+				1.662
+			],
+			[
+				400,
+				0.465313,
+				1.662
+			],
+			[
+				500,
+				0.474253,
+				1.662
+			],
+			[
+				600,
+				0.482053,
+				1.662
+			],
+			[
+				700,
+				0.49008,
+				1.662
+			],
+			[
+				800,
+				0.498433,
+				1.662
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27233,6 +52062,43 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mukta+Mahee:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=block",
+		"metrics": [
+			[
+				200,
+				0.440167,
+				1.662
+			],
+			[
+				300,
+				0.45104,
+				1.662
+			],
+			[
+				400,
+				0.46138,
+				1.662
+			],
+			[
+				500,
+				0.46984,
+				1.662
+			],
+			[
+				600,
+				0.47852,
+				1.662
+			],
+			[
+				700,
+				0.487307,
+				1.662
+			],
+			[
+				800,
+				0.495407,
+				1.662
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27270,6 +52136,43 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mukta+Malar:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=block",
+		"metrics": [
+			[
+				200,
+				0.438513,
+				1.662
+			],
+			[
+				300,
+				0.448487,
+				1.662
+			],
+			[
+				400,
+				0.458473,
+				1.662
+			],
+			[
+				500,
+				0.46754,
+				1.662
+			],
+			[
+				600,
+				0.475627,
+				1.662
+			],
+			[
+				700,
+				0.483513,
+				1.662
+			],
+			[
+				800,
+				0.491393,
+				1.662
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27303,6 +52206,43 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mukta+Vaani:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800&display=block",
+		"metrics": [
+			[
+				200,
+				0.443847,
+				1.662
+			],
+			[
+				300,
+				0.454847,
+				1.662
+			],
+			[
+				400,
+				0.46518,
+				1.662
+			],
+			[
+				500,
+				0.4739,
+				1.662
+			],
+			[
+				600,
+				0.48182,
+				1.662
+			],
+			[
+				700,
+				0.489827,
+				1.662
+			],
+			[
+				800,
+				0.498167,
+				1.662
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27337,6 +52277,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mulish:wght@200..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.520933,
+				1.255
+			],
+			[
+				250,
+				0.524145,
+				1.255
+			],
+			[
+				300,
+				0.527357,
+				1.255
+			],
+			[
+				350,
+				0.530739,
+				1.255
+			],
+			[
+				400,
+				0.53412,
+				1.255
+			],
+			[
+				450,
+				0.535811,
+				1.255
+			],
+			[
+				500,
+				0.537502,
+				1.255
+			],
+			[
+				550,
+				0.539193,
+				1.255
+			],
+			[
+				600,
+				0.540884,
+				1.255
+			],
+			[
+				650,
+				0.544942,
+				1.255
+			],
+			[
+				700,
+				0.549,
+				1.255
+			],
+			[
+				750,
+				0.55335,
+				1.255
+			],
+			[
+				800,
+				0.5577,
+				1.255
+			],
+			[
+				850,
+				0.562217,
+				1.255
+			],
+			[
+				900,
+				0.566735,
+				1.255
+			],
+			[
+				950,
+				0.571754,
+				1.255
+			],
+			[
+				1000,
+				0.576773,
+				1.255
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -27371,6 +52398,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Murecho:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.46154,
+				1
+			],
+			[
+				150,
+				0.464263,
+				1
+			],
+			[
+				200,
+				0.466985,
+				1
+			],
+			[
+				250,
+				0.473899,
+				1
+			],
+			[
+				300,
+				0.480812,
+				1
+			],
+			[
+				350,
+				0.485841,
+				1
+			],
+			[
+				400,
+				0.490869,
+				1
+			],
+			[
+				450,
+				0.499247,
+				1
+			],
+			[
+				500,
+				0.507624,
+				1
+			],
+			[
+				550,
+				0.511815,
+				1
+			],
+			[
+				600,
+				0.516006,
+				1
+			],
+			[
+				650,
+				0.520194,
+				1
+			],
+			[
+				700,
+				0.524383,
+				1
+			],
+			[
+				750,
+				0.527527,
+				1
+			],
+			[
+				800,
+				0.53067,
+				1
+			],
+			[
+				850,
+				0.533812,
+				1
+			],
+			[
+				900,
+				0.536953,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -27406,6 +52520,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=MuseoModerno:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.542493,
+				1.59
+			],
+			[
+				150,
+				0.543658,
+				1.59
+			],
+			[
+				200,
+				0.544823,
+				1.59
+			],
+			[
+				250,
+				0.545987,
+				1.59
+			],
+			[
+				300,
+				0.547152,
+				1.59
+			],
+			[
+				350,
+				0.548317,
+				1.59
+			],
+			[
+				400,
+				0.549481,
+				1.59
+			],
+			[
+				450,
+				0.550646,
+				1.59
+			],
+			[
+				500,
+				0.551811,
+				1.59
+			],
+			[
+				550,
+				0.552975,
+				1.59
+			],
+			[
+				600,
+				0.55414,
+				1.59
+			],
+			[
+				650,
+				0.555949,
+				1.59
+			],
+			[
+				700,
+				0.557758,
+				1.59
+			],
+			[
+				750,
+				0.559567,
+				1.59
+			],
+			[
+				800,
+				0.561376,
+				1.59
+			],
+			[
+				850,
+				0.563184,
+				1.59
+			],
+			[
+				900,
+				0.564993,
+				1.59
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -27435,6 +52636,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=My+Soul:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.48144,
+				1.325
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27462,6 +52670,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Mynerve:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.48668,
+				1.31
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27474,6 +52689,13 @@ export default {
 	"Mystery Quest": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Mystery+Quest:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.47112,
+				1.365234
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27489,6 +52711,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=NTR:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.445586,
+				2.120117
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27521,6 +52750,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nabla:EDPT,EHLT@0..200,0..24&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.50332,
+				1.643
+			]
+		],
 		"variants": [
 			{
 			}
@@ -27529,6 +52765,33 @@ export default {
 	"Namdhinggo": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Namdhinggo:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
+		"metrics": [
+			[
+				400,
+				0.463906,
+				1.049805
+			],
+			[
+				500,
+				0.470609,
+				1.049805
+			],
+			[
+				600,
+				0.47736,
+				1.049805
+			],
+			[
+				700,
+				0.486595,
+				1.049805
+			],
+			[
+				800,
+				0.490527,
+				1.049805
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27548,6 +52811,13 @@ export default {
 			"fwid"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nanum+Brush+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.372873,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27563,6 +52833,24 @@ export default {
 			"fwid"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nanum+Gothic:ital,wght@0,400;0,700;0,800&display=block",
+		"metrics": [
+			[
+				400,
+				0.537387,
+				1.25
+			],
+			[
+				700,
+				0.537387,
+				1.25
+			],
+			[
+				800,
+				0.537387,
+				1.25
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -27577,6 +52865,19 @@ export default {
 	"Nanum Gothic Coding": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.5,
+				1
+			],
+			[
+				700,
+				0.5,
+				1
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -27594,6 +52895,24 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:ital,wght@0,400;0,700;0,800&display=block",
+		"metrics": [
+			[
+				400,
+				0.521901,
+				1.25
+			],
+			[
+				700,
+				0.521901,
+				1.25
+			],
+			[
+				800,
+				0.521901,
+				1.25
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -27611,6 +52930,13 @@ export default {
 			"fwid"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nanum+Pen+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.382287,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27623,6 +52949,33 @@ export default {
 	"Narnoor": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Narnoor:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
+		"metrics": [
+			[
+				400,
+				0.47974,
+				1.551
+			],
+			[
+				500,
+				0.485193,
+				1.551
+			],
+			[
+				600,
+				0.490653,
+				1.551
+			],
+			[
+				700,
+				0.495953,
+				1.551
+			],
+			[
+				800,
+				0.50114,
+				1.551
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27661,6 +53014,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nata+Sans:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.529527,
+				1.3
+			],
+			[
+				150,
+				0.530572,
+				1.3
+			],
+			[
+				200,
+				0.531618,
+				1.3
+			],
+			[
+				250,
+				0.532663,
+				1.3
+			],
+			[
+				300,
+				0.533709,
+				1.3
+			],
+			[
+				350,
+				0.534754,
+				1.3
+			],
+			[
+				400,
+				0.5358,
+				1.3
+			],
+			[
+				450,
+				0.536708,
+				1.3
+			],
+			[
+				500,
+				0.537617,
+				1.3
+			],
+			[
+				550,
+				0.538525,
+				1.3
+			],
+			[
+				600,
+				0.539433,
+				1.3
+			],
+			[
+				650,
+				0.548346,
+				1.3
+			],
+			[
+				700,
+				0.557261,
+				1.3
+			],
+			[
+				750,
+				0.566176,
+				1.3
+			],
+			[
+				800,
+				0.57509,
+				1.3
+			],
+			[
+				850,
+				0.584005,
+				1.3
+			],
+			[
+				900,
+				0.59292,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -27694,6 +53134,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=National+Park:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.482347,
+				1.33
+			],
+			[
+				250,
+				0.486435,
+				1.33
+			],
+			[
+				300,
+				0.490523,
+				1.33
+			],
+			[
+				350,
+				0.494612,
+				1.33
+			],
+			[
+				400,
+				0.4987,
+				1.33
+			],
+			[
+				450,
+				0.504789,
+				1.33
+			],
+			[
+				500,
+				0.510878,
+				1.33
+			],
+			[
+				550,
+				0.516968,
+				1.33
+			],
+			[
+				600,
+				0.523057,
+				1.33
+			],
+			[
+				650,
+				0.529146,
+				1.33
+			],
+			[
+				700,
+				0.535235,
+				1.33
+			],
+			[
+				750,
+				0.541324,
+				1.33
+			],
+			[
+				800,
+				0.547413,
+				1.33
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -27717,6 +53224,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Neonderthaw:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.535893,
+				1.35
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27732,6 +53246,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nerko+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.442007,
+				1.211
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27747,6 +53268,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Neucha:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.402396,
+				1.101563
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27768,6 +53296,33 @@ export default {
 			"smcp"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Neuton:ital,wght@0,200;0,300;0,400;0,700;0,800;1,400&display=block",
+		"metrics": [
+			[
+				200,
+				0.429388,
+				1.265137
+			],
+			[
+				300,
+				0.439352,
+				1.265137
+			],
+			[
+				400,
+				0.443906,
+				1.265137
+			],
+			[
+				700,
+				0.495508,
+				1.265137
+			],
+			[
+				800,
+				0.488128,
+				1.265137
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27796,6 +53351,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=New+Amsterdam:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.37262,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27816,6 +53378,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=New+Rocker:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.500033,
+				1.229
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27835,6 +53404,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=New+Tegomin:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53252,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27872,6 +53448,18 @@ export default {
 			}
 		],
 		"href": "https://fonts.googleapis.com/css2?family=News+Cycle:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.447526,
+				1.644531
+			],
+			[
+				700,
+				0.452822,
+				1.644531
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27904,6 +53492,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Newsreader:opsz,wght@6..72,200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.472617,
+				1
+			],
+			[
+				250,
+				0.475611,
+				1
+			],
+			[
+				300,
+				0.478605,
+				1
+			],
+			[
+				350,
+				0.483631,
+				1
+			],
+			[
+				400,
+				0.488657,
+				1
+			],
+			[
+				450,
+				0.494429,
+				1
+			],
+			[
+				500,
+				0.500202,
+				1
+			],
+			[
+				550,
+				0.506667,
+				1
+			],
+			[
+				600,
+				0.513132,
+				1
+			],
+			[
+				650,
+				0.519597,
+				1
+			],
+			[
+				700,
+				0.526062,
+				1
+			],
+			[
+				750,
+				0.536221,
+				1
+			],
+			[
+				800,
+				0.54638,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -27927,6 +53582,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Niconne:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.444648,
+				1.212402
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27949,6 +53611,38 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Niramit:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=block",
+		"metrics": [
+			[
+				200,
+				0.492007,
+				1.3
+			],
+			[
+				300,
+				0.496153,
+				1.3
+			],
+			[
+				400,
+				0.5001,
+				1.3
+			],
+			[
+				500,
+				0.50784,
+				1.3
+			],
+			[
+				600,
+				0.5155,
+				1.3
+			],
+			[
+				700,
+				0.52324,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27980,6 +53674,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nixie+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.558733,
+				1.136
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -27996,6 +53697,23 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nobile:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.54263,
+				1.033203
+			],
+			[
+				500,
+				0.563018,
+				1.033203
+			],
+			[
+				700,
+				0.587786,
+				1.033203
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28022,6 +53740,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nokora:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.52749,
+				1.321777
+			],
+			[
+				150,
+				0.52749,
+				1.321777
+			],
+			[
+				200,
+				0.52749,
+				1.321777
+			],
+			[
+				250,
+				0.52749,
+				1.321777
+			],
+			[
+				300,
+				0.52749,
+				1.321777
+			],
+			[
+				350,
+				0.52749,
+				1.321777
+			],
+			[
+				400,
+				0.52749,
+				1.321777
+			],
+			[
+				450,
+				0.52749,
+				1.321777
+			],
+			[
+				500,
+				0.52749,
+				1.321777
+			],
+			[
+				550,
+				0.52749,
+				1.321777
+			],
+			[
+				600,
+				0.52749,
+				1.321777
+			],
+			[
+				650,
+				0.52749,
+				1.321777
+			],
+			[
+				700,
+				0.52749,
+				1.321777
+			],
+			[
+				750,
+				0.52749,
+				1.321777
+			],
+			[
+				800,
+				0.52749,
+				1.321777
+			],
+			[
+				850,
+				0.52749,
+				1.321777
+			],
+			[
+				900,
+				0.52749,
+				1.321777
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -28045,6 +53851,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Norican:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.462484,
+				1.40918
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28060,6 +53873,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nosifer:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.825176,
+				1.740234
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28081,6 +53901,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Notable:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.7658,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28093,6 +53920,13 @@ export default {
 	"Nothing You Could Do": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Nothing+You+Could+Do:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.524342,
+				1.336914
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28122,6 +53956,18 @@ export default {
 			}
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noticia+Text:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.514076,
+				1.364746
+			],
+			[
+				700,
+				0.535785,
+				1.364746
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28152,6 +53998,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Kufi+Arabic:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.5013,
+				1.897
+			],
+			[
+				150,
+				0.507096,
+				1.897
+			],
+			[
+				200,
+				0.512891,
+				1.897
+			],
+			[
+				250,
+				0.518687,
+				1.897
+			],
+			[
+				300,
+				0.524482,
+				1.897
+			],
+			[
+				350,
+				0.530278,
+				1.897
+			],
+			[
+				400,
+				0.536073,
+				1.897
+			],
+			[
+				450,
+				0.540686,
+				1.897
+			],
+			[
+				500,
+				0.545298,
+				1.897
+			],
+			[
+				550,
+				0.549911,
+				1.897
+			],
+			[
+				600,
+				0.554523,
+				1.897
+			],
+			[
+				650,
+				0.559135,
+				1.897
+			],
+			[
+				700,
+				0.563748,
+				1.897
+			],
+			[
+				750,
+				0.568344,
+				1.897
+			],
+			[
+				800,
+				0.572941,
+				1.897
+			],
+			[
+				850,
+				0.577537,
+				1.897
+			],
+			[
+				900,
+				0.582133,
+				1.897
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28171,6 +54104,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Music:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.787
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28193,6 +54133,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.539907,
+				1.703
+			],
+			[
+				450,
+				0.54452,
+				1.703
+			],
+			[
+				500,
+				0.549133,
+				1.703
+			],
+			[
+				550,
+				0.553747,
+				1.703
+			],
+			[
+				600,
+				0.55836,
+				1.703
+			],
+			[
+				650,
+				0.562973,
+				1.703
+			],
+			[
+				700,
+				0.567587,
+				1.703
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28212,6 +54189,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52968,
+				2.5
+			],
+			[
+				450,
+				0.535176,
+				2.5
+			],
+			[
+				500,
+				0.540671,
+				2.5
+			],
+			[
+				550,
+				0.546167,
+				2.5
+			],
+			[
+				600,
+				0.551662,
+				2.5
+			],
+			[
+				650,
+				0.557158,
+				2.5
+			],
+			[
+				700,
+				0.562653,
+				2.5
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28234,6 +54248,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Rashi+Hebrew:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.509653,
+				1.186
+			],
+			[
+				150,
+				0.513526,
+				1.186
+			],
+			[
+				200,
+				0.517399,
+				1.186
+			],
+			[
+				250,
+				0.523481,
+				1.186
+			],
+			[
+				300,
+				0.529564,
+				1.186
+			],
+			[
+				350,
+				0.536755,
+				1.186
+			],
+			[
+				400,
+				0.543947,
+				1.186
+			],
+			[
+				450,
+				0.548726,
+				1.186
+			],
+			[
+				500,
+				0.553506,
+				1.186
+			],
+			[
+				550,
+				0.558285,
+				1.186
+			],
+			[
+				600,
+				0.563065,
+				1.186
+			],
+			[
+				650,
+				0.568322,
+				1.186
+			],
+			[
+				700,
+				0.57358,
+				1.186
+			],
+			[
+				750,
+				0.579077,
+				1.186
+			],
+			[
+				800,
+				0.584574,
+				1.186
+			],
+			[
+				850,
+				0.589113,
+				1.186
+			],
+			[
+				900,
+				0.593653,
+				1.186
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28293,6 +54394,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				1.362
+			],
+			[
+				150,
+				0.496299,
+				1.362
+			],
+			[
+				200,
+				0.499831,
+				1.362
+			],
+			[
+				250,
+				0.504992,
+				1.362
+			],
+			[
+				300,
+				0.510153,
+				1.362
+			],
+			[
+				350,
+				0.518846,
+				1.362
+			],
+			[
+				400,
+				0.52754,
+				1.362
+			],
+			[
+				450,
+				0.531464,
+				1.362
+			],
+			[
+				500,
+				0.535388,
+				1.362
+			],
+			[
+				550,
+				0.539749,
+				1.362
+			],
+			[
+				600,
+				0.544109,
+				1.362
+			],
+			[
+				650,
+				0.549124,
+				1.362
+			],
+			[
+				700,
+				0.554139,
+				1.362
+			],
+			[
+				750,
+				0.55863,
+				1.362
+			],
+			[
+				800,
+				0.563121,
+				1.362
+			],
+			[
+				850,
+				0.56836,
+				1.362
+			],
+			[
+				900,
+				0.5736,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -28325,6 +54513,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.526473,
+				1.362
+			],
+			[
+				450,
+				0.530197,
+				1.362
+			],
+			[
+				500,
+				0.53392,
+				1.362
+			],
+			[
+				550,
+				0.537643,
+				1.362
+			],
+			[
+				600,
+				0.541367,
+				1.362
+			],
+			[
+				650,
+				0.54509,
+				1.362
+			],
+			[
+				700,
+				0.548813,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28346,6 +54571,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Adlam+Unjoined:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.526473,
+				1.362
+			],
+			[
+				450,
+				0.530197,
+				1.362
+			],
+			[
+				500,
+				0.53392,
+				1.362
+			],
+			[
+				550,
+				0.537643,
+				1.362
+			],
+			[
+				600,
+				0.541367,
+				1.362
+			],
+			[
+				650,
+				0.54509,
+				1.362
+			],
+			[
+				700,
+				0.548813,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28360,6 +54622,13 @@ export default {
 	"Noto Sans Anatolian Hieroglyphs": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Anatolian+Hieroglyphs:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.406
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28382,6 +54651,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Arabic:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				2.112
+			],
+			[
+				150,
+				0.496299,
+				2.112
+			],
+			[
+				200,
+				0.499831,
+				2.112
+			],
+			[
+				250,
+				0.504992,
+				2.112
+			],
+			[
+				300,
+				0.510153,
+				2.112
+			],
+			[
+				350,
+				0.518846,
+				2.112
+			],
+			[
+				400,
+				0.52754,
+				2.112
+			],
+			[
+				450,
+				0.531623,
+				2.112
+			],
+			[
+				500,
+				0.535705,
+				2.112
+			],
+			[
+				550,
+				0.540242,
+				2.112
+			],
+			[
+				600,
+				0.544779,
+				2.112
+			],
+			[
+				650,
+				0.549997,
+				2.112
+			],
+			[
+				700,
+				0.555214,
+				2.112
+			],
+			[
+				750,
+				0.559457,
+				2.112
+			],
+			[
+				800,
+				0.563699,
+				2.112
+			],
+			[
+				850,
+				0.56865,
+				2.112
+			],
+			[
+				900,
+				0.5736,
+				2.112
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28409,6 +54765,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Armenian:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				1.36
+			],
+			[
+				150,
+				0.496299,
+				1.36
+			],
+			[
+				200,
+				0.499831,
+				1.36
+			],
+			[
+				250,
+				0.504992,
+				1.36
+			],
+			[
+				300,
+				0.510153,
+				1.36
+			],
+			[
+				350,
+				0.518846,
+				1.36
+			],
+			[
+				400,
+				0.52754,
+				1.36
+			],
+			[
+				450,
+				0.531623,
+				1.36
+			],
+			[
+				500,
+				0.535705,
+				1.36
+			],
+			[
+				550,
+				0.540242,
+				1.36
+			],
+			[
+				600,
+				0.544779,
+				1.36
+			],
+			[
+				650,
+				0.549997,
+				1.36
+			],
+			[
+				700,
+				0.555214,
+				1.36
+			],
+			[
+				750,
+				0.559457,
+				1.36
+			],
+			[
+				800,
+				0.563699,
+				1.36
+			],
+			[
+				850,
+				0.56865,
+				1.36
+			],
+			[
+				900,
+				0.5736,
+				1.36
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28434,6 +54877,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Avestan:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.527667,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28451,6 +54901,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Balinese:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.53014,
+				2.201
+			],
+			[
+				450,
+				0.534752,
+				2.201
+			],
+			[
+				500,
+				0.539364,
+				2.201
+			],
+			[
+				550,
+				0.543977,
+				2.201
+			],
+			[
+				600,
+				0.548589,
+				2.201
+			],
+			[
+				650,
+				0.553201,
+				2.201
+			],
+			[
+				700,
+				0.557813,
+				2.201
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28466,6 +54953,43 @@ export default {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Bamum:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			],
+			[
+				450,
+				0.533909,
+				1.362
+			],
+			[
+				500,
+				0.537677,
+				1.362
+			],
+			[
+				550,
+				0.541863,
+				1.362
+			],
+			[
+				600,
+				0.546049,
+				1.362
+			],
+			[
+				650,
+				0.550864,
+				1.362
+			],
+			[
+				700,
+				0.55568,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28485,6 +55009,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Bassa+Vah:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.538887,
+				1.362
+			],
+			[
+				450,
+				0.54297,
+				1.362
+			],
+			[
+				500,
+				0.547054,
+				1.362
+			],
+			[
+				550,
+				0.551589,
+				1.362
+			],
+			[
+				600,
+				0.556125,
+				1.362
+			],
+			[
+				650,
+				0.561342,
+				1.362
+			],
+			[
+				700,
+				0.56656,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28504,6 +55065,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Batak:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28522,6 +55090,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				1.325
+			],
+			[
+				150,
+				0.495748,
+				1.325
+			],
+			[
+				200,
+				0.498729,
+				1.325
+			],
+			[
+				250,
+				0.505186,
+				1.325
+			],
+			[
+				300,
+				0.511642,
+				1.325
+			],
+			[
+				350,
+				0.519591,
+				1.325
+			],
+			[
+				400,
+				0.52754,
+				1.325
+			],
+			[
+				450,
+				0.53225,
+				1.325
+			],
+			[
+				500,
+				0.53696,
+				1.325
+			],
+			[
+				550,
+				0.542194,
+				1.325
+			],
+			[
+				600,
+				0.547429,
+				1.325
+			],
+			[
+				650,
+				0.553449,
+				1.325
+			],
+			[
+				700,
+				0.559469,
+				1.325
+			],
+			[
+				750,
+				0.564179,
+				1.325
+			],
+			[
+				800,
+				0.568889,
+				1.325
+			],
+			[
+				850,
+				0.571244,
+				1.325
+			],
+			[
+				900,
+				0.5736,
+				1.325
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28542,6 +55197,13 @@ export default {
 	"Noto Sans Bhaiksuki": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Bhaiksuki:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.525873,
+				1.42
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28559,6 +55221,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Brahmi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.375
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28576,6 +55245,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Buginese:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28592,6 +55268,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Buhid:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28613,6 +55296,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Canadian+Aboriginal:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.496287,
+				1.362
+			],
+			[
+				150,
+				0.499819,
+				1.362
+			],
+			[
+				200,
+				0.503351,
+				1.362
+			],
+			[
+				250,
+				0.508512,
+				1.362
+			],
+			[
+				300,
+				0.513673,
+				1.362
+			],
+			[
+				350,
+				0.522366,
+				1.362
+			],
+			[
+				400,
+				0.53106,
+				1.362
+			],
+			[
+				450,
+				0.535205,
+				1.362
+			],
+			[
+				500,
+				0.53935,
+				1.362
+			],
+			[
+				550,
+				0.543956,
+				1.362
+			],
+			[
+				600,
+				0.548562,
+				1.362
+			],
+			[
+				650,
+				0.553859,
+				1.362
+			],
+			[
+				700,
+				0.559157,
+				1.362
+			],
+			[
+				750,
+				0.563302,
+				1.362
+			],
+			[
+				800,
+				0.567447,
+				1.362
+			],
+			[
+				850,
+				0.572283,
+				1.362
+			],
+			[
+				900,
+				0.57712,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28627,6 +55397,13 @@ export default {
 	"Noto Sans Carian": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Carian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28644,6 +55421,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Caucasian+Albanian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.531807,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28656,6 +55440,13 @@ export default {
 	"Noto Sans Chakma": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Chakma:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.46
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28676,6 +55467,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Cham:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				1.468
+			],
+			[
+				150,
+				0.496299,
+				1.468
+			],
+			[
+				200,
+				0.499831,
+				1.468
+			],
+			[
+				250,
+				0.504992,
+				1.468
+			],
+			[
+				300,
+				0.510153,
+				1.468
+			],
+			[
+				350,
+				0.518846,
+				1.468
+			],
+			[
+				400,
+				0.52754,
+				1.468
+			],
+			[
+				450,
+				0.531685,
+				1.468
+			],
+			[
+				500,
+				0.53583,
+				1.468
+			],
+			[
+				550,
+				0.540436,
+				1.468
+			],
+			[
+				600,
+				0.545042,
+				1.468
+			],
+			[
+				650,
+				0.550339,
+				1.468
+			],
+			[
+				700,
+				0.555637,
+				1.468
+			],
+			[
+				750,
+				0.559782,
+				1.468
+			],
+			[
+				800,
+				0.563927,
+				1.468
+			],
+			[
+				850,
+				0.568763,
+				1.468
+			],
+			[
+				900,
+				0.5736,
+				1.468
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28697,6 +55575,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Cherokee:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.493767,
+				1.362
+			],
+			[
+				150,
+				0.497461,
+				1.362
+			],
+			[
+				200,
+				0.501156,
+				1.362
+			],
+			[
+				250,
+				0.506554,
+				1.362
+			],
+			[
+				300,
+				0.511953,
+				1.362
+			],
+			[
+				350,
+				0.521046,
+				1.362
+			],
+			[
+				400,
+				0.53014,
+				1.362
+			],
+			[
+				450,
+				0.534477,
+				1.362
+			],
+			[
+				500,
+				0.538814,
+				1.362
+			],
+			[
+				550,
+				0.543633,
+				1.362
+			],
+			[
+				600,
+				0.548453,
+				1.362
+			],
+			[
+				650,
+				0.553995,
+				1.362
+			],
+			[
+				700,
+				0.559538,
+				1.362
+			],
+			[
+				750,
+				0.563875,
+				1.362
+			],
+			[
+				800,
+				0.568212,
+				1.362
+			],
+			[
+				850,
+				0.573273,
+				1.362
+			],
+			[
+				900,
+				0.578333,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28719,6 +55684,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Chorasmian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.531807,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28736,6 +55708,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Coptic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28748,6 +55727,13 @@ export default {
 	"Noto Sans Cuneiform": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Cuneiform:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				2.286
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28765,6 +55751,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Cypriot:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28781,6 +55774,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Cypro+Minoan:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28793,6 +55793,13 @@ export default {
 	"Noto Sans Deseret": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Deseret:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28811,6 +55818,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.490153,
+				1.304
+			],
+			[
+				150,
+				0.493666,
+				1.304
+			],
+			[
+				200,
+				0.497179,
+				1.304
+			],
+			[
+				250,
+				0.502313,
+				1.304
+			],
+			[
+				300,
+				0.507446,
+				1.304
+			],
+			[
+				350,
+				0.516093,
+				1.304
+			],
+			[
+				400,
+				0.52474,
+				1.304
+			],
+			[
+				450,
+				0.529047,
+				1.304
+			],
+			[
+				500,
+				0.533354,
+				1.304
+			],
+			[
+				550,
+				0.53814,
+				1.304
+			],
+			[
+				600,
+				0.542926,
+				1.304
+			],
+			[
+				650,
+				0.54843,
+				1.304
+			],
+			[
+				700,
+				0.553935,
+				1.304
+			],
+			[
+				750,
+				0.558242,
+				1.304
+			],
+			[
+				800,
+				0.562549,
+				1.304
+			],
+			[
+				850,
+				0.567574,
+				1.304
+			],
+			[
+				900,
+				0.5726,
+				1.304
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -28873,6 +55967,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Display:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.464533,
+				1.362
+			],
+			[
+				150,
+				0.467889,
+				1.362
+			],
+			[
+				200,
+				0.471245,
+				1.362
+			],
+			[
+				250,
+				0.476149,
+				1.362
+			],
+			[
+				300,
+				0.481053,
+				1.362
+			],
+			[
+				350,
+				0.489313,
+				1.362
+			],
+			[
+				400,
+				0.497573,
+				1.362
+			],
+			[
+				450,
+				0.502407,
+				1.362
+			],
+			[
+				500,
+				0.507241,
+				1.362
+			],
+			[
+				550,
+				0.512613,
+				1.362
+			],
+			[
+				600,
+				0.517985,
+				1.362
+			],
+			[
+				650,
+				0.524163,
+				1.362
+			],
+			[
+				700,
+				0.530341,
+				1.362
+			],
+			[
+				750,
+				0.534585,
+				1.362
+			],
+			[
+				800,
+				0.538829,
+				1.362
+			],
+			[
+				850,
+				0.543781,
+				1.362
+			],
+			[
+				900,
+				0.548733,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -28908,6 +56089,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Duployan:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			],
+			[
+				700,
+				0.555213,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28926,6 +56119,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Egyptian+Hieroglyphs:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.525833,
+				1.65
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28938,6 +56138,13 @@ export default {
 	"Noto Sans Elbasan": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Elbasan:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.117
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28960,6 +56167,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Elymaic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.542473,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -28979,6 +56193,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Ethiopic:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.495367,
+				1.362
+			],
+			[
+				150,
+				0.498899,
+				1.362
+			],
+			[
+				200,
+				0.502431,
+				1.362
+			],
+			[
+				250,
+				0.507592,
+				1.362
+			],
+			[
+				300,
+				0.512753,
+				1.362
+			],
+			[
+				350,
+				0.521446,
+				1.362
+			],
+			[
+				400,
+				0.53014,
+				1.362
+			],
+			[
+				450,
+				0.534223,
+				1.362
+			],
+			[
+				500,
+				0.538305,
+				1.362
+			],
+			[
+				550,
+				0.542842,
+				1.362
+			],
+			[
+				600,
+				0.547379,
+				1.362
+			],
+			[
+				650,
+				0.552597,
+				1.362
+			],
+			[
+				700,
+				0.557814,
+				1.362
+			],
+			[
+				750,
+				0.562057,
+				1.362
+			],
+			[
+				800,
+				0.566299,
+				1.362
+			],
+			[
+				850,
+				0.57125,
+				1.362
+			],
+			[
+				900,
+				0.5762,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29006,6 +56307,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Georgian:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				1.36
+			],
+			[
+				150,
+				0.496299,
+				1.36
+			],
+			[
+				200,
+				0.499831,
+				1.36
+			],
+			[
+				250,
+				0.504992,
+				1.36
+			],
+			[
+				300,
+				0.510153,
+				1.36
+			],
+			[
+				350,
+				0.518846,
+				1.36
+			],
+			[
+				400,
+				0.52754,
+				1.36
+			],
+			[
+				450,
+				0.531685,
+				1.36
+			],
+			[
+				500,
+				0.53583,
+				1.36
+			],
+			[
+				550,
+				0.540436,
+				1.36
+			],
+			[
+				600,
+				0.545042,
+				1.36
+			],
+			[
+				650,
+				0.550339,
+				1.36
+			],
+			[
+				700,
+				0.555637,
+				1.36
+			],
+			[
+				750,
+				0.559782,
+				1.36
+			],
+			[
+				800,
+				0.563927,
+				1.36
+			],
+			[
+				850,
+				0.568763,
+				1.36
+			],
+			[
+				900,
+				0.5736,
+				1.36
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29031,6 +56419,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Glagolitic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29047,6 +56442,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Gothic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29075,6 +56477,13 @@ export default {
 			"ss10"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Grantha:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.824
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29093,6 +56502,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				1.304
+			],
+			[
+				150,
+				0.496299,
+				1.304
+			],
+			[
+				200,
+				0.499831,
+				1.304
+			],
+			[
+				250,
+				0.504992,
+				1.304
+			],
+			[
+				300,
+				0.510153,
+				1.304
+			],
+			[
+				350,
+				0.518846,
+				1.304
+			],
+			[
+				400,
+				0.52754,
+				1.304
+			],
+			[
+				450,
+				0.531623,
+				1.304
+			],
+			[
+				500,
+				0.535705,
+				1.304
+			],
+			[
+				550,
+				0.540242,
+				1.304
+			],
+			[
+				600,
+				0.544779,
+				1.304
+			],
+			[
+				650,
+				0.549997,
+				1.304
+			],
+			[
+				700,
+				0.555214,
+				1.304
+			],
+			[
+				750,
+				0.559457,
+				1.304
+			],
+			[
+				800,
+				0.563699,
+				1.304
+			],
+			[
+				850,
+				0.56865,
+				1.304
+			],
+			[
+				900,
+				0.5736,
+				1.304
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29122,6 +56618,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Gunjala+Gondi:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52834,
+				1.266
+			],
+			[
+				450,
+				0.532117,
+				1.266
+			],
+			[
+				500,
+				0.535893,
+				1.266
+			],
+			[
+				550,
+				0.540088,
+				1.266
+			],
+			[
+				600,
+				0.544282,
+				1.266
+			],
+			[
+				650,
+				0.549108,
+				1.266
+			],
+			[
+				700,
+				0.553933,
+				1.266
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29140,6 +56673,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Gurmukhi:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.490153,
+				1.304
+			],
+			[
+				150,
+				0.493666,
+				1.304
+			],
+			[
+				200,
+				0.497179,
+				1.304
+			],
+			[
+				250,
+				0.502313,
+				1.304
+			],
+			[
+				300,
+				0.507446,
+				1.304
+			],
+			[
+				350,
+				0.516093,
+				1.304
+			],
+			[
+				400,
+				0.52474,
+				1.304
+			],
+			[
+				450,
+				0.528823,
+				1.304
+			],
+			[
+				500,
+				0.532905,
+				1.304
+			],
+			[
+				550,
+				0.537442,
+				1.304
+			],
+			[
+				600,
+				0.541979,
+				1.304
+			],
+			[
+				650,
+				0.547197,
+				1.304
+			],
+			[
+				700,
+				0.552414,
+				1.304
+			],
+			[
+				750,
+				0.557072,
+				1.304
+			],
+			[
+				800,
+				0.56173,
+				1.304
+			],
+			[
+				850,
+				0.567165,
+				1.304
+			],
+			[
+				900,
+				0.5726,
+				1.304
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29169,6 +56789,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+HK:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.490093,
+				1
+			],
+			[
+				150,
+				0.493226,
+				1
+			],
+			[
+				200,
+				0.496358,
+				1
+			],
+			[
+				250,
+				0.499491,
+				1
+			],
+			[
+				300,
+				0.502623,
+				1
+			],
+			[
+				350,
+				0.515158,
+				1
+			],
+			[
+				400,
+				0.520642,
+				1
+			],
+			[
+				450,
+				0.527299,
+				1
+			],
+			[
+				500,
+				0.533956,
+				1
+			],
+			[
+				550,
+				0.538265,
+				1
+			],
+			[
+				600,
+				0.542573,
+				1
+			],
+			[
+				650,
+				0.546882,
+				1
+			],
+			[
+				700,
+				0.55119,
+				1
+			],
+			[
+				750,
+				0.555498,
+				1
+			],
+			[
+				800,
+				0.559805,
+				1
+			],
+			[
+				850,
+				0.564113,
+				1
+			],
+			[
+				900,
+				0.56842,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29191,6 +56898,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Hanifi+Rohingya:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			],
+			[
+				450,
+				0.53286,
+				1.362
+			],
+			[
+				500,
+				0.538181,
+				1.362
+			],
+			[
+				550,
+				0.544126,
+				1.362
+			],
+			[
+				600,
+				0.550071,
+				1.362
+			],
+			[
+				650,
+				0.556909,
+				1.362
+			],
+			[
+				700,
+				0.563747,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29211,6 +56955,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Hanunoo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29223,6 +56974,13 @@ export default {
 	"Noto Sans Hatran": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Hatran:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29242,6 +57000,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.493833,
+				1.36
+			],
+			[
+				150,
+				0.497371,
+				1.36
+			],
+			[
+				200,
+				0.500908,
+				1.36
+			],
+			[
+				250,
+				0.50596,
+				1.36
+			],
+			[
+				300,
+				0.511012,
+				1.36
+			],
+			[
+				350,
+				0.517579,
+				1.36
+			],
+			[
+				400,
+				0.524146,
+				1.36
+			],
+			[
+				450,
+				0.529198,
+				1.36
+			],
+			[
+				500,
+				0.53425,
+				1.36
+			],
+			[
+				550,
+				0.539302,
+				1.36
+			],
+			[
+				600,
+				0.544354,
+				1.36
+			],
+			[
+				650,
+				0.549406,
+				1.36
+			],
+			[
+				700,
+				0.554458,
+				1.36
+			],
+			[
+				750,
+				0.55951,
+				1.36
+			],
+			[
+				800,
+				0.564563,
+				1.36
+			],
+			[
+				850,
+				0.569615,
+				1.36
+			],
+			[
+				900,
+				0.574667,
+				1.36
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29267,6 +57112,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Imperial+Aramaic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29284,6 +57136,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Indic+Siyaq+Numbers:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.513887,
+				1.562
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29301,6 +57160,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Inscriptional+Pahlavi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.421
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29319,6 +57185,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Inscriptional+Parthian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.37
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29340,6 +57213,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.490093,
+				1
+			],
+			[
+				150,
+				0.493226,
+				1
+			],
+			[
+				200,
+				0.496358,
+				1
+			],
+			[
+				250,
+				0.499491,
+				1
+			],
+			[
+				300,
+				0.502623,
+				1
+			],
+			[
+				350,
+				0.515158,
+				1
+			],
+			[
+				400,
+				0.520642,
+				1
+			],
+			[
+				450,
+				0.527299,
+				1
+			],
+			[
+				500,
+				0.533956,
+				1
+			],
+			[
+				550,
+				0.538265,
+				1
+			],
+			[
+				600,
+				0.542573,
+				1
+			],
+			[
+				650,
+				0.546882,
+				1
+			],
+			[
+				700,
+				0.55119,
+				1
+			],
+			[
+				750,
+				0.555498,
+				1
+			],
+			[
+				800,
+				0.559805,
+				1
+			],
+			[
+				850,
+				0.564113,
+				1
+			],
+			[
+				900,
+				0.56842,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29360,6 +57320,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Javanese:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52754,
+				2.036
+			],
+			[
+				450,
+				0.532152,
+				2.036
+			],
+			[
+				500,
+				0.536764,
+				2.036
+			],
+			[
+				550,
+				0.541377,
+				2.036
+			],
+			[
+				600,
+				0.545989,
+				2.036
+			],
+			[
+				650,
+				0.550601,
+				2.036
+			],
+			[
+				700,
+				0.555213,
+				2.036
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29384,6 +57381,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.490093,
+				1
+			],
+			[
+				150,
+				0.493226,
+				1
+			],
+			[
+				200,
+				0.496358,
+				1
+			],
+			[
+				250,
+				0.499491,
+				1
+			],
+			[
+				300,
+				0.502623,
+				1
+			],
+			[
+				350,
+				0.515158,
+				1
+			],
+			[
+				400,
+				0.520642,
+				1
+			],
+			[
+				450,
+				0.527299,
+				1
+			],
+			[
+				500,
+				0.533956,
+				1
+			],
+			[
+				550,
+				0.538265,
+				1
+			],
+			[
+				600,
+				0.542573,
+				1
+			],
+			[
+				650,
+				0.546882,
+				1
+			],
+			[
+				700,
+				0.55119,
+				1
+			],
+			[
+				750,
+				0.555498,
+				1
+			],
+			[
+				800,
+				0.559805,
+				1
+			],
+			[
+				850,
+				0.564113,
+				1
+			],
+			[
+				900,
+				0.56842,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29406,6 +57490,13 @@ export default {
 			"ss03"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Kaithi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5285,
+				1.502
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29423,6 +57514,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Kannada:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.495927,
+				1.349
+			],
+			[
+				150,
+				0.499441,
+				1.349
+			],
+			[
+				200,
+				0.502955,
+				1.349
+			],
+			[
+				250,
+				0.508091,
+				1.349
+			],
+			[
+				300,
+				0.513226,
+				1.349
+			],
+			[
+				350,
+				0.521876,
+				1.349
+			],
+			[
+				400,
+				0.530527,
+				1.349
+			],
+			[
+				450,
+				0.530543,
+				1.349
+			],
+			[
+				500,
+				0.53056,
+				1.349
+			],
+			[
+				550,
+				0.530579,
+				1.349
+			],
+			[
+				600,
+				0.530597,
+				1.349
+			],
+			[
+				650,
+				0.530619,
+				1.349
+			],
+			[
+				700,
+				0.530642,
+				1.349
+			],
+			[
+				750,
+				0.540846,
+				1.349
+			],
+			[
+				800,
+				0.551049,
+				1.349
+			],
+			[
+				850,
+				0.562955,
+				1.349
+			],
+			[
+				900,
+				0.57486,
+				1.349
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29449,6 +57627,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Kawi:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52114,
+				2
+			],
+			[
+				450,
+				0.526641,
+				2
+			],
+			[
+				500,
+				0.532142,
+				2
+			],
+			[
+				550,
+				0.537643,
+				2
+			],
+			[
+				600,
+				0.543144,
+				2
+			],
+			[
+				650,
+				0.548646,
+				2
+			],
+			[
+				700,
+				0.554147,
+				2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29469,6 +57684,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Kayah+Li:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			],
+			[
+				450,
+				0.529711,
+				1.362
+			],
+			[
+				500,
+				0.531882,
+				1.362
+			],
+			[
+				550,
+				0.537307,
+				1.362
+			],
+			[
+				600,
+				0.542732,
+				1.362
+			],
+			[
+				650,
+				0.548973,
+				1.362
+			],
+			[
+				700,
+				0.555213,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29486,6 +57738,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Kharoshthi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.37
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29506,6 +57765,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Khmer:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				1.362
+			],
+			[
+				150,
+				0.496299,
+				1.362
+			],
+			[
+				200,
+				0.499831,
+				1.362
+			],
+			[
+				250,
+				0.504992,
+				1.362
+			],
+			[
+				300,
+				0.510153,
+				1.362
+			],
+			[
+				350,
+				0.518846,
+				1.362
+			],
+			[
+				400,
+				0.52754,
+				1.362
+			],
+			[
+				450,
+				0.531691,
+				1.362
+			],
+			[
+				500,
+				0.535842,
+				1.362
+			],
+			[
+				550,
+				0.540455,
+				1.362
+			],
+			[
+				600,
+				0.545067,
+				1.362
+			],
+			[
+				650,
+				0.550372,
+				1.362
+			],
+			[
+				700,
+				0.555678,
+				1.362
+			],
+			[
+				750,
+				0.559829,
+				1.362
+			],
+			[
+				800,
+				0.56398,
+				1.362
+			],
+			[
+				850,
+				0.568823,
+				1.362
+			],
+			[
+				900,
+				0.573667,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29532,6 +57878,13 @@ export default {
 			"salt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Khojki:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.856
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29549,6 +57902,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Khudawadi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.317
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29568,6 +57928,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				1.645
+			],
+			[
+				150,
+				0.496299,
+				1.645
+			],
+			[
+				200,
+				0.499831,
+				1.645
+			],
+			[
+				250,
+				0.504992,
+				1.645
+			],
+			[
+				300,
+				0.510153,
+				1.645
+			],
+			[
+				350,
+				0.518846,
+				1.645
+			],
+			[
+				400,
+				0.52754,
+				1.645
+			],
+			[
+				450,
+				0.531685,
+				1.645
+			],
+			[
+				500,
+				0.53583,
+				1.645
+			],
+			[
+				550,
+				0.540436,
+				1.645
+			],
+			[
+				600,
+				0.545042,
+				1.645
+			],
+			[
+				650,
+				0.550339,
+				1.645
+			],
+			[
+				700,
+				0.555637,
+				1.645
+			],
+			[
+				750,
+				0.559782,
+				1.645
+			],
+			[
+				800,
+				0.563927,
+				1.645
+			],
+			[
+				850,
+				0.568763,
+				1.645
+			],
+			[
+				900,
+				0.5736,
+				1.645
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29599,6 +58046,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.494047,
+				1.6
+			],
+			[
+				150,
+				0.497449,
+				1.6
+			],
+			[
+				200,
+				0.500851,
+				1.6
+			],
+			[
+				250,
+				0.505822,
+				1.6
+			],
+			[
+				300,
+				0.510793,
+				1.6
+			],
+			[
+				350,
+				0.519166,
+				1.6
+			],
+			[
+				400,
+				0.52754,
+				1.6
+			],
+			[
+				450,
+				0.531503,
+				1.6
+			],
+			[
+				500,
+				0.535465,
+				1.6
+			],
+			[
+				550,
+				0.539868,
+				1.6
+			],
+			[
+				600,
+				0.544272,
+				1.6
+			],
+			[
+				650,
+				0.549336,
+				1.6
+			],
+			[
+				700,
+				0.554401,
+				1.6
+			],
+			[
+				750,
+				0.558363,
+				1.6
+			],
+			[
+				800,
+				0.562326,
+				1.6
+			],
+			[
+				850,
+				0.56695,
+				1.6
+			],
+			[
+				900,
+				0.571573,
+				1.6
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29623,6 +58157,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Lepcha:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.519
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29640,6 +58181,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Limbu:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29657,6 +58205,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+A:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29669,6 +58224,13 @@ export default {
 	"Noto Sans Linear B": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Linear+B:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29686,6 +58248,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Lisu:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			],
+			[
+				450,
+				0.534752,
+				1.362
+			],
+			[
+				500,
+				0.539364,
+				1.362
+			],
+			[
+				550,
+				0.543977,
+				1.362
+			],
+			[
+				600,
+				0.548589,
+				1.362
+			],
+			[
+				650,
+				0.553201,
+				1.362
+			],
+			[
+				700,
+				0.557813,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29705,6 +58304,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Lydian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29720,6 +58326,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mahajani:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29736,6 +58349,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Malayalam:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.498167,
+				1.247
+			],
+			[
+				150,
+				0.501681,
+				1.247
+			],
+			[
+				200,
+				0.505195,
+				1.247
+			],
+			[
+				250,
+				0.510331,
+				1.247
+			],
+			[
+				300,
+				0.515466,
+				1.247
+			],
+			[
+				350,
+				0.524116,
+				1.247
+			],
+			[
+				400,
+				0.532767,
+				1.247
+			],
+			[
+				450,
+				0.536849,
+				1.247
+			],
+			[
+				500,
+				0.540932,
+				1.247
+			],
+			[
+				550,
+				0.545469,
+				1.247
+			],
+			[
+				600,
+				0.550005,
+				1.247
+			],
+			[
+				650,
+				0.555223,
+				1.247
+			],
+			[
+				700,
+				0.560441,
+				1.247
+			],
+			[
+				750,
+				0.564285,
+				1.247
+			],
+			[
+				800,
+				0.568129,
+				1.247
+			],
+			[
+				850,
+				0.572615,
+				1.247
+			],
+			[
+				900,
+				0.5771,
+				1.247
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29762,6 +58462,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mandaic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.147
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29779,6 +58486,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Manichaean:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.13
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29797,6 +58511,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Marchen:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.523273,
+				1.641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29817,6 +58538,13 @@ export default {
 			"ss02"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Masaram+Gondi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.54034,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29829,6 +58557,13 @@ export default {
 	"Noto Sans Mayan Numerals": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mayan+Numerals:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29846,6 +58581,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Medefaidrin:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			],
+			[
+				450,
+				0.531461,
+				1.362
+			],
+			[
+				500,
+				0.535381,
+				1.362
+			],
+			[
+				550,
+				0.539992,
+				1.362
+			],
+			[
+				600,
+				0.544604,
+				1.362
+			],
+			[
+				650,
+				0.549909,
+				1.362
+			],
+			[
+				700,
+				0.555213,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29864,6 +58636,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Meetei+Mayek:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.500233,
+				1.39
+			],
+			[
+				150,
+				0.503224,
+				1.39
+			],
+			[
+				200,
+				0.506214,
+				1.39
+			],
+			[
+				250,
+				0.510583,
+				1.39
+			],
+			[
+				300,
+				0.514953,
+				1.39
+			],
+			[
+				350,
+				0.522313,
+				1.39
+			],
+			[
+				400,
+				0.529673,
+				1.39
+			],
+			[
+				450,
+				0.53305,
+				1.39
+			],
+			[
+				500,
+				0.536427,
+				1.39
+			],
+			[
+				550,
+				0.54018,
+				1.39
+			],
+			[
+				600,
+				0.543933,
+				1.39
+			],
+			[
+				650,
+				0.548249,
+				1.39
+			],
+			[
+				700,
+				0.552565,
+				1.39
+			],
+			[
+				750,
+				0.555942,
+				1.39
+			],
+			[
+				800,
+				0.559319,
+				1.39
+			],
+			[
+				850,
+				0.56326,
+				1.39
+			],
+			[
+				900,
+				0.5672,
+				1.39
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -29882,6 +58741,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mende+Kikakui:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.267
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29899,6 +58765,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Meroitic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.343
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29914,6 +58787,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Miao:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.492
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29932,6 +58812,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Modi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.354
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29950,6 +58837,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mongolian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.75
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -29977,6 +58871,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.362
+			],
+			[
+				150,
+				0.6,
+				1.362
+			],
+			[
+				200,
+				0.6,
+				1.362
+			],
+			[
+				250,
+				0.6,
+				1.362
+			],
+			[
+				300,
+				0.6,
+				1.362
+			],
+			[
+				350,
+				0.6,
+				1.362
+			],
+			[
+				400,
+				0.6,
+				1.362
+			],
+			[
+				450,
+				0.6,
+				1.362
+			],
+			[
+				500,
+				0.6,
+				1.362
+			],
+			[
+				550,
+				0.6,
+				1.362
+			],
+			[
+				600,
+				0.6,
+				1.362
+			],
+			[
+				650,
+				0.6,
+				1.362
+			],
+			[
+				700,
+				0.6,
+				1.362
+			],
+			[
+				750,
+				0.6,
+				1.362
+			],
+			[
+				800,
+				0.6,
+				1.362
+			],
+			[
+				850,
+				0.6,
+				1.362
+			],
+			[
+				900,
+				0.6,
+				1.362
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -29997,6 +58979,13 @@ export default {
 	"Noto Sans Mro": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Mro:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30009,6 +58998,13 @@ export default {
 	"Noto Sans Multani": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Multani:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30025,6 +59021,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Myanmar:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				2.184
+			],
+			[
+				150,
+				0.496299,
+				2.184
+			],
+			[
+				200,
+				0.499831,
+				2.184
+			],
+			[
+				250,
+				0.504992,
+				2.184
+			],
+			[
+				300,
+				0.510153,
+				2.184
+			],
+			[
+				350,
+				0.518846,
+				2.184
+			],
+			[
+				400,
+				0.52754,
+				2.184
+			],
+			[
+				450,
+				0.531623,
+				2.184
+			],
+			[
+				500,
+				0.535705,
+				2.184
+			],
+			[
+				550,
+				0.540242,
+				2.184
+			],
+			[
+				600,
+				0.544779,
+				2.184
+			],
+			[
+				650,
+				0.549997,
+				2.184
+			],
+			[
+				700,
+				0.555214,
+				2.184
+			],
+			[
+				750,
+				0.559457,
+				2.184
+			],
+			[
+				800,
+				0.563699,
+				2.184
+			],
+			[
+				850,
+				0.56865,
+				2.184
+			],
+			[
+				900,
+				0.5736,
+				2.184
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30050,6 +59133,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+NKo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30068,6 +59158,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+NKo+Unjoined:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			],
+			[
+				450,
+				0.532152,
+				1.362
+			],
+			[
+				500,
+				0.536764,
+				1.362
+			],
+			[
+				550,
+				0.541377,
+				1.362
+			],
+			[
+				600,
+				0.545989,
+				1.362
+			],
+			[
+				650,
+				0.550601,
+				1.362
+			],
+			[
+				700,
+				0.555213,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30082,6 +59209,13 @@ export default {
 	"Noto Sans Nabataean": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Nabataean:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30100,6 +59234,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Nag+Mundari:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.521833,
+				1.362
+			],
+			[
+				450,
+				0.527172,
+				1.362
+			],
+			[
+				500,
+				0.532511,
+				1.362
+			],
+			[
+				550,
+				0.53785,
+				1.362
+			],
+			[
+				600,
+				0.543189,
+				1.362
+			],
+			[
+				650,
+				0.548528,
+				1.362
+			],
+			[
+				700,
+				0.553867,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30123,6 +59294,13 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Nandinagari:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.531807,
+				1.46
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30141,6 +59319,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+New+Tai+Lue:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			],
+			[
+				450,
+				0.530201,
+				1.362
+			],
+			[
+				500,
+				0.532863,
+				1.362
+			],
+			[
+				550,
+				0.538184,
+				1.362
+			],
+			[
+				600,
+				0.543504,
+				1.362
+			],
+			[
+				650,
+				0.549359,
+				1.362
+			],
+			[
+				700,
+				0.555213,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30158,6 +59373,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Newa:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.432
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30170,6 +59392,13 @@ export default {
 	"Noto Sans Nushu": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Nushu:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.39
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30182,6 +59411,13 @@ export default {
 	"Noto Sans Ogham": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Ogham:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30195,6 +59431,43 @@ export default {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Ol+Chiki:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			],
+			[
+				450,
+				0.534234,
+				1.362
+			],
+			[
+				500,
+				0.538327,
+				1.362
+			],
+			[
+				550,
+				0.54287,
+				1.362
+			],
+			[
+				600,
+				0.547412,
+				1.362
+			],
+			[
+				650,
+				0.552613,
+				1.362
+			],
+			[
+				700,
+				0.557813,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30216,6 +59489,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Hungarian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.036
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30233,6 +59513,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Italic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30245,6 +59532,13 @@ export default {
 	"Noto Sans Old North Arabian": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Old+North+Arabian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30260,6 +59554,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Permic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.528433,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30272,6 +59573,13 @@ export default {
 	"Noto Sans Old Persian": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Persian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30291,6 +59599,13 @@ export default {
 			"salt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Sogdian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.515807,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30303,6 +59618,13 @@ export default {
 	"Noto Sans Old South Arabian": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Old+South+Arabian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30320,6 +59642,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Old+Turkic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30338,6 +59667,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Oriya:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492287,
+				1.362
+			],
+			[
+				150,
+				0.497852,
+				1.362
+			],
+			[
+				200,
+				0.503418,
+				1.362
+			],
+			[
+				250,
+				0.508983,
+				1.362
+			],
+			[
+				300,
+				0.514549,
+				1.362
+			],
+			[
+				350,
+				0.520114,
+				1.362
+			],
+			[
+				400,
+				0.52568,
+				1.362
+			],
+			[
+				450,
+				0.530471,
+				1.362
+			],
+			[
+				500,
+				0.535262,
+				1.362
+			],
+			[
+				550,
+				0.540052,
+				1.362
+			],
+			[
+				600,
+				0.544843,
+				1.362
+			],
+			[
+				650,
+				0.549634,
+				1.362
+			],
+			[
+				700,
+				0.554424,
+				1.362
+			],
+			[
+				750,
+				0.557902,
+				1.362
+			],
+			[
+				800,
+				0.561379,
+				1.362
+			],
+			[
+				850,
+				0.564856,
+				1.362
+			],
+			[
+				900,
+				0.568333,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30362,6 +59778,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Osage:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30374,6 +59797,13 @@ export default {
 	"Noto Sans Osmanya": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Osmanya:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53366,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30390,6 +59820,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Pahawh+Hmong:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30405,6 +59842,13 @@ export default {
 			"dlig"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Palmyrene:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30420,6 +59864,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Pau+Cin+Hau:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53238,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30438,6 +59889,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+PhagsPa:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30450,6 +59908,13 @@ export default {
 	"Noto Sans Phoenician": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Phoenician:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30468,6 +59933,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Psalter+Pahlavi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.291
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30485,6 +59957,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Rejang:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30497,6 +59976,13 @@ export default {
 	"Noto Sans Runic": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Runic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30518,6 +60004,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.490093,
+				1
+			],
+			[
+				150,
+				0.493226,
+				1
+			],
+			[
+				200,
+				0.496358,
+				1
+			],
+			[
+				250,
+				0.499491,
+				1
+			],
+			[
+				300,
+				0.502623,
+				1
+			],
+			[
+				350,
+				0.515158,
+				1
+			],
+			[
+				400,
+				0.520642,
+				1
+			],
+			[
+				450,
+				0.527299,
+				1
+			],
+			[
+				500,
+				0.533956,
+				1
+			],
+			[
+				550,
+				0.538265,
+				1
+			],
+			[
+				600,
+				0.542573,
+				1
+			],
+			[
+				650,
+				0.546882,
+				1
+			],
+			[
+				700,
+				0.55119,
+				1
+			],
+			[
+				750,
+				0.555498,
+				1
+			],
+			[
+				800,
+				0.559805,
+				1
+			],
+			[
+				850,
+				0.564113,
+				1
+			],
+			[
+				900,
+				0.56842,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30537,6 +60110,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Samaritan:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30553,6 +60133,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Saurashtra:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.532913,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30569,6 +60156,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Sharada:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.527493,
+				1.38
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30581,6 +60175,13 @@ export default {
 	"Noto Sans Shavian": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Shavian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30604,6 +60205,13 @@ export default {
 			"ss06"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Siddham:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52114,
+				2.03
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30622,6 +60230,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+SignWriting:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.606473,
+				1.002
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30639,6 +60254,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Sinhala:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.518587,
+				1.304
+			],
+			[
+				150,
+				0.522096,
+				1.304
+			],
+			[
+				200,
+				0.525606,
+				1.304
+			],
+			[
+				250,
+				0.530734,
+				1.304
+			],
+			[
+				300,
+				0.535863,
+				1.304
+			],
+			[
+				350,
+				0.544501,
+				1.304
+			],
+			[
+				400,
+				0.55314,
+				1.304
+			],
+			[
+				450,
+				0.557223,
+				1.304
+			],
+			[
+				500,
+				0.561305,
+				1.304
+			],
+			[
+				550,
+				0.565842,
+				1.304
+			],
+			[
+				600,
+				0.570379,
+				1.304
+			],
+			[
+				650,
+				0.575597,
+				1.304
+			],
+			[
+				700,
+				0.580814,
+				1.304
+			],
+			[
+				750,
+				0.584658,
+				1.304
+			],
+			[
+				800,
+				0.588503,
+				1.304
+			],
+			[
+				850,
+				0.592988,
+				1.304
+			],
+			[
+				900,
+				0.597473,
+				1.304
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30685,6 +60387,13 @@ export default {
 			"salt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Sogdian:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.515807,
+				1.382
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30702,6 +60411,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Sora+Sompeng:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			],
+			[
+				450,
+				0.534752,
+				1.362
+			],
+			[
+				500,
+				0.539364,
+				1.362
+			],
+			[
+				550,
+				0.543977,
+				1.362
+			],
+			[
+				600,
+				0.548589,
+				1.362
+			],
+			[
+				650,
+				0.553201,
+				1.362
+			],
+			[
+				700,
+				0.557813,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30720,6 +60466,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Soyombo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.596
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30738,6 +60491,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Sundanese:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.437
+			],
+			[
+				450,
+				0.529711,
+				1.437
+			],
+			[
+				500,
+				0.531882,
+				1.437
+			],
+			[
+				550,
+				0.537307,
+				1.437
+			],
+			[
+				600,
+				0.542732,
+				1.437
+			],
+			[
+				650,
+				0.548973,
+				1.437
+			],
+			[
+				700,
+				0.555213,
+				1.437
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30757,6 +60547,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Sunuwar:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.542473,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30774,6 +60571,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Syloti+Nagri:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30792,6 +60596,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				2.05
+			],
+			[
+				150,
+				0.496299,
+				2.05
+			],
+			[
+				200,
+				0.499831,
+				2.05
+			],
+			[
+				250,
+				0.504992,
+				2.05
+			],
+			[
+				300,
+				0.510153,
+				2.05
+			],
+			[
+				350,
+				0.518846,
+				2.05
+			],
+			[
+				400,
+				0.52754,
+				2.05
+			],
+			[
+				450,
+				0.531685,
+				2.05
+			],
+			[
+				500,
+				0.53583,
+				2.05
+			],
+			[
+				550,
+				0.540436,
+				2.05
+			],
+			[
+				600,
+				0.545042,
+				2.05
+			],
+			[
+				650,
+				0.550339,
+				2.05
+			],
+			[
+				700,
+				0.555637,
+				2.05
+			],
+			[
+				750,
+				0.559782,
+				2.05
+			],
+			[
+				800,
+				0.563927,
+				2.05
+			],
+			[
+				850,
+				0.568763,
+				2.05
+			],
+			[
+				900,
+				0.5736,
+				2.05
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30811,6 +60702,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols+2:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.598207,
+				1.699
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30831,6 +60729,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.495967,
+				1.412
+			],
+			[
+				150,
+				0.501227,
+				1.412
+			],
+			[
+				200,
+				0.506487,
+				1.412
+			],
+			[
+				250,
+				0.511747,
+				1.412
+			],
+			[
+				300,
+				0.517007,
+				1.412
+			],
+			[
+				350,
+				0.522267,
+				1.412
+			],
+			[
+				400,
+				0.527527,
+				1.412
+			],
+			[
+				450,
+				0.532006,
+				1.412
+			],
+			[
+				500,
+				0.536485,
+				1.412
+			],
+			[
+				550,
+				0.540965,
+				1.412
+			],
+			[
+				600,
+				0.545444,
+				1.412
+			],
+			[
+				650,
+				0.549923,
+				1.412
+			],
+			[
+				700,
+				0.554403,
+				1.412
+			],
+			[
+				750,
+				0.558882,
+				1.412
+			],
+			[
+				800,
+				0.563361,
+				1.412
+			],
+			[
+				850,
+				0.567841,
+				1.412
+			],
+			[
+				900,
+				0.57232,
+				1.412
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30850,6 +60835,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac+Eastern:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.495967,
+				1.412
+			],
+			[
+				150,
+				0.501222,
+				1.412
+			],
+			[
+				200,
+				0.506478,
+				1.412
+			],
+			[
+				250,
+				0.511733,
+				1.412
+			],
+			[
+				300,
+				0.516989,
+				1.412
+			],
+			[
+				350,
+				0.522244,
+				1.412
+			],
+			[
+				400,
+				0.5275,
+				1.412
+			],
+			[
+				450,
+				0.532005,
+				1.412
+			],
+			[
+				500,
+				0.536509,
+				1.412
+			],
+			[
+				550,
+				0.541014,
+				1.412
+			],
+			[
+				600,
+				0.545519,
+				1.412
+			],
+			[
+				650,
+				0.550023,
+				1.412
+			],
+			[
+				700,
+				0.554528,
+				1.412
+			],
+			[
+				750,
+				0.559033,
+				1.412
+			],
+			[
+				800,
+				0.563537,
+				1.412
+			],
+			[
+				850,
+				0.568042,
+				1.412
+			],
+			[
+				900,
+				0.572547,
+				1.412
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30871,6 +60943,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Syriac+Western:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.496127,
+				1.412
+			],
+			[
+				150,
+				0.50136,
+				1.412
+			],
+			[
+				200,
+				0.506593,
+				1.412
+			],
+			[
+				250,
+				0.511827,
+				1.412
+			],
+			[
+				300,
+				0.51706,
+				1.412
+			],
+			[
+				350,
+				0.522293,
+				1.412
+			],
+			[
+				400,
+				0.527527,
+				1.412
+			],
+			[
+				450,
+				0.532006,
+				1.412
+			],
+			[
+				500,
+				0.536485,
+				1.412
+			],
+			[
+				550,
+				0.540965,
+				1.412
+			],
+			[
+				600,
+				0.545444,
+				1.412
+			],
+			[
+				650,
+				0.549923,
+				1.412
+			],
+			[
+				700,
+				0.554403,
+				1.412
+			],
+			[
+				750,
+				0.558882,
+				1.412
+			],
+			[
+				800,
+				0.563361,
+				1.412
+			],
+			[
+				850,
+				0.567841,
+				1.412
+			],
+			[
+				900,
+				0.57232,
+				1.412
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30894,6 +61053,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.490093,
+				1
+			],
+			[
+				150,
+				0.493226,
+				1
+			],
+			[
+				200,
+				0.496358,
+				1
+			],
+			[
+				250,
+				0.499491,
+				1
+			],
+			[
+				300,
+				0.502623,
+				1
+			],
+			[
+				350,
+				0.515158,
+				1
+			],
+			[
+				400,
+				0.520642,
+				1
+			],
+			[
+				450,
+				0.527299,
+				1
+			],
+			[
+				500,
+				0.533956,
+				1
+			],
+			[
+				550,
+				0.538265,
+				1
+			],
+			[
+				600,
+				0.542573,
+				1
+			],
+			[
+				650,
+				0.546882,
+				1
+			],
+			[
+				700,
+				0.55119,
+				1
+			],
+			[
+				750,
+				0.555498,
+				1
+			],
+			[
+				800,
+				0.559805,
+				1
+			],
+			[
+				850,
+				0.564113,
+				1
+			],
+			[
+				900,
+				0.56842,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30913,6 +61159,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Tagalog:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30925,6 +61178,13 @@ export default {
 	"Noto Sans Tagbanwa": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Tagbanwa:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30940,6 +61200,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Le:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30958,6 +61225,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Tham:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.544113,
+				1.589
+			],
+			[
+				450,
+				0.548726,
+				1.589
+			],
+			[
+				500,
+				0.553338,
+				1.589
+			],
+			[
+				550,
+				0.55795,
+				1.589
+			],
+			[
+				600,
+				0.562562,
+				1.589
+			],
+			[
+				650,
+				0.567174,
+				1.589
+			],
+			[
+				700,
+				0.571787,
+				1.589
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -30977,6 +61281,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Tai+Viet:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -30994,6 +61305,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Takri:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.262
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31011,6 +61329,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.49294,
+				1.24
+			],
+			[
+				150,
+				0.496454,
+				1.24
+			],
+			[
+				200,
+				0.499969,
+				1.24
+			],
+			[
+				250,
+				0.505104,
+				1.24
+			],
+			[
+				300,
+				0.510239,
+				1.24
+			],
+			[
+				350,
+				0.518889,
+				1.24
+			],
+			[
+				400,
+				0.52754,
+				1.24
+			],
+			[
+				450,
+				0.531623,
+				1.24
+			],
+			[
+				500,
+				0.535705,
+				1.24
+			],
+			[
+				550,
+				0.540242,
+				1.24
+			],
+			[
+				600,
+				0.544779,
+				1.24
+			],
+			[
+				650,
+				0.549997,
+				1.24
+			],
+			[
+				700,
+				0.555214,
+				1.24
+			],
+			[
+				750,
+				0.559058,
+				1.24
+			],
+			[
+				800,
+				0.562903,
+				1.24
+			],
+			[
+				850,
+				0.567388,
+				1.24
+			],
+			[
+				900,
+				0.571873,
+				1.24
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31031,6 +61436,13 @@ export default {
 	"Noto Sans Tamil Supplement": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil+Supplement:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.24
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31049,6 +61461,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Tangsa:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			],
+			[
+				450,
+				0.531624,
+				1.362
+			],
+			[
+				500,
+				0.535707,
+				1.362
+			],
+			[
+				550,
+				0.540242,
+				1.362
+			],
+			[
+				600,
+				0.544778,
+				1.362
+			],
+			[
+				650,
+				0.549996,
+				1.362
+			],
+			[
+				700,
+				0.555213,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31067,6 +61516,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Telugu:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.495393,
+				1.352
+			],
+			[
+				150,
+				0.498908,
+				1.352
+			],
+			[
+				200,
+				0.502422,
+				1.352
+			],
+			[
+				250,
+				0.507557,
+				1.352
+			],
+			[
+				300,
+				0.512693,
+				1.352
+			],
+			[
+				350,
+				0.521343,
+				1.352
+			],
+			[
+				400,
+				0.529993,
+				1.352
+			],
+			[
+				450,
+				0.534076,
+				1.352
+			],
+			[
+				500,
+				0.538159,
+				1.352
+			],
+			[
+				550,
+				0.542695,
+				1.352
+			],
+			[
+				600,
+				0.547232,
+				1.352
+			],
+			[
+				650,
+				0.55245,
+				1.352
+			],
+			[
+				700,
+				0.557668,
+				1.352
+			],
+			[
+				750,
+				0.561512,
+				1.352
+			],
+			[
+				800,
+				0.565356,
+				1.352
+			],
+			[
+				850,
+				0.569841,
+				1.352
+			],
+			[
+				900,
+				0.574327,
+				1.352
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31093,6 +61629,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Thaana:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				1.493
+			],
+			[
+				150,
+				0.498562,
+				1.493
+			],
+			[
+				200,
+				0.504358,
+				1.493
+			],
+			[
+				250,
+				0.510153,
+				1.493
+			],
+			[
+				300,
+				0.515949,
+				1.493
+			],
+			[
+				350,
+				0.521744,
+				1.493
+			],
+			[
+				400,
+				0.52754,
+				1.493
+			],
+			[
+				450,
+				0.532152,
+				1.493
+			],
+			[
+				500,
+				0.536765,
+				1.493
+			],
+			[
+				550,
+				0.541377,
+				1.493
+			],
+			[
+				600,
+				0.54599,
+				1.493
+			],
+			[
+				650,
+				0.550602,
+				1.493
+			],
+			[
+				700,
+				0.555214,
+				1.493
+			],
+			[
+				750,
+				0.559811,
+				1.493
+			],
+			[
+				800,
+				0.564407,
+				1.493
+			],
+			[
+				850,
+				0.569004,
+				1.493
+			],
+			[
+				900,
+				0.5736,
+				1.493
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31115,6 +61738,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				1.511
+			],
+			[
+				150,
+				0.496299,
+				1.511
+			],
+			[
+				200,
+				0.499831,
+				1.511
+			],
+			[
+				250,
+				0.504992,
+				1.511
+			],
+			[
+				300,
+				0.510153,
+				1.511
+			],
+			[
+				350,
+				0.518846,
+				1.511
+			],
+			[
+				400,
+				0.52754,
+				1.511
+			],
+			[
+				450,
+				0.531623,
+				1.511
+			],
+			[
+				500,
+				0.535705,
+				1.511
+			],
+			[
+				550,
+				0.540242,
+				1.511
+			],
+			[
+				600,
+				0.544779,
+				1.511
+			],
+			[
+				650,
+				0.549997,
+				1.511
+			],
+			[
+				700,
+				0.555214,
+				1.511
+			],
+			[
+				750,
+				0.559457,
+				1.511
+			],
+			[
+				800,
+				0.563699,
+				1.511
+			],
+			[
+				850,
+				0.56865,
+				1.511
+			],
+			[
+				900,
+				0.5736,
+				1.511
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31144,6 +61854,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Thai+Looped:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492767,
+				1.6
+			],
+			[
+				150,
+				0.496299,
+				1.6
+			],
+			[
+				200,
+				0.499831,
+				1.6
+			],
+			[
+				250,
+				0.504992,
+				1.6
+			],
+			[
+				300,
+				0.510153,
+				1.6
+			],
+			[
+				350,
+				0.518846,
+				1.6
+			],
+			[
+				400,
+				0.52754,
+				1.6
+			],
+			[
+				450,
+				0.531685,
+				1.6
+			],
+			[
+				500,
+				0.53583,
+				1.6
+			],
+			[
+				550,
+				0.540436,
+				1.6
+			],
+			[
+				600,
+				0.545042,
+				1.6
+			],
+			[
+				650,
+				0.550339,
+				1.6
+			],
+			[
+				700,
+				0.555637,
+				1.6
+			],
+			[
+				750,
+				0.559782,
+				1.6
+			],
+			[
+				800,
+				0.563927,
+				1.6
+			],
+			[
+				850,
+				0.568763,
+				1.6
+			],
+			[
+				900,
+				0.5736,
+				1.6
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31169,6 +61966,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Tifinagh:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31181,6 +61985,13 @@ export default {
 	"Noto Sans Tirhuta": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Tirhuta:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.545
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31193,6 +62004,13 @@ export default {
 	"Noto Sans Ugaritic": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Ugaritic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.124
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31205,6 +62023,13 @@ export default {
 	"Noto Sans Vai": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Vai:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31222,6 +62047,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Vithkuqi:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.53014,
+				1.362
+			],
+			[
+				450,
+				0.534237,
+				1.362
+			],
+			[
+				500,
+				0.538334,
+				1.362
+			],
+			[
+				550,
+				0.542802,
+				1.362
+			],
+			[
+				600,
+				0.547269,
+				1.362
+			],
+			[
+				650,
+				0.552541,
+				1.362
+			],
+			[
+				700,
+				0.557813,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31239,6 +62101,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Wancho:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.542627,
+				1.257
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31255,6 +62124,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Warang+Citi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.534407,
+				1.142
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31267,6 +62143,13 @@ export default {
 	"Noto Sans Yi": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Yi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.528433,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31285,6 +62168,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Sans+Zanabazar+Square:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				2.442
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31343,6 +62233,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.509547,
+				1.362
+			],
+			[
+				150,
+				0.513116,
+				1.362
+			],
+			[
+				200,
+				0.516685,
+				1.362
+			],
+			[
+				250,
+				0.522294,
+				1.362
+			],
+			[
+				300,
+				0.527903,
+				1.362
+			],
+			[
+				350,
+				0.535551,
+				1.362
+			],
+			[
+				400,
+				0.5432,
+				1.362
+			],
+			[
+				450,
+				0.547076,
+				1.362
+			],
+			[
+				500,
+				0.550953,
+				1.362
+			],
+			[
+				550,
+				0.555799,
+				1.362
+			],
+			[
+				600,
+				0.560646,
+				1.362
+			],
+			[
+				650,
+				0.565979,
+				1.362
+			],
+			[
+				700,
+				0.571312,
+				1.362
+			],
+			[
+				750,
+				0.576995,
+				1.362
+			],
+			[
+				800,
+				0.582677,
+				1.362
+			],
+			[
+				850,
+				0.587372,
+				1.362
+			],
+			[
+				900,
+				0.592067,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -31375,6 +62352,13 @@ export default {
 			"salt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Ahom:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.53968,
+				1.655
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31394,6 +62378,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Armenian:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.509653,
+				1.36
+			],
+			[
+				150,
+				0.513288,
+				1.36
+			],
+			[
+				200,
+				0.516923,
+				1.36
+			],
+			[
+				250,
+				0.522634,
+				1.36
+			],
+			[
+				300,
+				0.528346,
+				1.36
+			],
+			[
+				350,
+				0.536146,
+				1.36
+			],
+			[
+				400,
+				0.543947,
+				1.36
+			],
+			[
+				450,
+				0.547765,
+				1.36
+			],
+			[
+				500,
+				0.551584,
+				1.36
+			],
+			[
+				550,
+				0.556359,
+				1.36
+			],
+			[
+				600,
+				0.561133,
+				1.36
+			],
+			[
+				650,
+				0.566387,
+				1.36
+			],
+			[
+				700,
+				0.571641,
+				1.36
+			],
+			[
+				750,
+				0.577668,
+				1.36
+			],
+			[
+				800,
+				0.583695,
+				1.36
+			],
+			[
+				850,
+				0.588674,
+				1.36
+			],
+			[
+				900,
+				0.593653,
+				1.36
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31419,6 +62490,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Balinese:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.543947,
+				1.795
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31437,6 +62515,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Bengali:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.51262,
+				1.594
+			],
+			[
+				150,
+				0.515954,
+				1.594
+			],
+			[
+				200,
+				0.519289,
+				1.594
+			],
+			[
+				250,
+				0.524529,
+				1.594
+			],
+			[
+				300,
+				0.529769,
+				1.594
+			],
+			[
+				350,
+				0.536914,
+				1.594
+			],
+			[
+				400,
+				0.54406,
+				1.594
+			],
+			[
+				450,
+				0.547936,
+				1.594
+			],
+			[
+				500,
+				0.551812,
+				1.594
+			],
+			[
+				550,
+				0.556658,
+				1.594
+			],
+			[
+				600,
+				0.561504,
+				1.594
+			],
+			[
+				650,
+				0.566836,
+				1.594
+			],
+			[
+				700,
+				0.572169,
+				1.594
+			],
+			[
+				750,
+				0.577741,
+				1.594
+			],
+			[
+				800,
+				0.583313,
+				1.594
+			],
+			[
+				850,
+				0.587917,
+				1.594
+			],
+			[
+				900,
+				0.59252,
+				1.594
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31463,6 +62628,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Devanagari:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.507947,
+				1.555
+			],
+			[
+				150,
+				0.511765,
+				1.555
+			],
+			[
+				200,
+				0.515583,
+				1.555
+			],
+			[
+				250,
+				0.521583,
+				1.555
+			],
+			[
+				300,
+				0.527583,
+				1.555
+			],
+			[
+				350,
+				0.535765,
+				1.555
+			],
+			[
+				400,
+				0.543947,
+				1.555
+			],
+			[
+				450,
+				0.548306,
+				1.555
+			],
+			[
+				500,
+				0.552666,
+				1.555
+			],
+			[
+				550,
+				0.558116,
+				1.555
+			],
+			[
+				600,
+				0.563567,
+				1.555
+			],
+			[
+				650,
+				0.569565,
+				1.555
+			],
+			[
+				700,
+				0.575563,
+				1.555
+			],
+			[
+				750,
+				0.58183,
+				1.555
+			],
+			[
+				800,
+				0.588098,
+				1.555
+			],
+			[
+				850,
+				0.593275,
+				1.555
+			],
+			[
+				900,
+				0.598453,
+				1.555
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31526,6 +62778,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Display:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.505813,
+				1.362
+			],
+			[
+				150,
+				0.509382,
+				1.362
+			],
+			[
+				200,
+				0.512952,
+				1.362
+			],
+			[
+				250,
+				0.518561,
+				1.362
+			],
+			[
+				300,
+				0.52417,
+				1.362
+			],
+			[
+				350,
+				0.531818,
+				1.362
+			],
+			[
+				400,
+				0.539467,
+				1.362
+			],
+			[
+				450,
+				0.543219,
+				1.362
+			],
+			[
+				500,
+				0.546972,
+				1.362
+			],
+			[
+				550,
+				0.551664,
+				1.362
+			],
+			[
+				600,
+				0.556355,
+				1.362
+			],
+			[
+				650,
+				0.561518,
+				1.362
+			],
+			[
+				700,
+				0.566681,
+				1.362
+			],
+			[
+				750,
+				0.57261,
+				1.362
+			],
+			[
+				800,
+				0.578538,
+				1.362
+			],
+			[
+				850,
+				0.583436,
+				1.362
+			],
+			[
+				900,
+				0.588333,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -31560,6 +62899,13 @@ export default {
 			"ss03"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Dives+Akuru:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.548213,
+				1.779
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31580,6 +62926,13 @@ export default {
 			"ss03"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Dogra:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.541813,
+				1.494
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31599,6 +62952,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Ethiopic:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.512453,
+				1.362
+			],
+			[
+				150,
+				0.51609,
+				1.362
+			],
+			[
+				200,
+				0.519728,
+				1.362
+			],
+			[
+				250,
+				0.525443,
+				1.362
+			],
+			[
+				300,
+				0.531159,
+				1.362
+			],
+			[
+				350,
+				0.538953,
+				1.362
+			],
+			[
+				400,
+				0.546747,
+				1.362
+			],
+			[
+				450,
+				0.550722,
+				1.362
+			],
+			[
+				500,
+				0.554698,
+				1.362
+			],
+			[
+				550,
+				0.559668,
+				1.362
+			],
+			[
+				600,
+				0.564639,
+				1.362
+			],
+			[
+				650,
+				0.570109,
+				1.362
+			],
+			[
+				700,
+				0.575579,
+				1.362
+			],
+			[
+				750,
+				0.581294,
+				1.362
+			],
+			[
+				800,
+				0.58701,
+				1.362
+			],
+			[
+				850,
+				0.591731,
+				1.362
+			],
+			[
+				900,
+				0.596453,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31626,6 +63066,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.509653,
+				1.36
+			],
+			[
+				150,
+				0.51329,
+				1.36
+			],
+			[
+				200,
+				0.516928,
+				1.36
+			],
+			[
+				250,
+				0.522643,
+				1.36
+			],
+			[
+				300,
+				0.528359,
+				1.36
+			],
+			[
+				350,
+				0.536153,
+				1.36
+			],
+			[
+				400,
+				0.543947,
+				1.36
+			],
+			[
+				450,
+				0.547765,
+				1.36
+			],
+			[
+				500,
+				0.551584,
+				1.36
+			],
+			[
+				550,
+				0.556359,
+				1.36
+			],
+			[
+				600,
+				0.561133,
+				1.36
+			],
+			[
+				650,
+				0.566387,
+				1.36
+			],
+			[
+				700,
+				0.571641,
+				1.36
+			],
+			[
+				750,
+				0.577668,
+				1.36
+			],
+			[
+				800,
+				0.583695,
+				1.36
+			],
+			[
+				850,
+				0.588674,
+				1.36
+			],
+			[
+				900,
+				0.593653,
+				1.36
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31662,6 +63189,13 @@ export default {
 			"ss10"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Grantha:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.543947,
+				1.824
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31680,6 +63214,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Gujarati:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.513473,
+				1.447
+			],
+			[
+				150,
+				0.517181,
+				1.447
+			],
+			[
+				200,
+				0.520889,
+				1.447
+			],
+			[
+				250,
+				0.526716,
+				1.447
+			],
+			[
+				300,
+				0.532542,
+				1.447
+			],
+			[
+				350,
+				0.540488,
+				1.447
+			],
+			[
+				400,
+				0.548433,
+				1.447
+			],
+			[
+				450,
+				0.552201,
+				1.447
+			],
+			[
+				500,
+				0.555968,
+				1.447
+			],
+			[
+				550,
+				0.560678,
+				1.447
+			],
+			[
+				600,
+				0.565388,
+				1.447
+			],
+			[
+				650,
+				0.570571,
+				1.447
+			],
+			[
+				700,
+				0.575755,
+				1.447
+			],
+			[
+				750,
+				0.581723,
+				1.447
+			],
+			[
+				800,
+				0.587692,
+				1.447
+			],
+			[
+				850,
+				0.592622,
+				1.447
+			],
+			[
+				900,
+				0.597553,
+				1.447
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31698,6 +63319,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Gurmukhi:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.509653,
+				1.434
+			],
+			[
+				150,
+				0.513344,
+				1.434
+			],
+			[
+				200,
+				0.517035,
+				1.434
+			],
+			[
+				250,
+				0.522835,
+				1.434
+			],
+			[
+				300,
+				0.528635,
+				1.434
+			],
+			[
+				350,
+				0.536544,
+				1.434
+			],
+			[
+				400,
+				0.544453,
+				1.434
+			],
+			[
+				450,
+				0.548388,
+				1.434
+			],
+			[
+				500,
+				0.552324,
+				1.434
+			],
+			[
+				550,
+				0.557243,
+				1.434
+			],
+			[
+				600,
+				0.562163,
+				1.434
+			],
+			[
+				650,
+				0.567577,
+				1.434
+			],
+			[
+				700,
+				0.572992,
+				1.434
+			],
+			[
+				750,
+				0.578649,
+				1.434
+			],
+			[
+				800,
+				0.584306,
+				1.434
+			],
+			[
+				850,
+				0.58898,
+				1.434
+			],
+			[
+				900,
+				0.593653,
+				1.434
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31721,6 +63429,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+HK:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.543847,
+				1
+			],
+			[
+				250,
+				0.546084,
+				1
+			],
+			[
+				300,
+				0.548321,
+				1
+			],
+			[
+				350,
+				0.551032,
+				1
+			],
+			[
+				400,
+				0.553743,
+				1
+			],
+			[
+				450,
+				0.557276,
+				1
+			],
+			[
+				500,
+				0.560808,
+				1
+			],
+			[
+				550,
+				0.564344,
+				1
+			],
+			[
+				600,
+				0.56788,
+				1
+			],
+			[
+				650,
+				0.573061,
+				1
+			],
+			[
+				700,
+				0.578243,
+				1
+			],
+			[
+				750,
+				0.581424,
+				1
+			],
+			[
+				800,
+				0.584605,
+				1
+			],
+			[
+				850,
+				0.587786,
+				1
+			],
+			[
+				900,
+				0.590967,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31743,6 +63528,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Hebrew:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.509653,
+				1.186
+			],
+			[
+				150,
+				0.51329,
+				1.186
+			],
+			[
+				200,
+				0.516928,
+				1.186
+			],
+			[
+				250,
+				0.522643,
+				1.186
+			],
+			[
+				300,
+				0.528359,
+				1.186
+			],
+			[
+				350,
+				0.536153,
+				1.186
+			],
+			[
+				400,
+				0.543947,
+				1.186
+			],
+			[
+				450,
+				0.547922,
+				1.186
+			],
+			[
+				500,
+				0.551898,
+				1.186
+			],
+			[
+				550,
+				0.556868,
+				1.186
+			],
+			[
+				600,
+				0.561839,
+				1.186
+			],
+			[
+				650,
+				0.567309,
+				1.186
+			],
+			[
+				700,
+				0.572779,
+				1.186
+			],
+			[
+				750,
+				0.578494,
+				1.186
+			],
+			[
+				800,
+				0.58421,
+				1.186
+			],
+			[
+				850,
+				0.588931,
+				1.186
+			],
+			[
+				900,
+				0.593653,
+				1.186
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31769,6 +63641,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Hentaigana:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.510233,
+				1.437
+			],
+			[
+				250,
+				0.52312,
+				1.437
+			],
+			[
+				300,
+				0.536006,
+				1.437
+			],
+			[
+				350,
+				0.548898,
+				1.437
+			],
+			[
+				400,
+				0.56179,
+				1.437
+			],
+			[
+				450,
+				0.574677,
+				1.437
+			],
+			[
+				500,
+				0.587564,
+				1.437
+			],
+			[
+				550,
+				0.591775,
+				1.437
+			],
+			[
+				600,
+				0.595986,
+				1.437
+			],
+			[
+				650,
+				0.604402,
+				1.437
+			],
+			[
+				700,
+				0.612818,
+				1.437
+			],
+			[
+				750,
+				0.617027,
+				1.437
+			],
+			[
+				800,
+				0.621236,
+				1.437
+			],
+			[
+				850,
+				0.625445,
+				1.437
+			],
+			[
+				900,
+				0.629653,
+				1.437
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31792,6 +63741,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.543847,
+				1
+			],
+			[
+				250,
+				0.546084,
+				1
+			],
+			[
+				300,
+				0.548321,
+				1
+			],
+			[
+				350,
+				0.551032,
+				1
+			],
+			[
+				400,
+				0.553743,
+				1
+			],
+			[
+				450,
+				0.557276,
+				1
+			],
+			[
+				500,
+				0.560808,
+				1
+			],
+			[
+				550,
+				0.564344,
+				1
+			],
+			[
+				600,
+				0.56788,
+				1
+			],
+			[
+				650,
+				0.573061,
+				1
+			],
+			[
+				700,
+				0.578243,
+				1
+			],
+			[
+				750,
+				0.581424,
+				1
+			],
+			[
+				800,
+				0.584605,
+				1
+			],
+			[
+				850,
+				0.587786,
+				1
+			],
+			[
+				900,
+				0.590967,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31816,6 +63842,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+KR:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.543847,
+				1
+			],
+			[
+				250,
+				0.546084,
+				1
+			],
+			[
+				300,
+				0.548321,
+				1
+			],
+			[
+				350,
+				0.551032,
+				1
+			],
+			[
+				400,
+				0.553743,
+				1
+			],
+			[
+				450,
+				0.557276,
+				1
+			],
+			[
+				500,
+				0.560808,
+				1
+			],
+			[
+				550,
+				0.564344,
+				1
+			],
+			[
+				600,
+				0.56788,
+				1
+			],
+			[
+				650,
+				0.573061,
+				1
+			],
+			[
+				700,
+				0.578243,
+				1
+			],
+			[
+				750,
+				0.581424,
+				1
+			],
+			[
+				800,
+				0.584605,
+				1
+			],
+			[
+				850,
+				0.587786,
+				1
+			],
+			[
+				900,
+				0.590967,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31836,6 +63939,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Kannada:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.50628,
+				1.62
+			],
+			[
+				150,
+				0.509917,
+				1.62
+			],
+			[
+				200,
+				0.513554,
+				1.62
+			],
+			[
+				250,
+				0.51927,
+				1.62
+			],
+			[
+				300,
+				0.524985,
+				1.62
+			],
+			[
+				350,
+				0.532779,
+				1.62
+			],
+			[
+				400,
+				0.540573,
+				1.62
+			],
+			[
+				450,
+				0.544654,
+				1.62
+			],
+			[
+				500,
+				0.548735,
+				1.62
+			],
+			[
+				550,
+				0.553837,
+				1.62
+			],
+			[
+				600,
+				0.558939,
+				1.62
+			],
+			[
+				650,
+				0.564553,
+				1.62
+			],
+			[
+				700,
+				0.570168,
+				1.62
+			],
+			[
+				750,
+				0.576514,
+				1.62
+			],
+			[
+				800,
+				0.582861,
+				1.62
+			],
+			[
+				850,
+				0.588104,
+				1.62
+			],
+			[
+				900,
+				0.593347,
+				1.62
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31855,6 +64045,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Khitan+Small+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.583013,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31875,6 +64072,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Khmer:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.509653,
+				1.362
+			],
+			[
+				150,
+				0.51329,
+				1.362
+			],
+			[
+				200,
+				0.516928,
+				1.362
+			],
+			[
+				250,
+				0.522643,
+				1.362
+			],
+			[
+				300,
+				0.528359,
+				1.362
+			],
+			[
+				350,
+				0.536153,
+				1.362
+			],
+			[
+				400,
+				0.543947,
+				1.362
+			],
+			[
+				450,
+				0.547922,
+				1.362
+			],
+			[
+				500,
+				0.551898,
+				1.362
+			],
+			[
+				550,
+				0.556868,
+				1.362
+			],
+			[
+				600,
+				0.561839,
+				1.362
+			],
+			[
+				650,
+				0.567309,
+				1.362
+			],
+			[
+				700,
+				0.572779,
+				1.362
+			],
+			[
+				750,
+				0.578494,
+				1.362
+			],
+			[
+				800,
+				0.58421,
+				1.362
+			],
+			[
+				850,
+				0.588931,
+				1.362
+			],
+			[
+				900,
+				0.593653,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31903,6 +64187,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Khojki:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.544273,
+				1.856
+			],
+			[
+				450,
+				0.548877,
+				1.856
+			],
+			[
+				500,
+				0.55348,
+				1.856
+			],
+			[
+				550,
+				0.558083,
+				1.856
+			],
+			[
+				600,
+				0.562687,
+				1.856
+			],
+			[
+				650,
+				0.56729,
+				1.856
+			],
+			[
+				700,
+				0.571893,
+				1.856
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31924,6 +64245,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Lao:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.509653,
+				1.656
+			],
+			[
+				150,
+				0.51329,
+				1.656
+			],
+			[
+				200,
+				0.516928,
+				1.656
+			],
+			[
+				250,
+				0.522643,
+				1.656
+			],
+			[
+				300,
+				0.528359,
+				1.656
+			],
+			[
+				350,
+				0.536153,
+				1.656
+			],
+			[
+				400,
+				0.543947,
+				1.656
+			],
+			[
+				450,
+				0.547922,
+				1.656
+			],
+			[
+				500,
+				0.551898,
+				1.656
+			],
+			[
+				550,
+				0.556868,
+				1.656
+			],
+			[
+				600,
+				0.561839,
+				1.656
+			],
+			[
+				650,
+				0.567309,
+				1.656
+			],
+			[
+				700,
+				0.572779,
+				1.656
+			],
+			[
+				750,
+				0.578494,
+				1.656
+			],
+			[
+				800,
+				0.58421,
+				1.656
+			],
+			[
+				850,
+				0.588931,
+				1.656
+			],
+			[
+				900,
+				0.593653,
+				1.656
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31947,6 +64355,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Makasar:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.537547,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -31963,6 +64378,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Malayalam:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.514867,
+				1.247
+			],
+			[
+				150,
+				0.518505,
+				1.247
+			],
+			[
+				200,
+				0.522144,
+				1.247
+			],
+			[
+				250,
+				0.527861,
+				1.247
+			],
+			[
+				300,
+				0.533579,
+				1.247
+			],
+			[
+				350,
+				0.541376,
+				1.247
+			],
+			[
+				400,
+				0.549173,
+				1.247
+			],
+			[
+				450,
+				0.553025,
+				1.247
+			],
+			[
+				500,
+				0.556877,
+				1.247
+			],
+			[
+				550,
+				0.561693,
+				1.247
+			],
+			[
+				600,
+				0.566509,
+				1.247
+			],
+			[
+				650,
+				0.571809,
+				1.247
+			],
+			[
+				700,
+				0.577108,
+				1.247
+			],
+			[
+				750,
+				0.582646,
+				1.247
+			],
+			[
+				800,
+				0.588183,
+				1.247
+			],
+			[
+				850,
+				0.592758,
+				1.247
+			],
+			[
+				900,
+				0.597333,
+				1.247
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -31982,6 +64484,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+NP+Hmong:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.543947,
+				1.36
+			],
+			[
+				450,
+				0.547757,
+				1.36
+			],
+			[
+				500,
+				0.551567,
+				1.36
+			],
+			[
+				550,
+				0.556363,
+				1.36
+			],
+			[
+				600,
+				0.561158,
+				1.36
+			],
+			[
+				650,
+				0.566399,
+				1.36
+			],
+			[
+				700,
+				0.57164,
+				1.36
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32003,6 +64542,13 @@ export default {
 			"salt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Old+Uyghur:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.537547,
+				1.382
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32019,6 +64565,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Oriya:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.55762,
+				1.409
+			],
+			[
+				450,
+				0.562558,
+				1.409
+			],
+			[
+				500,
+				0.567496,
+				1.409
+			],
+			[
+				550,
+				0.572433,
+				1.409
+			],
+			[
+				600,
+				0.577371,
+				1.409
+			],
+			[
+				650,
+				0.582309,
+				1.409
+			],
+			[
+				700,
+				0.587247,
+				1.409
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32039,6 +64622,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Ottoman+Siyaq:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.543947,
+				1.703
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32060,6 +64650,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.543847,
+				1
+			],
+			[
+				250,
+				0.546084,
+				1
+			],
+			[
+				300,
+				0.548321,
+				1
+			],
+			[
+				350,
+				0.551032,
+				1
+			],
+			[
+				400,
+				0.553743,
+				1
+			],
+			[
+				450,
+				0.557276,
+				1
+			],
+			[
+				500,
+				0.560808,
+				1
+			],
+			[
+				550,
+				0.564344,
+				1
+			],
+			[
+				600,
+				0.56788,
+				1
+			],
+			[
+				650,
+				0.573061,
+				1
+			],
+			[
+				700,
+				0.578243,
+				1
+			],
+			[
+				750,
+				0.581424,
+				1
+			],
+			[
+				800,
+				0.584605,
+				1
+			],
+			[
+				850,
+				0.587786,
+				1
+			],
+			[
+				900,
+				0.590967,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32079,6 +64746,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Sinhala:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.535307,
+				1.304
+			],
+			[
+				150,
+				0.538952,
+				1.304
+			],
+			[
+				200,
+				0.542598,
+				1.304
+			],
+			[
+				250,
+				0.548327,
+				1.304
+			],
+			[
+				300,
+				0.554056,
+				1.304
+			],
+			[
+				350,
+				0.561868,
+				1.304
+			],
+			[
+				400,
+				0.56968,
+				1.304
+			],
+			[
+				450,
+				0.573641,
+				1.304
+			],
+			[
+				500,
+				0.577602,
+				1.304
+			],
+			[
+				550,
+				0.582555,
+				1.304
+			],
+			[
+				600,
+				0.587508,
+				1.304
+			],
+			[
+				650,
+				0.592958,
+				1.304
+			],
+			[
+				700,
+				0.598408,
+				1.304
+			],
+			[
+				750,
+				0.604102,
+				1.304
+			],
+			[
+				800,
+				0.609797,
+				1.304
+			],
+			[
+				850,
+				0.614502,
+				1.304
+			],
+			[
+				900,
+				0.619207,
+				1.304
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32108,6 +64862,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.543847,
+				1
+			],
+			[
+				250,
+				0.546084,
+				1
+			],
+			[
+				300,
+				0.548321,
+				1
+			],
+			[
+				350,
+				0.551032,
+				1
+			],
+			[
+				400,
+				0.553743,
+				1
+			],
+			[
+				450,
+				0.557276,
+				1
+			],
+			[
+				500,
+				0.560808,
+				1
+			],
+			[
+				550,
+				0.564344,
+				1
+			],
+			[
+				600,
+				0.56788,
+				1
+			],
+			[
+				650,
+				0.573061,
+				1
+			],
+			[
+				700,
+				0.578243,
+				1
+			],
+			[
+				750,
+				0.581424,
+				1
+			],
+			[
+				800,
+				0.584605,
+				1
+			],
+			[
+				850,
+				0.587786,
+				1
+			],
+			[
+				900,
+				0.590967,
+				1
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32129,6 +64960,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Tamil:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.509653,
+				1.561
+			],
+			[
+				150,
+				0.51329,
+				1.561
+			],
+			[
+				200,
+				0.516928,
+				1.561
+			],
+			[
+				250,
+				0.522643,
+				1.561
+			],
+			[
+				300,
+				0.528359,
+				1.561
+			],
+			[
+				350,
+				0.536153,
+				1.561
+			],
+			[
+				400,
+				0.543947,
+				1.561
+			],
+			[
+				450,
+				0.547765,
+				1.561
+			],
+			[
+				500,
+				0.551584,
+				1.561
+			],
+			[
+				550,
+				0.556359,
+				1.561
+			],
+			[
+				600,
+				0.561133,
+				1.561
+			],
+			[
+				650,
+				0.566387,
+				1.561
+			],
+			[
+				700,
+				0.571641,
+				1.561
+			],
+			[
+				750,
+				0.577303,
+				1.561
+			],
+			[
+				800,
+				0.582965,
+				1.561
+			],
+			[
+				850,
+				0.587642,
+				1.561
+			],
+			[
+				900,
+				0.59232,
+				1.561
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -32160,6 +65078,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Tangut:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.569547,
+				1.006
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32176,6 +65101,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Telugu:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.512093,
+				1.352
+			],
+			[
+				150,
+				0.515732,
+				1.352
+			],
+			[
+				200,
+				0.51937,
+				1.352
+			],
+			[
+				250,
+				0.525088,
+				1.352
+			],
+			[
+				300,
+				0.530806,
+				1.352
+			],
+			[
+				350,
+				0.538603,
+				1.352
+			],
+			[
+				400,
+				0.5464,
+				1.352
+			],
+			[
+				450,
+				0.550252,
+				1.352
+			],
+			[
+				500,
+				0.554104,
+				1.352
+			],
+			[
+				550,
+				0.55892,
+				1.352
+			],
+			[
+				600,
+				0.563736,
+				1.352
+			],
+			[
+				650,
+				0.569035,
+				1.352
+			],
+			[
+				700,
+				0.574335,
+				1.352
+			],
+			[
+				750,
+				0.579873,
+				1.352
+			],
+			[
+				800,
+				0.58541,
+				1.352
+			],
+			[
+				850,
+				0.589985,
+				1.352
+			],
+			[
+				900,
+				0.59456,
+				1.352
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32198,6 +65210,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Thai:wdth,wght@62.5..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.509653,
+				1.598
+			],
+			[
+				150,
+				0.51329,
+				1.598
+			],
+			[
+				200,
+				0.516928,
+				1.598
+			],
+			[
+				250,
+				0.522643,
+				1.598
+			],
+			[
+				300,
+				0.528359,
+				1.598
+			],
+			[
+				350,
+				0.536153,
+				1.598
+			],
+			[
+				400,
+				0.543947,
+				1.598
+			],
+			[
+				450,
+				0.547765,
+				1.598
+			],
+			[
+				500,
+				0.551584,
+				1.598
+			],
+			[
+				550,
+				0.556359,
+				1.598
+			],
+			[
+				600,
+				0.561133,
+				1.598
+			],
+			[
+				650,
+				0.566387,
+				1.598
+			],
+			[
+				700,
+				0.571641,
+				1.598
+			],
+			[
+				750,
+				0.577668,
+				1.598
+			],
+			[
+				800,
+				0.583695,
+				1.598
+			],
+			[
+				850,
+				0.588674,
+				1.598
+			],
+			[
+				900,
+				0.593653,
+				1.598
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32224,6 +65323,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Tibetan:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.509653,
+				2.815
+			],
+			[
+				150,
+				0.515369,
+				2.815
+			],
+			[
+				200,
+				0.521084,
+				2.815
+			],
+			[
+				250,
+				0.5268,
+				2.815
+			],
+			[
+				300,
+				0.532516,
+				2.815
+			],
+			[
+				350,
+				0.538231,
+				2.815
+			],
+			[
+				400,
+				0.543947,
+				2.815
+			],
+			[
+				450,
+				0.548562,
+				2.815
+			],
+			[
+				500,
+				0.553178,
+				2.815
+			],
+			[
+				550,
+				0.557794,
+				2.815
+			],
+			[
+				600,
+				0.56241,
+				2.815
+			],
+			[
+				650,
+				0.567025,
+				2.815
+			],
+			[
+				700,
+				0.571641,
+				2.815
+			],
+			[
+				750,
+				0.577144,
+				2.815
+			],
+			[
+				800,
+				0.582647,
+				2.815
+			],
+			[
+				850,
+				0.58815,
+				2.815
+			],
+			[
+				900,
+				0.593653,
+				2.815
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32243,6 +65429,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Todhri:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.531198,
+				1.330078
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32261,6 +65454,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Toto:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.543947,
+				1.303
+			],
+			[
+				450,
+				0.547767,
+				1.303
+			],
+			[
+				500,
+				0.551587,
+				1.303
+			],
+			[
+				550,
+				0.556361,
+				1.303
+			],
+			[
+				600,
+				0.561134,
+				1.303
+			],
+			[
+				650,
+				0.566387,
+				1.303
+			],
+			[
+				700,
+				0.57164,
+				1.303
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32280,6 +65510,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Vithkuqi:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.546747,
+				1.362
+			],
+			[
+				450,
+				0.550557,
+				1.362
+			],
+			[
+				500,
+				0.554367,
+				1.362
+			],
+			[
+				550,
+				0.559163,
+				1.362
+			],
+			[
+				600,
+				0.563958,
+				1.362
+			],
+			[
+				650,
+				0.569199,
+				1.362
+			],
+			[
+				700,
+				0.57444,
+				1.362
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32299,6 +65566,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Serif+Yezidi:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.543947,
+				1.36
+			],
+			[
+				450,
+				0.547757,
+				1.36
+			],
+			[
+				500,
+				0.551567,
+				1.36
+			],
+			[
+				550,
+				0.556363,
+				1.36
+			],
+			[
+				600,
+				0.561158,
+				1.36
+			],
+			[
+				650,
+				0.566399,
+				1.36
+			],
+			[
+				700,
+				0.57164,
+				1.36
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32314,6 +65618,53 @@ export default {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Traditional+Nushu:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.549407,
+				1.067
+			],
+			[
+				350,
+				0.55794,
+				1.067
+			],
+			[
+				400,
+				0.566473,
+				1.067
+			],
+			[
+				450,
+				0.571067,
+				1.067
+			],
+			[
+				500,
+				0.57566,
+				1.067
+			],
+			[
+				550,
+				0.580253,
+				1.067
+			],
+			[
+				600,
+				0.584847,
+				1.067
+			],
+			[
+				650,
+				0.58944,
+				1.067
+			],
+			[
+				700,
+				0.594033,
+				1.067
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32335,6 +65686,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Noto+Znamenny+Musical+Notation:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52754,
+				1.287
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32350,6 +65708,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nova+Cut:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.548135,
+				1.207031
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32365,6 +65730,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nova+Flat:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.54582,
+				1.207031
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32377,6 +65749,13 @@ export default {
 	"Nova Mono": {
 		"category": "monospace",
 		"href": "https://fonts.googleapis.com/css2?family=Nova+Mono:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.561523,
+				1.393555
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32392,6 +65771,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nova+Oval:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.54918,
+				1.207031
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32407,6 +65793,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nova+Round:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.545872,
+				1.207031
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32422,6 +65815,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nova+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.55126,
+				1.207031
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32437,6 +65837,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nova+Slim:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.545778,
+				1.207031
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32452,6 +65859,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nova+Square:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.54582,
+				1.207031
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32467,6 +65881,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Numans:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.589443,
+				1.174805
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32498,6 +65919,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.509987,
+				1.364
+			],
+			[
+				250,
+				0.513383,
+				1.364
+			],
+			[
+				300,
+				0.516778,
+				1.364
+			],
+			[
+				350,
+				0.520353,
+				1.364
+			],
+			[
+				400,
+				0.523929,
+				1.364
+			],
+			[
+				450,
+				0.525716,
+				1.364
+			],
+			[
+				500,
+				0.527504,
+				1.364
+			],
+			[
+				550,
+				0.529291,
+				1.364
+			],
+			[
+				600,
+				0.531079,
+				1.364
+			],
+			[
+				650,
+				0.535369,
+				1.364
+			],
+			[
+				700,
+				0.53966,
+				1.364
+			],
+			[
+				750,
+				0.544347,
+				1.364
+			],
+			[
+				800,
+				0.549034,
+				1.364
+			],
+			[
+				850,
+				0.553902,
+				1.364
+			],
+			[
+				900,
+				0.55877,
+				1.364
+			],
+			[
+				950,
+				0.564178,
+				1.364
+			],
+			[
+				1000,
+				0.569587,
+				1.364
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -32553,6 +66061,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz,wdth,wght,YTLC@6..12,75..125,200..1000,440..540&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.509987,
+				1.364
+			],
+			[
+				250,
+				0.513369,
+				1.364
+			],
+			[
+				300,
+				0.516751,
+				1.364
+			],
+			[
+				350,
+				0.520312,
+				1.364
+			],
+			[
+				400,
+				0.523872,
+				1.364
+			],
+			[
+				450,
+				0.525653,
+				1.364
+			],
+			[
+				500,
+				0.527433,
+				1.364
+			],
+			[
+				550,
+				0.529213,
+				1.364
+			],
+			[
+				600,
+				0.530994,
+				1.364
+			],
+			[
+				650,
+				0.535267,
+				1.364
+			],
+			[
+				700,
+				0.53954,
+				1.364
+			],
+			[
+				750,
+				0.544246,
+				1.364
+			],
+			[
+				800,
+				0.548952,
+				1.364
+			],
+			[
+				850,
+				0.553839,
+				1.364
+			],
+			[
+				900,
+				0.558726,
+				1.364
+			],
+			[
+				950,
+				0.564156,
+				1.364
+			],
+			[
+				1000,
+				0.569587,
+				1.364
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -32579,6 +66174,13 @@ export default {
 	"Nuosu SIL": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Nuosu+SIL:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.510065,
+				1.318359
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32595,6 +66197,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Odibee+Sans:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.35244,
+				1.108
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32610,6 +66219,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Odor+Mean+Chey:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.50488,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32635,6 +66251,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Offside:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.571853,
+				1.261
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32668,6 +66291,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Oi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.88156,
+				1.58
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32696,6 +66326,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ojuju:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.482033,
+				1.406
+			],
+			[
+				250,
+				0.483106,
+				1.406
+			],
+			[
+				300,
+				0.484179,
+				1.406
+			],
+			[
+				350,
+				0.48579,
+				1.406
+			],
+			[
+				400,
+				0.487401,
+				1.406
+			],
+			[
+				450,
+				0.4897,
+				1.406
+			],
+			[
+				500,
+				0.491999,
+				1.406
+			],
+			[
+				550,
+				0.495141,
+				1.406
+			],
+			[
+				600,
+				0.498284,
+				1.406
+			],
+			[
+				650,
+				0.50273,
+				1.406
+			],
+			[
+				700,
+				0.507176,
+				1.406
+			],
+			[
+				750,
+				0.513385,
+				1.406
+			],
+			[
+				800,
+				0.519593,
+				1.406
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32723,6 +66420,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.522667,
+				1.236
+			],
+			[
+				700,
+				0.531427,
+				1.236
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32742,6 +66451,13 @@ export default {
 	"Oldenburg": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Oldenburg:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.626921,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32768,6 +66484,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ole:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.376573,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32783,6 +66506,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Oleo+Script:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.448233,
+				1.383
+			],
+			[
+				700,
+				0.481387,
+				1.383
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32799,6 +66534,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Oleo+Script+Swash+Caps:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.469033,
+				1.383
+			],
+			[
+				700,
+				0.50278,
+				1.383
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32826,6 +66573,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Onest:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.524133,
+				1.275
+			],
+			[
+				150,
+				0.525452,
+				1.275
+			],
+			[
+				200,
+				0.526771,
+				1.275
+			],
+			[
+				250,
+				0.52809,
+				1.275
+			],
+			[
+				300,
+				0.529409,
+				1.275
+			],
+			[
+				350,
+				0.530728,
+				1.275
+			],
+			[
+				400,
+				0.532047,
+				1.275
+			],
+			[
+				450,
+				0.534941,
+				1.275
+			],
+			[
+				500,
+				0.537835,
+				1.275
+			],
+			[
+				550,
+				0.540729,
+				1.275
+			],
+			[
+				600,
+				0.543623,
+				1.275
+			],
+			[
+				650,
+				0.546517,
+				1.275
+			],
+			[
+				700,
+				0.549411,
+				1.275
+			],
+			[
+				750,
+				0.552305,
+				1.275
+			],
+			[
+				800,
+				0.555199,
+				1.275
+			],
+			[
+				850,
+				0.558093,
+				1.275
+			],
+			[
+				900,
+				0.560987,
+				1.275
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32849,6 +66683,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Oooh+Baby:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.46742,
+				1.225
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32882,6 +66723,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75..100,300..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.507129,
+				1.361816
+			],
+			[
+				350,
+				0.5161,
+				1.361816
+			],
+			[
+				400,
+				0.525072,
+				1.361816
+			],
+			[
+				450,
+				0.528998,
+				1.361816
+			],
+			[
+				500,
+				0.532925,
+				1.361816
+			],
+			[
+				550,
+				0.536851,
+				1.361816
+			],
+			[
+				600,
+				0.540778,
+				1.361816
+			],
+			[
+				650,
+				0.548631,
+				1.361816
+			],
+			[
+				700,
+				0.556484,
+				1.361816
+			],
+			[
+				750,
+				0.565781,
+				1.361816
+			],
+			[
+				800,
+				0.575078,
+				1.361816
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -32911,6 +66809,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Oranienbaum:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.443273,
+				1.155
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32932,6 +66837,13 @@ export default {
 			"smcp"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Orbit:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.591633,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32950,6 +66862,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.644887,
+				1.254
+			],
+			[
+				450,
+				0.646476,
+				1.254
+			],
+			[
+				500,
+				0.648066,
+				1.254
+			],
+			[
+				550,
+				0.648772,
+				1.254
+			],
+			[
+				600,
+				0.649479,
+				1.254
+			],
+			[
+				650,
+				0.650185,
+				1.254
+			],
+			[
+				700,
+				0.650892,
+				1.254
+			],
+			[
+				750,
+				0.651599,
+				1.254
+			],
+			[
+				800,
+				0.652305,
+				1.254
+			],
+			[
+				850,
+				0.652953,
+				1.254
+			],
+			[
+				900,
+				0.6536,
+				1.254
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -32972,6 +66941,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Oregano:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.407493,
+				1.291016
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -32995,6 +66971,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Orelega+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.513657,
+				1.090332
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33019,6 +67002,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Orienta:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.524153,
+				1.195
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33039,6 +67029,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Original+Surfer:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.560244,
+				1.250977
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33062,6 +67059,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.379187,
+				1.482
+			],
+			[
+				250,
+				0.384519,
+				1.482
+			],
+			[
+				300,
+				0.389852,
+				1.482
+			],
+			[
+				350,
+				0.398739,
+				1.482
+			],
+			[
+				400,
+				0.407627,
+				1.482
+			],
+			[
+				450,
+				0.419106,
+				1.482
+			],
+			[
+				500,
+				0.430584,
+				1.482
+			],
+			[
+				550,
+				0.43661,
+				1.482
+			],
+			[
+				600,
+				0.442637,
+				1.482
+			],
+			[
+				650,
+				0.447372,
+				1.482
+			],
+			[
+				700,
+				0.452107,
+				1.482
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -33090,6 +67144,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.497967,
+				1.26
+			],
+			[
+				150,
+				0.498626,
+				1.26
+			],
+			[
+				200,
+				0.499285,
+				1.26
+			],
+			[
+				250,
+				0.499944,
+				1.26
+			],
+			[
+				300,
+				0.500603,
+				1.26
+			],
+			[
+				350,
+				0.501262,
+				1.26
+			],
+			[
+				400,
+				0.501922,
+				1.26
+			],
+			[
+				450,
+				0.502581,
+				1.26
+			],
+			[
+				500,
+				0.50324,
+				1.26
+			],
+			[
+				550,
+				0.507218,
+				1.26
+			],
+			[
+				600,
+				0.511197,
+				1.26
+			],
+			[
+				650,
+				0.515175,
+				1.26
+			],
+			[
+				700,
+				0.519153,
+				1.26
+			],
+			[
+				750,
+				0.523132,
+				1.26
+			],
+			[
+				800,
+				0.52711,
+				1.26
+			],
+			[
+				850,
+				0.531088,
+				1.26
+			],
+			[
+				900,
+				0.535067,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -33104,6 +67245,13 @@ export default {
 	"Over the Rainbow": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Over+the+Rainbow:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.521139,
+				2.040039
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33119,6 +67267,23 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Overlock:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.461207,
+				1.22
+			],
+			[
+				700,
+				0.4753,
+				1.22
+			],
+			[
+				900,
+				0.50056,
+				1.22
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33144,6 +67309,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Overlock+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.477213,
+				1.22
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33176,6 +67348,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Overpass:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.491677,
+				1.266
+			],
+			[
+				150,
+				0.494658,
+				1.266
+			],
+			[
+				200,
+				0.497639,
+				1.266
+			],
+			[
+				250,
+				0.50062,
+				1.266
+			],
+			[
+				300,
+				0.503601,
+				1.266
+			],
+			[
+				350,
+				0.506582,
+				1.266
+			],
+			[
+				400,
+				0.509563,
+				1.266
+			],
+			[
+				450,
+				0.513179,
+				1.266
+			],
+			[
+				500,
+				0.516794,
+				1.266
+			],
+			[
+				550,
+				0.520409,
+				1.266
+			],
+			[
+				600,
+				0.524025,
+				1.266
+			],
+			[
+				650,
+				0.52764,
+				1.266
+			],
+			[
+				700,
+				0.531255,
+				1.266
+			],
+			[
+				750,
+				0.534871,
+				1.266
+			],
+			[
+				800,
+				0.538486,
+				1.266
+			],
+			[
+				850,
+				0.542101,
+				1.266
+			],
+			[
+				900,
+				0.545717,
+				1.266
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -33214,6 +67473,54 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Overpass+Mono:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.599573,
+				1.266
+			],
+			[
+				350,
+				0.599573,
+				1.266
+			],
+			[
+				400,
+				0.599573,
+				1.266
+			],
+			[
+				450,
+				0.599573,
+				1.266
+			],
+			[
+				500,
+				0.599573,
+				1.266
+			],
+			[
+				550,
+				0.599573,
+				1.266
+			],
+			[
+				600,
+				0.599573,
+				1.266
+			],
+			[
+				650,
+				0.599573,
+				1.266
+			],
+			[
+				700,
+				0.599573,
+				1.266
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -33228,6 +67535,13 @@ export default {
 	"Ovo": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Ovo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.512145,
+				1.125
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33246,6 +67560,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.513747,
+				1.25
+			],
+			[
+				250,
+				0.51615,
+				1.25
+			],
+			[
+				300,
+				0.518553,
+				1.25
+			],
+			[
+				350,
+				0.520824,
+				1.25
+			],
+			[
+				400,
+				0.523095,
+				1.25
+			],
+			[
+				450,
+				0.525365,
+				1.25
+			],
+			[
+				500,
+				0.527635,
+				1.25
+			],
+			[
+				550,
+				0.530306,
+				1.25
+			],
+			[
+				600,
+				0.532977,
+				1.25
+			],
+			[
+				650,
+				0.535782,
+				1.25
+			],
+			[
+				700,
+				0.538587,
+				1.25
+			],
+			[
+				750,
+				0.54246,
+				1.25
+			],
+			[
+				800,
+				0.546333,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -33264,6 +67645,23 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Oxygen:ital,wght@0,300;0,400;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.498034,
+				1.262695
+			],
+			[
+				400,
+				0.508083,
+				1.262695
+			],
+			[
+				700,
+				0.532542,
+				1.262695
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33278,6 +67676,13 @@ export default {
 	"Oxygen Mono": {
 		"category": "monospace",
 		"href": "https://fonts.googleapis.com/css2?family=Oxygen+Mono:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.600098,
+				1.312012
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33303,6 +67708,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=PT+Mono:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.6,
+				1.12
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33326,6 +67738,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.48338,
+				1.294
+			],
+			[
+				700,
+				0.486567,
+				1.294
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33357,6 +67781,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=PT+Sans+Caption:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.548447,
+				1.294
+			],
+			[
+				700,
+				0.544027,
+				1.294
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33381,6 +67817,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=PT+Sans+Narrow:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.390407,
+				1.294
+			],
+			[
+				700,
+				0.404267,
+				1.294
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33403,6 +67851,18 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.507927,
+				1.325
+			],
+			[
+				700,
+				0.545533,
+				1.325
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33432,6 +67892,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=PT+Serif+Caption:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.570913,
+				1.325
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33464,6 +67931,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pacifico:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.519813,
+				1.756
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33479,6 +67953,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Padauk:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.477415,
+				1.474609
+			],
+			[
+				700,
+				0.50472,
+				1.474609
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33512,6 +67998,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Padyakke+Expanded+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.748687,
+				1.441
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33530,6 +68023,43 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Palanquin:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				100,
+				0.460907,
+				1
+			],
+			[
+				200,
+				0.471573,
+				1
+			],
+			[
+				300,
+				0.4827,
+				1
+			],
+			[
+				400,
+				0.490867,
+				1
+			],
+			[
+				500,
+				0.49892,
+				1
+			],
+			[
+				600,
+				0.507247,
+				1
+			],
+			[
+				700,
+				0.5156,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33554,6 +68084,28 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Palanquin+Dark:ital,wght@0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.5156,
+				1
+			],
+			[
+				500,
+				0.526607,
+				1
+			],
+			[
+				600,
+				0.537347,
+				1
+			],
+			[
+				700,
+				0.54868,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33572,6 +68124,13 @@ export default {
 			"aalt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Palette+Mosaic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.665827,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33593,6 +68152,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pangolin:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.47706,
+				1.249
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33616,6 +68182,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Paprika:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.579187,
+				1.419
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33640,6 +68213,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Parastoo:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.398609,
+				1.406307
+			],
+			[
+				450,
+				0.400537,
+				1.406307
+			],
+			[
+				500,
+				0.402466,
+				1.406307
+			],
+			[
+				550,
+				0.404394,
+				1.406307
+			],
+			[
+				600,
+				0.406323,
+				1.406307
+			],
+			[
+				650,
+				0.408251,
+				1.406307
+			],
+			[
+				700,
+				0.41018,
+				1.406307
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -33662,6 +68272,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Parisienne:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.534528,
+				1.362305
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33684,6 +68301,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.543333,
+				1.4
+			],
+			[
+				350,
+				0.547575,
+				1.4
+			],
+			[
+				400,
+				0.551816,
+				1.4
+			],
+			[
+				450,
+				0.556058,
+				1.4
+			],
+			[
+				500,
+				0.560299,
+				1.4
+			],
+			[
+				550,
+				0.56369,
+				1.4
+			],
+			[
+				600,
+				0.567082,
+				1.4
+			],
+			[
+				650,
+				0.570473,
+				1.4
+			],
+			[
+				700,
+				0.573864,
+				1.4
+			],
+			[
+				750,
+				0.577255,
+				1.4
+			],
+			[
+				800,
+				0.580647,
+				1.4
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -33698,6 +68372,13 @@ export default {
 	"Passero One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Passero+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.444219,
+				1.19043
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33710,6 +68391,23 @@ export default {
 	"Passion One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Passion+One:ital,wght@0,400;0,700;0,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.4107,
+				1.101
+			],
+			[
+				700,
+				0.461207,
+				1.101
+			],
+			[
+				900,
+				0.49282,
+				1.101
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33733,6 +68431,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Passions+Conflict:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.358493,
+				1.1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33776,6 +68481,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pathway+Extreme:opsz,wdth,wght@8..144,75..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.526413,
+				1.356
+			],
+			[
+				150,
+				0.529093,
+				1.356
+			],
+			[
+				200,
+				0.531773,
+				1.356
+			],
+			[
+				250,
+				0.535256,
+				1.356
+			],
+			[
+				300,
+				0.538739,
+				1.356
+			],
+			[
+				350,
+				0.54356,
+				1.356
+			],
+			[
+				400,
+				0.548381,
+				1.356
+			],
+			[
+				450,
+				0.554809,
+				1.356
+			],
+			[
+				500,
+				0.561236,
+				1.356
+			],
+			[
+				550,
+				0.56981,
+				1.356
+			],
+			[
+				600,
+				0.578383,
+				1.356
+			],
+			[
+				650,
+				0.589636,
+				1.356
+			],
+			[
+				700,
+				0.600889,
+				1.356
+			],
+			[
+				750,
+				0.61589,
+				1.356
+			],
+			[
+				800,
+				0.630891,
+				1.356
+			],
+			[
+				850,
+				0.650982,
+				1.356
+			],
+			[
+				900,
+				0.671073,
+				1.356
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -33812,6 +68604,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pathway+Gothic+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.337387,
+				1.152
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33835,6 +68634,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Patrick+Hand:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.403447,
+				1.336
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33858,6 +68664,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Patrick+Hand+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.403087,
+				1.336
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33880,6 +68693,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pattaya:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.457956,
+				1.387695
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33895,6 +68715,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Patua+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.50088,
+				1.219
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33910,6 +68737,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pavanam:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.45608,
+				0.914
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33937,6 +68771,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Paytone+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.55438,
+				1.396
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33949,6 +68790,13 @@ export default {
 	"Peddana": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Peddana:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.356711,
+				1.628
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33969,6 +68817,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Peralta:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.648548,
+				1.294434
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -33984,6 +68839,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Permanent+Marker:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.556523,
+				0.726563
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34005,6 +68867,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Petemoss:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.337933,
+				1.1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34021,6 +68890,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Petit+Formal+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.624896,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34073,6 +68949,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Petrona:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.476373,
+				1.128
+			],
+			[
+				150,
+				0.481204,
+				1.128
+			],
+			[
+				200,
+				0.486034,
+				1.128
+			],
+			[
+				250,
+				0.490326,
+				1.128
+			],
+			[
+				300,
+				0.494619,
+				1.128
+			],
+			[
+				350,
+				0.498376,
+				1.128
+			],
+			[
+				400,
+				0.502133,
+				1.128
+			],
+			[
+				450,
+				0.505597,
+				1.128
+			],
+			[
+				500,
+				0.509061,
+				1.128
+			],
+			[
+				550,
+				0.513059,
+				1.128
+			],
+			[
+				600,
+				0.517056,
+				1.128
+			],
+			[
+				650,
+				0.521587,
+				1.128
+			],
+			[
+				700,
+				0.526117,
+				1.128
+			],
+			[
+				750,
+				0.532245,
+				1.128
+			],
+			[
+				800,
+				0.538373,
+				1.128
+			],
+			[
+				850,
+				0.5469,
+				1.128
+			],
+			[
+				900,
+				0.555427,
+				1.128
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -34101,6 +69064,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.4878,
+				1.12
+			],
+			[
+				700,
+				0.504273,
+				1.12
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34133,6 +69108,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Phudu:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.49258,
+				1.225
+			],
+			[
+				350,
+				0.49022,
+				1.225
+			],
+			[
+				400,
+				0.48786,
+				1.225
+			],
+			[
+				450,
+				0.4855,
+				1.225
+			],
+			[
+				500,
+				0.48314,
+				1.225
+			],
+			[
+				550,
+				0.481994,
+				1.225
+			],
+			[
+				600,
+				0.480848,
+				1.225
+			],
+			[
+				650,
+				0.479634,
+				1.225
+			],
+			[
+				700,
+				0.47842,
+				1.225
+			],
+			[
+				750,
+				0.477359,
+				1.225
+			],
+			[
+				800,
+				0.476298,
+				1.225
+			],
+			[
+				850,
+				0.475363,
+				1.225
+			],
+			[
+				900,
+				0.474427,
+				1.225
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -34182,6 +69224,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Piazzolla:opsz,wght@8..30,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.492453,
+				1.42
+			],
+			[
+				150,
+				0.493614,
+				1.42
+			],
+			[
+				200,
+				0.494774,
+				1.42
+			],
+			[
+				250,
+				0.495861,
+				1.42
+			],
+			[
+				300,
+				0.496948,
+				1.42
+			],
+			[
+				350,
+				0.497963,
+				1.42
+			],
+			[
+				400,
+				0.498978,
+				1.42
+			],
+			[
+				450,
+				0.50026,
+				1.42
+			],
+			[
+				500,
+				0.501512,
+				1.42
+			],
+			[
+				550,
+				0.502973,
+				1.42
+			],
+			[
+				600,
+				0.504434,
+				1.42
+			],
+			[
+				650,
+				0.506174,
+				1.42
+			],
+			[
+				700,
+				0.507913,
+				1.42
+			],
+			[
+				750,
+				0.510139,
+				1.42
+			],
+			[
+				800,
+				0.512365,
+				1.42
+			],
+			[
+				850,
+				0.514939,
+				1.42
+			],
+			[
+				900,
+				0.517513,
+				1.42
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -34205,6 +69334,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Piedra:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.455167,
+				1.301
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34231,6 +69367,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pinyon+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.464697,
+				1.247559
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34246,6 +69389,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pirata+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.381567,
+				1.285
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34271,6 +69421,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.5179,
+				1.2
+			],
+			[
+				450,
+				0.520368,
+				1.2
+			],
+			[
+				500,
+				0.522836,
+				1.2
+			],
+			[
+				550,
+				0.525303,
+				1.2
+			],
+			[
+				600,
+				0.527771,
+				1.2
+			],
+			[
+				650,
+				0.530239,
+				1.2
+			],
+			[
+				700,
+				0.532707,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -34285,6 +69472,13 @@ export default {
 	"Plaster": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Plaster:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.744691,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34330,6 +69524,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Platypi:wght@300..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.54622,
+				1.376
+			],
+			[
+				350,
+				0.551166,
+				1.376
+			],
+			[
+				400,
+				0.556113,
+				1.376
+			],
+			[
+				450,
+				0.561059,
+				1.376
+			],
+			[
+				500,
+				0.566006,
+				1.376
+			],
+			[
+				550,
+				0.572054,
+				1.376
+			],
+			[
+				600,
+				0.578103,
+				1.376
+			],
+			[
+				650,
+				0.584148,
+				1.376
+			],
+			[
+				700,
+				0.590193,
+				1.376
+			],
+			[
+				750,
+				0.59569,
+				1.376
+			],
+			[
+				800,
+				0.601187,
+				1.376
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -34371,6 +69622,18 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Play:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.513533,
+				1.157
+			],
+			[
+				700,
+				0.534953,
+				1.157
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34400,6 +69663,13 @@ export default {
 			"swsh"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Playball:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.477867,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34496,6 +69766,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Playfair:opsz,wdth,wght@5..1200,87.5..112.5,300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.511599,
+				1.2
+			],
+			[
+				350,
+				0.511094,
+				1.2
+			],
+			[
+				400,
+				0.510589,
+				1.2
+			],
+			[
+				450,
+				0.509644,
+				1.2
+			],
+			[
+				500,
+				0.508698,
+				1.2
+			],
+			[
+				550,
+				0.507752,
+				1.2
+			],
+			[
+				600,
+				0.506806,
+				1.2
+			],
+			[
+				650,
+				0.505545,
+				1.2
+			],
+			[
+				700,
+				0.504284,
+				1.2
+			],
+			[
+				750,
+				0.503022,
+				1.2
+			],
+			[
+				800,
+				0.501761,
+				1.2
+			],
+			[
+				850,
+				0.499869,
+				1.2
+			],
+			[
+				900,
+				0.497978,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -34543,6 +69880,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.501933,
+				1.333
+			],
+			[
+				450,
+				0.505605,
+				1.333
+			],
+			[
+				500,
+				0.509276,
+				1.333
+			],
+			[
+				550,
+				0.512947,
+				1.333
+			],
+			[
+				600,
+				0.516619,
+				1.333
+			],
+			[
+				650,
+				0.52029,
+				1.333
+			],
+			[
+				700,
+				0.523961,
+				1.333
+			],
+			[
+				750,
+				0.527633,
+				1.333
+			],
+			[
+				800,
+				0.531304,
+				1.333
+			],
+			[
+				850,
+				0.534975,
+				1.333
+			],
+			[
+				900,
+				0.538647,
+				1.333
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -34582,6 +69976,23 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Playfair+Display+SC:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.557833,
+				1.333
+			],
+			[
+				700,
+				0.584853,
+				1.333
+			],
+			[
+				900,
+				0.602973,
+				1.333
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34617,6 +70028,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.543367,
+				1.51
+			],
+			[
+				150,
+				0.545568,
+				1.51
+			],
+			[
+				200,
+				0.547769,
+				1.51
+			],
+			[
+				250,
+				0.54997,
+				1.51
+			],
+			[
+				300,
+				0.55217,
+				1.51
+			],
+			[
+				350,
+				0.554572,
+				1.51
+			],
+			[
+				400,
+				0.556973,
+				1.51
+			],
+			[
+				450,
+				0.559807,
+				1.51
+			],
+			[
+				500,
+				0.56264,
+				1.51
+			],
+			[
+				550,
+				0.565473,
+				1.51
+			],
+			[
+				600,
+				0.568307,
+				1.51
+			],
+			[
+				650,
+				0.571455,
+				1.51
+			],
+			[
+				700,
+				0.574603,
+				1.51
+			],
+			[
+				750,
+				0.577121,
+				1.51
+			],
+			[
+				800,
+				0.57964,
+				1.51
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -34645,6 +70133,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Playpen+Sans+Arabic:wght@100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.543367,
+				1.65
+			],
+			[
+				150,
+				0.545568,
+				1.65
+			],
+			[
+				200,
+				0.547769,
+				1.65
+			],
+			[
+				250,
+				0.54997,
+				1.65
+			],
+			[
+				300,
+				0.55217,
+				1.65
+			],
+			[
+				350,
+				0.554572,
+				1.65
+			],
+			[
+				400,
+				0.556973,
+				1.65
+			],
+			[
+				450,
+				0.559807,
+				1.65
+			],
+			[
+				500,
+				0.56264,
+				1.65
+			],
+			[
+				550,
+				0.565473,
+				1.65
+			],
+			[
+				600,
+				0.568307,
+				1.65
+			],
+			[
+				650,
+				0.571455,
+				1.65
+			],
+			[
+				700,
+				0.574603,
+				1.65
+			],
+			[
+				750,
+				0.577121,
+				1.65
+			],
+			[
+				800,
+				0.57964,
+				1.65
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -34671,6 +70236,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Playpen+Sans+Deva:wght@100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.543367,
+				2.03
+			],
+			[
+				150,
+				0.545568,
+				2.03
+			],
+			[
+				200,
+				0.547769,
+				2.03
+			],
+			[
+				250,
+				0.54997,
+				2.03
+			],
+			[
+				300,
+				0.55217,
+				2.03
+			],
+			[
+				350,
+				0.554572,
+				2.03
+			],
+			[
+				400,
+				0.556973,
+				2.03
+			],
+			[
+				450,
+				0.559807,
+				2.03
+			],
+			[
+				500,
+				0.56264,
+				2.03
+			],
+			[
+				550,
+				0.565473,
+				2.03
+			],
+			[
+				600,
+				0.568307,
+				2.03
+			],
+			[
+				650,
+				0.571455,
+				2.03
+			],
+			[
+				700,
+				0.574603,
+				2.03
+			],
+			[
+				750,
+				0.577121,
+				2.03
+			],
+			[
+				800,
+				0.57964,
+				2.03
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -34697,6 +70339,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Playpen+Sans+Hebrew:wght@100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.543367,
+				1.53
+			],
+			[
+				150,
+				0.545568,
+				1.53
+			],
+			[
+				200,
+				0.547769,
+				1.53
+			],
+			[
+				250,
+				0.54997,
+				1.53
+			],
+			[
+				300,
+				0.55217,
+				1.53
+			],
+			[
+				350,
+				0.554572,
+				1.53
+			],
+			[
+				400,
+				0.556973,
+				1.53
+			],
+			[
+				450,
+				0.559807,
+				1.53
+			],
+			[
+				500,
+				0.56264,
+				1.53
+			],
+			[
+				550,
+				0.565473,
+				1.53
+			],
+			[
+				600,
+				0.568307,
+				1.53
+			],
+			[
+				650,
+				0.571455,
+				1.53
+			],
+			[
+				700,
+				0.574603,
+				1.53
+			],
+			[
+				750,
+				0.577121,
+				1.53
+			],
+			[
+				800,
+				0.57964,
+				1.53
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -34723,6 +70442,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Playpen+Sans+Thai:wght@100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.543367,
+				1.743
+			],
+			[
+				150,
+				0.545568,
+				1.743
+			],
+			[
+				200,
+				0.547769,
+				1.743
+			],
+			[
+				250,
+				0.54997,
+				1.743
+			],
+			[
+				300,
+				0.55217,
+				1.743
+			],
+			[
+				350,
+				0.554572,
+				1.743
+			],
+			[
+				400,
+				0.556973,
+				1.743
+			],
+			[
+				450,
+				0.559807,
+				1.743
+			],
+			[
+				500,
+				0.56264,
+				1.743
+			],
+			[
+				550,
+				0.565473,
+				1.743
+			],
+			[
+				600,
+				0.568307,
+				1.743
+			],
+			[
+				650,
+				0.571455,
+				1.743
+			],
+			[
+				700,
+				0.574603,
+				1.743
+			],
+			[
+				750,
+				0.577121,
+				1.743
+			],
+			[
+				800,
+				0.57964,
+				1.743
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -34754,6 +70550,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pliant:wdth,wght@100..125,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.478693,
+				1.2
+			],
+			[
+				150,
+				0.483085,
+				1.2
+			],
+			[
+				200,
+				0.487477,
+				1.2
+			],
+			[
+				250,
+				0.491872,
+				1.2
+			],
+			[
+				300,
+				0.496267,
+				1.2
+			],
+			[
+				350,
+				0.50505,
+				1.2
+			],
+			[
+				400,
+				0.513833,
+				1.2
+			],
+			[
+				450,
+				0.52262,
+				1.2
+			],
+			[
+				500,
+				0.531407,
+				1.2
+			],
+			[
+				550,
+				0.540193,
+				1.2
+			],
+			[
+				600,
+				0.54898,
+				1.2
+			],
+			[
+				650,
+				0.557763,
+				1.2
+			],
+			[
+				700,
+				0.566547,
+				1.2
+			],
+			[
+				750,
+				0.570942,
+				1.2
+			],
+			[
+				800,
+				0.575337,
+				1.2
+			],
+			[
+				850,
+				0.579728,
+				1.2
+			],
+			[
+				900,
+				0.58412,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -34801,6 +70684,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.526593,
+				1.26
+			],
+			[
+				250,
+				0.527667,
+				1.26
+			],
+			[
+				300,
+				0.52874,
+				1.26
+			],
+			[
+				350,
+				0.529813,
+				1.26
+			],
+			[
+				400,
+				0.530887,
+				1.26
+			],
+			[
+				450,
+				0.533682,
+				1.26
+			],
+			[
+				500,
+				0.536478,
+				1.26
+			],
+			[
+				550,
+				0.539274,
+				1.26
+			],
+			[
+				600,
+				0.54207,
+				1.26
+			],
+			[
+				650,
+				0.544866,
+				1.26
+			],
+			[
+				700,
+				0.547662,
+				1.26
+			],
+			[
+				750,
+				0.550457,
+				1.26
+			],
+			[
+				800,
+				0.553253,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -34826,6 +70776,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pochaevsk:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.486213,
+				1.451
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34852,6 +70809,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Podkova:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.503613,
+				1.108
+			],
+			[
+				450,
+				0.506897,
+				1.108
+			],
+			[
+				500,
+				0.51018,
+				1.108
+			],
+			[
+				550,
+				0.514239,
+				1.108
+			],
+			[
+				600,
+				0.518298,
+				1.108
+			],
+			[
+				650,
+				0.52273,
+				1.108
+			],
+			[
+				700,
+				0.527161,
+				1.108
+			],
+			[
+				750,
+				0.531451,
+				1.108
+			],
+			[
+				800,
+				0.53574,
+				1.108
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -34874,6 +70878,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Poetsen+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52182,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34889,6 +70900,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Poiret+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.483407,
+				1.17
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34901,6 +70919,13 @@ export default {
 	"Poller One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Poller+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.698226,
+				1.188477
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -34955,6 +70980,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Poltawski+Nowy:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.520087,
+				1.3
+			],
+			[
+				450,
+				0.524695,
+				1.3
+			],
+			[
+				500,
+				0.529303,
+				1.3
+			],
+			[
+				550,
+				0.530117,
+				1.3
+			],
+			[
+				600,
+				0.53093,
+				1.3
+			],
+			[
+				650,
+				0.536351,
+				1.3
+			],
+			[
+				700,
+				0.541773,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -35016,6 +71078,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Poly:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.505093,
+				1.188
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35034,6 +71103,13 @@ export default {
 	"Pompiere": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Pompiere:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.355124,
+				1.202148
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35046,6 +71122,13 @@ export default {
 	"Ponnala": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Ponnala:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.372585,
+				1.756836
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35065,6 +71148,13 @@ export default {
 			"ss02"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ponomar:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.482987,
+				1.61
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35091,6 +71181,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pontano+Sans:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.483669,
+				1.28125
+			],
+			[
+				350,
+				0.488905,
+				1.28125
+			],
+			[
+				400,
+				0.494141,
+				1.28125
+			],
+			[
+				450,
+				0.49633,
+				1.28125
+			],
+			[
+				500,
+				0.498519,
+				1.28125
+			],
+			[
+				550,
+				0.500708,
+				1.28125
+			],
+			[
+				600,
+				0.502897,
+				1.28125
+			],
+			[
+				650,
+				0.505086,
+				1.28125
+			],
+			[
+				700,
+				0.507275,
+				1.28125
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -35108,6 +71245,13 @@ export default {
 			"fwid"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Poor+Story:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.417083,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35126,6 +71270,53 @@ export default {
 			"ss04"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.521473,
+				1.5
+			],
+			[
+				200,
+				0.53148,
+				1.5
+			],
+			[
+				300,
+				0.541293,
+				1.5
+			],
+			[
+				400,
+				0.54966,
+				1.5
+			],
+			[
+				500,
+				0.558807,
+				1.5
+			],
+			[
+				600,
+				0.565333,
+				1.5
+			],
+			[
+				700,
+				0.5728,
+				1.5
+			],
+			[
+				800,
+				0.579173,
+				1.5
+			],
+			[
+				900,
+				0.585447,
+				1.5
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35163,6 +71354,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Port+Lligat+Sans:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.455447,
+				1.071
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35178,6 +71376,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Port+Lligat+Slab:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.455487,
+				1.071
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35202,6 +71407,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Potta+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.597133,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35224,6 +71436,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pragati+Narrow:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.38744,
+				1.692
+			],
+			[
+				700,
+				0.409253,
+				1.692
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35257,6 +71481,13 @@ export default {
 			"titl"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Praise:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.384307,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35278,6 +71509,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Prata:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.559533,
+				1.355
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35293,6 +71531,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Preahvihear:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.570853,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35312,6 +71557,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Press+Start+2P:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.986667,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35333,6 +71585,38 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Pridi:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				200,
+				0.51318,
+				1.2
+			],
+			[
+				300,
+				0.5172,
+				1.2
+			],
+			[
+				400,
+				0.518587,
+				1.2
+			],
+			[
+				500,
+				0.521493,
+				1.2
+			],
+			[
+				600,
+				0.52062,
+				1.2
+			],
+			[
+				700,
+				0.522593,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35350,6 +71634,13 @@ export default {
 	"Princess Sofia": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Princess+Sofia:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.467682,
+				1.546875
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35366,6 +71657,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Prociono:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.50238,
+				1.22
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35387,6 +71685,53 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.527373,
+				1.2
+			],
+			[
+				200,
+				0.53346,
+				1.2
+			],
+			[
+				300,
+				0.541633,
+				1.2
+			],
+			[
+				400,
+				0.546713,
+				1.2
+			],
+			[
+				500,
+				0.552347,
+				1.2
+			],
+			[
+				600,
+				0.555513,
+				1.2
+			],
+			[
+				700,
+				0.556527,
+				1.2
+			],
+			[
+				800,
+				0.56162,
+				1.2
+			],
+			[
+				900,
+				0.567153,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35424,6 +71769,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Prosto+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.632367,
+				1.235
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35445,6 +71797,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Protest+Guerrilla:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.4771,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35466,6 +71825,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Protest+Revolution:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.478027,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35489,6 +71855,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Protest+Riot:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.473953,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35512,6 +71885,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Protest+Strike:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.477233,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35527,6 +71907,33 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Proza+Libre:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700;1,800&display=block",
+		"metrics": [
+			[
+				400,
+				0.551191,
+				1.365234
+			],
+			[
+				500,
+				0.559447,
+				1.357422
+			],
+			[
+				600,
+				0.567842,
+				1.357422
+			],
+			[
+				700,
+				0.576156,
+				1.357422
+			],
+			[
+				800,
+				0.584092,
+				1.365234
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35573,6 +71980,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Public+Sans:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.514637,
+				1.175
+			],
+			[
+				150,
+				0.518084,
+				1.175
+			],
+			[
+				200,
+				0.521532,
+				1.175
+			],
+			[
+				250,
+				0.52383,
+				1.175
+			],
+			[
+				300,
+				0.526127,
+				1.175
+			],
+			[
+				350,
+				0.528282,
+				1.175
+			],
+			[
+				400,
+				0.530437,
+				1.175
+			],
+			[
+				450,
+				0.532591,
+				1.175
+			],
+			[
+				500,
+				0.534746,
+				1.175
+			],
+			[
+				550,
+				0.5369,
+				1.175
+			],
+			[
+				600,
+				0.539055,
+				1.175
+			],
+			[
+				650,
+				0.542646,
+				1.175
+			],
+			[
+				700,
+				0.546236,
+				1.175
+			],
+			[
+				750,
+				0.549827,
+				1.175
+			],
+			[
+				800,
+				0.553418,
+				1.175
+			],
+			[
+				850,
+				0.557009,
+				1.175
+			],
+			[
+				900,
+				0.5606,
+				1.175
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -35602,6 +72096,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Puppies+Play:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.32636,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35614,6 +72115,18 @@ export default {
 	"Puritan": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Puritan:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.468893,
+				1.109375
+			],
+			[
+				700,
+				0.467754,
+				1.125
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35642,6 +72155,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Purple+Purse:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.552142,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35665,6 +72185,13 @@ export default {
 			"ss02"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Qahiri:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.305191,
+				1.133333
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35677,6 +72204,13 @@ export default {
 	"Quando": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Quando:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.626715,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35692,6 +72226,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.535507,
+				1.43
+			],
+			[
+				700,
+				0.547333,
+				1.43
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35721,6 +72267,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Quattrocento:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.516113,
+				1.108
+			],
+			[
+				700,
+				0.531107,
+				1.108
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35742,6 +72300,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Quattrocento+Sans:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.492327,
+				1.108
+			],
+			[
+				700,
+				0.49236,
+				1.108
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35781,6 +72351,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Questrial:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.50668,
+				1.03
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35810,6 +72387,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.515773,
+				1.25
+			],
+			[
+				350,
+				0.518889,
+				1.25
+			],
+			[
+				400,
+				0.522005,
+				1.25
+			],
+			[
+				450,
+				0.525121,
+				1.25
+			],
+			[
+				500,
+				0.528237,
+				1.25
+			],
+			[
+				550,
+				0.531353,
+				1.25
+			],
+			[
+				600,
+				0.534468,
+				1.25
+			],
+			[
+				650,
+				0.537584,
+				1.25
+			],
+			[
+				700,
+				0.5407,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -35832,6 +72456,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Quintessential:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.472777,
+				1.533203
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35852,6 +72483,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Qwigley:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.342133,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35875,6 +72513,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Qwitcher+Grypen:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.31412,
+				1.1
+			],
+			[
+				700,
+				0.34622,
+				1.1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -35911,6 +72561,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=REM:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.521427,
+				1.25
+			],
+			[
+				150,
+				0.525292,
+				1.25
+			],
+			[
+				200,
+				0.529158,
+				1.25
+			],
+			[
+				250,
+				0.532702,
+				1.25
+			],
+			[
+				300,
+				0.536246,
+				1.25
+			],
+			[
+				350,
+				0.53979,
+				1.25
+			],
+			[
+				400,
+				0.543333,
+				1.25
+			],
+			[
+				450,
+				0.54736,
+				1.25
+			],
+			[
+				500,
+				0.551387,
+				1.25
+			],
+			[
+				550,
+				0.557412,
+				1.25
+			],
+			[
+				600,
+				0.563437,
+				1.25
+			],
+			[
+				650,
+				0.568498,
+				1.25
+			],
+			[
+				700,
+				0.57356,
+				1.25
+			],
+			[
+				750,
+				0.579826,
+				1.25
+			],
+			[
+				800,
+				0.586092,
+				1.25
+			],
+			[
+				850,
+				0.591272,
+				1.25
+			],
+			[
+				900,
+				0.596453,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -35938,6 +72675,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Racing+Sans+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.51438,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36010,6 +72754,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Radio+Canada:wdth,wght@75..100,300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.510813,
+				1.2
+			],
+			[
+				350,
+				0.52079,
+				1.2
+			],
+			[
+				400,
+				0.530767,
+				1.2
+			],
+			[
+				450,
+				0.53373,
+				1.2
+			],
+			[
+				500,
+				0.536693,
+				1.2
+			],
+			[
+				550,
+				0.539386,
+				1.2
+			],
+			[
+				600,
+				0.542079,
+				1.2
+			],
+			[
+				650,
+				0.544773,
+				1.2
+			],
+			[
+				700,
+				0.547467,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -36049,6 +72840,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Radio+Canada+Big:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.50884,
+				1.3
+			],
+			[
+				450,
+				0.511119,
+				1.3
+			],
+			[
+				500,
+				0.513398,
+				1.3
+			],
+			[
+				550,
+				0.515677,
+				1.3
+			],
+			[
+				600,
+				0.517956,
+				1.3
+			],
+			[
+				650,
+				0.520234,
+				1.3
+			],
+			[
+				700,
+				0.522513,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -36090,6 +72918,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Radley:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.509515,
+				1.263672
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36108,6 +72943,33 @@ export default {
 	"Rajdhani": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Rajdhani:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.441807,
+				1.276
+			],
+			[
+				400,
+				0.445587,
+				1.276
+			],
+			[
+				500,
+				0.44988,
+				1.276
+			],
+			[
+				600,
+				0.454667,
+				1.276
+			],
+			[
+				700,
+				0.460113,
+				1.276
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36145,6 +73007,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rakkas:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.47336,
+				1.491
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36201,6 +73070,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Raleway:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.512047,
+				1.174
+			],
+			[
+				150,
+				0.513832,
+				1.174
+			],
+			[
+				200,
+				0.515617,
+				1.174
+			],
+			[
+				250,
+				0.517656,
+				1.174
+			],
+			[
+				300,
+				0.519695,
+				1.174
+			],
+			[
+				350,
+				0.521987,
+				1.174
+			],
+			[
+				400,
+				0.524278,
+				1.174
+			],
+			[
+				450,
+				0.526829,
+				1.174
+			],
+			[
+				500,
+				0.52938,
+				1.174
+			],
+			[
+				550,
+				0.531563,
+				1.174
+			],
+			[
+				600,
+				0.533747,
+				1.174
+			],
+			[
+				650,
+				0.536129,
+				1.174
+			],
+			[
+				700,
+				0.538511,
+				1.174
+			],
+			[
+				750,
+				0.54109,
+				1.174
+			],
+			[
+				800,
+				0.54367,
+				1.174
+			],
+			[
+				850,
+				0.546648,
+				1.174
+			],
+			[
+				900,
+				0.549627,
+				1.174
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -36233,6 +73189,13 @@ export default {
 			"ss02"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Raleway+Dots:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5185,
+				1.131
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36245,6 +73208,13 @@ export default {
 	"Ramabhadra": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Ramabhadra:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.543639,
+				1.89759
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36257,6 +73227,13 @@ export default {
 	"Ramaraja": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Ramaraja:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.433893,
+				1.713333
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36272,6 +73249,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rambla:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.454393,
+				1.224
+			],
+			[
+				700,
+				0.469073,
+				1.224
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36301,6 +73290,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rammetto+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.717839,
+				1.688965
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36323,6 +73319,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rampart+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.584313,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36353,6 +73356,13 @@ export default {
 			"ss16"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ramsina:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.355651,
+				1.098145
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36373,6 +73383,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ranchers:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.4344,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36388,6 +73405,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rancho:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.364889,
+				0.964844
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36403,6 +73427,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ranga:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.340655,
+				1.46303
+			],
+			[
+				700,
+				0.363246,
+				1.46303
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36470,6 +73506,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rasa:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.437887,
+				1.218
+			],
+			[
+				350,
+				0.440077,
+				1.218
+			],
+			[
+				400,
+				0.442267,
+				1.218
+			],
+			[
+				450,
+				0.4444,
+				1.218
+			],
+			[
+				500,
+				0.446533,
+				1.218
+			],
+			[
+				550,
+				0.448667,
+				1.218
+			],
+			[
+				600,
+				0.4508,
+				1.218
+			],
+			[
+				650,
+				0.452933,
+				1.218
+			],
+			[
+				700,
+				0.455067,
+				1.218
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -36493,6 +73576,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rationale:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.392893,
+				1.153
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36505,6 +73595,13 @@ export default {
 	"Ravi Prakash": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Ravi+Prakash:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.441367,
+				1.583984
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36546,6 +73643,68 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Readex+Pro:HEXP,wght@0..100,160..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				160,
+				0.516653,
+				1.25
+			],
+			[
+				200,
+				0.521643,
+				1.25
+			],
+			[
+				250,
+				0.528132,
+				1.25
+			],
+			[
+				300,
+				0.53462,
+				1.25
+			],
+			[
+				350,
+				0.541607,
+				1.25
+			],
+			[
+				400,
+				0.548593,
+				1.25
+			],
+			[
+				450,
+				0.553642,
+				1.25
+			],
+			[
+				500,
+				0.558691,
+				1.25
+			],
+			[
+				550,
+				0.56374,
+				1.25
+			],
+			[
+				600,
+				0.568789,
+				1.25
+			],
+			[
+				650,
+				0.573838,
+				1.25
+			],
+			[
+				700,
+				0.578887,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -36620,6 +73779,84 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Recursive:CASL,CRSV,MONO,slnt,wght@0..1,0..1,0..1,-15..0,300..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.5482,
+				1.2
+			],
+			[
+				350,
+				0.5482,
+				1.2
+			],
+			[
+				400,
+				0.5482,
+				1.2
+			],
+			[
+				450,
+				0.5482,
+				1.2
+			],
+			[
+				500,
+				0.5482,
+				1.2
+			],
+			[
+				550,
+				0.5482,
+				1.2
+			],
+			[
+				600,
+				0.5482,
+				1.2
+			],
+			[
+				650,
+				0.5482,
+				1.2
+			],
+			[
+				700,
+				0.5482,
+				1.2
+			],
+			[
+				750,
+				0.5482,
+				1.2
+			],
+			[
+				800,
+				0.5482,
+				1.2
+			],
+			[
+				850,
+				0.5482,
+				1.2
+			],
+			[
+				900,
+				0.5482,
+				1.2
+			],
+			[
+				950,
+				0.5482,
+				1.2
+			],
+			[
+				1000,
+				0.5482,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -36654,6 +73891,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.496213,
+				1.323
+			],
+			[
+				350,
+				0.50347,
+				1.323
+			],
+			[
+				400,
+				0.510727,
+				1.323
+			],
+			[
+				450,
+				0.513791,
+				1.323
+			],
+			[
+				500,
+				0.516856,
+				1.323
+			],
+			[
+				550,
+				0.519994,
+				1.323
+			],
+			[
+				600,
+				0.524284,
+				1.323
+			],
+			[
+				650,
+				0.528574,
+				1.323
+			],
+			[
+				700,
+				0.532824,
+				1.323
+			],
+			[
+				750,
+				0.537074,
+				1.323
+			],
+			[
+				800,
+				0.543084,
+				1.323
+			],
+			[
+				850,
+				0.54943,
+				1.323
+			],
+			[
+				900,
+				0.555773,
+				1.323
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -36690,6 +73994,54 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Red+Hat+Mono:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.6,
+				1.323
+			],
+			[
+				350,
+				0.6,
+				1.323
+			],
+			[
+				400,
+				0.6,
+				1.323
+			],
+			[
+				450,
+				0.6,
+				1.323
+			],
+			[
+				500,
+				0.6,
+				1.323
+			],
+			[
+				550,
+				0.6,
+				1.323
+			],
+			[
+				600,
+				0.6,
+				1.323
+			],
+			[
+				650,
+				0.6,
+				1.323
+			],
+			[
+				700,
+				0.6,
+				1.323
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -36730,6 +74082,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Red+Hat+Text:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.501653,
+				1.323
+			],
+			[
+				350,
+				0.507897,
+				1.323
+			],
+			[
+				400,
+				0.51414,
+				1.323
+			],
+			[
+				450,
+				0.520016,
+				1.323
+			],
+			[
+				500,
+				0.525892,
+				1.323
+			],
+			[
+				550,
+				0.532851,
+				1.323
+			],
+			[
+				600,
+				0.542596,
+				1.323
+			],
+			[
+				650,
+				0.552341,
+				1.323
+			],
+			[
+				700,
+				0.562087,
+				1.323
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -36763,6 +74162,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.540233,
+				1.249
+			],
+			[
+				350,
+				0.546877,
+				1.249
+			],
+			[
+				400,
+				0.55352,
+				1.249
+			],
+			[
+				450,
+				0.554799,
+				1.249
+			],
+			[
+				500,
+				0.556078,
+				1.249
+			],
+			[
+				550,
+				0.557357,
+				1.249
+			],
+			[
+				600,
+				0.558636,
+				1.249
+			],
+			[
+				650,
+				0.559914,
+				1.249
+			],
+			[
+				700,
+				0.561193,
+				1.249
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -36777,6 +74223,13 @@ export default {
 	"Redacted": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Redacted:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.335,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -36789,6 +74242,24 @@ export default {
 	"Redacted Script": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Redacted+Script:ital,wght@0,300;0,400;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.443247,
+				1
+			],
+			[
+				400,
+				0.443247,
+				1
+			],
+			[
+				700,
+				0.443247,
+				1
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -36845,6 +74316,84 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.5625,
+				1.298828
+			],
+			[
+				250,
+				0.5625,
+				1.298828
+			],
+			[
+				300,
+				0.5625,
+				1.298828
+			],
+			[
+				350,
+				0.5625,
+				1.298828
+			],
+			[
+				400,
+				0.5625,
+				1.298828
+			],
+			[
+				450,
+				0.5625,
+				1.298828
+			],
+			[
+				500,
+				0.5625,
+				1.298828
+			],
+			[
+				550,
+				0.5625,
+				1.298828
+			],
+			[
+				600,
+				0.5625,
+				1.298828
+			],
+			[
+				650,
+				0.5625,
+				1.298828
+			],
+			[
+				700,
+				0.5625,
+				1.298828
+			],
+			[
+				750,
+				0.5625,
+				1.298828
+			],
+			[
+				800,
+				0.5625,
+				1.298828
+			],
+			[
+				850,
+				0.5625,
+				1.298828
+			],
+			[
+				900,
+				0.5625,
+				1.298828
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -36935,6 +74484,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Reddit+Sans:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.497611,
+				1.298828
+			],
+			[
+				250,
+				0.500874,
+				1.298828
+			],
+			[
+				300,
+				0.504138,
+				1.298828
+			],
+			[
+				350,
+				0.506657,
+				1.298828
+			],
+			[
+				400,
+				0.509089,
+				1.298828
+			],
+			[
+				450,
+				0.511601,
+				1.298828
+			],
+			[
+				500,
+				0.514114,
+				1.298828
+			],
+			[
+				550,
+				0.516613,
+				1.298828
+			],
+			[
+				600,
+				0.519141,
+				1.298828
+			],
+			[
+				650,
+				0.522652,
+				1.298828
+			],
+			[
+				700,
+				0.526163,
+				1.298828
+			],
+			[
+				750,
+				0.529666,
+				1.298828
+			],
+			[
+				800,
+				0.533169,
+				1.298828
+			],
+			[
+				850,
+				0.536672,
+				1.298828
+			],
+			[
+				900,
+				0.540176,
+				1.298828
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -36998,6 +74624,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.434909,
+				1.298828
+			],
+			[
+				250,
+				0.438865,
+				1.298828
+			],
+			[
+				300,
+				0.442822,
+				1.298828
+			],
+			[
+				350,
+				0.445847,
+				1.298828
+			],
+			[
+				400,
+				0.448757,
+				1.298828
+			],
+			[
+				450,
+				0.451635,
+				1.298828
+			],
+			[
+				500,
+				0.454513,
+				1.298828
+			],
+			[
+				550,
+				0.457377,
+				1.298828
+			],
+			[
+				600,
+				0.460272,
+				1.298828
+			],
+			[
+				650,
+				0.46401,
+				1.298828
+			],
+			[
+				700,
+				0.46775,
+				1.298828
+			],
+			[
+				750,
+				0.471487,
+				1.298828
+			],
+			[
+				800,
+				0.475225,
+				1.298828
+			],
+			[
+				850,
+				0.478963,
+				1.298828
+			],
+			[
+				900,
+				0.482702,
+				1.298828
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -37020,6 +74723,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Redressed:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.437074,
+				1.172363
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37045,6 +74755,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Reem+Kufi:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.503493,
+				1.5
+			],
+			[
+				450,
+				0.506843,
+				1.5
+			],
+			[
+				500,
+				0.510193,
+				1.5
+			],
+			[
+				550,
+				0.513543,
+				1.5
+			],
+			[
+				600,
+				0.516893,
+				1.5
+			],
+			[
+				650,
+				0.520243,
+				1.5
+			],
+			[
+				700,
+				0.523593,
+				1.5
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -37072,6 +74819,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Reem+Kufi+Fun:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.503493,
+				1.5
+			],
+			[
+				450,
+				0.506843,
+				1.5
+			],
+			[
+				500,
+				0.510193,
+				1.5
+			],
+			[
+				550,
+				0.513543,
+				1.5
+			],
+			[
+				600,
+				0.516893,
+				1.5
+			],
+			[
+				650,
+				0.520243,
+				1.5
+			],
+			[
+				700,
+				0.523593,
+				1.5
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -37098,6 +74882,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Reem+Kufi+Ink:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.503493,
+				1.5
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37110,6 +74901,13 @@ export default {
 	"Reenie Beanie": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Reenie+Beanie:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.37206,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37133,6 +74931,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Reggae+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.602513,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37159,6 +74964,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rethink+Sans:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.523827,
+				1.302
+			],
+			[
+				450,
+				0.521465,
+				1.302
+			],
+			[
+				500,
+				0.519103,
+				1.302
+			],
+			[
+				550,
+				0.518316,
+				1.302
+			],
+			[
+				600,
+				0.517529,
+				1.302
+			],
+			[
+				650,
+				0.515954,
+				1.302
+			],
+			[
+				700,
+				0.51438,
+				1.302
+			],
+			[
+				750,
+				0.508557,
+				1.302
+			],
+			[
+				800,
+				0.502733,
+				1.302
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -37179,6 +75031,13 @@ export default {
 	"Revalia": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Revalia:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.711621,
+				0.861328
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37207,6 +75066,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rhodium+Libre:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.56748,
+				2.415
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37227,6 +75093,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ribeye:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.597389,
+				1.366211
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37247,6 +75120,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ribeye+Marrow:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.597389,
+				1.366211
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37262,6 +75142,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Righteous:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.522487,
+				1.241699
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37282,6 +75169,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Risque:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.491644,
+				1.155762
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37303,6 +75197,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Road+Rage:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.282447,
+				1.1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37339,6 +75240,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Roboto:wdth,wght@75..100,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.496156,
+				1.049805
+			],
+			[
+				150,
+				0.497407,
+				1.049805
+			],
+			[
+				200,
+				0.498659,
+				1.049805
+			],
+			[
+				250,
+				0.500626,
+				1.049805
+			],
+			[
+				300,
+				0.502593,
+				1.049805
+			],
+			[
+				350,
+				0.505811,
+				1.049805
+			],
+			[
+				400,
+				0.50903,
+				1.049805
+			],
+			[
+				450,
+				0.511309,
+				1.049805
+			],
+			[
+				500,
+				0.513587,
+				1.049805
+			],
+			[
+				550,
+				0.514549,
+				1.049805
+			],
+			[
+				600,
+				0.515511,
+				1.049805
+			],
+			[
+				650,
+				0.516473,
+				1.049805
+			],
+			[
+				700,
+				0.517436,
+				1.049805
+			],
+			[
+				750,
+				0.518435,
+				1.049805
+			],
+			[
+				800,
+				0.519435,
+				1.049805
+			],
+			[
+				850,
+				0.520435,
+				1.049805
+			],
+			[
+				900,
+				0.521436,
+				1.049805
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -37389,6 +75377,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.439411,
+				1.049805
+			],
+			[
+				150,
+				0.439883,
+				1.049805
+			],
+			[
+				200,
+				0.440355,
+				1.049805
+			],
+			[
+				250,
+				0.441097,
+				1.049805
+			],
+			[
+				300,
+				0.441839,
+				1.049805
+			],
+			[
+				350,
+				0.445101,
+				1.049805
+			],
+			[
+				400,
+				0.448363,
+				1.049805
+			],
+			[
+				450,
+				0.45067,
+				1.049805
+			],
+			[
+				500,
+				0.452977,
+				1.049805
+			],
+			[
+				550,
+				0.453951,
+				1.049805
+			],
+			[
+				600,
+				0.454925,
+				1.049805
+			],
+			[
+				650,
+				0.455899,
+				1.049805
+			],
+			[
+				700,
+				0.456873,
+				1.049805
+			],
+			[
+				750,
+				0.457853,
+				1.049805
+			],
+			[
+				800,
+				0.458824,
+				1.049805
+			],
+			[
+				850,
+				0.459796,
+				1.049805
+			],
+			[
+				900,
+				0.460768,
+				1.049805
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -37494,6 +75569,103 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Roboto+Flex:GRAD,opsz,slnt,wdth,wght,XOPQ,XTRA,YOPQ,YTAS,YTDE,YTFI,YTLC,YTUC@-200..150,8..144,-10..0,25..151,100..1000,27..175,323..603,25..135,649..854,-305..-98,560..788,416..570,528..760&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.49391,
+				1.171875
+			],
+			[
+				150,
+				0.495719,
+				1.171875
+			],
+			[
+				200,
+				0.497528,
+				1.171875
+			],
+			[
+				250,
+				0.499338,
+				1.171875
+			],
+			[
+				300,
+				0.501147,
+				1.171875
+			],
+			[
+				350,
+				0.502956,
+				1.171875
+			],
+			[
+				400,
+				0.504766,
+				1.171875
+			],
+			[
+				450,
+				0.509067,
+				1.171875
+			],
+			[
+				500,
+				0.513369,
+				1.171875
+			],
+			[
+				550,
+				0.51767,
+				1.171875
+			],
+			[
+				600,
+				0.521972,
+				1.171875
+			],
+			[
+				650,
+				0.526273,
+				1.171875
+			],
+			[
+				700,
+				0.530575,
+				1.171875
+			],
+			[
+				750,
+				0.534876,
+				1.171875
+			],
+			[
+				800,
+				0.539178,
+				1.171875
+			],
+			[
+				850,
+				0.543479,
+				1.171875
+			],
+			[
+				900,
+				0.54778,
+				1.171875
+			],
+			[
+				950,
+				0.552082,
+				1.171875
+			],
+			[
+				1000,
+				0.556383,
+				1.171875
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -37518,6 +75690,74 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.600098,
+				1.318848
+			],
+			[
+				150,
+				0.600098,
+				1.318848
+			],
+			[
+				200,
+				0.600098,
+				1.318848
+			],
+			[
+				250,
+				0.600098,
+				1.318848
+			],
+			[
+				300,
+				0.600098,
+				1.318848
+			],
+			[
+				350,
+				0.600098,
+				1.318848
+			],
+			[
+				400,
+				0.600098,
+				1.318848
+			],
+			[
+				450,
+				0.600098,
+				1.318848
+			],
+			[
+				500,
+				0.600098,
+				1.318848
+			],
+			[
+				550,
+				0.600098,
+				1.318848
+			],
+			[
+				600,
+				0.600098,
+				1.318848
+			],
+			[
+				650,
+				0.600098,
+				1.318848
+			],
+			[
+				700,
+				0.600098,
+				1.318848
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -37613,6 +75853,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Roboto+Serif:GRAD,opsz,wdth,wght@-50..100,8..144,50..150,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.526533,
+				1.171
+			],
+			[
+				150,
+				0.531323,
+				1.171
+			],
+			[
+				200,
+				0.536113,
+				1.171
+			],
+			[
+				250,
+				0.540903,
+				1.171
+			],
+			[
+				300,
+				0.545693,
+				1.171
+			],
+			[
+				350,
+				0.550483,
+				1.171
+			],
+			[
+				400,
+				0.555273,
+				1.171
+			],
+			[
+				450,
+				0.55878,
+				1.171
+			],
+			[
+				500,
+				0.562287,
+				1.171
+			],
+			[
+				550,
+				0.565793,
+				1.171
+			],
+			[
+				600,
+				0.5693,
+				1.171
+			],
+			[
+				650,
+				0.572807,
+				1.171
+			],
+			[
+				700,
+				0.576313,
+				1.171
+			],
+			[
+				750,
+				0.57982,
+				1.171
+			],
+			[
+				800,
+				0.583327,
+				1.171
+			],
+			[
+				850,
+				0.586833,
+				1.171
+			],
+			[
+				900,
+				0.59034,
+				1.171
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -37658,6 +75985,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.5275,
+				1.318848
+			],
+			[
+				150,
+				0.529089,
+				1.318848
+			],
+			[
+				200,
+				0.530678,
+				1.318848
+			],
+			[
+				250,
+				0.532002,
+				1.318848
+			],
+			[
+				300,
+				0.533326,
+				1.318848
+			],
+			[
+				350,
+				0.536725,
+				1.318848
+			],
+			[
+				400,
+				0.540124,
+				1.318848
+			],
+			[
+				450,
+				0.542579,
+				1.318848
+			],
+			[
+				500,
+				0.545035,
+				1.318848
+			],
+			[
+				550,
+				0.545928,
+				1.318848
+			],
+			[
+				600,
+				0.546821,
+				1.318848
+			],
+			[
+				650,
+				0.547715,
+				1.318848
+			],
+			[
+				700,
+				0.548608,
+				1.318848
+			],
+			[
+				750,
+				0.549858,
+				1.318848
+			],
+			[
+				800,
+				0.551109,
+				1.318848
+			],
+			[
+				850,
+				0.552493,
+				1.318848
+			],
+			[
+				900,
+				0.553877,
+				1.318848
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -37672,6 +76086,13 @@ export default {
 	"Rochester": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Rochester:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.432926,
+				1.287598
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37687,6 +76108,13 @@ export default {
 			"aalt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rock+3D:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.732653,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37702,6 +76130,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rock+Salt:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.707396,
+				1.100586
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37725,6 +76160,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=RocknRoll+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.588673,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37746,6 +76188,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rokkitt:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.46814,
+				1.137
+			],
+			[
+				150,
+				0.470575,
+				1.137
+			],
+			[
+				200,
+				0.473011,
+				1.137
+			],
+			[
+				250,
+				0.47473,
+				1.137
+			],
+			[
+				300,
+				0.476449,
+				1.137
+			],
+			[
+				350,
+				0.479744,
+				1.137
+			],
+			[
+				400,
+				0.483039,
+				1.137
+			],
+			[
+				450,
+				0.486334,
+				1.137
+			],
+			[
+				500,
+				0.489628,
+				1.137
+			],
+			[
+				550,
+				0.491061,
+				1.137
+			],
+			[
+				600,
+				0.492493,
+				1.137
+			],
+			[
+				650,
+				0.495538,
+				1.137
+			],
+			[
+				700,
+				0.498582,
+				1.137
+			],
+			[
+				750,
+				0.503147,
+				1.137
+			],
+			[
+				800,
+				0.507711,
+				1.137
+			],
+			[
+				850,
+				0.511862,
+				1.137
+			],
+			[
+				900,
+				0.516013,
+				1.137
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -37774,6 +76303,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Romanesco:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.28057,
+				1.146973
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37796,6 +76332,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ropa+Sans:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.422793,
+				1.072
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37835,6 +76378,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rosario:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.470453,
+				1.212
+			],
+			[
+				350,
+				0.47101,
+				1.212
+			],
+			[
+				400,
+				0.471567,
+				1.212
+			],
+			[
+				450,
+				0.471763,
+				1.212
+			],
+			[
+				500,
+				0.471958,
+				1.212
+			],
+			[
+				550,
+				0.47221,
+				1.212
+			],
+			[
+				600,
+				0.472462,
+				1.212
+			],
+			[
+				650,
+				0.473078,
+				1.212
+			],
+			[
+				700,
+				0.473693,
+				1.212
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -37858,6 +76448,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rosarivo:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.546313,
+				1.403
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37879,6 +76476,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rouge+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.387019,
+				1.1752
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37903,6 +76507,23 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rowdies:ital,wght@0,300;0,400;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.52216,
+				1.242
+			],
+			[
+				400,
+				0.562747,
+				1.242
+			],
+			[
+				700,
+				0.586933,
+				1.242
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37920,6 +76541,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rozha+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.518053,
+				1.42
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -37950,6 +76578,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.507847,
+				1.185
+			],
+			[
+				350,
+				0.515562,
+				1.185
+			],
+			[
+				400,
+				0.523277,
+				1.185
+			],
+			[
+				450,
+				0.532281,
+				1.185
+			],
+			[
+				500,
+				0.541285,
+				1.185
+			],
+			[
+				550,
+				0.545657,
+				1.185
+			],
+			[
+				600,
+				0.55003,
+				1.185
+			],
+			[
+				650,
+				0.554659,
+				1.185
+			],
+			[
+				700,
+				0.559287,
+				1.185
+			],
+			[
+				750,
+				0.567005,
+				1.185
+			],
+			[
+				800,
+				0.574723,
+				1.185
+			],
+			[
+				850,
+				0.582438,
+				1.185
+			],
+			[
+				900,
+				0.590153,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -37986,6 +76681,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+80s+Fade:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38014,6 +76716,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Beastly:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38042,6 +76751,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Broken+Fax:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38070,6 +76786,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Bubbles:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38098,6 +76821,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Burned:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38126,6 +76856,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Dirt:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38154,6 +76891,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Distressed:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38182,6 +76926,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38210,6 +76961,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Doodle+Triangles:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38238,6 +76996,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Gemstones:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38266,6 +77031,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Glitch:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38294,6 +77066,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Glitch+Pop:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38322,6 +77101,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Iso:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38350,6 +77136,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Lines:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38378,6 +77171,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Maps:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38406,6 +77206,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Marker+Hatch:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38434,6 +77241,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Maze:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38462,6 +77276,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Microbe:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38477,6 +77298,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Mono+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.85,
+				1.238
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38505,6 +77333,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Moonrocks:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38533,6 +77368,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Pixels:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38561,6 +77403,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Puddles:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38589,6 +77438,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Scribble:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38617,6 +77473,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Spray+Paint:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38645,6 +77508,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Storm:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38673,6 +77543,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Vinyl:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38701,6 +77578,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59162,
+				1.185
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38721,6 +77605,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ruda:wght@400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.497653,
+				1.217
+			],
+			[
+				450,
+				0.50083,
+				1.217
+			],
+			[
+				500,
+				0.504007,
+				1.217
+			],
+			[
+				550,
+				0.507183,
+				1.217
+			],
+			[
+				600,
+				0.510358,
+				1.217
+			],
+			[
+				650,
+				0.513536,
+				1.217
+			],
+			[
+				700,
+				0.516714,
+				1.217
+			],
+			[
+				750,
+				0.522537,
+				1.217
+			],
+			[
+				800,
+				0.528359,
+				1.217
+			],
+			[
+				850,
+				0.534183,
+				1.217
+			],
+			[
+				900,
+				0.540007,
+				1.217
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -38738,6 +77679,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rufina:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.531453,
+				1.235
+			],
+			[
+				700,
+				0.540573,
+				1.235
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38762,6 +77715,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ruge+Boogie:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.407987,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38777,6 +77737,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ruluko:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.47054,
+				1.155
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38797,6 +77764,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Rum+Raisin:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.38888,
+				1.290039
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38812,6 +77786,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ruslan+Display:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.6281,
+				1.085
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38827,6 +77808,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Russo+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.570673,
+				1.205
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38850,6 +77838,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ruthie:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.41712,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38876,6 +77871,28 @@ export default {
 			"ss09"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ruwudu:ital,wght@0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.49324,
+				1.608
+			],
+			[
+				500,
+				0.50418,
+				1.608
+			],
+			[
+				600,
+				0.515013,
+				1.608
+			],
+			[
+				700,
+				0.525953,
+				1.608
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38891,6 +77908,13 @@ export default {
 	"Rye": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Rye:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.599437,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -38924,6 +77948,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=SN+Pro:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.492893,
+				1.3
+			],
+			[
+				250,
+				0.496241,
+				1.3
+			],
+			[
+				300,
+				0.499589,
+				1.3
+			],
+			[
+				350,
+				0.505406,
+				1.3
+			],
+			[
+				400,
+				0.511224,
+				1.3
+			],
+			[
+				450,
+				0.514397,
+				1.3
+			],
+			[
+				500,
+				0.51757,
+				1.3
+			],
+			[
+				550,
+				0.519862,
+				1.3
+			],
+			[
+				600,
+				0.522154,
+				1.3
+			],
+			[
+				650,
+				0.526328,
+				1.3
+			],
+			[
+				700,
+				0.530502,
+				1.3
+			],
+			[
+				750,
+				0.53787,
+				1.3
+			],
+			[
+				800,
+				0.545238,
+				1.3
+			],
+			[
+				850,
+				0.554076,
+				1.3
+			],
+			[
+				900,
+				0.562913,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -38979,6 +78080,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=STIX+Two+Text:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.495127,
+				1.25
+			],
+			[
+				450,
+				0.501465,
+				1.25
+			],
+			[
+				500,
+				0.507803,
+				1.25
+			],
+			[
+				550,
+				0.514141,
+				1.25
+			],
+			[
+				600,
+				0.520478,
+				1.25
+			],
+			[
+				650,
+				0.527872,
+				1.25
+			],
+			[
+				700,
+				0.535267,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -39033,6 +78171,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=SUSE:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.49464,
+				1.26
+			],
+			[
+				150,
+				0.496736,
+				1.26
+			],
+			[
+				200,
+				0.498832,
+				1.26
+			],
+			[
+				250,
+				0.500928,
+				1.26
+			],
+			[
+				300,
+				0.503024,
+				1.26
+			],
+			[
+				350,
+				0.505119,
+				1.26
+			],
+			[
+				400,
+				0.507215,
+				1.26
+			],
+			[
+				450,
+				0.509309,
+				1.26
+			],
+			[
+				500,
+				0.511404,
+				1.26
+			],
+			[
+				550,
+				0.513498,
+				1.26
+			],
+			[
+				600,
+				0.515592,
+				1.26
+			],
+			[
+				650,
+				0.517686,
+				1.26
+			],
+			[
+				700,
+				0.51978,
+				1.26
+			],
+			[
+				750,
+				0.521875,
+				1.26
+			],
+			[
+				800,
+				0.523969,
+				1.26
+			],
+			[
+				850,
+				0.529444,
+				1.26
+			],
+			[
+				900,
+				0.53492,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -39086,6 +78311,84 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=SUSE+Mono:wght@100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6,
+				1.26
+			],
+			[
+				150,
+				0.6,
+				1.26
+			],
+			[
+				200,
+				0.6,
+				1.26
+			],
+			[
+				250,
+				0.6,
+				1.26
+			],
+			[
+				300,
+				0.6,
+				1.26
+			],
+			[
+				350,
+				0.6,
+				1.26
+			],
+			[
+				400,
+				0.6,
+				1.26
+			],
+			[
+				450,
+				0.6,
+				1.26
+			],
+			[
+				500,
+				0.6,
+				1.26
+			],
+			[
+				550,
+				0.6,
+				1.26
+			],
+			[
+				600,
+				0.6,
+				1.26
+			],
+			[
+				650,
+				0.6,
+				1.26
+			],
+			[
+				700,
+				0.6,
+				1.26
+			],
+			[
+				750,
+				0.6,
+				1.26
+			],
+			[
+				800,
+				0.6,
+				1.26
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -39114,6 +78417,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sacramento:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.512692,
+				1.459473
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39144,6 +78454,18 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sahitya:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.465747,
+				1.553
+			],
+			[
+				700,
+				0.47396,
+				1.553
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39160,6 +78482,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sail:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.51976,
+				1.154
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39195,6 +78524,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Saira:wdth,wght@50..125,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.524747,
+				1.574
+			],
+			[
+				150,
+				0.525297,
+				1.574
+			],
+			[
+				200,
+				0.525847,
+				1.574
+			],
+			[
+				250,
+				0.52658,
+				1.574
+			],
+			[
+				300,
+				0.527313,
+				1.574
+			],
+			[
+				350,
+				0.528321,
+				1.574
+			],
+			[
+				400,
+				0.529329,
+				1.574
+			],
+			[
+				450,
+				0.530567,
+				1.574
+			],
+			[
+				500,
+				0.531805,
+				1.574
+			],
+			[
+				550,
+				0.533134,
+				1.574
+			],
+			[
+				600,
+				0.534738,
+				1.574
+			],
+			[
+				650,
+				0.536519,
+				1.574
+			],
+			[
+				700,
+				0.5383,
+				1.574
+			],
+			[
+				750,
+				0.540082,
+				1.574
+			],
+			[
+				800,
+				0.541863,
+				1.574
+			],
+			[
+				850,
+				0.543421,
+				1.574
+			],
+			[
+				900,
+				0.54498,
+				1.574
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -39234,6 +78650,53 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Saira+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.392527,
+				1.574
+			],
+			[
+				200,
+				0.39348,
+				1.574
+			],
+			[
+				300,
+				0.394207,
+				1.574
+			],
+			[
+				400,
+				0.395593,
+				1.574
+			],
+			[
+				500,
+				0.397467,
+				1.574
+			],
+			[
+				600,
+				0.398747,
+				1.574
+			],
+			[
+				700,
+				0.40166,
+				1.574
+			],
+			[
+				800,
+				0.406753,
+				1.574
+			],
+			[
+				900,
+				0.412973,
+				1.574
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39267,6 +78730,53 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Saira+Extra+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.32716,
+				1.574
+			],
+			[
+				200,
+				0.329133,
+				1.574
+			],
+			[
+				300,
+				0.329187,
+				1.574
+			],
+			[
+				400,
+				0.33208,
+				1.574
+			],
+			[
+				500,
+				0.33606,
+				1.574
+			],
+			[
+				600,
+				0.339933,
+				1.574
+			],
+			[
+				700,
+				0.342847,
+				1.574
+			],
+			[
+				800,
+				0.344913,
+				1.574
+			],
+			[
+				900,
+				0.345987,
+				1.574
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39300,6 +78810,53 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Saira+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.46082,
+				1.574
+			],
+			[
+				200,
+				0.462713,
+				1.574
+			],
+			[
+				300,
+				0.462527,
+				1.574
+			],
+			[
+				400,
+				0.466153,
+				1.574
+			],
+			[
+				500,
+				0.468287,
+				1.574
+			],
+			[
+				600,
+				0.470673,
+				1.574
+			],
+			[
+				700,
+				0.474753,
+				1.574
+			],
+			[
+				800,
+				0.47974,
+				1.574
+			],
+			[
+				900,
+				0.47992,
+				1.574
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39342,6 +78899,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Saira+Stencil:wdth,wght@50..125,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.524747,
+				1.574
+			],
+			[
+				150,
+				0.525297,
+				1.574
+			],
+			[
+				200,
+				0.525847,
+				1.574
+			],
+			[
+				250,
+				0.52658,
+				1.574
+			],
+			[
+				300,
+				0.527313,
+				1.574
+			],
+			[
+				350,
+				0.528321,
+				1.574
+			],
+			[
+				400,
+				0.529329,
+				1.574
+			],
+			[
+				450,
+				0.530567,
+				1.574
+			],
+			[
+				500,
+				0.531805,
+				1.574
+			],
+			[
+				550,
+				0.533134,
+				1.574
+			],
+			[
+				600,
+				0.534738,
+				1.574
+			],
+			[
+				650,
+				0.536519,
+				1.574
+			],
+			[
+				700,
+				0.5383,
+				1.574
+			],
+			[
+				750,
+				0.540082,
+				1.574
+			],
+			[
+				800,
+				0.541863,
+				1.574
+			],
+			[
+				850,
+				0.543421,
+				1.574
+			],
+			[
+				900,
+				0.54498,
+				1.574
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -39373,6 +79017,13 @@ export default {
 			"swsh"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Salsa:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.507167,
+				1.226
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39403,6 +79054,13 @@ export default {
 			"salt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sanchez:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.558953,
+				1.278
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39421,6 +79079,13 @@ export default {
 	"Sancreek": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Sancreek:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.510531,
+				1.387695
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39447,6 +79112,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sankofa+Display:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.43236,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39487,6 +79159,23 @@ export default {
 			"ss03"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sansation:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.517969,
+				1.119141
+			],
+			[
+				400,
+				0.526234,
+				1.119141
+			],
+			[
+				700,
+				0.524378,
+				1.119141
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39519,6 +79208,28 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sansita:ital,wght@0,400;0,700;0,800;0,900;1,400;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.44822,
+				1.2
+			],
+			[
+				700,
+				0.482493,
+				1.2
+			],
+			[
+				800,
+				0.516847,
+				1.2
+			],
+			[
+				900,
+				0.549107,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39568,6 +79279,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.47192,
+				1.2
+			],
+			[
+				350,
+				0.478788,
+				1.2
+			],
+			[
+				400,
+				0.485656,
+				1.2
+			],
+			[
+				450,
+				0.492523,
+				1.2
+			],
+			[
+				500,
+				0.499391,
+				1.2
+			],
+			[
+				550,
+				0.506259,
+				1.2
+			],
+			[
+				600,
+				0.513127,
+				1.2
+			],
+			[
+				650,
+				0.519994,
+				1.2
+			],
+			[
+				700,
+				0.526862,
+				1.2
+			],
+			[
+				750,
+				0.53373,
+				1.2
+			],
+			[
+				800,
+				0.540598,
+				1.2
+			],
+			[
+				850,
+				0.547466,
+				1.2
+			],
+			[
+				900,
+				0.554333,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -39593,6 +79371,48 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sarabun:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=block",
+		"metrics": [
+			[
+				100,
+				0.469913,
+				1.3
+			],
+			[
+				200,
+				0.47664,
+				1.3
+			],
+			[
+				300,
+				0.483353,
+				1.3
+			],
+			[
+				400,
+				0.49008,
+				1.3
+			],
+			[
+				500,
+				0.49724,
+				1.3
+			],
+			[
+				600,
+				0.50466,
+				1.3
+			],
+			[
+				700,
+				0.51158,
+				1.3
+			],
+			[
+				800,
+				0.518667,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39635,6 +79455,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sarala:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.512972,
+				1.630371
+			],
+			[
+				700,
+				0.536012,
+				1.630371
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39648,6 +79480,13 @@ export default {
 	"Sarina": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Sarina:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.743747,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39663,6 +79502,38 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sarpanch:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.55976,
+				1.4
+			],
+			[
+				500,
+				0.56744,
+				1.4
+			],
+			[
+				600,
+				0.575707,
+				1.4
+			],
+			[
+				700,
+				0.58512,
+				1.4
+			],
+			[
+				800,
+				0.596027,
+				1.4
+			],
+			[
+				900,
+				0.616953,
+				1.4
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39689,6 +79560,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sassy+Frass:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.3589,
+				1.1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39704,6 +79582,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Satisfy:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.435638,
+				1.194336
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39734,6 +79619,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Savate:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.499347,
+				1.3
+			],
+			[
+				250,
+				0.501496,
+				1.3
+			],
+			[
+				300,
+				0.503645,
+				1.3
+			],
+			[
+				350,
+				0.506869,
+				1.3
+			],
+			[
+				400,
+				0.510094,
+				1.3
+			],
+			[
+				450,
+				0.512243,
+				1.3
+			],
+			[
+				500,
+				0.514392,
+				1.3
+			],
+			[
+				550,
+				0.516542,
+				1.3
+			],
+			[
+				600,
+				0.518692,
+				1.3
+			],
+			[
+				650,
+				0.521827,
+				1.3
+			],
+			[
+				700,
+				0.524961,
+				1.3
+			],
+			[
+				750,
+				0.527051,
+				1.3
+			],
+			[
+				800,
+				0.529141,
+				1.3
+			],
+			[
+				850,
+				0.531231,
+				1.3
+			],
+			[
+				900,
+				0.53332,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -39754,6 +79716,13 @@ export default {
 	"Sawarabi Gothic": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Sawarabi+Gothic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.529133,
+				1.09
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39766,6 +79735,13 @@ export default {
 	"Sawarabi Mincho": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Sawarabi+Mincho:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.572487,
+				1.089
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39786,6 +79762,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Scada:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.477433,
+				1.244
+			],
+			[
+				700,
+				0.502473,
+				1.244
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39825,6 +79813,28 @@ export default {
 			"salt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Scheherazade+New:ital,wght@0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.449219,
+				2.039551
+			],
+			[
+				500,
+				0.458252,
+				2.039551
+			],
+			[
+				600,
+				0.467194,
+				2.039551
+			],
+			[
+				700,
+				0.476227,
+				2.039551
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39857,6 +79867,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Schibsted+Grotesk:wght@400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.527383,
+				1.234375
+			],
+			[
+				450,
+				0.531298,
+				1.234375
+			],
+			[
+				500,
+				0.535213,
+				1.234375
+			],
+			[
+				550,
+				0.54016,
+				1.234375
+			],
+			[
+				600,
+				0.545106,
+				1.234375
+			],
+			[
+				650,
+				0.550673,
+				1.234375
+			],
+			[
+				700,
+				0.556239,
+				1.234375
+			],
+			[
+				750,
+				0.562062,
+				1.234375
+			],
+			[
+				800,
+				0.567884,
+				1.234375
+			],
+			[
+				850,
+				0.573397,
+				1.234375
+			],
+			[
+				900,
+				0.57891,
+				1.234375
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -39880,6 +79947,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Schoolbell:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.441914,
+				1.140625
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39929,6 +80003,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Science+Gothic:CTRS,slnt,wdth,wght@0..85,-10..0,50..200,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.610893,
+				1.476
+			],
+			[
+				150,
+				0.615649,
+				1.476
+			],
+			[
+				200,
+				0.620405,
+				1.476
+			],
+			[
+				250,
+				0.626308,
+				1.476
+			],
+			[
+				300,
+				0.632211,
+				1.476
+			],
+			[
+				350,
+				0.638812,
+				1.476
+			],
+			[
+				400,
+				0.645413,
+				1.476
+			],
+			[
+				450,
+				0.652341,
+				1.476
+			],
+			[
+				500,
+				0.659268,
+				1.476
+			],
+			[
+				550,
+				0.667163,
+				1.476
+			],
+			[
+				600,
+				0.675058,
+				1.476
+			],
+			[
+				650,
+				0.684709,
+				1.476
+			],
+			[
+				700,
+				0.694362,
+				1.476
+			],
+			[
+				750,
+				0.706639,
+				1.476
+			],
+			[
+				800,
+				0.718917,
+				1.476
+			],
+			[
+				850,
+				0.732952,
+				1.476
+			],
+			[
+				900,
+				0.746987,
+				1.476
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -39965,6 +80126,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Scope+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.509993,
+				1.383
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -39977,6 +80145,13 @@ export default {
 	"Seaweed Script": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Seaweed+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.418841,
+				1.357422
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40000,6 +80175,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Secular+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52558,
+				1.455
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40050,6 +80232,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sedan:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.518873,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40081,6 +80270,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sedan+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52242,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40098,6 +80294,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sedgwick+Ave:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.463933,
+				1.249
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40115,6 +80318,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sedgwick+Ave+Display:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.46152,
+				1.249
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40135,6 +80345,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sekuya:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.8688,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40157,6 +80374,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.533249,
+				1.203125
+			],
+			[
+				450,
+				0.536197,
+				1.203125
+			],
+			[
+				500,
+				0.539146,
+				1.203125
+			],
+			[
+				550,
+				0.542095,
+				1.203125
+			],
+			[
+				600,
+				0.545044,
+				1.203125
+			],
+			[
+				650,
+				0.546518,
+				1.203125
+			],
+			[
+				700,
+				0.547992,
+				1.203125
+			],
+			[
+				750,
+				0.555363,
+				1.203125
+			],
+			[
+				800,
+				0.562734,
+				1.203125
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -40180,6 +80444,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Send+Flowers:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.468447,
+				1.325
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40197,6 +80468,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sevillana:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.466556,
+				1.356934
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40218,6 +80496,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Seymour+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.825576,
+				1.256836
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40230,6 +80515,13 @@ export default {
 	"Shadows Into Light": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Shadows+Into+Light:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.418457,
+				1.607422
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40245,6 +80537,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Shadows+Into+Light+Two:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.443275,
+				1.451172
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40265,6 +80564,13 @@ export default {
 			"ss05"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Shafarik:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.491133,
+				1.542
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40289,6 +80595,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Shalimar:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.33396,
+				1.22
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40344,6 +80657,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Shantell+Sans:BNCE,INFM,SPAC,wght@-100..100,0..100,0..100,300..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.54194,
+				1.34
+			],
+			[
+				350,
+				0.546899,
+				1.34
+			],
+			[
+				400,
+				0.551859,
+				1.34
+			],
+			[
+				450,
+				0.556818,
+				1.34
+			],
+			[
+				500,
+				0.561777,
+				1.34
+			],
+			[
+				550,
+				0.566737,
+				1.34
+			],
+			[
+				600,
+				0.571696,
+				1.34
+			],
+			[
+				650,
+				0.576655,
+				1.34
+			],
+			[
+				700,
+				0.581615,
+				1.34
+			],
+			[
+				750,
+				0.586574,
+				1.34
+			],
+			[
+				800,
+				0.591533,
+				1.34
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -40374,6 +80744,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Shanti:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.500553,
+				1.274902
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40396,6 +80773,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Share:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.4356,
+				1.127
+			],
+			[
+				700,
+				0.45506,
+				1.127
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40426,6 +80815,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Share+Tech:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.432507,
+				1.127
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40447,6 +80843,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Share+Tech+Mono:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.54,
+				1.127
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40470,6 +80873,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Shippori+Antique:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.559767,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40493,6 +80903,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Shippori+Antique+B1:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.559767,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40517,6 +80934,33 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Shippori+Mincho:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
+		"metrics": [
+			[
+				400,
+				0.552447,
+				1
+			],
+			[
+				500,
+				0.563047,
+				1
+			],
+			[
+				600,
+				0.5733,
+				1
+			],
+			[
+				700,
+				0.583973,
+				1
+			],
+			[
+				800,
+				0.594227,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40545,6 +80989,33 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Shippori+Mincho+B1:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
+		"metrics": [
+			[
+				400,
+				0.552447,
+				1
+			],
+			[
+				500,
+				0.563047,
+				1
+			],
+			[
+				600,
+				0.5733,
+				1
+			],
+			[
+				700,
+				0.583973,
+				1
+			],
+			[
+				800,
+				0.594227,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40564,6 +81035,13 @@ export default {
 			"aalt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Shizuru:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.584667,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40584,6 +81062,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Shojumaru:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.727796,
+				1.324219
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40599,6 +81084,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Short+Stack:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.608701,
+				1.231445
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40617,6 +81109,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Shrikhand:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.60724,
+				1.458
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40640,6 +81139,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sigmar:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.603673,
+				1.638
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40662,6 +81168,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sigmar+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.676633,
+				1.638
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40709,6 +81222,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Signika:GRAD,wght@-30..0,300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.47492,
+				1.232
+			],
+			[
+				350,
+				0.477873,
+				1.232
+			],
+			[
+				400,
+				0.480827,
+				1.232
+			],
+			[
+				450,
+				0.481928,
+				1.232
+			],
+			[
+				500,
+				0.48303,
+				1.232
+			],
+			[
+				550,
+				0.484732,
+				1.232
+			],
+			[
+				600,
+				0.486433,
+				1.232
+			],
+			[
+				650,
+				0.489037,
+				1.232
+			],
+			[
+				700,
+				0.49164,
+				1.232
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -40749,6 +81309,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.473853,
+				1.232
+			],
+			[
+				350,
+				0.47675,
+				1.232
+			],
+			[
+				400,
+				0.479646,
+				1.232
+			],
+			[
+				450,
+				0.481,
+				1.232
+			],
+			[
+				500,
+				0.482354,
+				1.232
+			],
+			[
+				550,
+				0.483707,
+				1.232
+			],
+			[
+				600,
+				0.485061,
+				1.232
+			],
+			[
+				650,
+				0.487579,
+				1.232
+			],
+			[
+				700,
+				0.490097,
+				1.232
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -40769,6 +81376,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Silkscreen:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.700833,
+				1.28
+			],
+			[
+				700,
+				0.8125,
+				1.28
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40805,6 +81424,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Simonetta:ital,wght@0,400;0,900;1,400;1,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.473275,
+				1.251953
+			],
+			[
+				900,
+				0.520713,
+				1.251953
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40829,6 +81460,18 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sintony:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.54626,
+				1.303
+			],
+			[
+				700,
+				0.552567,
+				1.303
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40842,6 +81485,13 @@ export default {
 	"Sirin Stencil": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Sirin+Stencil:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.456009,
+				1.457031
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40854,6 +81504,13 @@ export default {
 	"Sirivennela": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Sirivennela:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.388189,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40869,6 +81526,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Six+Caps:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.210273,
+				1.315918
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40906,6 +81570,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sixtyfour:BLED,SCAN@0..100,-53..100&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				1,
+				1
+			]
+		],
 		"variants": [
 			{
 			}
@@ -40953,6 +81624,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sixtyfour+Convergence:BLED,SCAN,XELA,YELA@0..100,-53..100,-100..100,-100..100&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				1,
+				1
+			]
+		],
 		"variants": [
 			{
 			}
@@ -40961,6 +81639,18 @@ export default {
 	"Skranji": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Skranji:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.514401,
+				1.358398
+			],
+			[
+				700,
+				0.572409,
+				1.358398
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40980,6 +81670,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Slabo+13px:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.536051,
+				1.230769
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -40998,6 +81695,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Slabo+27px:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.451605,
+				1.222222
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41013,6 +81717,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Slackey:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.660553,
+				0.876953
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41033,6 +81744,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Slackside+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.457913,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41048,6 +81766,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Smokum:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.357796,
+				1.219727
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41078,6 +81803,13 @@ export default {
 			"swsh"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Smooch:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.449547,
+				1.4
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41100,6 +81832,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.32568,
+				1.2
+			],
+			[
+				150,
+				0.326499,
+				1.2
+			],
+			[
+				200,
+				0.327319,
+				1.2
+			],
+			[
+				250,
+				0.328344,
+				1.2
+			],
+			[
+				300,
+				0.329369,
+				1.2
+			],
+			[
+				350,
+				0.330599,
+				1.2
+			],
+			[
+				400,
+				0.331828,
+				1.2
+			],
+			[
+				450,
+				0.333467,
+				1.2
+			],
+			[
+				500,
+				0.335106,
+				1.2
+			],
+			[
+				550,
+				0.33695,
+				1.2
+			],
+			[
+				600,
+				0.338795,
+				1.2
+			],
+			[
+				650,
+				0.34105,
+				1.2
+			],
+			[
+				700,
+				0.343304,
+				1.2
+			],
+			[
+				750,
+				0.345762,
+				1.2
+			],
+			[
+				800,
+				0.348221,
+				1.2
+			],
+			[
+				850,
+				0.35027,
+				1.2
+			],
+			[
+				900,
+				0.35232,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -41117,6 +81936,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Smythe:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.337399,
+				1.153809
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41133,6 +81959,18 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sniglet:ital,wght@0,400;0,800&display=block",
+		"metrics": [
+			[
+				400,
+				0.486473,
+				1.245
+			],
+			[
+				800,
+				0.630353,
+				1.245
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41149,6 +81987,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Snippet:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.509613,
+				1.151
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41168,6 +82013,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Snowburst+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.609987,
+				1.263672
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41183,6 +82035,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sofadi+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.534453,
+				1.166
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41195,6 +82054,13 @@ export default {
 	"Sofia": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Sofia:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.545467,
+				1.576
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41244,6 +82110,113 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@1..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				1,
+				0.47784,
+				1.2
+			],
+			[
+				50,
+				0.478094,
+				1.2
+			],
+			[
+				100,
+				0.478353,
+				1.2
+			],
+			[
+				150,
+				0.479122,
+				1.2
+			],
+			[
+				200,
+				0.479891,
+				1.2
+			],
+			[
+				250,
+				0.48022,
+				1.2
+			],
+			[
+				300,
+				0.48055,
+				1.2
+			],
+			[
+				350,
+				0.481722,
+				1.2
+			],
+			[
+				400,
+				0.482893,
+				1.2
+			],
+			[
+				450,
+				0.484409,
+				1.2
+			],
+			[
+				500,
+				0.485925,
+				1.2
+			],
+			[
+				550,
+				0.486683,
+				1.2
+			],
+			[
+				600,
+				0.487441,
+				1.2
+			],
+			[
+				650,
+				0.490169,
+				1.2
+			],
+			[
+				700,
+				0.492897,
+				1.2
+			],
+			[
+				750,
+				0.49608,
+				1.2
+			],
+			[
+				800,
+				0.499263,
+				1.2
+			],
+			[
+				850,
+				0.502447,
+				1.2
+			],
+			[
+				900,
+				0.505631,
+				1.2
+			],
+			[
+				950,
+				0.508662,
+				1.2
+			],
+			[
+				1000,
+				0.511693,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -41301,6 +82274,113 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sofia+Sans+Condensed:wght@1..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				1,
+				0.363327,
+				1.2
+			],
+			[
+				50,
+				0.363723,
+				1.2
+			],
+			[
+				100,
+				0.364127,
+				1.2
+			],
+			[
+				150,
+				0.365569,
+				1.2
+			],
+			[
+				200,
+				0.367009,
+				1.2
+			],
+			[
+				250,
+				0.36741,
+				1.2
+			],
+			[
+				300,
+				0.36781,
+				1.2
+			],
+			[
+				350,
+				0.370052,
+				1.2
+			],
+			[
+				400,
+				0.372293,
+				1.2
+			],
+			[
+				450,
+				0.375792,
+				1.2
+			],
+			[
+				500,
+				0.37929,
+				1.2
+			],
+			[
+				550,
+				0.382791,
+				1.2
+			],
+			[
+				600,
+				0.386293,
+				1.2
+			],
+			[
+				650,
+				0.391381,
+				1.2
+			],
+			[
+				700,
+				0.39647,
+				1.2
+			],
+			[
+				750,
+				0.401878,
+				1.2
+			],
+			[
+				800,
+				0.407287,
+				1.2
+			],
+			[
+				850,
+				0.414923,
+				1.2
+			],
+			[
+				900,
+				0.42256,
+				1.2
+			],
+			[
+				950,
+				0.427966,
+				1.2
+			],
+			[
+				1000,
+				0.433373,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -41358,6 +82438,113 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sofia+Sans+Extra+Condensed:wght@1..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				1,
+				0.291327,
+				1.2
+			],
+			[
+				50,
+				0.291878,
+				1.2
+			],
+			[
+				100,
+				0.29244,
+				1.2
+			],
+			[
+				150,
+				0.293887,
+				1.2
+			],
+			[
+				200,
+				0.295334,
+				1.2
+			],
+			[
+				250,
+				0.296112,
+				1.2
+			],
+			[
+				300,
+				0.296891,
+				1.2
+			],
+			[
+				350,
+				0.299562,
+				1.2
+			],
+			[
+				400,
+				0.302233,
+				1.2
+			],
+			[
+				450,
+				0.306752,
+				1.2
+			],
+			[
+				500,
+				0.311271,
+				1.2
+			],
+			[
+				550,
+				0.317435,
+				1.2
+			],
+			[
+				600,
+				0.3236,
+				1.2
+			],
+			[
+				650,
+				0.328119,
+				1.2
+			],
+			[
+				700,
+				0.332638,
+				1.2
+			],
+			[
+				750,
+				0.340032,
+				1.2
+			],
+			[
+				800,
+				0.347426,
+				1.2
+			],
+			[
+				850,
+				0.356879,
+				1.2
+			],
+			[
+				900,
+				0.366331,
+				1.2
+			],
+			[
+				950,
+				0.373316,
+				1.2
+			],
+			[
+				1000,
+				0.3803,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -41415,6 +82602,113 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sofia+Sans+Semi+Condensed:wght@1..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				1,
+				0.448713,
+				1.2
+			],
+			[
+				50,
+				0.449128,
+				1.2
+			],
+			[
+				100,
+				0.449552,
+				1.2
+			],
+			[
+				150,
+				0.451311,
+				1.2
+			],
+			[
+				200,
+				0.453071,
+				1.2
+			],
+			[
+				250,
+				0.45349,
+				1.2
+			],
+			[
+				300,
+				0.453909,
+				1.2
+			],
+			[
+				350,
+				0.456674,
+				1.2
+			],
+			[
+				400,
+				0.45944,
+				1.2
+			],
+			[
+				450,
+				0.461287,
+				1.2
+			],
+			[
+				500,
+				0.463134,
+				1.2
+			],
+			[
+				550,
+				0.464142,
+				1.2
+			],
+			[
+				600,
+				0.465151,
+				1.2
+			],
+			[
+				650,
+				0.468005,
+				1.2
+			],
+			[
+				700,
+				0.47086,
+				1.2
+			],
+			[
+				750,
+				0.474385,
+				1.2
+			],
+			[
+				800,
+				0.47791,
+				1.2
+			],
+			[
+				850,
+				0.481271,
+				1.2
+			],
+			[
+				900,
+				0.484631,
+				1.2
+			],
+			[
+				950,
+				0.487989,
+				1.2
+			],
+			[
+				1000,
+				0.491347,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -41447,6 +82741,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Solitreo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.4656,
+				1.43
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41467,6 +82768,33 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Solway:ital,wght@0,300;0,400;0,500;0,700;0,800&display=block",
+		"metrics": [
+			[
+				300,
+				0.546267,
+				1.2
+			],
+			[
+				400,
+				0.55628,
+				1.2
+			],
+			[
+				500,
+				0.565967,
+				1.2
+			],
+			[
+				700,
+				0.572513,
+				1.2
+			],
+			[
+				800,
+				0.57886,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41497,6 +82825,44 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sometype+Mono:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.58,
+				1.2
+			],
+			[
+				450,
+				0.58,
+				1.2
+			],
+			[
+				500,
+				0.58,
+				1.2
+			],
+			[
+				550,
+				0.58,
+				1.2
+			],
+			[
+				600,
+				0.58,
+				1.2
+			],
+			[
+				650,
+				0.58,
+				1.2
+			],
+			[
+				700,
+				0.58,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -41546,6 +82912,74 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sono:MONO,wght@0..1,200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.619,
+				1.2
+			],
+			[
+				250,
+				0.619,
+				1.2
+			],
+			[
+				300,
+				0.619,
+				1.2
+			],
+			[
+				350,
+				0.619,
+				1.2
+			],
+			[
+				400,
+				0.619,
+				1.2
+			],
+			[
+				450,
+				0.619,
+				1.2
+			],
+			[
+				500,
+				0.619,
+				1.2
+			],
+			[
+				550,
+				0.619,
+				1.2
+			],
+			[
+				600,
+				0.619,
+				1.2
+			],
+			[
+				650,
+				0.619,
+				1.2
+			],
+			[
+				700,
+				0.619,
+				1.2
+			],
+			[
+				750,
+				0.619,
+				1.2
+			],
+			[
+				800,
+				0.619,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -41560,6 +82994,13 @@ export default {
 	"Sonsie One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Sonsie+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.815475,
+				1.293945
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41588,6 +83029,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.55742,
+				1.26
+			],
+			[
+				150,
+				0.560034,
+				1.26
+			],
+			[
+				200,
+				0.562649,
+				1.26
+			],
+			[
+				250,
+				0.565263,
+				1.26
+			],
+			[
+				300,
+				0.567878,
+				1.26
+			],
+			[
+				350,
+				0.570492,
+				1.26
+			],
+			[
+				400,
+				0.573107,
+				1.26
+			],
+			[
+				450,
+				0.575502,
+				1.26
+			],
+			[
+				500,
+				0.577897,
+				1.26
+			],
+			[
+				550,
+				0.580292,
+				1.26
+			],
+			[
+				600,
+				0.582687,
+				1.26
+			],
+			[
+				650,
+				0.585082,
+				1.26
+			],
+			[
+				700,
+				0.587477,
+				1.26
+			],
+			[
+				750,
+				0.589872,
+				1.26
+			],
+			[
+				800,
+				0.592267,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -41632,6 +83150,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sorts+Mill+Goudy:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5032,
+				1.438
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -41661,6 +83186,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sour+Gummy:wdth,wght@100..125,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.4784,
+				1.292
+			],
+			[
+				150,
+				0.481158,
+				1.292
+			],
+			[
+				200,
+				0.483915,
+				1.292
+			],
+			[
+				250,
+				0.486673,
+				1.292
+			],
+			[
+				300,
+				0.48943,
+				1.292
+			],
+			[
+				350,
+				0.492188,
+				1.292
+			],
+			[
+				400,
+				0.494945,
+				1.292
+			],
+			[
+				450,
+				0.497703,
+				1.292
+			],
+			[
+				500,
+				0.50046,
+				1.292
+			],
+			[
+				550,
+				0.503217,
+				1.292
+			],
+			[
+				600,
+				0.505975,
+				1.292
+			],
+			[
+				650,
+				0.508733,
+				1.292
+			],
+			[
+				700,
+				0.51149,
+				1.292
+			],
+			[
+				750,
+				0.514247,
+				1.292
+			],
+			[
+				800,
+				0.517005,
+				1.292
+			],
+			[
+				850,
+				0.519763,
+				1.292
+			],
+			[
+				900,
+				0.52252,
+				1.292
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -41737,6 +83349,84 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.6,
+				1.257
+			],
+			[
+				250,
+				0.6,
+				1.257
+			],
+			[
+				300,
+				0.6,
+				1.257
+			],
+			[
+				350,
+				0.6,
+				1.257
+			],
+			[
+				400,
+				0.6,
+				1.257
+			],
+			[
+				450,
+				0.6,
+				1.257
+			],
+			[
+				500,
+				0.6,
+				1.257
+			],
+			[
+				550,
+				0.6,
+				1.257
+			],
+			[
+				600,
+				0.6,
+				1.257
+			],
+			[
+				650,
+				0.6,
+				1.257
+			],
+			[
+				700,
+				0.6,
+				1.257
+			],
+			[
+				750,
+				0.6,
+				1.257
+			],
+			[
+				800,
+				0.6,
+				1.257
+			],
+			[
+				850,
+				0.6,
+				1.257
+			],
+			[
+				900,
+				0.6,
+				1.257
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -41824,6 +83514,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.444347,
+				1.424
+			],
+			[
+				250,
+				0.447303,
+				1.424
+			],
+			[
+				300,
+				0.45026,
+				1.424
+			],
+			[
+				350,
+				0.458187,
+				1.424
+			],
+			[
+				400,
+				0.466116,
+				1.424
+			],
+			[
+				450,
+				0.469607,
+				1.424
+			],
+			[
+				500,
+				0.473098,
+				1.424
+			],
+			[
+				550,
+				0.47647,
+				1.424
+			],
+			[
+				600,
+				0.479842,
+				1.424
+			],
+			[
+				650,
+				0.486471,
+				1.424
+			],
+			[
+				700,
+				0.493099,
+				1.424
+			],
+			[
+				750,
+				0.495705,
+				1.424
+			],
+			[
+				800,
+				0.49831,
+				1.424
+			],
+			[
+				850,
+				0.500915,
+				1.424
+			],
+			[
+				900,
+				0.50352,
+				1.424
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -41905,6 +83672,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.50226,
+				1.371
+			],
+			[
+				250,
+				0.502833,
+				1.371
+			],
+			[
+				300,
+				0.503406,
+				1.371
+			],
+			[
+				350,
+				0.50439,
+				1.371
+			],
+			[
+				400,
+				0.505373,
+				1.371
+			],
+			[
+				450,
+				0.507277,
+				1.371
+			],
+			[
+				500,
+				0.509181,
+				1.371
+			],
+			[
+				550,
+				0.511086,
+				1.371
+			],
+			[
+				600,
+				0.51299,
+				1.371
+			],
+			[
+				650,
+				0.517351,
+				1.371
+			],
+			[
+				700,
+				0.521713,
+				1.371
+			],
+			[
+				750,
+				0.523398,
+				1.371
+			],
+			[
+				800,
+				0.525083,
+				1.371
+			],
+			[
+				850,
+				0.526768,
+				1.371
+			],
+			[
+				900,
+				0.528453,
+				1.371
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -41950,6 +83794,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.533993,
+				1.276
+			],
+			[
+				350,
+				0.534391,
+				1.276
+			],
+			[
+				400,
+				0.534788,
+				1.276
+			],
+			[
+				450,
+				0.535281,
+				1.276
+			],
+			[
+				500,
+				0.535774,
+				1.276
+			],
+			[
+				550,
+				0.536014,
+				1.276
+			],
+			[
+				600,
+				0.536254,
+				1.276
+			],
+			[
+				650,
+				0.536494,
+				1.276
+			],
+			[
+				700,
+				0.536733,
+				1.276
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -42010,6 +83901,19 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.612,
+				1.481
+			],
+			[
+				700,
+				0.612,
+				1.481
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -42038,6 +83942,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Special+Elite:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.548424,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42068,6 +83979,43 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Special+Gothic:wdth,wght@75..125,400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.486147,
+				1.3
+			],
+			[
+				450,
+				0.493597,
+				1.3
+			],
+			[
+				500,
+				0.501047,
+				1.3
+			],
+			[
+				550,
+				0.50353,
+				1.3
+			],
+			[
+				600,
+				0.506014,
+				1.3
+			],
+			[
+				650,
+				0.51098,
+				1.3
+			],
+			[
+				700,
+				0.515947,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -42105,6 +84053,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Special+Gothic+Condensed+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.364153,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42134,6 +84089,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Special+Gothic+Expanded+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.673853,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42175,6 +84137,43 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=block",
+		"metrics": [
+			[
+				200,
+				0.499113,
+				1.522
+			],
+			[
+				300,
+				0.511353,
+				1.522
+			],
+			[
+				400,
+				0.519833,
+				1.522
+			],
+			[
+				500,
+				0.526,
+				1.522
+			],
+			[
+				600,
+				0.535233,
+				1.522
+			],
+			[
+				700,
+				0.546007,
+				1.522
+			],
+			[
+				800,
+				0.5629,
+				1.522
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42234,6 +84233,43 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Spectral+SC:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=block",
+		"metrics": [
+			[
+				200,
+				0.564227,
+				1.522
+			],
+			[
+				300,
+				0.579347,
+				1.522
+			],
+			[
+				400,
+				0.58994,
+				1.522
+			],
+			[
+				500,
+				0.595647,
+				1.522
+			],
+			[
+				600,
+				0.60444,
+				1.522
+			],
+			[
+				700,
+				0.614547,
+				1.522
+			],
+			[
+				800,
+				0.63036,
+				1.522
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42272,6 +84308,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Spicy+Rice:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.475833,
+				1.378906
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42287,6 +84330,13 @@ export default {
 			"cpsp"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Spinnaker:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.56748,
+				1.175293
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42302,6 +84352,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Spirax:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.502113,
+				1.235
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42332,6 +84389,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Splash:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.520673,
+				1.63
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42365,6 +84429,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Spline+Sans:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.497307,
+				1.2
+			],
+			[
+				350,
+				0.502533,
+				1.2
+			],
+			[
+				400,
+				0.50776,
+				1.2
+			],
+			[
+				450,
+				0.510978,
+				1.2
+			],
+			[
+				500,
+				0.514611,
+				1.2
+			],
+			[
+				550,
+				0.517938,
+				1.2
+			],
+			[
+				600,
+				0.521265,
+				1.2
+			],
+			[
+				650,
+				0.524178,
+				1.2
+			],
+			[
+				700,
+				0.52709,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -42427,6 +84538,54 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.6,
+				1.2
+			],
+			[
+				350,
+				0.6,
+				1.2
+			],
+			[
+				400,
+				0.6,
+				1.2
+			],
+			[
+				450,
+				0.6,
+				1.2
+			],
+			[
+				500,
+				0.6,
+				1.2
+			],
+			[
+				550,
+				0.6,
+				1.2
+			],
+			[
+				600,
+				0.6,
+				1.2
+			],
+			[
+				650,
+				0.6,
+				1.2
+			],
+			[
+				700,
+				0.6,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -42447,6 +84606,13 @@ export default {
 	"Squada One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Squada+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.405,
+				1.057
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42468,6 +84634,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Square+Peg:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.300113,
+				1.32
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42480,6 +84653,13 @@ export default {
 	"Sree Krushnadevaraya": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Sree+Krushnadevaraya:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.456481,
+				2.059722
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42505,6 +84685,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sriracha:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.503253,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42526,6 +84713,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Srisakdi:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.499827,
+				1.2
+			],
+			[
+				700,
+				0.542607,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42550,6 +84749,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Staatliches:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.400367,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42579,6 +84785,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Stack+Sans+Headline:wght@200..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.509727,
+				1.3
+			],
+			[
+				250,
+				0.512106,
+				1.3
+			],
+			[
+				300,
+				0.514485,
+				1.3
+			],
+			[
+				350,
+				0.516864,
+				1.3
+			],
+			[
+				400,
+				0.519243,
+				1.3
+			],
+			[
+				450,
+				0.521622,
+				1.3
+			],
+			[
+				500,
+				0.524002,
+				1.3
+			],
+			[
+				550,
+				0.525191,
+				1.3
+			],
+			[
+				600,
+				0.526381,
+				1.3
+			],
+			[
+				650,
+				0.52757,
+				1.3
+			],
+			[
+				700,
+				0.52876,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -42610,6 +84873,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Stack+Sans+Notch:wght@200..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.510293,
+				1.3
+			],
+			[
+				250,
+				0.51282,
+				1.3
+			],
+			[
+				300,
+				0.515346,
+				1.3
+			],
+			[
+				350,
+				0.517873,
+				1.3
+			],
+			[
+				400,
+				0.520399,
+				1.3
+			],
+			[
+				450,
+				0.522927,
+				1.3
+			],
+			[
+				500,
+				0.525454,
+				1.3
+			],
+			[
+				550,
+				0.526717,
+				1.3
+			],
+			[
+				600,
+				0.52798,
+				1.3
+			],
+			[
+				650,
+				0.529243,
+				1.3
+			],
+			[
+				700,
+				0.530507,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -42641,6 +84961,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Stack+Sans+Text:wght@200..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.53948,
+				1.3
+			],
+			[
+				250,
+				0.541907,
+				1.3
+			],
+			[
+				300,
+				0.544333,
+				1.3
+			],
+			[
+				350,
+				0.54676,
+				1.3
+			],
+			[
+				400,
+				0.549186,
+				1.3
+			],
+			[
+				450,
+				0.551613,
+				1.3
+			],
+			[
+				500,
+				0.55404,
+				1.3
+			],
+			[
+				550,
+				0.555254,
+				1.3
+			],
+			[
+				600,
+				0.556467,
+				1.3
+			],
+			[
+				650,
+				0.55768,
+				1.3
+			],
+			[
+				700,
+				0.558893,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -42663,6 +85040,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Stalemate:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.325807,
+				1.46582
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42678,6 +85062,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Stalinist+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.996087,
+				1.476
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42693,6 +85084,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Stardos+Stencil:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.495996,
+				1.379395
+			],
+			[
+				700,
+				0.527126,
+				1.379395
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42713,6 +85116,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Stick:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.54996,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42733,6 +85143,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.40948,
+				1.252
+			],
+			[
+				250,
+				0.412165,
+				1.252
+			],
+			[
+				300,
+				0.414849,
+				1.252
+			],
+			[
+				350,
+				0.417534,
+				1.252
+			],
+			[
+				400,
+				0.42022,
+				1.252
+			],
+			[
+				450,
+				0.421561,
+				1.252
+			],
+			[
+				500,
+				0.422903,
+				1.252
+			],
+			[
+				550,
+				0.425185,
+				1.252
+			],
+			[
+				600,
+				0.427466,
+				1.252
+			],
+			[
+				650,
+				0.429346,
+				1.252
+			],
+			[
+				700,
+				0.431226,
+				1.252
+			],
+			[
+				750,
+				0.433777,
+				1.252
+			],
+			[
+				800,
+				0.436327,
+				1.252
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -42755,6 +85232,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Stint+Ultra+Condensed:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.288372,
+				1.128906
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42775,6 +85259,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Stint+Ultra+Expanded:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.689922,
+				1.140625
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42787,6 +85278,18 @@ export default {
 	"Stoke": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Stoke:ital,wght@0,300;0,400&display=block",
+		"metrics": [
+			[
+				300,
+				0.641904,
+				1.25
+			],
+			[
+				400,
+				0.642542,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42811,6 +85314,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Story+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.405127,
+				1.299
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42835,6 +85345,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Strait:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.455,
+				1.095
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42862,6 +85379,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Strichpunkt+Sans:wdth,wght@100..200,400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.52108,
+				1.3
+			],
+			[
+				450,
+				0.523973,
+				1.3
+			],
+			[
+				500,
+				0.526867,
+				1.3
+			],
+			[
+				550,
+				0.52976,
+				1.3
+			],
+			[
+				600,
+				0.532653,
+				1.3
+			],
+			[
+				650,
+				0.535547,
+				1.3
+			],
+			[
+				700,
+				0.53844,
+				1.3
+			],
+			[
+				750,
+				0.541333,
+				1.3
+			],
+			[
+				800,
+				0.544227,
+				1.3
+			],
+			[
+				850,
+				0.54712,
+				1.3
+			],
+			[
+				900,
+				0.550013,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -42891,6 +85465,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Style+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.41888,
+				1.52
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42903,6 +85484,13 @@ export default {
 	"Sue Ellen Francisco": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Sue+Ellen+Francisco:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.317441,
+				1.949219
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42926,6 +85514,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Suez+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.539253,
+				1.306
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42947,6 +85542,23 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sulphur+Point:ital,wght@0,300;0,400;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.48112,
+				1.369
+			],
+			[
+				400,
+				0.485333,
+				1.369
+			],
+			[
+				700,
+				0.48782,
+				1.369
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42971,6 +85583,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sumana:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.5104,
+				2.927
+			],
+			[
+				700,
+				0.538887,
+				2.927
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42987,6 +85611,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sunshiney:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.410371,
+				0.848633
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -42999,6 +85630,13 @@ export default {
 	"Supermercado One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Supermercado+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.476149,
+				1.197266
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43018,6 +85656,18 @@ export default {
 			"ss02"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Sura:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.506914,
+				1.577637
+			],
+			[
+				700,
+				0.523171,
+				1.577637
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43031,6 +85681,13 @@ export default {
 	"Suranna": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Suranna:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.442821,
+				2.189744
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43046,6 +85703,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Suravaram:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.407653,
+				2.131633
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43061,6 +85725,33 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Suwannaphum:ital,wght@0,100;0,300;0,400;0,700;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.5418,
+				1.806641
+			],
+			[
+				300,
+				0.54696,
+				1.806641
+			],
+			[
+				400,
+				0.552982,
+				1.806641
+			],
+			[
+				700,
+				0.561715,
+				1.806641
+			],
+			[
+				900,
+				0.567152,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43077,6 +85768,13 @@ export default {
 	"Swanky and Moo Moo": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Swanky+and+Moo+Moo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.450475,
+				1.466797
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43092,6 +85790,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Syncopate:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.76877,
+				1.041016
+			],
+			[
+				700,
+				0.843018,
+				1.041016
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43127,6 +85837,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Syne:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.494947,
+				1.2
+			],
+			[
+				450,
+				0.515537,
+				1.2
+			],
+			[
+				500,
+				0.536126,
+				1.2
+			],
+			[
+				550,
+				0.557747,
+				1.2
+			],
+			[
+				600,
+				0.579368,
+				1.2
+			],
+			[
+				650,
+				0.60408,
+				1.2
+			],
+			[
+				700,
+				0.628793,
+				1.2
+			],
+			[
+				750,
+				0.777507,
+				1.2
+			],
+			[
+				800,
+				0.92622,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -43159,6 +85916,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Syne+Mono:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.55,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43189,6 +85953,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Syne+Tactile:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.462533,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43217,6 +85988,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=TASA+Explorer:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.51792,
+				1.2
+			],
+			[
+				450,
+				0.517532,
+				1.2
+			],
+			[
+				500,
+				0.517144,
+				1.2
+			],
+			[
+				550,
+				0.516731,
+				1.2
+			],
+			[
+				600,
+				0.516317,
+				1.2
+			],
+			[
+				650,
+				0.515851,
+				1.2
+			],
+			[
+				700,
+				0.515386,
+				1.2
+			],
+			[
+				750,
+				0.514843,
+				1.2
+			],
+			[
+				800,
+				0.5143,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -43248,6 +86066,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=TASA+Orbiter:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.527293,
+				1.2
+			],
+			[
+				450,
+				0.52754,
+				1.2
+			],
+			[
+				500,
+				0.527786,
+				1.2
+			],
+			[
+				550,
+				0.528049,
+				1.2
+			],
+			[
+				600,
+				0.528312,
+				1.2
+			],
+			[
+				650,
+				0.528608,
+				1.2
+			],
+			[
+				700,
+				0.528903,
+				1.2
+			],
+			[
+				750,
+				0.529248,
+				1.2
+			],
+			[
+				800,
+				0.529593,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -43283,6 +86148,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tac+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.40568,
+				1.03
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43302,6 +86174,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tagesschrift:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52588,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43317,6 +86196,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tai+Heritage+Pro:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.495303,
+				2.099609
+			],
+			[
+				700,
+				0.537979,
+				2.099609
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43358,6 +86249,43 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tajawal:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				200,
+				0.444693,
+				1.2
+			],
+			[
+				300,
+				0.4537,
+				1.2
+			],
+			[
+				400,
+				0.466227,
+				1.2
+			],
+			[
+				500,
+				0.47548,
+				1.2
+			],
+			[
+				700,
+				0.483407,
+				1.2
+			],
+			[
+				800,
+				0.490173,
+				1.2
+			],
+			[
+				900,
+				0.499873,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43376,6 +86304,18 @@ export default {
 	"Tangerine": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Tangerine:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.35206,
+				1
+			],
+			[
+				700,
+				0.375287,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43400,6 +86340,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tapestry:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.504587,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43415,6 +86362,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Taprom:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.419746,
+				1.806641
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43427,6 +86381,13 @@ export default {
 	"Tauri": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Tauri:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.531771,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43448,6 +86409,53 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Taviraj:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.481587,
+				1.2
+			],
+			[
+				200,
+				0.498593,
+				1.2
+			],
+			[
+				300,
+				0.51726,
+				1.2
+			],
+			[
+				400,
+				0.535733,
+				1.2
+			],
+			[
+				500,
+				0.554653,
+				1.2
+			],
+			[
+				600,
+				0.582273,
+				1.2
+			],
+			[
+				700,
+				0.610427,
+				1.2
+			],
+			[
+				800,
+				0.619507,
+				1.2
+			],
+			[
+				900,
+				0.629113,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43489,6 +86497,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Teachers:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.47838,
+				1.2
+			],
+			[
+				450,
+				0.487136,
+				1.2
+			],
+			[
+				500,
+				0.495891,
+				1.2
+			],
+			[
+				550,
+				0.504647,
+				1.2
+			],
+			[
+				600,
+				0.513402,
+				1.2
+			],
+			[
+				650,
+				0.522158,
+				1.2
+			],
+			[
+				700,
+				0.530913,
+				1.2
+			],
+			[
+				750,
+				0.53992,
+				1.2
+			],
+			[
+				800,
+				0.548927,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -43517,6 +86572,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.293607,
+				1.433
+			],
+			[
+				350,
+				0.308495,
+				1.433
+			],
+			[
+				400,
+				0.323383,
+				1.433
+			],
+			[
+				450,
+				0.339574,
+				1.433
+			],
+			[
+				500,
+				0.355765,
+				1.433
+			],
+			[
+				550,
+				0.37422,
+				1.433
+			],
+			[
+				600,
+				0.392675,
+				1.433
+			],
+			[
+				650,
+				0.413804,
+				1.433
+			],
+			[
+				700,
+				0.434933,
+				1.433
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -43548,6 +86650,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tektur:wdth,wght@75..100,400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.547133,
+				1.3
+			],
+			[
+				450,
+				0.54777,
+				1.3
+			],
+			[
+				500,
+				0.548407,
+				1.3
+			],
+			[
+				550,
+				0.549043,
+				1.3
+			],
+			[
+				600,
+				0.54968,
+				1.3
+			],
+			[
+				650,
+				0.550317,
+				1.3
+			],
+			[
+				700,
+				0.550953,
+				1.3
+			],
+			[
+				750,
+				0.55159,
+				1.3
+			],
+			[
+				800,
+				0.552227,
+				1.3
+			],
+			[
+				850,
+				0.552863,
+				1.3
+			],
+			[
+				900,
+				0.5535,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -43576,6 +86735,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Telex:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.525053,
+				1.205
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43588,6 +86754,13 @@ export default {
 	"Tenali Ramakrishna": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Tenali+Ramakrishna:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.38632,
+				1.564
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43603,6 +86776,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tenor+Sans:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.552147,
+				1.17
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43625,6 +86805,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Text+Me+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.487107,
+				1.221
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43663,6 +86850,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Texturina:opsz,wght@12..72,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.500547,
+				1.56
+			],
+			[
+				150,
+				0.50481,
+				1.56
+			],
+			[
+				200,
+				0.509073,
+				1.56
+			],
+			[
+				250,
+				0.512627,
+				1.56
+			],
+			[
+				300,
+				0.51618,
+				1.56
+			],
+			[
+				350,
+				0.520443,
+				1.56
+			],
+			[
+				400,
+				0.524707,
+				1.56
+			],
+			[
+				450,
+				0.52826,
+				1.56
+			],
+			[
+				500,
+				0.531813,
+				1.56
+			],
+			[
+				550,
+				0.533017,
+				1.56
+			],
+			[
+				600,
+				0.53422,
+				1.56
+			],
+			[
+				650,
+				0.535224,
+				1.56
+			],
+			[
+				700,
+				0.536227,
+				1.56
+			],
+			[
+				750,
+				0.53743,
+				1.56
+			],
+			[
+				800,
+				0.538634,
+				1.56
+			],
+			[
+				850,
+				0.539637,
+				1.56
+			],
+			[
+				900,
+				0.54064,
+				1.56
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -43692,6 +86966,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Thasadith:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.456033,
+				1.3
+			],
+			[
+				700,
+				0.482127,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43712,6 +86998,13 @@ export default {
 	"The Girl Next Door": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=The+Girl+Next+Door:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.484251,
+				1.842773
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43735,6 +87028,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=The+Nautigal:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.3658,
+				1.2
+			],
+			[
+				700,
+				0.374687,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43751,6 +87056,23 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tienne:ital,wght@0,400;0,700;0,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.583356,
+				1.344727
+			],
+			[
+				700,
+				0.602425,
+				1.344727
+			],
+			[
+				900,
+				0.621953,
+				1.344727
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43806,6 +87128,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=TikTok+Sans:opsz,slnt,wdth,wght@12..36,-6..0,75..150,300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.485947,
+				1.3
+			],
+			[
+				350,
+				0.491101,
+				1.3
+			],
+			[
+				400,
+				0.496256,
+				1.3
+			],
+			[
+				450,
+				0.50193,
+				1.3
+			],
+			[
+				500,
+				0.507604,
+				1.3
+			],
+			[
+				550,
+				0.511986,
+				1.3
+			],
+			[
+				600,
+				0.516368,
+				1.3
+			],
+			[
+				650,
+				0.522554,
+				1.3
+			],
+			[
+				700,
+				0.52874,
+				1.3
+			],
+			[
+				750,
+				0.533126,
+				1.3
+			],
+			[
+				800,
+				0.537511,
+				1.3
+			],
+			[
+				850,
+				0.541379,
+				1.3
+			],
+			[
+				900,
+				0.545247,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -43829,6 +87218,33 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tillana:ital,wght@0,400;0,500;0,600;0,700;0,800&display=block",
+		"metrics": [
+			[
+				400,
+				0.485013,
+				1.642
+			],
+			[
+				500,
+				0.52186,
+				1.642
+			],
+			[
+				600,
+				0.562387,
+				1.642
+			],
+			[
+				700,
+				0.607993,
+				1.642
+			],
+			[
+				800,
+				0.660613,
+				1.642
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43870,6 +87286,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tilt+Neon:XROT,YROT@-45..45,-45..45&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.490687,
+				1.262
+			]
+		],
 		"variants": [
 			{
 			}
@@ -43899,6 +87322,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tilt+Prism:XROT,YROT@-45..45,-45..45&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.53354,
+				1.262
+			]
+		],
 		"variants": [
 			{
 			}
@@ -43933,6 +87363,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tilt+Warp:XROT,YROT@-45..45,-45..45&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.520087,
+				1.262
+			]
+		],
 		"variants": [
 			{
 			}
@@ -43941,6 +87378,13 @@ export default {
 	"Timmana": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Timmana:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.439982,
+				1.629333
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43956,6 +87400,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.485898,
+				1.059082
+			],
+			[
+				700,
+				0.508874,
+				1.042969
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43976,6 +87432,13 @@ export default {
 	"Tiny5": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Tiny5:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.4775,
+				1.125
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -43991,6 +87454,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.520493,
+				1.33
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44021,6 +87491,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Hindi:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.520493,
+				1.33
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44051,6 +87528,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Marathi:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.520293,
+				1.33
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44081,6 +87565,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tiro+Devanagari+Sanskrit:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.520493,
+				1.33
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44111,6 +87602,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tiro+Gurmukhi:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.520493,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44141,6 +87639,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tiro+Kannada:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.520493,
+				1.794
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44171,6 +87676,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tiro+Tamil:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.520493,
+				1.436
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44201,6 +87713,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tiro+Telugu:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.520493,
+				1.794
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44223,6 +87742,38 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tirra:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.492832,
+				1.370117
+			],
+			[
+				500,
+				0.498724,
+				1.370117
+			],
+			[
+				600,
+				0.503167,
+				1.370117
+			],
+			[
+				700,
+				0.507611,
+				1.370117
+			],
+			[
+				800,
+				0.514961,
+				1.370117
+			],
+			[
+				900,
+				0.522214,
+				1.370117
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44243,6 +87794,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Titan+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.59594,
+				1.145
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44261,6 +87819,38 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=block",
+		"metrics": [
+			[
+				200,
+				0.473093,
+				1.521
+			],
+			[
+				300,
+				0.47788,
+				1.521
+			],
+			[
+				400,
+				0.481007,
+				1.521
+			],
+			[
+				600,
+				0.487733,
+				1.521
+			],
+			[
+				700,
+				0.49284,
+				1.521
+			],
+			[
+				900,
+				0.50558,
+				1.521
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44312,6 +87902,53 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tomorrow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.514747,
+				1.2
+			],
+			[
+				200,
+				0.51948,
+				1.2
+			],
+			[
+				300,
+				0.528673,
+				1.2
+			],
+			[
+				400,
+				0.54058,
+				1.2
+			],
+			[
+				500,
+				0.556347,
+				1.2
+			],
+			[
+				600,
+				0.57542,
+				1.2
+			],
+			[
+				700,
+				0.59488,
+				1.2
+			],
+			[
+				800,
+				0.64844,
+				1.2
+			],
+			[
+				900,
+				0.673067,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44362,6 +87999,94 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tourney:wdth,wght@75..125,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.559957,
+				1.1
+			],
+			[
+				150,
+				0.559957,
+				1.1
+			],
+			[
+				200,
+				0.559957,
+				1.1
+			],
+			[
+				250,
+				0.559957,
+				1.1
+			],
+			[
+				300,
+				0.559957,
+				1.1
+			],
+			[
+				350,
+				0.559957,
+				1.1
+			],
+			[
+				400,
+				0.559957,
+				1.1
+			],
+			[
+				450,
+				0.559957,
+				1.1
+			],
+			[
+				500,
+				0.559957,
+				1.1
+			],
+			[
+				550,
+				0.559957,
+				1.1
+			],
+			[
+				600,
+				0.559957,
+				1.1
+			],
+			[
+				650,
+				0.559957,
+				1.1
+			],
+			[
+				700,
+				0.559957,
+				1.1
+			],
+			[
+				750,
+				0.559957,
+				1.1
+			],
+			[
+				800,
+				0.559957,
+				1.1
+			],
+			[
+				850,
+				0.559957,
+				1.1
+			],
+			[
+				900,
+				0.559957,
+				1.1
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -44388,6 +88113,13 @@ export default {
 	"Trade Winds": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Trade+Winds:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.572904,
+				1.453125
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44410,6 +88142,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Train+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.605513,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44427,6 +88166,13 @@ export default {
 			"ss01"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Triodion:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.483247,
+				1.637
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44448,6 +88194,53 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Trirong:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.501733,
+				1.2
+			],
+			[
+				200,
+				0.515687,
+				1.2
+			],
+			[
+				300,
+				0.53106,
+				1.2
+			],
+			[
+				400,
+				0.545733,
+				1.2
+			],
+			[
+				500,
+				0.561387,
+				1.2
+			],
+			[
+				600,
+				0.576267,
+				1.2
+			],
+			[
+				700,
+				0.591673,
+				1.2
+			],
+			[
+				800,
+				0.606733,
+				1.2
+			],
+			[
+				900,
+				0.622447,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44505,6 +88298,84 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Trispace:wdth,wght@75..125,100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.6229,
+				1.13
+			],
+			[
+				150,
+				0.6229,
+				1.13
+			],
+			[
+				200,
+				0.6229,
+				1.13
+			],
+			[
+				250,
+				0.6229,
+				1.13
+			],
+			[
+				300,
+				0.6229,
+				1.13
+			],
+			[
+				350,
+				0.6229,
+				1.13
+			],
+			[
+				400,
+				0.6229,
+				1.13
+			],
+			[
+				450,
+				0.6229,
+				1.13
+			],
+			[
+				500,
+				0.6229,
+				1.13
+			],
+			[
+				550,
+				0.6229,
+				1.13
+			],
+			[
+				600,
+				0.6229,
+				1.13
+			],
+			[
+				650,
+				0.6229,
+				1.13
+			],
+			[
+				700,
+				0.6229,
+				1.13
+			],
+			[
+				750,
+				0.6229,
+				1.13
+			],
+			[
+				800,
+				0.6229,
+				1.13
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"weight": [
@@ -44534,6 +88405,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Trocchi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.561553,
+				1.299316
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44549,6 +88427,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Trochut:ital,wght@0,400;0,700;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.42032,
+				1.177
+			],
+			[
+				700,
+				0.479453,
+				1.177
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44597,6 +88487,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Truculenta:opsz,wdth,wght@12..72,75..125,100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.402373,
+				1.39
+			],
+			[
+				150,
+				0.40239,
+				1.39
+			],
+			[
+				200,
+				0.402407,
+				1.39
+			],
+			[
+				250,
+				0.402423,
+				1.39
+			],
+			[
+				300,
+				0.40244,
+				1.39
+			],
+			[
+				350,
+				0.402457,
+				1.39
+			],
+			[
+				400,
+				0.402473,
+				1.39
+			],
+			[
+				450,
+				0.401775,
+				1.39
+			],
+			[
+				500,
+				0.401077,
+				1.39
+			],
+			[
+				550,
+				0.400379,
+				1.39
+			],
+			[
+				600,
+				0.399681,
+				1.39
+			],
+			[
+				650,
+				0.398983,
+				1.39
+			],
+			[
+				700,
+				0.398285,
+				1.39
+			],
+			[
+				750,
+				0.397587,
+				1.39
+			],
+			[
+				800,
+				0.396889,
+				1.39
+			],
+			[
+				850,
+				0.396191,
+				1.39
+			],
+			[
+				900,
+				0.395493,
+				1.39
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -44620,6 +88597,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Trykker:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.554668,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44645,6 +88629,33 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tsukimi+Rounded:ital,wght@0,300;0,400;0,500;0,600;0,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.556107,
+				1
+			],
+			[
+				400,
+				0.568613,
+				1
+			],
+			[
+				500,
+				0.580927,
+				1
+			],
+			[
+				600,
+				0.5934,
+				1
+			],
+			[
+				700,
+				0.60582,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44686,6 +88697,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tuffy:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.484089,
+				1.48291
+			],
+			[
+				700,
+				0.516432,
+				1.48291
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44709,6 +88732,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Tulpen+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.220993,
+				1.089844
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44732,6 +88762,38 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Turret+Road:ital,wght@0,200;0,300;0,400;0,500;0,700;0,800&display=block",
+		"metrics": [
+			[
+				200,
+				0.522407,
+				1.093
+			],
+			[
+				300,
+				0.523947,
+				1.093
+			],
+			[
+				400,
+				0.525587,
+				1.093
+			],
+			[
+				500,
+				0.527127,
+				1.093
+			],
+			[
+				700,
+				0.530307,
+				1.093
+			],
+			[
+				800,
+				0.531973,
+				1.093
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44760,6 +88822,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Twinkle+Star:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.529387,
+				1.28
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44801,6 +88870,28 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.508193,
+				1.017
+			],
+			[
+				400,
+				0.516693,
+				1.017
+			],
+			[
+				500,
+				0.527933,
+				1.017
+			],
+			[
+				700,
+				0.54112,
+				1.017
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44841,6 +88932,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ubuntu+Condensed:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.412213,
+				1.017
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -44866,6 +88964,19 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.5,
+				0.907
+			],
+			[
+				700,
+				0.5,
+				0.907
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -44927,6 +89038,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ubuntu+Sans:wdth,wght@75..100,100..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.49502,
+				1.2
+			],
+			[
+				150,
+				0.497817,
+				1.2
+			],
+			[
+				200,
+				0.500613,
+				1.2
+			],
+			[
+				250,
+				0.50341,
+				1.2
+			],
+			[
+				300,
+				0.506207,
+				1.2
+			],
+			[
+				350,
+				0.509003,
+				1.2
+			],
+			[
+				400,
+				0.5118,
+				1.2
+			],
+			[
+				450,
+				0.516626,
+				1.2
+			],
+			[
+				500,
+				0.521453,
+				1.2
+			],
+			[
+				550,
+				0.524608,
+				1.2
+			],
+			[
+				600,
+				0.527763,
+				1.2
+			],
+			[
+				650,
+				0.530919,
+				1.2
+			],
+			[
+				700,
+				0.534075,
+				1.2
+			],
+			[
+				750,
+				0.537787,
+				1.2
+			],
+			[
+				800,
+				0.5415,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -44968,6 +89156,44 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ubuntu+Sans+Mono:wght@400..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.56,
+				1.2
+			],
+			[
+				450,
+				0.56,
+				1.2
+			],
+			[
+				500,
+				0.56,
+				1.2
+			],
+			[
+				550,
+				0.56,
+				1.2
+			],
+			[
+				600,
+				0.56,
+				1.2
+			],
+			[
+				650,
+				0.56,
+				1.2
+			],
+			[
+				700,
+				0.56,
+				1.2
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": [
@@ -44992,6 +89218,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Uchen:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.541777,
+				1.863281
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45007,6 +89240,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ultra:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.698958,
+				1.282715
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45039,6 +89279,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Unbounded:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.64428,
+				1.24
+			],
+			[
+				250,
+				0.65331,
+				1.24
+			],
+			[
+				300,
+				0.66234,
+				1.24
+			],
+			[
+				350,
+				0.67137,
+				1.24
+			],
+			[
+				400,
+				0.6804,
+				1.24
+			],
+			[
+				450,
+				0.689177,
+				1.24
+			],
+			[
+				500,
+				0.697954,
+				1.24
+			],
+			[
+				550,
+				0.702344,
+				1.24
+			],
+			[
+				600,
+				0.706734,
+				1.24
+			],
+			[
+				650,
+				0.711123,
+				1.24
+			],
+			[
+				700,
+				0.715512,
+				1.24
+			],
+			[
+				750,
+				0.721364,
+				1.24
+			],
+			[
+				800,
+				0.727216,
+				1.24
+			],
+			[
+				850,
+				0.733068,
+				1.24
+			],
+			[
+				900,
+				0.73892,
+				1.24
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -45061,6 +89378,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Uncial+Antiqua:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.632904,
+				1.315918
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45076,6 +89400,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Underdog:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.507673,
+				1.156
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45102,6 +89433,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Unica+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.45668,
+				1.182
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45117,6 +89455,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=UnifrakturCook:ital,wght@0,700&display=block",
+		"metrics": [
+			[
+				700,
+				0.454658,
+				1.308594
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45133,6 +89478,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=UnifrakturMaguntia:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.49319,
+				1.035645
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45158,6 +89510,18 @@ export default {
 			}
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Unkempt:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.493945,
+				0.953125
+			],
+			[
+				700,
+				0.502643,
+				1.194336
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45183,6 +89547,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Unlock:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.556913,
+				1.068
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45226,6 +89597,18 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Unna:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.460633,
+				1.152
+			],
+			[
+				700,
+				0.471613,
+				1.152
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45246,6 +89629,13 @@ export default {
 	"UoqMunThenKhung": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=UoqMunThenKhung:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.56752,
+				1.128
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45268,6 +89658,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Updock:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.36722,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45290,6 +89687,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Urbanist:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.478113,
+				1.2
+			],
+			[
+				150,
+				0.481058,
+				1.2
+			],
+			[
+				200,
+				0.484002,
+				1.2
+			],
+			[
+				250,
+				0.486492,
+				1.2
+			],
+			[
+				300,
+				0.488983,
+				1.2
+			],
+			[
+				350,
+				0.492606,
+				1.2
+			],
+			[
+				400,
+				0.49623,
+				1.2
+			],
+			[
+				450,
+				0.499403,
+				1.2
+			],
+			[
+				500,
+				0.502576,
+				1.2
+			],
+			[
+				550,
+				0.507109,
+				1.2
+			],
+			[
+				600,
+				0.511642,
+				1.2
+			],
+			[
+				650,
+				0.515724,
+				1.2
+			],
+			[
+				700,
+				0.519805,
+				1.2
+			],
+			[
+				750,
+				0.523431,
+				1.2
+			],
+			[
+				800,
+				0.527056,
+				1.2
+			],
+			[
+				850,
+				0.529776,
+				1.2
+			],
+			[
+				900,
+				0.532497,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -45319,6 +89803,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=VT323:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.394667,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45331,6 +89822,13 @@ export default {
 	"Vampiro One": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Vampiro+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.577187,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45362,6 +89860,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Varela:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.55566,
+				1.3
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45386,6 +89891,13 @@ export default {
 			"tnum"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Varela+Round:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.553267,
+				1.204
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45418,6 +89930,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Varta:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.460303,
+				1.450195
+			],
+			[
+				350,
+				0.462493,
+				1.450195
+			],
+			[
+				400,
+				0.464683,
+				1.450195
+			],
+			[
+				450,
+				0.466874,
+				1.450195
+			],
+			[
+				500,
+				0.469064,
+				1.450195
+			],
+			[
+				550,
+				0.471254,
+				1.450195
+			],
+			[
+				600,
+				0.473445,
+				1.450195
+			],
+			[
+				650,
+				0.475635,
+				1.450195
+			],
+			[
+				700,
+				0.477826,
+				1.450195
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -45432,6 +89991,13 @@ export default {
 	"Vast Shadow": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Vast+Shadow:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.783477,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45462,6 +90028,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.499466,
+				1.5625
+			],
+			[
+				150,
+				0.502417,
+				1.5625
+			],
+			[
+				200,
+				0.505368,
+				1.5625
+			],
+			[
+				250,
+				0.506843,
+				1.5625
+			],
+			[
+				300,
+				0.508319,
+				1.5625
+			],
+			[
+				350,
+				0.509794,
+				1.5625
+			],
+			[
+				400,
+				0.51127,
+				1.5625
+			],
+			[
+				450,
+				0.513051,
+				1.5625
+			],
+			[
+				500,
+				0.514833,
+				1.5625
+			],
+			[
+				550,
+				0.515585,
+				1.5625
+			],
+			[
+				600,
+				0.516337,
+				1.5625
+			],
+			[
+				650,
+				0.51709,
+				1.5625
+			],
+			[
+				700,
+				0.517842,
+				1.5625
+			],
+			[
+				750,
+				0.518624,
+				1.5625
+			],
+			[
+				800,
+				0.519406,
+				1.5625
+			],
+			[
+				850,
+				0.520188,
+				1.5625
+			],
+			[
+				900,
+				0.52097,
+				1.5625
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -45496,6 +90149,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Vend+Sans:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.493693,
+				1.48
+			],
+			[
+				350,
+				0.496552,
+				1.48
+			],
+			[
+				400,
+				0.499411,
+				1.48
+			],
+			[
+				450,
+				0.502269,
+				1.48
+			],
+			[
+				500,
+				0.505128,
+				1.48
+			],
+			[
+				550,
+				0.507272,
+				1.48
+			],
+			[
+				600,
+				0.509416,
+				1.48
+			],
+			[
+				650,
+				0.512275,
+				1.48
+			],
+			[
+				700,
+				0.515133,
+				1.48
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -45525,6 +90225,28 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Vesper+Libre:ital,wght@0,400;0,500;0,700;0,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.501315,
+				1.894531
+			],
+			[
+				500,
+				0.527015,
+				1.894531
+			],
+			[
+				700,
+				0.543402,
+				1.894531
+			],
+			[
+				900,
+				0.568753,
+				1.894531
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45559,6 +90281,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Viaoda+Libre:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.45002,
+				1.411
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45574,6 +90303,13 @@ export default {
 			"aalt"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Vibes:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.417193,
+				1.785
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45590,6 +90326,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Vibur:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.645299,
+				1.089844
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45605,6 +90348,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Vidaloka:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.493896,
+				1.214355
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45617,6 +90367,13 @@ export default {
 	"Viga": {
 		"category": "sans-serif",
 		"href": "https://fonts.googleapis.com/css2?family=Viga:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.510353,
+				1.344
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45636,6 +90393,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Vina+Sans:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.368367,
+				1.215
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45656,6 +90420,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Voces:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.52066,
+				1.349
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45671,6 +90442,18 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Volkhov:ital,wght@0,400;0,700;1,400;1,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.552653,
+				1.29
+			],
+			[
+				700,
+				0.561493,
+				1.29
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45742,6 +90525,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Vollkorn:wght@400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.501533,
+				1.393
+			],
+			[
+				450,
+				0.505968,
+				1.393
+			],
+			[
+				500,
+				0.510402,
+				1.393
+			],
+			[
+				550,
+				0.515151,
+				1.393
+			],
+			[
+				600,
+				0.5199,
+				1.393
+			],
+			[
+				650,
+				0.525602,
+				1.393
+			],
+			[
+				700,
+				0.531305,
+				1.393
+			],
+			[
+				750,
+				0.537615,
+				1.393
+			],
+			[
+				800,
+				0.543916,
+				1.393
+			],
+			[
+				850,
+				0.551161,
+				1.393
+			],
+			[
+				900,
+				0.558407,
+				1.393
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -45780,6 +90620,28 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Vollkorn+SC:ital,wght@0,400;0,600;0,700;0,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.564007,
+				1.393
+			],
+			[
+				600,
+				0.573173,
+				1.393
+			],
+			[
+				700,
+				0.58226,
+				1.393
+			],
+			[
+				900,
+				0.596967,
+				1.393
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45813,6 +90675,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Voltaire:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.396442,
+				1.245605
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45838,6 +90707,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Vujahday+Script:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.4638,
+				1.36
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45861,6 +90737,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+JP+N:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.398947,
+				1.18
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45884,6 +90767,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+SC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.398947,
+				1.18
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45907,6 +90797,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=WDXL+Lubrifont+TC:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.398947,
+				1.18
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45919,6 +90816,13 @@ export default {
 	"Waiting for the Sunrise": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Waiting+for+the+Sunrise:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.422871,
+				1.65332
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45934,6 +90838,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Wallpoet:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.668053,
+				1.002
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45949,6 +90860,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Walter+Turncoat:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.545378,
+				0.649414
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45975,6 +90893,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Warnes:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.652273,
+				1.304
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -45998,6 +90923,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Water+Brush:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.460733,
+				1.45
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46028,6 +90960,13 @@ export default {
 			"titl"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Waterfall:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.361753,
+				1.16
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46040,6 +90979,13 @@ export default {
 	"Wellfleet": {
 		"category": "serif",
 		"href": "https://fonts.googleapis.com/css2?family=Wellfleet:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.557477,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46055,6 +91001,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Wendy+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.543673,
+				1.055
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46076,6 +91029,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Whisper:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.41436,
+				1.28
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46096,6 +91056,19 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=WindSong:ital,wght@0,400;0,500&display=block",
+		"metrics": [
+			[
+				400,
+				0.630187,
+				1.405
+			],
+			[
+				500,
+				0.635227,
+				1.405
+			]
+		],
+		"multiplexed": true,
 		"variants": [
 			{
 				"italic": 0,
@@ -46119,6 +91092,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Winky+Rough:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.462913,
+				1.33
+			],
+			[
+				350,
+				0.46467,
+				1.33
+			],
+			[
+				400,
+				0.466427,
+				1.33
+			],
+			[
+				450,
+				0.469293,
+				1.33
+			],
+			[
+				500,
+				0.472159,
+				1.33
+			],
+			[
+				550,
+				0.475025,
+				1.33
+			],
+			[
+				600,
+				0.477891,
+				1.33
+			],
+			[
+				650,
+				0.480757,
+				1.33
+			],
+			[
+				700,
+				0.483623,
+				1.33
+			],
+			[
+				750,
+				0.486489,
+				1.33
+			],
+			[
+				800,
+				0.489355,
+				1.33
+			],
+			[
+				850,
+				0.492221,
+				1.33
+			],
+			[
+				900,
+				0.495087,
+				1.33
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -46149,6 +91189,73 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Winky+Sans:wght@300..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.45968,
+				1.33
+			],
+			[
+				350,
+				0.46143,
+				1.33
+			],
+			[
+				400,
+				0.46318,
+				1.33
+			],
+			[
+				450,
+				0.466227,
+				1.33
+			],
+			[
+				500,
+				0.469273,
+				1.33
+			],
+			[
+				550,
+				0.47232,
+				1.33
+			],
+			[
+				600,
+				0.475367,
+				1.33
+			],
+			[
+				650,
+				0.478413,
+				1.33
+			],
+			[
+				700,
+				0.48146,
+				1.33
+			],
+			[
+				750,
+				0.484507,
+				1.33
+			],
+			[
+				800,
+				0.487553,
+				1.33
+			],
+			[
+				850,
+				0.4906,
+				1.33
+			],
+			[
+				900,
+				0.493647,
+				1.33
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -46176,6 +91283,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Wire+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.251473,
+				1.1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46207,6 +91321,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Wittgenstein:wght@400..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.521467,
+				1.5
+			],
+			[
+				450,
+				0.523569,
+				1.5
+			],
+			[
+				500,
+				0.525672,
+				1.5
+			],
+			[
+				550,
+				0.527775,
+				1.5
+			],
+			[
+				600,
+				0.529877,
+				1.5
+			],
+			[
+				650,
+				0.53198,
+				1.5
+			],
+			[
+				700,
+				0.534083,
+				1.5
+			],
+			[
+				750,
+				0.536185,
+				1.5
+			],
+			[
+				800,
+				0.538288,
+				1.5
+			],
+			[
+				850,
+				0.540391,
+				1.5
+			],
+			[
+				900,
+				0.542493,
+				1.5
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -46239,6 +91410,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Wix+Madefor+Display:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.536633,
+				1.26
+			],
+			[
+				450,
+				0.54027,
+				1.26
+			],
+			[
+				500,
+				0.543907,
+				1.26
+			],
+			[
+				550,
+				0.547544,
+				1.26
+			],
+			[
+				600,
+				0.551181,
+				1.26
+			],
+			[
+				650,
+				0.555009,
+				1.26
+			],
+			[
+				700,
+				0.558836,
+				1.26
+			],
+			[
+				750,
+				0.565918,
+				1.26
+			],
+			[
+				800,
+				0.573,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -46265,6 +91483,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Wix+Madefor+Text:wght@400..800&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.535613,
+				1.26
+			],
+			[
+				450,
+				0.539141,
+				1.26
+			],
+			[
+				500,
+				0.542669,
+				1.26
+			],
+			[
+				550,
+				0.545123,
+				1.26
+			],
+			[
+				600,
+				0.547576,
+				1.26
+			],
+			[
+				650,
+				0.55003,
+				1.26
+			],
+			[
+				700,
+				0.552484,
+				1.26
+			],
+			[
+				750,
+				0.557239,
+				1.26
+			],
+			[
+				800,
+				0.561993,
+				1.26
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -46335,6 +91600,93 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Work+Sans:wght@100..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				100,
+				0.494527,
+				1.173
+			],
+			[
+				150,
+				0.499629,
+				1.173
+			],
+			[
+				200,
+				0.504733,
+				1.173
+			],
+			[
+				250,
+				0.514086,
+				1.173
+			],
+			[
+				300,
+				0.52344,
+				1.173
+			],
+			[
+				350,
+				0.536196,
+				1.173
+			],
+			[
+				400,
+				0.548953,
+				1.173
+			],
+			[
+				450,
+				0.550356,
+				1.173
+			],
+			[
+				500,
+				0.551758,
+				1.173
+			],
+			[
+				550,
+				0.553316,
+				1.173
+			],
+			[
+				600,
+				0.554875,
+				1.173
+			],
+			[
+				650,
+				0.556582,
+				1.173
+			],
+			[
+				700,
+				0.55829,
+				1.173
+			],
+			[
+				750,
+				0.559942,
+				1.173
+			],
+			[
+				800,
+				0.561595,
+				1.173
+			],
+			[
+				850,
+				0.563041,
+				1.173
+			],
+			[
+				900,
+				0.564487,
+				1.173
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -46375,6 +91727,13 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Workbench:BLED,SCAN@0..100,-53..100&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				400,
+				0.5,
+				1
+			]
+		],
 		"variants": [
 			{
 			}
@@ -46393,6 +91752,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Xanh+Mono:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.5,
+				1.19
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46421,6 +91787,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yaldevi:wght@200..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.468633,
+				1.316
+			],
+			[
+				250,
+				0.47125,
+				1.316
+			],
+			[
+				300,
+				0.473866,
+				1.316
+			],
+			[
+				350,
+				0.476885,
+				1.316
+			],
+			[
+				400,
+				0.479905,
+				1.316
+			],
+			[
+				450,
+				0.483728,
+				1.316
+			],
+			[
+				500,
+				0.487552,
+				1.316
+			],
+			[
+				550,
+				0.492384,
+				1.316
+			],
+			[
+				600,
+				0.497215,
+				1.316
+			],
+			[
+				650,
+				0.503051,
+				1.316
+			],
+			[
+				700,
+				0.508887,
+				1.316
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -46455,6 +91878,63 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.36984,
+				0.992
+			],
+			[
+				250,
+				0.365104,
+				0.992
+			],
+			[
+				300,
+				0.360368,
+				0.992
+			],
+			[
+				350,
+				0.35225,
+				0.992
+			],
+			[
+				400,
+				0.344132,
+				0.992
+			],
+			[
+				450,
+				0.341875,
+				0.992
+			],
+			[
+				500,
+				0.339619,
+				0.992
+			],
+			[
+				550,
+				0.337138,
+				0.992
+			],
+			[
+				600,
+				0.334657,
+				0.992
+			],
+			[
+				650,
+				0.332402,
+				0.992
+			],
+			[
+				700,
+				0.330147,
+				0.992
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -46472,6 +91952,38 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yantramanav:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=block",
+		"metrics": [
+			[
+				100,
+				0.450973,
+				1.296875
+			],
+			[
+				300,
+				0.458418,
+				1.296875
+			],
+			[
+				400,
+				0.46707,
+				1.296875
+			],
+			[
+				500,
+				0.467982,
+				1.296875
+			],
+			[
+				700,
+				0.468724,
+				1.296875
+			],
+			[
+				900,
+				0.470195,
+				1.296875
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46489,6 +92001,13 @@ export default {
 	"Yarndings 12": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Yarndings+12:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.756955,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46501,6 +92020,13 @@ export default {
 	"Yarndings 12 Charted": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Yarndings+12+Charted:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.755,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46513,6 +92039,13 @@ export default {
 	"Yarndings 20": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Yarndings+20:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.734722,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46525,6 +92058,13 @@ export default {
 	"Yarndings 20 Charted": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Yarndings+20+Charted:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.730278,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46540,6 +92080,13 @@ export default {
 			"liga"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yatra+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.551953,
+				1.478
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46552,6 +92099,13 @@ export default {
 	"Yellowtail": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Yellowtail:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.419378,
+				1.089844
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46564,6 +92118,13 @@ export default {
 	"Yeon Sung": {
 		"category": "display",
 		"href": "https://fonts.googleapis.com/css2?family=Yeon+Sung:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.454527,
+				1.25
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46584,6 +92145,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yeseva+One:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.563233,
+				1.155
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46604,6 +92172,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yesteryear:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.419521,
+				1.467285
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46628,6 +92203,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yomogi:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.504,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46661,6 +92243,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Young+Serif:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.575873,
+				1.412
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -46711,6 +92300,53 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yrsa:wght@300..700&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				300,
+				0.437887,
+				1.218
+			],
+			[
+				350,
+				0.440077,
+				1.218
+			],
+			[
+				400,
+				0.442267,
+				1.218
+			],
+			[
+				450,
+				0.4444,
+				1.218
+			],
+			[
+				500,
+				0.446533,
+				1.218
+			],
+			[
+				550,
+				0.448667,
+				1.218
+			],
+			[
+				600,
+				0.4508,
+				1.218
+			],
+			[
+				650,
+				0.452933,
+				1.218
+			],
+			[
+				700,
+				0.455067,
+				1.218
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -46792,6 +92428,113 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ysabeau:wght@1..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				1,
+				0.472433,
+				1.343
+			],
+			[
+				50,
+				0.473227,
+				1.343
+			],
+			[
+				100,
+				0.47458,
+				1.343
+			],
+			[
+				150,
+				0.475512,
+				1.343
+			],
+			[
+				200,
+				0.476443,
+				1.343
+			],
+			[
+				250,
+				0.477588,
+				1.343
+			],
+			[
+				300,
+				0.478638,
+				1.343
+			],
+			[
+				350,
+				0.479202,
+				1.343
+			],
+			[
+				400,
+				0.479766,
+				1.343
+			],
+			[
+				450,
+				0.480373,
+				1.343
+			],
+			[
+				500,
+				0.48098,
+				1.343
+			],
+			[
+				550,
+				0.482166,
+				1.343
+			],
+			[
+				600,
+				0.483352,
+				1.343
+			],
+			[
+				650,
+				0.484393,
+				1.343
+			],
+			[
+				700,
+				0.485433,
+				1.343
+			],
+			[
+				750,
+				0.491856,
+				1.343
+			],
+			[
+				800,
+				0.49828,
+				1.343
+			],
+			[
+				850,
+				0.505773,
+				1.343
+			],
+			[
+				900,
+				0.513266,
+				1.343
+			],
+			[
+				950,
+				0.52076,
+				1.343
+			],
+			[
+				1000,
+				0.528253,
+				1.343
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -46854,6 +92597,113 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@1..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				1,
+				0.486867,
+				1.343
+			],
+			[
+				50,
+				0.487456,
+				1.343
+			],
+			[
+				100,
+				0.488462,
+				1.343
+			],
+			[
+				150,
+				0.489154,
+				1.343
+			],
+			[
+				200,
+				0.489846,
+				1.343
+			],
+			[
+				250,
+				0.490697,
+				1.343
+			],
+			[
+				300,
+				0.491605,
+				1.343
+			],
+			[
+				350,
+				0.492093,
+				1.343
+			],
+			[
+				400,
+				0.492581,
+				1.343
+			],
+			[
+				450,
+				0.493108,
+				1.343
+			],
+			[
+				500,
+				0.493635,
+				1.343
+			],
+			[
+				550,
+				0.494664,
+				1.343
+			],
+			[
+				600,
+				0.495694,
+				1.343
+			],
+			[
+				650,
+				0.496597,
+				1.343
+			],
+			[
+				700,
+				0.4975,
+				1.343
+			],
+			[
+				750,
+				0.503051,
+				1.343
+			],
+			[
+				800,
+				0.508602,
+				1.343
+			],
+			[
+				850,
+				0.515078,
+				1.343
+			],
+			[
+				900,
+				0.521554,
+				1.343
+			],
+			[
+				950,
+				0.528031,
+				1.343
+			],
+			[
+				1000,
+				0.534507,
+				1.343
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -46929,6 +92779,113 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ysabeau+Office:wght@1..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				1,
+				0.484473,
+				1.343
+			],
+			[
+				50,
+				0.485023,
+				1.343
+			],
+			[
+				100,
+				0.485962,
+				1.343
+			],
+			[
+				150,
+				0.486608,
+				1.343
+			],
+			[
+				200,
+				0.487254,
+				1.343
+			],
+			[
+				250,
+				0.488047,
+				1.343
+			],
+			[
+				300,
+				0.488904,
+				1.343
+			],
+			[
+				350,
+				0.489364,
+				1.343
+			],
+			[
+				400,
+				0.489824,
+				1.343
+			],
+			[
+				450,
+				0.490318,
+				1.343
+			],
+			[
+				500,
+				0.490812,
+				1.343
+			],
+			[
+				550,
+				0.491776,
+				1.343
+			],
+			[
+				600,
+				0.49274,
+				1.343
+			],
+			[
+				650,
+				0.493587,
+				1.343
+			],
+			[
+				700,
+				0.494433,
+				1.343
+			],
+			[
+				750,
+				0.499712,
+				1.343
+			],
+			[
+				800,
+				0.504992,
+				1.343
+			],
+			[
+				850,
+				0.51115,
+				1.343
+			],
+			[
+				900,
+				0.517309,
+				1.343
+			],
+			[
+				950,
+				0.523468,
+				1.343
+			],
+			[
+				1000,
+				0.529627,
+				1.343
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -46969,6 +92926,113 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Ysabeau+SC:wght@1..1000&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				1,
+				0.505747,
+				1.343
+			],
+			[
+				50,
+				0.50641,
+				1.343
+			],
+			[
+				100,
+				0.507543,
+				1.343
+			],
+			[
+				150,
+				0.508323,
+				1.343
+			],
+			[
+				200,
+				0.509103,
+				1.343
+			],
+			[
+				250,
+				0.510061,
+				1.343
+			],
+			[
+				300,
+				0.511038,
+				1.343
+			],
+			[
+				350,
+				0.511562,
+				1.343
+			],
+			[
+				400,
+				0.512087,
+				1.343
+			],
+			[
+				450,
+				0.512654,
+				1.343
+			],
+			[
+				500,
+				0.513221,
+				1.343
+			],
+			[
+				550,
+				0.514329,
+				1.343
+			],
+			[
+				600,
+				0.515436,
+				1.343
+			],
+			[
+				650,
+				0.516408,
+				1.343
+			],
+			[
+				700,
+				0.51738,
+				1.343
+			],
+			[
+				750,
+				0.52323,
+				1.343
+			],
+			[
+				800,
+				0.52908,
+				1.343
+			],
+			[
+				850,
+				0.535905,
+				1.343
+			],
+			[
+				900,
+				0.54273,
+				1.343
+			],
+			[
+				950,
+				0.549555,
+				1.343
+			],
+			[
+				1000,
+				0.55638,
+				1.343
+			]
+		],
 		"variants": [
 			{
 				"weight": [
@@ -46993,6 +93057,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yuji+Boku:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.6206,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47013,6 +93084,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akari:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.69746,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47033,6 +93111,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yuji+Hentaigana+Akebono:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.69746,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47055,6 +93140,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yuji+Mai:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.627893,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47077,6 +93169,13 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yuji+Syuku:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.598773,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47097,6 +93196,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yusei+Magic:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.50876,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47115,6 +93221,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yuyu:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.326667,
+				1.13
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47133,6 +93246,13 @@ export default {
 			"ordn"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Yuyu+Short:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.32316,
+				1.13
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47149,6 +93269,13 @@ export default {
 			"fwid"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=ZCOOL+KuaiLe:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.549873,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47165,6 +93292,13 @@ export default {
 			"fwid"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=ZCOOL+QingKe+HuangYou:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.398153,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47182,6 +93316,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=ZCOOL+XiaoWei:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.4878,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47240,6 +93381,38 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=block",
+		"metrics": [
+			[
+				200,
+				0.470675,
+				1.66
+			],
+			[
+				300,
+				0.482583,
+				1.66
+			],
+			[
+				400,
+				0.495358,
+				1.66
+			],
+			[
+				700,
+				0.500683,
+				1.66
+			],
+			[
+				800,
+				0.507658,
+				1.66
+			],
+			[
+				900,
+				0.508692,
+				1.66
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47284,6 +93457,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zalando+Sans:wdth,wght@75..125,200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.519893,
+				1.214
+			],
+			[
+				250,
+				0.523453,
+				1.214
+			],
+			[
+				300,
+				0.527013,
+				1.214
+			],
+			[
+				350,
+				0.530363,
+				1.214
+			],
+			[
+				400,
+				0.533713,
+				1.214
+			],
+			[
+				450,
+				0.537673,
+				1.214
+			],
+			[
+				500,
+				0.541632,
+				1.214
+			],
+			[
+				550,
+				0.545593,
+				1.214
+			],
+			[
+				600,
+				0.549553,
+				1.214
+			],
+			[
+				650,
+				0.553366,
+				1.214
+			],
+			[
+				700,
+				0.557181,
+				1.214
+			],
+			[
+				750,
+				0.559234,
+				1.214
+			],
+			[
+				800,
+				0.561286,
+				1.214
+			],
+			[
+				850,
+				0.563193,
+				1.214
+			],
+			[
+				900,
+				0.5651,
+				1.214
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -47330,6 +93580,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.638747,
+				1.214
+			],
+			[
+				250,
+				0.641508,
+				1.214
+			],
+			[
+				300,
+				0.644269,
+				1.214
+			],
+			[
+				350,
+				0.646868,
+				1.214
+			],
+			[
+				400,
+				0.649467,
+				1.214
+			],
+			[
+				450,
+				0.657133,
+				1.214
+			],
+			[
+				500,
+				0.6648,
+				1.214
+			],
+			[
+				550,
+				0.672469,
+				1.214
+			],
+			[
+				600,
+				0.680137,
+				1.214
+			],
+			[
+				650,
+				0.68752,
+				1.214
+			],
+			[
+				700,
+				0.694907,
+				1.214
+			],
+			[
+				750,
+				0.698881,
+				1.214
+			],
+			[
+				800,
+				0.702855,
+				1.214
+			],
+			[
+				850,
+				0.706548,
+				1.214
+			],
+			[
+				900,
+				0.71024,
+				1.214
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -47370,6 +93697,83 @@ export default {
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zalando+Sans+SemiExpanded:wght@200..900&display=block",
 		"isVariable": true,
+		"metrics": [
+			[
+				200,
+				0.56734,
+				1.214
+			],
+			[
+				250,
+				0.570582,
+				1.214
+			],
+			[
+				300,
+				0.573824,
+				1.214
+			],
+			[
+				350,
+				0.576875,
+				1.214
+			],
+			[
+				400,
+				0.579927,
+				1.214
+			],
+			[
+				450,
+				0.58538,
+				1.214
+			],
+			[
+				500,
+				0.590833,
+				1.214
+			],
+			[
+				550,
+				0.596287,
+				1.214
+			],
+			[
+				600,
+				0.601742,
+				1.214
+			],
+			[
+				650,
+				0.606993,
+				1.214
+			],
+			[
+				700,
+				0.612247,
+				1.214
+			],
+			[
+				750,
+				0.615074,
+				1.214
+			],
+			[
+				800,
+				0.617901,
+				1.214
+			],
+			[
+				850,
+				0.620527,
+				1.214
+			],
+			[
+				900,
+				0.623153,
+				1.214
+			]
+		],
 		"variants": [
 			{
 				"italic": [
@@ -47398,6 +93802,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zen+Antique:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.554393,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47418,6 +93829,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zen+Antique+Soft:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.554393,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47440,6 +93858,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zen+Dots:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.719773,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47461,6 +93886,33 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+Antique:ital,wght@0,300;0,400;0,500;0,700;0,900&display=block",
+		"metrics": [
+			[
+				300,
+				0.486807,
+				1
+			],
+			[
+				400,
+				0.489347,
+				1
+			],
+			[
+				500,
+				0.49224,
+				1
+			],
+			[
+				700,
+				0.49448,
+				1
+			],
+			[
+				900,
+				0.495853,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47486,6 +93938,33 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:ital,wght@0,300;0,400;0,500;0,700;0,900&display=block",
+		"metrics": [
+			[
+				300,
+				0.486807,
+				1
+			],
+			[
+				400,
+				0.489347,
+				1
+			],
+			[
+				500,
+				0.49224,
+				1
+			],
+			[
+				700,
+				0.49448,
+				1
+			],
+			[
+				900,
+				0.495853,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47510,6 +93989,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zen+Kurenaido:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.457573,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47542,6 +94028,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zen+Loop:ital,wght@0,400;1,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.301393,
+				1.125
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47569,6 +94062,33 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:ital,wght@0,300;0,400;0,500;0,700;0,900&display=block",
+		"metrics": [
+			[
+				300,
+				0.486807,
+				1
+			],
+			[
+				400,
+				0.489347,
+				1
+			],
+			[
+				500,
+				0.49224,
+				1
+			],
+			[
+				700,
+				0.49448,
+				1
+			],
+			[
+				900,
+				0.495853,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47593,6 +94113,33 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zen+Old+Mincho:ital,wght@0,400;0,500;0,600;0,700;0,900&display=block",
+		"metrics": [
+			[
+				400,
+				0.51488,
+				1
+			],
+			[
+				500,
+				0.525953,
+				1
+			],
+			[
+				600,
+				0.539427,
+				1
+			],
+			[
+				700,
+				0.547567,
+				1
+			],
+			[
+				900,
+				0.559053,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47617,6 +94164,13 @@ export default {
 			"sups"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.450447,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47629,6 +94183,13 @@ export default {
 	"Zeyada": {
 		"category": "handwriting",
 		"href": "https://fonts.googleapis.com/css2?family=Zeyada:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.395885,
+				1.576172
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47644,6 +94205,13 @@ export default {
 			"kern"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zhi+Mang+Xing:ital,wght@0,400&display=block",
+		"metrics": [
+			[
+				400,
+				0.353547,
+				1
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47660,6 +94228,33 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=block",
+		"metrics": [
+			[
+				300,
+				0.491367,
+				1.2
+			],
+			[
+				400,
+				0.49474,
+				1.2
+			],
+			[
+				500,
+				0.49842,
+				1.2
+			],
+			[
+				600,
+				0.502213,
+				1.2
+			],
+			[
+				700,
+				0.506713,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,
@@ -47690,6 +94285,18 @@ export default {
 			"zero"
 		],
 		"href": "https://fonts.googleapis.com/css2?family=Zilla+Slab+Highlight:ital,wght@0,400;0,700&display=block",
+		"metrics": [
+			[
+				400,
+				0.495147,
+				1.2
+			],
+			[
+				700,
+				0.507713,
+				1.2
+			]
+		],
 		"variants": [
 			{
 				"italic": 0,

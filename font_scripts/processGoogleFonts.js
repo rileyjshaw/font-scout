@@ -1,4 +1,5 @@
-import { WEIGHT_REGULAR, WIDTH_NORMAL } from '../src/constants.js';
+import { WEIGHT_REGULAR } from '../src/constants.js';
+import { aggregateFamilyMetrics } from './fontMetrics.js';
 
 // Copied from https://fonts.google.com/variablefonts#axis-definitions on 2026-04-01.
 const GOOGLE_AXIS_DEFINITIONS = {
@@ -80,8 +81,8 @@ export function compactFontFeatures(font, featureFaces = {}) {
 	const faces = Object.entries(featureFaces)
 		.filter(([variant]) => Object.hasOwn(font.files ?? {}, variant))
 		.sort(([variantA], [variantB]) => variantA.localeCompare(variantB, undefined, { numeric: true }))
-		.map(([variant, features]) => ({
-			features: [...new Set(features)].sort(),
+		.map(([variant, analysis]) => ({
+			features: [...new Set(Array.isArray(analysis) ? analysis : analysis.features)].sort(),
 			variant: variantKeyToDescriptor(font, variant),
 		}));
 	if (!faces.length) return {};
@@ -100,6 +101,16 @@ export function compactFontFeatures(font, featureFaces = {}) {
 		...(common.length ? { features: common } : {}),
 		...(groups.size ? { featureGroups: [...groups.values()] } : {}),
 	};
+}
+
+export function compactFontMetrics(font, faceAnalysis = {}) {
+	const faces = Object.entries(faceAnalysis).map(([variant, analysis]) => ({
+		...variantKeyToDescriptor(font, variant),
+		path: font.files?.[variant] ?? variant,
+		oblique: 0,
+		metricSamples: Array.isArray(analysis) ? [] : analysis.samples,
+	}));
+	return aggregateFamilyMetrics(faces);
 }
 
 export default function processGoogleFonts(rawJson, featureMap = {}) {
@@ -209,6 +220,7 @@ export default function processGoogleFonts(rawJson, featureMap = {}) {
 						...commonProperties,
 						...additionalProperties,
 						...compactFontFeatures(font, featureMap[font.family]),
+						...compactFontMetrics(font, featureMap[font.family]),
 					},
 				];
 			}),

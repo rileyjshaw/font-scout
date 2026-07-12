@@ -168,6 +168,7 @@ test('requires complete overrides when parsing fails', async () => {
 				italic: 0,
 				oblique: 0,
 				axes: {},
+				metrics: [[400, 10, 1.2]],
 			},
 		},
 	});

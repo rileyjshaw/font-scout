@@ -1,4 +1,4 @@
-import fontMeasurements from './fontMeasurements.json.js';
+import allFonts from './allFonts.js';
 import { findNearestFontWeight } from './lib/utils.js';
 import { STANDARD_GLOBAL_FONT_WEIGHTS } from './constants.js';
 
@@ -12,16 +12,18 @@ const createWeightMap = measurementType => {
 		weightMap[targetWeight] = [];
 	}
 
-	fontMeasurements.forEach(font => {
-		const availableWeights = font.measurements.map(measurement => measurement.weight); // Already sorted.
+	allFonts.forEach(font => {
+		if (!font.metrics?.length) return;
+		const availableWeights = font.metrics.map(([weight]) => weight); // Already sorted.
 		for (const targetWeight of STANDARD_GLOBAL_FONT_WEIGHTS) {
 			const nearestWeight = findNearestFontWeight(targetWeight, availableWeights);
-			const nearestMeasurement = font.measurements.find(measurement => measurement.weight === nearestWeight);
+			const nearestMeasurement = font.metrics.find(([weight]) => weight === nearestWeight);
 
 			if (nearestMeasurement) {
+				const [, width, height] = nearestMeasurement;
 				weightMap[targetWeight].push({
 					name: font.name,
-					value: nearestMeasurement[measurementType],
+					value: { width, height, size: width * height }[measurementType],
 				});
 			}
 		}

@@ -33,7 +33,6 @@
 		"fontkit": "^2.0.4",
 		"lint-staged": "^17.0.8",
 		"opentype.js": "^2.0.0",
-		"puppeteer": "^25.3.0",
 		"request": "^2.88.2",
 		"vite": "^8.1.4",
 		"wawoff2": "^2.0.1"
@@ -44,8 +43,9 @@
 		"build": "vite build",
 		"test": "node --test font_scripts/*.test.js",
 		"scan-fonts": "node ./font_scripts/findFontFeatures.js",
+		"fetch-google-fonts": "node --input-type=module -e \"import fetchFonts from './font_scripts/fetchGoogleFonts.js'; await fetchFonts();\"",
 		"lint": "prettier --write \"{font_scripts,src}/**/*.{js,jsx,ts,tsx,json,css,scss,md}\"",
-		"update-fonts": "caffeinate -i node --experimental-json-modules --no-warnings ./updateFonts.js && yarn lint"
+		"update-fonts": "yarn scan-fonts && yarn fetch-google-fonts && yarn lint"
 	},
 	"eslintConfig": {
 		"extends": [

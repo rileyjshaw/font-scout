@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
 
-import processGoogleFonts, { compactFontFeatures } from './processGoogleFonts.js';
+import processGoogleFonts, { compactFontFeatures, compactFontMetrics } from './processGoogleFonts.js';
 
 test('compacts common and variant-specific Google font features', () => {
 	const font = {
@@ -38,4 +38,30 @@ test('adds compact feature metadata to processed Google families', () => {
 	const { Example: font } = processGoogleFonts(raw, { Example: { regular: ['liga', 'ss01'] } });
 	assert.deepEqual(font.features, ['liga', 'ss01']);
 	assert.deepEqual(font.variants[0].weight, [400, 700]);
+});
+
+test('compacts Google metrics and multiplexed state', () => {
+	const font = {
+		family: 'Example',
+		files: { regular: 'regular.woff2' },
+		axes: [{ tag: 'wght', start: 400, end: 700 }],
+	};
+	assert.deepEqual(
+		compactFontMetrics(font, {
+			regular: {
+				features: [],
+				samples: [
+					{ weight: 400, width: 10, lineHeight: 1.2, advanceSignature: 'same' },
+					{ weight: 700, width: 11, lineHeight: 1.2, advanceSignature: 'same' },
+				],
+			},
+		}),
+		{
+			metrics: [
+				[400, 10, 1.2],
+				[700, 11, 1.2],
+			],
+			multiplexed: true,
+		},
+	);
 });
