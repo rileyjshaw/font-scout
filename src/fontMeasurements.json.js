@@ -3,9 +3,9 @@ export default [
 		"measurements": [
 			{
 				"height": 1147,
-				"size": 78738933.40625,
+				"size": 82514552.734375,
 				"weight": 400,
-				"width": 68647.71875
+				"width": 71939.453125
 			}
 		],
 		"name": "ABeeZee"
@@ -32,25 +32,25 @@ export default [
 			{
 				"height": 1178,
 				"size": 76531291.65625,
-				"weight": "500",
+				"weight": 500,
 				"width": 64967.140625
 			},
 			{
 				"height": 1178,
 				"size": 77057876.0625,
-				"weight": "600",
+				"weight": 600,
 				"width": 65414.15625
 			},
 			{
 				"height": 1178,
 				"size": 77722212.84375,
-				"weight": "700",
+				"weight": 700,
 				"width": 65978.109375
 			},
 			{
 				"height": 1178,
 				"size": 78499435.15625,
-				"weight": "800",
+				"weight": 800,
 				"width": 66637.890625
 			}
 		],
@@ -114,46 +114,46 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 82959748.09375,
+				"height": 1426,
+				"size": 100424958.21875,
 				"weight": 100,
 				"width": 70424.234375
 			},
 			{
-				"height": 1178,
-				"size": 83063623.765625,
+				"height": 1426,
+				"size": 100424958.21875,
 				"weight": 200,
-				"width": 70512.4140625
+				"width": 70424.234375
 			},
 			{
-				"height": 1178,
-				"size": 83152121.015625,
+				"height": 1426,
+				"size": 100424958.21875,
 				"weight": 300,
-				"width": 70587.5390625
+				"width": 70424.234375
 			},
 			{
-				"height": 1178,
-				"size": 83256180.75,
+				"height": 1426,
+				"size": 100830588.375,
 				"weight": 400,
-				"width": 70675.875
+				"width": 70708.6875
 			},
 			{
-				"height": 1178,
-				"size": 83361584.140625,
+				"height": 1426,
+				"size": 100910477.796875,
 				"weight": 500,
-				"width": 70765.3515625
+				"width": 70764.7109375
 			},
 			{
-				"height": 1178,
-				"size": 83451121.34375,
+				"height": 1426,
+				"size": 101028958.34375,
 				"weight": 600,
-				"width": 70841.359375
+				"width": 70847.796875
 			},
 			{
-				"height": 1178,
-				"size": 83555024.625,
+				"height": 1426,
+				"size": 101147093.53125,
 				"weight": 700,
-				"width": 70929.5625
+				"width": 70930.640625
 			}
 		],
 		"name": "Acorn"
@@ -366,7 +366,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 60856022.984375,
-				"weight": "700",
+				"weight": 700,
 				"width": 51660.4609375
 			}
 		],
@@ -405,31 +405,31 @@ export default [
 			{
 				"height": 1364,
 				"size": 91336530.3125,
-				"weight": "500",
+				"weight": 500,
 				"width": 66962.265625
 			},
 			{
 				"height": 1364,
 				"size": 92174377.96875,
-				"weight": "600",
+				"weight": 600,
 				"width": 67576.5234375
 			},
 			{
 				"height": 1364,
 				"size": 93006897.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 68186.875
 			},
 			{
 				"height": 1364,
 				"size": 94397538.125,
-				"weight": "800",
+				"weight": 800,
 				"width": 69206.40625
 			},
 			{
 				"height": 1364,
 				"size": 95761538.125,
-				"weight": "900",
+				"weight": 900,
 				"width": 70206.40625
 			}
 		],
@@ -502,6 +502,66 @@ export default [
 			}
 		],
 		"name": "Akshar"
+	},
+	{
+		"isMultiplexed": true,
+		"measurements": [
+			{
+				"height": 1178,
+				"size": 86016575.265625,
+				"weight": 100,
+				"width": 73019.1640625
+			},
+			{
+				"height": 1178,
+				"size": 86016575.265625,
+				"weight": 200,
+				"width": 73019.1640625
+			},
+			{
+				"height": 1178,
+				"size": 86016575.265625,
+				"weight": 300,
+				"width": 73019.1640625
+			},
+			{
+				"height": 1178,
+				"size": 86016575.265625,
+				"weight": 400,
+				"width": 73019.1640625
+			},
+			{
+				"height": 1178,
+				"size": 86016575.265625,
+				"weight": 500,
+				"width": 73019.1640625
+			},
+			{
+				"height": 1178,
+				"size": 86016575.265625,
+				"weight": 600,
+				"width": 73019.1640625
+			},
+			{
+				"height": 1178,
+				"size": 86016575.265625,
+				"weight": 700,
+				"width": 73019.1640625
+			},
+			{
+				"height": 1178,
+				"size": 86016575.265625,
+				"weight": 800,
+				"width": 73019.1640625
+			},
+			{
+				"height": 1178,
+				"size": 86016575.265625,
+				"weight": 900,
+				"width": 73019.1640625
+			}
+		],
+		"name": "Akt"
 	},
 	{
 		"measurements": [
@@ -664,7 +724,7 @@ export default [
 			{
 				"height": 1333,
 				"size": 100134803.7890625,
-				"weight": "700",
+				"weight": 700,
 				"width": 75119.8828125
 			}
 		],
@@ -716,13 +776,13 @@ export default [
 			{
 				"height": 1209,
 				"size": 70350841.03125,
-				"weight": "100",
+				"weight": 100,
 				"width": 58189.28125
 			},
 			{
 				"height": 1209,
 				"size": 71947892.25,
-				"weight": "300",
+				"weight": 300,
 				"width": 59510.25
 			},
 			{
@@ -734,25 +794,25 @@ export default [
 			{
 				"height": 1209,
 				"size": 74467117.6640625,
-				"weight": "500",
+				"weight": 500,
 				"width": 61593.9765625
 			},
 			{
 				"height": 1209,
 				"size": 75989191.9921875,
-				"weight": "700",
+				"weight": 700,
 				"width": 62852.9296875
 			},
 			{
 				"height": 1209,
 				"size": 77276484.1875,
-				"weight": "800",
+				"weight": 800,
 				"width": 63917.6875
 			},
 			{
 				"height": 1209,
 				"size": 79079792.6953125,
-				"weight": "900",
+				"weight": 900,
 				"width": 65409.2578125
 			}
 		],
@@ -763,13 +823,13 @@ export default [
 			{
 				"height": 1209,
 				"size": 74295808.03125,
-				"weight": "100",
+				"weight": 100,
 				"width": 61452.28125
 			},
 			{
 				"height": 1209,
 				"size": 75701289.421875,
-				"weight": "300",
+				"weight": 300,
 				"width": 62614.796875
 			},
 			{
@@ -781,25 +841,25 @@ export default [
 			{
 				"height": 1209,
 				"size": 77948470.9453125,
-				"weight": "500",
+				"weight": 500,
 				"width": 64473.5078125
 			},
 			{
 				"height": 1209,
 				"size": 79344894.28125,
-				"weight": "700",
+				"weight": 700,
 				"width": 65628.53125
 			},
 			{
 				"height": 1209,
 				"size": 80527853.5546875,
-				"weight": "800",
+				"weight": 800,
 				"width": 66606.9921875
 			},
 			{
 				"height": 1209,
 				"size": 82195942.96875,
-				"weight": "900",
+				"weight": 900,
 				"width": 67986.71875
 			}
 		],
@@ -816,25 +876,25 @@ export default [
 			{
 				"height": 1364,
 				"size": 94072799.5625,
-				"weight": "500",
+				"weight": 500,
 				"width": 68968.328125
 			},
 			{
 				"height": 1364,
 				"size": 94838845.40625,
-				"weight": "700",
+				"weight": 700,
 				"width": 69529.9453125
 			},
 			{
 				"height": 1364,
 				"size": 95613554.78125,
-				"weight": "800",
+				"weight": 800,
 				"width": 70097.9140625
 			},
 			{
 				"height": 1364,
 				"size": 96568493.3125,
-				"weight": "900",
+				"weight": 900,
 				"width": 70798.015625
 			}
 		],
@@ -994,6 +1054,17 @@ export default [
 	{
 		"measurements": [
 			{
+				"height": 1271,
+				"size": 118675812,
+				"weight": 400,
+				"width": 93372
+			}
+		],
+		"name": "Alien Block"
+	},
+	{
+		"measurements": [
+			{
 				"height": 1240,
 				"size": 88111619.6875,
 				"weight": 400,
@@ -1064,7 +1135,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 65470963.4375,
-				"weight": "700",
+				"weight": 700,
 				"width": 52799.1640625
 			}
 		],
@@ -1119,7 +1190,7 @@ export default [
 			{
 				"height": 1116,
 				"size": 77324893.59375,
-				"weight": "300",
+				"weight": 300,
 				"width": 69287.5390625
 			},
 			{
@@ -1131,13 +1202,13 @@ export default [
 			{
 				"height": 1116,
 				"size": 81675201.09375,
-				"weight": "700",
+				"weight": 700,
 				"width": 73185.6640625
 			},
 			{
 				"height": 1116,
 				"size": 85440977.4375,
-				"weight": "800",
+				"weight": 800,
 				"width": 76560.015625
 			}
 		],
@@ -1154,7 +1225,7 @@ export default [
 			{
 				"height": 1271,
 				"size": 85898777.4453125,
-				"weight": "700",
+				"weight": 700,
 				"width": 67583.6171875
 			}
 		],
@@ -1185,46 +1256,46 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1023,
-				"size": 71237476.1484375,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 200,
-				"width": 69635.8515625
+				"width": 68647.71875
 			},
 			{
-				"height": 1023,
-				"size": 72279281.765625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 300,
-				"width": 70654.234375
+				"width": 68647.71875
 			},
 			{
-				"height": 1023,
-				"size": 73296775.1484375,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 71648.8515625
+				"width": 68647.71875
 			},
 			{
-				"height": 1023,
-				"size": 74355708.0234375,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 500,
-				"width": 72683.9765625
+				"width": 68647.71875
 			},
 			{
-				"height": 1023,
-				"size": 75354507.6796875,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 600,
-				"width": 73660.3203125
+				"width": 72215.359375
 			},
 			{
-				"height": 1023,
-				"size": 76372256.8125,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 700,
-				"width": 74655.1875
+				"width": 72215.359375
 			},
 			{
-				"height": 1023,
-				"size": 77415085.4296875,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 800,
-				"width": 75674.5703125
+				"width": 72215.359375
 			}
 		],
 		"name": "ALT Riviera"
@@ -1449,7 +1520,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 80663941.6171875,
-				"weight": "700",
+				"weight": 700,
 				"width": 66719.5546875
 			}
 		],
@@ -1513,7 +1584,7 @@ export default [
 			{
 				"height": 1271,
 				"size": 51038057.546875,
-				"weight": "700",
+				"weight": 700,
 				"width": 40155.828125
 			}
 		],
@@ -1542,13 +1613,13 @@ export default [
 			{
 				"height": 1333,
 				"size": 104674512.328125,
-				"weight": "600",
+				"weight": 600,
 				"width": 78525.515625
 			},
 			{
 				"height": 1333,
 				"size": 104674512.328125,
-				"weight": "700",
+				"weight": 700,
 				"width": 78525.515625
 			}
 		],
@@ -1565,7 +1636,7 @@ export default [
 			{
 				"height": 1736,
 				"size": 120881979.3125,
-				"weight": "700",
+				"weight": 700,
 				"width": 69632.4765625
 			}
 		],
@@ -1593,7 +1664,7 @@ export default [
 			{
 				"height": 1922,
 				"size": 134186367.015625,
-				"weight": "700",
+				"weight": 700,
 				"width": 69816.0078125
 			}
 		],
@@ -1798,7 +1869,7 @@ export default [
 			{
 				"height": 1612,
 				"size": 122924810.53125,
-				"weight": "700",
+				"weight": 700,
 				"width": 76256.0859375
 			}
 		],
@@ -2356,7 +2427,7 @@ export default [
 			{
 				"height": 1395,
 				"size": 94172853.515625,
-				"weight": "700",
+				"weight": 700,
 				"width": 67507.421875
 			}
 		],
@@ -2385,7 +2456,7 @@ export default [
 			{
 				"height": 992,
 				"size": 67687074,
-				"weight": "700",
+				"weight": 700,
 				"width": 68232.9375
 			}
 		],
@@ -2438,10 +2509,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1147,
-				"size": 78738933.40625,
+				"height": 1519,
+				"size": 88218250.96875,
 				"weight": 400,
-				"width": 68647.71875
+				"width": 58076.53125
 			}
 		],
 		"name": "Anton"
@@ -2625,15 +2696,15 @@ export default [
 		"measurements": [
 			{
 				"height": 1054,
-				"size": 70575724.71875,
-				"weight": 400,
-				"width": 66959.890625
-			},
-			{
-				"height": 1054,
 				"size": 72418520.203125,
 				"weight": 700,
 				"width": 68708.2734375
+			},
+			{
+				"height": 1054,
+				"size": 70575724.71875,
+				"weight": 400,
+				"width": 66959.890625
 			}
 		],
 		"name": "Apfel Grotezk"
@@ -2715,21 +2786,15 @@ export default [
 		"measurements": [
 			{
 				"height": 1178,
+				"size": 89624513.171875,
+				"weight": 700,
+				"width": 76081.9296875
+			},
+			{
+				"height": 1178,
 				"size": 92020565.171875,
-				"weight": 100,
-				"width": 78115.9296875
-			},
-			{
-				"height": 1178,
-				"size": 91115833.5625,
 				"weight": 300,
-				"width": 77347.90625
-			},
-			{
-				"height": 1178,
-				"size": 90035092.1875,
-				"weight": 400,
-				"width": 76430.46875
+				"width": 78115.9296875
 			},
 			{
 				"height": 1178,
@@ -2739,15 +2804,21 @@ export default [
 			},
 			{
 				"height": 1178,
+				"size": 90035092.1875,
+				"weight": 400,
+				"width": 76430.46875
+			},
+			{
+				"height": 1178,
 				"size": 90047083.859375,
 				"weight": 600,
 				"width": 76440.6484375
 			},
 			{
 				"height": 1178,
-				"size": 89624513.171875,
-				"weight": 700,
-				"width": 76081.9296875
+				"size": 92020565.171875,
+				"weight": 100,
+				"width": 78115.9296875
 			}
 		],
 		"name": "Archia"
@@ -2884,7 +2955,7 @@ export default [
 			{
 				"height": 1550,
 				"size": 118744240.625,
-				"weight": "700",
+				"weight": 700,
 				"width": 76609.1875
 			}
 		],
@@ -2901,7 +2972,7 @@ export default [
 			{
 				"height": 1550,
 				"size": 118744192.1875,
-				"weight": "700",
+				"weight": 700,
 				"width": 76609.15625
 			}
 		],
@@ -2910,10 +2981,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 87452797.7578125,
+				"height": 1178,
+				"size": 85263290.28125,
 				"weight": 400,
-				"width": 72334.8203125
+				"width": 72379.703125
 			}
 		],
 		"name": "Argesta Display"
@@ -2922,9 +2993,9 @@ export default [
 		"measurements": [
 			{
 				"height": 1178,
-				"size": 82011209.609375,
+				"size": 82062526.234375,
 				"weight": 400,
-				"width": 69619.0234375
+				"width": 69662.5859375
 			}
 		],
 		"name": "Argesta Hairline"
@@ -2932,13 +3003,30 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 87456481.4296875,
+				"height": 1178,
+				"size": 85266428.546875,
 				"weight": 400,
-				"width": 72337.8671875
+				"width": 72382.3671875
 			}
 		],
 		"name": "Argesta Headline"
+	},
+	{
+		"measurements": [
+			{
+				"height": 1178,
+				"size": 93959359.90625,
+				"weight": 700,
+				"width": 79761.765625
+			},
+			{
+				"height": 1178,
+				"size": 92493237.671875,
+				"weight": 400,
+				"width": 78517.1796875
+			}
+		],
+		"name": "Argesta Text"
 	},
 	{
 		"measurements": [
@@ -3077,7 +3165,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 80614424.6875,
-				"weight": "700",
+				"weight": 700,
 				"width": 65011.6328125
 			}
 		],
@@ -3094,7 +3182,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 81935760.9375,
-				"weight": "700",
+				"weight": 700,
 				"width": 66077.2265625
 			}
 		],
@@ -3122,7 +3210,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 100764773.4375,
-				"weight": "700",
+				"weight": 700,
 				"width": 81261.9140625
 			}
 		],
@@ -3139,7 +3227,7 @@ export default [
 			{
 				"height": 1767,
 				"size": 112757571,
-				"weight": "700",
+				"weight": 700,
 				"width": 63813
 			}
 		],
@@ -3210,13 +3298,13 @@ export default [
 			{
 				"height": 1147,
 				"size": 64853700.8828125,
-				"weight": "200",
+				"weight": 200,
 				"width": 56542.0234375
 			},
 			{
 				"height": 1147,
 				"size": 64868486.4296875,
-				"weight": "300",
+				"weight": 300,
 				"width": 56554.9140625
 			},
 			{
@@ -3228,31 +3316,31 @@ export default [
 			{
 				"height": 1147,
 				"size": 64890996.3046875,
-				"weight": "500",
+				"weight": 500,
 				"width": 56574.5390625
 			},
 			{
 				"height": 1147,
 				"size": 64891462.2734375,
-				"weight": "600",
+				"weight": 600,
 				"width": 56574.9453125
 			},
 			{
 				"height": 1147,
 				"size": 64891910.3203125,
-				"weight": "700",
+				"weight": 700,
 				"width": 56575.3359375
 			},
 			{
 				"height": 1147,
 				"size": 64892214.9921875,
-				"weight": "800",
+				"weight": 800,
 				"width": 56575.6015625
 			},
 			{
 				"height": 1147,
 				"size": 64892465.8984375,
-				"weight": "900",
+				"weight": 900,
 				"width": 56575.8203125
 			}
 		],
@@ -3390,7 +3478,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 82882305.4921875,
-				"weight": "700",
+				"weight": 700,
 				"width": 68554.4296875
 			}
 		],
@@ -3407,7 +3495,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 90028088.609375,
-				"weight": "700",
+				"weight": 700,
 				"width": 76424.5234375
 			}
 		],
@@ -3418,13 +3506,13 @@ export default [
 			{
 				"height": 1581,
 				"size": 99445381.7109375,
-				"weight": "200",
+				"weight": 200,
 				"width": 62900.3046875
 			},
 			{
 				"height": 1581,
 				"size": 100350417.75,
-				"weight": "300",
+				"weight": 300,
 				"width": 63472.75
 			},
 			{
@@ -3434,21 +3522,21 @@ export default [
 				"width": 63982.515625
 			},
 			{
-				"height": 1147,
-				"size": 78738933.40625,
-				"weight": "500",
-				"width": 68647.71875
+				"height": 1581,
+				"size": 102545154.5390625,
+				"weight": 500,
+				"width": 64860.9453125
 			},
 			{
 				"height": 1581,
 				"size": 106052528.9296875,
-				"weight": "600",
+				"weight": 600,
 				"width": 67079.3984375
 			},
 			{
 				"height": 1581,
 				"size": 111775242.515625,
-				"weight": "700",
+				"weight": 700,
 				"width": 70699.078125
 			}
 		],
@@ -3465,7 +3553,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 89162569.3359375,
-				"weight": "700",
+				"weight": 700,
 				"width": 73749.0234375
 			}
 		],
@@ -3571,7 +3659,7 @@ export default [
 			{
 				"height": 1612,
 				"size": 92259784.90625,
-				"weight": "300",
+				"weight": 300,
 				"width": 57233.1171875
 			},
 			{
@@ -3583,19 +3671,19 @@ export default [
 			{
 				"height": 1612,
 				"size": 101022856.1875,
-				"weight": "500",
+				"weight": 500,
 				"width": 62669.265625
 			},
 			{
 				"height": 1612,
 				"size": 108484930.125,
-				"weight": "600",
+				"weight": 600,
 				"width": 67298.34375
 			},
 			{
 				"height": 1612,
 				"size": 117433066.5625,
-				"weight": "700",
+				"weight": 700,
 				"width": 72849.296875
 			}
 		],
@@ -3649,6 +3737,18 @@ export default [
 		"measurements": [
 			{
 				"height": 1178,
+				"size": 91152949.765625,
+				"weight": 700,
+				"width": 77379.4140625
+			},
+			{
+				"height": 1178,
+				"size": 91152949.765625,
+				"weight": 900,
+				"width": 77379.4140625
+			},
+			{
+				"height": 1178,
 				"size": 86492128.34375,
 				"weight": 300,
 				"width": 73422.859375
@@ -3658,18 +3758,6 @@ export default [
 				"size": 88040020.34375,
 				"weight": 400,
 				"width": 74736.859375
-			},
-			{
-				"height": 1178,
-				"size": 89604551.59375,
-				"weight": 700,
-				"width": 76064.984375
-			},
-			{
-				"height": 1178,
-				"size": 91152949.765625,
-				"weight": 900,
-				"width": 77379.4140625
 			}
 		],
 		"name": "AUTHENTIC Sans"
@@ -3723,7 +3811,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 83051272.6875,
-				"weight": "300",
+				"weight": 300,
 				"width": 68694.1875
 			},
 			{
@@ -3735,7 +3823,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 86327237.6484375,
-				"weight": "700",
+				"weight": 700,
 				"width": 71403.8359375
 			}
 		],
@@ -3746,7 +3834,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 82278030,
-				"weight": "300",
+				"weight": 300,
 				"width": 66353.25
 			},
 			{
@@ -3758,7 +3846,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 86244673.75,
-				"weight": "700",
+				"weight": 700,
 				"width": 69552.15625
 			}
 		],
@@ -3769,7 +3857,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 85558020.359375,
-				"weight": "300",
+				"weight": 300,
 				"width": 72629.8984375
 			},
 			{
@@ -3781,7 +3869,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 90104380.3359375,
-				"weight": "700",
+				"weight": 700,
 				"width": 74528.0234375
 			}
 		],
@@ -3858,7 +3946,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 89922208.59375,
-				"weight": "700",
+				"weight": 700,
 				"width": 74377.34375
 			}
 		],
@@ -3876,7 +3964,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 98247684.84375,
-				"weight": "700",
+				"weight": 700,
 				"width": 81263.59375
 			}
 		],
@@ -3940,10 +4028,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 89590921.765625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 76053.4140625
+				"width": 68647.71875
 			}
 		],
 		"name": "Bagnard"
@@ -3975,13 +4063,13 @@ export default [
 			{
 				"height": 1240,
 				"size": 85317386.25,
-				"weight": "200",
+				"weight": 200,
 				"width": 68804.34375
 			},
 			{
 				"height": 1240,
 				"size": 86460375.625,
-				"weight": "300",
+				"weight": 300,
 				"width": 69726.109375
 			},
 			{
@@ -3993,19 +4081,19 @@ export default [
 			{
 				"height": 1240,
 				"size": 89047354.6875,
-				"weight": "500",
+				"weight": 500,
 				"width": 71812.3828125
 			},
 			{
 				"height": 1240,
 				"size": 90559854.375,
-				"weight": "600",
+				"weight": 600,
 				"width": 73032.140625
 			},
 			{
 				"height": 1240,
 				"size": 92018239.6875,
-				"weight": "700",
+				"weight": 700,
 				"width": 74208.2578125
 			}
 		],
@@ -4404,7 +4492,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 87081426.9609375,
-				"weight": "700",
+				"weight": 700,
 				"width": 72027.6484375
 			}
 		],
@@ -4435,28 +4523,28 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1240,
-				"size": 77179731.25,
-				"weight": 100,
-				"width": 62241.71875
-			},
-			{
-				"height": 1240,
-				"size": 77390947.8125,
-				"weight": 300,
-				"width": 62412.0546875
-			},
-			{
-				"height": 1240,
-				"size": 78313924.375,
-				"weight": 400,
-				"width": 63156.390625
-			},
-			{
-				"height": 1302,
-				"size": 83963314.96875,
+				"height": 1085,
+				"size": 70020017.265625,
 				"weight": 700,
-				"width": 64487.953125
+				"width": 64534.578125
+			},
+			{
+				"height": 1085,
+				"size": 67576910.8984375,
+				"weight": 300,
+				"width": 62282.8671875
+			},
+			{
+				"height": 1085,
+				"size": 68573144.3359375,
+				"weight": 400,
+				"width": 63201.0546875
+			},
+			{
+				"height": 1085,
+				"size": 67576910.8984375,
+				"weight": 100,
+				"width": 62282.8671875
 			}
 		],
 		"name": "Bariol"
@@ -4464,28 +4552,28 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1240,
-				"size": 83438892.8125,
-				"weight": 100,
-				"width": 67289.4296875
-			},
-			{
-				"height": 1271,
-				"size": 86147069.28125,
-				"weight": 300,
-				"width": 67778.96875
-			},
-			{
-				"height": 1271,
-				"size": 86709526.5,
-				"weight": 400,
-				"width": 68221.5
-			},
-			{
-				"height": 1302,
-				"size": 89919883.59375,
+				"height": 1085,
+				"size": 74975593.7109375,
 				"weight": 700,
-				"width": 69062.890625
+				"width": 69101.9296875
+			},
+			{
+				"height": 1085,
+				"size": 73059687.1484375,
+				"weight": 300,
+				"width": 67336.1171875
+			},
+			{
+				"height": 1085,
+				"size": 74068635.4296875,
+				"weight": 400,
+				"width": 68266.0234375
+			},
+			{
+				"height": 1085,
+				"size": 73059687.1484375,
+				"weight": 100,
+				"width": 67336.1171875
 			}
 		],
 		"name": "Bariol Serif"
@@ -4495,19 +4583,19 @@ export default [
 			{
 				"height": 1178,
 				"size": 77412398.84375,
-				"weight": "100",
+				"weight": 100,
 				"width": 65715.109375
 			},
 			{
 				"height": 1178,
 				"size": 77671899.359375,
-				"weight": "200",
+				"weight": 200,
 				"width": 65935.3984375
 			},
 			{
 				"height": 1178,
 				"size": 78095178.6875,
-				"weight": "300",
+				"weight": 300,
 				"width": 66294.71875
 			},
 			{
@@ -4519,31 +4607,31 @@ export default [
 			{
 				"height": 1178,
 				"size": 79345211.546875,
-				"weight": "500",
+				"weight": 500,
 				"width": 67355.8671875
 			},
 			{
 				"height": 1178,
 				"size": 79950675.9375,
-				"weight": "600",
+				"weight": 600,
 				"width": 67869.84375
 			},
 			{
 				"height": 1178,
 				"size": 80699423.78125,
-				"weight": "700",
+				"weight": 700,
 				"width": 68505.453125
 			},
 			{
 				"height": 1178,
 				"size": 81505884.421875,
-				"weight": "800",
+				"weight": 800,
 				"width": 69190.0546875
 			},
 			{
 				"height": 1178,
 				"size": 82235351.71875,
-				"weight": "900",
+				"weight": 900,
 				"width": 69809.296875
 			}
 		],
@@ -4554,19 +4642,19 @@ export default [
 			{
 				"height": 1178,
 				"size": 57164649.546875,
-				"weight": "100",
+				"weight": 100,
 				"width": 48526.8671875
 			},
 			{
 				"height": 1178,
 				"size": 57715548.609375,
-				"weight": "200",
+				"weight": 200,
 				"width": 48994.5234375
 			},
 			{
 				"height": 1178,
 				"size": 58545247.140625,
-				"weight": "300",
+				"weight": 300,
 				"width": 49698.8515625
 			},
 			{
@@ -4578,31 +4666,31 @@ export default [
 			{
 				"height": 1178,
 				"size": 61137693.828125,
-				"weight": "500",
+				"weight": 500,
 				"width": 51899.5703125
 			},
 			{
 				"height": 1178,
 				"size": 62335903.890625,
-				"weight": "600",
+				"weight": 600,
 				"width": 52916.7265625
 			},
 			{
 				"height": 1178,
 				"size": 63850232.09375,
-				"weight": "700",
+				"weight": 700,
 				"width": 54202.234375
 			},
 			{
 				"height": 1178,
 				"size": 65351593.09375,
-				"weight": "800",
+				"weight": 800,
 				"width": 55476.734375
 			},
 			{
 				"height": 1178,
 				"size": 66651746.171875,
-				"weight": "900",
+				"weight": 900,
 				"width": 56580.4296875
 			}
 		],
@@ -4613,19 +4701,19 @@ export default [
 			{
 				"height": 1178,
 				"size": 67285878.296875,
-				"weight": "100",
+				"weight": 100,
 				"width": 57118.7421875
 			},
 			{
 				"height": 1178,
 				"size": 67700543.5,
-				"weight": "200",
+				"weight": 200,
 				"width": 57470.75
 			},
 			{
 				"height": 1178,
 				"size": 68312394.859375,
-				"weight": "300",
+				"weight": 300,
 				"width": 57990.1484375
 			},
 			{
@@ -4637,31 +4725,31 @@ export default [
 			{
 				"height": 1178,
 				"size": 70249523.828125,
-				"weight": "500",
+				"weight": 500,
 				"width": 59634.5703125
 			},
 			{
 				"height": 1178,
 				"size": 71140855.6875,
-				"weight": "600",
+				"weight": 600,
 				"width": 60391.21875
 			},
 			{
 				"height": 1178,
 				"size": 72272527.15625,
-				"weight": "700",
+				"weight": 700,
 				"width": 61351.890625
 			},
 			{
 				"height": 1178,
 				"size": 73421325.640625,
-				"weight": "800",
+				"weight": 800,
 				"width": 62327.1015625
 			},
 			{
 				"height": 1178,
 				"size": 74473905.453125,
-				"weight": "900",
+				"weight": 900,
 				"width": 63220.6328125
 			}
 		],
@@ -4703,28 +4791,28 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 88512911.296875,
-				"weight": 400,
-				"width": 73211.671875
-			},
-			{
-				"height": 1209,
-				"size": 89092126.1953125,
-				"weight": 500,
-				"width": 73690.7578125
-			},
-			{
-				"height": 1209,
-				"size": 89470760.4375,
-				"weight": 600,
-				"width": 74003.9375
-			},
-			{
-				"height": 1209,
-				"size": 89844284.765625,
+				"height": 1178,
+				"size": 87526338.71875,
 				"weight": 700,
-				"width": 74312.890625
+				"width": 74300.796875
+			},
+			{
+				"height": 1178,
+				"size": 86793466.265625,
+				"weight": 500,
+				"width": 73678.6640625
+			},
+			{
+				"height": 1178,
+				"size": 86229121.4375,
+				"weight": 400,
+				"width": 73199.59375
+			},
+			{
+				"height": 1178,
+				"size": 87162391.9375,
+				"weight": 600,
+				"width": 73991.84375
 			}
 		],
 		"name": "Basier Circle"
@@ -4732,28 +4820,28 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 93487851.84375,
-				"weight": 400,
-				"width": 77326.59375
-			},
-			{
-				"height": 1209,
-				"size": 93422915.3203125,
-				"weight": 500,
-				"width": 77272.8828125
-			},
-			{
-				"height": 1209,
-				"size": 93379230.75,
-				"weight": 600,
-				"width": 77236.75
-			},
-			{
-				"height": 1209,
-				"size": 93335546.1796875,
+				"height": 1178,
+				"size": 91014221.859375,
 				"weight": 700,
-				"width": 77200.6171875
+				"width": 77261.6484375
+			},
+			{
+				"height": 1178,
+				"size": 91099341.5625,
+				"weight": 500,
+				"width": 77333.90625
+			},
+			{
+				"height": 1178,
+				"size": 91162622.25,
+				"weight": 400,
+				"width": 77387.625
+			},
+			{
+				"height": 1178,
+				"size": 91056786.3125,
+				"weight": 600,
+				"width": 77297.78125
 			}
 		],
 		"name": "Basier Circle Mono"
@@ -4761,28 +4849,28 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 88520165.296875,
-				"weight": 400,
-				"width": 73217.671875
-			},
-			{
-				"height": 1209,
-				"size": 89097151.1015625,
-				"weight": 500,
-				"width": 73694.9140625
-			},
-			{
-				"height": 1209,
-				"size": 89473461.796875,
-				"weight": 600,
-				"width": 74006.171875
-			},
-			{
-				"height": 1209,
-				"size": 89844681.46875,
+				"height": 1178,
+				"size": 87526725.25,
 				"weight": 700,
-				"width": 74313.21875
+				"width": 74301.125
+			},
+			{
+				"height": 1178,
+				"size": 86798362.328125,
+				"weight": 500,
+				"width": 73682.8203125
+			},
+			{
+				"height": 1178,
+				"size": 86236189.4375,
+				"weight": 400,
+				"width": 73205.59375
+			},
+			{
+				"height": 1178,
+				"size": 87165024.03125,
+				"weight": 600,
+				"width": 73994.078125
 			}
 		],
 		"name": "Basier Square"
@@ -4790,28 +4878,28 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 93487851.84375,
-				"weight": 400,
-				"width": 77326.59375
-			},
-			{
-				"height": 1209,
-				"size": 93422915.3203125,
-				"weight": 500,
-				"width": 77272.8828125
-			},
-			{
-				"height": 1209,
-				"size": 93379230.75,
-				"weight": 600,
-				"width": 77236.75
-			},
-			{
-				"height": 1209,
-				"size": 93335546.1796875,
+				"height": 1178,
+				"size": 91014221.859375,
 				"weight": 700,
-				"width": 77200.6171875
+				"width": 77261.6484375
+			},
+			{
+				"height": 1178,
+				"size": 91099341.5625,
+				"weight": 500,
+				"width": 77333.90625
+			},
+			{
+				"height": 1178,
+				"size": 91162622.25,
+				"weight": 400,
+				"width": 77387.625
+			},
+			{
+				"height": 1178,
+				"size": 91056786.3125,
+				"weight": 600,
+				"width": 77297.78125
 			}
 		],
 		"name": "Basier Square Mono"
@@ -4879,13 +4967,13 @@ export default [
 			{
 				"height": 1798,
 				"size": 131644573.359375,
-				"weight": "100",
+				"weight": 100,
 				"width": 73217.2265625
 			},
 			{
 				"height": 1798,
 				"size": 133089645.625,
-				"weight": "300",
+				"weight": 300,
 				"width": 74020.9375
 			},
 			{
@@ -4897,13 +4985,13 @@ export default [
 			{
 				"height": 1798,
 				"size": 137403792.109375,
-				"weight": "700",
+				"weight": 700,
 				"width": 76420.3515625
 			},
 			{
 				"height": 1798,
 				"size": 139034985.46875,
-				"weight": "900",
+				"weight": 900,
 				"width": 77327.578125
 			}
 		],
@@ -4969,19 +5057,19 @@ export default [
 			{
 				"height": 1240,
 				"size": 91047435.9375,
-				"weight": "100",
+				"weight": 100,
 				"width": 73425.3515625
 			},
 			{
 				"height": 1240,
 				"size": 92622797.8125,
-				"weight": "200",
+				"weight": 200,
 				"width": 74695.8046875
 			},
 			{
 				"height": 1240,
 				"size": 94193209.375,
-				"weight": "300",
+				"weight": 300,
 				"width": 75962.265625
 			},
 			{
@@ -4993,31 +5081,31 @@ export default [
 			{
 				"height": 1240,
 				"size": 96976118.125,
-				"weight": "500",
+				"weight": 500,
 				"width": 78206.546875
 			},
 			{
 				"height": 1240,
 				"size": 98173435,
-				"weight": "600",
+				"weight": 600,
 				"width": 79172.125
 			},
 			{
 				"height": 1240,
 				"size": 99414752.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 80173.1875
 			},
 			{
 				"height": 1240,
 				"size": 100611759.375,
-				"weight": "800",
+				"weight": 800,
 				"width": 81138.515625
 			},
 			{
 				"height": 1240,
 				"size": 101818637.8125,
-				"weight": "900",
+				"weight": 900,
 				"width": 82111.8046875
 			}
 		],
@@ -5109,13 +5197,13 @@ export default [
 			{
 				"height": 1147,
 				"size": 80069283.1484375,
-				"weight": "600",
+				"weight": 600,
 				"width": 69807.5703125
 			},
 			{
 				"height": 1240,
 				"size": 92223730.9375,
-				"weight": "700",
+				"weight": 700,
 				"width": 74373.9765625
 			}
 		],
@@ -5159,7 +5247,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 88264992.1875,
-				"weight": "300",
+				"weight": 300,
 				"width": 71181.4453125
 			},
 			{
@@ -5171,7 +5259,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 90221101.875,
-				"weight": "700",
+				"weight": 700,
 				"width": 72758.953125
 			}
 		],
@@ -5182,7 +5270,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 84978798.4375,
-				"weight": "300",
+				"weight": 300,
 				"width": 68531.2890625
 			},
 			{
@@ -5194,7 +5282,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 86531385,
-				"weight": "700",
+				"weight": 700,
 				"width": 69783.375
 			}
 		],
@@ -5205,7 +5293,7 @@ export default [
 			{
 				"height": 1333,
 				"size": 56314407.4609375,
-				"weight": "300",
+				"weight": 300,
 				"width": 42246.3671875
 			},
 			{
@@ -5217,7 +5305,7 @@ export default [
 			{
 				"height": 1333,
 				"size": 60816594.1328125,
-				"weight": "700",
+				"weight": 700,
 				"width": 45623.8515625
 			}
 		],
@@ -5647,13 +5735,13 @@ export default [
 			{
 				"height": 1550,
 				"size": 211126226.5625,
-				"weight": "200",
+				"weight": 200,
 				"width": 136210.46875
 			},
 			{
 				"height": 1550,
 				"size": 210974423.4375,
-				"weight": "300",
+				"weight": 300,
 				"width": 136112.53125
 			},
 			{
@@ -5665,13 +5753,13 @@ export default [
 			{
 				"height": 1550,
 				"size": 210292011.71875,
-				"weight": "700",
+				"weight": 700,
 				"width": 135672.265625
 			},
 			{
 				"height": 1550,
 				"size": 210055854.6875,
-				"weight": "800",
+				"weight": 800,
 				"width": 135519.90625
 			}
 		],
@@ -5699,7 +5787,7 @@ export default [
 			{
 				"height": 1333,
 				"size": 87073559.5,
-				"weight": "500",
+				"weight": 500,
 				"width": 65321.5
 			}
 		],
@@ -5710,13 +5798,13 @@ export default [
 			{
 				"height": 1736,
 				"size": 130501440.125,
-				"weight": "200",
+				"weight": 200,
 				"width": 75173.640625
 			},
 			{
 				"height": 1736,
 				"size": 132385190,
-				"weight": "300",
+				"weight": 300,
 				"width": 76258.75
 			},
 			{
@@ -5728,25 +5816,25 @@ export default [
 			{
 				"height": 1736,
 				"size": 136200918,
-				"weight": "600",
+				"weight": 600,
 				"width": 78456.75
 			},
 			{
 				"height": 1736,
 				"size": 138073383.875,
-				"weight": "700",
+				"weight": 700,
 				"width": 79535.359375
 			},
 			{
 				"height": 1736,
 				"size": 139990253.375,
-				"weight": "800",
+				"weight": 800,
 				"width": 80639.546875
 			},
 			{
 				"height": 1736,
 				"size": 141873352.25,
-				"weight": "900",
+				"weight": 900,
 				"width": 81724.28125
 			}
 		],
@@ -5933,13 +6021,12 @@ export default [
 		"name": "Bitcount Grid Double Ink"
 	},
 	{
-		"isMultiplexed": true,
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 90683954.15625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 100,
-				"width": 75007.40625
+				"width": 68647.71875
 			},
 			{
 				"height": 1209,
@@ -6543,7 +6630,7 @@ export default [
 			{
 				"height": 992,
 				"size": 61996032,
-				"weight": "700",
+				"weight": 700,
 				"width": 62496
 			}
 		],
@@ -6561,7 +6648,7 @@ export default [
 			{
 				"height": 992,
 				"size": 61996032,
-				"weight": "700",
+				"weight": 700,
 				"width": 62496
 			}
 		],
@@ -6578,7 +6665,7 @@ export default [
 			{
 				"height": 992,
 				"size": 87971792.25,
-				"weight": "700",
+				"weight": 700,
 				"width": 88681.2421875
 			}
 		],
@@ -6595,11 +6682,40 @@ export default [
 			{
 				"height": 992,
 				"size": 90970476.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 91704.109375
 			}
 		],
 		"name": "BIZ UDPMincho"
+	},
+	{
+		"measurements": [
+			{
+				"height": 1209,
+				"size": 87398421.09375,
+				"weight": 400,
+				"width": 72289.84375
+			},
+			{
+				"height": 1209,
+				"size": 91529564.6484375,
+				"weight": 500,
+				"width": 75706.8359375
+			},
+			{
+				"height": 1209,
+				"size": 95625288.28125,
+				"weight": 600,
+				"width": 79094.53125
+			},
+			{
+				"height": 1209,
+				"size": 99756431.8359375,
+				"weight": 700,
+				"width": 82511.5234375
+			}
+		],
+		"name": "BJCree"
 	},
 	{
 		"measurements": [
@@ -6648,10 +6764,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 992,
-				"size": 69110299.5,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 69667.640625
+				"width": 68647.71875
 			}
 		],
 		"name": "Blackout Midnight"
@@ -6659,10 +6775,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1023,
-				"size": 72086206.5,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 70465.5
+				"width": 68647.71875
 			}
 		],
 		"name": "Blackout Sunrise"
@@ -6705,19 +6821,19 @@ export default [
 			{
 				"height": 1209,
 				"size": 77363834.4375,
-				"weight": "100",
+				"weight": 100,
 				"width": 63989.9375
 			},
 			{
 				"height": 1209,
 				"size": 77268521.7890625,
-				"weight": "200",
+				"weight": 200,
 				"width": 63911.1015625
 			},
 			{
 				"height": 1209,
 				"size": 77094529.6875,
-				"weight": "300",
+				"weight": 300,
 				"width": 63767.1875
 			},
 			{
@@ -6729,25 +6845,25 @@ export default [
 			{
 				"height": 1209,
 				"size": 77118407.4375,
-				"weight": "600",
+				"weight": 600,
 				"width": 63786.9375
 			},
 			{
 				"height": 1209,
 				"size": 77266245.46875,
-				"weight": "700",
+				"weight": 700,
 				"width": 63909.21875
 			},
 			{
 				"height": 1209,
 				"size": 77682915.984375,
-				"weight": "800",
+				"weight": 800,
 				"width": 64253.859375
 			},
 			{
 				"height": 1209,
 				"size": 78340810.3359375,
-				"weight": "900",
+				"weight": 900,
 				"width": 64798.0234375
 			}
 		],
@@ -6763,45 +6879,45 @@ export default [
 			},
 			{
 				"height": 992,
-				"size": 69224395,
+				"size": 67933353.5,
 				"weight": 300,
-				"width": 69782.65625
+				"width": 68481.203125
 			},
 			{
 				"height": 992,
-				"size": 70916801.25,
+				"size": 70920777,
 				"weight": 400,
-				"width": 71488.7109375
+				"width": 71492.71875
 			},
 			{
 				"height": 992,
-				"size": 72592932.5,
+				"size": 72593792.75,
 				"weight": 500,
-				"width": 73178.359375
+				"width": 73179.2265625
 			},
 			{
 				"height": 992,
-				"size": 74404626.75,
+				"size": 74400868,
 				"weight": 600,
-				"width": 75004.6640625
+				"width": 75000.875
 			},
 			{
 				"height": 992,
-				"size": 76470738,
+				"size": 76471272.75,
 				"weight": 700,
-				"width": 77087.4375
+				"width": 77087.9765625
 			},
 			{
 				"height": 992,
-				"size": 78272179,
+				"size": 78273636,
 				"weight": 800,
-				"width": 78903.40625
+				"width": 78904.875
 			},
 			{
 				"height": 992,
-				"size": 80863817.75,
+				"size": 78273636,
 				"weight": 900,
-				"width": 81515.9453125
+				"width": 78904.875
 			}
 		],
 		"name": "Bloyd"
@@ -6921,7 +7037,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 88752519.984375,
-				"weight": "700",
+				"weight": 700,
 				"width": 73409.859375
 			}
 		],
@@ -6938,7 +7054,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 93510350.578125,
-				"weight": "700",
+				"weight": 700,
 				"width": 77345.203125
 			}
 		],
@@ -6991,46 +7107,46 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1271,
-				"size": 84043673.5078125,
-				"weight": 100,
+				"height": 1178,
+				"size": 82289751.390625,
+				"weight": 700,
+				"width": 69855.4765625
+			},
+			{
+				"height": 1178,
+				"size": 77894136.421875,
+				"weight": 200,
 				"width": 66124.0546875
 			},
 			{
-				"height": 1271,
-				"size": 85163901.1328125,
-				"weight": 200,
-				"width": 67005.4296875
-			},
-			{
-				"height": 1271,
-				"size": 86240279.2578125,
+				"height": 1178,
+				"size": 77894136.421875,
 				"weight": 300,
-				"width": 67852.3046875
+				"width": 66124.0546875
 			},
 			{
-				"height": 1271,
-				"size": 86911297.75,
-				"weight": 400,
-				"width": 68380.25
-			},
-			{
-				"height": 1302,
-				"size": 89729618.671875,
+				"height": 1178,
+				"size": 81183940.703125,
 				"weight": 500,
 				"width": 68916.7578125
 			},
 			{
-				"height": 1302,
-				"size": 90404441.203125,
+				"height": 1178,
+				"size": 80551934.5,
+				"weight": 400,
+				"width": 68380.25
+			},
+			{
+				"height": 1178,
+				"size": 81794494.421875,
 				"weight": 600,
 				"width": 69435.0546875
 			},
 			{
-				"height": 1302,
-				"size": 90951830.484375,
-				"weight": 700,
-				"width": 69855.4765625
+				"height": 1178,
+				"size": 77894136.421875,
+				"weight": 100,
+				"width": 66124.0546875
 			}
 		],
 		"name": "Bould"
@@ -7112,7 +7228,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 98004194.1328125,
-				"weight": "700",
+				"weight": 700,
 				"width": 81062.1953125
 			}
 		],
@@ -7255,7 +7371,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 80265384.0625,
-				"weight": "300",
+				"weight": 300,
 				"width": 64730.1484375
 			}
 		],
@@ -7370,34 +7486,34 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1426,
-				"size": 101637604.109375,
-				"weight": 300,
-				"width": 71274.6171875
-			},
-			{
-				"height": 1426,
-				"size": 103117357.625,
-				"weight": 400,
-				"width": 72312.3125
-			},
-			{
-				"height": 1426,
-				"size": 105730981.671875,
-				"weight": 500,
-				"width": 74145.1484375
-			},
-			{
-				"height": 1426,
-				"size": 107024942.984375,
-				"weight": 600,
-				"width": 75052.5546875
-			},
-			{
-				"height": 1426,
-				"size": 108333543.078125,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 700,
-				"width": 75970.2265625
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 600,
+				"width": 72215.359375
 			}
 		],
 		"name": "Bureau Serif"
@@ -7416,46 +7532,46 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 76011333.5,
-				"weight": 200,
-				"width": 64525.75
-			},
-			{
-				"height": 1178,
-				"size": 79159372.84375,
-				"weight": 300,
-				"width": 67198.109375
-			},
-			{
-				"height": 1178,
-				"size": 82290515.25,
-				"weight": 400,
-				"width": 69856.125
-			},
-			{
-				"height": 1178,
-				"size": 85305008.046875,
-				"weight": 500,
-				"width": 72415.1171875
-			},
-			{
-				"height": 1178,
-				"size": 88313095.46875,
-				"weight": 700,
-				"width": 74968.671875
-			},
-			{
-				"height": 1178,
-				"size": 90991020.78125,
-				"weight": 800,
-				"width": 77241.953125
-			},
-			{
-				"height": 1178,
-				"size": 94205230.59375,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 900,
-				"width": 79970.484375
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 700,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 800,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 200,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
 			}
 		],
 		"name": "Butler"
@@ -7463,46 +7579,46 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 76008995.90625,
-				"weight": 200,
-				"width": 64523.765625
-			},
-			{
-				"height": 1178,
-				"size": 79171134.4375,
-				"weight": 300,
-				"width": 67208.09375
-			},
-			{
-				"height": 1178,
-				"size": 82299561.921875,
-				"weight": 400,
-				"width": 69863.8046875
-			},
-			{
-				"height": 1178,
-				"size": 85309646.421875,
-				"weight": 500,
-				"width": 72419.0546875
-			},
-			{
-				"height": 1178,
-				"size": 88313095.46875,
-				"weight": 700,
-				"width": 74968.671875
-			},
-			{
-				"height": 1178,
-				"size": 90991002.375,
-				"weight": 800,
-				"width": 77241.9375
-			},
-			{
-				"height": 1178,
-				"size": 94200500.1875,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 900,
-				"width": 79966.46875
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 700,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 800,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 200,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
 			}
 		],
 		"name": "Butler Stencil"
@@ -7569,19 +7685,19 @@ export default [
 			{
 				"height": 1209,
 				"size": 70964729.671875,
-				"weight": "500",
+				"weight": 500,
 				"width": 58697.046875
 			},
 			{
 				"height": 1209,
 				"size": 71133073.4765625,
-				"weight": "600",
+				"weight": 600,
 				"width": 58836.2890625
 			},
 			{
 				"height": 1209,
 				"size": 71413108.1015625,
-				"weight": "700",
+				"weight": 700,
 				"width": 59067.9140625
 			}
 		],
@@ -7599,7 +7715,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 79352684.484375,
-				"weight": "700",
+				"weight": 700,
 				"width": 67362.2109375
 			}
 		],
@@ -7615,45 +7731,45 @@ export default [
 			},
 			{
 				"height": 1271,
-				"size": 85823063.578125,
+				"size": 85824275,
 				"weight": 400,
-				"width": 67524.046875
+				"width": 67525
 			},
 			{
 				"height": 1271,
-				"size": 87310510.90625,
+				"size": 87309130.6796875,
 				"weight": 500,
-				"width": 68694.34375
+				"width": 68693.2578125
 			},
 			{
 				"height": 1271,
-				"size": 88166132.21875,
+				"size": 89044393.21875,
 				"weight": 600,
-				"width": 69367.53125
+				"width": 70058.53125
 			},
 			{
 				"height": 1271,
-				"size": 89046408.9453125,
+				"size": 89044393.21875,
 				"weight": 700,
-				"width": 70060.1171875
+				"width": 70058.53125
 			},
 			{
 				"height": 1271,
-				"size": 90941827.4140625,
+				"size": 90942949.46875,
 				"weight": 800,
-				"width": 71551.3984375
+				"width": 71552.28125
 			},
 			{
 				"height": 1271,
-				"size": 92211894.0234375,
+				"size": 90942949.46875,
 				"weight": 900,
-				"width": 72550.6640625
+				"width": 71552.28125
 			},
 			{
 				"height": 1271,
-				"size": 93658689.2109375,
+				"size": 90942949.46875,
 				"weight": 950,
-				"width": 73688.9765625
+				"width": 71552.28125
 			}
 		],
 		"name": "Cabrio"
@@ -7831,7 +7947,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 79140571.5859375,
-				"weight": "700",
+				"weight": 700,
 				"width": 68997.8828125
 			}
 		],
@@ -7840,16 +7956,16 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1364,
-				"size": 98406270.1875,
-				"weight": 400,
-				"width": 72145.359375
+				"height": 992,
+				"size": 73595170.25,
+				"weight": 700,
+				"width": 74188.6796875
 			},
 			{
-				"height": 1364,
-				"size": 101130817.5625,
-				"weight": 700,
-				"width": 74142.828125
+				"height": 992,
+				"size": 71612666,
+				"weight": 400,
+				"width": 72190.1875
 			}
 		],
 		"name": "Calendas Plus"
@@ -7887,7 +8003,7 @@ export default [
 			{
 				"height": 1612,
 				"size": 114009543.78125,
-				"weight": "700",
+				"weight": 700,
 				"width": 70725.5234375
 			}
 		],
@@ -7926,7 +8042,7 @@ export default [
 			{
 				"height": 1395,
 				"size": 120085468.9453125,
-				"weight": "700",
+				"weight": 700,
 				"width": 86082.7734375
 			}
 		],
@@ -8009,7 +8125,7 @@ export default [
 			{
 				"height": 1364,
 				"size": 104966033.90625,
-				"weight": "700",
+				"weight": 700,
 				"width": 76954.5703125
 			}
 		],
@@ -8026,7 +8142,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 77329585.734375,
-				"weight": "700",
+				"weight": 700,
 				"width": 63961.609375
 			}
 		],
@@ -8081,51 +8197,51 @@ export default [
 		"measurements": [
 			{
 				"height": 1457,
-				"size": 111953478.2265625,
-				"weight": 100,
-				"width": 76838.3515625
-			},
-			{
-				"height": 1457,
-				"size": 111953478.2265625,
-				"weight": 200,
-				"width": 76838.3515625
-			},
-			{
-				"height": 1457,
-				"size": 111953478.2265625,
-				"weight": 300,
-				"width": 76838.3515625
-			},
-			{
-				"height": 1457,
-				"size": 111953478.2265625,
-				"weight": 400,
-				"width": 76838.3515625
-			},
-			{
-				"height": 1457,
-				"size": 111953478.2265625,
-				"weight": 600,
-				"width": 76838.3515625
-			},
-			{
-				"height": 1457,
-				"size": 111953478.2265625,
+				"size": 112042377.9921875,
 				"weight": 700,
-				"width": 76838.3515625
+				"width": 76899.3671875
 			},
 			{
 				"height": 1457,
-				"size": 111953478.2265625,
+				"size": 112042377.9921875,
+				"weight": 600,
+				"width": 76899.3671875
+			},
+			{
+				"height": 1457,
+				"size": 112042377.9921875,
 				"weight": 800,
-				"width": 76838.3515625
+				"width": 76899.3671875
 			},
 			{
 				"height": 1457,
-				"size": 111953478.2265625,
+				"size": 112042377.9921875,
+				"weight": 200,
+				"width": 76899.3671875
+			},
+			{
+				"height": 1457,
+				"size": 112042377.9921875,
 				"weight": 900,
-				"width": 76838.3515625
+				"width": 76899.3671875
+			},
+			{
+				"height": 1457,
+				"size": 112042377.9921875,
+				"weight": 300,
+				"width": 76899.3671875
+			},
+			{
+				"height": 1457,
+				"size": 112042377.9921875,
+				"weight": 400,
+				"width": 76899.3671875
+			},
+			{
+				"height": 1457,
+				"size": 112042377.9921875,
+				"weight": 100,
+				"width": 76899.3671875
 			}
 		],
 		"name": "Cartograph CF"
@@ -8218,9 +8334,15 @@ export default [
 		"measurements": [
 			{
 				"height": 992,
-				"size": 70202212.5,
-				"weight": 100,
-				"width": 70768.359375
+				"size": 75563383.5,
+				"weight": 900,
+				"width": 76172.765625
+			},
+			{
+				"height": 992,
+				"size": 73882532.5,
+				"weight": 700,
+				"width": 74478.359375
 			},
 			{
 				"height": 992,
@@ -8236,15 +8358,9 @@ export default [
 			},
 			{
 				"height": 992,
-				"size": 73882532.5,
-				"weight": 700,
-				"width": 74478.359375
-			},
-			{
-				"height": 992,
-				"size": 75563383.5,
-				"weight": 900,
-				"width": 76172.765625
+				"size": 70202212.5,
+				"weight": 100,
+				"width": 70768.359375
 			},
 			{
 				"height": 992,
@@ -8347,7 +8463,7 @@ export default [
 			{
 				"height": 1271,
 				"size": 92672641.453125,
-				"weight": "700",
+				"weight": 700,
 				"width": 72913.171875
 			}
 		],
@@ -8479,7 +8595,7 @@ export default [
 			{
 				"height": 1302,
 				"size": 89205034.734375,
-				"weight": "300",
+				"weight": 300,
 				"width": 68513.8515625
 			},
 			{
@@ -8491,19 +8607,19 @@ export default [
 			{
 				"height": 1302,
 				"size": 92050148.859375,
-				"weight": "500",
+				"weight": 500,
 				"width": 70699.0390625
 			},
 			{
 				"height": 1302,
 				"size": 93456532.640625,
-				"weight": "600",
+				"weight": 600,
 				"width": 71779.2109375
 			},
 			{
 				"height": 1302,
 				"size": 94822239.09375,
-				"weight": "700",
+				"weight": 700,
 				"width": 72828.140625
 			}
 		],
@@ -8512,8 +8628,8 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1240,
-				"size": 115475474.6875,
+				"height": 1178,
+				"size": 109701700.953125,
 				"weight": 400,
 				"width": 93125.3828125
 			}
@@ -8600,7 +8716,7 @@ export default [
 			{
 				"height": 1612,
 				"size": 120867848.15625,
-				"weight": "700",
+				"weight": 700,
 				"width": 74980.0546875
 			}
 		],
@@ -8617,7 +8733,7 @@ export default [
 			{
 				"height": 1550,
 				"size": 96611051.953125,
-				"weight": "700",
+				"weight": 700,
 				"width": 62329.7109375
 			}
 		],
@@ -8634,7 +8750,7 @@ export default [
 			{
 				"height": 1860,
 				"size": 134063714.0625,
-				"weight": "700",
+				"weight": 700,
 				"width": 72077.265625
 			}
 		],
@@ -8668,13 +8784,13 @@ export default [
 			{
 				"height": 1612,
 				"size": 54318128.3125,
-				"weight": "100",
+				"weight": 100,
 				"width": 33696.109375
 			},
 			{
 				"height": 1612,
 				"size": 54388930.375,
-				"weight": "300",
+				"weight": 300,
 				"width": 33740.03125
 			},
 			{
@@ -8686,13 +8802,13 @@ export default [
 			{
 				"height": 1612,
 				"size": 54388930.375,
-				"weight": "700",
+				"weight": 700,
 				"width": 33740.03125
 			},
 			{
 				"height": 1612,
 				"size": 54388930.375,
-				"weight": "800",
+				"weight": 800,
 				"width": 33740.03125
 			}
 		],
@@ -8775,7 +8891,7 @@ export default [
 			{
 				"height": 1333,
 				"size": 110712044.234375,
-				"weight": "700",
+				"weight": 700,
 				"width": 83054.796875
 			}
 		],
@@ -9177,13 +9293,13 @@ export default [
 			{
 				"height": 1333,
 				"size": 116589834.8359375,
-				"weight": "700",
+				"weight": 700,
 				"width": 87464.2421875
 			},
 			{
 				"height": 1333,
 				"size": 121521757.796875,
-				"weight": "900",
+				"weight": 900,
 				"width": 91164.109375
 			}
 		],
@@ -9214,10 +9330,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1364,
-				"size": 49754883.75,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 36477.1875
+				"width": 68647.71875
 			}
 		],
 		"name": "Cloitre"
@@ -9225,10 +9341,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1364,
-				"size": 49754883.75,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 36477.1875
+				"width": 68647.71875
 			}
 		],
 		"name": "Cloitre Rounded"
@@ -9244,7 +9360,7 @@ export default [
 			{
 				"height": 1395,
 				"size": 117587906.71875,
-				"weight": "800",
+				"weight": 800,
 				"width": 84292.40625
 			}
 		],
@@ -9256,7 +9372,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 94186861.15625,
-				"weight": "300",
+				"weight": 300,
 				"width": 79954.890625
 			},
 			{
@@ -9352,7 +9468,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 76678876.6015625,
-				"weight": "300",
+				"weight": 300,
 				"width": 66851.6796875
 			},
 			{
@@ -9364,7 +9480,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 75737503.234375,
-				"weight": "700",
+				"weight": 700,
 				"width": 66030.953125
 			}
 		],
@@ -9381,7 +9497,7 @@ export default [
 			{
 				"height": 1395,
 				"size": 106363911.09375,
-				"weight": "700",
+				"weight": 700,
 				"width": 76246.53125
 			}
 		],
@@ -9574,46 +9690,46 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1302,
-				"size": 84602983.5,
-				"weight": 100,
-				"width": 64979.25
-			},
-			{
-				"height": 1302,
-				"size": 86875553.296875,
-				"weight": 300,
-				"width": 66724.6953125
-			},
-			{
-				"height": 1302,
-				"size": 88697590.40625,
-				"weight": 400,
-				"width": 68124.109375
-			},
-			{
-				"height": 1302,
-				"size": 90492926.34375,
-				"weight": 500,
-				"width": 69503.015625
-			},
-			{
-				"height": 1302,
-				"size": 92264104.078125,
-				"weight": 600,
-				"width": 70863.3671875
-			},
-			{
-				"height": 1302,
-				"size": 93894147.046875,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 700,
-				"width": 72115.3203125
+				"width": 72215.359375
 			},
 			{
-				"height": 1302,
-				"size": 95446629.46875,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 900,
-				"width": 73307.703125
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 600,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 100,
+				"width": 68647.71875
 			}
 		],
 		"name": "Cooper Hewitt"
@@ -9651,7 +9767,7 @@ export default [
 			{
 				"height": 1829,
 				"size": 182347713.4453125,
-				"weight": "700",
+				"weight": 700,
 				"width": 99698.0390625
 			}
 		],
@@ -9668,7 +9784,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 82539156.078125,
-				"weight": "700",
+				"weight": 700,
 				"width": 70067.1953125
 			}
 		],
@@ -9784,7 +9900,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 83585934.046875,
-				"weight": "300",
+				"weight": 300,
 				"width": 69136.421875
 			},
 			{
@@ -9796,19 +9912,19 @@ export default [
 			{
 				"height": 1209,
 				"size": 84092410.59375,
-				"weight": "500",
+				"weight": 500,
 				"width": 69555.34375
 			},
 			{
 				"height": 1209,
 				"size": 84374107.59375,
-				"weight": "600",
+				"weight": 600,
 				"width": 69788.34375
 			},
 			{
 				"height": 1209,
 				"size": 84680041.265625,
-				"weight": "700",
+				"weight": 700,
 				"width": 70041.390625
 			}
 		],
@@ -9819,7 +9935,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 83760880.125,
-				"weight": "300",
+				"weight": 300,
 				"width": 69281.125
 			},
 			{
@@ -9831,19 +9947,19 @@ export default [
 			{
 				"height": 1209,
 				"size": 84318758.0625,
-				"weight": "500",
+				"weight": 500,
 				"width": 69742.5625
 			},
 			{
 				"height": 1209,
 				"size": 84626354.109375,
-				"weight": "600",
+				"weight": 600,
 				"width": 69996.984375
 			},
 			{
 				"height": 1209,
 				"size": 84960274.2421875,
-				"weight": "700",
+				"weight": 700,
 				"width": 70273.1796875
 			}
 		],
@@ -9854,7 +9970,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 75507792.75,
-				"weight": "300",
+				"weight": 300,
 				"width": 62454.75
 			},
 			{
@@ -9866,19 +9982,19 @@ export default [
 			{
 				"height": 1209,
 				"size": 76398004.0078125,
-				"weight": "500",
+				"weight": 500,
 				"width": 63191.0703125
 			},
 			{
 				"height": 1209,
 				"size": 76935924,
-				"weight": "600",
+				"weight": 600,
 				"width": 63636
 			},
 			{
 				"height": 1209,
 				"size": 77443515.09375,
-				"weight": "700",
+				"weight": 700,
 				"width": 64055.84375
 			}
 		],
@@ -9895,7 +10011,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 88008257.6953125,
-				"weight": "700",
+				"weight": 700,
 				"width": 72794.2578125
 			}
 		],
@@ -9912,7 +10028,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 66239173.7109375,
-				"weight": "700",
+				"weight": 700,
 				"width": 54788.3984375
 			}
 		],
@@ -9959,7 +10075,7 @@ export default [
 			{
 				"height": 1116,
 				"size": 83640154.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 74946.375
 			}
 		],
@@ -9977,7 +10093,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 86033494.96875,
-				"weight": "700",
+				"weight": 700,
 				"width": 75007.40625
 			}
 		],
@@ -9987,15 +10103,15 @@ export default [
 		"measurements": [
 			{
 				"height": 1395,
-				"size": 111597656.8359375,
+				"size": 111744796.640625,
 				"weight": 400,
-				"width": 79998.3203125
+				"width": 80103.796875
 			},
 			{
 				"height": 1395,
-				"size": 130899225.5859375,
-				"weight": "900",
-				"width": 93834.5703125
+				"size": 130903563.1640625,
+				"weight": 900,
+				"width": 93837.6796875
 			}
 		],
 		"name": "Coustard"
@@ -10108,13 +10224,13 @@ export default [
 			{
 				"height": 1271,
 				"size": 86657296.34375,
-				"weight": "600",
+				"weight": 600,
 				"width": 68180.40625
 			},
 			{
 				"height": 1271,
 				"size": 88202117.40625,
-				"weight": "700",
+				"weight": 700,
 				"width": 69395.84375
 			}
 		],
@@ -10124,33 +10240,9 @@ export default [
 		"measurements": [
 			{
 				"height": 1271,
-				"size": 91588260,
-				"weight": 200,
-				"width": 72060
-			},
-			{
-				"height": 1271,
-				"size": 92351277.046875,
-				"weight": 300,
-				"width": 72660.328125
-			},
-			{
-				"height": 1271,
-				"size": 93433771.859375,
-				"weight": 400,
-				"width": 73512.015625
-			},
-			{
-				"height": 1271,
-				"size": 94495275.3125,
-				"weight": 500,
-				"width": 74347.1875
-			},
-			{
-				"height": 1271,
-				"size": 95591254.640625,
-				"weight": 600,
-				"width": 75209.484375
+				"size": 100996410.5234375,
+				"weight": 900,
+				"width": 79462.1640625
 			},
 			{
 				"height": 1271,
@@ -10166,9 +10258,33 @@ export default [
 			},
 			{
 				"height": 1271,
-				"size": 104316322.1015625,
-				"weight": 900,
-				"width": 82074.2109375
+				"size": 91588260,
+				"weight": 200,
+				"width": 72060
+			},
+			{
+				"height": 1271,
+				"size": 93433771.859375,
+				"weight": 400,
+				"width": 73512.015625
+			},
+			{
+				"height": 1271,
+				"size": 91588260,
+				"weight": 300,
+				"width": 72060
+			},
+			{
+				"height": 1271,
+				"size": 94495275.3125,
+				"weight": 500,
+				"width": 74347.1875
+			},
+			{
+				"height": 1271,
+				"size": 95591254.640625,
+				"weight": 600,
+				"width": 75209.484375
 			}
 		],
 		"name": "Crit"
@@ -10262,7 +10378,7 @@ export default [
 			{
 				"height": 1116,
 				"size": 66095797.5,
-				"weight": "300",
+				"weight": 300,
 				"width": 59225.625
 			},
 			{
@@ -10274,19 +10390,19 @@ export default [
 			{
 				"height": 1116,
 				"size": 68355043.59375,
-				"weight": "500",
+				"weight": 500,
 				"width": 61250.0390625
 			},
 			{
 				"height": 1116,
 				"size": 69380586.5625,
-				"weight": "600",
+				"weight": 600,
 				"width": 62168.984375
 			},
 			{
 				"height": 1116,
 				"size": 71027340.46875,
-				"weight": "700",
+				"weight": 700,
 				"width": 63644.5703125
 			}
 		],
@@ -10483,13 +10599,13 @@ export default [
 			{
 				"height": 992,
 				"size": 65682528.75,
-				"weight": "500",
+				"weight": 500,
 				"width": 66212.2265625
 			},
 			{
 				"height": 992,
 				"size": 66779153.75,
-				"weight": "700",
+				"weight": 700,
 				"width": 67317.6953125
 			}
 		],
@@ -10498,46 +10614,46 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1333,
-				"size": 84807823.9921875,
-				"weight": 100,
-				"width": 63621.7734375
-			},
-			{
-				"height": 1333,
-				"size": 86758898.6015625,
-				"weight": 300,
-				"width": 65085.4453125
-			},
-			{
-				"height": 1333,
-				"size": 88624786.1796875,
-				"weight": 400,
-				"width": 66485.2109375
-			},
-			{
-				"height": 1333,
-				"size": 91014667.7265625,
-				"weight": 500,
-				"width": 68278.0703125
-			},
-			{
-				"height": 1333,
-				"size": 93399748.390625,
-				"weight": 600,
-				"width": 70067.328125
-			},
-			{
-				"height": 1333,
-				"size": 95757939.9453125,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 700,
-				"width": 71836.4140625
+				"width": 72215.359375
 			},
 			{
-				"height": 1333,
-				"size": 98104134.5,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 900,
-				"width": 73596.5
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 600,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 100,
+				"width": 68647.71875
 			}
 		],
 		"name": "DaVinci"
@@ -10567,58 +10683,58 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 992,
-				"size": 67956936.75,
+				"height": 1178,
+				"size": 80730309.46875,
 				"weight": 100,
-				"width": 68504.9765625
+				"width": 68531.671875
 			},
 			{
-				"height": 992,
-				"size": 69024375.25,
+				"height": 1178,
+				"size": 80730309.46875,
 				"weight": 200,
-				"width": 69581.0234375
+				"width": 68531.671875
 			},
 			{
-				"height": 992,
-				"size": 70097440.25,
+				"height": 1178,
+				"size": 80730309.46875,
 				"weight": 300,
-				"width": 70662.7421875
+				"width": 68531.671875
 			},
 			{
-				"height": 992,
-				"size": 71165731.25,
+				"height": 1178,
+				"size": 84509876.453125,
 				"weight": 400,
-				"width": 71739.6484375
+				"width": 71740.1328125
 			},
 			{
-				"height": 992,
-				"size": 71667970,
+				"height": 1178,
+				"size": 85108171.609375,
 				"weight": 500,
-				"width": 72245.9375
+				"width": 72248.0234375
 			},
 			{
-				"height": 992,
-				"size": 72169705,
+				"height": 1178,
+				"size": 85702693.484375,
 				"weight": 600,
-				"width": 72751.71875
+				"width": 72752.7109375
 			},
 			{
-				"height": 992,
-				"size": 72669905.5,
+				"height": 1178,
+				"size": 86297859.578125,
 				"weight": 700,
-				"width": 73255.953125
+				"width": 73257.9453125
 			},
 			{
-				"height": 992,
-				"size": 73172035.75,
+				"height": 1178,
+				"size": 86893237.34375,
 				"weight": 800,
-				"width": 73762.1328125
+				"width": 73763.359375
 			},
 			{
-				"height": 992,
-				"size": 73674344.25,
+				"height": 1178,
+				"size": 86893237.34375,
 				"weight": 900,
-				"width": 74268.4921875
+				"width": 73763.359375
 			}
 		],
 		"name": "Def Sans"
@@ -10689,7 +10805,7 @@ export default [
 			{
 				"height": 1271,
 				"size": 110527699.1015625,
-				"weight": "700",
+				"weight": 700,
 				"width": 86961.2109375
 			}
 		],
@@ -10789,7 +10905,7 @@ export default [
 			{
 				"height": 1302,
 				"size": 97659642.9375,
-				"weight": "300",
+				"weight": 300,
 				"width": 75007.40625
 			},
 			{
@@ -10801,7 +10917,7 @@ export default [
 			{
 				"height": 1302,
 				"size": 97659642.9375,
-				"weight": "500",
+				"weight": 500,
 				"width": 75007.40625
 			}
 		],
@@ -10961,7 +11077,7 @@ export default [
 			{
 				"height": 1426,
 				"size": 60232903.125,
-				"weight": "300",
+				"weight": 300,
 				"width": 42239.0625
 			},
 			{
@@ -10973,7 +11089,7 @@ export default [
 			{
 				"height": 1426,
 				"size": 63148170.734375,
-				"weight": "700",
+				"weight": 700,
 				"width": 44283.4296875
 			}
 		],
@@ -11206,52 +11322,52 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1364,
-				"size": 97837503.5,
+				"height": 1178,
+				"size": 85629905.96875,
 				"weight": 200,
-				"width": 71728.375
+				"width": 72690.921875
 			},
 			{
-				"height": 1364,
-				"size": 99148446.03125,
+				"height": 1178,
+				"size": 84497590.28125,
 				"weight": 300,
-				"width": 72689.4765625
+				"width": 71729.703125
 			},
 			{
-				"height": 1364,
-				"size": 100184393.375,
+				"height": 1178,
+				"size": 86522121.328125,
 				"weight": 400,
-				"width": 73448.96875
+				"width": 73448.3203125
 			},
 			{
-				"height": 1364,
-				"size": 102263363.8125,
+				"height": 1178,
+				"size": 88319970.203125,
 				"weight": 500,
-				"width": 74973.140625
+				"width": 74974.5078125
 			},
 			{
-				"height": 1364,
-				"size": 103301218.625,
+				"height": 1178,
+				"size": 90123451.390625,
 				"weight": 600,
-				"width": 75734.03125
+				"width": 76505.4765625
 			},
 			{
-				"height": 1364,
-				"size": 104351818.3125,
+				"height": 1178,
+				"size": 90123451.390625,
 				"weight": 700,
-				"width": 76504.265625
+				"width": 76505.4765625
 			},
 			{
-				"height": 1364,
-				"size": 106137432.84375,
+				"height": 1178,
+				"size": 91665388.96875,
 				"weight": 800,
-				"width": 77813.3671875
+				"width": 77814.421875
 			},
 			{
-				"height": 1364,
-				"size": 107438518.34375,
+				"height": 1178,
+				"size": 91665388.96875,
 				"weight": 900,
-				"width": 78767.2421875
+				"width": 77814.421875
 			}
 		],
 		"name": "Easy Grotesk"
@@ -11313,7 +11429,7 @@ export default [
 			{
 				"height": 1116,
 				"size": 55945542.09375,
-				"weight": "700",
+				"weight": 700,
 				"width": 50130.4140625
 			}
 		],
@@ -11928,7 +12044,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 86835059.7890625,
-				"weight": "900",
+				"weight": 900,
 				"width": 75706.2421875
 			}
 		],
@@ -11945,7 +12061,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 85844024.90625,
-				"weight": "900",
+				"weight": 900,
 				"width": 74842.21875
 			}
 		],
@@ -12037,19 +12153,19 @@ export default [
 			{
 				"height": 1240,
 				"size": 70879378.4375,
-				"weight": "100",
+				"weight": 100,
 				"width": 57160.7890625
 			},
 			{
 				"height": 1240,
 				"size": 71747165.3125,
-				"weight": "200",
+				"weight": 200,
 				"width": 57860.6171875
 			},
 			{
 				"height": 1240,
 				"size": 72965058.4375,
-				"weight": "300",
+				"weight": 300,
 				"width": 58842.7890625
 			},
 			{
@@ -12061,31 +12177,31 @@ export default [
 			{
 				"height": 1240,
 				"size": 76354472.5,
-				"weight": "500",
+				"weight": 500,
 				"width": 61576.1875
 			},
 			{
 				"height": 1240,
 				"size": 78448997.1875,
-				"weight": "600",
+				"weight": 600,
 				"width": 63265.3203125
 			},
 			{
 				"height": 1240,
 				"size": 80618503.125,
-				"weight": "700",
+				"weight": 700,
 				"width": 65014.921875
 			},
 			{
 				"height": 1240,
 				"size": 82792513.75,
-				"weight": "800",
+				"weight": 800,
 				"width": 66768.15625
 			},
 			{
 				"height": 1240,
 				"size": 84706589.375,
-				"weight": "900",
+				"weight": 900,
 				"width": 68311.765625
 			}
 		],
@@ -12096,19 +12212,19 @@ export default [
 			{
 				"height": 1240,
 				"size": 92561243.4375,
-				"weight": "100",
+				"weight": 100,
 				"width": 74646.1640625
 			},
 			{
 				"height": 1240,
 				"size": 93623371.25,
-				"weight": "200",
+				"weight": 200,
 				"width": 75502.71875
 			},
 			{
 				"height": 1240,
 				"size": 95258291.875,
-				"weight": "300",
+				"weight": 300,
 				"width": 76821.203125
 			},
 			{
@@ -12120,31 +12236,31 @@ export default [
 			{
 				"height": 1240,
 				"size": 99978100,
-				"weight": "500",
+				"weight": 500,
 				"width": 80627.5
 			},
 			{
 				"height": 1240,
 				"size": 102870835.9375,
-				"weight": "600",
+				"weight": 600,
 				"width": 82960.3515625
 			},
 			{
 				"height": 1240,
 				"size": 105941017.8125,
-				"weight": "700",
+				"weight": 700,
 				"width": 85436.3046875
 			},
 			{
 				"height": 1240,
 				"size": 108926501.875,
-				"weight": "800",
+				"weight": 800,
 				"width": 87843.953125
 			},
 			{
 				"height": 1240,
 				"size": 111616652.8125,
-				"weight": "900",
+				"weight": 900,
 				"width": 90013.4296875
 			}
 		],
@@ -12214,19 +12330,19 @@ export default [
 			{
 				"height": 1240,
 				"size": 76319045.3125,
-				"weight": "100",
+				"weight": 100,
 				"width": 61547.6171875
 			},
 			{
 				"height": 1240,
 				"size": 77213385.625,
-				"weight": "200",
+				"weight": 200,
 				"width": 62268.859375
 			},
 			{
 				"height": 1240,
 				"size": 78588749.0625,
-				"weight": "300",
+				"weight": 300,
 				"width": 63378.0234375
 			},
 			{
@@ -12238,31 +12354,31 @@ export default [
 			{
 				"height": 1240,
 				"size": 82361148.75,
-				"weight": "500",
+				"weight": 500,
 				"width": 66420.28125
 			},
 			{
 				"height": 1240,
 				"size": 84535760,
-				"weight": "600",
+				"weight": 600,
 				"width": 68174
 			},
 			{
 				"height": 1240,
 				"size": 86881743.125,
-				"weight": "700",
+				"weight": 700,
 				"width": 70065.921875
 			},
 			{
 				"height": 1240,
 				"size": 89350544.375,
-				"weight": "800",
+				"weight": 800,
 				"width": 72056.890625
 			},
 			{
 				"height": 1240,
 				"size": 91452983.75,
-				"weight": "900",
+				"weight": 900,
 				"width": 73752.40625
 			}
 		],
@@ -12273,19 +12389,19 @@ export default [
 			{
 				"height": 1240,
 				"size": 87161343.75,
-				"weight": "100",
+				"weight": 100,
 				"width": 70291.40625
 			},
 			{
 				"height": 1240,
 				"size": 88149459.0625,
-				"weight": "200",
+				"weight": 200,
 				"width": 71088.2734375
 			},
 			{
 				"height": 1240,
 				"size": 89618219.6875,
-				"weight": "300",
+				"weight": 300,
 				"width": 72272.7578125
 			},
 			{
@@ -12297,31 +12413,31 @@ export default [
 			{
 				"height": 1240,
 				"size": 94082694.375,
-				"weight": "500",
+				"weight": 500,
 				"width": 75873.140625
 			},
 			{
 				"height": 1240,
 				"size": 96774317.8125,
-				"weight": "600",
+				"weight": 600,
 				"width": 78043.8046875
 			},
 			{
 				"height": 1240,
 				"size": 99757002.1875,
-				"weight": "700",
+				"weight": 700,
 				"width": 80449.1953125
 			},
 			{
 				"height": 1240,
 				"size": 102368635.9375,
-				"weight": "800",
+				"weight": 800,
 				"width": 82555.3515625
 			},
 			{
 				"height": 1240,
 				"size": 104874298.125,
-				"weight": "900",
+				"weight": 900,
 				"width": 84576.046875
 			}
 		],
@@ -12360,19 +12476,19 @@ export default [
 			{
 				"height": 1302,
 				"size": 91139603.296875,
-				"weight": "500",
+				"weight": 500,
 				"width": 69999.6953125
 			},
 			{
 				"height": 1302,
 				"size": 91753191.140625,
-				"weight": "600",
+				"weight": 600,
 				"width": 70470.9609375
 			},
 			{
 				"height": 1302,
 				"size": 92409561.890625,
-				"weight": "700",
+				"weight": 700,
 				"width": 70975.0859375
 			}
 		],
@@ -12557,9 +12673,9 @@ export default [
 		"measurements": [
 			{
 				"height": 837,
-				"size": 62226804.234375,
+				"size": 62465538.8671875,
 				"weight": 100,
-				"width": 74345.046875
+				"width": 74630.2734375
 			},
 			{
 				"height": 837,
@@ -12569,9 +12685,9 @@ export default [
 			},
 			{
 				"height": 837,
-				"size": 62775928.546875,
+				"size": 62465538.8671875,
 				"weight": 300,
-				"width": 75001.109375
+				"width": 74630.2734375
 			},
 			{
 				"height": 837,
@@ -12587,9 +12703,9 @@ export default [
 			},
 			{
 				"height": 837,
-				"size": 64054877.625,
+				"size": 64320285.09375,
 				"weight": 600,
-				"width": 76529.125
+				"width": 76846.21875
 			},
 			{
 				"height": 837,
@@ -12616,6 +12732,65 @@ export default [
 			}
 		],
 		"name": "Esteban"
+	},
+	{
+		"measurements": [
+			{
+				"height": 1426,
+				"size": 94347234.8125,
+				"weight": 100,
+				"width": 66162.15625
+			},
+			{
+				"height": 1457,
+				"size": 98233819.8515625,
+				"weight": 200,
+				"width": 67421.9765625
+			},
+			{
+				"height": 1488,
+				"size": 102196665.375,
+				"weight": 300,
+				"width": 68680.5546875
+			},
+			{
+				"height": 1519,
+				"size": 106238954.9375,
+				"weight": 400,
+				"width": 69940.0625
+			},
+			{
+				"height": 1519,
+				"size": 107192317.3125,
+				"weight": 500,
+				"width": 70567.6875
+			},
+			{
+				"height": 1550,
+				"size": 110352649.609375,
+				"weight": 600,
+				"width": 71195.2578125
+			},
+			{
+				"height": 1550,
+				"size": 111325238.28125,
+				"weight": 700,
+				"width": 71822.734375
+			},
+			{
+				"height": 1550,
+				"size": 112297500,
+				"weight": 800,
+				"width": 72450
+			},
+			{
+				"height": 1612,
+				"size": 117800363.28125,
+				"weight": 900,
+				"width": 73077.1484375
+			}
+		],
+		"name": "Estedad"
 	},
 	{
 		"measurements": [
@@ -12835,13 +13010,13 @@ export default [
 			{
 				"height": 1271,
 				"size": 99006074.171875,
-				"weight": "200",
+				"weight": 200,
 				"width": 77896.203125
 			},
 			{
 				"height": 1271,
 				"size": 101604931.5625,
-				"weight": "300",
+				"weight": 300,
 				"width": 79940.9375
 			},
 			{
@@ -12853,19 +13028,19 @@ export default [
 			{
 				"height": 1271,
 				"size": 106637704.3046875,
-				"weight": "500",
+				"weight": 500,
 				"width": 83900.6328125
 			},
 			{
 				"height": 1271,
 				"size": 109161235.0859375,
-				"weight": "600",
+				"weight": 600,
 				"width": 85886.1015625
 			},
 			{
 				"height": 1271,
 				"size": 111699988.078125,
-				"weight": "700",
+				"weight": 700,
 				"width": 87883.546875
 			}
 		],
@@ -12916,7 +13091,7 @@ export default [
 			{
 				"height": 992,
 				"size": 73028234.5,
-				"weight": "300",
+				"weight": 300,
 				"width": 73617.171875
 			},
 			{
@@ -12928,13 +13103,13 @@ export default [
 			{
 				"height": 992,
 				"size": 71010808.75,
-				"weight": "500",
+				"weight": 500,
 				"width": 71583.4765625
 			},
 			{
 				"height": 992,
 				"size": 70074112.75,
-				"weight": "700",
+				"weight": 700,
 				"width": 70639.2265625
 			}
 		],
@@ -13164,30 +13339,119 @@ export default [
 		"measurements": [
 			{
 				"height": 1178,
-				"size": 75191104.984375,
+				"size": 69204076.4375,
+				"weight": 100,
+				"width": 58747.09375
+			},
+			{
+				"height": 1178,
+				"size": 70907841.765625,
+				"weight": 200,
+				"width": 60193.4140625
+			},
+			{
+				"height": 1178,
+				"size": 72610079.375,
+				"weight": 300,
+				"width": 61638.4375
+			},
+			{
+				"height": 1178,
+				"size": 73538858.75,
 				"weight": 400,
-				"width": 63829.4609375
+				"width": 62426.875
 			},
 			{
 				"height": 1178,
-				"size": 76806391.46875,
+				"size": 75397006.5,
 				"weight": 500,
-				"width": 65200.671875
+				"width": 64004.25
 			},
 			{
 				"height": 1178,
-				"size": 78285094.375,
+				"size": 77050614.796875,
 				"weight": 600,
-				"width": 66455.9375
+				"width": 65407.9921875
 			},
 			{
 				"height": 1178,
-				"size": 79297465.734375,
+				"size": 78043972.5,
 				"weight": 700,
-				"width": 67315.3359375
+				"width": 66251.25
+			},
+			{
+				"height": 1178,
+				"size": 79697856.890625,
+				"weight": 800,
+				"width": 67655.2265625
+			},
+			{
+				"height": 1178,
+				"size": 82014255.84375,
+				"weight": 900,
+				"width": 69621.609375
 			}
 		],
-		"name": "Finlandica"
+		"name": "Finlandica Headline"
+	},
+	{
+		"measurements": [
+			{
+				"height": 1178,
+				"size": 84675937.640625,
+				"weight": 100,
+				"width": 71881.1015625
+			},
+			{
+				"height": 1178,
+				"size": 85511903.5,
+				"weight": 200,
+				"width": 72590.75
+			},
+			{
+				"height": 1178,
+				"size": 86660803.21875,
+				"weight": 300,
+				"width": 73566.046875
+			},
+			{
+				"height": 1178,
+				"size": 87808791.828125,
+				"weight": 400,
+				"width": 74540.5703125
+			},
+			{
+				"height": 1178,
+				"size": 88853263.6875,
+				"weight": 500,
+				"width": 75427.21875
+			},
+			{
+				"height": 1178,
+				"size": 90217801.828125,
+				"weight": 600,
+				"width": 76585.5703125
+			},
+			{
+				"height": 1178,
+				"size": 92264153.484375,
+				"weight": 700,
+				"width": 78322.7109375
+			},
+			{
+				"height": 1178,
+				"size": 94992530.328125,
+				"weight": 800,
+				"width": 80638.8203125
+			},
+			{
+				"height": 1178,
+				"size": 97947883.84375,
+				"weight": 900,
+				"width": 83147.609375
+			}
+		],
+		"name": "Finlandica Text"
 	},
 	{
 		"isMultiplexed": true,
@@ -13237,13 +13501,13 @@ export default [
 			{
 				"height": 1178,
 				"size": 88358724.5625,
-				"weight": "500",
+				"weight": 500,
 				"width": 75007.40625
 			},
 			{
 				"height": 1178,
 				"size": 88358724.5625,
-				"weight": "700",
+				"weight": 700,
 				"width": 75007.40625
 			}
 		],
@@ -13254,19 +13518,19 @@ export default [
 			{
 				"height": 1178,
 				"size": 74721708.796875,
-				"weight": "100",
+				"weight": 100,
 				"width": 63430.9921875
 			},
 			{
 				"height": 1178,
 				"size": 75908884.3125,
-				"weight": "200",
+				"weight": 200,
 				"width": 64438.78125
 			},
 			{
 				"height": 1178,
 				"size": 76564883.0625,
-				"weight": "300",
+				"weight": 300,
 				"width": 64995.65625
 			},
 			{
@@ -13278,31 +13542,31 @@ export default [
 			{
 				"height": 1178,
 				"size": 79496538.53125,
-				"weight": "500",
+				"weight": 500,
 				"width": 67484.328125
 			},
 			{
 				"height": 1178,
 				"size": 79902736.859375,
-				"weight": "600",
+				"weight": 600,
 				"width": 67829.1484375
 			},
 			{
 				"height": 1178,
 				"size": 80379679.609375,
-				"weight": "700",
+				"weight": 700,
 				"width": 68234.0234375
 			},
 			{
 				"height": 1178,
 				"size": 80969360.640625,
-				"weight": "800",
+				"weight": 800,
 				"width": 68734.6015625
 			},
 			{
 				"height": 1178,
 				"size": 81557836.0625,
-				"weight": "900",
+				"weight": 900,
 				"width": 69234.15625
 			}
 		],
@@ -13313,19 +13577,19 @@ export default [
 			{
 				"height": 1178,
 				"size": 67404939.125,
-				"weight": "100",
+				"weight": 100,
 				"width": 57219.8125
 			},
 			{
 				"height": 1178,
 				"size": 68562793.484375,
-				"weight": "200",
+				"weight": 200,
 				"width": 58202.7109375
 			},
 			{
 				"height": 1178,
 				"size": 69162257.4375,
-				"weight": "300",
+				"weight": 300,
 				"width": 58711.59375
 			},
 			{
@@ -13337,31 +13601,31 @@ export default [
 			{
 				"height": 1178,
 				"size": 72232935.3125,
-				"weight": "500",
+				"weight": 500,
 				"width": 61318.28125
 			},
 			{
 				"height": 1178,
 				"size": 72702386.71875,
-				"weight": "600",
+				"weight": 600,
 				"width": 61716.796875
 			},
 			{
 				"height": 1178,
 				"size": 73243447.640625,
-				"weight": "700",
+				"weight": 700,
 				"width": 62176.1015625
 			},
 			{
 				"height": 1178,
 				"size": 73927018.953125,
-				"weight": "800",
+				"weight": 800,
 				"width": 62756.3828125
 			},
 			{
 				"height": 1178,
 				"size": 74582336.671875,
-				"weight": "900",
+				"weight": 900,
 				"width": 63312.6796875
 			}
 		],
@@ -13372,19 +13636,19 @@ export default [
 			{
 				"height": 1178,
 				"size": 61525320.25,
-				"weight": "100",
+				"weight": 100,
 				"width": 52228.625
 			},
 			{
 				"height": 1178,
 				"size": 62723861.625,
-				"weight": "200",
+				"weight": 200,
 				"width": 53246.0625
 			},
 			{
 				"height": 1178,
 				"size": 63324475.96875,
-				"weight": "300",
+				"weight": 300,
 				"width": 53755.921875
 			},
 			{
@@ -13396,31 +13660,31 @@ export default [
 			{
 				"height": 1178,
 				"size": 66441022.21875,
-				"weight": "500",
+				"weight": 500,
 				"width": 56401.546875
 			},
 			{
 				"height": 1178,
 				"size": 66950157.5,
-				"weight": "600",
+				"weight": 600,
 				"width": 56833.75
 			},
 			{
 				"height": 1178,
 				"size": 67496777.109375,
-				"weight": "700",
+				"weight": 700,
 				"width": 57297.7734375
 			},
 			{
 				"height": 1178,
 				"size": 68230560.671875,
-				"weight": "800",
+				"weight": 800,
 				"width": 57920.6796875
 			},
 			{
 				"height": 1178,
 				"size": 68978802.34375,
-				"weight": "900",
+				"weight": 900,
 				"width": 58555.859375
 			}
 		],
@@ -13451,40 +13715,40 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1271,
-				"size": 84724284.078125,
+				"height": 1240,
+				"size": 82657838.125,
 				"weight": 300,
 				"width": 66659.546875
 			},
 			{
-				"height": 1271,
-				"size": 85890287.5625,
+				"height": 1240,
+				"size": 83796613.4375,
 				"weight": 400,
-				"width": 67576.9375
+				"width": 67577.9140625
 			},
 			{
-				"height": 1271,
-				"size": 86774903.5625,
+				"height": 1240,
+				"size": 85103253.75,
 				"weight": 500,
-				"width": 68272.9375
+				"width": 68631.65625
 			},
 			{
-				"height": 1271,
-				"size": 87734230.53125,
+				"height": 1240,
+				"size": 86601648.4375,
 				"weight": 600,
-				"width": 69027.71875
+				"width": 69840.0390625
 			},
 			{
-				"height": 1271,
-				"size": 88765011.53125,
+				"height": 1240,
+				"size": 86601648.4375,
 				"weight": 700,
-				"width": 69838.71875
+				"width": 69840.0390625
 			},
 			{
-				"height": 1271,
-				"size": 90545037.1015625,
+				"height": 1240,
+				"size": 88337696.875,
 				"weight": 800,
-				"width": 71239.2109375
+				"width": 71240.078125
 			}
 		],
 		"name": "FL Prefere"
@@ -13494,7 +13758,7 @@ export default [
 			{
 				"height": 1023,
 				"size": 63068757.2109375,
-				"weight": "300",
+				"weight": 300,
 				"width": 61650.7890625
 			},
 			{
@@ -14055,7 +14319,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 94351096.25,
-				"weight": "700",
+				"weight": 700,
 				"width": 76089.59375
 			}
 		],
@@ -14129,7 +14393,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 76364218.125,
-				"weight": "300",
+				"weight": 300,
 				"width": 61584.046875
 			},
 			{
@@ -14141,7 +14405,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 77033905.3125,
-				"weight": "700",
+				"weight": 700,
 				"width": 62124.1171875
 			}
 		],
@@ -14217,6 +14481,12 @@ export default [
 		"measurements": [
 			{
 				"height": 1178,
+				"size": 87132104.453125,
+				"weight": 700,
+				"width": 73966.1328125
+			},
+			{
+				"height": 1178,
 				"size": 82687280.375,
 				"weight": 300,
 				"width": 70192.9375
@@ -14226,12 +14496,6 @@ export default [
 				"size": 84735343.8125,
 				"weight": 400,
 				"width": 71931.53125
-			},
-			{
-				"height": 1178,
-				"size": 87132104.453125,
-				"weight": 700,
-				"width": 73966.1328125
 			}
 		],
 		"name": "Gangster Grotesk"
@@ -14311,7 +14575,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 80467686.9140625,
-				"weight": "100",
+				"weight": 100,
 				"width": 66557.2265625
 			},
 			{
@@ -14323,7 +14587,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 86262386.1328125,
-				"weight": "700",
+				"weight": 700,
 				"width": 71350.1953125
 			}
 		],
@@ -14333,57 +14597,57 @@ export default [
 		"measurements": [
 			{
 				"height": 1271,
-				"size": 88138279.4453125,
+				"size": 88028179.0703125,
 				"weight": 100,
-				"width": 69345.6171875
+				"width": 69258.9921875
 			},
 			{
 				"height": 1271,
-				"size": 89454241.0703125,
+				"size": 89330258.9921875,
 				"weight": 200,
-				"width": 70380.9921875
+				"width": 70283.4453125
 			},
 			{
 				"height": 1271,
-				"size": 90769934.59375,
+				"size": 90631594.1875,
 				"weight": 300,
-				"width": 71416.15625
+				"width": 71307.3125
 			},
 			{
 				"height": 1271,
-				"size": 92085916.078125,
+				"size": 91933435.796875,
 				"weight": 400,
-				"width": 72451.546875
+				"width": 72331.578125
 			},
 			{
 				"height": 1271,
-				"size": 94181020.5625,
+				"size": 94026306.1015625,
 				"weight": 500,
-				"width": 74099.9375
+				"width": 73978.2109375
 			},
 			{
 				"height": 1271,
-				"size": 96275688.140625,
+				"size": 96118441.609375,
 				"weight": 600,
-				"width": 75747.984375
+				"width": 75624.265625
 			},
 			{
 				"height": 1271,
-				"size": 98369551.4140625,
+				"size": 98210070.703125,
 				"weight": 700,
-				"width": 77395.3984375
+				"width": 77269.921875
 			},
 			{
 				"height": 1271,
-				"size": 100464437.4453125,
+				"size": 100302911.21875,
 				"weight": 800,
-				"width": 79043.6171875
+				"width": 78916.53125
 			},
 			{
 				"height": 1271,
-				"size": 102559263.8984375,
+				"size": 102394719.046875,
 				"weight": 900,
-				"width": 80691.7890625
+				"width": 80562.328125
 			}
 		],
 		"name": "Geist"
@@ -14447,6 +14711,17 @@ export default [
 			}
 		],
 		"name": "Geist Mono"
+	},
+	{
+		"measurements": [
+			{
+				"height": 1271,
+				"size": 92683564.109375,
+				"weight": 400,
+				"width": 72921.765625
+			}
+		],
+		"name": "Geist Pixel"
 	},
 	{
 		"measurements": [
@@ -14594,7 +14869,7 @@ export default [
 			{
 				"height": 1457,
 				"size": 99784591.4609375,
-				"weight": "700",
+				"weight": 700,
 				"width": 68486.3359375
 			}
 		],
@@ -14611,7 +14886,7 @@ export default [
 			{
 				"height": 1457,
 				"size": 97983250,
-				"weight": "700",
+				"weight": 700,
 				"width": 67250
 			}
 		],
@@ -14737,61 +15012,108 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 76255446.390625,
-				"weight": 100,
-				"width": 64732.9765625
-			},
-			{
-				"height": 1209,
-				"size": 79172999.0390625,
-				"weight": 200,
-				"width": 65486.3515625
-			},
-			{
-				"height": 1240,
-				"size": 82522561.875,
-				"weight": 300,
-				"width": 66550.453125
-			},
-			{
-				"height": 1240,
-				"size": 83867816.5625,
-				"weight": 400,
-				"width": 67635.3359375
-			},
-			{
-				"height": 1271,
-				"size": 87539777.4609375,
-				"weight": 450,
-				"width": 68874.7265625
-			},
-			{
-				"height": 1302,
-				"size": 91223816.25,
-				"weight": 500,
-				"width": 70064.375
-			},
-			{
-				"height": 1364,
-				"size": 97181259.65625,
-				"weight": 700,
-				"width": 71247.2578125
-			},
-			{
-				"height": 1395,
-				"size": 102620919.0234375,
+				"height": 992,
+				"size": 73016663.75,
 				"weight": 900,
-				"width": 73563.3828125
+				"width": 73605.5078125
 			},
 			{
-				"height": 1364,
-				"size": 101488473.28125,
+				"height": 992,
+				"size": 70721633,
+				"weight": 700,
+				"width": 71291.96875
+			},
+			{
+				"height": 992,
+				"size": 69554715.5,
+				"weight": 450,
+				"width": 70115.640625
+			},
+			{
+				"height": 992,
+				"size": 64263124,
+				"weight": 200,
+				"width": 64781.375
+			},
+			{
+				"height": 1178,
+				"size": 77199079.609375,
+				"weight": 300,
+				"width": 65534.0234375
+			},
+			{
+				"height": 992,
+				"size": 69554715.5,
+				"weight": 500,
+				"width": 70115.640625
+			},
+			{
+				"height": 992,
+				"size": 68367927,
+				"weight": 400,
+				"width": 68919.28125
+			},
+			{
+				"height": 992,
+				"size": 64263124,
+				"weight": 100,
+				"width": 64781.375
+			},
+			{
+				"height": 992,
+				"size": 73016663.75,
 				"weight": 950,
-				"width": 74405.0390625
+				"width": 73605.5078125
 			}
 		],
 		"name": "Geomanist"
+	},
+	{
+		"measurements": [
+			{
+				"height": 1209,
+				"size": 88831586.6953125,
+				"weight": 200,
+				"width": 73475.2578125
+			},
+			{
+				"height": 1209,
+				"size": 90288705.609375,
+				"weight": 300,
+				"width": 74680.484375
+			},
+			{
+				"height": 1209,
+				"size": 91744181.0390625,
+				"weight": 400,
+				"width": 75884.3515625
+			},
+			{
+				"height": 1178,
+				"size": 90809507.546875,
+				"weight": 500,
+				"width": 77087.8671875
+			},
+			{
+				"height": 1178,
+				"size": 92229328.859375,
+				"weight": 600,
+				"width": 78293.1484375
+			},
+			{
+				"height": 1178,
+				"size": 93646251.1875,
+				"weight": 700,
+				"width": 79495.96875
+			},
+			{
+				"height": 1178,
+				"size": 95065925.25,
+				"weight": 800,
+				"width": 80701.125
+			}
+		],
+		"name": "Geomini"
 	},
 	{
 		"measurements": [
@@ -14912,45 +15234,45 @@ export default [
 			},
 			{
 				"height": 1147,
-				"size": 84160865.1328125,
+				"size": 83010477.8984375,
 				"weight": 200,
-				"width": 73374.7734375
+				"width": 72371.8203125
 			},
 			{
 				"height": 1147,
-				"size": 85597670.8125,
+				"size": 83010477.8984375,
 				"weight": 300,
-				"width": 74627.4375
+				"width": 72371.8203125
 			},
 			{
 				"height": 1147,
-				"size": 87178380.1875,
+				"size": 87176534.234375,
 				"weight": 400,
-				"width": 76005.5625
+				"width": 76003.953125
 			},
 			{
 				"height": 1147,
-				"size": 88472957.8671875,
+				"size": 87176534.234375,
 				"weight": 500,
-				"width": 77134.2265625
+				"width": 76003.953125
 			},
 			{
 				"height": 1147,
-				"size": 89765779.203125,
+				"size": 89759407.9765625,
 				"weight": 600,
-				"width": 78261.359375
+				"width": 78255.8046875
 			},
 			{
 				"height": 1147,
-				"size": 92784907.2265625,
+				"size": 92785642.0234375,
 				"weight": 700,
-				"width": 80893.5546875
+				"width": 80894.1953125
 			},
 			{
 				"height": 1147,
-				"size": 95085188.84375,
+				"size": 97384126.3203125,
 				"weight": 800,
-				"width": 82899.03125
+				"width": 84903.3359375
 			},
 			{
 				"height": 1147,
@@ -14983,7 +15305,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 74017729.0703125,
-				"weight": "700",
+				"weight": 700,
 				"width": 64531.5859375
 			}
 		],
@@ -15077,7 +15399,7 @@ export default [
 			{
 				"height": 1798,
 				"size": 136423320.234375,
-				"weight": "700",
+				"weight": 700,
 				"width": 75875.0390625
 			}
 		],
@@ -15250,7 +15572,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 107685743.34375,
-				"weight": "700",
+				"weight": 700,
 				"width": 89070.09375
 			}
 		],
@@ -15402,21 +15724,21 @@ export default [
 		"measurements": [
 			{
 				"height": 1240,
-				"size": 85126988.125,
+				"size": 85126978.4375,
 				"weight": 1,
-				"width": 68650.796875
+				"width": 68650.7890625
 			},
 			{
 				"height": 1240,
-				"size": 86164839.0625,
+				"size": 86164819.6875,
 				"weight": 101,
-				"width": 69487.7734375
+				"width": 69487.7578125
 			},
 			{
 				"height": 1240,
-				"size": 87201924.6875,
+				"size": 87201905.3125,
 				"weight": 201,
-				"width": 70324.1328125
+				"width": 70324.1171875
 			},
 			{
 				"height": 1240,
@@ -15426,39 +15748,39 @@ export default [
 			},
 			{
 				"height": 1240,
-				"size": 89287614.375,
+				"size": 89287934.0625,
 				"weight": 401,
-				"width": 72006.140625
+				"width": 72006.3984375
 			},
 			{
 				"height": 1240,
-				"size": 91410436.25,
+				"size": 91432581.875,
 				"weight": 501,
-				"width": 73718.09375
+				"width": 73735.953125
 			},
 			{
 				"height": 1240,
-				"size": 93533122.5,
+				"size": 93573897.1875,
 				"weight": 601,
-				"width": 75429.9375
+				"width": 75462.8203125
 			},
 			{
 				"height": 1240,
-				"size": 95655779.6875,
+				"size": 95714689.375,
 				"weight": 701,
-				"width": 77141.7578125
+				"width": 77189.265625
 			},
 			{
 				"height": 1240,
-				"size": 97778223.75,
+				"size": 97817564.6875,
 				"weight": 801,
-				"width": 78853.40625
+				"width": 78885.1328125
 			},
 			{
 				"height": 1240,
-				"size": 99901500.9375,
+				"size": 99921040.625,
 				"weight": 901,
-				"width": 80565.7265625
+				"width": 80581.484375
 			},
 			{
 				"height": 1240,
@@ -15480,31 +15802,32 @@ export default [
 			{
 				"height": 1209,
 				"size": 97429059.609375,
-				"weight": "700",
+				"weight": 700,
 				"width": 80586.484375
 			}
 		],
 		"name": "Gorditas"
 	},
 	{
+		"isMultiplexed": true,
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 111200854.171875,
-				"weight": 700,
-				"width": 91977.546875
-			},
-			{
-				"height": 1209,
-				"size": 110754336.46875,
-				"weight": 800,
-				"width": 91608.21875
-			},
-			{
-				"height": 1209,
-				"size": 110411679.421875,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 900,
-				"width": 91324.796875
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 700,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 800,
+				"width": 72215.359375
 			}
 		],
 		"name": "Gosh"
@@ -15514,19 +15837,19 @@ export default [
 			{
 				"height": 1240,
 				"size": 82685505.625,
-				"weight": "100",
+				"weight": 100,
 				"width": 66681.859375
 			},
 			{
 				"height": 1240,
 				"size": 84236416.25,
-				"weight": "200",
+				"weight": 200,
 				"width": 67932.59375
 			},
 			{
 				"height": 1240,
 				"size": 85770218.75,
-				"weight": "300",
+				"weight": 300,
 				"width": 69169.53125
 			},
 			{
@@ -15538,31 +15861,31 @@ export default [
 			{
 				"height": 1240,
 				"size": 89207653.75,
-				"weight": "500",
+				"weight": 500,
 				"width": 71941.65625
 			},
 			{
 				"height": 1240,
 				"size": 91085207.5,
-				"weight": "600",
+				"weight": 600,
 				"width": 73455.8125
 			},
 			{
 				"height": 1240,
 				"size": 92987600,
-				"weight": "700",
+				"weight": 700,
 				"width": 74990
 			},
 			{
 				"height": 1240,
 				"size": 94865037.5,
-				"weight": "800",
+				"weight": 800,
 				"width": 76504.0625
 			},
 			{
 				"height": 1240,
 				"size": 96751310,
-				"weight": "900",
+				"weight": 900,
 				"width": 78025.25
 			}
 		],
@@ -15601,7 +15924,7 @@ export default [
 			{
 				"height": 1426,
 				"size": 102400647.796875,
-				"weight": "700",
+				"weight": 700,
 				"width": 71809.7109375
 			}
 		],
@@ -15758,57 +16081,57 @@ export default [
 		"measurements": [
 			{
 				"height": 1457,
-				"size": 76838218.78125,
-				"weight": "100",
-				"width": 52737.28125
+				"size": 76838127.71875,
+				"weight": 100,
+				"width": 52737.21875
 			},
 			{
 				"height": 1457,
-				"size": 78504685.296875,
-				"weight": "200",
-				"width": 53881.046875
+				"size": 78989376.8359375,
+				"weight": 200,
+				"width": 54213.7109375
 			},
 			{
 				"height": 1457,
-				"size": 80902315.390625,
-				"weight": "300",
-				"width": 55526.640625
+				"size": 81141172.328125,
+				"weight": 300,
+				"width": 55690.578125
 			},
 			{
 				"height": 1457,
-				"size": 83290531.8984375,
+				"size": 83291647.4140625,
 				"weight": 400,
-				"width": 57165.7734375
+				"width": 57166.5390625
 			},
 			{
 				"height": 1457,
-				"size": 85164188.3671875,
-				"weight": "500",
-				"width": 58451.7421875
+				"size": 85650166.1640625,
+				"weight": 500,
+				"width": 58785.2890625
 			},
 			{
 				"height": 1457,
-				"size": 87441866.3828125,
-				"weight": "600",
-				"width": 60015.0078125
+				"size": 88008343.4296875,
+				"weight": 600,
+				"width": 60403.8046875
 			},
 			{
 				"height": 1457,
-				"size": 90065661.578125,
-				"weight": "700",
-				"width": 61815.828125
+				"size": 90365279.96875,
+				"weight": 700,
+				"width": 62021.46875
 			},
 			{
 				"height": 1457,
-				"size": 92641296.09375,
-				"weight": "800",
-				"width": 63583.59375
+				"size": 92723673.5078125,
+				"weight": 800,
+				"width": 63640.1328125
 			},
 			{
 				"height": 1457,
-				"size": 95081850.7734375,
-				"weight": "900",
-				"width": 65258.6484375
+				"size": 95082135.34375,
+				"weight": 900,
+				"width": 65258.84375
 			}
 		],
 		"name": "Grenze"
@@ -15887,57 +16210,57 @@ export default [
 		"measurements": [
 			{
 				"height": 1457,
-				"size": 101102436.578125,
-				"weight": 100,
-				"width": 69390.828125
-			},
-			{
-				"height": 1457,
-				"size": 101578613.7734375,
-				"weight": 200,
-				"width": 69717.6484375
-			},
-			{
-				"height": 1457,
-				"size": 102003101.6171875,
-				"weight": 300,
-				"width": 70008.9921875
-			},
-			{
-				"height": 1457,
-				"size": 102419962.9765625,
-				"weight": 400,
-				"width": 70295.1015625
-			},
-			{
-				"height": 1457,
-				"size": 103074645.4375,
-				"weight": 500,
-				"width": 70744.4375
-			},
-			{
-				"height": 1457,
-				"size": 103673631.796875,
-				"weight": 600,
-				"width": 71155.546875
-			},
-			{
-				"height": 1457,
-				"size": 104750901.171875,
+				"size": 104814292.0546875,
 				"weight": 700,
-				"width": 71894.921875
+				"width": 71938.4296875
 			},
 			{
 				"height": 1457,
-				"size": 105253213.3046875,
+				"size": 103745673.6171875,
+				"weight": 600,
+				"width": 71204.9921875
+			},
+			{
+				"height": 1457,
+				"size": 105318630.328125,
 				"weight": 800,
-				"width": 72239.6796875
+				"width": 72284.578125
 			},
 			{
 				"height": 1457,
-				"size": 105795012.4140625,
+				"size": 101165929.90625,
+				"weight": 200,
+				"width": 69434.40625
+			},
+			{
+				"height": 1457,
+				"size": 105318630.328125,
 				"weight": 900,
-				"width": 72611.5390625
+				"width": 72284.578125
+			},
+			{
+				"height": 1457,
+				"size": 101165929.90625,
+				"weight": 300,
+				"width": 69434.40625
+			},
+			{
+				"height": 1457,
+				"size": 103138628.2265625,
+				"weight": 500,
+				"width": 70788.3515625
+			},
+			{
+				"height": 1457,
+				"size": 102477867.34375,
+				"weight": 400,
+				"width": 70334.84375
+			},
+			{
+				"height": 1457,
+				"size": 101165929.90625,
+				"weight": 100,
+				"width": 69434.40625
 			}
 		],
 		"name": "Greycliff CF"
@@ -15975,7 +16298,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 80210812.1953125,
-				"weight": "700",
+				"weight": 700,
 				"width": 66344.7578125
 			}
 		],
@@ -16014,13 +16337,13 @@ export default [
 			{
 				"height": 1147,
 				"size": 71010277.1484375,
-				"weight": "500",
+				"weight": 500,
 				"width": 61909.5703125
 			},
 			{
 				"height": 1147,
 				"size": 73804449.796875,
-				"weight": "700",
+				"weight": 700,
 				"width": 64345.640625
 			}
 		],
@@ -16059,7 +16382,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 77673841.21875,
-				"weight": "700",
+				"weight": 700,
 				"width": 65937.046875
 			}
 		],
@@ -16151,7 +16474,7 @@ export default [
 			{
 				"height": 1581,
 				"size": 97958685.890625,
-				"weight": "300",
+				"weight": 300,
 				"width": 61959.953125
 			},
 			{
@@ -16163,19 +16486,19 @@ export default [
 			{
 				"height": 1581,
 				"size": 105217662.1171875,
-				"weight": "500",
+				"weight": 500,
 				"width": 66551.3359375
 			},
 			{
 				"height": 1581,
 				"size": 109527529.875,
-				"weight": "600",
+				"weight": 600,
 				"width": 69277.375
 			},
 			{
 				"height": 1581,
 				"size": 114462905.4609375,
-				"weight": "700",
+				"weight": 700,
 				"width": 72399.0546875
 			}
 		],
@@ -16426,19 +16749,19 @@ export default [
 			{
 				"height": 1705,
 				"size": 94543728.5546875,
-				"weight": "500",
+				"weight": 500,
 				"width": 55450.8671875
 			},
 			{
 				"height": 1705,
 				"size": 95985652.3828125,
-				"weight": "600",
+				"weight": 600,
 				"width": 56296.5703125
 			},
 			{
 				"height": 1705,
 				"size": 97420916.0546875,
-				"weight": "700",
+				"weight": 700,
 				"width": 57138.3671875
 			}
 		],
@@ -16550,40 +16873,40 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1364,
-				"size": 98732159.625,
-				"weight": 300,
-				"width": 72384.28125
-			},
-			{
-				"height": 1364,
-				"size": 99826300.75,
-				"weight": 400,
-				"width": 73186.4375
-			},
-			{
-				"height": 1364,
-				"size": 101500813.21875,
-				"weight": 500,
-				"width": 74414.0859375
-			},
-			{
-				"height": 1364,
-				"size": 104674255.125,
-				"weight": 600,
-				"width": 76740.65625
-			},
-			{
-				"height": 1364,
-				"size": 107089334.34375,
-				"weight": 700,
-				"width": 78511.2421875
-			},
-			{
-				"height": 1364,
-				"size": 108420331.9375,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 900,
-				"width": 79487.046875
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 700,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 600,
+				"width": 72215.359375
 			}
 		],
 		"name": "Henrietta"
@@ -16667,70 +16990,70 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1116,
-				"size": 83908517.625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 1,
-				"width": 75186.84375
+				"width": 68647.71875
 			},
 			{
-				"height": 1116,
-				"size": 83908517.625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 101,
-				"width": 75186.84375
+				"width": 68647.71875
 			},
 			{
-				"height": 1116,
-				"size": 83908517.625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 201,
-				"width": 75186.84375
+				"width": 68647.71875
 			},
 			{
-				"height": 1116,
-				"size": 83908517.625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 301,
-				"width": 75186.84375
+				"width": 68647.71875
 			},
 			{
-				"height": 1116,
-				"size": 83908517.625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 401,
-				"width": 75186.84375
+				"width": 68647.71875
 			},
 			{
-				"height": 1116,
-				"size": 83908517.625,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 501,
-				"width": 75186.84375
+				"width": 72215.359375
 			},
 			{
-				"height": 1116,
-				"size": 83908517.625,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 601,
-				"width": 75186.84375
+				"width": 72215.359375
 			},
 			{
-				"height": 1116,
-				"size": 83908517.625,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 701,
-				"width": 75186.84375
+				"width": 72215.359375
 			},
 			{
-				"height": 1116,
-				"size": 83907026.71875,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 801,
-				"width": 75185.5078125
+				"width": 72215.359375
 			},
 			{
-				"height": 1116,
-				"size": 85787547.75,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 901,
-				"width": 76870.5625
+				"width": 72215.359375
 			},
 			{
-				"height": 1116,
-				"size": 87649271.15625,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 1000,
-				"width": 78538.7734375
+				"width": 72215.359375
 			}
 		],
 		"name": "HEX Franklin"
@@ -16738,10 +17061,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1116,
-				"size": 76798751.90625,
-				"weight": 400,
-				"width": 68816.0859375
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 800,
+				"width": 72215.359375
 			}
 		],
 		"name": "HEX Franklin Tyght"
@@ -16760,6 +17083,17 @@ export default [
 	{
 		"measurements": [
 			{
+				"height": 1333,
+				"size": 99984872.53125,
+				"weight": 400,
+				"width": 75007.40625
+			}
+		],
+		"name": "Hibur Mono"
+	},
+	{
+		"measurements": [
+			{
 				"height": 1426,
 				"size": 95330261.28125,
 				"weight": 400,
@@ -16773,7 +17107,7 @@ export default [
 			{
 				"height": 1581,
 				"size": 103082373.3984375,
-				"weight": "300",
+				"weight": 300,
 				"width": 65200.7421875
 			},
 			{
@@ -16785,19 +17119,19 @@ export default [
 			{
 				"height": 1581,
 				"size": 106580113.5703125,
-				"weight": "500",
+				"weight": 500,
 				"width": 67413.1015625
 			},
 			{
 				"height": 1581,
 				"size": 108635919.984375,
-				"weight": "600",
+				"weight": 600,
 				"width": 68713.421875
 			},
 			{
 				"height": 1581,
 				"size": 111011434.2421875,
-				"weight": "700",
+				"weight": 700,
 				"width": 70215.9609375
 			}
 		],
@@ -16808,7 +17142,7 @@ export default [
 			{
 				"height": 1891,
 				"size": 123303674.3671875,
-				"weight": "300",
+				"weight": 300,
 				"width": 65205.5390625
 			},
 			{
@@ -16820,19 +17154,19 @@ export default [
 			{
 				"height": 1891,
 				"size": 127485945.8828125,
-				"weight": "500",
+				"weight": 500,
 				"width": 67417.2109375
 			},
 			{
 				"height": 1891,
 				"size": 129944260.65625,
-				"weight": "600",
+				"weight": 600,
 				"width": 68717.21875
 			},
 			{
 				"height": 1891,
 				"size": 132784690.390625,
-				"weight": "700",
+				"weight": 700,
 				"width": 70219.296875
 			}
 		],
@@ -16843,7 +17177,7 @@ export default [
 			{
 				"height": 1364,
 				"size": 88940355.28125,
-				"weight": "300",
+				"weight": 300,
 				"width": 65205.5390625
 			},
 			{
@@ -16855,19 +17189,19 @@ export default [
 			{
 				"height": 1364,
 				"size": 91957075.71875,
-				"weight": "500",
+				"weight": 500,
 				"width": 67417.2109375
 			},
 			{
 				"height": 1364,
 				"size": 93730286.375,
-				"weight": "600",
+				"weight": 600,
 				"width": 68717.21875
 			},
 			{
 				"height": 1364,
 				"size": 95779120.9375,
-				"weight": "700",
+				"weight": 700,
 				"width": 70219.296875
 			}
 		],
@@ -16878,7 +17212,7 @@ export default [
 			{
 				"height": 1705,
 				"size": 111175444.1015625,
-				"weight": "300",
+				"weight": 300,
 				"width": 65205.5390625
 			},
 			{
@@ -16890,19 +17224,19 @@ export default [
 			{
 				"height": 1705,
 				"size": 114946344.6484375,
-				"weight": "500",
+				"weight": 500,
 				"width": 67417.2109375
 			},
 			{
 				"height": 1705,
 				"size": 117162857.96875,
-				"weight": "600",
+				"weight": 600,
 				"width": 68717.21875
 			},
 			{
 				"height": 1705,
 				"size": 119723901.171875,
-				"weight": "700",
+				"weight": 700,
 				"width": 70219.296875
 			}
 		],
@@ -16913,7 +17247,7 @@ export default [
 			{
 				"height": 1612,
 				"size": 105076192.40625,
-				"weight": "300",
+				"weight": 300,
 				"width": 65183.7421875
 			},
 			{
@@ -16925,19 +17259,19 @@ export default [
 			{
 				"height": 1612,
 				"size": 108656242.90625,
-				"weight": "500",
+				"weight": 500,
 				"width": 67404.6171875
 			},
 			{
 				"height": 1612,
 				"size": 110761225.25,
-				"weight": "600",
+				"weight": 600,
 				"width": 68710.4375
 			},
 			{
 				"height": 1612,
 				"size": 113193506.5625,
-				"weight": "700",
+				"weight": 700,
 				"width": 70219.296875
 			}
 		],
@@ -16948,7 +17282,7 @@ export default [
 			{
 				"height": 1488,
 				"size": 97025842.125,
-				"weight": "300",
+				"weight": 300,
 				"width": 65205.5390625
 			},
 			{
@@ -16960,19 +17294,19 @@ export default [
 			{
 				"height": 1488,
 				"size": 100316809.875,
-				"weight": "500",
+				"weight": 500,
 				"width": 67417.2109375
 			},
 			{
 				"height": 1488,
 				"size": 102251221.5,
-				"weight": "600",
+				"weight": 600,
 				"width": 68717.21875
 			},
 			{
 				"height": 1488,
 				"size": 104486313.75,
-				"weight": "700",
+				"weight": 700,
 				"width": 70219.296875
 			}
 		],
@@ -17026,57 +17360,57 @@ export default [
 		"measurements": [
 			{
 				"height": 930,
-				"size": 32157750.703125,
+				"size": 32218803.75,
 				"weight": 100,
-				"width": 34578.2265625
+				"width": 34643.875
 			},
 			{
 				"height": 930,
-				"size": 32830649.296875,
+				"size": 32218803.75,
 				"weight": 200,
-				"width": 35301.7734375
+				"width": 34643.875
 			},
 			{
 				"height": 930,
-				"size": 33483661.875,
+				"size": 33602578.359375,
 				"weight": 300,
-				"width": 36003.9375
+				"width": 36131.8046875
 			},
 			{
 				"height": 930,
-				"size": 34753635,
+				"size": 34934636.25,
 				"weight": 400,
-				"width": 37369.5
+				"width": 37564.125
 			},
 			{
 				"height": 930,
-				"size": 35898297.890625,
+				"size": 36013189.21875,
 				"weight": 500,
-				"width": 38600.3203125
+				"width": 38723.859375
 			},
 			{
 				"height": 930,
-				"size": 37036814.0625,
+				"size": 38157914.53125,
 				"weight": 600,
-				"width": 39824.53125
+				"width": 41030.015625
 			},
 			{
 				"height": 930,
-				"size": 38172082.5,
+				"size": 38157914.53125,
 				"weight": 700,
-				"width": 41045.25
+				"width": 41030.015625
 			},
 			{
 				"height": 930,
-				"size": 39310903.828125,
+				"size": 39234723.75,
 				"weight": 800,
-				"width": 42269.7890625
+				"width": 42187.875
 			},
 			{
 				"height": 930,
-				"size": 40445641.875,
+				"size": 39234723.75,
 				"weight": 900,
-				"width": 43489.9375
+				"width": 42187.875
 			}
 		],
 		"name": "Hop"
@@ -17211,40 +17545,40 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1488,
-				"size": 95672843.25,
-				"weight": 100,
-				"width": 64296.265625
-			},
-			{
-				"height": 1488,
-				"size": 98456205.375,
-				"weight": 300,
-				"width": 66166.8046875
-			},
-			{
-				"height": 1488,
-				"size": 100324459.125,
-				"weight": 400,
-				"width": 67422.3515625
-			},
-			{
-				"height": 1488,
-				"size": 102161418.375,
-				"weight": 500,
-				"width": 68656.8671875
-			},
-			{
-				"height": 1488,
-				"size": 106810023.375,
-				"weight": 700,
-				"width": 71780.9296875
-			},
-			{
-				"height": 1488,
-				"size": 109593327.375,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 900,
-				"width": 73651.4296875
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 700,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 100,
+				"width": 68647.71875
 			}
 		],
 		"name": "Hypertext Display"
@@ -17295,19 +17629,19 @@ export default [
 			{
 				"height": 1302,
 				"size": 97659642.9375,
-				"weight": "100",
+				"weight": 100,
 				"width": 75007.40625
 			},
 			{
 				"height": 1302,
 				"size": 97659642.9375,
-				"weight": "200",
+				"weight": 200,
 				"width": 75007.40625
 			},
 			{
 				"height": 1302,
 				"size": 97659642.9375,
-				"weight": "300",
+				"weight": 300,
 				"width": 75007.40625
 			},
 			{
@@ -17319,19 +17653,19 @@ export default [
 			{
 				"height": 1302,
 				"size": 97659642.9375,
-				"weight": "500",
+				"weight": 500,
 				"width": 75007.40625
 			},
 			{
 				"height": 1302,
 				"size": 97659642.9375,
-				"weight": "600",
+				"weight": 600,
 				"width": 75007.40625
 			},
 			{
 				"height": 1302,
 				"size": 97659642.9375,
-				"weight": "700",
+				"weight": 700,
 				"width": 75007.40625
 			}
 		],
@@ -17389,19 +17723,19 @@ export default [
 			{
 				"height": 1488,
 				"size": 102094318.875,
-				"weight": "100",
+				"weight": 100,
 				"width": 68611.7734375
 			},
 			{
 				"height": 1488,
 				"size": 102964310.625,
-				"weight": "200",
+				"weight": 200,
 				"width": 69196.4453125
 			},
 			{
 				"height": 1488,
 				"size": 104390802.75,
-				"weight": "300",
+				"weight": 300,
 				"width": 70155.109375
 			},
 			{
@@ -17413,19 +17747,19 @@ export default [
 			{
 				"height": 1488,
 				"size": 107960700.75,
-				"weight": "500",
+				"weight": 500,
 				"width": 72554.234375
 			},
 			{
 				"height": 1488,
 				"size": 109280463.75,
-				"weight": "600",
+				"weight": 600,
 				"width": 73441.171875
 			},
 			{
 				"height": 1488,
 				"size": 110713024.125,
-				"weight": "700",
+				"weight": 700,
 				"width": 74403.9140625
 			}
 		],
@@ -17436,19 +17770,19 @@ export default [
 			{
 				"height": 1302,
 				"size": 80509749.796875,
-				"weight": "100",
+				"weight": 100,
 				"width": 61835.4453125
 			},
 			{
 				"height": 1302,
 				"size": 81268795.453125,
-				"weight": "200",
+				"weight": 200,
 				"width": 62418.4296875
 			},
 			{
 				"height": 1302,
 				"size": 82419732.9375,
-				"weight": "300",
+				"weight": 300,
 				"width": 63302.40625
 			},
 			{
@@ -17460,19 +17794,19 @@ export default [
 			{
 				"height": 1302,
 				"size": 85356790.640625,
-				"weight": "500",
+				"weight": 500,
 				"width": 65558.2109375
 			},
 			{
 				"height": 1302,
 				"size": 86508409.640625,
-				"weight": "600",
+				"weight": 600,
 				"width": 66442.7109375
 			},
 			{
 				"height": 1302,
 				"size": 87617021.953125,
-				"weight": "700",
+				"weight": 700,
 				"width": 67294.1796875
 			}
 		],
@@ -17483,19 +17817,19 @@ export default [
 			{
 				"height": 1519,
 				"size": 104217652.4921875,
-				"weight": "100",
+				"weight": 100,
 				"width": 68609.3828125
 			},
 			{
 				"height": 1519,
 				"size": 105105745.3359375,
-				"weight": "200",
+				"weight": 200,
 				"width": 69194.0390625
 			},
 			{
 				"height": 1519,
 				"size": 106561956.046875,
-				"weight": "300",
+				"weight": 300,
 				"width": 70152.703125
 			},
 			{
@@ -17507,19 +17841,19 @@ export default [
 			{
 				"height": 1519,
 				"size": 110206226.921875,
-				"weight": "500",
+				"weight": 500,
 				"width": 72551.828125
 			},
 			{
 				"height": 1519,
 				"size": 111553508.71875,
-				"weight": "600",
+				"weight": 600,
 				"width": 73438.78125
 			},
 			{
 				"height": 1519,
 				"size": 113015890.3671875,
-				"weight": "700",
+				"weight": 700,
 				"width": 74401.5078125
 			}
 		],
@@ -17530,19 +17864,19 @@ export default [
 			{
 				"height": 1302,
 				"size": 89329416.421875,
-				"weight": "100",
+				"weight": 100,
 				"width": 68609.3828125
 			},
 			{
 				"height": 1302,
 				"size": 90090638.859375,
-				"weight": "200",
+				"weight": 200,
 				"width": 69194.0390625
 			},
 			{
 				"height": 1302,
 				"size": 91338819.46875,
-				"weight": "300",
+				"weight": 300,
 				"width": 70152.703125
 			},
 			{
@@ -17554,19 +17888,19 @@ export default [
 			{
 				"height": 1302,
 				"size": 94462480.21875,
-				"weight": "500",
+				"weight": 500,
 				"width": 72551.828125
 			},
 			{
 				"height": 1302,
 				"size": 95617293.1875,
-				"weight": "600",
+				"weight": 600,
 				"width": 73438.78125
 			},
 			{
 				"height": 1302,
 				"size": 96870763.171875,
-				"weight": "700",
+				"weight": 700,
 				"width": 74401.5078125
 			}
 		],
@@ -17577,19 +17911,19 @@ export default [
 			{
 				"height": 1488,
 				"size": 107370441.375,
-				"weight": "100",
+				"weight": 100,
 				"width": 72157.5546875
 			},
 			{
 				"height": 1488,
 				"size": 108226169.25,
-				"weight": "200",
+				"weight": 200,
 				"width": 72732.640625
 			},
 			{
 				"height": 1488,
 				"size": 109557464.25,
-				"weight": "300",
+				"weight": 300,
 				"width": 73627.328125
 			},
 			{
@@ -17601,19 +17935,19 @@ export default [
 			{
 				"height": 1488,
 				"size": 113013379.125,
-				"weight": "500",
+				"weight": 500,
 				"width": 75949.8515625
 			},
 			{
 				"height": 1488,
 				"size": 114351172.5,
-				"weight": "600",
+				"weight": 600,
 				"width": 76848.90625
 			},
 			{
 				"height": 1488,
 				"size": 115710390.75,
-				"weight": "700",
+				"weight": 700,
 				"width": 77762.359375
 			}
 		],
@@ -17624,19 +17958,19 @@ export default [
 			{
 				"height": 1488,
 				"size": 102089913,
-				"weight": "100",
+				"weight": 100,
 				"width": 68608.8125
 			},
 			{
 				"height": 1488,
 				"size": 102959649,
-				"weight": "200",
+				"weight": 200,
 				"width": 69193.3125
 			},
 			{
 				"height": 1488,
 				"size": 104385815.625,
-				"weight": "300",
+				"weight": 300,
 				"width": 70151.7578125
 			},
 			{
@@ -17648,19 +17982,19 @@ export default [
 			{
 				"height": 1488,
 				"size": 107955492.75,
-				"weight": "500",
+				"weight": 500,
 				"width": 72550.734375
 			},
 			{
 				"height": 1488,
 				"size": 109275430.125,
-				"weight": "600",
+				"weight": 600,
 				"width": 73437.7890625
 			},
 			{
 				"height": 1488,
 				"size": 110708060.25,
-				"weight": "700",
+				"weight": 700,
 				"width": 74400.578125
 			}
 		],
@@ -17671,19 +18005,19 @@ export default [
 			{
 				"height": 1643,
 				"size": 112725215.9609375,
-				"weight": "100",
+				"weight": 100,
 				"width": 68609.3828125
 			},
 			{
 				"height": 1643,
 				"size": 113685806.1796875,
-				"weight": "200",
+				"weight": 200,
 				"width": 69194.0390625
 			},
 			{
 				"height": 1643,
 				"size": 115260891.234375,
-				"weight": "300",
+				"weight": 300,
 				"width": 70152.703125
 			},
 			{
@@ -17695,19 +18029,19 @@ export default [
 			{
 				"height": 1643,
 				"size": 119202653.609375,
-				"weight": "500",
+				"weight": 500,
 				"width": 72551.828125
 			},
 			{
 				"height": 1643,
 				"size": 120659917.59375,
-				"weight": "600",
+				"weight": 600,
 				"width": 73438.78125
 			},
 			{
 				"height": 1643,
 				"size": 122241677.3359375,
-				"weight": "700",
+				"weight": 700,
 				"width": 74401.5078125
 			}
 		],
@@ -17718,19 +18052,19 @@ export default [
 			{
 				"height": 1643,
 				"size": 112725215.9609375,
-				"weight": "100",
+				"weight": 100,
 				"width": 68609.3828125
 			},
 			{
 				"height": 1643,
 				"size": 113685806.1796875,
-				"weight": "200",
+				"weight": 200,
 				"width": 69194.0390625
 			},
 			{
 				"height": 1643,
 				"size": 115260891.234375,
-				"weight": "300",
+				"weight": 300,
 				"width": 70152.703125
 			},
 			{
@@ -17742,19 +18076,19 @@ export default [
 			{
 				"height": 1643,
 				"size": 119202653.609375,
-				"weight": "500",
+				"weight": 500,
 				"width": 72551.828125
 			},
 			{
 				"height": 1643,
 				"size": 120659917.59375,
-				"weight": "600",
+				"weight": 600,
 				"width": 73438.78125
 			},
 			{
 				"height": 1643,
 				"size": 122241677.3359375,
-				"weight": "700",
+				"weight": 700,
 				"width": 74401.5078125
 			}
 		],
@@ -17765,19 +18099,19 @@ export default [
 			{
 				"height": 1302,
 				"size": 93635394.890625,
-				"weight": "100",
+				"weight": 100,
 				"width": 71916.5859375
 			},
 			{
 				"height": 1302,
 				"size": 94598091.65625,
-				"weight": "200",
+				"weight": 200,
 				"width": 72655.984375
 			},
 			{
 				"height": 1302,
 				"size": 96070572.28125,
-				"weight": "300",
+				"weight": 300,
 				"width": 73786.921875
 			},
 			{
@@ -17789,19 +18123,19 @@ export default [
 			{
 				"height": 1302,
 				"size": 99540056.4375,
-				"weight": "500",
+				"weight": 500,
 				"width": 76451.65625
 			},
 			{
 				"height": 1302,
 				"size": 100696995.328125,
-				"weight": "600",
+				"weight": 600,
 				"width": 77340.2421875
 			},
 			{
 				"height": 1302,
 				"size": 102068581.125,
-				"weight": "700",
+				"weight": 700,
 				"width": 78393.6875
 			}
 		],
@@ -17834,13 +18168,13 @@ export default [
 			{
 				"height": 1612,
 				"size": 120678639.65625,
-				"weight": "200",
+				"weight": 200,
 				"width": 74862.6796875
 			},
 			{
 				"height": 1612,
 				"size": 122964405.28125,
-				"weight": "300",
+				"weight": 300,
 				"width": 76280.6484375
 			},
 			{
@@ -18176,7 +18510,7 @@ export default [
 			{
 				"height": 1302,
 				"size": 94008011.015625,
-				"weight": "700",
+				"weight": 700,
 				"width": 72202.7734375
 			}
 		],
@@ -18187,7 +18521,7 @@ export default [
 			{
 				"height": 2542,
 				"size": 225175583.015625,
-				"weight": "300",
+				"weight": 300,
 				"width": 88582.0546875
 			},
 			{
@@ -18199,31 +18533,31 @@ export default [
 			{
 				"height": 2542,
 				"size": 228424517.1875,
-				"weight": "500",
+				"weight": 500,
 				"width": 89860.15625
 			},
 			{
 				"height": 2542,
 				"size": 230086627.71875,
-				"weight": "600",
+				"weight": 600,
 				"width": 90514.015625
 			},
 			{
 				"height": 2542,
 				"size": 234979679.828125,
-				"weight": "700",
+				"weight": 700,
 				"width": 92438.8984375
 			},
 			{
 				"height": 2542,
 				"size": 237427685.40625,
-				"weight": "800",
+				"weight": 800,
 				"width": 93401.921875
 			},
 			{
 				"height": 2542,
 				"size": 239862484.5,
-				"weight": "900",
+				"weight": 900,
 				"width": 94359.75
 			}
 		],
@@ -18234,7 +18568,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 76532690.53125,
-				"weight": "300",
+				"weight": 300,
 				"width": 64968.328125
 			},
 			{
@@ -18246,7 +18580,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 78839628.671875,
-				"weight": "700",
+				"weight": 700,
 				"width": 66926.6796875
 			}
 		],
@@ -18257,7 +18591,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 81188588.28125,
-				"weight": "300",
+				"weight": 300,
 				"width": 68920.703125
 			},
 			{
@@ -18269,7 +18603,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 83667726.09375,
-				"weight": "700",
+				"weight": 700,
 				"width": 71025.234375
 			}
 		],
@@ -18330,39 +18664,39 @@ export default [
 		"measurements": [
 			{
 				"height": 1178,
-				"size": 104398538.21875,
-				"weight": 400,
-				"width": 88623.546875
-			},
-			{
-				"height": 1178,
-				"size": 106177658.734375,
-				"weight": 500,
-				"width": 90133.8359375
-			},
-			{
-				"height": 1178,
-				"size": 107942210.703125,
-				"weight": 600,
-				"width": 91631.7578125
-			},
-			{
-				"height": 1178,
-				"size": 109666213.703125,
+				"size": 109723834.46875,
 				"weight": 700,
-				"width": 93095.2578125
+				"width": 93144.171875
 			},
 			{
 				"height": 1178,
-				"size": 111441395.28125,
+				"size": 107988760.109375,
+				"weight": 600,
+				"width": 91671.2734375
+			},
+			{
+				"height": 1178,
+				"size": 111496604.828125,
 				"weight": 800,
-				"width": 94602.203125
+				"width": 94649.0703125
 			},
 			{
 				"height": 1178,
-				"size": 113213006.046875,
+				"size": 111496604.828125,
 				"weight": 900,
-				"width": 96106.1171875
+				"width": 94649.0703125
+			},
+			{
+				"height": 1178,
+				"size": 106227944.609375,
+				"weight": 500,
+				"width": 90176.5234375
+			},
+			{
+				"height": 1178,
+				"size": 104455965.71875,
+				"weight": 400,
+				"width": 88672.296875
 			}
 		],
 		"name": "Integral CF"
@@ -18527,7 +18861,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 77657344.375,
-				"weight": "300",
+				"weight": 300,
 				"width": 62626.890625
 			},
 			{
@@ -18539,13 +18873,13 @@ export default [
 			{
 				"height": 1240,
 				"size": 77657344.375,
-				"weight": "500",
+				"weight": 500,
 				"width": 62626.890625
 			},
 			{
 				"height": 1240,
 				"size": 77657344.375,
-				"weight": "700",
+				"weight": 700,
 				"width": 62626.890625
 			}
 		],
@@ -18557,7 +18891,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 77495040,
-				"weight": "300",
+				"weight": 300,
 				"width": 62496
 			},
 			{
@@ -18569,13 +18903,13 @@ export default [
 			{
 				"height": 1240,
 				"size": 77495040,
-				"weight": "500",
+				"weight": 500,
 				"width": 62496
 			},
 			{
 				"height": 1240,
 				"size": 77495040,
-				"weight": "700",
+				"weight": 700,
 				"width": 62496
 			}
 		],
@@ -18614,7 +18948,7 @@ export default [
 			{
 				"height": 1426,
 				"size": 104547022.890625,
-				"weight": "700",
+				"weight": 700,
 				"width": 73314.8828125
 			}
 		],
@@ -18775,7 +19109,7 @@ export default [
 			{
 				"height": 1674,
 				"size": 99994101.328125,
-				"weight": "700",
+				"weight": 700,
 				"width": 59733.6328125
 			}
 		],
@@ -18959,10 +19293,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 28174106.359375,
-				"weight": 100,
-				"width": 23916.8984375
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 1,
+				"width": 68647.71875
 			}
 		],
 		"name": "Job Clarendon"
@@ -19197,7 +19531,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 75487053.9921875,
-				"weight": "700",
+				"weight": 700,
 				"width": 65812.6015625
 			}
 		],
@@ -19228,22 +19562,22 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 992,
-				"size": 70672544.5,
-				"weight": 300,
-				"width": 71242.484375
-			},
-			{
-				"height": 992,
-				"size": 72387627.25,
-				"weight": 400,
-				"width": 72971.3984375
-			},
-			{
-				"height": 992,
-				"size": 73224053.75,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 700,
-				"width": 73814.5703125
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
 			}
 		],
 		"name": "Junction"
@@ -19321,19 +19655,19 @@ export default [
 			{
 				"height": 1302,
 				"size": 92016927.515625,
-				"weight": "100",
+				"weight": 100,
 				"width": 70673.5234375
 			},
 			{
 				"height": 1302,
 				"size": 92639263.171875,
-				"weight": "200",
+				"weight": 200,
 				"width": 71151.5078125
 			},
 			{
 				"height": 1302,
 				"size": 93261242.8125,
-				"weight": "300",
+				"weight": 300,
 				"width": 71629.21875
 			},
 			{
@@ -19345,25 +19679,25 @@ export default [
 			{
 				"height": 1302,
 				"size": 94474360.96875,
-				"weight": "500",
+				"weight": 500,
 				"width": 72560.953125
 			},
 			{
 				"height": 1302,
 				"size": 95079923.203125,
-				"weight": "600",
+				"weight": 600,
 				"width": 73026.0546875
 			},
 			{
 				"height": 1302,
 				"size": 95619266.53125,
-				"weight": "700",
+				"weight": 700,
 				"width": 73440.296875
 			},
 			{
 				"height": 1302,
 				"size": 96185138.109375,
-				"weight": "800",
+				"weight": 800,
 				"width": 73874.9140625
 			}
 		],
@@ -19372,10 +19706,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1271,
-				"size": 90640610.34375,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 71314.40625
+				"width": 68647.71875
 			}
 		],
 		"name": "Kablammo"
@@ -19391,7 +19725,7 @@ export default [
 			{
 				"height": 1984,
 				"size": 154507518.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 77876.7734375
 			}
 		],
@@ -19409,13 +19743,13 @@ export default [
 			{
 				"height": 1426,
 				"size": 111907890.0625,
-				"weight": "500",
+				"weight": 500,
 				"width": 78476.78125
 			},
 			{
 				"height": 1426,
 				"size": 111907890.0625,
-				"weight": "700",
+				"weight": 700,
 				"width": 78476.78125
 			}
 		],
@@ -19433,13 +19767,13 @@ export default [
 			{
 				"height": 1426,
 				"size": 111907890.0625,
-				"weight": "500",
+				"weight": 500,
 				"width": 78476.78125
 			},
 			{
 				"height": 1426,
 				"size": 111907890.0625,
-				"weight": "700",
+				"weight": 700,
 				"width": 78476.78125
 			}
 		],
@@ -19457,13 +19791,13 @@ export default [
 			{
 				"height": 1426,
 				"size": 111907890.0625,
-				"weight": "500",
+				"weight": 500,
 				"width": 78476.78125
 			},
 			{
 				"height": 1426,
 				"size": 111907890.0625,
-				"weight": "700",
+				"weight": 700,
 				"width": 78476.78125
 			}
 		],
@@ -19480,19 +19814,19 @@ export default [
 			{
 				"height": 1426,
 				"size": 111907890.0625,
-				"weight": "500",
+				"weight": 500,
 				"width": 78476.78125
 			},
 			{
 				"height": 1426,
 				"size": 111907890.0625,
-				"weight": "700",
+				"weight": 700,
 				"width": 78476.78125
 			},
 			{
 				"height": 1426,
 				"size": 111902074.65625,
-				"weight": "800",
+				"weight": 800,
 				"width": 78472.703125
 			}
 		],
@@ -19503,7 +19837,7 @@ export default [
 			{
 				"height": 1581,
 				"size": 101658485.2734375,
-				"weight": "300",
+				"weight": 300,
 				"width": 64300.1171875
 			},
 			{
@@ -19515,7 +19849,7 @@ export default [
 			{
 				"height": 1581,
 				"size": 105432838.6875,
-				"weight": "700",
+				"weight": 700,
 				"width": 66687.4375
 			}
 		],
@@ -19655,19 +19989,19 @@ export default [
 			{
 				"height": 1612,
 				"size": 118624939.0625,
-				"weight": "500",
+				"weight": 500,
 				"width": 73588.671875
 			},
 			{
 				"height": 1612,
 				"size": 119835513.28125,
-				"weight": "600",
+				"weight": 600,
 				"width": 74339.6484375
 			},
 			{
 				"height": 1612,
 				"size": 121042939.0625,
-				"weight": "700",
+				"weight": 700,
 				"width": 75088.671875
 			}
 		],
@@ -19678,19 +20012,19 @@ export default [
 			{
 				"height": 1488,
 				"size": 96543509.25,
-				"weight": "100",
+				"weight": 100,
 				"width": 64881.390625
 			},
 			{
 				"height": 1488,
 				"size": 98587102.875,
-				"weight": "200",
+				"weight": 200,
 				"width": 66254.7734375
 			},
 			{
 				"height": 1488,
 				"size": 100575791.625,
-				"weight": "300",
+				"weight": 300,
 				"width": 67591.2578125
 			},
 			{
@@ -19702,31 +20036,31 @@ export default [
 			{
 				"height": 1488,
 				"size": 103495050,
-				"weight": "500",
+				"weight": 500,
 				"width": 69553.125
 			},
 			{
 				"height": 1488,
 				"size": 104926343.25,
-				"weight": "600",
+				"weight": 600,
 				"width": 70515.015625
 			},
 			{
 				"height": 1488,
 				"size": 106658386.875,
-				"weight": "700",
+				"weight": 700,
 				"width": 71679.0234375
 			},
 			{
 				"height": 1488,
 				"size": 108539056.125,
-				"weight": "800",
+				"weight": 800,
 				"width": 72942.9140625
 			},
 			{
 				"height": 1488,
 				"size": 110704119.375,
-				"weight": "900",
+				"weight": 900,
 				"width": 74397.9296875
 			}
 		],
@@ -19801,7 +20135,7 @@ export default [
 			{
 				"height": 992,
 				"size": 32049427.5,
-				"weight": "300",
+				"weight": 300,
 				"width": 32307.890625
 			},
 			{
@@ -19813,7 +20147,7 @@ export default [
 			{
 				"height": 992,
 				"size": 45163946.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 45528.171875
 			}
 		],
@@ -19871,7 +20205,7 @@ export default [
 			{
 				"height": 1395,
 				"size": 89599476.796875,
-				"weight": "300",
+				"weight": 300,
 				"width": 64229.015625
 			},
 			{
@@ -19883,19 +20217,19 @@ export default [
 			{
 				"height": 1488,
 				"size": 99607382.625,
-				"weight": "500",
+				"weight": 500,
 				"width": 66940.4453125
 			},
 			{
 				"height": 1519,
 				"size": 104116710.1953125,
-				"weight": "600",
+				"weight": 600,
 				"width": 68542.9296875
 			},
 			{
 				"height": 1612,
 				"size": 113470493.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 70391.125
 			}
 		],
@@ -19956,19 +20290,19 @@ export default [
 			{
 				"height": 1178,
 				"size": 80069939.234375,
-				"weight": "500",
+				"weight": 500,
 				"width": 67971.0859375
 			},
 			{
 				"height": 1178,
 				"size": 80158537.71875,
-				"weight": "600",
+				"weight": 600,
 				"width": 68046.296875
 			},
 			{
 				"height": 1178,
 				"size": 80241954.84375,
-				"weight": "700",
+				"weight": 700,
 				"width": 68117.109375
 			}
 		],
@@ -20007,31 +20341,31 @@ export default [
 			{
 				"height": 1240,
 				"size": 82512021.875,
-				"weight": "500",
+				"weight": 500,
 				"width": 66541.953125
 			},
 			{
 				"height": 1240,
 				"size": 83554949.0625,
-				"weight": "600",
+				"weight": 600,
 				"width": 67383.0234375
 			},
 			{
 				"height": 1240,
 				"size": 84584953.125,
-				"weight": "700",
+				"weight": 700,
 				"width": 68213.671875
 			},
 			{
 				"height": 1240,
 				"size": 85628403.4375,
-				"weight": "800",
+				"weight": 800,
 				"width": 69055.1640625
 			},
 			{
 				"height": 1240,
 				"size": 86677482.1875,
-				"weight": "900",
+				"weight": 900,
 				"width": 69901.1953125
 			}
 		],
@@ -20064,7 +20398,7 @@ export default [
 			{
 				"height": 1519,
 				"size": 75485945.5,
-				"weight": "300",
+				"weight": 300,
 				"width": 49694.5
 			},
 			{
@@ -20076,19 +20410,19 @@ export default [
 			{
 				"height": 1519,
 				"size": 78725497.8125,
-				"weight": "500",
+				"weight": 500,
 				"width": 51827.1875
 			},
 			{
 				"height": 1519,
 				"size": 80658828.796875,
-				"weight": "600",
+				"weight": 600,
 				"width": 53099.953125
 			},
 			{
 				"height": 1519,
 				"size": 82861485.6015625,
-				"weight": "700",
+				"weight": 700,
 				"width": 54550.0234375
 			}
 		],
@@ -20099,7 +20433,7 @@ export default [
 			{
 				"height": 1581,
 				"size": 101876564.4609375,
-				"weight": "300",
+				"weight": 300,
 				"width": 64438.0546875
 			},
 			{
@@ -20111,19 +20445,19 @@ export default [
 			{
 				"height": 1581,
 				"size": 108296029.6875,
-				"weight": "600",
+				"weight": 600,
 				"width": 68498.4375
 			},
 			{
 				"height": 1581,
 				"size": 111294445.59375,
-				"weight": "700",
+				"weight": 700,
 				"width": 70394.96875
 			},
 			{
 				"height": 1581,
 				"size": 115006164.234375,
-				"weight": "800",
+				"weight": 800,
 				"width": 72742.671875
 			}
 		],
@@ -20167,7 +20501,7 @@ export default [
 			{
 				"height": 1426,
 				"size": 113839741.28125,
-				"weight": "300",
+				"weight": 300,
 				"width": 79831.515625
 			},
 			{
@@ -20179,7 +20513,7 @@ export default [
 			{
 				"height": 1426,
 				"size": 118030632.734375,
-				"weight": "500",
+				"weight": 500,
 				"width": 82770.4296875
 			}
 		],
@@ -20196,7 +20530,7 @@ export default [
 			{
 				"height": 1426,
 				"size": 104087750.625,
-				"weight": "600",
+				"weight": 600,
 				"width": 72992.8125
 			}
 		],
@@ -20216,52 +20550,52 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1147,
-				"size": 84509239.5,
-				"weight": 100,
-				"width": 73678.5
-			},
-			{
-				"height": 1147,
-				"size": 85247808.9296875,
-				"weight": 200,
-				"width": 74322.4140625
-			},
-			{
 				"height": 1178,
-				"size": 88326163.90625,
-				"weight": 300,
-				"width": 74979.765625
-			},
-			{
-				"height": 1178,
-				"size": 89648128.390625,
-				"weight": 400,
-				"width": 76101.9765625
-			},
-			{
-				"height": 1240,
-				"size": 96203423.75,
-				"weight": 500,
-				"width": 77583.40625
-			},
-			{
-				"height": 1240,
-				"size": 99147464.6875,
-				"weight": 600,
-				"width": 79957.6328125
-			},
-			{
-				"height": 1302,
-				"size": 107001177.609375,
-				"weight": 700,
-				"width": 82182.1640625
-			},
-			{
-				"height": 1302,
-				"size": 110494280.859375,
+				"size": 100021384.71875,
 				"weight": 900,
-				"width": 84865.0390625
+				"width": 84907.796875
+			},
+			{
+				"height": 1178,
+				"size": 96865715.984375,
+				"weight": 700,
+				"width": 82228.9609375
+			},
+			{
+				"height": 1178,
+				"size": 86849458.078125,
+				"weight": 200,
+				"width": 73726.1953125
+			},
+			{
+				"height": 1178,
+				"size": 87602062.03125,
+				"weight": 300,
+				"width": 74365.078125
+			},
+			{
+				"height": 1178,
+				"size": 91444237.875,
+				"weight": 500,
+				"width": 77626.6875
+			},
+			{
+				"height": 1178,
+				"size": 89698285.421875,
+				"weight": 400,
+				"width": 76144.5546875
+			},
+			{
+				"height": 1178,
+				"size": 94243552.40625,
+				"weight": 600,
+				"width": 80003.015625
+			},
+			{
+				"height": 1178,
+				"size": 86849458.078125,
+				"weight": 100,
+				"width": 73726.1953125
 			}
 		],
 		"name": "Knile"
@@ -20271,13 +20605,13 @@ export default [
 			{
 				"height": 1302,
 				"size": 101657322.046875,
-				"weight": "200",
+				"weight": 200,
 				"width": 78077.8203125
 			},
 			{
 				"height": 1302,
 				"size": 101964828,
-				"weight": "300",
+				"weight": 300,
 				"width": 78314
 			},
 			{
@@ -20289,19 +20623,19 @@ export default [
 			{
 				"height": 1302,
 				"size": 103052954.15625,
-				"weight": "500",
+				"weight": 500,
 				"width": 79149.734375
 			},
 			{
 				"height": 1302,
 				"size": 103848903.375,
-				"weight": "600",
+				"weight": 600,
 				"width": 79761.0625
 			},
 			{
 				"height": 1302,
 				"size": 104686180.921875,
-				"weight": "700",
+				"weight": 700,
 				"width": 80404.1328125
 			}
 		],
@@ -20342,13 +20676,13 @@ export default [
 			{
 				"height": 1271,
 				"size": 88959911.4375,
-				"weight": "100",
+				"weight": 100,
 				"width": 69992.0625
 			},
 			{
 				"height": 1271,
 				"size": 92240431.9453125,
-				"weight": "300",
+				"weight": 300,
 				"width": 72573.1171875
 			},
 			{
@@ -20360,13 +20694,13 @@ export default [
 			{
 				"height": 1271,
 				"size": 99826713.1953125,
-				"weight": "700",
+				"weight": 700,
 				"width": 78541.8671875
 			},
 			{
 				"height": 1271,
 				"size": 103820929.9921875,
-				"weight": "900",
+				"weight": 900,
 				"width": 81684.4453125
 			}
 		],
@@ -20377,13 +20711,13 @@ export default [
 			{
 				"height": 1271,
 				"size": 85497776.9453125,
-				"weight": "200",
+				"weight": 200,
 				"width": 67268.1171875
 			},
 			{
 				"height": 1271,
 				"size": 86650663.3125,
-				"weight": "300",
+				"weight": 300,
 				"width": 68175.1875
 			},
 			{
@@ -20395,19 +20729,19 @@ export default [
 			{
 				"height": 1271,
 				"size": 88706287.359375,
-				"weight": "500",
+				"weight": 500,
 				"width": 69792.515625
 			},
 			{
 				"height": 1271,
 				"size": 89672098.4140625,
-				"weight": "600",
+				"weight": 600,
 				"width": 70552.3984375
 			},
 			{
 				"height": 1271,
 				"size": 90653509.0078125,
-				"weight": "700",
+				"weight": 700,
 				"width": 71324.5546875
 			}
 		],
@@ -20552,13 +20886,13 @@ export default [
 			{
 				"height": 1271,
 				"size": 89724884.6328125,
-				"weight": "200",
+				"weight": 200,
 				"width": 70593.9296875
 			},
 			{
 				"height": 1271,
 				"size": 89737584.703125,
-				"weight": "300",
+				"weight": 300,
 				"width": 70603.921875
 			},
 			{
@@ -20570,19 +20904,19 @@ export default [
 			{
 				"height": 1271,
 				"size": 90464884.6640625,
-				"weight": "500",
+				"weight": 500,
 				"width": 71176.1484375
 			},
 			{
 				"height": 1271,
 				"size": 91176495.71875,
-				"weight": "600",
+				"weight": 600,
 				"width": 71736.03125
 			},
 			{
 				"height": 1271,
 				"size": 91898175.4765625,
-				"weight": "700",
+				"weight": 700,
 				"width": 72303.8359375
 			}
 		],
@@ -20634,13 +20968,13 @@ export default [
 			{
 				"height": 1147,
 				"size": 75327280.4765625,
-				"weight": "200",
+				"weight": 200,
 				"width": 65673.3046875
 			},
 			{
 				"height": 1147,
 				"size": 75934599.0546875,
-				"weight": "300",
+				"weight": 300,
 				"width": 66202.7890625
 			},
 			{
@@ -20652,13 +20986,13 @@ export default [
 			{
 				"height": 1147,
 				"size": 77707574.3046875,
-				"weight": "600",
+				"weight": 600,
 				"width": 67748.5390625
 			},
 			{
 				"height": 1147,
 				"size": 78314247.6953125,
-				"weight": "700",
+				"weight": 700,
 				"width": 68277.4609375
 			}
 		],
@@ -20842,7 +21176,7 @@ export default [
 			{
 				"height": 1519,
 				"size": 107491762.0546875,
-				"weight": "300",
+				"weight": 300,
 				"width": 70764.8203125
 			},
 			{
@@ -20854,19 +21188,19 @@ export default [
 			{
 				"height": 1519,
 				"size": 113291826.2109375,
-				"weight": "500",
+				"weight": 500,
 				"width": 74583.1640625
 			},
 			{
 				"height": 1519,
 				"size": 116720232.9453125,
-				"weight": "600",
+				"weight": 600,
 				"width": 76840.1796875
 			},
 			{
 				"height": 1519,
 				"size": 120655902.609375,
-				"weight": "700",
+				"weight": 700,
 				"width": 79431.140625
 			}
 		],
@@ -20921,13 +21255,13 @@ export default [
 			{
 				"height": 1426,
 				"size": 71381827.890625,
-				"weight": "200",
+				"weight": 200,
 				"width": 50057.3828125
 			},
 			{
 				"height": 1426,
 				"size": 72908093.515625,
-				"weight": "300",
+				"weight": 300,
 				"width": 51127.6953125
 			},
 			{
@@ -20939,25 +21273,25 @@ export default [
 			{
 				"height": 1426,
 				"size": 75640331.796875,
-				"weight": "500",
+				"weight": 500,
 				"width": 53043.7109375
 			},
 			{
 				"height": 1426,
 				"size": 76889474.375,
-				"weight": "600",
+				"weight": 600,
 				"width": 53919.6875
 			},
 			{
 				"height": 1426,
 				"size": 78126083.75,
-				"weight": "700",
+				"weight": 700,
 				"width": 54786.875
 			},
 			{
 				"height": 1426,
 				"size": 79352945.078125,
-				"weight": "800",
+				"weight": 800,
 				"width": 55647.2265625
 			}
 		],
@@ -20968,13 +21302,13 @@ export default [
 			{
 				"height": 1209,
 				"size": 84048669.3515625,
-				"weight": "100",
+				"weight": 100,
 				"width": 69519.1640625
 			},
 			{
 				"height": 1209,
 				"size": 85374999.0234375,
-				"weight": "300",
+				"weight": 300,
 				"width": 70616.2109375
 			},
 			{
@@ -20986,13 +21320,13 @@ export default [
 			{
 				"height": 1209,
 				"size": 88234435.1484375,
-				"weight": "700",
+				"weight": 700,
 				"width": 72981.3359375
 			},
 			{
 				"height": 1209,
 				"size": 89415042.5390625,
-				"weight": "900",
+				"weight": 900,
 				"width": 73957.8515625
 			}
 		],
@@ -21021,55 +21355,54 @@ export default [
 		"name": "League Gothic"
 	},
 	{
-		"isMultiplexed": true,
 		"measurements": [
 			{
-				"height": 1085,
-				"size": 96315924.6875,
-				"weight": 100,
-				"width": 88770.4375
-			},
-			{
-				"height": 1085,
-				"size": 96315924.6875,
-				"weight": 200,
-				"width": 88770.4375
-			},
-			{
-				"height": 1085,
-				"size": 96315924.6875,
-				"weight": 300,
-				"width": 88770.4375
-			},
-			{
-				"height": 1085,
-				"size": 96315924.6875,
-				"weight": 400,
-				"width": 88770.4375
-			},
-			{
-				"height": 1085,
-				"size": 96315924.6875,
-				"weight": 500,
-				"width": 88770.4375
-			},
-			{
-				"height": 1085,
-				"size": 96315924.6875,
-				"weight": 600,
-				"width": 88770.4375
-			},
-			{
-				"height": 1085,
-				"size": 96315924.6875,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 700,
-				"width": 88770.4375
+				"width": 72215.359375
 			},
 			{
-				"height": 1085,
-				"size": 96315924.6875,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 800,
-				"width": 88770.4375
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 600,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 100,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 200,
+				"width": 68647.71875
 			}
 		],
 		"name": "League Mono"
@@ -21178,7 +21511,7 @@ export default [
 			{
 				"height": 992,
 				"size": 61996032,
-				"weight": "700",
+				"weight": 700,
 				"width": 62496
 			}
 		],
@@ -21703,19 +22036,18 @@ export default [
 		"name": "Lexend Zetta"
 	},
 	{
-		"isMultiplexed": true,
 		"measurements": [
 			{
 				"height": 1147,
-				"size": 86033494.96875,
-				"weight": 400,
-				"width": 75007.40625
+				"size": 82831017.203125,
+				"weight": 700,
+				"width": 72215.359375
 			},
 			{
 				"height": 1147,
-				"size": 86033494.96875,
-				"weight": 700,
-				"width": 75007.40625
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
 			}
 		],
 		"name": "Liberation Mono"
@@ -21724,15 +22056,15 @@ export default [
 		"measurements": [
 			{
 				"height": 1147,
-				"size": 82561660.3828125,
-				"weight": 400,
-				"width": 71980.5234375
+				"size": 82831017.203125,
+				"weight": 700,
+				"width": 72215.359375
 			},
 			{
 				"height": 1147,
-				"size": 86124896.53125,
-				"weight": 700,
-				"width": 75087.09375
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
 			}
 		],
 		"name": "Liberation Sans"
@@ -21741,15 +22073,15 @@ export default [
 		"measurements": [
 			{
 				"height": 1147,
-				"size": 78741917.3984375,
-				"weight": 400,
-				"width": 68650.3203125
+				"size": 82831017.203125,
+				"weight": 700,
+				"width": 72215.359375
 			},
 			{
 				"height": 1147,
-				"size": 82834046,
-				"weight": 700,
-				"width": 72218
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
 			}
 		],
 		"name": "Liberation Serif"
@@ -21764,17 +22096,6 @@ export default [
 			}
 		],
 		"name": "Libertinus Keyboard"
-	},
-	{
-		"measurements": [
-			{
-				"height": 1147,
-				"size": 75978418.0390625,
-				"weight": 400,
-				"width": 66240.9921875
-			}
-		],
-		"name": "Libertinus Math"
 	},
 	{
 		"measurements": [
@@ -21798,7 +22119,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 83719503.1171875,
-				"weight": "700",
+				"weight": 700,
 				"width": 72989.9765625
 			}
 		],
@@ -21815,13 +22136,13 @@ export default [
 			{
 				"height": 1147,
 				"size": 78537885.8125,
-				"weight": "600",
+				"weight": 600,
 				"width": 68472.4375
 			},
 			{
 				"height": 1147,
 				"size": 83411587.3828125,
-				"weight": "700",
+				"weight": 700,
 				"width": 72721.5234375
 			}
 		],
@@ -21995,7 +22316,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 100744713.7734375,
-				"weight": "700",
+				"weight": 700,
 				"width": 83328.9609375
 			}
 		],
@@ -22082,13 +22403,13 @@ export default [
 			{
 				"height": 1209,
 				"size": 86781273.8203125,
-				"weight": "700",
+				"weight": 700,
 				"width": 71779.3828125
 			},
 			{
 				"height": 1209,
 				"size": 88874751.7734375,
-				"weight": "800",
+				"weight": 800,
 				"width": 73510.9609375
 			}
 		],
@@ -22191,7 +22512,7 @@ export default [
 			{
 				"height": 1085,
 				"size": 83526665.1953125,
-				"weight": "100",
+				"weight": 100,
 				"width": 76983.1015625
 			},
 			{
@@ -22203,13 +22524,13 @@ export default [
 			{
 				"height": 1085,
 				"size": 92043728.7109375,
-				"weight": "700",
+				"weight": 700,
 				"width": 84832.9296875
 			},
 			{
 				"height": 1085,
 				"size": 97275369.84375,
-				"weight": "800",
+				"weight": 800,
 				"width": 89654.71875
 			}
 		],
@@ -22220,13 +22541,13 @@ export default [
 			{
 				"height": 992,
 				"size": 63862108,
-				"weight": "200",
+				"weight": 200,
 				"width": 64377.125
 			},
 			{
 				"height": 992,
 				"size": 63994710.5,
-				"weight": "300",
+				"weight": 300,
 				"width": 64510.796875
 			},
 			{
@@ -22238,31 +22559,31 @@ export default [
 			{
 				"height": 992,
 				"size": 64287420.25,
-				"weight": "500",
+				"weight": 500,
 				"width": 64805.8671875
 			},
 			{
 				"height": 992,
 				"size": 64510372.25,
-				"weight": "600",
+				"weight": 600,
 				"width": 65030.6171875
 			},
 			{
 				"height": 992,
 				"size": 64768021,
-				"weight": "700",
+				"weight": 700,
 				"width": 65290.34375
 			},
 			{
 				"height": 992,
 				"size": 64960655,
-				"weight": "800",
+				"weight": 800,
 				"width": 65484.53125
 			},
 			{
 				"height": 992,
 				"size": 65157660,
-				"weight": "900",
+				"weight": 900,
 				"width": 65683.125
 			}
 		],
@@ -22282,16 +22603,16 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1488,
-				"size": 107180907.375,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 200,
-				"width": 72030.1796875
+				"width": 68647.71875
 			},
 			{
-				"height": 1488,
-				"size": 110299906.5,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 300,
-				"width": 74126.28125
+				"width": 68647.71875
 			},
 			{
 				"height": 1488,
@@ -22348,19 +22669,19 @@ export default [
 			{
 				"height": 1240,
 				"size": 84679764.6875,
-				"weight": "100",
+				"weight": 100,
 				"width": 68290.1328125
 			},
 			{
 				"height": 1240,
 				"size": 85427513.75,
-				"weight": "200",
+				"weight": 200,
 				"width": 68893.15625
 			},
 			{
 				"height": 1240,
 				"size": 86497255.9375,
-				"weight": "300",
+				"weight": 300,
 				"width": 69755.8515625
 			},
 			{
@@ -22372,25 +22693,25 @@ export default [
 			{
 				"height": 1240,
 				"size": 89537309.6875,
-				"weight": "500",
+				"weight": 500,
 				"width": 72207.5078125
 			},
 			{
 				"height": 1240,
 				"size": 91531520.3125,
-				"weight": "600",
+				"weight": 600,
 				"width": 73815.7421875
 			},
 			{
 				"height": 1240,
 				"size": 93817750.9375,
-				"weight": "700",
+				"weight": 700,
 				"width": 75659.4765625
 			},
 			{
 				"height": 1240,
 				"size": 96244992.8125,
-				"weight": "900",
+				"weight": 900,
 				"width": 77616.9296875
 			}
 		],
@@ -22418,7 +22739,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 82125984.6875,
-				"weight": "700",
+				"weight": 700,
 				"width": 66230.6328125
 			}
 		],
@@ -22462,13 +22783,13 @@ export default [
 			{
 				"height": 1178,
 				"size": 65999704.765625,
-				"weight": "100",
+				"weight": 100,
 				"width": 56026.9140625
 			},
 			{
 				"height": 1178,
 				"size": 66169419.59375,
-				"weight": "300",
+				"weight": 300,
 				"width": 56170.984375
 			},
 			{
@@ -22480,7 +22801,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 66308322.359375,
-				"weight": "900",
+				"weight": 900,
 				"width": 56288.8984375
 			}
 		],
@@ -22530,15 +22851,27 @@ export default [
 		"measurements": [
 			{
 				"height": 1147,
-				"size": 80368587.421875,
-				"weight": 300,
-				"width": 70068.515625
+				"size": 87827752.4453125,
+				"weight": 700,
+				"width": 76571.7109375
+			},
+			{
+				"height": 1147,
+				"size": 89685587.7734375,
+				"weight": 800,
+				"width": 78191.4453125
 			},
 			{
 				"height": 1147,
 				"size": 82226082.234375,
 				"weight": 400,
 				"width": 71687.953125
+			},
+			{
+				"height": 1147,
+				"size": 80368587.421875,
+				"weight": 300,
+				"width": 70068.515625
 			},
 			{
 				"height": 1147,
@@ -22551,18 +22884,6 @@ export default [
 				"size": 85958438.15625,
 				"weight": 600,
 				"width": 74941.96875
-			},
-			{
-				"height": 1147,
-				"size": 87827752.4453125,
-				"weight": 700,
-				"width": 76571.7109375
-			},
-			{
-				"height": 1147,
-				"size": 89685587.7734375,
-				"weight": 800,
-				"width": 78191.4453125
 			}
 		],
 		"name": "Loretta"
@@ -22571,21 +22892,9 @@ export default [
 		"measurements": [
 			{
 				"height": 1116,
-				"size": 39193989.75,
-				"weight": 400,
-				"width": 35120.0625
-			},
-			{
-				"height": 1116,
-				"size": 40001380.875,
-				"weight": 500,
-				"width": 35843.53125
-			},
-			{
-				"height": 1116,
-				"size": 40929003.5625,
-				"weight": 600,
-				"width": 36674.734375
+				"size": 43078794.46875,
+				"weight": 900,
+				"width": 38601.0703125
 			},
 			{
 				"height": 1116,
@@ -22595,9 +22904,21 @@ export default [
 			},
 			{
 				"height": 1116,
-				"size": 43078794.46875,
-				"weight": 900,
-				"width": 38601.0703125
+				"size": 40001380.875,
+				"weight": 500,
+				"width": 35843.53125
+			},
+			{
+				"height": 1116,
+				"size": 39193989.75,
+				"weight": 400,
+				"width": 35120.0625
+			},
+			{
+				"height": 1116,
+				"size": 40929003.5625,
+				"weight": 600,
+				"width": 36674.734375
 			}
 		],
 		"name": "Louche"
@@ -22690,7 +23011,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 93927627.53125,
-				"weight": "700",
+				"weight": 700,
 				"width": 79734.828125
 			}
 		],
@@ -22707,7 +23028,7 @@ export default [
 			{
 				"height": 1302,
 				"size": 96799458.328125,
-				"weight": "700",
+				"weight": 700,
 				"width": 74346.7421875
 			}
 		],
@@ -22763,7 +23084,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 73620288,
-				"weight": "300",
+				"weight": 300,
 				"width": 62496
 			},
 			{
@@ -22775,7 +23096,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 73620288,
-				"weight": "700",
+				"weight": 700,
 				"width": 62496
 			}
 		],
@@ -22786,7 +23107,7 @@ export default [
 			{
 				"height": 1302,
 				"size": 95000033.296875,
-				"weight": "300",
+				"weight": 300,
 				"width": 72964.6953125
 			},
 			{
@@ -22798,7 +23119,7 @@ export default [
 			{
 				"height": 1302,
 				"size": 95104213.640625,
-				"weight": "700",
+				"weight": 700,
 				"width": 73044.7109375
 			}
 		],
@@ -22915,13 +23236,13 @@ export default [
 			{
 				"height": 1302,
 				"size": 95000033.296875,
-				"weight": "100",
+				"weight": 100,
 				"width": 72964.6953125
 			},
 			{
 				"height": 1302,
 				"size": 95000033.296875,
-				"weight": "300",
+				"weight": 300,
 				"width": 72964.6953125
 			},
 			{
@@ -22933,25 +23254,25 @@ export default [
 			{
 				"height": 1302,
 				"size": 95104213.640625,
-				"weight": "500",
+				"weight": 500,
 				"width": 73044.7109375
 			},
 			{
 				"height": 1302,
 				"size": 95104213.640625,
-				"weight": "700",
+				"weight": 700,
 				"width": 73044.7109375
 			},
 			{
 				"height": 1302,
 				"size": 95104213.640625,
-				"weight": "800",
+				"weight": 800,
 				"width": 73044.7109375
 			},
 			{
 				"height": 1302,
 				"size": 95104213.640625,
-				"weight": "900",
+				"weight": 900,
 				"width": 73044.7109375
 			}
 		],
@@ -23070,13 +23391,13 @@ export default [
 			{
 				"height": 1240,
 				"size": 77495040,
-				"weight": "100",
+				"weight": 100,
 				"width": 62496
 			},
 			{
 				"height": 1240,
 				"size": 77495040,
-				"weight": "300",
+				"weight": 300,
 				"width": 62496
 			},
 			{
@@ -23088,29 +23409,88 @@ export default [
 			{
 				"height": 1240,
 				"size": 77495040,
-				"weight": "500",
+				"weight": 500,
 				"width": 62496
 			},
 			{
 				"height": 1240,
 				"size": 77495040,
-				"weight": "700",
+				"weight": 700,
 				"width": 62496
 			},
 			{
 				"height": 1240,
 				"size": 77495040,
-				"weight": "800",
+				"weight": 800,
 				"width": 62496
 			},
 			{
 				"height": 1240,
 				"size": 77495040,
-				"weight": "900",
+				"weight": 900,
 				"width": 62496
 			}
 		],
 		"name": "M PLUS Rounded 1c"
+	},
+	{
+		"measurements": [
+			{
+				"height": 1426,
+				"size": 114688155.578125,
+				"weight": 100,
+				"width": 80426.4765625
+			},
+			{
+				"height": 1426,
+				"size": 115032144.65625,
+				"weight": 200,
+				"width": 80667.703125
+			},
+			{
+				"height": 1426,
+				"size": 115387185.234375,
+				"weight": 300,
+				"width": 80916.6796875
+			},
+			{
+				"height": 1426,
+				"size": 116139021.453125,
+				"weight": 400,
+				"width": 81443.9140625
+			},
+			{
+				"height": 1426,
+				"size": 116878825.796875,
+				"weight": 500,
+				"width": 81962.7109375
+			},
+			{
+				"height": 1426,
+				"size": 117248783.671875,
+				"weight": 600,
+				"width": 82222.1484375
+			},
+			{
+				"height": 1426,
+				"size": 117636878.484375,
+				"weight": 700,
+				"width": 82494.3046875
+			},
+			{
+				"height": 1426,
+				"size": 118401136.5,
+				"weight": 800,
+				"width": 83030.25
+			},
+			{
+				"height": 1426,
+				"size": 119159211.46875,
+				"weight": 900,
+				"width": 83561.859375
+			}
+		],
+		"name": "M PLUS U"
 	},
 	{
 		"measurements": [
@@ -23231,7 +23611,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 78124030.96875,
-				"weight": "700",
+				"weight": 700,
 				"width": 64618.71875
 			}
 		],
@@ -23253,13 +23633,13 @@ export default [
 			{
 				"height": 1643,
 				"size": 117114683,
-				"weight": "200",
+				"weight": 200,
 				"width": 71281
 			},
 			{
 				"height": 1643,
 				"size": 121129520.3671875,
-				"weight": "300",
+				"weight": 300,
 				"width": 73724.6015625
 			},
 			{
@@ -23271,19 +23651,19 @@ export default [
 			{
 				"height": 1643,
 				"size": 126213488.640625,
-				"weight": "500",
+				"weight": 500,
 				"width": 76818.921875
 			},
 			{
 				"height": 1643,
 				"size": 129440648.703125,
-				"weight": "600",
+				"weight": 600,
 				"width": 78783.109375
 			},
 			{
 				"height": 1643,
 				"size": 132669464.6015625,
-				"weight": "700",
+				"weight": 700,
 				"width": 80748.3046875
 			}
 		],
@@ -23316,13 +23696,13 @@ export default [
 			{
 				"height": 1302,
 				"size": 94513349.765625,
-				"weight": "200",
+				"weight": 200,
 				"width": 72590.8984375
 			},
 			{
 				"height": 1302,
 				"size": 95565630.234375,
-				"weight": "300",
+				"weight": 300,
 				"width": 73399.1015625
 			},
 			{
@@ -23334,19 +23714,19 @@ export default [
 			{
 				"height": 1302,
 				"size": 97855166.71875,
-				"weight": "500",
+				"weight": 500,
 				"width": 75157.578125
 			},
 			{
 				"height": 1302,
 				"size": 99160065.703125,
-				"weight": "600",
+				"weight": 600,
 				"width": 76159.8046875
 			},
 			{
 				"height": 1302,
 				"size": 100463245.640625,
-				"weight": "700",
+				"weight": 700,
 				"width": 77160.7109375
 			}
 		],
@@ -23390,7 +23770,7 @@ export default [
 			{
 				"height": 1085,
 				"size": 73302515.234375,
-				"weight": "100",
+				"weight": 100,
 				"width": 67559.921875
 			},
 			{
@@ -23402,7 +23782,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 81025200.1171875,
-				"weight": "700",
+				"weight": 700,
 				"width": 70640.9765625
 			}
 		],
@@ -23543,70 +23923,70 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 81267733.21875,
-				"weight": 100,
-				"width": 67218.96875
-			},
-			{
-				"height": 1209,
-				"size": 82676567.6953125,
-				"weight": 200,
-				"width": 68384.2578125
-			},
-			{
-				"height": 1209,
-				"size": 85288895.5546875,
-				"weight": 300,
-				"width": 70544.9921875
-			},
-			{
-				"height": 1209,
-				"size": 89564703.515625,
-				"weight": 400,
-				"width": 74081.640625
-			},
-			{
-				"height": 1209,
-				"size": 87671362.2890625,
-				"weight": 450,
-				"width": 72515.6015625
-			},
-			{
-				"height": 1209,
-				"size": 89865121.125,
-				"weight": 500,
-				"width": 74330.125
-			},
-			{
-				"height": 1209,
-				"size": 90415537.265625,
-				"weight": 600,
-				"width": 74785.390625
-			},
-			{
-				"height": 1209,
-				"size": 90829478.0859375,
-				"weight": 700,
-				"width": 75127.7734375
-			},
-			{
-				"height": 1209,
-				"size": 102703227.65625,
-				"weight": 800,
-				"width": 84948.90625
-			},
-			{
-				"height": 1209,
-				"size": 91376786.71875,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 900,
-				"width": 75580.46875
+				"width": 72215.359375
 			},
 			{
-				"height": 1209,
-				"size": 116536766.2265625,
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 700,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 450,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 800,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 200,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 600,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 950,
-				"width": 96391.0390625
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 100,
+				"width": 68647.71875
 			}
 		],
 		"name": "Marcin Antique"
@@ -23724,13 +24104,13 @@ export default [
 			{
 				"height": 1674,
 				"size": 129877760.8125,
-				"weight": "200",
+				"weight": 200,
 				"width": 77585.28125
 			},
 			{
 				"height": 1674,
 				"size": 128986565.0625,
-				"weight": "300",
+				"weight": 300,
 				"width": 77052.90625
 			},
 			{
@@ -23742,25 +24122,25 @@ export default [
 			{
 				"height": 1674,
 				"size": 129841233.609375,
-				"weight": "600",
+				"weight": 600,
 				"width": 77563.4609375
 			},
 			{
 				"height": 1674,
 				"size": 132535445.0625,
-				"weight": "700",
+				"weight": 700,
 				"width": 79172.90625
 			},
 			{
 				"height": 1674,
 				"size": 133733689.03125,
-				"weight": "800",
+				"weight": 800,
 				"width": 79888.703125
 			},
 			{
 				"height": 1674,
 				"size": 137481291.140625,
-				"weight": "900",
+				"weight": 900,
 				"width": 82127.4140625
 			}
 		],
@@ -23771,13 +24151,13 @@ export default [
 			{
 				"height": 1829,
 				"size": 129305884.6796875,
-				"weight": "200",
+				"weight": 200,
 				"width": 70697.5859375
 			},
 			{
 				"height": 1829,
 				"size": 132984989.625,
-				"weight": "300",
+				"weight": 300,
 				"width": 72709.125
 			},
 			{
@@ -23789,25 +24169,25 @@ export default [
 			{
 				"height": 1829,
 				"size": 139112296.8046875,
-				"weight": "600",
+				"weight": 600,
 				"width": 76059.2109375
 			},
 			{
 				"height": 1829,
 				"size": 142772568.765625,
-				"weight": "700",
+				"weight": 700,
 				"width": 78060.453125
 			},
 			{
 				"height": 1829,
 				"size": 146468349.046875,
-				"weight": "800",
+				"weight": 800,
 				"width": 80081.109375
 			},
 			{
 				"height": 1829,
 				"size": 150149054.3671875,
-				"weight": "900",
+				"weight": 900,
 				"width": 82093.5234375
 			}
 		],
@@ -23878,7 +24258,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 60643964.578125,
-				"weight": "700",
+				"weight": 700,
 				"width": 51480.4453125
 			}
 		],
@@ -24020,21 +24400,27 @@ export default [
 		"measurements": [
 			{
 				"height": 1178,
-				"size": 74160640.28125,
-				"weight": 200,
-				"width": 62954.703125
+				"size": 87364354.515625,
+				"weight": 900,
+				"width": 74163.2890625
 			},
 			{
 				"height": 1178,
-				"size": 76110165.859375,
-				"weight": 300,
-				"width": 64609.6484375
+				"size": 84941042.859375,
+				"weight": 700,
+				"width": 72106.1484375
 			},
 			{
 				"height": 1178,
 				"size": 77877368.328125,
 				"weight": 400,
 				"width": 66109.8203125
+			},
+			{
+				"height": 1178,
+				"size": 74160640.28125,
+				"weight": 300,
+				"width": 62954.703125
 			},
 			{
 				"height": 1178,
@@ -24050,9 +24436,9 @@ export default [
 			},
 			{
 				"height": 1178,
-				"size": 84941042.859375,
-				"weight": 700,
-				"width": 72106.1484375
+				"size": 87364354.515625,
+				"weight": 1000,
+				"width": 74163.2890625
 			},
 			{
 				"height": 1178,
@@ -24062,15 +24448,9 @@ export default [
 			},
 			{
 				"height": 1178,
-				"size": 89794494.890625,
-				"weight": 900,
-				"width": 76226.2265625
-			},
-			{
-				"height": 1178,
-				"size": 92697859.953125,
-				"weight": 950,
-				"width": 78690.8828125
+				"size": 74160640.28125,
+				"weight": 200,
+				"width": 62954.703125
 			}
 		],
 		"name": "McQueen"
@@ -24085,21 +24465,21 @@ export default [
 			},
 			{
 				"height": 1178,
-				"size": 61774384.421875,
+				"size": 60805829.140625,
 				"weight": 200,
-				"width": 52440.0546875
+				"width": 51617.8515625
 			},
 			{
 				"height": 1178,
-				"size": 62956765.109375,
+				"size": 60805829.140625,
 				"weight": 300,
-				"width": 53443.7734375
+				"width": 51617.8515625
 			},
 			{
 				"height": 1178,
-				"size": 64463574.359375,
+				"size": 64462396.359375,
 				"weight": 400,
-				"width": 54722.8984375
+				"width": 54721.8984375
 			},
 			{
 				"height": 1178,
@@ -24109,27 +24489,27 @@ export default [
 			},
 			{
 				"height": 1178,
-				"size": 67727674.3125,
+				"size": 69162469.109375,
 				"weight": 600,
-				"width": 57493.78125
+				"width": 58711.7734375
 			},
 			{
 				"height": 1178,
-				"size": 69162045.765625,
+				"size": 69162469.109375,
 				"weight": 700,
-				"width": 58711.4140625
+				"width": 58711.7734375
 			},
 			{
 				"height": 1178,
-				"size": 72138005.078125,
+				"size": 72139183.078125,
 				"weight": 800,
-				"width": 61237.6953125
+				"width": 61238.6953125
 			},
 			{
 				"height": 1178,
-				"size": 74601101.84375,
+				"size": 72139183.078125,
 				"weight": 900,
-				"width": 63328.609375
+				"width": 61238.6953125
 			}
 		],
 		"name": "MD Nichrome"
@@ -24484,40 +24864,40 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1240,
-				"size": 92837676.25,
-				"weight": 400,
-				"width": 74869.09375
-			},
-			{
-				"height": 1240,
-				"size": 94441906.875,
-				"weight": 500,
-				"width": 76162.828125
-			},
-			{
-				"height": 1240,
-				"size": 95738268.75,
-				"weight": 700,
-				"width": 77208.28125
-			},
-			{
-				"height": 1240,
-				"size": 97832173.4375,
-				"weight": 800,
-				"width": 78896.9140625
-			},
-			{
-				"height": 1240,
-				"size": 99099036.875,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 900,
-				"width": 79918.578125
+				"width": 72215.359375
 			},
 			{
-				"height": 1240,
-				"size": 101139088.75,
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 700,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 800,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 950,
-				"width": 81563.78125
+				"width": 72215.359375
 			}
 		],
 		"name": "Metra"
@@ -24536,58 +24916,58 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 992,
-				"size": 71976358,
-				"weight": 100,
-				"width": 72556.8125
-			},
-			{
-				"height": 992,
-				"size": 73096233,
-				"weight": 200,
-				"width": 73685.71875
-			},
-			{
-				"height": 992,
-				"size": 74247108,
-				"weight": 300,
-				"width": 74845.875
-			},
-			{
-				"height": 992,
-				"size": 75366983,
-				"weight": 400,
-				"width": 75974.78125
-			},
-			{
-				"height": 992,
-				"size": 76126614.75,
-				"weight": 500,
-				"width": 76740.5390625
-			},
-			{
-				"height": 992,
-				"size": 76886192.25,
-				"weight": 600,
-				"width": 77506.2421875
-			},
-			{
-				"height": 992,
-				"size": 77657108,
-				"weight": 700,
-				"width": 78283.375
-			},
-			{
-				"height": 992,
-				"size": 78415763.25,
-				"weight": 800,
-				"width": 79048.1484375
-			},
-			{
-				"height": 992,
-				"size": 79172519.75,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 900,
-				"width": 79811.0078125
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 700,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 800,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 200,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 82831017.203125,
+				"weight": 600,
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 100,
+				"width": 68647.71875
 			}
 		],
 		"name": "Metropolis"
@@ -24629,51 +25009,51 @@ export default [
 		"measurements": [
 			{
 				"height": 1302,
-				"size": 90480943.875,
+				"size": 90482266.21875,
 				"weight": 100,
-				"width": 69493.8125
+				"width": 69494.828125
 			},
 			{
 				"height": 1302,
-				"size": 91578936.75,
+				"size": 90482266.21875,
 				"weight": 200,
-				"width": 70337.125
+				"width": 69494.828125
 			},
 			{
 				"height": 1302,
-				"size": 92321595.515625,
+				"size": 91578367.125,
 				"weight": 300,
-				"width": 70907.5234375
+				"width": 70336.6875
 			},
 			{
 				"height": 1302,
-				"size": 93017453.484375,
+				"size": 93021888.421875,
 				"weight": 400,
-				"width": 71441.9765625
+				"width": 71445.3828125
 			},
 			{
 				"height": 1302,
-				"size": 93704085.5625,
+				"size": 93872562.328125,
 				"weight": 500,
-				"width": 71969.34375
+				"width": 72098.7421875
 			},
 			{
 				"height": 1302,
-				"size": 95175070.921875,
+				"size": 95174419.921875,
 				"weight": 600,
-				"width": 73099.1328125
+				"width": 73098.6328125
 			},
 			{
 				"height": 1302,
-				"size": 96497109.515625,
+				"size": 96499184.578125,
 				"weight": 700,
-				"width": 74114.5234375
+				"width": 74116.1171875
 			},
 			{
 				"height": 1302,
-				"size": 97799272.265625,
+				"size": 97801082.859375,
 				"weight": 800,
-				"width": 75114.6484375
+				"width": 75116.0390625
 			}
 		],
 		"name": "Micrograph"
@@ -24722,7 +25102,7 @@ export default [
 			{
 				"height": 1550,
 				"size": 110213730.859375,
-				"weight": "700",
+				"weight": 700,
 				"width": 71105.6328125
 			}
 		],
@@ -24754,27 +25134,9 @@ export default [
 		"measurements": [
 			{
 				"height": 1302,
-				"size": 94694653.265625,
-				"weight": 100,
-				"width": 72730.1484375
-			},
-			{
-				"height": 1302,
-				"size": 96129009.703125,
-				"weight": 300,
-				"width": 73831.8046875
-			},
-			{
-				"height": 1302,
-				"size": 97925261.109375,
-				"weight": 400,
-				"width": 75211.4140625
-			},
-			{
-				"height": 1302,
-				"size": 100252921.78125,
-				"weight": 500,
-				"width": 76999.171875
+				"size": 110085686.8125,
+				"weight": 900,
+				"width": 84551.21875
 			},
 			{
 				"height": 1302,
@@ -24784,21 +25146,39 @@ export default [
 			},
 			{
 				"height": 1302,
-				"size": 106677417,
-				"weight": 800,
-				"width": 81933.5
-			},
-			{
-				"height": 1302,
 				"size": 110085686.8125,
-				"weight": 900,
+				"weight": 800,
 				"width": 84551.21875
 			},
 			{
 				"height": 1302,
-				"size": 113139863.484375,
+				"size": 110085686.8125,
 				"weight": 950,
-				"width": 86896.9765625
+				"width": 84551.21875
+			},
+			{
+				"height": 1302,
+				"size": 97925261.109375,
+				"weight": 400,
+				"width": 75211.4140625
+			},
+			{
+				"height": 1302,
+				"size": 94694653.265625,
+				"weight": 300,
+				"width": 72730.1484375
+			},
+			{
+				"height": 1302,
+				"size": 100252921.78125,
+				"weight": 500,
+				"width": 76999.171875
+			},
+			{
+				"height": 1302,
+				"size": 94694653.265625,
+				"weight": 100,
+				"width": 72730.1484375
 			}
 		],
 		"name": "Mint Grotesk"
@@ -24807,27 +25187,9 @@ export default [
 		"measurements": [
 			{
 				"height": 1302,
-				"size": 103826087.859375,
-				"weight": 100,
-				"width": 79743.5390625
-			},
-			{
-				"height": 1302,
-				"size": 105094052.765625,
-				"weight": 300,
-				"width": 80717.3984375
-			},
-			{
-				"height": 1302,
-				"size": 106677844.21875,
-				"weight": 400,
-				"width": 81933.828125
-			},
-			{
-				"height": 1302,
-				"size": 108715158.890625,
-				"weight": 500,
-				"width": 83498.5859375
+				"size": 116497640.109375,
+				"weight": 900,
+				"width": 89475.9140625
 			},
 			{
 				"height": 1302,
@@ -24837,24 +25199,71 @@ export default [
 			},
 			{
 				"height": 1302,
-				"size": 113936138.203125,
-				"weight": 800,
-				"width": 87508.5546875
-			},
-			{
-				"height": 1302,
 				"size": 116497640.109375,
-				"weight": 900,
+				"weight": 800,
 				"width": 89475.9140625
 			},
 			{
 				"height": 1302,
-				"size": 118811660.296875,
+				"size": 116497640.109375,
 				"weight": 950,
-				"width": 91253.1953125
+				"width": 89475.9140625
+			},
+			{
+				"height": 1302,
+				"size": 106677844.21875,
+				"weight": 400,
+				"width": 81933.828125
+			},
+			{
+				"height": 1302,
+				"size": 103826087.859375,
+				"weight": 300,
+				"width": 79743.5390625
+			},
+			{
+				"height": 1302,
+				"size": 108715158.890625,
+				"weight": 500,
+				"width": 83498.5859375
+			},
+			{
+				"height": 1302,
+				"size": 103826087.859375,
+				"weight": 100,
+				"width": 79743.5390625
 			}
 		],
 		"name": "Mint Grotesk Display"
+	},
+	{
+		"measurements": [
+			{
+				"height": 1240,
+				"size": 91225414.6875,
+				"weight": 400,
+				"width": 73568.8828125
+			},
+			{
+				"height": 1240,
+				"size": 92404480.3125,
+				"weight": 500,
+				"width": 74519.7421875
+			},
+			{
+				"height": 1240,
+				"size": 93582819.375,
+				"weight": 600,
+				"width": 75470.015625
+			},
+			{
+				"height": 1240,
+				"size": 94760993.75,
+				"weight": 700,
+				"width": 76420.15625
+			}
+		],
+		"name": "Miranda Sans"
 	},
 	{
 		"measurements": [
@@ -24896,19 +25305,19 @@ export default [
 			{
 				"height": 1178,
 				"size": 69984786.734375,
-				"weight": "500",
+				"weight": 500,
 				"width": 59409.8359375
 			},
 			{
 				"height": 1178,
 				"size": 70532722.390625,
-				"weight": "600",
+				"weight": 600,
 				"width": 59874.9765625
 			},
 			{
 				"height": 1178,
 				"size": 71033123.90625,
-				"weight": "700",
+				"weight": 700,
 				"width": 60299.765625
 			}
 		],
@@ -24930,13 +25339,13 @@ export default [
 			{
 				"height": 1550,
 				"size": 113956024.21875,
-				"weight": "200",
+				"weight": 200,
 				"width": 73520.015625
 			},
 			{
 				"height": 1550,
 				"size": 113693868.359375,
-				"weight": "300",
+				"weight": 300,
 				"width": 73350.8828125
 			},
 			{
@@ -24948,19 +25357,19 @@ export default [
 			{
 				"height": 1550,
 				"size": 115723496.484375,
-				"weight": "500",
+				"weight": 500,
 				"width": 74660.3203125
 			},
 			{
 				"height": 1550,
 				"size": 116724384.765625,
-				"weight": "600",
+				"weight": 600,
 				"width": 75306.0546875
 			},
 			{
 				"height": 1550,
 				"size": 117880345.703125,
-				"weight": "700",
+				"weight": 700,
 				"width": 76051.8359375
 			}
 		],
@@ -25133,10 +25542,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1147,
-				"size": 78738933.40625,
+				"height": 1426,
+				"size": 134030196.765625,
 				"weight": 400,
-				"width": 68647.71875
+				"width": 93990.3203125
 			}
 		],
 		"name": "Momo Signature"
@@ -25408,6 +25817,17 @@ export default [
 	{
 		"measurements": [
 			{
+				"height": 1271,
+				"size": 99526985.578125,
+				"weight": 400,
+				"width": 78306.046875
+			}
+		],
+		"name": "Montenegrin Gothic One"
+	},
+	{
+		"measurements": [
+			{
 				"height": 1302,
 				"size": 70926317.765625,
 				"weight": 400,
@@ -25480,19 +25900,19 @@ export default [
 			{
 				"height": 1209,
 				"size": 95690659.2890625,
-				"weight": "100",
+				"weight": 100,
 				"width": 79148.6015625
 			},
 			{
 				"height": 1209,
 				"size": 96163047.703125,
-				"weight": "200",
+				"weight": 200,
 				"width": 79539.328125
 			},
 			{
 				"height": 1209,
 				"size": 96769909.03125,
-				"weight": "300",
+				"weight": 300,
 				"width": 80041.28125
 			},
 			{
@@ -25504,31 +25924,31 @@ export default [
 			{
 				"height": 1209,
 				"size": 98450324.578125,
-				"weight": "500",
+				"weight": 500,
 				"width": 81431.203125
 			},
 			{
 				"height": 1209,
 				"size": 99554302.1484375,
-				"weight": "600",
+				"weight": 600,
 				"width": 82344.3359375
 			},
 			{
 				"height": 1209,
 				"size": 100820757.984375,
-				"weight": "700",
+				"weight": 700,
 				"width": 83391.859375
 			},
 			{
 				"height": 1209,
 				"size": 102196779.4453125,
-				"weight": "800",
+				"weight": 800,
 				"width": 84530.0078125
 			},
 			{
 				"height": 1209,
 				"size": 103657412.015625,
-				"weight": "900",
+				"weight": 900,
 				"width": 85738.140625
 			}
 		],
@@ -25659,7 +26079,7 @@ export default [
 			{
 				"height": 1364,
 				"size": 80015991,
-				"weight": "700",
+				"weight": 700,
 				"width": 58662.75
 			}
 		],
@@ -25829,13 +26249,13 @@ export default [
 			{
 				"height": 1643,
 				"size": 99918865.296875,
-				"weight": "200",
+				"weight": 200,
 				"width": 60814.890625
 			},
 			{
 				"height": 1643,
 				"size": 102467196.8046875,
-				"weight": "300",
+				"weight": 300,
 				"width": 62365.9140625
 			},
 			{
@@ -25847,25 +26267,25 @@ export default [
 			{
 				"height": 1643,
 				"size": 106723298.453125,
-				"weight": "500",
+				"weight": 500,
 				"width": 64956.359375
 			},
 			{
 				"height": 1643,
 				"size": 108491615.7109375,
-				"weight": "600",
+				"weight": 600,
 				"width": 66032.6328125
 			},
 			{
 				"height": 1643,
 				"size": 110293178.046875,
-				"weight": "700",
+				"weight": 700,
 				"width": 67129.140625
 			},
 			{
 				"height": 1643,
 				"size": 112158149.9140625,
-				"weight": "800",
+				"weight": 800,
 				"width": 68264.2421875
 			}
 		],
@@ -25876,13 +26296,13 @@ export default [
 			{
 				"height": 1643,
 				"size": 98844433.1484375,
-				"weight": "200",
+				"weight": 200,
 				"width": 60160.9453125
 			},
 			{
 				"height": 1643,
 				"size": 101367323.828125,
-				"weight": "300",
+				"weight": 300,
 				"width": 61696.484375
 			},
 			{
@@ -25894,25 +26314,25 @@ export default [
 			{
 				"height": 1643,
 				"size": 105579231.34375,
-				"weight": "500",
+				"weight": 500,
 				"width": 64260.03125
 			},
 			{
 				"height": 1643,
 				"size": 107504532.1171875,
-				"weight": "600",
+				"weight": 600,
 				"width": 65431.8515625
 			},
 			{
 				"height": 1643,
 				"size": 109467198.3046875,
-				"weight": "700",
+				"weight": 700,
 				"width": 66626.4140625
 			},
 			{
 				"height": 1643,
 				"size": 111318884.9765625,
-				"weight": "800",
+				"weight": 800,
 				"width": 67753.4296875
 			}
 		],
@@ -25923,13 +26343,13 @@ export default [
 			{
 				"height": 1643,
 				"size": 97152130.3125,
-				"weight": "200",
+				"weight": 200,
 				"width": 59130.9375
 			},
 			{
 				"height": 1643,
 				"size": 99467451.046875,
-				"weight": "300",
+				"weight": 300,
 				"width": 60540.140625
 			},
 			{
@@ -25941,25 +26361,25 @@ export default [
 			{
 				"height": 1643,
 				"size": 103625049.7109375,
-				"weight": "500",
+				"weight": 500,
 				"width": 63070.6328125
 			},
 			{
 				"height": 1643,
 				"size": 105457533.8203125,
-				"weight": "600",
+				"weight": 600,
 				"width": 64185.9609375
 			},
 			{
 				"height": 1643,
 				"size": 107266194.4296875,
-				"weight": "700",
+				"weight": 700,
 				"width": 65286.7890625
 			},
 			{
 				"height": 1643,
 				"size": 109137186.3515625,
-				"weight": "800",
+				"weight": 800,
 				"width": 66425.5546875
 			}
 		],
@@ -25970,13 +26390,13 @@ export default [
 			{
 				"height": 1643,
 				"size": 99918865.296875,
-				"weight": "200",
+				"weight": 200,
 				"width": 60814.890625
 			},
 			{
 				"height": 1643,
 				"size": 102468788.4609375,
-				"weight": "300",
+				"weight": 300,
 				"width": 62366.8828125
 			},
 			{
@@ -25988,25 +26408,25 @@ export default [
 			{
 				"height": 1643,
 				"size": 106727354.609375,
-				"weight": "500",
+				"weight": 500,
 				"width": 64958.828125
 			},
 			{
 				"height": 1643,
 				"size": 108496724.4140625,
-				"weight": "600",
+				"weight": 600,
 				"width": 66035.7421875
 			},
 			{
 				"height": 1643,
 				"size": 110298261.078125,
-				"weight": "700",
+				"weight": 700,
 				"width": 67132.234375
 			},
 			{
 				"height": 1643,
 				"size": 112163309.9609375,
-				"weight": "800",
+				"weight": 800,
 				"width": 68267.3828125
 			}
 		],
@@ -26192,8 +26612,8 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1116,
-				"size": 56865902.0625,
+				"height": 1178,
+				"size": 60025118.84375,
 				"weight": 400,
 				"width": 50955.109375
 			}
@@ -26255,25 +26675,25 @@ export default [
 			{
 				"height": 1054,
 				"size": 66004897.265625,
-				"weight": "500",
+				"weight": 500,
 				"width": 62623.2421875
 			},
 			{
 				"height": 1054,
 				"size": 67002285.9375,
-				"weight": "600",
+				"weight": 600,
 				"width": 63569.53125
 			},
 			{
 				"height": 1054,
 				"size": 68365075,
-				"weight": "700",
+				"weight": 700,
 				"width": 64862.5
 			},
 			{
 				"height": 1054,
 				"size": 68948686.328125,
-				"weight": "800",
+				"weight": 800,
 				"width": 65416.2109375
 			}
 		],
@@ -26302,13 +26722,13 @@ export default [
 			{
 				"height": 992,
 				"size": 72697813.25,
-				"weight": "700",
+				"weight": 700,
 				"width": 73284.0859375
 			},
 			{
 				"height": 992,
 				"size": 72697813.25,
-				"weight": "800",
+				"weight": 800,
 				"width": 73284.0859375
 			}
 		],
@@ -26326,7 +26746,7 @@ export default [
 			{
 				"height": 992,
 				"size": 61996032,
-				"weight": "700",
+				"weight": 700,
 				"width": 62496
 			}
 		],
@@ -26344,13 +26764,13 @@ export default [
 			{
 				"height": 1240,
 				"size": 91053490.625,
-				"weight": "700",
+				"weight": 700,
 				"width": 73430.234375
 			},
 			{
 				"height": 1240,
 				"size": 91053490.625,
-				"weight": "800",
+				"weight": 800,
 				"width": 73430.234375
 			}
 		],
@@ -26378,25 +26798,25 @@ export default [
 			{
 				"height": 1550,
 				"size": 98955560.15625,
-				"weight": "500",
+				"weight": 500,
 				"width": 63842.296875
 			},
 			{
 				"height": 1550,
 				"size": 100149060.15625,
-				"weight": "600",
+				"weight": 600,
 				"width": 64612.296875
 			},
 			{
 				"height": 1550,
 				"size": 101289109.375,
-				"weight": "700",
+				"weight": 700,
 				"width": 65347.8125
 			},
 			{
 				"height": 1550,
 				"size": 102419047.265625,
-				"weight": "800",
+				"weight": 800,
 				"width": 66076.8046875
 			}
 		],
@@ -26546,13 +26966,13 @@ export default [
 			{
 				"height": 1271,
 				"size": 75977371.3046875,
-				"weight": "200",
+				"weight": 200,
 				"width": 59777.6328125
 			},
 			{
 				"height": 1271,
 				"size": 78527364.703125,
-				"weight": "300",
+				"weight": 300,
 				"width": 61783.921875
 			},
 			{
@@ -26564,13 +26984,13 @@ export default [
 			{
 				"height": 1271,
 				"size": 87159033.5234375,
-				"weight": "700",
+				"weight": 700,
 				"width": 68575.1640625
 			},
 			{
 				"height": 1271,
 				"size": 87436111.5234375,
-				"weight": "800",
+				"weight": 800,
 				"width": 68793.1640625
 			}
 		],
@@ -26620,7 +27040,7 @@ export default [
 			{
 				"height": 1612,
 				"size": 100915809.3125,
-				"weight": "700",
+				"weight": 700,
 				"width": 62602.859375
 			}
 		],
@@ -26676,68 +27096,68 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 121136151.21875,
+				"height": 1395,
+				"size": 143451043.2421875,
 				"weight": 0,
-				"width": 102832.046875
+				"width": 102832.2890625
 			},
 			{
-				"height": 1178,
-				"size": 121136418.109375,
+				"height": 1395,
+				"size": 143451500.9765625,
 				"weight": 100,
-				"width": 102832.2734375
+				"width": 102832.6171875
 			},
 			{
-				"height": 1178,
-				"size": 121136381.296875,
+				"height": 1395,
+				"size": 143451500.9765625,
 				"weight": 200,
-				"width": 102832.2421875
+				"width": 102832.6171875
 			},
 			{
-				"height": 1178,
-				"size": 121136344.484375,
+				"height": 1395,
+				"size": 143451500.9765625,
 				"weight": 300,
-				"width": 102832.2109375
+				"width": 102832.6171875
 			},
 			{
-				"height": 1178,
-				"size": 121136307.671875,
+				"height": 1395,
+				"size": 143451370.1953125,
 				"weight": 400,
-				"width": 102832.1796875
+				"width": 102832.5234375
 			},
 			{
-				"height": 1178,
-				"size": 121136270.859375,
+				"height": 1395,
+				"size": 143451239.4140625,
 				"weight": 500,
-				"width": 102832.1484375
+				"width": 102832.4296875
 			},
 			{
-				"height": 1178,
-				"size": 121136234.046875,
+				"height": 1395,
+				"size": 143451152.2265625,
 				"weight": 600,
-				"width": 102832.1171875
+				"width": 102832.3671875
 			},
 			{
-				"height": 1178,
-				"size": 121136197.234375,
+				"height": 1395,
+				"size": 143451152.2265625,
 				"weight": 700,
-				"width": 102832.0859375
+				"width": 102832.3671875
 			},
 			{
-				"height": 1178,
-				"size": 121136151.21875,
+				"height": 1395,
+				"size": 143451043.2421875,
 				"weight": 800,
-				"width": 102832.046875
+				"width": 102832.2890625
 			},
 			{
-				"height": 1178,
-				"size": 121136105.203125,
+				"height": 1395,
+				"size": 143451043.2421875,
 				"weight": 900,
-				"width": 102832.0078125
+				"width": 102832.2890625
 			},
 			{
-				"height": 1178,
-				"size": 121136436.515625,
+				"height": 1395,
+				"size": 143451043.2421875,
 				"weight": 1000,
 				"width": 102832.2890625
 			}
@@ -26747,10 +27167,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 119466749.390625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 98814.515625
+				"width": 68647.71875
 			}
 		],
 		"name": "Nickel"
@@ -26758,10 +27178,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 103076674.96875,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 87501.421875
+				"width": 68647.71875
 			}
 		],
 		"name": "Nickel Gothic"
@@ -26769,10 +27189,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 119466749.390625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 98814.515625
+				"width": 68647.71875
 			}
 		],
 		"name": "Nickel Open Face"
@@ -26793,13 +27213,13 @@ export default [
 			{
 				"height": 1271,
 				"size": 85702259,
-				"weight": "200",
+				"weight": 200,
 				"width": 67429
 			},
 			{
 				"height": 1271,
 				"size": 86431952.015625,
-				"weight": "300",
+				"weight": 300,
 				"width": 68003.109375
 			},
 			{
@@ -26811,19 +27231,19 @@ export default [
 			{
 				"height": 1271,
 				"size": 88512926.5546875,
-				"weight": "500",
+				"weight": 500,
 				"width": 69640.3828125
 			},
 			{
 				"height": 1271,
 				"size": 89892587.125,
-				"weight": "600",
+				"weight": 600,
 				"width": 70725.875
 			},
 			{
 				"height": 1271,
 				"size": 91282385.90625,
-				"weight": "700",
+				"weight": 700,
 				"width": 71819.34375
 			}
 		],
@@ -26851,13 +27271,13 @@ export default [
 			{
 				"height": 1116,
 				"size": 86364109.96875,
-				"weight": "500",
+				"weight": 500,
 				"width": 77387.1953125
 			},
 			{
 				"height": 1116,
 				"size": 90353469.9375,
-				"weight": "700",
+				"weight": 700,
 				"width": 80961.890625
 			}
 		],
@@ -26978,7 +27398,7 @@ export default [
 			{
 				"height": 1333,
 				"size": 96561114.1015625,
-				"weight": "700",
+				"weight": 700,
 				"width": 72438.9453125
 			}
 		],
@@ -28034,7 +28454,7 @@ export default [
 			{
 				"height": 1333,
 				"size": 101043816.0625,
-				"weight": "700",
+				"weight": 700,
 				"width": 75801.8125
 			}
 		],
@@ -28954,10 +29374,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1147,
-				"size": 78738933.40625,
+				"height": 1643,
+				"size": 111247542.8359375,
 				"weight": 100,
-				"width": 68647.71875
+				"width": 67710.0078125
 			},
 			{
 				"height": 1643,
@@ -29013,10 +29433,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1581,
-				"size": 107068667.2734375,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 100,
-				"width": 67722.1171875
+				"width": 68647.71875
 			},
 			{
 				"height": 1581,
@@ -29270,17 +29690,6 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1488,
-				"size": 107855773.5,
-				"weight": 400,
-				"width": 72483.71875
-			}
-		],
-		"name": "Noto Sans Math"
-	},
-	{
-		"measurements": [
-			{
 				"height": 1333,
 				"size": 96334358.3046875,
 				"weight": 400,
@@ -29517,10 +29926,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1147,
-				"size": 78738933.40625,
+				"height": 2170,
+				"size": 146930716.953125,
 				"weight": 100,
-				"width": 68647.71875
+				"width": 67710.0078125
 			},
 			{
 				"height": 2170,
@@ -30026,10 +30435,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1333,
-				"size": 96368578.9140625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 72294.5078125
+				"width": 68647.71875
 			}
 		],
 		"name": "Noto Sans Saurashtra"
@@ -30037,16 +30446,16 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1426,
-				"size": 96146534.875,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 100,
-				"width": 67423.9375
+				"width": 68647.71875
 			},
 			{
-				"height": 1426,
-				"size": 97353599.3125,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 200,
-				"width": 68270.40625
+				"width": 68647.71875
 			},
 			{
 				"height": 1426,
@@ -32158,10 +32567,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1147,
-				"size": 78738933.40625,
+				"height": 1643,
+				"size": 114719407.2109375,
 				"weight": 100,
-				"width": 68647.71875
+				"width": 69823.1328125
 			},
 			{
 				"height": 1643,
@@ -32317,9 +32726,9 @@ export default [
 		"measurements": [
 			{
 				"height": 1364,
-				"size": 101612916.96875,
+				"size": 101610359.46875,
 				"weight": 400,
-				"width": 74496.2734375
+				"width": 74494.3984375
 			}
 		],
 		"name": "Noto Serif Old Uyghur"
@@ -32420,10 +32829,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1302,
-				"size": 91219371.140625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 100,
-				"width": 70060.9609375
+				"width": 68647.71875
 			},
 			{
 				"height": 1302,
@@ -33011,34 +33420,34 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1240,
-				"size": 76550285.9375,
-				"weight": 100,
-				"width": 61734.1015625
-			},
-			{
-				"height": 1271,
-				"size": 81030996.390625,
-				"weight": 300,
-				"width": 63753.734375
-			},
-			{
-				"height": 1302,
-				"size": 85810435.921875,
-				"weight": 400,
-				"width": 65906.6328125
-			},
-			{
-				"height": 1364,
-				"size": 91860359.59375,
-				"weight": 500,
-				"width": 67346.3046875
-			},
-			{
-				"height": 1395,
-				"size": 96398543.3203125,
+				"height": 992,
+				"size": 68550075.25,
 				"weight": 700,
 				"width": 69102.8984375
+			},
+			{
+				"height": 992,
+				"size": 61285767.75,
+				"weight": 300,
+				"width": 61780.0078125
+			},
+			{
+				"height": 992,
+				"size": 66852406.75,
+				"weight": 500,
+				"width": 67391.5390625
+			},
+			{
+				"height": 992,
+				"size": 65423547,
+				"weight": 400,
+				"width": 65951.15625
+			},
+			{
+				"height": 992,
+				"size": 61285767.75,
+				"weight": 100,
+				"width": 61780.0078125
 			}
 		],
 		"name": "Noway"
@@ -33047,15 +33456,9 @@ export default [
 		"measurements": [
 			{
 				"height": 992,
-				"size": 61299919.25,
-				"weight": 100,
-				"width": 61794.2734375
-			},
-			{
-				"height": 992,
-				"size": 63299295.25,
-				"weight": 300,
-				"width": 63809.7734375
+				"size": 68417744,
+				"weight": 700,
+				"width": 68969.5
 			},
 			{
 				"height": 992,
@@ -33065,15 +33468,21 @@ export default [
 			},
 			{
 				"height": 992,
+				"size": 61299919.25,
+				"weight": 300,
+				"width": 61794.2734375
+			},
+			{
+				"height": 992,
 				"size": 66865209.75,
 				"weight": 500,
 				"width": 67404.4453125
 			},
 			{
 				"height": 992,
-				"size": 68417744,
-				"weight": 700,
-				"width": 68969.5
+				"size": 61299919.25,
+				"weight": 100,
+				"width": 61794.2734375
 			}
 		],
 		"name": "Noway Round"
@@ -33331,7 +33740,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 93293056.5625,
-				"weight": "700",
+				"weight": 700,
 				"width": 75236.3359375
 			}
 		],
@@ -33370,7 +33779,7 @@ export default [
 			{
 				"height": 1364,
 				"size": 92377805.78125,
-				"weight": "700",
+				"weight": 700,
 				"width": 67725.6640625
 			}
 		],
@@ -33387,7 +33796,7 @@ export default [
 			{
 				"height": 1364,
 				"size": 97073418.40625,
-				"weight": "700",
+				"weight": 700,
 				"width": 71168.1953125
 			}
 		],
@@ -33508,27 +33917,9 @@ export default [
 		"measurements": [
 			{
 				"height": 1240,
-				"size": 92680041.25,
-				"weight": 300,
-				"width": 74741.96875
-			},
-			{
-				"height": 1240,
-				"size": 94471889.6875,
-				"weight": 400,
-				"width": 76187.0078125
-			},
-			{
-				"height": 1240,
-				"size": 95764841.5625,
-				"weight": 500,
-				"width": 77229.7109375
-			},
-			{
-				"height": 1240,
-				"size": 96188408.125,
-				"weight": 600,
-				"width": 77571.296875
+				"size": 97910981.25,
+				"weight": 900,
+				"width": 78960.46875
 			},
 			{
 				"height": 1240,
@@ -33544,9 +33935,27 @@ export default [
 			},
 			{
 				"height": 1240,
-				"size": 98771289.375,
-				"weight": 900,
-				"width": 79654.265625
+				"size": 94471889.6875,
+				"weight": 400,
+				"width": 76187.0078125
+			},
+			{
+				"height": 1240,
+				"size": 92680041.25,
+				"weight": 300,
+				"width": 74741.96875
+			},
+			{
+				"height": 1240,
+				"size": 95764841.5625,
+				"weight": 500,
+				"width": 77229.7109375
+			},
+			{
+				"height": 1240,
+				"size": 96188408.125,
+				"weight": 600,
+				"width": 77571.296875
 			}
 		],
 		"name": "Open Sauce One"
@@ -33555,27 +33964,9 @@ export default [
 		"measurements": [
 			{
 				"height": 1240,
-				"size": 92680041.25,
-				"weight": 300,
-				"width": 74741.96875
-			},
-			{
-				"height": 1240,
-				"size": 94471889.6875,
-				"weight": 400,
-				"width": 76187.0078125
-			},
-			{
-				"height": 1240,
-				"size": 95764841.5625,
-				"weight": 500,
-				"width": 77229.7109375
-			},
-			{
-				"height": 1240,
-				"size": 96188408.125,
-				"weight": 600,
-				"width": 77571.296875
+				"size": 97910981.25,
+				"weight": 900,
+				"width": 78960.46875
 			},
 			{
 				"height": 1240,
@@ -33591,9 +33982,27 @@ export default [
 			},
 			{
 				"height": 1240,
-				"size": 98771289.375,
-				"weight": 900,
-				"width": 79654.265625
+				"size": 94471889.6875,
+				"weight": 400,
+				"width": 76187.0078125
+			},
+			{
+				"height": 1240,
+				"size": 92680041.25,
+				"weight": 300,
+				"width": 74741.96875
+			},
+			{
+				"height": 1240,
+				"size": 95764841.5625,
+				"weight": 500,
+				"width": 77229.7109375
+			},
+			{
+				"height": 1240,
+				"size": 96188408.125,
+				"weight": 600,
+				"width": 77571.296875
 			}
 		],
 		"name": "Open Sauce Sans"
@@ -33602,27 +34011,9 @@ export default [
 		"measurements": [
 			{
 				"height": 1240,
-				"size": 92680041.25,
-				"weight": 300,
-				"width": 74741.96875
-			},
-			{
-				"height": 1240,
-				"size": 94471889.6875,
-				"weight": 400,
-				"width": 76187.0078125
-			},
-			{
-				"height": 1240,
-				"size": 95764841.5625,
-				"weight": 500,
-				"width": 77229.7109375
-			},
-			{
-				"height": 1240,
-				"size": 96188408.125,
-				"weight": 600,
-				"width": 77571.296875
+				"size": 97910981.25,
+				"weight": 900,
+				"width": 78960.46875
 			},
 			{
 				"height": 1240,
@@ -33638,9 +34029,27 @@ export default [
 			},
 			{
 				"height": 1240,
-				"size": 98771289.375,
-				"weight": 900,
-				"width": 79654.265625
+				"size": 94471889.6875,
+				"weight": 400,
+				"width": 76187.0078125
+			},
+			{
+				"height": 1240,
+				"size": 92680041.25,
+				"weight": 300,
+				"width": 74741.96875
+			},
+			{
+				"height": 1240,
+				"size": 95764841.5625,
+				"weight": 500,
+				"width": 77229.7109375
+			},
+			{
+				"height": 1240,
+				"size": 96188408.125,
+				"weight": 600,
+				"width": 77571.296875
 			}
 		],
 		"name": "Open Sauce Two"
@@ -33933,13 +34342,13 @@ export default [
 			{
 				"height": 1209,
 				"size": 78837501.5390625,
-				"weight": "700",
+				"weight": 700,
 				"width": 65208.8515625
 			},
 			{
 				"height": 1209,
 				"size": 83583006,
-				"weight": "900",
+				"weight": 900,
 				"width": 69134
 			}
 		],
@@ -34114,7 +34523,7 @@ export default [
 			{
 				"height": 1271,
 				"size": 87686160.9140625,
-				"weight": "300",
+				"weight": 300,
 				"width": 68989.8984375
 			},
 			{
@@ -34126,7 +34535,7 @@ export default [
 			{
 				"height": 1271,
 				"size": 92751076.0546875,
-				"weight": "700",
+				"weight": 700,
 				"width": 72974.8828125
 			}
 		],
@@ -34165,7 +34574,7 @@ export default [
 			{
 				"height": 1488,
 				"size": 98296396.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 66059.40625
 			}
 		],
@@ -34187,19 +34596,19 @@ export default [
 			{
 				"height": 1798,
 				"size": 114304548.984375,
-				"weight": "100",
+				"weight": 100,
 				"width": 63573.1640625
 			},
 			{
 				"height": 1798,
 				"size": 117025569.140625,
-				"weight": "200",
+				"weight": 200,
 				"width": 65086.5234375
 			},
 			{
 				"height": 1798,
 				"size": 119879880.09375,
-				"weight": "300",
+				"weight": 300,
 				"width": 66674.015625
 			},
 			{
@@ -34211,19 +34620,19 @@ export default [
 			{
 				"height": 1798,
 				"size": 123341676.25,
-				"weight": "500",
+				"weight": 500,
 				"width": 68599.375
 			},
 			{
 				"height": 1798,
 				"size": 125144311.71875,
-				"weight": "600",
+				"weight": 600,
 				"width": 69601.953125
 			},
 			{
 				"height": 1798,
 				"size": 126938673.578125,
-				"weight": "700",
+				"weight": 700,
 				"width": 70599.9296875
 			}
 		],
@@ -34240,19 +34649,19 @@ export default [
 			{
 				"height": 1798,
 				"size": 129665649.609375,
-				"weight": "500",
+				"weight": 500,
 				"width": 72116.6015625
 			},
 			{
 				"height": 1798,
 				"size": 132365487.078125,
-				"weight": "600",
+				"weight": 600,
 				"width": 73618.1796875
 			},
 			{
 				"height": 1798,
 				"size": 135176084.15625,
-				"weight": "700",
+				"weight": 700,
 				"width": 75181.359375
 			}
 		],
@@ -34351,10 +34760,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1147,
-				"size": 67783569.0078125,
+				"height": 1178,
+				"size": 69675156.796875,
 				"weight": 400,
-				"width": 59096.3984375
+				"width": 59146.9921875
 			}
 		],
 		"name": "PARKING"
@@ -34422,13 +34831,13 @@ export default [
 			{
 				"height": 1116,
 				"size": 70122735.28125,
-				"weight": "700",
+				"weight": 700,
 				"width": 62833.9921875
 			},
 			{
 				"height": 1116,
 				"size": 75714470.71875,
-				"weight": "900",
+				"weight": 900,
 				"width": 67844.5078125
 			}
 		],
@@ -34613,15 +35022,15 @@ export default [
 			},
 			{
 				"height": 1209,
-				"size": 83926314.7734375,
+				"size": 82225761.8203125,
 				"weight": 200,
-				"width": 69417.9609375
+				"width": 68011.3828125
 			},
 			{
 				"height": 1209,
-				"size": 85625092.0078125,
+				"size": 68699328.140625,
 				"weight": 300,
-				"width": 70823.0703125
+				"width": 56823.265625
 			},
 			{
 				"height": 1209,
@@ -34631,39 +35040,39 @@ export default [
 			},
 			{
 				"height": 1209,
-				"size": 88396809.515625,
+				"size": 88400143.7109375,
 				"weight": 500,
-				"width": 73115.640625
+				"width": 73118.3984375
 			},
 			{
 				"height": 1209,
-				"size": 89337524.859375,
+				"size": 89344325.484375,
 				"weight": 600,
-				"width": 73893.734375
+				"width": 73899.359375
 			},
 			{
 				"height": 1209,
-				"size": 90383366.53125,
+				"size": 90377774.90625,
 				"weight": 700,
-				"width": 74758.78125
+				"width": 74754.15625
 			},
 			{
 				"height": 1209,
-				"size": 91535789.109375,
+				"size": 91527590.578125,
 				"weight": 800,
-				"width": 75711.984375
+				"width": 75705.203125
 			},
 			{
 				"height": 1209,
-				"size": 93210414.6796875,
+				"size": 91527590.578125,
 				"weight": 900,
-				"width": 77097.1171875
+				"width": 75705.203125
 			},
 			{
 				"height": 1209,
-				"size": 95043712.0546875,
+				"size": 91527590.578125,
 				"weight": 950,
-				"width": 78613.4921875
+				"width": 75705.203125
 			}
 		],
 		"name": "Peridot PE"
@@ -34771,7 +35180,7 @@ export default [
 			{
 				"height": 1116,
 				"size": 77524954.03125,
-				"weight": "700",
+				"weight": 700,
 				"width": 69466.8046875
 			}
 		],
@@ -35008,7 +35417,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 84908736.015625,
-				"weight": "700",
+				"weight": 700,
 				"width": 74026.796875
 			}
 		],
@@ -35124,13 +35533,13 @@ export default [
 			{
 				"height": 1333,
 				"size": 106131772.921875,
-				"weight": "700",
+				"weight": 700,
 				"width": 79618.734375
 			},
 			{
 				"height": 1333,
 				"size": 109936477.7578125,
-				"weight": "900",
+				"weight": 900,
 				"width": 82472.9765625
 			}
 		],
@@ -35351,10 +35760,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1147,
-				"size": 78738933.40625,
+				"height": 1736,
+				"size": 128917516.4375,
 				"weight": 100,
-				"width": 68647.71875
+				"width": 74261.2421875
 			},
 			{
 				"height": 1736,
@@ -35400,6 +35809,65 @@ export default [
 			}
 		],
 		"name": "Playpen Sans Thai"
+	},
+	{
+		"measurements": [
+			{
+				"height": 1178,
+				"size": 79488725.078125,
+				"weight": 100,
+				"width": 67477.6953125
+			},
+			{
+				"height": 1178,
+				"size": 80998148.015625,
+				"weight": 200,
+				"width": 68759.0390625
+			},
+			{
+				"height": 1178,
+				"size": 82509006.640625,
+				"weight": 300,
+				"width": 70041.6015625
+			},
+			{
+				"height": 1178,
+				"size": 85527383.15625,
+				"weight": 400,
+				"width": 72603.890625
+			},
+			{
+				"height": 1178,
+				"size": 88547130.9375,
+				"weight": 500,
+				"width": 75167.34375
+			},
+			{
+				"height": 1178,
+				"size": 91567246.84375,
+				"weight": 600,
+				"width": 77731.109375
+			},
+			{
+				"height": 1178,
+				"size": 94585522.125,
+				"weight": 700,
+				"width": 80293.3125
+			},
+			{
+				"height": 1178,
+				"size": 96096021.828125,
+				"weight": 800,
+				"width": 81575.5703125
+			},
+			{
+				"height": 1178,
+				"size": 97605279.109375,
+				"weight": 900,
+				"width": 82856.7734375
+			}
+		],
+		"name": "Pliant"
 	},
 	{
 		"measurements": [
@@ -35570,10 +36038,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 72363214.75,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 61428.875
+				"width": 68647.71875
 			}
 		],
 		"name": "Pomfret"
@@ -35662,19 +36130,19 @@ export default [
 			{
 				"height": 1488,
 				"size": 103453688.25,
-				"weight": "100",
+				"weight": 100,
 				"width": 69525.328125
 			},
 			{
 				"height": 1488,
 				"size": 105946588.125,
-				"weight": "200",
+				"weight": 200,
 				"width": 71200.6640625
 			},
 			{
 				"height": 1488,
 				"size": 108409204.875,
-				"weight": "300",
+				"weight": 300,
 				"width": 72855.6484375
 			},
 			{
@@ -35686,31 +36154,31 @@ export default [
 			{
 				"height": 1488,
 				"size": 112778100.75,
-				"weight": "500",
+				"weight": 500,
 				"width": 75791.734375
 			},
 			{
 				"height": 1488,
 				"size": 114658944.375,
-				"weight": "600",
+				"weight": 600,
 				"width": 77055.7421875
 			},
 			{
 				"height": 1488,
 				"size": 116843281.875,
-				"weight": "700",
+				"weight": 700,
 				"width": 78523.7109375
 			},
 			{
 				"height": 1488,
 				"size": 118672417.5,
-				"weight": "800",
+				"weight": 800,
 				"width": 79752.96875
 			},
 			{
 				"height": 1488,
 				"size": 120484057.5,
-				"weight": "900",
+				"weight": 900,
 				"width": 80970.46875
 			}
 		],
@@ -35760,7 +36228,7 @@ export default [
 			{
 				"height": 1674,
 				"size": 94804400.53125,
-				"weight": "700",
+				"weight": 700,
 				"width": 56633.453125
 			}
 		],
@@ -35815,13 +36283,13 @@ export default [
 			{
 				"height": 1581,
 				"size": 107742976.125,
-				"weight": "200",
+				"weight": 200,
 				"width": 68148.625
 			},
 			{
 				"height": 1519,
 				"size": 104632731.109375,
-				"weight": "300",
+				"weight": 300,
 				"width": 68882.640625
 			},
 			{
@@ -35833,19 +36301,19 @@ export default [
 			{
 				"height": 1519,
 				"size": 106592490.3203125,
-				"weight": "500",
+				"weight": 500,
 				"width": 70172.8046875
 			},
 			{
 				"height": 1519,
 				"size": 107141240.9375,
-				"weight": "600",
+				"weight": 600,
 				"width": 70534.0625
 			},
 			{
 				"height": 1519,
 				"size": 107899150.734375,
-				"weight": "700",
+				"weight": 700,
 				"width": 71033.015625
 			}
 		],
@@ -35878,19 +36346,19 @@ export default [
 			{
 				"height": 1519,
 				"size": 106879806.796875,
-				"weight": "100",
+				"weight": 100,
 				"width": 70361.953125
 			},
 			{
 				"height": 1519,
 				"size": 108295597.8671875,
-				"weight": "200",
+				"weight": 200,
 				"width": 71294.0078125
 			},
 			{
 				"height": 1519,
 				"size": 110070501.8984375,
-				"weight": "300",
+				"weight": 300,
 				"width": 72462.4765625
 			},
 			{
@@ -35902,31 +36370,31 @@ export default [
 			{
 				"height": 1519,
 				"size": 112617046.0625,
-				"weight": "500",
+				"weight": 500,
 				"width": 74138.9375
 			},
 			{
 				"height": 1519,
 				"size": 113639107.5859375,
-				"weight": "600",
+				"weight": 600,
 				"width": 74811.7890625
 			},
 			{
 				"height": 1519,
 				"size": 113874920.46875,
-				"weight": "700",
+				"weight": 700,
 				"width": 74967.03125
 			},
 			{
 				"height": 1519,
 				"size": 115336127.265625,
-				"weight": "800",
+				"weight": 800,
 				"width": 75928.984375
 			},
 			{
 				"height": 1519,
 				"size": 116942362.9609375,
-				"weight": "900",
+				"weight": 900,
 				"width": 76986.4140625
 			}
 		],
@@ -35953,15 +36421,15 @@ export default [
 			},
 			{
 				"height": 1240,
-				"size": 87421976.25,
+				"size": 86076857.1875,
 				"weight": 200,
-				"width": 70501.59375
+				"width": 69416.8203125
 			},
 			{
 				"height": 1240,
-				"size": 88766175,
+				"size": 86076857.1875,
 				"weight": 300,
-				"width": 71585.625
+				"width": 69416.8203125
 			},
 			{
 				"height": 1240,
@@ -35977,9 +36445,9 @@ export default [
 			},
 			{
 				"height": 1240,
-				"size": 99400289.0625,
+				"size": 100965023.75,
 				"weight": 600,
-				"width": 80161.5234375
+				"width": 81423.40625
 			},
 			{
 				"height": 1240,
@@ -35995,9 +36463,9 @@ export default [
 			},
 			{
 				"height": 1240,
-				"size": 107343690.3125,
+				"size": 104188926.875,
 				"weight": 900,
-				"width": 86567.4921875
+				"width": 84023.328125
 			}
 		],
 		"name": "Protest Grotesk"
@@ -36057,25 +36525,25 @@ export default [
 			{
 				"height": 1364,
 				"size": 105966975.46875,
-				"weight": "500",
+				"weight": 500,
 				"width": 77688.3984375
 			},
 			{
 				"height": 1364,
 				"size": 107547510.46875,
-				"weight": "600",
+				"weight": 600,
 				"width": 78847.1484375
 			},
 			{
 				"height": 1364,
 				"size": 109126052.75,
-				"weight": "700",
+				"weight": 700,
 				"width": 80004.4375
 			},
 			{
 				"height": 1364,
 				"size": 110661309.34375,
-				"weight": "800",
+				"weight": 800,
 				"width": 81129.9921875
 			}
 		],
@@ -36097,33 +36565,33 @@ export default [
 		"measurements": [
 			{
 				"height": 1178,
-				"size": 82997453.296875,
+				"size": 83006785.265625,
 				"weight": 300,
-				"width": 70456.2421875
+				"width": 70464.1640625
 			},
 			{
 				"height": 1178,
-				"size": 82997453.296875,
+				"size": 83006785.265625,
 				"weight": 400,
-				"width": 70456.2421875
+				"width": 70464.1640625
 			},
 			{
 				"height": 1178,
-				"size": 82997453.296875,
+				"size": 83006785.265625,
 				"weight": 500,
-				"width": 70456.2421875
+				"width": 70464.1640625
 			},
 			{
 				"height": 1178,
-				"size": 82997453.296875,
+				"size": 83006785.265625,
 				"weight": 600,
-				"width": 70456.2421875
+				"width": 70464.1640625
 			},
 			{
 				"height": 1178,
-				"size": 82997453.296875,
+				"size": 83006785.265625,
 				"weight": 700,
-				"width": 70456.2421875
+				"width": 70464.1640625
 			}
 		],
 		"name": "PT Root UI"
@@ -36139,7 +36607,7 @@ export default [
 			{
 				"height": 1302,
 				"size": 86971158.75,
-				"weight": "700",
+				"weight": 700,
 				"width": 66798.125
 			}
 		],
@@ -36156,7 +36624,7 @@ export default [
 			{
 				"height": 1302,
 				"size": 96268364.390625,
-				"weight": "700",
+				"weight": 700,
 				"width": 73938.8359375
 			}
 		],
@@ -36173,7 +36641,7 @@ export default [
 			{
 				"height": 1302,
 				"size": 72358039.6875,
-				"weight": "700",
+				"weight": 700,
 				"width": 55574.53125
 			}
 		],
@@ -36190,7 +36658,7 @@ export default [
 			{
 				"height": 1302,
 				"size": 97416006.1875,
-				"weight": "700",
+				"weight": 700,
 				"width": 74820.28125
 			}
 		],
@@ -36288,7 +36756,7 @@ export default [
 			{
 				"height": 1116,
 				"size": 69838024.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 62578.875
 			}
 		],
@@ -36338,31 +36806,32 @@ export default [
 			{
 				"height": 1426,
 				"size": 107178928.703125,
-				"weight": "700",
+				"weight": 700,
 				"width": 75160.5390625
 			}
 		],
 		"name": "Quantico"
 	},
 	{
+		"isMultiplexed": true,
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 82483348.328125,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 10,
-				"width": 70019.8203125
+				"width": 68647.71875
 			},
 			{
-				"height": 1178,
-				"size": 85061438.140625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 110,
-				"width": 72208.3515625
+				"width": 68647.71875
 			},
 			{
-				"height": 1178,
-				"size": 86198465.828125,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 180,
-				"width": 73173.5703125
+				"width": 68647.71875
 			}
 		],
 		"name": "Quasar"
@@ -36378,7 +36847,7 @@ export default [
 			{
 				"height": 1085,
 				"size": 79300166.3671875,
-				"weight": "700",
+				"weight": 700,
 				"width": 73087.7109375
 			}
 		],
@@ -36395,7 +36864,7 @@ export default [
 			{
 				"height": 1085,
 				"size": 73418042.3046875,
-				"weight": "700",
+				"weight": 700,
 				"width": 67666.3984375
 			}
 		],
@@ -36480,7 +36949,7 @@ export default [
 			{
 				"height": 1116,
 				"size": 57735004.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 51733.875
 			}
 		],
@@ -36577,7 +37046,7 @@ export default [
 			{
 				"height": 1271,
 				"size": 75598345.203125,
-				"weight": "300",
+				"weight": 300,
 				"width": 59479.421875
 			},
 			{
@@ -36589,19 +37058,19 @@ export default [
 			{
 				"height": 1271,
 				"size": 77263295.625,
-				"weight": "500",
+				"weight": 500,
 				"width": 60789.375
 			},
 			{
 				"height": 1271,
 				"size": 78265012.4296875,
-				"weight": "600",
+				"weight": 600,
 				"width": 61577.5078125
 			},
 			{
 				"height": 1271,
 				"size": 79388238.8203125,
-				"weight": "700",
+				"weight": 700,
 				"width": 62461.2421875
 			}
 		],
@@ -36721,7 +37190,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 77533066.1015625,
-				"weight": "700",
+				"weight": 700,
 				"width": 64129.9140625
 			}
 		],
@@ -36793,7 +37262,7 @@ export default [
 			{
 				"height": 1457,
 				"size": 72446889.078125,
-				"weight": "700",
+				"weight": 700,
 				"width": 49723.328125
 			}
 		],
@@ -37127,7 +37596,7 @@ export default [
 			{
 				"height": 992,
 				"size": 54901209.25,
-				"weight": "300",
+				"weight": 300,
 				"width": 55343.9609375
 			},
 			{
@@ -37139,7 +37608,7 @@ export default [
 			{
 				"height": 992,
 				"size": 54901209.25,
-				"weight": "700",
+				"weight": 700,
 				"width": 55343.9609375
 			}
 		],
@@ -37467,11 +37936,60 @@ export default [
 		"name": "REM"
 	},
 	{
+		"isMultiplexed": true,
 		"measurements": [
 			{
 				"height": 1364,
 				"size": 102257716,
+				"weight": 100,
+				"width": 74969
+			},
+			{
+				"height": 1364,
+				"size": 102257716,
+				"weight": 200,
+				"width": 74969
+			},
+			{
+				"height": 1364,
+				"size": 102257716,
+				"weight": 300,
+				"width": 74969
+			},
+			{
+				"height": 1364,
+				"size": 102257716,
 				"weight": 400,
+				"width": 74969
+			},
+			{
+				"height": 1364,
+				"size": 102257716,
+				"weight": 500,
+				"width": 74969
+			},
+			{
+				"height": 1364,
+				"size": 102257716,
+				"weight": 600,
+				"width": 74969
+			},
+			{
+				"height": 1364,
+				"size": 102257716,
+				"weight": 700,
+				"width": 74969
+			},
+			{
+				"height": 1364,
+				"size": 102257716,
+				"weight": 800,
+				"width": 74969
+			},
+			{
+				"height": 1364,
+				"size": 102257716,
+				"weight": 900,
 				"width": 74969
 			}
 		],
@@ -38112,10 +38630,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 92179806.84375,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 78251.109375
+				"width": 68647.71875
 			}
 		],
 		"name": "Roslindale Extended"
@@ -38136,7 +38654,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 90093691.875,
-				"weight": "300",
+				"weight": 300,
 				"width": 72656.203125
 			},
 			{
@@ -38148,7 +38666,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 102556331.25,
-				"weight": "700",
+				"weight": 700,
 				"width": 82706.71875
 			}
 		],
@@ -38561,7 +39079,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 90203546.671875,
-				"weight": "700",
+				"weight": 700,
 				"width": 74610.046875
 			}
 		],
@@ -38644,19 +39162,19 @@ export default [
 			{
 				"height": 1612,
 				"size": 113510780.90625,
-				"weight": "500",
+				"weight": 500,
 				"width": 70416.1171875
 			},
 			{
 				"height": 1612,
 				"size": 116183854.71875,
-				"weight": "600",
+				"weight": 600,
 				"width": 72074.3515625
 			},
 			{
 				"height": 1612,
 				"size": 118901711.90625,
-				"weight": "700",
+				"weight": 700,
 				"width": 73760.3671875
 			}
 		],
@@ -38695,7 +39213,7 @@ export default [
 			{
 				"height": 1519,
 				"size": 101046419.578125,
-				"weight": "700",
+				"weight": 700,
 				"width": 66521.671875
 			}
 		],
@@ -38776,19 +39294,19 @@ export default [
 			{
 				"height": 1550,
 				"size": 83125458.59375,
-				"weight": "100",
+				"weight": 100,
 				"width": 53629.328125
 			},
 			{
 				"height": 1550,
 				"size": 83253842.1875,
-				"weight": "200",
+				"weight": 200,
 				"width": 53712.15625
 			},
 			{
 				"height": 1550,
 				"size": 83309835.9375,
-				"weight": "300",
+				"weight": 300,
 				"width": 53748.28125
 			},
 			{
@@ -38800,31 +39318,31 @@ export default [
 			{
 				"height": 1550,
 				"size": 83862628.90625,
-				"weight": "500",
+				"weight": 500,
 				"width": 54104.921875
 			},
 			{
 				"height": 1550,
 				"size": 84274832.03125,
-				"weight": "600",
+				"weight": 600,
 				"width": 54370.859375
 			},
 			{
 				"height": 1550,
 				"size": 85004894.140625,
-				"weight": "700",
+				"weight": 700,
 				"width": 54841.8671875
 			},
 			{
 				"height": 1550,
 				"size": 86065118.359375,
-				"weight": "800",
+				"weight": 800,
 				"width": 55525.8828125
 			},
 			{
 				"height": 1550,
 				"size": 87270437.109375,
-				"weight": "900",
+				"weight": 900,
 				"width": 56303.5078125
 			}
 		],
@@ -38835,19 +39353,19 @@ export default [
 			{
 				"height": 1550,
 				"size": 68341425.390625,
-				"weight": "100",
+				"weight": 100,
 				"width": 44091.2421875
 			},
 			{
 				"height": 1550,
 				"size": 68828839.84375,
-				"weight": "200",
+				"weight": 200,
 				"width": 44405.703125
 			},
 			{
 				"height": 1550,
 				"size": 68896955.078125,
-				"weight": "300",
+				"weight": 300,
 				"width": 44449.6484375
 			},
 			{
@@ -38859,31 +39377,31 @@ export default [
 			{
 				"height": 1550,
 				"size": 70529722.65625,
-				"weight": "500",
+				"weight": 500,
 				"width": 45503.046875
 			},
 			{
 				"height": 1550,
 				"size": 71440807.8125,
-				"weight": "600",
+				"weight": 600,
 				"width": 46090.84375
 			},
 			{
 				"height": 1550,
 				"size": 72164464.0625,
-				"weight": "700",
+				"weight": 700,
 				"width": 46557.71875
 			},
 			{
 				"height": 1550,
 				"size": 72700667.1875,
-				"weight": "800",
+				"weight": 800,
 				"width": 46903.65625
 			},
 			{
 				"height": 1550,
 				"size": 73009008.203125,
-				"weight": "900",
+				"weight": 900,
 				"width": 47102.5859375
 			}
 		],
@@ -38894,19 +39412,19 @@ export default [
 			{
 				"height": 1550,
 				"size": 98570881.640625,
-				"weight": "100",
+				"weight": 100,
 				"width": 63594.1171875
 			},
 			{
 				"height": 1550,
 				"size": 98901528.125,
-				"weight": "200",
+				"weight": 200,
 				"width": 63807.4375
 			},
 			{
 				"height": 1550,
 				"size": 98753382.03125,
-				"weight": "300",
+				"weight": 300,
 				"width": 63711.859375
 			},
 			{
@@ -38918,31 +39436,31 @@ export default [
 			{
 				"height": 1550,
 				"size": 99568137.109375,
-				"weight": "500",
+				"weight": 500,
 				"width": 64237.5078125
 			},
 			{
 				"height": 1550,
 				"size": 100090123.828125,
-				"weight": "600",
+				"weight": 600,
 				"width": 64574.2734375
 			},
 			{
 				"height": 1550,
 				"size": 100841437.890625,
-				"weight": "700",
+				"weight": 700,
 				"width": 65058.9921875
 			},
 			{
 				"height": 1550,
 				"size": 101632325.390625,
-				"weight": "800",
+				"weight": 800,
 				"width": 65569.2421875
 			},
 			{
 				"height": 1550,
 				"size": 101519732.421875,
-				"weight": "900",
+				"weight": 900,
 				"width": 65496.6015625
 			}
 		],
@@ -38952,20 +39470,68 @@ export default [
 		"measurements": [
 			{
 				"height": 1550,
-				"size": 115208109.375,
+				"size": 113257071.09375,
+				"weight": 100,
+				"width": 73069.078125
+			},
+			{
+				"height": 1550,
+				"size": 113391739.453125,
+				"weight": 200,
+				"width": 73155.9609375
+			},
+			{
+				"height": 1550,
+				"size": 113570280.078125,
+				"weight": 300,
+				"width": 73271.1484375
+			},
+			{
+				"height": 1550,
+				"size": 113814562.5,
 				"weight": 400,
-				"width": 74327.8125
+				"width": 73428.75
+			},
+			{
+				"height": 1550,
+				"size": 114116570.3125,
+				"weight": 500,
+				"width": 73623.59375
+			},
+			{
+				"height": 1550,
+				"size": 114485252.34375,
+				"weight": 600,
+				"width": 73861.453125
+			},
+			{
+				"height": 1550,
+				"size": 114948823.4375,
+				"weight": 700,
+				"width": 74160.53125
+			},
+			{
+				"height": 1550,
+				"size": 115410796.09375,
+				"weight": 800,
+				"width": 74458.578125
+			},
+			{
+				"height": 1550,
+				"size": 115815333.984375,
+				"weight": 900,
+				"width": 74719.5703125
 			}
 		],
-		"name": "Saira Stencil One"
+		"name": "Saira Stencil"
 	},
 	{
 		"measurements": [
 			{
-				"height": 1302,
-				"size": 108471990.046875,
+				"height": 992,
+				"size": 82688175.5,
 				"weight": 400,
-				"width": 83311.8203125
+				"width": 83355.015625
 			}
 		],
 		"name": "Salome"
@@ -38973,10 +39539,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1302,
-				"size": 101652439.546875,
+				"height": 992,
+				"size": 77484639.5,
 				"weight": 400,
-				"width": 78074.0703125
+				"width": 78109.515625
 			}
 		],
 		"name": "Salome Deco"
@@ -38984,10 +39550,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1302,
-				"size": 108471990.046875,
+				"height": 992,
+				"size": 82688175.5,
 				"weight": 400,
-				"width": 83311.8203125
+				"width": 83355.015625
 			}
 		],
 		"name": "Salome Fine"
@@ -38995,10 +39561,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1302,
-				"size": 108621557.296875,
+				"height": 992,
+				"size": 82802867.75,
 				"weight": 400,
-				"width": 83426.6953125
+				"width": 83470.6328125
 			}
 		],
 		"name": "Salome Stencil"
@@ -39052,7 +39618,7 @@ export default [
 			{
 				"height": 1116,
 				"size": 80144005.5,
-				"weight": "300",
+				"weight": 300,
 				"width": 71813.625
 			},
 			{
@@ -39064,7 +39630,7 @@ export default [
 			{
 				"height": 1116,
 				"size": 81582564.375,
-				"weight": "700",
+				"weight": 700,
 				"width": 73102.65625
 			}
 		],
@@ -39081,19 +39647,19 @@ export default [
 			{
 				"height": 1209,
 				"size": 79642695.5390625,
-				"weight": "700",
+				"weight": 700,
 				"width": 65874.8515625
 			},
 			{
 				"height": 1209,
 				"size": 85542388.8515625,
-				"weight": "800",
+				"weight": 800,
 				"width": 70754.6640625
 			},
 			{
 				"height": 1209,
 				"size": 91088704.6875,
-				"weight": "900",
+				"weight": 900,
 				"width": 75342.1875
 			}
 		],
@@ -39151,19 +39717,19 @@ export default [
 			{
 				"height": 1271,
 				"size": 81548382.7578125,
-				"weight": "100",
+				"weight": 100,
 				"width": 64160.8046875
 			},
 			{
 				"height": 1271,
 				"size": 82795730.2421875,
-				"weight": "200",
+				"weight": 200,
 				"width": 65142.1953125
 			},
 			{
 				"height": 1271,
 				"size": 84026634.1640625,
-				"weight": "300",
+				"weight": 300,
 				"width": 66110.6484375
 			},
 			{
@@ -39175,25 +39741,25 @@ export default [
 			{
 				"height": 1271,
 				"size": 86615651.234375,
-				"weight": "500",
+				"weight": 500,
 				"width": 68147.640625
 			},
 			{
 				"height": 1271,
 				"size": 87993425.1640625,
-				"weight": "600",
+				"weight": 600,
 				"width": 69231.6484375
 			},
 			{
 				"height": 1271,
 				"size": 89305851.8203125,
-				"weight": "700",
+				"weight": 700,
 				"width": 70264.2421875
 			},
 			{
 				"height": 1271,
 				"size": 90627453.5078125,
-				"weight": "800",
+				"weight": 800,
 				"width": 71304.0546875
 			}
 		],
@@ -39210,7 +39776,7 @@ export default [
 			{
 				"height": 1612,
 				"size": 118958119.3125,
-				"weight": "700",
+				"weight": 700,
 				"width": 73795.359375
 			}
 		],
@@ -39238,31 +39804,31 @@ export default [
 			{
 				"height": 1395,
 				"size": 107727796.0546875,
-				"weight": "500",
+				"weight": 500,
 				"width": 77224.2265625
 			},
 			{
 				"height": 1395,
 				"size": 109326291.6796875,
-				"weight": "600",
+				"weight": 600,
 				"width": 78370.1015625
 			},
 			{
 				"height": 1395,
 				"size": 111139900.6640625,
-				"weight": "700",
+				"weight": 700,
 				"width": 79670.1796875
 			},
 			{
 				"height": 1395,
 				"size": 113249271.4453125,
-				"weight": "800",
+				"weight": 800,
 				"width": 81182.2734375
 			},
 			{
 				"height": 1395,
 				"size": 117289376.71875,
-				"weight": "900",
+				"weight": 900,
 				"width": 84078.40625
 			}
 		],
@@ -39300,33 +39866,33 @@ export default [
 			},
 			{
 				"height": 1333,
-				"size": 93120766.0703125,
+				"size": 93127358.171875,
 				"weight": 400,
-				"width": 69858.0390625
+				"width": 69862.984375
 			},
 			{
 				"height": 1333,
-				"size": 95802574.6171875,
+				"size": 95801116.6484375,
 				"weight": 500,
-				"width": 71869.8984375
+				"width": 71868.8046875
 			},
 			{
 				"height": 1333,
-				"size": 97318237.2734375,
+				"size": 98842272.8359375,
 				"weight": 600,
-				"width": 73006.9296875
+				"width": 74150.2421875
 			},
 			{
 				"height": 1333,
-				"size": 98834285.25,
+				"size": 98842272.8359375,
 				"weight": 700,
-				"width": 74144.25
+				"width": 74150.2421875
 			},
 			{
 				"height": 1333,
-				"size": 100584076.859375,
+				"size": 102331993.9375,
 				"weight": 800,
-				"width": 75456.921875
+				"width": 76768.1875
 			},
 			{
 				"height": 1333,
@@ -39415,34 +39981,34 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 78697035.453125,
-				"weight": 100,
-				"width": 66805.6328125
-			},
-			{
-				"height": 1178,
-				"size": 78594273.359375,
-				"weight": 300,
-				"width": 66718.3984375
-			},
-			{
-				"height": 1178,
-				"size": 78476574.59375,
-				"weight": 400,
-				"width": 66618.484375
-			},
-			{
-				"height": 1178,
-				"size": 79292606.484375,
-				"weight": 500,
-				"width": 67311.2109375
-			},
-			{
-				"height": 1178,
-				"size": 80425676.828125,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 700,
-				"width": 68273.0703125
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 100,
+				"width": 68647.71875
 			}
 		],
 		"name": "Sawton Bauhaus"
@@ -39450,34 +40016,34 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 78665303.078125,
-				"weight": 100,
-				"width": 66778.6953125
-			},
-			{
-				"height": 1178,
-				"size": 78530808.609375,
-				"weight": 300,
-				"width": 66664.5234375
-			},
-			{
-				"height": 1178,
-				"size": 78376573.4375,
-				"weight": 400,
-				"width": 66533.59375
-			},
-			{
-				"height": 1178,
-				"size": 79183107.703125,
-				"weight": 500,
-				"width": 67218.2578125
-			},
-			{
-				"height": 1178,
-				"size": 80301094.125,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 700,
-				"width": 68167.3125
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 100,
+				"width": 68647.71875
 			}
 		],
 		"name": "Sawton Circular"
@@ -39485,34 +40051,34 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 78908955.8125,
-				"weight": 100,
-				"width": 66985.53125
-			},
-			{
-				"height": 1178,
-				"size": 78780526.203125,
-				"weight": 300,
-				"width": 66876.5078125
-			},
-			{
-				"height": 1178,
-				"size": 78636893.03125,
-				"weight": 400,
-				"width": 66754.578125
-			},
-			{
-				"height": 1178,
-				"size": 79445728.078125,
-				"weight": 500,
-				"width": 67441.1953125
-			},
-			{
-				"height": 1178,
-				"size": 80564680.828125,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 700,
-				"width": 68391.0703125
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 100,
+				"width": 68647.71875
 			}
 		],
 		"name": "Sawton Industrial"
@@ -39528,7 +40094,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 83899920.9375,
-				"weight": "700",
+				"weight": 700,
 				"width": 67661.2265625
 			}
 		],
@@ -39545,19 +40111,19 @@ export default [
 			{
 				"height": 2015,
 				"size": 128161776.640625,
-				"weight": "500",
+				"weight": 500,
 				"width": 63603.859375
 			},
 			{
 				"height": 2015,
 				"size": 130879381.953125,
-				"weight": "600",
+				"weight": 600,
 				"width": 64952.546875
 			},
 			{
 				"height": 2015,
 				"size": 133609769.921875,
-				"weight": "700",
+				"weight": 700,
 				"width": 66307.578125
 			}
 		],
@@ -39677,10 +40243,10 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 87526367.296875,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 72395.671875
+				"width": 68647.71875
 			}
 		],
 		"name": "Scilla"
@@ -40001,7 +40567,7 @@ export default [
 			{
 				"height": 1116,
 				"size": 67653227.8125,
-				"weight": "700",
+				"weight": 700,
 				"width": 60621.171875
 			}
 		],
@@ -40062,25 +40628,25 @@ export default [
 			{
 				"height": 1426,
 				"size": 112234020.71875,
-				"weight": "500",
+				"weight": 500,
 				"width": 78705.484375
 			},
 			{
 				"height": 1426,
 				"size": 114370012.75,
-				"weight": "600",
+				"weight": 600,
 				"width": 80203.375
 			},
 			{
 				"height": 1426,
 				"size": 116569918.546875,
-				"weight": "700",
+				"weight": 700,
 				"width": 81746.0859375
 			},
 			{
 				"height": 1426,
 				"size": 118705810.3125,
-				"weight": "800",
+				"weight": 800,
 				"width": 83243.90625
 			}
 		],
@@ -40097,25 +40663,25 @@ export default [
 			{
 				"height": 1426,
 				"size": 112234020.71875,
-				"weight": "500",
+				"weight": 500,
 				"width": 78705.484375
 			},
 			{
 				"height": 1426,
 				"size": 114370012.75,
-				"weight": "600",
+				"weight": 600,
 				"width": 80203.375
 			},
 			{
 				"height": 1426,
 				"size": 116569918.546875,
-				"weight": "700",
+				"weight": 700,
 				"width": 81746.0859375
 			},
 			{
 				"height": 1426,
 				"size": 118705810.3125,
-				"weight": "800",
+				"weight": 800,
 				"width": 83243.90625
 			}
 		],
@@ -40261,51 +40827,51 @@ export default [
 		"measurements": [
 			{
 				"height": 1178,
-				"size": 89585528.734375,
-				"weight": 100,
-				"width": 76048.8359375
-			},
-			{
-				"height": 1178,
-				"size": 89471235.125,
-				"weight": 200,
-				"width": 75951.8125
-			},
-			{
-				"height": 1178,
-				"size": 89288691.140625,
-				"weight": 300,
-				"width": 75796.8515625
-			},
-			{
-				"height": 1178,
-				"size": 89163280.15625,
-				"weight": 400,
-				"width": 75690.390625
-			},
-			{
-				"height": 1178,
-				"size": 89642661.734375,
-				"weight": 500,
-				"width": 76097.3359375
-			},
-			{
-				"height": 1178,
-				"size": 90124021.984375,
-				"weight": 600,
-				"width": 76505.9609375
-			},
-			{
-				"height": 1178,
-				"size": 90599814.34375,
-				"weight": 700,
-				"width": 76909.859375
-			},
-			{
-				"height": 1178,
-				"size": 91231903.375,
+				"size": 91284213.9375,
 				"weight": 900,
-				"width": 77446.4375
+				"width": 77490.84375
+			},
+			{
+				"height": 1178,
+				"size": 90655530.0625,
+				"weight": 700,
+				"width": 76957.15625
+			},
+			{
+				"height": 1178,
+				"size": 89635464.890625,
+				"weight": 200,
+				"width": 76091.2265625
+			},
+			{
+				"height": 1178,
+				"size": 89635464.890625,
+				"weight": 300,
+				"width": 76091.2265625
+			},
+			{
+				"height": 1178,
+				"size": 89699352.984375,
+				"weight": 500,
+				"width": 76145.4609375
+			},
+			{
+				"height": 1178,
+				"size": 89212636.515625,
+				"weight": 400,
+				"width": 75732.2890625
+			},
+			{
+				"height": 1178,
+				"size": 90178283.609375,
+				"weight": 600,
+				"width": 76552.0234375
+			},
+			{
+				"height": 1178,
+				"size": 89635464.890625,
+				"weight": 100,
+				"width": 76091.2265625
 			}
 		],
 		"name": "Silka"
@@ -40315,51 +40881,51 @@ export default [
 		"measurements": [
 			{
 				"height": 1178,
-				"size": 100077579,
-				"weight": 100,
-				"width": 84955.5
-			},
-			{
-				"height": 1178,
-				"size": 100077579,
-				"weight": 200,
-				"width": 84955.5
-			},
-			{
-				"height": 1178,
-				"size": 100077579,
-				"weight": 300,
-				"width": 84955.5
-			},
-			{
-				"height": 1178,
-				"size": 100077579,
-				"weight": 400,
-				"width": 84955.5
-			},
-			{
-				"height": 1178,
-				"size": 100077579,
-				"weight": 500,
-				"width": 84955.5
-			},
-			{
-				"height": 1178,
-				"size": 100077579,
-				"weight": 600,
-				"width": 84955.5
-			},
-			{
-				"height": 1178,
-				"size": 100077579,
-				"weight": 700,
-				"width": 84955.5
-			},
-			{
-				"height": 1178,
-				"size": 100077579,
+				"size": 100149473.8125,
 				"weight": 900,
-				"width": 84955.5
+				"width": 85016.53125
+			},
+			{
+				"height": 1178,
+				"size": 100149473.8125,
+				"weight": 700,
+				"width": 85016.53125
+			},
+			{
+				"height": 1178,
+				"size": 100149473.8125,
+				"weight": 200,
+				"width": 85016.53125
+			},
+			{
+				"height": 1178,
+				"size": 100149473.8125,
+				"weight": 300,
+				"width": 85016.53125
+			},
+			{
+				"height": 1178,
+				"size": 100149473.8125,
+				"weight": 500,
+				"width": 85016.53125
+			},
+			{
+				"height": 1178,
+				"size": 100149473.8125,
+				"weight": 400,
+				"width": 85016.53125
+			},
+			{
+				"height": 1178,
+				"size": 100149473.8125,
+				"weight": 600,
+				"width": 85016.53125
+			},
+			{
+				"height": 1178,
+				"size": 100149473.8125,
+				"weight": 100,
+				"width": 85016.53125
 			}
 		],
 		"name": "Silka Mono"
@@ -40375,7 +40941,7 @@ export default [
 			{
 				"height": 1271,
 				"size": 136945166,
-				"weight": "700",
+				"weight": 700,
 				"width": 107746
 			}
 		],
@@ -40392,7 +40958,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 91622950.9375,
-				"weight": "900",
+				"weight": 900,
 				"width": 73889.4765625
 			}
 		],
@@ -40409,7 +40975,7 @@ export default [
 			{
 				"height": 1302,
 				"size": 97519443.984375,
-				"weight": "700",
+				"weight": 700,
 				"width": 74899.7265625
 			}
 		],
@@ -40481,7 +41047,7 @@ export default [
 			{
 				"height": 1364,
 				"size": 105581187.25,
-				"weight": "700",
+				"weight": 700,
 				"width": 77405.5625
 			}
 		],
@@ -40687,7 +41253,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 103877628.75,
-				"weight": "800",
+				"weight": 800,
 				"width": 83772.28125
 			}
 		],
@@ -41024,70 +41590,70 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 88924868.6015625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 10,
-				"width": 73552.4140625
+				"width": 68647.71875
 			},
 			{
-				"height": 1209,
-				"size": 90654059.7421875,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 110,
-				"width": 74982.6796875
+				"width": 68647.71875
 			},
 			{
-				"height": 1209,
-				"size": 92363151.2578125,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 210,
-				"width": 76396.3203125
+				"width": 68647.71875
 			},
 			{
-				"height": 1209,
-				"size": 93705254.6015625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 310,
-				"width": 77506.4140625
+				"width": 68647.71875
 			},
 			{
-				"height": 1209,
-				"size": 95047244.6015625,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 410,
-				"width": 78616.4140625
+				"width": 68647.71875
 			},
 			{
-				"height": 1209,
-				"size": 96393570,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 510,
-				"width": 79730
+				"width": 72215.359375
 			},
 			{
-				"height": 1209,
-				"size": 97746034.8515625,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 610,
-				"width": 80848.6640625
+				"width": 72215.359375
 			},
 			{
-				"height": 1209,
-				"size": 99102079.4765625,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 710,
-				"width": 81970.2890625
+				"width": 72215.359375
 			},
 			{
-				"height": 1209,
-				"size": 100441708.1484375,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 810,
-				"width": 83078.3359375
+				"width": 72215.359375
 			},
 			{
-				"height": 1209,
-				"size": 101791386.6328125,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 910,
-				"width": 84194.6953125
+				"width": 72215.359375
 			},
 			{
-				"height": 1209,
-				"size": 103001935.6640625,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 1000,
-				"width": 85195.9765625
+				"width": 72215.359375
 			}
 		],
 		"name": "Softcore"
@@ -41108,7 +41674,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 88666458.65625,
-				"weight": "300",
+				"weight": 300,
 				"width": 75268.640625
 			},
 			{
@@ -41120,19 +41686,19 @@ export default [
 			{
 				"height": 1178,
 				"size": 91247815.578125,
-				"weight": "500",
+				"weight": 500,
 				"width": 77459.9453125
 			},
 			{
 				"height": 1178,
 				"size": 92096334.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 78180.25
 			},
 			{
 				"height": 1178,
 				"size": 92927321.46875,
-				"weight": "800",
+				"weight": 800,
 				"width": 78885.671875
 			}
 		],
@@ -41559,7 +42125,7 @@ export default [
 			{
 				"height": 1488,
 				"size": 113836696.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 76503.15625
 			}
 		],
@@ -41632,13 +42198,13 @@ export default [
 			{
 				"height": 1519,
 				"size": 105810703.7421875,
-				"weight": "200",
+				"weight": 200,
 				"width": 69658.1328125
 			},
 			{
 				"height": 1519,
 				"size": 108652325.5234375,
-				"weight": "300",
+				"weight": 300,
 				"width": 71528.8515625
 			},
 			{
@@ -41650,25 +42216,25 @@ export default [
 			{
 				"height": 1519,
 				"size": 111988298.734375,
-				"weight": "500",
+				"weight": 500,
 				"width": 73725.015625
 			},
 			{
 				"height": 1519,
 				"size": 114049522.3984375,
-				"weight": "600",
+				"weight": 600,
 				"width": 75081.9765625
 			},
 			{
 				"height": 1519,
 				"size": 116432643.5234375,
-				"weight": "700",
+				"weight": 700,
 				"width": 76650.8515625
 			},
 			{
 				"height": 1519,
 				"size": 120180455.609375,
-				"weight": "800",
+				"weight": 800,
 				"width": 79118.140625
 			}
 		],
@@ -41679,13 +42245,13 @@ export default [
 			{
 				"height": 1519,
 				"size": 116170592.2890625,
-				"weight": "200",
+				"weight": 200,
 				"width": 76478.3359375
 			},
 			{
 				"height": 1519,
 				"size": 119263703.5078125,
-				"weight": "300",
+				"weight": 300,
 				"width": 78514.6171875
 			},
 			{
@@ -41697,25 +42263,25 @@ export default [
 			{
 				"height": 1519,
 				"size": 122764998.5078125,
-				"weight": "500",
+				"weight": 500,
 				"width": 80819.6171875
 			},
 			{
 				"height": 1519,
 				"size": 124798476.6875,
-				"weight": "600",
+				"weight": 600,
 				"width": 82158.3125
 			},
 			{
 				"height": 1519,
 				"size": 127161126.9140625,
-				"weight": "700",
+				"weight": 700,
 				"width": 83713.7109375
 			},
 			{
 				"height": 1519,
 				"size": 130850635.5078125,
-				"weight": "800",
+				"weight": 800,
 				"width": 86142.6171875
 			}
 		],
@@ -41891,7 +42457,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 91159732.46875,
-				"weight": "700",
+				"weight": 700,
 				"width": 77385.171875
 			}
 		],
@@ -42064,7 +42630,7 @@ export default [
 			{
 				"height": 1364,
 				"size": 98734930.25,
-				"weight": "700",
+				"weight": 700,
 				"width": 72386.3125
 			}
 		],
@@ -42184,7 +42750,7 @@ export default [
 			{
 				"height": 1240,
 				"size": 110170851.5625,
-				"weight": "300",
+				"weight": 300,
 				"width": 88847.4609375
 			},
 			{
@@ -42219,51 +42785,93 @@ export default [
 		"name": "Strait"
 	},
 	{
+		"isMultiplexed": true,
 		"measurements": [
 			{
-				"height": 1240,
-				"size": 88722610.3125,
-				"weight": 100,
-				"width": 71550.4921875
+				"height": 1209,
+				"size": 86523936.28125,
+				"weight": 900,
+				"width": 71566.53125
 			},
 			{
-				"height": 1240,
-				"size": 88732782.1875,
+				"height": 1209,
+				"size": 86523936.28125,
+				"weight": 700,
+				"width": 71566.53125
+			},
+			{
+				"height": 1209,
+				"size": 86523936.28125,
 				"weight": 200,
-				"width": 71558.6953125
+				"width": 71566.53125
 			},
 			{
-				"height": 1240,
-				"size": 88731978.125,
+				"height": 1209,
+				"size": 86523936.28125,
 				"weight": 300,
-				"width": 71558.046875
+				"width": 71566.53125
 			},
 			{
-				"height": 1240,
-				"size": 88742498.75,
+				"height": 1209,
+				"size": 86523936.28125,
+				"weight": 500,
+				"width": 71566.53125
+			},
+			{
+				"height": 1209,
+				"size": 86523936.28125,
 				"weight": 400,
 				"width": 71566.53125
 			},
 			{
-				"height": 1240,
-				"size": 89284039.6875,
-				"weight": 500,
-				"width": 72003.2578125
-			},
-			{
-				"height": 1271,
-				"size": 92162990.3125,
-				"weight": 700,
-				"width": 72512.1875
-			},
-			{
-				"height": 1271,
-				"size": 92706819.4375,
-				"weight": 900,
-				"width": 72940.0625
+				"height": 1209,
+				"size": 86523936.28125,
+				"weight": 100,
+				"width": 71566.53125
 			}
 		],
 		"name": "Strawford"
+	},
+	{
+		"measurements": [
+			{
+				"height": 1302,
+				"size": 94495894.828125,
+				"weight": 400,
+				"width": 72577.4921875
+			},
+			{
+				"height": 1302,
+				"size": 95611617.28125,
+				"weight": 500,
+				"width": 73434.421875
+			},
+			{
+				"height": 1302,
+				"size": 96726882,
+				"weight": 600,
+				"width": 74291
+			},
+			{
+				"height": 1302,
+				"size": 97842238.265625,
+				"weight": 700,
+				"width": 75147.6484375
+			},
+			{
+				"height": 1302,
+				"size": 98958906.703125,
+				"weight": 800,
+				"width": 76005.3046875
+			},
+			{
+				"height": 1302,
+				"size": 100072767.703125,
+				"weight": 900,
+				"width": 76860.8046875
+			}
+		],
+		"name": "Strichpunkt Sans"
 	},
 	{
 		"measurements": [
@@ -42303,7 +42911,7 @@ export default [
 			{
 				"height": 992,
 				"size": 62076818,
-				"weight": "300",
+				"weight": 300,
 				"width": 62577.4375
 			},
 			{
@@ -42315,7 +42923,7 @@ export default [
 			{
 				"height": 992,
 				"size": 63023620,
-				"weight": "700",
+				"weight": 700,
 				"width": 63531.875
 			}
 		],
@@ -42332,7 +42940,7 @@ export default [
 			{
 				"height": 2914,
 				"size": 216507468.125,
-				"weight": "700",
+				"weight": 700,
 				"width": 74299.0625
 			}
 		],
@@ -42352,28 +42960,28 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1178,
-				"size": 37806299.453125,
-				"weight": 300,
-				"width": 32093.6328125
-			},
-			{
-				"height": 1178,
-				"size": 40044655.90625,
-				"weight": 400,
-				"width": 33993.765625
-			},
-			{
-				"height": 1178,
-				"size": 42267495.890625,
-				"weight": 500,
-				"width": 35880.7265625
-			},
-			{
-				"height": 1178,
-				"size": 44504858.40625,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 700,
-				"width": 37780.015625
+				"width": 72215.359375
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
+			},
+			{
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 400,
+				"width": 68647.71875
 			}
 		],
 		"name": "SuperDuper"
@@ -42400,7 +43008,7 @@ export default [
 			{
 				"height": 1581,
 				"size": 115548657.2109375,
-				"weight": "700",
+				"weight": 700,
 				"width": 73085.8046875
 			}
 		],
@@ -42546,13 +43154,13 @@ export default [
 			{
 				"height": 1798,
 				"size": 131644573.359375,
-				"weight": "100",
+				"weight": 100,
 				"width": 73217.2265625
 			},
 			{
 				"height": 1798,
 				"size": 133089645.625,
-				"weight": "300",
+				"weight": 300,
 				"width": 74020.9375
 			},
 			{
@@ -42564,13 +43172,13 @@ export default [
 			{
 				"height": 1798,
 				"size": 137403792.109375,
-				"weight": "700",
+				"weight": 700,
 				"width": 76420.3515625
 			},
 			{
 				"height": 1798,
 				"size": 139034985.46875,
-				"weight": "900",
+				"weight": 900,
 				"width": 77327.578125
 			}
 		],
@@ -42598,7 +43206,7 @@ export default [
 			{
 				"height": 1023,
 				"size": 114847534.5703125,
-				"weight": "700",
+				"weight": 700,
 				"width": 112265.4296875
 			}
 		],
@@ -42711,7 +43319,7 @@ export default [
 			{
 				"height": 2077,
 				"size": 156503442.84375,
-				"weight": "700",
+				"weight": 700,
 				"width": 75350.71875
 			}
 		],
@@ -42722,13 +43330,13 @@ export default [
 			{
 				"height": 1178,
 				"size": 71128578.71875,
-				"weight": "200",
+				"weight": 200,
 				"width": 60380.796875
 			},
 			{
 				"height": 1178,
 				"size": 72732701.8125,
-				"weight": "300",
+				"weight": 300,
 				"width": 61742.53125
 			},
 			{
@@ -42740,25 +43348,25 @@ export default [
 			{
 				"height": 1178,
 				"size": 76036522.453125,
-				"weight": "500",
+				"weight": 500,
 				"width": 64547.1328125
 			},
 			{
 				"height": 1178,
 				"size": 77162506.390625,
-				"weight": "700",
+				"weight": 700,
 				"width": 65502.9765625
 			},
 			{
 				"height": 1178,
 				"size": 78296819.15625,
-				"weight": "800",
+				"weight": 800,
 				"width": 66465.890625
 			},
 			{
 				"height": 1178,
 				"size": 79887165.171875,
-				"weight": "900",
+				"weight": 900,
 				"width": 67815.9296875
 			}
 		],
@@ -42775,7 +43383,7 @@ export default [
 			{
 				"height": 992,
 				"size": 58823879.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 59298.265625
 			}
 		],
@@ -42889,19 +43497,19 @@ export default [
 			{
 				"height": 1705,
 				"size": 113227717.96875,
-				"weight": "100",
+				"weight": 100,
 				"width": 66409.21875
 			},
 			{
 				"height": 1705,
 				"size": 117227434.84375,
-				"weight": "200",
+				"weight": 200,
 				"width": 68755.09375
 			},
 			{
 				"height": 1705,
 				"size": 121472045.6640625,
-				"weight": "300",
+				"weight": 300,
 				"width": 71244.6015625
 			},
 			{
@@ -42913,31 +43521,31 @@ export default [
 			{
 				"height": 1705,
 				"size": 129958097.0703125,
-				"weight": "500",
+				"weight": 500,
 				"width": 76221.7578125
 			},
 			{
 				"height": 1705,
 				"size": 136188806.4453125,
-				"weight": "600",
+				"weight": 600,
 				"width": 79876.1328125
 			},
 			{
 				"height": 1705,
 				"size": 142572845.9375,
-				"weight": "700",
+				"weight": 700,
 				"width": 83620.4375
 			},
 			{
 				"height": 1705,
 				"size": 144661271.1328125,
-				"weight": "800",
+				"weight": 800,
 				"width": 84845.3203125
 			},
 			{
 				"height": 1705,
 				"size": 146817030.5078125,
-				"weight": "900",
+				"weight": 900,
 				"width": 86109.6953125
 			}
 		],
@@ -43168,7 +43776,7 @@ export default [
 			{
 				"height": 1271,
 				"size": 84021133.1171875,
-				"weight": "700",
+				"weight": 700,
 				"width": 66106.3203125
 			}
 		],
@@ -43196,7 +43804,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 72355108.0078125,
-				"weight": "700",
+				"weight": 700,
 				"width": 59847.0703125
 			}
 		],
@@ -43213,13 +43821,13 @@ export default [
 			{
 				"height": 1333,
 				"size": 110651382.3203125,
-				"weight": "700",
+				"weight": 700,
 				"width": 83009.2890625
 			},
 			{
 				"height": 1333,
 				"size": 114291805.3203125,
-				"weight": "900",
+				"weight": 900,
 				"width": 85740.2890625
 			}
 		],
@@ -43283,25 +43891,25 @@ export default [
 			{
 				"height": 1612,
 				"size": 111355927.3125,
-				"weight": "500",
+				"weight": 500,
 				"width": 69079.359375
 			},
 			{
 				"height": 1612,
 				"size": 120149739.9375,
-				"weight": "600",
+				"weight": 600,
 				"width": 74534.578125
 			},
 			{
 				"height": 1612,
 				"size": 130076322.59375,
-				"weight": "700",
+				"weight": 700,
 				"width": 80692.5078125
 			},
 			{
 				"height": 1612,
 				"size": 141511435,
-				"weight": "800",
+				"weight": 800,
 				"width": 87786.25
 			}
 		],
@@ -43379,7 +43987,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 82834046,
-				"weight": "700",
+				"weight": 700,
 				"width": 72218
 			}
 		],
@@ -43495,31 +44103,31 @@ export default [
 			{
 				"height": 1364,
 				"size": 91336530.3125,
-				"weight": "500",
+				"weight": 500,
 				"width": 66962.265625
 			},
 			{
 				"height": 1364,
 				"size": 92174377.96875,
-				"weight": "600",
+				"weight": 600,
 				"width": 67576.5234375
 			},
 			{
 				"height": 1364,
 				"size": 93006897.5,
-				"weight": "700",
+				"weight": 700,
 				"width": 68186.875
 			},
 			{
 				"height": 1364,
 				"size": 94397538.125,
-				"weight": "800",
+				"weight": 800,
 				"width": 69206.40625
 			},
 			{
 				"height": 1364,
 				"size": 95761538.125,
-				"weight": "900",
+				"weight": 900,
 				"width": 70206.40625
 			}
 		],
@@ -43541,13 +44149,13 @@ export default [
 			{
 				"height": 1488,
 				"size": 96894700.5,
-				"weight": "200",
+				"weight": 200,
 				"width": 65117.40625
 			},
 			{
 				"height": 1488,
 				"size": 97740163.5,
-				"weight": "300",
+				"weight": 300,
 				"width": 65685.59375
 			},
 			{
@@ -43559,19 +44167,19 @@ export default [
 			{
 				"height": 1488,
 				"size": 99481914,
-				"weight": "600",
+				"weight": 600,
 				"width": 66856.125
 			},
 			{
 				"height": 1488,
 				"size": 100381677.375,
-				"weight": "700",
+				"weight": 700,
 				"width": 67460.8046875
 			},
 			{
 				"height": 1488,
 				"size": 102825636,
-				"weight": "900",
+				"weight": 900,
 				"width": 69103.25
 			}
 		],
@@ -43582,19 +44190,19 @@ export default [
 			{
 				"height": 1178,
 				"size": 83999940.5,
-				"weight": "100",
+				"weight": 100,
 				"width": 71307.25
 			},
 			{
 				"height": 1178,
 				"size": 84712906.59375,
-				"weight": "200",
+				"weight": 200,
 				"width": 71912.484375
 			},
 			{
 				"height": 1178,
 				"size": 86192410.171875,
-				"weight": "300",
+				"weight": 300,
 				"width": 73168.4296875
 			},
 			{
@@ -43606,31 +44214,31 @@ export default [
 			{
 				"height": 1178,
 				"size": 90593307.734375,
-				"weight": "500",
+				"weight": 500,
 				"width": 76904.3359375
 			},
 			{
 				"height": 1178,
 				"size": 93647880.140625,
-				"weight": "600",
+				"weight": 600,
 				"width": 79497.3515625
 			},
 			{
 				"height": 1178,
 				"size": 96791741.265625,
-				"weight": "700",
+				"weight": 700,
 				"width": 82166.1640625
 			},
 			{
 				"height": 1178,
 				"size": 105964707.625,
-				"weight": "800",
+				"weight": 800,
 				"width": 89953.0625
 			},
 			{
 				"height": 1178,
 				"size": 111583592.765625,
-				"weight": "900",
+				"weight": 900,
 				"width": 94722.9140625
 			}
 		],
@@ -43751,19 +44359,19 @@ export default [
 			{
 				"height": 1705,
 				"size": 117295754.7265625,
-				"weight": "100",
+				"weight": 100,
 				"width": 68795.1640625
 			},
 			{
 				"height": 1705,
 				"size": 120581356.328125,
-				"weight": "200",
+				"weight": 200,
 				"width": 70722.203125
 			},
 			{
 				"height": 1705,
 				"size": 123994499.921875,
-				"weight": "300",
+				"weight": 300,
 				"width": 72724.046875
 			},
 			{
@@ -43775,31 +44383,31 @@ export default [
 			{
 				"height": 1705,
 				"size": 130830577.5390625,
-				"weight": "500",
+				"weight": 500,
 				"width": 76733.4765625
 			},
 			{
 				"height": 1705,
 				"size": 134194609.140625,
-				"weight": "600",
+				"weight": 600,
 				"width": 78706.515625
 			},
 			{
 				"height": 1705,
 				"size": 137664830.2734375,
-				"weight": "700",
+				"weight": 700,
 				"width": 80741.8359375
 			},
 			{
 				"height": 1705,
 				"size": 141072499.21875,
-				"weight": "800",
+				"weight": 800,
 				"width": 82740.46875
 			},
 			{
 				"height": 1705,
 				"size": 144614983.046875,
-				"weight": "900",
+				"weight": 900,
 				"width": 84818.171875
 			}
 		],
@@ -43880,7 +44488,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 78864431.09375,
-				"weight": "700",
+				"weight": 700,
 				"width": 66947.734375
 			}
 		],
@@ -43961,7 +44569,7 @@ export default [
 			{
 				"height": 1426,
 				"size": 108930145.828125,
-				"weight": "300",
+				"weight": 300,
 				"width": 76388.6015625
 			},
 			{
@@ -43973,19 +44581,19 @@ export default [
 			{
 				"height": 1426,
 				"size": 114221118.296875,
-				"weight": "500",
+				"weight": 500,
 				"width": 80098.9609375
 			},
 			{
 				"height": 1426,
 				"size": 116875082.546875,
-				"weight": "600",
+				"weight": 600,
 				"width": 81960.0859375
 			},
 			{
 				"height": 1426,
 				"size": 119526328.484375,
-				"weight": "700",
+				"weight": 700,
 				"width": 83819.3046875
 			}
 		],
@@ -44002,7 +44610,7 @@ export default [
 			{
 				"height": 1488,
 				"size": 105144160.875,
-				"weight": "700",
+				"weight": 700,
 				"width": 70661.3984375
 			}
 		],
@@ -44024,37 +44632,37 @@ export default [
 			{
 				"height": 1085,
 				"size": 76283425.5859375,
-				"weight": "200",
+				"weight": 200,
 				"width": 70307.3046875
 			},
 			{
-				"height": 1085,
-				"size": 76440114.84375,
-				"weight": "300",
-				"width": 70451.71875
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 300,
+				"width": 68647.71875
 			},
 			{
-				"height": 1085,
-				"size": 76612095.8203125,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 70610.2265625
+				"width": 68647.71875
 			},
 			{
-				"height": 1085,
-				"size": 76768869.84375,
-				"weight": "500",
-				"width": 70754.71875
+				"height": 1147,
+				"size": 78738933.40625,
+				"weight": 500,
+				"width": 68647.71875
 			},
 			{
 				"height": 1085,
 				"size": 77096709.375,
-				"weight": "700",
+				"weight": 700,
 				"width": 71056.875
 			},
 			{
 				"height": 1085,
 				"size": 77270419.5703125,
-				"weight": "800",
+				"weight": 800,
 				"width": 71216.9765625
 			}
 		],
@@ -44076,7 +44684,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 80213652.8125,
-				"weight": "300",
+				"weight": 300,
 				"width": 69933.4375
 			},
 			{
@@ -44088,13 +44696,13 @@ export default [
 			{
 				"height": 1147,
 				"size": 83447117.5,
-				"weight": "500",
+				"weight": 500,
 				"width": 72752.5
 			},
 			{
 				"height": 1147,
 				"size": 85581612.8125,
-				"weight": "700",
+				"weight": 700,
 				"width": 74613.4375
 			}
 		],
@@ -44123,7 +44731,7 @@ export default [
 			{
 				"height": 992,
 				"size": 61996032,
-				"weight": "700",
+				"weight": 700,
 				"width": 62496
 			}
 		],
@@ -44263,9 +44871,9 @@ export default [
 			},
 			{
 				"height": 1240,
-				"size": 98128475.3125,
+				"size": 95896911.25,
 				"weight": 900,
-				"width": 79135.8671875
+				"width": 77336.21875
 			}
 		],
 		"name": "Ufficio Display"
@@ -44273,46 +44881,46 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1240,
-				"size": 84016219.375,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 300,
-				"width": 67755.015625
+				"width": 68647.71875
 			},
 			{
-				"height": 1240,
-				"size": 86736227.1875,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 400,
-				"width": 69948.5703125
+				"width": 68647.71875
 			},
 			{
-				"height": 1240,
-				"size": 89420643.125,
+				"height": 1147,
+				"size": 78738933.40625,
 				"weight": 500,
-				"width": 72113.421875
+				"width": 68647.71875
 			},
 			{
-				"height": 1240,
-				"size": 92163077.5,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 600,
-				"width": 74325.0625
+				"width": 72215.359375
 			},
 			{
-				"height": 1240,
-				"size": 94816813.125,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 700,
-				"width": 76465.171875
+				"width": 72215.359375
 			},
 			{
-				"height": 1240,
-				"size": 97501810.3125,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 800,
-				"width": 78630.4921875
+				"width": 72215.359375
 			},
 			{
-				"height": 1240,
-				"size": 100223949.375,
+				"height": 1147,
+				"size": 82831017.203125,
 				"weight": 900,
-				"width": 80825.765625
+				"width": 72215.359375
 			}
 		],
 		"name": "Ufficio Sans"
@@ -44419,7 +45027,7 @@ export default [
 			{
 				"height": 1302,
 				"size": 85344828.515625,
-				"weight": "700",
+				"weight": 700,
 				"width": 65549.0234375
 			}
 		],
@@ -44447,7 +45055,7 @@ export default [
 			{
 				"height": 1209,
 				"size": 83166543.28125,
-				"weight": "700",
+				"weight": 700,
 				"width": 68789.53125
 			}
 		],
@@ -44475,7 +45083,7 @@ export default [
 			{
 				"height": 1147,
 				"size": 75472250.5234375,
-				"weight": "700",
+				"weight": 700,
 				"width": 65799.6953125
 			}
 		],
@@ -44763,19 +45371,19 @@ export default [
 			{
 				"height": 1860,
 				"size": 135209880.9375,
-				"weight": "500",
+				"weight": 500,
 				"width": 72693.484375
 			},
 			{
 				"height": 1860,
 				"size": 139426515.46875,
-				"weight": "700",
+				"weight": 700,
 				"width": 74960.4921875
 			},
 			{
 				"height": 1860,
 				"size": 145942807.5,
-				"weight": "900",
+				"weight": 900,
 				"width": 78463.875
 			}
 		],
@@ -44820,7 +45428,7 @@ export default [
 			{
 				"height": 1395,
 				"size": 95143054.21875,
-				"weight": 100,
+				"weight": 700,
 				"width": 68202.90625
 			},
 			{
@@ -44832,13 +45440,13 @@ export default [
 			{
 				"height": 1395,
 				"size": 95143054.21875,
-				"weight": 300,
+				"weight": 400,
 				"width": 68202.90625
 			},
 			{
 				"height": 1395,
 				"size": 95143054.21875,
-				"weight": 400,
+				"weight": 300,
 				"width": 68202.90625
 			},
 			{
@@ -44856,7 +45464,7 @@ export default [
 			{
 				"height": 1395,
 				"size": 95143054.21875,
-				"weight": 700,
+				"weight": 100,
 				"width": 68202.90625
 			}
 		],
@@ -44917,7 +45525,7 @@ export default [
 			{
 				"height": 1271,
 				"size": 98187013.96875,
-				"weight": "700",
+				"weight": 700,
 				"width": 77251.78125
 			}
 		],
@@ -44975,19 +45583,19 @@ export default [
 			{
 				"height": 1364,
 				"size": 106078674.28125,
-				"weight": "600",
+				"weight": 600,
 				"width": 77770.2890625
 			},
 			{
 				"height": 1364,
 				"size": 107625674.0625,
-				"weight": "700",
+				"weight": 700,
 				"width": 78904.453125
 			},
 			{
 				"height": 1364,
 				"size": 110123765.46875,
-				"weight": "900",
+				"weight": 900,
 				"width": 80735.8984375
 			}
 		],
@@ -45180,7 +45788,7 @@ export default [
 			{
 				"height": 1364,
 				"size": 127196601.8125,
-				"weight": "500",
+				"weight": 500,
 				"width": 93252.640625
 			}
 		],
@@ -45475,46 +46083,46 @@ export default [
 	{
 		"measurements": [
 			{
-				"height": 1209,
-				"size": 88690445.390625,
-				"weight": 100,
-				"width": 73358.515625
-			},
-			{
-				"height": 1209,
-				"size": 88643190.4921875,
-				"weight": 200,
-				"width": 73319.4296875
-			},
-			{
-				"height": 1209,
-				"size": 88583732.25,
-				"weight": 300,
-				"width": 73270.25
-			},
-			{
-				"height": 1209,
-				"size": 88543806.9140625,
-				"weight": 400,
-				"width": 73237.2265625
-			},
-			{
-				"height": 1240,
-				"size": 91773300.9375,
-				"weight": 500,
-				"width": 74010.7265625
-			},
-			{
-				"height": 1240,
-				"size": 92745877.5,
-				"weight": 600,
-				"width": 74795.0625
-			},
-			{
-				"height": 1240,
-				"size": 93710868.75,
+				"height": 1178,
+				"size": 89077092.890625,
 				"weight": 700,
-				"width": 75573.28125
+				"width": 75617.2265625
+			},
+			{
+				"height": 1178,
+				"size": 86471393.703125,
+				"weight": 200,
+				"width": 73405.2578125
+			},
+			{
+				"height": 1178,
+				"size": 86471393.703125,
+				"weight": 300,
+				"width": 73405.2578125
+			},
+			{
+				"height": 1178,
+				"size": 87237903.578125,
+				"weight": 500,
+				"width": 74055.9453125
+			},
+			{
+				"height": 1178,
+				"size": 86323968.84375,
+				"weight": 400,
+				"width": 73280.109375
+			},
+			{
+				"height": 1178,
+				"size": 88163443.453125,
+				"weight": 600,
+				"width": 74841.6328125
+			},
+			{
+				"height": 1178,
+				"size": 86471393.703125,
+				"weight": 100,
+				"width": 73405.2578125
 			}
 		],
 		"name": "Wotfard"
@@ -45617,13 +46225,13 @@ export default [
 			{
 				"height": 1271,
 				"size": 78871944.71875,
-				"weight": "100",
+				"weight": 100,
 				"width": 62055.03125
 			},
 			{
 				"height": 1271,
 				"size": 80080258.6015625,
-				"weight": "300",
+				"weight": 300,
 				"width": 63005.7109375
 			},
 			{
@@ -45635,19 +46243,19 @@ export default [
 			{
 				"height": 1271,
 				"size": 81603790.4140625,
-				"weight": "500",
+				"weight": 500,
 				"width": 64204.3984375
 			},
 			{
 				"height": 1271,
 				"size": 81780042.3671875,
-				"weight": "700",
+				"weight": 700,
 				"width": 64343.0703125
 			},
 			{
 				"height": 1271,
 				"size": 81974872.765625,
-				"weight": "900",
+				"weight": 900,
 				"width": 64496.359375
 			}
 		],
@@ -46162,15 +46770,37 @@ export default [
 	{
 		"measurements": [
 			{
+				"height": 1116,
+				"size": 47112907.78125,
+				"weight": 400,
+				"width": 42215.8671875
+			}
+		],
+		"name": "Yuyu"
+	},
+	{
+		"measurements": [
+			{
+				"height": 1116,
+				"size": 45076626.28125,
+				"weight": 400,
+				"width": 40391.2421875
+			}
+		],
+		"name": "Yuyu Short"
+	},
+	{
+		"measurements": [
+			{
 				"height": 1643,
 				"size": 106359874.5546875,
-				"weight": "200",
+				"weight": 200,
 				"width": 64735.1640625
 			},
 			{
 				"height": 1643,
 				"size": 109156966.53125,
-				"weight": "300",
+				"weight": 300,
 				"width": 66437.59375
 			},
 			{
@@ -46182,19 +46812,19 @@ export default [
 			{
 				"height": 1643,
 				"size": 113940586.703125,
-				"weight": "700",
+				"weight": 700,
 				"width": 69349.109375
 			},
 			{
 				"height": 1643,
 				"size": 115948961.6640625,
-				"weight": "800",
+				"weight": 800,
 				"width": 70571.4921875
 			},
 			{
 				"height": 1643,
 				"size": 116338185.796875,
-				"weight": "900",
+				"weight": 900,
 				"width": 70808.390625
 			}
 		],
@@ -46257,15 +46887,15 @@ export default [
 		"measurements": [
 			{
 				"height": 1209,
-				"size": 108316397.4140625,
+				"size": 108316510.7578125,
 				"weight": 200,
-				"width": 89591.7265625
+				"width": 89591.8203125
 			},
 			{
 				"height": 1209,
-				"size": 109267351.4765625,
+				"size": 109267408.1484375,
 				"weight": 300,
-				"width": 90378.2890625
+				"width": 90378.3359375
 			},
 			{
 				"height": 1209,
@@ -46310,15 +46940,15 @@ export default [
 		"measurements": [
 			{
 				"height": 1209,
-				"size": 95495131.875,
+				"size": 95495207.4375,
 				"weight": 200,
-				"width": 78986.875
+				"width": 78986.9375
 			},
 			{
 				"height": 1209,
-				"size": 96657727.0546875,
+				"size": 96657764.8359375,
 				"weight": 300,
-				"width": 79948.4921875
+				"width": 79948.5234375
 			},
 			{
 				"height": 1209,
@@ -46430,7 +47060,7 @@ export default [
 			{
 				"height": 1426,
 				"size": 94923026.875,
-				"weight": "300",
+				"weight": 300,
 				"width": 66565.9375
 			},
 			{
@@ -46442,19 +47072,19 @@ export default [
 			{
 				"height": 1426,
 				"size": 96232451.375,
-				"weight": "500",
+				"weight": 500,
 				"width": 67484.1875
 			},
 			{
 				"height": 1426,
 				"size": 96779779.140625,
-				"weight": "700",
+				"weight": 700,
 				"width": 67868.0078125
 			},
 			{
 				"height": 1426,
 				"size": 97104695.46875,
-				"weight": "900",
+				"weight": 900,
 				"width": 68095.859375
 			}
 		],
@@ -46465,7 +47095,7 @@ export default [
 			{
 				"height": 1426,
 				"size": 94923026.875,
-				"weight": "300",
+				"weight": 300,
 				"width": 66565.9375
 			},
 			{
@@ -46477,19 +47107,19 @@ export default [
 			{
 				"height": 1426,
 				"size": 96232451.375,
-				"weight": "500",
+				"weight": 500,
 				"width": 67484.1875
 			},
 			{
 				"height": 1426,
 				"size": 96779779.140625,
-				"weight": "700",
+				"weight": 700,
 				"width": 67868.0078125
 			},
 			{
 				"height": 1426,
 				"size": 97104695.46875,
-				"weight": "900",
+				"weight": 900,
 				"width": 68095.859375
 			}
 		],
@@ -46522,7 +47152,7 @@ export default [
 			{
 				"height": 1426,
 				"size": 94923026.875,
-				"weight": "300",
+				"weight": 300,
 				"width": 66565.9375
 			},
 			{
@@ -46534,19 +47164,19 @@ export default [
 			{
 				"height": 1426,
 				"size": 96232451.375,
-				"weight": "500",
+				"weight": 500,
 				"width": 67484.1875
 			},
 			{
 				"height": 1426,
 				"size": 96779779.140625,
-				"weight": "700",
+				"weight": 700,
 				"width": 67868.0078125
 			},
 			{
 				"height": 1426,
 				"size": 97104695.46875,
-				"weight": "900",
+				"weight": 900,
 				"width": 68095.859375
 			}
 		],
@@ -46563,25 +47193,25 @@ export default [
 			{
 				"height": 1426,
 				"size": 104905316.53125,
-				"weight": "500",
+				"weight": 500,
 				"width": 73566.140625
 			},
 			{
 				"height": 1426,
 				"size": 107230309.265625,
-				"weight": "600",
+				"weight": 600,
 				"width": 75196.5703125
 			},
 			{
 				"height": 1426,
 				"size": 108626563.796875,
-				"weight": "700",
+				"weight": 700,
 				"width": 76175.7109375
 			},
 			{
 				"height": 1426,
 				"size": 110554014.46875,
-				"weight": "900",
+				"weight": 900,
 				"width": 77527.359375
 			}
 		],
@@ -46625,7 +47255,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 80313472.328125,
-				"weight": "300",
+				"weight": 300,
 				"width": 68177.8203125
 			},
 			{
@@ -46637,19 +47267,19 @@ export default [
 			{
 				"height": 1178,
 				"size": 81715706.46875,
-				"weight": "500",
+				"weight": 500,
 				"width": 69368.171875
 			},
 			{
 				"height": 1178,
 				"size": 82529207.5,
-				"weight": "600",
+				"weight": 600,
 				"width": 70058.75
 			},
 			{
 				"height": 1178,
 				"size": 83473521.75,
-				"weight": "700",
+				"weight": 700,
 				"width": 70860.375
 			}
 		],
@@ -46666,7 +47296,7 @@ export default [
 			{
 				"height": 1178,
 				"size": 83974760.75,
-				"weight": "700",
+				"weight": 700,
 				"width": 71285.875
 			}
 		],
