@@ -41,6 +41,7 @@ const STARRED_FONTS = new Set([
 	'EB Garamond',
 	'Ernst',
 	'Epilogue',
+	'Host Grotesk',
 	'IBM Plex Mono',
 	'Inclusive Sans',
 	'Instrument Sans',
