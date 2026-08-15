@@ -295,25 +295,30 @@ function ExplorationMode({
 				{!configMode && (
 					<div className="details min-h-6 flex items-center gap-4 px-2 text-gray-500">
 						<span>Showing {visibleFonts.length} fonts</span>
-						<button onClick={() => setIsShowingTitles(x => !x)}>{isShowingTitles ? 'Hide' : 'Show'} titles</button>
-						<button onClick={() => onChangeAllVisibleMarked(!isEveryVisibleFontMarked)}>
+						<button data-testid="toggle-titles" onClick={() => setIsShowingTitles(x => !x)}>
+							{isShowingTitles ? 'Hide' : 'Show'} titles
+						</button>
+						<button data-testid="mark-all" onClick={() => onChangeAllVisibleMarked(!isEveryVisibleFontMarked)}>
 							{isEveryVisibleFontMarked ? 'Unmark' : 'Mark'} all
 						</button>
 					</div>
 				)}
 				<button
 					className={`top-0.5 right-1 absolute ${configMode ? 'active' : ''}`}
+					data-testid="toggle-config"
+					aria-label="Settings"
+					aria-expanded={configMode}
 					onClick={() => setConfigMode(x => !x)}
 				>
 					{configMode ? <ChevronUp /> : <ChevronDown />}
-					<span className="sr-only">{configMode ? 'Hide settings' : 'Show settings'}</span>
 				</button>
 				{configMode && (
 					<div className="flex flex-col">
 						<div className="global-settings-row">
-							<label className="self-end">
+							<label className="self-end" htmlFor="font-size">
 								Font size
 								<Input
+									id="font-size"
 									className="mt-0.5"
 									type="number"
 									min={1}
@@ -321,9 +326,10 @@ function ExplorationMode({
 									onChange={e => setFontSize(+e.target.value)}
 								/>
 							</label>
-							<label className="self-end">
+							<label className="self-end" htmlFor="line-height">
 								Line height
 								<Input
+									id="line-height"
 									className="mt-0.5"
 									type="number"
 									min={0}
@@ -332,9 +338,10 @@ function ExplorationMode({
 									onChange={e => setGlobalLineHeight(+e.target.value)}
 								/>
 							</label>
-							<label className="self-end">
+							<label className="self-end" htmlFor="nearest-weight">
 								Nearest weight
 								<Input
+									id="nearest-weight"
 									className="mt-0.5"
 									type="number"
 									value={globalFontWeight}
@@ -348,6 +355,8 @@ function ExplorationMode({
 								/>
 							</label>
 							<TextArea
+								id="preview-text"
+								aria-label="Preview text"
 								rows={2}
 								className="preview-text-input"
 								value={previewContent ?? ''}
@@ -358,24 +367,25 @@ function ExplorationMode({
 							/>
 							<fieldset className="alignment-options">
 								<legend>Align</legend>
-								<label>
+								<label title="Left align" data-testid="align-left">
 									<input
-										className="sr-only"
 										type="radio"
+										name="alignment"
 										value="left"
+										aria-label="Left align"
 										checked={alignment === 'left'}
 										onChange={e => {
 											setAlignment(e.target.value);
 										}}
 									/>
-									<AlignLeft className={`radio-icon ${alignment === 'left' ? 'selected' : ''}`} title="Left align" />
-									<span className="sr-only">Left align</span>
+									<AlignLeft className={`radio-icon ${alignment === 'left' ? 'selected' : ''}`} aria-hidden="true" />
 								</label>
-								<label>
+								<label title="Center align" data-testid="align-center">
 									<input
-										className="sr-only"
 										type="radio"
+										name="alignment"
 										value="center"
+										aria-label="Center align"
 										checked={alignment === 'center'}
 										onChange={e => {
 											setAlignment(e.target.value);
@@ -383,22 +393,21 @@ function ExplorationMode({
 									/>
 									<AlignCenter
 										className={`radio-icon ${alignment === 'center' ? 'selected' : ''}`}
-										title="Center align"
+										aria-hidden="true"
 									/>
-									<span className="sr-only">Center align</span>
 								</label>
-								<label>
+								<label title="Right align" data-testid="align-right">
 									<input
-										className="sr-only"
 										type="radio"
+										name="alignment"
 										value="right"
+										aria-label="Right align"
 										checked={alignment === 'right'}
 										onChange={e => {
 											setAlignment(e.target.value);
 										}}
 									/>
-									<AlignRight className={`radio-icon ${alignment === 'right' ? 'selected' : ''}`} title="Right align" />
-									<span className="sr-only">Right align</span>
+									<AlignRight className={`radio-icon ${alignment === 'right' ? 'selected' : ''}`} aria-hidden="true" />
 								</label>
 							</fieldset>
 						</div>
@@ -450,11 +459,12 @@ function ExplorationMode({
 							</div>
 							<fieldset className="list-mode-options pr-1">
 								<legend>Display</legend>
-								<label>
+								<label title="List view" data-testid="list-mode-list">
 									<input
-										className="sr-only"
 										type="radio"
+										name="list-mode"
 										value="list"
+										aria-label="List view"
 										checked={listMode === 'list'}
 										onChange={e => {
 											setListMode(e.target.value);
@@ -462,22 +472,21 @@ function ExplorationMode({
 									/>
 									<RectangleVertical
 										className={`radio-icon ${listMode === 'list' ? 'selected' : ''}`}
-										title="List view"
+										aria-hidden="true"
 									/>
-									<span className="sr-only">List view</span>
 								</label>
-								<label>
+								<label title="Grid view" data-testid="list-mode-grid">
 									<input
-										className="sr-only"
 										type="radio"
+										name="list-mode"
 										value="grid"
+										aria-label="Grid view"
 										checked={listMode === 'grid'}
 										onChange={e => {
 											setListMode(e.target.value);
 										}}
 									/>
-									<Columns2 className={`radio-icon ${listMode === 'grid' ? 'selected' : ''}`} title="Grid view" />
-									<span className="sr-only">Grid view</span>
+									<Columns2 className={`radio-icon ${listMode === 'grid' ? 'selected' : ''}`} aria-hidden="true" />
 								</label>
 							</fieldset>
 						</div>

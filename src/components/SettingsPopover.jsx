@@ -1,3 +1,5 @@
+import { useId } from 'react';
+
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
@@ -28,7 +30,7 @@ function SettingSlider({ setting, value, onChange }) {
 		});
 		input = (
 			<Select
-				id={`${setting.id}-input`}
+				inputId={`${setting.id}-input`}
 				instanceId={setting.id}
 				value={selectedValue}
 				className="w-36"
@@ -54,7 +56,7 @@ function SettingSlider({ setting, value, onChange }) {
 	return (
 		<div className="grid gap-2">
 			<div className="flex items-center justify-between">
-				<Label htmlFor={setting.id}>{setting.label || setting.id}</Label>
+				<Label htmlFor={`${setting.id}-input`}>{setting.label || setting.id}</Label>
 				<div className="flex items-center space-x-2">
 					{input}
 					<Button variant="outline" size="icon" className="h-8 w-8" onClick={() => onChange(defaultValue, false)}>
@@ -65,6 +67,8 @@ function SettingSlider({ setting, value, onChange }) {
 			</div>
 			<Slider
 				id={setting.id}
+				aria-label={setting.label || setting.id}
+				data-testid={`slider-${setting.id}`}
 				min={setting.min}
 				max={setting.max}
 				step={setting.step}
@@ -80,12 +84,17 @@ function SettingSlider({ setting, value, onChange }) {
 }
 
 function FeatureToggles({ features, values, onChange, onReset }) {
+	const labelId = useId();
+
 	if (!features.length) return null;
 
 	return (
 		<div className="grid gap-2 border-t pt-4">
 			<div className="flex items-center justify-between">
-				<Label>OpenType features</Label>
+				{/* Not a <label>: these toggles are buttons, so the group is labelled via aria-labelledby. */}
+				<span id={labelId} className="leading-none">
+					OpenType features
+				</span>
 				<Button
 					variant="outline"
 					size="icon"
@@ -97,7 +106,7 @@ function FeatureToggles({ features, values, onChange, onReset }) {
 					<span className="sr-only">Reset OpenType features</span>
 				</Button>
 			</div>
-			<div className="grid grid-cols-2 gap-2">
+			<div className="grid grid-cols-2 gap-2" role="group" aria-labelledby={labelId}>
 				{features.map(tag => {
 					const enabled = getFontFeatureValue(tag, values);
 					return (
@@ -124,6 +133,7 @@ function FeatureToggles({ features, values, onChange, onReset }) {
 }
 
 export function SettingsPopover({
+	fontName,
 	validSettings,
 	values,
 	availableFeatures = [],
@@ -135,12 +145,21 @@ export function SettingsPopover({
 	return (
 		<Popover>
 			<PopoverTrigger asChild>
-				<Button variant="simple" size="icon" className={cn('transition-opacity', shouldHideButton && 'opacity-0')}>
+				<Button
+					variant="simple"
+					size="icon"
+					className={cn('transition-opacity', shouldHideButton && 'opacity-0')}
+					aria-label={`Open ${fontName} settings`}
+				>
 					<Settings className="h-3 w-3" />
-					<span className="sr-only">Open settings</span>
 				</Button>
 			</PopoverTrigger>
-			<PopoverContent side="top" align="start" className="w-96 max-h-[80vh] overflow-y-auto m-2">
+			<PopoverContent
+				side="top"
+				align="start"
+				data-testid="font-settings"
+				className="w-96 max-h-[80vh] overflow-y-auto m-2"
+			>
 				<div className="grid gap-4">
 					{validSettings.map(setting => (
 						<SettingSlider

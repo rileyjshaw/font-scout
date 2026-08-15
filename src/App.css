@@ -74,6 +74,24 @@ input[type='radio'] {
 	cursor: pointer;
 	display: grid;
 	font-size: 22px;
+	position: relative;
+}
+
+/* The radio is the click target: a transparent overlay covering its icon. Visually hiding it instead would make the
+   label forward a duplicate click to a zero-size element, which automated tools can’t click. */
+:is(.alignment-options, .list-mode-options) input[type='radio'] {
+	appearance: none;
+	cursor: pointer;
+	inset: 0;
+	margin: 0;
+	opacity: 0;
+	position: absolute;
+	z-index: 1;
+}
+
+:is(.alignment-options, .list-mode-options) label:has(:focus-visible) .radio-icon {
+	outline: 2px solid;
+	outline-offset: 1px;
 }
 
 label > * {
