@@ -29,6 +29,7 @@ function SettingSlider({ setting, value, onChange }) {
 		input = (
 			<Select
 				id={`${setting.id}-input`}
+				instanceId={setting.id}
 				value={selectedValue}
 				className="w-36"
 				onChange={newOption => onChange(Number(newOption.value), true)}

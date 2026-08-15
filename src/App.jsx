@@ -12,11 +12,19 @@ import './App.css';
 
 const helmetContext = {};
 
+// `?preview=<index>` pins the startup preview so automated recordings replay against a fixed layout.
+function getInitialPreview() {
+	const previewParam = new URLSearchParams(window.location.search).get('preview');
+	const index = previewParam ? Number(previewParam) : NaN;
+	if (Number.isInteger(index) && index >= 0 && index < defaultPreviews.length) return defaultPreviews[index];
+	return defaultPreviews[Math.floor(Math.random() * defaultPreviews.length)];
+}
+
 function App() {
 	const [
 		[defaultPreviewContent, defaultFontSize, defaultLineHeight, defaultWeight, defaultAlignment, defaultListMode],
 		// setDefaultPreview,
-	] = useState(() => defaultPreviews[Math.floor(Math.random() * defaultPreviews.length)]);
+	] = useState(getInitialPreview);
 	const [isComparisonMode, setIsComparisonMode] = useState(false);
 	const [loadedStylesheets, setLoadedStylesheets] = useState({});
 	const [configMode, setConfigMode] = useState(true);

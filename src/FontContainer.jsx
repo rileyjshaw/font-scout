@@ -187,7 +187,7 @@ const FontContainer = React.memo(function FontContainer({
 	].sort((a, b) => (SETTINGS_SORT_ORDER[a.label] ?? Infinity) - (SETTINGS_SORT_ORDER[b.label] ?? Infinity));
 
 	return (
-		<li {...ariaAttributes} ref={ref} className="px-2 pt-2" style={style}>
+		<li {...ariaAttributes} data-font={font.name} ref={ref} className="px-2 pt-2" style={style}>
 			<div className={cn('h-full flex flex-col rounded-xl px-1 pb-4', isMarked && 'bg-green-400')}>
 				<div
 					className={cn(
@@ -213,19 +213,21 @@ const FontContainer = React.memo(function FontContainer({
 							variant="simple"
 							size="icon"
 							className={cn('transition-opacity', shouldHideButtons && 'opacity-0')}
+							aria-label="Hide font from list"
+							aria-pressed={isHidden}
 							onClick={() => onChangeHidden(font.name, !isHidden)}
 						>
 							<EyeIcon className="h-3 w-3" />
-							<span className="sr-only">{isHidden ? 'Show font in list' : 'Hide font from list'}</span>
 						</Button>
 						<Button
 							variant="simple"
 							size="icon"
 							className={cn('transition-opacity', shouldHideButtons && 'opacity-0')}
+							aria-label="Mark font for comparison"
+							aria-pressed={isMarked}
 							onClick={() => onChangeMarked(font.name, !isMarked)}
 						>
 							<PinIcon className="h-3 w-3 relative top-[1px]" />
-							<span className="sr-only">{isMarked ? 'Unmark font for comparison' : 'Mark font for comparison'}</span>
 						</Button>
 						<SettingsPopover
 							validSettings={validSettings}

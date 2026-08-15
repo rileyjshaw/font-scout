@@ -413,6 +413,7 @@ function ExplorationMode({
 								</label>
 								<Select
 									inputId="include"
+									instanceId="include"
 									className="mt-0.5"
 									placeholder="Include collections…"
 									isMulti={true}
@@ -436,6 +437,7 @@ function ExplorationMode({
 								</label>
 								<Select
 									inputId="exclude"
+									instanceId="exclude"
 									className="mt-0.5"
 									placeholder="Exclude collections…"
 									isMulti={true}
