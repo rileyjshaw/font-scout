@@ -37,6 +37,29 @@ test('extracts deterministic shaped metrics from a static font', async () => {
 	assert.ok(first.samples[0].lineHeight > 0.5);
 });
 
+test('reads variable advances stored in gvar phantom points', async () => {
+	const source = await fs.readFile(path.join(projectRoot, 'public/fonts/ALTRivieraVF.woff2'));
+	const analysis = await analyzeFontBuffer(source);
+	const first = analysis.samples[0];
+	const last = analysis.samples.at(-1);
+
+	assert.notEqual(first.width, last.width);
+	assert.notEqual(first.advanceSignature, last.advanceSignature);
+	assert.equal(
+		aggregateFamilyMetrics([
+			{
+				path: 'ALTRivieraVF.woff2',
+				weight: [200, 800],
+				width: 100,
+				italic: 0,
+				oblique: 0,
+				metricSamples: analysis.samples,
+			},
+		]).multiplexed,
+		undefined,
+	);
+});
+
 test('clamps variable metric weights to the supported range', () => {
 	const weights = getMetricWeights({
 		tables: { fvar: { axes: [{ tag: 'wght', minValue: 325, maxValue: 875, defaultValue: 400 }] } },
@@ -65,7 +88,7 @@ test('prefers upright normal-width samples and detects multiplexed families', ()
 			oblique: 0,
 			metricSamples: [
 				{ weight: 400, width: 10, lineHeight: 1.2, advanceSignature: signature },
-				{ weight: 700, width: 11, lineHeight: 1.2, advanceSignature: signature },
+				{ weight: 700, width: 10, lineHeight: 1.2, advanceSignature: signature },
 			],
 		},
 		{
@@ -79,9 +102,26 @@ test('prefers upright normal-width samples and detects multiplexed families', ()
 	]);
 	assert.deepEqual(data.metrics, [
 		[400, 10, 1.2],
-		[700, 11, 1.2],
+		[700, 10, 1.2],
 	]);
 	assert.equal(data.multiplexed, true);
+});
+
+test('does not classify a family as multiplexed when shaped widths change', () => {
+	const data = aggregateFamilyMetrics([
+		{
+			path: 'variable.woff2',
+			weight: [400, 700],
+			width: 100,
+			italic: 0,
+			oblique: 0,
+			metricSamples: [
+				{ weight: 400, width: 10, lineHeight: 1.2, advanceSignature: 'same' },
+				{ weight: 700, width: 11, lineHeight: 1.2, advanceSignature: 'same' },
+			],
+		},
+	]);
+	assert.equal(data.multiplexed, undefined);
 });
 
 test('falls back to italic metrics when no upright face exists', () => {

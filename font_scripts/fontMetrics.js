@@ -93,6 +93,52 @@ function advanceSignature(font, coordinates) {
 	return createHash('sha256').update(advances.join(',')).digest('hex');
 }
 
+function fontkitMetricSample(font, weight, lineHeight, safeMode = false) {
+	const advances = METRIC_CHARACTERS.map(character =>
+		round(font.glyphForCodePoint(character.codePointAt(0)).advanceWidth / font.unitsPerEm, MULTIPLEX_PRECISION),
+	);
+	let run;
+	if (!safeMode) {
+		try {
+			run = font.layout(METRIC_PROBE_TEXT);
+		} catch {
+			// Some malformed fonts crash Fontkit's shaper. The unshaped fallback
+			// still produces usable metrics and per-character advance signatures.
+		}
+	}
+	const positionedAdvances = run?.positions.map(position =>
+		round(position.xAdvance / font.unitsPerEm, MULTIPLEX_PRECISION),
+	);
+	const width = round(
+		(run
+			? run.positions.reduce((total, position) => total + position.xAdvance, 0)
+			: [...METRIC_PROBE_TEXT].reduce(
+					(total, character) => total + font.glyphForCodePoint(character.codePointAt(0)).advanceWidth,
+					0,
+				)) /
+			font.unitsPerEm /
+			METRIC_PROBE_TEXT.length,
+	);
+	if (!Number.isFinite(width) || width <= 0) throw new Error('computed a non-positive shaped advance width');
+	return {
+		weight,
+		width,
+		lineHeight,
+		advanceSignature: createHash('sha256')
+			.update([...advances, ...(positionedAdvances ? ['shaped', ...positionedAdvances] : [])].join(','))
+			.digest('hex'),
+	};
+}
+
+function getFontkitVariation(font, coordinates) {
+	if (!Object.keys(coordinates).length) return font;
+	try {
+		return font.getVariation(coordinates);
+	} catch {
+		return null;
+	}
+}
+
 function createShapedRun(fontkitFont, openTypeFont, safeMode = false) {
 	let run;
 	try {
@@ -157,25 +203,43 @@ export async function analyzeFontBuffer(
 	source,
 	{ staticWeight = 400, allowStaticFallback = false, safeMode = false } = {},
 ) {
-	const fontkitFont = fontkit.create(source);
+	const fallbackFontkitFont = fontkit.create(source);
+	let fontkitFont;
 	let openTypeFont;
 	try {
 		const decoded = await decodeFont(source);
+		fontkitFont = fontkit.create(decoded);
 		openTypeFont = parseOpenTypeFont(decoded);
 	} catch (error) {
-		if (allowStaticFallback) return analyzeWithFontkitOnly(fontkitFont, staticWeight);
+		if (allowStaticFallback) return analyzeWithFontkitOnly(fallbackFontkitFont, staticWeight);
 		throw error;
 	}
-	const shapedRun = createShapedRun(fontkitFont, openTypeFont, safeMode);
 	const lineHeight = getOpenTypeLineHeight(openTypeFont);
+	let fallbackShapedRun;
 	const samples = getMetricWeights(openTypeFont, staticWeight).map(weight => {
 		const coordinates = getVariationCoordinates(openTypeFont, weight);
-		return {
+		const variation = getFontkitVariation(fontkitFont, coordinates);
+		if (variation) {
+			try {
+				return fontkitMetricSample(variation, weight, lineHeight, safeMode);
+			} catch {
+				// Fontkit can construct unusable variable instances for legacy WOFF
+				// files. Fall back to OpenType metrics without a multiplex signature.
+			}
+		}
+
+		fallbackShapedRun ??= createShapedRun(fontkitFont, openTypeFont, safeMode);
+		const sample = {
 			weight,
-			width: shapedWidth(shapedRun, openTypeFont, coordinates),
+			width: shapedWidth(fallbackShapedRun, openTypeFont, coordinates),
 			lineHeight,
-			advanceSignature: advanceSignature(openTypeFont, coordinates),
 		};
+		// Without Fontkit's variable instance support, gvar phantom-point
+		// advances and variation positioning cannot be measured reliably.
+		// Omit the signature so the family is conservatively not classified
+		// as multiplexed.
+		if (!Object.keys(coordinates).length) sample.advanceSignature = advanceSignature(openTypeFont, coordinates);
+		return sample;
 	});
 	return {
 		features: [...new Set(fontkitFont.availableFeatures ?? [])].sort(),
@@ -225,7 +289,11 @@ export function aggregateFamilyMetrics(faces) {
 
 	const samples = [...selectedSamples.values()].sort((a, b) => a.weight - b.weight);
 	const metrics = samples.map(({ weight, width, lineHeight }) => [weight, width, lineHeight]);
-	const signatures = samples.map(sample => sample.advanceSignature).filter(Boolean);
-	const multiplexed = signatures.length > 1 && signatures.every(signature => signature === signatures[0]);
+	const signatures = samples.map(sample => sample.advanceSignature);
+	const multiplexed =
+		signatures.length > 1 &&
+		signatures.every(Boolean) &&
+		signatures.every(signature => signature === signatures[0]) &&
+		samples.every(sample => sample.width === samples[0].width);
 	return { metrics, ...(multiplexed ? { multiplexed: true } : {}) };
 }

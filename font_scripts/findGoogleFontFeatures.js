@@ -10,7 +10,7 @@ const DEFAULT_CONCURRENCY = 8;
 const ANALYSIS_WORKERS = 2;
 const JOBS_PER_ANALYSIS_WORKER = 20;
 const MAX_ATTEMPTS = 3;
-export const GOOGLE_ANALYSIS_CACHE_VERSION = 1;
+export const GOOGLE_ANALYSIS_CACHE_VERSION = 2;
 const DEFAULT_CACHE_PATH = 'font_scripts/.cache/google-font-analysis.json';
 let cacheWriteId = 0;
 

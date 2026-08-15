@@ -52,14 +52,14 @@ test('compacts Google metrics and multiplexed state', () => {
 				features: [],
 				samples: [
 					{ weight: 400, width: 10, lineHeight: 1.2, advanceSignature: 'same' },
-					{ weight: 700, width: 11, lineHeight: 1.2, advanceSignature: 'same' },
+					{ weight: 700, width: 10, lineHeight: 1.2, advanceSignature: 'same' },
 				],
 			},
 		}),
 		{
 			metrics: [
 				[400, 10, 1.2],
-				[700, 11, 1.2],
+				[700, 10, 1.2],
 			],
 			multiplexed: true,
 		},
