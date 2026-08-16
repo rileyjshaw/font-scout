@@ -7258,6 +7258,7 @@ export default {
 			"sups",
 			"tnum"
 		],
+		"hasItalicAxis": true,
 		"isVariable": true,
 		"metrics": [
 			[

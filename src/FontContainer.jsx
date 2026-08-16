@@ -14,10 +14,15 @@ const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, isHidde
 		if (loadFont) loadFont(font);
 	}, [font, loadFont]);
 
-	const fontVariationSettings = font.axes
-		? Object.entries(settings.axes ?? {})
-				.map(([axis, value]) => `"${axis}" ${value}`)
-				.join(', ')
+	// A variable `ital` axis is set directly; `font-style: italic` would just pick
+	// the same instance back out of the file it shares with the upright face.
+	const italic = settings.italic ?? FONT_SETTINGS.italic.defaultValue;
+	const variationEntries = [
+		...(font.axes ? Object.entries(settings.axes ?? {}) : []),
+		...(font.hasItalicAxis ? [['ital', italic]] : []),
+	];
+	const fontVariationSettings = variationEntries.length
+		? variationEntries.map(([axis, value]) => `"${axis}" ${value}`).join(', ')
 		: undefined;
 	const availableFeatures = getAvailableFontFeatures(font, settings);
 	const fontFeatureSettings = serializeFontFeatureSettings(settings.features, availableFeatures);
@@ -30,7 +35,7 @@ const FontPreview = ({ font, settings = {}, Preview, loadFont, isMarked, isHidde
 					fontFamily: `"${font.name}"`,
 					fontWeight: settings.weight ?? FONT_SETTINGS.weight.defaultValue,
 					fontSize: `${settings.scale ?? FONT_SETTINGS.scale.defaultValue}em`,
-					fontStyle: settings.italic ? 'italic' : settings.oblique ? 'oblique' : 'normal',
+					fontStyle: italic && !font.hasItalicAxis ? 'italic' : settings.oblique ? 'oblique' : 'normal',
 					fontStretch: `${settings.width ?? FONT_SETTINGS.width.defaultValue}%`,
 					lineHeight: `calc(var(--font-preview-line-height) + ${
 						settings.lineHeightOffset ?? FONT_SETTINGS.lineHeightOffset.defaultValue

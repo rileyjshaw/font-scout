@@ -247,9 +247,12 @@ export function aggregateFonts(faces) {
 
 			const features = [...new Set(familyFaces.flatMap(face => face.features))].sort();
 			const metricData = aggregateFamilyMetrics(familyFaces);
+			// Only a variable `ital` axis produces a range; static faces are 0 or 1.
+			const hasItalicAxis = familyFaces.some(face => Array.isArray(face.italic));
 			return {
 				name,
 				isVariable: familyFaces.some(face => face.isVariable),
+				...(hasItalicAxis ? { hasItalicAxis: true } : {}),
 				variants,
 				...(Object.keys(customAxes).length ? { axes: Object.fromEntries(Object.entries(customAxes).sort()) } : {}),
 				features,
@@ -289,6 +292,10 @@ export function generateCss(families) {
 					`\tfont-weight: ${cssRange(face.weight)};`,
 					`\tfont-stretch: ${cssRange(face.width)}%;`,
 					`\tfont-style: ${style};`,
+					// The upright face shares this file, so the axis has to be pinned here.
+					...(style === 'italic' && Array.isArray(face.italic)
+						? [`\tfont-variation-settings: 'ital' ${face.italic[1]};`]
+						: []),
 					'\tfont-display: block;',
 					'}',
 				].join('\n'),

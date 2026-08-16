@@ -5190,6 +5190,7 @@
 	font-weight: 100 950;
 	font-stretch: 50 150%;
 	font-style: italic;
+	font-variation-settings: 'ital' 1;
 	font-display: block;
 }
 
