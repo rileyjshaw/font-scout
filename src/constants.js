@@ -62,10 +62,10 @@ export const READABLE_VALUES = {
 };
 
 export const defaultPreviews = [
-	['David\nWowie!', 120, 0.8, 900, 'left', 'grid'],
+	['David\nWowie!', 120, 1, 900, 'left', 'grid'],
 	['The thundering machines sputtered…\n…then stopped.', 24, 1, 400, 'right', 'grid'],
 	['I can’t believe the way we flowww', 32, 1.5, 400, 'center', 'grid'],
-	['Right to Repair', 72, 1.2, 400, 'center', 'grid'],
+	['Right to Repair', 72, 1, 400, 'center', 'grid'],
 	['1968', 96, 1.5, 100, 'center', 'grid'],
 	['Handgloves', 60, 1.5, 400, 'center', 'grid'],
 	['Högertrafikomläggningen', 36, 1.5, 400, 'center', 'grid'],

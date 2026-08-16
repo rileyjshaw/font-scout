@@ -175,3 +175,7 @@ body {
 		transform: translate3d(var(--fs-popover-offset-x, 0), var(--fs-popover-offset-y, 0), 0) scale(0.95);
 	}
 }
+
+#__demo-drag-ghost {
+	display: none !important;
+}
